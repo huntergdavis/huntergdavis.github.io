@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: The Story Of Casey
 image: "/content/images/2017/04/healthy_young_casey.png"
 date: '2017-06-24 13:57:20'
