@@ -1,0 +1,19 @@
+---
+layout: post
+title: Resumes
+date: '2013-08-03 04:00:26'
+---
+
+
+I’ve got a few different types of resume floating around. I like to try new things.
+
+You can still snag an outdated PDF resume [here](http://www.hunterdavis.com/content/images/2017/other/hunterdavis.pdf).
+
+Check out an ancient (2012?) interactive resume [here](http://www.hunterdavis.com/content/images/2017/other/resume/).
+
+[My GitHub page](https://github.com/huntergdavis) may as well be a resume.
+
+[This site as well.](http://www.hunterdavis.com/)
+
+[Here's an android app to view JSON resumes, which I wrote to get potential employers to download my JSON resume](http://www.hunterdavis.com:80/resume-json-viewer-for-android/)
+

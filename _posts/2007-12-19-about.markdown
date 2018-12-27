@@ -1,0 +1,30 @@
+---
+layout: post
+title: About
+date: '2007-12-19 15:47:05'
+---
+
+
+My name is Hunter Davis, and this is my website. I write books, release software, hack on hardware, ponder ideas and generally have a good time.
+
+[![](http://www.hunterdavis.com/content/images/2007/12/hunterdavisqr-300x300.png "hunterdavisqr")](http://www.hunterdavis.com/content/images/2007/12/hunterdavisqr.png)
+
+A 2012 Update:  
+ The bottom copy has been up here for so long, even dating back to my 2002 collegiate website. Things have kind of changed since then.
+
+- I do still play guitar, and for a time I worked at a music teaching company. Oh and I [built my own](http://www.hunterdavis.com/2010/03/29/finished-building-my-first-guitar/) guitar back in 2010!
+- I’m still a vegetarian, though on doctor’s request I eat fish.
+- Though a drunk driver took me out on said motorcycle, I kept riding it for 5 more years until the nerve damage (and the Seattle weather) were enough to convince me to sell it.
+- You can still snag that resume copy [here.](http://www.hunterdavis.com/hunterdavis.pdf "resume woo")
+- The absolute best ways to find out about me are to read the archives, check out my [interactive resume](http://hunterdavis.com/resume/), or trawl [my GitHub page](https://github.com/huntergdavis).
+- Enterprising hackers have ported a number of my software projects to Android, Blackberry, Windows Mobile/8 and many more.
+- [add Hunter Davis on Google+](http://www.hunterdavis.com/about/hunter-davis-on-google-plus/)
+- You can also connect with me professionally on [LinkedIn](http://www.linkedin.com/in/hunterdavis) and [StackOverflow](https://careers.stackoverflow.com/huntergdavis).
+- [I have cured my own sleep paralysis, and you can too.](http://www.hunterdavis.com/about/i-have-cured-my-own-sleep-paralysis-and-you-can-too/)
+- [Ko-Nami Code](http://www.hunterdavis.com/about/ko-nami-code/)
+
+hunterdavis.com copy dating back to the early 2000s —->  
+ In a nutshell, I’m a motorcycle driving, guitar playing, software writing computer scientist.  
+ But it’s so much more complex than that isn’t it?  I’m a vegetarian, hard rocking, code generating, hairless monkey.   You can snag a somewhat[ outdated copy of my resume here](http://www.hunterdavis.com/hunterdavis.pdf "resume woo"), or just browse around and snag some free GPL software.  Whee!
+
+

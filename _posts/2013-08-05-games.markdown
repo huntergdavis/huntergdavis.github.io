@@ -1,0 +1,14 @@
+---
+layout: post
+title: Games
+date: '2013-08-05 01:35:58'
+---
+
+
+I like to play games, and review games.
+
+Here’s my current games review list:
+
+<iframe frameborder="0" height="3300" src="https://docs.google.com/spreadsheet/pub?key=0Ai234_6pl-gTdHdIaWR3MXEwY2ZuR1BDRzA4YjBGY1E&output=html&widget=true" width="800"></iframe>
+
+

@@ -1,0 +1,25 @@
+---
+layout: post
+title: No Tools, (No External Power Supply) Xbox HDMI Output (Video)
+image: http://www.hunterdavis.com/content/images/2015/06/20150613_115728.jpg
+date: '2015-06-13 22:47:04'
+---
+
+
+So you’re wanting to play one of the many original Xbox games that isn’t backwards compatible with your new Xbox 360 or Xbox One system. That’s cool, and everything is going great until you go to drag out your old Xbox and remember that your TV only has HDMI. Not wanting to clutter up your wall with another plug, and not wanting to take the lid off of your Xbox, there’s still another way!
+
+<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube.com/embed/cio5uM00XGw?feature=oembed" width="700"></iframe>
+
+You’ll need:
+
+1. 2x Xbox Controller Port To USB Adapters
+2. 1x USB Y-Splitter (2M->1F)
+3. 1x USB To Type-M Barrel Jack Connector
+4. 1x YPbPr To HDMI adapter (5v Power Adapter)
+5. Xbox High Definition Cables
+
+[![20150613_115728](http://www.hunterdavis.com/content/images/2015/06/20150613_115728.jpg)](http://www.hunterdavis.com/content/images/2015/06/20150613_115728.jpg)
+
+Plug the USB-Controller adapters into ports 3 and 4, then into the Y-Splitter. Plug that into the barrel jack connector, and plug that into the HDMI adapter. You’re good to go!
+
+

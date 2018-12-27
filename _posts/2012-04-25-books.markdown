@@ -1,0 +1,14 @@
+---
+layout: post
+title: Books
+date: '2012-04-25 16:38:40'
+---
+
+
+I’ve written 3 books to date. My fourth has been in the works for some time, but has been shelved while I work on a stealth game project.
+
+- [Build Your Own Distributed Compilation Cluster](http://www.hunterdavis.com/build-your-own-distributed-compilation-cluster-ebook/)
+- [Hacks.. from Hunter Davis](http://www.hunterdavis.com/ebook-hacks-from-hunter-davis/)
+- [Live for Free – The Chronicles of a Nerd Saving for a Startup](http://www.hunterdavis.com/live-for-free-ebook/)
+
+

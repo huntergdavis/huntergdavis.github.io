@@ -1,0 +1,48 @@
+---
+layout: post
+title: TI-99/4A Tis Fun/4All
+image: "/content/images/2017/11/IMG_20171124_211102.jpg"
+date: '2017-11-25 06:32:52'
+tags:
+- emulation
+- programming
+- vintage-computers
+---
+
+The other day I was south of Seattle perusing some lesser known thrift stores.  Just your typical Saturday morning, when I spy a very cool thing: A TI-99/4A retail box.
+
+![](/content/images/2017/11/IMG_20171124_174912.jpg)
+
+I inspect the box, and it's full of treasure!  A bunch of cartridges, a couple of tapes, the original instruction and basic training manuals, a 1981 issue of computer user magazine, two paddles and an rf adapter.
+
+And since it was so close to Thanksgiving/Black Friday, everything was half off.  20$ for a 4A?  yes please!  
+
+![](/content/images/2017/11/IMG_20171124_193357.jpg)
+
+There's so many fun elements to this project.  There's the 4A, an ancient and fascinating piece of kit (without a freaking backspace button, I can't STAND it!)  I picked up a tube TV for 8$ to properly display the RF video output. There's all the original manuals for the system, the game, and heck even the video output cable!  This is something that is truly missing from computer systems today: awesome manuals. 
+
+![](/content/images/2017/11/IMG_20171124_205658.jpg)
+
+First, I had to try out all of the games.  Most of them work with just a bit of fiddling with the cartridge placement.  Lots (well... some) fun to be had with these games.  Classic TI versions of Pac-Man, Space Invaders, blackjack, Adventure and more await.
+
+![](/content/images/2017/11/IMG_20171124_201835_1.jpg)
+
+The best of the games that I have is definitely Parsec, a side-scrolling shooter in the vein of Gradius.  It has really excellent death animations and sound effects for a 35 year-old game.  Plenty of fun to be had here.
+
+https://www.youtube.com/watch?v=lJEBVioKdXA
+
+My favorite aspect of the TI package has to be the inclusion of a basic training manual and a host of example basic programs.  From accounting to graphics and sound to educational programs, these are actually pretty awesome introductions to the world of programming and form the building blocks of all sorts of programs.
+
+![](/content/images/2017/11/IMG_20171124_205704.jpg)
+
+I decided to try the 'random colors and sounds' program, as it clocks in at an easy 38 lines long, and I truly hate the lack of a backspace key.  In fact, I decided to test out the program on an online 99 emulator known as http://js99er.net/
+
+![](/content/images/2017/11/typinitin.png)
+
+This worked great, so I went ahead and typed it on in on the real system.  It also worked great!
+
+![](/content/images/2017/11/IMG_20171124_211102-1.jpg)
+
+In the end, it was a fun afternoon project that touched on some of my favorite subjects: programming, emulation, and vintage computer equipment.  I also learned something about myself, I absolutely love the backspace key!
+
+![](/content/images/2017/11/IMG_20171124_211209.jpg)

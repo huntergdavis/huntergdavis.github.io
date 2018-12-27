@@ -1,0 +1,45 @@
+---
+layout: post
+title: OK, This is Familiar
+image: http://www.hunterdavis.com/content/images/2014/02/hahah.png
+date: '2014-02-25 05:05:35'
+---
+
+
+I’ve been pretty far ahead of the trends before, even [starting](http://www.hunterdavis.com/2009/11/15/hacking-the-girltech-im-me-usb-wireless-device/) a [few](http://www.engadget.com/2010/11/29/dockstar-freeagent-hacked-into-inexpensive-emulation-masterpiece/) [trends](http://hackaday.com/2009/09/25/with-zipit-who-needs-a-netbook/) when it comes to [hacking](http://www.hunterdavis.com/category/hacking-and-robotics/) and mobile devices. When I saw [this](http://www.spritzinc.com/) it made me smile. Looks familiar? Let me super-impose a couple of photos real quick…
+
+[![hahah](http://www.hunterdavis.com/content/images/2014/02/hahah-300x218.png)](http://www.hunterdavis.com/content/images/2014/02/hahah.png)
+
+Archive.org can help, here’s [my version](https://web.archive.org/web/20031126035210/http://www.hunterdavis.com/navigation/titlescrollscreenshot.PNG) (minus the red central letter) from 2003.
+
+That was a different world then, and I a different person. Still, as always the source lives on at [GitHub](https://github.com/huntergdavis/titlebarscroller).
+
+It got me thinking though, which of my other projects have found their way into everyday usage many years later?
+
+> Turns out Stephen Wolfram, AMD, Feedly, Ouya, HCC, and many others have decided to continue where I left off.
+
+Ten thoughts:
+
+1. I just saw a demonstration of [the Wolfram language](http://blog.stephenwolfram.com/2014/02/starting-to-demo-the-wolfram-language/) that contained functionality quite similar to [QuickGrapher](https://github.com/huntergdavis/Quick-Grapher) (originally known as sliders)
+
+2. Low powered ARM servers doing the work that big-iron used to? (like [clustered cross-compiling X86-64](http://www.amazon.com/gp/product/B004RHXWG6/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B004RHXWG6&linkCode=as2&tag=wwwhunterdavi-20) binaries?) Looks like [AMD](http://www.anandtech.com/show/7724/it-begins-amd-announces-its-first-arm-based-server-soc-64bit8core-opteron-a1100) is getting into the mix now.
+
+3. [Is RSS coming back](http://www.businessinsider.com/feedly-2014-2)? I can’t tell. I remember writing one of the first [freely available RSS creation suites](https://github.com/huntergdavis/Super_Simple_RSS) (the first with a GUI perhaps?) [back in 03](https://web.archive.org/web/20031217122729/http://hunterdavis.com/ssrss.html).
+
+4. A [filesystem](http://www.smartmeters.com/the-news/4401-hcc-embedded-introduces-smart-advanced-file-system.html) with entries attached to database records. Microsoft promised us this back in 2001. I became so frustrated I wrote a [user-space app](https://web.archive.org/web/20031218231103/http://hunterdavis.com/filemetadata.html) to mimic this functionality (I was 21, it was 2002, I am sure it was for MP3s and cough videos cough…)
+
+5. Why has [code visualization](http://www.hunterdavis.com/popular-open-source-projects/source-tree-visualizer/) not caught on yet? This is happening…
+
+6. [Using](http://www.cepro.com/article/android-based_security_panel_from_qolsys_now_shipping_with_alarm.com_servic/) commodity alternative-architecture processors running Linux variants for home automation? That’s [good times](http://www.hunterdavis.com/2007/12/19/building-a-completely-automated-websshvnc-controlled-home-automation-server-from-a-clamshell-ibook-with-a-faulty-cd-drive-and-10-worth-of-electronics/).
+
+7. Tiny [arm-based gaming systems](https://www.ouya.tv/) that are hackable and emulation friendly? [Been there](http://www.engadget.com/2010/11/29/dockstar-freeagent-hacked-into-inexpensive-emulation-masterpiece/). (OK, OK, I linked that one before. I just like any article where Engadget calls my work a masterpiece…)
+
+8. There’s been quite a bit of [contention](https://blog.jcoglan.com/2013/11/15/why-github-is-not-your-cv/) over GitHub and open-source becoming a requirement to being hired, or becoming a de-facto resume. Anything I throw into that debate is going to seem incredibly biased, [considering I was number one](http://www.hunterdavis.com/content/images/2012/04/HunterDavisAndroidInfographic.png)…
+
+9. I saw a [javascript based guitar tuner](http://www.reddit.com/r/javascript/comments/1ymc9m/guitar_tuner_by_tom_hoddes/) pop up the other day. Brought me back to old times.
+
+10. There’s a lot of upcoming consumer-facing technology I’m legally bound from discussing, but it’s fiendishly cool stuff. Check out my current employer, the top 3 programming languages on my CV, and my love of entertainment and let your mind go wild. I’ve got some crazy stuff planned.
+
+So there you have it. Turns out Stephen Wolfram, AMD, Feedly, Ouya, HCC, and many others have decided to continue where I left off; and have left me wondering what my next project should be…
+
+
