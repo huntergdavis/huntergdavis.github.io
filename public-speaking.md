@@ -20,16 +20,22 @@ tags:
 
 
 <a id='apprenticeship'>Apprenticeship and Mentoring</a>
-Write something here about my public speaking appearances around apprenticeship and mentoring.
+<a href="https://apprenticareers.org/why-your-company-and-the-tech-industry-needs-apprenticeships/">Here's</a> an article I wrote for my friends at Apprenti around the value of technical apprenticeship.
+
+6/21/2018 - My friends at Apprenti asked me to speak to policymakers and attendees at the Utah department of labor's Apprenticeship Summit
+<img src="http://www.hunterdavis.com/content/images/2019/apprentice_panel_SLC.jpg">
 
 <a id='military'>Military Outreach</a>
-Write something here about my long personal history working with military personnel, and related public speaking appearances. 
+Write something here about my long personal history working with military personnel, and related public speaking appearances.
 
 <a id='operationcode'>Operation Code</a>
-1/22/2019 - My friends at Operation Code asked me to speak to veterans and interested folks about transitioning into engineering from other disciplines, and my experiences working with military folks in engineering fields.  Here's the presentation I gave, <a href="http://www.hunterdavis.com/PRESENTATION-The-Math-I-Wish-I-Learned/">The Math I Wish I Had Learned</a> 
+1/22/2019 - My friends at Operation Code asked me to speak to veterans and interested folks about transitioning into engineering from other disciplines, and my experiences working with military folks in engineering fields.  Here's the presentation I gave, <a href="http://www.hunterdavis.com/PRESENTATION-The-Math-I-Wish-I-Learned/">The Math I Wish I Had Learned</a>
 
 <a id='leadership'>Engineering and Business Leadership</a>
 I'm currently Director of Engineering and Avvo, and I've been leading engineering teams since the early 2000s. Here are select public speaking appearances related to Engineering and Business Leadership.
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/WOC_IzFQt44?feature=oembed" width="700"></iframe>  
+<a href="https://stories.avvo.com/inside-avvo/life-at-avvo/meet-hunter-davis">Here's</a> an interview/press release Avvo did with me when I promoted to Director.  
 
+<a href="http://engineering.avvo.com/articles/your-first-day-as-an-engineering-manager.html">Here's</a> an article I published on Avvo around my expectations for a successful first day as an Engineering Manager.  
+
+<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/WOC_IzFQt44?feature=oembed" width="700"></iframe>  
