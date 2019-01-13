@@ -31,13 +31,13 @@ tags:
 08/22/2018 - I was interviewed by VentureBeat for an <a href="https://venturebeat.com/2018/08/22/seattles-apprenti-seeks-to-take-its-tech-apprenticeship-program-nationwide/">article on Apprenti</a>.
 
 6/21/2018 - My friends at Apprenti asked me to speak to policymakers and attendees at the Utah department of labor's Apprenticeship Summit in SLC
-<img src="http://www.hunterdavis.com/content/images/2019/apprentice_panel_SLC.jpg" height="300">
+<br><img src="http://www.hunterdavis.com/content/images/2019/apprentice_panel_SLC.jpg" height="300">
 
 10/12/2017 - My friends at Apprenti asked me to speak to attendees and potential hiring partners at a Seattle area apprenticeship event
-<img src="http://www.hunterdavis.com/content/images/2019/apprenti_codefellows.jpg" height="300">
+<br><img src="http://www.hunterdavis.com/content/images/2019/apprenti_codefellows.jpg" height="300">
 
 7/23/2017 - My friends at Apprenti asked me to speak to policymakers and attendees at the Technology Councils of North America in Toronto
-<img src="http://www.hunterdavis.com/content/images/2019/apprenti_tecna17.jpg" height="300">
+<br><img src="http://www.hunterdavis.com/content/images/2019/apprenti_tecna17.jpg" height="300">
 
 <a id='military'>Military Outreach</a>
 <br>
@@ -46,7 +46,7 @@ I have a long personal history working with military personnel, and related publ
 <a id='operationcode'>Fourblock</a>
 <br>
 5/13/2018 - My friends at Fourblock asked the Avvo leadership team to speak to veterans and interested folks about transitioning into engineering from other disciplines, and our experiences working with military folks in our fields.  
-<img src="http://www.hunterdavis.com/content/images/2019/fourblock.jpeg" height="300">
+<br><img src="http://www.hunterdavis.com/content/images/2019/fourblock.jpeg" height="300">
 
 <a id='operationcode'>Operation Code</a>
 <br>
