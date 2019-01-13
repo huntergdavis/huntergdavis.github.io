@@ -40,18 +40,22 @@ tags:
 <img src="http://www.hunterdavis.com/content/images/2019/apprenti_tecna17.jpg" height=300px>
 
 <a id='military'>Military Outreach</a>
-Write something here about my long personal history working with military personnel, and related public speaking appearances.
+<br>
+I have a long personal history working with military personnel, and related public speaking appearances.
 
 <a id='operationcode'>Fourblock</a>
+<br>
 5/13/2018 - My friends at Fourblock asked the Avvo leadership team to speak to veterans and interested folks about transitioning into engineering from other disciplines, and our experiences working with military folks in our fields.  
 <img src="http://www.hunterdavis.com/content/images/2019/fourblock.jpeg" height=300px>
 
 <a id='operationcode'>Operation Code</a>
+<br>
 1/22/2019 - My friends at Operation Code asked me to speak to veterans and interested folks about transitioning into engineering from other disciplines, and my experiences working with military folks in engineering fields.  Here's the presentation I gave, <a href="http://www.hunterdavis.com/PRESENTATION-The-Math-I-Wish-I-Learned/">The Math I Wish I Had Learned</a>
 
 <a id='leadership'>Engineering and Business Leadership</a>
+<br>
 I'm currently Director of Engineering and Avvo, and I've been leading engineering teams since the early 2000s. Here are select public speaking appearances related to Engineering and Business Leadership.
 
-<a href="https://stories.avvo.com/inside-avvo/life-at-avvo/meet-hunter-davis">Here's</a> an interview/press release Avvo did with me when I promoted to Director.  
+8/20/2018 - <a href="https://stories.avvo.com/inside-avvo/life-at-avvo/meet-hunter-davis">Here's</a> an interview/press release Avvo did with me as Director.
 
-<a href="http://engineering.avvo.com/articles/your-first-day-as-an-engineering-manager.html">Here's</a> an article I published on Avvo around my expectations for a successful first day as an Engineering Manager.  
+10/31/2017 - <a href="http://engineering.avvo.com/articles/your-first-day-as-an-engineering-manager.html">Here's</a> an article I published on Avvo around my expectations for a successful first day as an Engineering Manager.  
