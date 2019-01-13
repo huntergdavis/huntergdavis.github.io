@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Public Speaking
-image: "/content/images/2018/05/IMG_20180417_141421.jpg"
+image: "/content/images/2019/tux.png"
 date: '2019-01-13 18:14:58'
 
 tags:
@@ -24,9 +24,6 @@ tags:
 
 12/5/2018 - I was interviewed as an expert on apprenticeship for Reuters’ World of Work Series.
 
-10/12/2017 - My friends at Apprenti asked me to speak to attendees and potential hiring partners at a Seattle area apprenticeship event
-<img src="http://www.hunterdavis.com/content/images/2019/apprenti_codefellows.jpg">
-
 10/09/2018 - <a href="https://apprenticareers.org/why-your-company-and-the-tech-industry-needs-apprenticeships/">Here's</a> an article I wrote for my friends at Apprenti around the value of technical apprenticeship.
 
 09/12/2018 - I was recognized as a subject matter expert by the Department of Labor, Division of Program Quality, Standards and Policy
@@ -36,6 +33,9 @@ tags:
 6/21/2018 - My friends at Apprenti asked me to speak to policymakers and attendees at the Utah department of labor's Apprenticeship Summit in SLC
 <img src="http://www.hunterdavis.com/content/images/2019/apprentice_panel_SLC.jpg">
 
+10/12/2017 - My friends at Apprenti asked me to speak to attendees and potential hiring partners at a Seattle area apprenticeship event
+<img src="http://www.hunterdavis.com/content/images/2019/apprenti_codefellows.jpg">
+
 7/23/2017 - My friends at Apprenti asked me to speak to policymakers and attendees at the Technology Councils of North America in Toronto
 <img src="http://www.hunterdavis.com/content/images/2019/apprenti_tecna17.jpg">
 
@@ -44,7 +44,7 @@ Write something here about my long personal history working with military person
 
 <a id='operationcode'>Fourblock</a>
 5/13/2018 - My friends at Fourblock asked the Avvo leadership team to speak to veterans and interested folks about transitioning into engineering from other disciplines, and our experiences working with military folks in our fields.  
-<img src="http://www.hunterdavis.com/content/images/2019/fourblock.jpg">
+<img src="http://www.hunterdavis.com/content/images/2019/fourblock.jpeg">
 
 
 <a id='operationcode'>Operation Code</a>
