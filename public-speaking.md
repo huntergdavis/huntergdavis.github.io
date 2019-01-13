@@ -26,21 +26,21 @@ tags:
 
 10/09/2018 - <a href="https://apprenticareers.org/why-your-company-and-the-tech-industry-needs-apprenticeships/">Here's</a> an article I wrote for my friends at Apprenti around the value of technical apprenticeship.
 
-09/12/2018 - I was recognized as a subject matter expert by the Department of Labor, Division of Program Quality, Standards and Policy
+09/12/2018 - I was recognized as a subject matter expert by the Department of Labor, Division of Program Quality, Standards and Policy.
 
 08/22/2018 - I was interviewed by VentureBeat for an <a href="https://venturebeat.com/2018/08/22/seattles-apprenti-seeks-to-take-its-tech-apprenticeship-program-nationwide/">article on Apprenti</a>.
 
-6/21/2018 - My friends at Apprenti asked me to speak to policymakers and attendees at the Utah department of labor's Apprenticeship Summit in SLC
+6/21/2018 - My friends at Apprenti asked me to speak to policymakers and attendees at the Utah Department of Labor's Apprenticeship Summit in SLC.
 <br>
 
 <img src="http://www.hunterdavis.com/content/images/2019/apprentice_panel_SLC.jpg" height="300">
 
-10/12/2017 - My friends at Apprenti asked me to speak to attendees and potential hiring partners at a Seattle area apprenticeship event
+10/12/2017 - My friends at Apprenti asked me to speak to attendees and potential hiring partners at a Seattle area apprenticeship event.
 <br>
 
 <img src="http://www.hunterdavis.com/content/images/2019/apprenti_codefellows.jpg" height="300">
 
-7/23/2017 - My friends at Apprenti asked me to speak to policymakers and attendees at the Technology Councils of North America in Toronto
+7/23/2017 - My friends at Apprenti asked me to speak to policymakers and attendees at the Technology Councils of North America in Toronto.
 <br>
 
 <img src="http://www.hunterdavis.com/content/images/2019/apprenti_tecna17.jpg" height="300">
@@ -56,7 +56,7 @@ I have a long personal history working with military personnel, and related publ
 
 <a id='operationcode'>Operation Code</a>
 <br>
-1/22/2019 - My friends at Operation Code asked me to speak to veterans and interested folks about transitioning into engineering from other disciplines, and my experiences working with military folks in engineering fields.  Here's the presentation I gave, <a href="http://www.hunterdavis.com/PRESENTATION-The-Math-I-Wish-I-Learned/">The Math I Wish I Had Learned</a>
+1/22/2019 - My friends at Operation Code asked me to speak to veterans and interested folks about transitioning into engineering from other disciplines, and my experiences working with military folks in engineering fields.  Here's the presentation I gave: <a href="http://www.hunterdavis.com/PRESENTATION-The-Math-I-Wish-I-Learned/">The Math I Wish I Had Learned</a>
 
 <a id='leadership'>Engineering and Business Leadership</a>
 <br>
