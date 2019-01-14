@@ -15,6 +15,7 @@ tags:
 # Public Speaking
 + [Apprenticeship](#apprenticeship)
 + [Military Programs](#military)
+  + [FourBlock](#fourblock)
   + [Operation Code](#operationcode)
 + [Engineering and Business Leadership](#leadership)
 
@@ -49,14 +50,14 @@ tags:
 <br>
 I have a long personal history working with military personnel, and related public speaking appearances.
 
-<a id='operationcode'>Fourblock</a>
+<a id='fourblock'>Fourblock</a>
 <br>
 5/13/2018 - My friends at Fourblock asked the Avvo leadership team to speak to veterans and interested folks about transitioning into engineering from other disciplines, and our experiences working with military folks in our fields.  
 <br><img src="http://www.hunterdavis.com/content/images/2019/fourblock.jpeg" height="300">
 
 <a id='operationcode'>Operation Code</a>
 <br>
-1/22/2019 - My friends at Operation Code asked me to speak to veterans and interested folks about transitioning into engineering from other disciplines, and my experiences working with military folks in engineering fields.  Here's the presentation I gave: <a href="http://www.hunterdavis.com/PRESENTATION-The-Math-I-Wish-I-Learned/">The Math I Wish I Had Learned</a>
+1/22/2019 - My friends at Operation Code asked me to speak to veterans and interested folks about transitioning into engineering from other disciplines, and my experiences working with military folks in engineering fields.  Here's the presentation I gave: <a href="http://www.hunterdavis.com/PRESENTATION-The-Math-I-Wish-I-Learned/">Real Engineering Math and Other Tidbits</a>
 
 <a id='leadership'>Engineering and Business Leadership</a>
 <br>
