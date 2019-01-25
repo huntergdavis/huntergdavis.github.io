@@ -23,6 +23,8 @@ tags:
 <a id='apprenticeship'>Apprenticeship and Mentoring</a>
 <br>
 
+1/15/2019 - I was interviewed/quoted for a Reuters <a href="https://www.reuters.com/article/us-world-work-apprenti/living-the-tech-dream-thanks-to-a-novel-apprenticeship-program-idUSKCN1P91CY">article</a> on apprenticeship. 
+
 12/5/2018 - I was interviewed as an expert on apprenticeship for Reuters’ World of Work Series.
 
 10/09/2018 - <a href="https://apprenticareers.org/why-your-company-and-the-tech-industry-needs-apprenticeships/">Here's</a> an article I wrote for my friends at Apprenti around the value of technical apprenticeship.
