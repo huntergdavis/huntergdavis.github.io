@@ -19,9 +19,9 @@ What does that mean for your day-to-day?  What is your job, really?  You’ve be
 Ours is a sales-driven business within a large conglomerate. That means much of your work will focus on the technology related to supporting ads and their sales, and on reporting. 
 
 Your day-to-day will be rather hectic. You need to be focusing on the three major facets of your role:
-Mentorship and coaching, building leadership across all teams
-Organization, Facilitation, Frustration
-Reporting
+1. Mentorship and coaching, building leadership across all teams
+2. Organization, Facilitation, Frustration
+3. Reporting
 
 Facet 1: Mentorship and Leadership
 
