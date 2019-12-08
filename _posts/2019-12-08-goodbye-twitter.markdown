@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GoodBye Twitter
+title: Goodbye Twitter
 date: '2019-12-08 08:08:08'
 ---
 
