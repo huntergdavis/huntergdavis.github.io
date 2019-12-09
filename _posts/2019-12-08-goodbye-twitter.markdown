@@ -1,3 +1,10 @@
+---
+layout: post
+title: Goodbye Twitter
+date: '2019-12-08 08:09:10'
+---
+
+
 The year was 2011.  My startup had closed, and I had spent the summer writing Android apps and blogging.  I had just joined a Google Ventures startup (Miso), and we all rented a bus to truck it up to TechCrunch Disrupt. 
 
 If you've been reading this blog these past 20 years, you likely know I love a deal.  I love teachnology.  I love a good giveaway.  And at times during my life I've been an avid collector of knives.  It was Autumn 2011 when these loves came together in a giveaway.
