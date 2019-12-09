@@ -8,6 +8,7 @@ The year was 2011.  My startup had closed, and I had spent the summer writing A
 <br>
 If you've been reading this blog these past 20 years, you likely know I love a deal.  I love teachnology.  I love a good giveaway.  And at times during my life I've been an avid collector of knives.  It was Autumn 2011 when these loves came together in a giveaway.
 <br>
+<br>
 It was in the vendor row, and this start-up was taking on mechanical turk.  Their spin was they were doing it in Nepal, and to advertise this they were running a re-tweet contest.  The prize was a hand-carved Nepalese dagger. I was enthralled, and I immediately signed up for Twitter.
 <br>
 Twitter was never my style, and I always prefered having a long-form blog to short-form communication.  Still, it was all the rage and it seemed like it was doing some social good in the world.  Even though I never won that knife, I decided to stay on Twitter.
