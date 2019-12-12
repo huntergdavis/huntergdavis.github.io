@@ -7,7 +7,7 @@ date: '2019-12-12 08:33:24'
 
 It's been about a year since I threw Johnny Castaway up on the web, and I thought it might be time for an update.  
 
-TLDR; [http://www.hunterdavis.com/johnnycastawaywine/](http://www.hunterdavis.com/johnnycastawaywine/) is up and running via Wine in JS, but it's slower than the DosBox version.
+TLDR; [http://www.hunterdavis.com/johnnycastawaywine/](http://www.hunterdavis.com/johnnycastawaywine/) is up and running via Wine in JS, but it's much, much slower than the DosBox version.
 
 Seeing as how my previous version of Johnny is running a full version of Windows 3.1, the obvious improvement would be remove the need for a full Windows installation within the page. 
 
@@ -21,12 +21,11 @@ As with any project of this nature, it took just a bit of wrangling to get it wo
 4. Zip the johnny.scr and batch file into one zip file
 5. Edit the boxwine.html to hard-code parameters and remove mouse input events (as they'll kill the screensaver)
 
-As you can see from the below screenshots, here's the original Javascript->Dosbox (Dos)->Windows->Johnny stack using 20% CPU
-
+As you can see from the below screenshots, here's the original Javascript->Dosbox (Dos)->Windows->Johnny stack using 20% CPU and zipping along properly.
 
 ![](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2019/johnny_dosbox_20_percent.png)
 
-And here's the new Javascript->Wine(Windows)->Johnny stack using 25+% CPU
+And here's the new Javascript->Wine(Windows)->Johnny stack using 25+% CPU and it just feels extremely slow.
 
 ![](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2019/johnny_boxedwine_25_percent.png)
 
