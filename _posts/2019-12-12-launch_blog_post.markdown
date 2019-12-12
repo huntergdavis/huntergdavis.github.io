@@ -9,6 +9,9 @@ It's been about a year since I threw Johnny Castaway up on the web, and I though
 
 TLDR; [http://www.hunterdavis.com/johnnycastawaywine/](http://www.hunterdavis.com/johnnycastawaywine/) is up and running via Wine in JS, but it's much, much slower than the DosBox version.
 
+
+![](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2019/johnny_many_arms.png)
+
 Seeing as how my previous version of Johnny is running a full version of Windows 3.1, the obvious improvement would be remove the need for a full Windows installation within the page. 
 
 If we were running this in a *nix environment, I'd fire up Wine and run the Johnny castaway install directly, then execute from within Wine.  As we're running in page, I set about searching for an emscript version of Wine.  I found one in the boxwine project [https://sourceforge.net/projects/boxedwine/](https://sourceforge.net/projects/boxedwine/)
