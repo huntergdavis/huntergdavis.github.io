@@ -6,7 +6,7 @@ quickgrapher: true
 ---
 
 
-As I was setting up a new development machine this morning, I found myself traversing through my old GitHub projects. One such project that was always close to my heart was QuickGrapher, the JavaScript graphing library Mark and I write during our start-up years.
+As I was setting up a new development machine this morning, I found myself traversing through my old GitHub projects. One such project that was always close to my heart was QuickGrapher, the JavaScript graphing library Mark and I wrote during our start-up years.
 
 I realized that I could easily update QuickGrapher to work within my jekyll gh-pages, and update it so the examples and embeds are working again after all these years.  In order to allow embedded graphs in my Jekyll blog posts I've added optional javascript include directives to my post template
 
