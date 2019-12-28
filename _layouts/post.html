@@ -37,8 +37,10 @@ layout: default
 </article>
 </div>
 </div>
-{% for js in page.jsarr %}
-		<script type="text/javascript">
-		{% include {{ js }} %}
-		</script>
-{% endfor %}
+{% if page.jsarr.size > 0 %}
+	{% for js in page.jsarr %}
+			<script type="text/javascript">
+			{% include {{ js }} %}
+			</script>
+	{% endfor %}
+{% endif %}
