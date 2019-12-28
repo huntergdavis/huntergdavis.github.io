@@ -3,11 +3,7 @@ layout: post
 title: A Quick (Grapher) Blast From My Past
 date: '2019-12-27 08:33:24'
 
-jsarr:
-- query-1.4.4.min.js
-- jquery-ui-1.8.9.custom.min.js
-- modernizr-1.6.min.js
-- obfs_embed.js
+quickgrapher: true
 ---
 
 

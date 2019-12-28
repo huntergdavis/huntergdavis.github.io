@@ -12,12 +12,11 @@
       </ul>
     </div>
   </nav>
-</header>
 
-{% if page.jsarr.size > 0 %}
-	{% for js in page.jsarr %}
-			<script type="text/javascript">
-			{% include {{ js }} %}
-			</script>
-	{% endfor %}
-{% endif %}
+  {% if page.quickgrapher %}
+  <script type="text/javascript" src="http://www.hunterdavis.com/quickgrapher/js/jquery-1.4.4.min.js"></script>
+  <script type="text/javascript" src="http://www.hunterdavis.com/quickgrapher/js/jquery-ui-1.8.9.custom.min.js"></script>
+  <script type="text/javascript" src="http://www.hunterdavis.com/quickgrapher/js/modernizr-1.6.min.js"></script>
+  <script src="http://www.hunterdavis.com/quickgrapher/js/obfs_embed.js" type="text/javascript" charset="utf-8"></script>
+  {% endif %}
+</header>
