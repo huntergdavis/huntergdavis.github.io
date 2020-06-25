@@ -2,8 +2,8 @@
 name: HunterDavis.com
 ##Markdown processor
 markdown: kramdown
-##syntax highlighter. change it to pygments
-highlighter: pygments
+##syntax highlighter. change it to rogue
+highlighter: rouge
 
 ##define base_url for valid usage in sitemap.xml and robots.txt
 base_url: http://www.hunterdavis.com
