@@ -53,7 +53,7 @@ tags:
 <a id='whoami'>Who Am I, Today?</a>
 As with any individual, who I am has significantly changed over time.  While this record of my achievements can be viewed as a nearly chronological series of events, my career progression never seemed so straightforward as it does in retrospect.
 
-Who am I, today?  That's an easier question.  I'm a hacker, programmer, author, composer, and leader.  I'm currently engineering director at Avvo, a legal marketplace.  I also serve on the board for Apprenti, a non-profit focused on promoting apprenticeship in technology.
+Who am I, today?  That's an easier question.  I'm a hacker, programmer, author, composer, and leader.  I'm currently engineering director at Realself.  I also serve on the board for Apprenti, a non-profit focused on promoting apprenticeship in technology.
 
 <a id='youth'>In My Youth</a>
 In my youth, I focused mainly on video games.  I came from a series of ever-shrinking small towns in rural Indiana.  When I was 8, I traded my hard-earned lemonade stand money-bought Nintendo for my friend's Commodore 64.  This was the 1980s, and you could borrow magazines full of basic code from the library.  This was my first foray into the world of programming, and I was hooked.
@@ -295,4 +295,4 @@ I've spent the last third of my life leading and mentoring teams and organizatio
 I believe in servant-leadership, kindness, and empathy.
 
 <a id='mentorship'>Mentorship</a>
-I've created mentorship programs for the following companies: Scalable Networks, Miso Media, Rhapsody/Napster International, and my current employer Avvo.
+I've created mentorship programs for the following companies: Scalable Networks, Miso Media, Rhapsody/Napster International, Avvo.
