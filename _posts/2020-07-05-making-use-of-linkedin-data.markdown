@@ -17,6 +17,15 @@ It's been great though, and I shouldn't have been afraid.  I feel closer to my f
 
 It struck me though, that there's a much bigger fear-based target in my digital world: LinkedIn. 
 
+So, here's how I'm going to wean myself off of LinkedIn, and it involves my old friend Jekyll.  
+
+Step 1: Identifying what data is useful from Linkedin.  I would assume it's connection data and referrals.  The more I think about it though, the less I see the need for the connection data.  I can see all of folks public posts from the site if I look for them.  It's not like folks posting jobs are trying to hide them.  
+
+Step 2: Exporting my data.  Thankfully it's fairly easy to do here: https://www.linkedin.com/psettings/member-data
+
+Step 3: Displaying the data.  I found a jekyll template for a help-desk which has the qualities I like.  (searchability, categories, easy to read and display)  This one -> https://github.com/gustavoquinalha/jekyll-help-center-theme
+
+
 
 
 
