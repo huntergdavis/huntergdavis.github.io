@@ -25,7 +25,9 @@ Step 2: Exporting my data.  Thankfully it's fairly easy to do here: https://www.
 
 Step 3: Displaying the data.  I found a jekyll template for a help-desk which has the qualities I like.  (searchability, categories, easy to read and display)  This one -> https://github.com/gustavoquinalha/jekyll-help-center-theme
 
+Step 4: Formatting the data.  I simply added question, ', answer and end ' separaters into the CSV to generate the jekyll templates.
 
+Step 5: Telling folks that I've done this.  See this post (meta!)
 
 
 
