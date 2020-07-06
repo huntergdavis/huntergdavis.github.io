@@ -1,6 +1,6 @@
 ---
 layout: post
-title: hunterdavis@hey.com
+title: Replacing LinkedIn
 date: '2020-07-05 08:33:24'
 quickgrapher: false
 ---
@@ -17,6 +17,10 @@ It's been great though, and I shouldn't have been afraid.  I feel closer to my f
 
 It struck me though, that there's a much bigger fear-based target in my digital world: LinkedIn. 
 
+Think about it.  What has LinkedIn done for you?  I can tell you it's been mostly recruiter emails for me.  Do the recommendations you give and receive actually mean the difference between a job and not?  I do not believe so.  Any recommendation I have received or given, when it comes time for an interview process, those recommendations have been re-requested.  
+
+So, except for the everpresent fear of missing out (FOMO), what is the value of LinkedIn.  News?  I can read the news without creating an account.  Without fielding 20 spam messages from recruiters every day.  Email?  I've got great SEO, and my email is very easy to find.  Maybe just slightly more friction in finding me wouldn't be the worst thing in the world?  It certainly hasn't stopped readers of this blog from emailing and building friendships these past 20 years.  
+
 So, here's how I'm going to wean myself off of LinkedIn, and it involves my old friend Jekyll.  
 
 Step 1: Identifying what data is useful from Linkedin.  I would assume it's connection data and referrals.  The more I think about it though, the less I see the need for the connection data.  I can see all of folks public posts from the site if I look for them.  It's not like folks posting jobs are trying to hide them.  
@@ -27,8 +31,6 @@ Step 3: Displaying the data.  I found a jekyll template for a help-desk which ha
 
 Step 4: Formatting the data.  I simply added question, ', answer and end ' separaters into the CSV to generate the jekyll templates.
 
-Step 5: Telling folks that I've done this.  See this post (meta!)
-
-
+Step 5: Telling folks that I've done this.  See this post (meta!)  Check out the 'recommendations' link at the top of the blog.  Head on over to https://github.com/huntergdavis/linked_out and check out the code, or http://www.hunterdavis.com/linked_out/ to actually read the recommendations. 
 
 email me about it, hunterdavis@hey.com 
