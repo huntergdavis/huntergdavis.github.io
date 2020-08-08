@@ -139,6 +139,8 @@ function runSimulation(level) {
 
 window.onload = function() {    
 
+    var simDiv = document.getElementById("simulator");
+
     // programmatically create our input elements for the simulator
     var levelElement = document.createElement('input')
     levelElement.id = "level";
@@ -148,14 +150,14 @@ window.onload = function() {
     levelElement.value = 1;
     levelElement.title = "Level";
   
-    document.body.appendChild(levelElement);
+    simDiv.appendChild(levelElement);
 
     var levelLabel = document.createElement("Label");
     levelLabel.setAttribute("for","level");
     levelLabel.innerHTML = "Level";
-    document.body.appendChild(levelLabel);
+    simDiv.appendChild(levelLabel);
 
-    document.body.appendChild(document.createElement('br'));
+    simDiv.appendChild(document.createElement('br'));
 
     var iterationsElement = document.createElement('input')
     iterationsElement.id = "iterations";
@@ -163,28 +165,28 @@ window.onload = function() {
     iterationsElement.min = 1;
     iterationsElement.value = 100;
     iterationsElement.title = "Number of Simulations to Run";
-    document.body.appendChild(iterationsElement);
+    simDiv.appendChild(iterationsElement);
 
     var iterLabel = document.createElement("Label");
     iterLabel.setAttribute("for","iterations");
     iterLabel.innerHTML = "Number of Simulations to Run";
-    document.body.appendChild(iterLabel);
+    simDiv.appendChild(iterLabel);
        
 
-    document.body.appendChild(document.createElement('br'));
+    simDiv.appendChild(document.createElement('br'));
 
     var runElement = document.createElement('input')
     runElement.id = "runsim";
     runElement.type = "button";
     runElement.value = "Run Simulation(s)";
-    document.body.appendChild(runElement);
+    simDiv.appendChild(runElement);
     
     var outputElement = document.createElement('p');
     outputElement.id = "output";
-    document.body.appendChild(outputElement);
+    simDiv.appendChild(outputElement);
 
 
-    document.body.appendChild(document.createElement('br'));
+    simDiv.appendChild(document.createElement('br'));
     
     document.getElementById("runsim").onclick = function fun() {
         var level = 1*document.getElementById("level").value;

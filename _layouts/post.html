@@ -28,7 +28,9 @@ layout: default
 		{% endif %}
 		{{ content }}
 	</section>
-
+	{% if page.cardsimulator == true %}
+		<div id="simulator"></div>
+    {% endif %}
 </article>
 </div>
 </div>
