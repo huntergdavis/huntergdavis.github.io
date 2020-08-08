@@ -16,10 +16,10 @@ So, I set about to create my own solitaire variant.  As usual, I went way overbo
  
 I started with a huge design guide.  Dungeons and Dragons or Magic the Gathering as my inspiration.  The deck itself provides the random number generator instead of dice.  Each card was an enemy on an enemy table.  Complex rules, Pokemon style card battling and capturing mechanics.  Monster affinity and weakness types. Complex stats.  It neither playtested well nor was it easy to remember.  There were elements I enjoyed though.
 
-![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire1-1.jpg)
-![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire1-2.jpg)
-![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire1-3.jpg)
-![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire1-4.jpg)
+![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-1.jpg)
+![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-2.jpg)
+![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-3.jpg)
+![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-4.jpg)
 
  
 I enjoyed the card capture / battle mechanics.  I enjoyed the progression across a game board (like dungeon solitaire).  I enjoyed the feeling of winning against tough odds (more on those odds later!)
