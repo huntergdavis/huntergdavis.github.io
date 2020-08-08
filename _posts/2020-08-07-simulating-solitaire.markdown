@@ -39,11 +39,11 @@ By the time I cut it down to a few easy core rules, the fun began to come back i
 
 It started to feel very playable, and fun, but it felt like I almost never won!  How to quantify that though, and how to balance?
  
-Why, monte-carlo simulation of course.  I coded up the ruleset using the most excellent "Deck of Cards" library from Juha Lindstedt, available at https://github.com/pakastin/deck-of-cards
+Why, monte-carlo simulation of course.  I coded up the ruleset using the most excellent "Deck of Cards" library from Juha Lindstedt, available at https://github.com/pakastin/deck-of-cards .  By running through the rules with different decks thousands of times, we're able to estimate the real odds of winning.  You can too, it's embedded at the end of this article. 
+
+And as it turns out, there were really only a couple of twists to the ruleset that made the game really pop, and balance to roughly 25% win ratio, plus or minus ten or fifteen percent depending on the "level" you're playing.
  
-And as it turns out, there were really only a couple of twists to the ruleset that made the game really pop, and balance to roughly 25% win ratio, plus or minus a few percent depending on the "level" you're playing.
- 
-So, at the bottom of this post I'll share the ruleset to "Commander Solitaire", as well as the Javascript simulator.  Source is all available in my github repo, feel free to tweak the rules, run a few million games, see what you think!
+So, at the bottom of this post I'll share the ruleset to "Commander Solitaire", as well as the simlator that'll let you run through the ruleset.  Source is all available in my github repo, feel free to tweak the rules, run a few million games, see what you think!
  
 Rules of commander solitaire
 - Select a level, 1-6.  This determines your hand size and difficulty.
