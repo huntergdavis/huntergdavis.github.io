@@ -7,7 +7,8 @@ cardsimulator: true
  
  
 Like many of us, I've been spending the past 6 months living in a frightening emotional rollercoaster.  Covid-19 has devastated so many lives, and the extent of the long-term increase in mental illness, depression, and negative feelings are still unknown. I, like many, have been dealing with feelings of loneliness and isolation.
- 
+
+
 What does this have to do with solitaire?  Well, let me take you back.  When I was young, the internet wasn't mainstream.  My parents couldn't afford the long-distance phone calls needed to dial into a remote BBS or one of the fledgling ISPs.  I lived far from town, and I was a lonely kid, obsessed with the technology we had available to us 30 years ago. 
  
 I don't like to dwell on my childhood, but these past months of social distancing have brought me back to those days.  One of the shared obsessions many of us had back in the day was computer solitaire.  It has some very interesting qualities.  1.  It's easy to play, but you're not guaranteed a win.  Not at all, many forms of solitaire are quite difficult to win. 2.  You can play it alone, with nothing but a deck of cards and your mind. 
