@@ -11,29 +11,31 @@ Like many of us, I've been spending the past 6 months living in a frightening em
 
 What does this have to do with solitaire?  Well, let me take you back.  When I was young, the internet wasn't mainstream.  My parents couldn't afford the long-distance phone calls needed to dial into a remote BBS or one of the fledgling ISPs.  I lived far from town, and I was a lonely kid, obsessed with the technology we had available to us 30 years ago. 
  
-I don't like to dwell on my childhood, but these past months of social distancing have brought me back to those days.  One of the shared obsessions many of us had back in the day was computer solitaire.  It has some very interesting qualities.  1.  It's easy to play, but you're not guaranteed a win.  Not at all, many forms of solitaire are quite difficult to win. 2.  You can play it alone, with nothing but a deck of cards and your mind. 
+I don't like to dwell on my childhood, but these past months of social distancing have brought me back to those days.  One of the shared obsessions many of us had back in the day was computer solitaire.  Solitaire has some very interesting qualities.  1.  It's easy to play, but you're not guaranteed a win, indeed many forms of solitaire are quite difficult to win. 2.  You can play it alone, with nothing but a deck of cards and your mind. 
  
 So, I set about to create my own solitaire variant.  As usual, I went way overboard, then spent many iterations removing features and scope-cutting till I had a fun core game loop. 
  
 I started with a huge design guide.  Dungeons and Dragons or Magic the Gathering as my inspiration.  The deck itself provides the random number generator instead of dice.  Each card was an enemy on an enemy table.  Complex rules, Pokemon style card battling and capturing mechanics.  Monster affinity and weakness types. Complex stats.  It neither playtested well nor was it easy to remember.  There were elements I enjoyed though.
 
-![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-1.jpg){:width=200px}
-![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-2.jpg){:width=200px}
-![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-3.jpg){:width=200px}
-![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-4.jpg){:width=200px}
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-1.jpg" width="200">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-2.jpg" width="200">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-3.jpg" width="200">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-4.jpg" width="200">
+
 
  
 I enjoyed the card capture / battle mechanics.  I enjoyed the progression across a game board (like dungeon solitaire).  I enjoyed the feeling of winning against tough odds (more on those odds later!)
  
 So, I began to cut scope.  A v2 began to take shape.  Each card suit mapped to a creature type, and battle mechanics were still too complex. It didn't play-test well, but I could tell there was something there.  The core game loop was starting to become fun, but needed some balancing.
 
-![Solitaire V2](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire2.jpg){:width=200px}
 
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire2.jpg" width="200">
  
 By the time I cut it down to a few easy core rules, the fun began to come back into it.  When I realized the board could be dealt a hand at a time "encounter style" such that you only need a small space to play, I started to really enjoy this "commander solitaire" variant (as one of my playtesters coined it.)
  
-![Solitaire V3](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire3.jpg){:width=200px}
-
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire3.jpg" width="200">
+ 
 
 It started to feel very playable, and fun, but it felt like I almost never won!  How to quantify that though, and how to balance?
  
@@ -56,5 +58,5 @@ Rules of commander solitaire
 - When you reach level 7, that's the boss level.  Same rules, but there's only one boss, and they are worth 3*level*value.  (i.e. if the boss is a queen of spades, and the level suit is hearts, and you're playing a level 4 game, the boss is worth (queen)*3*level = 11*3*3 = 99)
  
  
-And those are all the rules.  I've been quite verbose above, it's generally quite simple, simple enough for young children and easy enough to remember when you're stressed, bored, or just can't look at a computer screen any longer.
+And those are all the rules.  I've been quite verbose above, it's generally quite simple, simple enough for young children and easy enough to remember when you're stressed, bored, or just can't look at a computer screen any longer.  Simulator below ->
  
