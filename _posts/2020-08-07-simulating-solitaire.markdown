@@ -16,22 +16,22 @@ So, I set about to create my own solitaire variant.  As usual, I went way overbo
  
 I started with a huge design guide.  Dungeons and Dragons or Magic the Gathering as my inspiration.  The deck itself provides the random number generator instead of dice.  Each card was an enemy on an enemy table.  Complex rules, Pokemon style card battling and capturing mechanics.  Monster affinity and weakness types. Complex stats.  It neither playtested well nor was it easy to remember.  There were elements I enjoyed though.
 
-![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-1.jpg)
-![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-2.jpg)
-![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-3.jpg)
-![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-4.jpg)
+![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-1.jpg){:width=200px}
+![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-2.jpg){:width=200px}
+![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-3.jpg){:width=200px}
+![Solitaire V1](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-4.jpg){:width=200px}
 
  
 I enjoyed the card capture / battle mechanics.  I enjoyed the progression across a game board (like dungeon solitaire).  I enjoyed the feeling of winning against tough odds (more on those odds later!)
  
 So, I began to cut scope.  A v2 began to take shape.  Each card suit mapped to a creature type, and battle mechanics were still too complex. It didn't play-test well, but I could tell there was something there.  The core game loop was starting to become fun, but needed some balancing.
 
-![Solitaire V2](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire2.jpg)
+![Solitaire V2](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire2.jpg){:width=200px}
 
  
 By the time I cut it down to a few easy core rules, the fun began to come back into it.  When I realized the board could be dealt a hand at a time "encounter style" such that you only need a small space to play, I started to really enjoy this "commander solitaire" variant (as one of my playtesters coined it.)
  
-![Solitaire V3](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire3.jpg)
+![Solitaire V3](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire3.jpg){:width=200px}
 
 
 It started to feel very playable, and fun, but it felt like I almost never won!  How to quantify that though, and how to balance?
