@@ -51,11 +51,11 @@ Rules of commander solitaire
 - Draw a number of cards equal to your level.  Each one is in play.
 - The final card you drew in the previous step is your 'suit' card.  All cards of this suit are worth double this game.
 - Each game has 7 encounters with enemy groups
-- Draw a number of "enemy" cards as follows.  Level,Level,Level+1,Level+2,Level+2,Level+2, Boss card.  For example, if you select a 'level 3' game, and it's the third round, you'll draw Level+2 cards = 5 cards.
+- Draw a number of "enemy" cards as follows.  Level,Level,Level+1,Level+1,Level+2,Level+2, Boss card.  For example, if you select a 'level 3' game, and it's the third round, you'll draw Level+2 cards = 5 cards.
 - Add up the total value of your cards.  (remember to double the value of cards that match this level's suit)
 - Add up the total value of your enemy cards (remember to double the value of cards that don't match this level's suit)
 - If your cards total more than your enemy's cards, you win this round.  You are allowed to swap ONE of your enemy's cards with one of your non-commander cards.
-- When you reach level 7, that's the boss level.  Same rules, but there's only one boss, and they are worth 3*level*value.  (i.e. if the boss is a queen of spades, and the level suit is hearts, and you're playing a level 4 game, the boss is worth (queen)*3*level = 11*3*3 = 99)
+- When you reach level 7, that's the boss level.  Same rules, but there's only one boss, and they are worth 3xlevelxvalue.  (i.e. if the boss is a queen of spades, and the level suit is hearts, and you're playing a level 4 game, the boss is worth (queen)x3xlevel = 11x3x3 = 99)
  
  
 And those are all the rules.  I've been quite verbose above, it's generally quite simple, simple enough for young children and easy enough to remember when you're stressed, bored, or just can't look at a computer screen any longer.  Simulator below ->
