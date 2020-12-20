@@ -1,16 +1,14 @@
 ---
 layout: post
-title: I hacked the new Atari Mini Pong Jr. Console
+title: I bought and hacked the Atari Mini Pong Jr. So You Don't Have To! 
 date: '2020-12-20 08:33:24'
 ---
- 
+This story starts, as most of my hardware hacking stories do: a stupid impulse purchase.  In this case, it's the Atari mini pong Jr.  I'm pretty sure (judging from stock levels) I'm the only one dumb enough to pick this one up.  So, I set about to hack the thing.  It's almost disappointing, as this isn't as much of a 'hack' as it is 'this system is wide open.'  Here's what I've been able to determine/do with zero hardware modification. (TLDR; Everything.  Install and run apps, usb devices, adb shell, etc)
 
+ 
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/dec/recentfiles.jpg" width="200">
 
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/dec/Screenshot_1970-01-02-08-46-26.png" width="200">
-
-
-This story starts, as most of my hardware hacking stories do: a stupid impulse purchase.  In this case, it's the Atari mini pong Jr.  I'm pretty sure (judging from stock levels) I'm the only one dumb enough to pick this one up.  So, I set about to hack the thing.  It's almost disappointing, as this isn't as much of a 'hack' as it is 'this system is wide open.'  Here's what I've been able to determine/do with zero hardware modification. (TLDR; Everything.  Install and run apps, usb devices, adb shell, etc)
 
 
 I started by simply connecting to my linux laptop via usb-micro.  Adb devices showed an open debug device, and adb connect worked.  From there, you can install anything, launch packages or apps, etc.  Usb peripherals work, and from the looks of it usb ethernet would also allow for internet connectivity and wireless adb.  Given the under-powered nature of the device (see geekbench below) I don't find it's particular worthwhile to install retroarch etc, but if you're looking to get some more mileage out of your device it'll be easy peasy. 
