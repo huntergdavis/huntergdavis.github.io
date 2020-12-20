@@ -34,51 +34,51 @@ Random thoughts / info ->
 
 Package list ->
 
-root@astar-y3:/ # pm list packages -f
-package:/system/app/PrintSpooler.apk=com.android.printspooler
-package:/system/priv-app/DefaultContainerService.apk=com.android.defcontainer
-package:/system/framework/framework-res.apk=android
-package:/system/priv-app/Settings.apk=com.android.settings
-package:/system/priv-app/ContactsProvider.apk=com.android.providers.contacts
-package:/data/app/com.UNIS.MiniPongAutoTest-1.apk=com.UNIS.MiniPongAutoTest
-package:/system/priv-app/ExternalStorageProvider.apk=com.android.externalstorage
-package:/system/app/PartnerBookmarksProvider.apk=com.android.providers.partnerbookmarks
-package:/system/app/LatinIME.apk=com.android.inputmethod.latin
-package:/system/priv-app/TeleService.apk=com.android.phone
-package:/system/app/BasicDreams.apk=com.android.dreams.basic
-package:/system/app/WisdomTest.apk=com.wisdom.WisdomTest
-package:/system/priv-app/ProxyHandler.apk=com.android.proxyhandler
-package:/system/app/HTMLViewer.apk=com.android.htmlviewer
-package:/system/app/AllApp.apk=com.rk_itvui.allapp
-package:/system/priv-app/SystemUI.apk=com.android.systemui
-package:/system/app/LiveWallpapersPicker.apk=com.android.wallpaper.livepicker
-package:/system/app/SpeechRecorder.apk=com.android.speechrecorder
-package:/system/app/KeyChain.apk=com.android.keychain
-package:/system/priv-app/InputDevices.apk=com.android.inputdevices
-package:/system/app/PackageInstaller_WD.apk=com.android.packageinstaller
-package:/system/priv-app/hc_sy.apk=com.hc.rotation
-package:/system/app/TelephonyProvider.apk=com.android.providers.telephony
-package:/system/app/LiveWallpapers.apk=com.android.wallpaper
-package:/system/app/FileExplore.apk=com.softwinner.explore
-package:/system/priv-app/PicoTts.apk=com.svox.pico
-package:/system/priv-app/OneTimeInitializer.apk=com.android.onetimeinitializer
-package:/system/app/DownloadProviderUi.apk=com.android.providers.downloads.ui
-package:/system/app/UserDictionaryProvider.apk=com.android.providers.userdictionary
-package:/system/app/Update.apk=com.softwinner.update
-package:/system/app/DocumentsUI.apk=com.android.documentsui
-package:/system/priv-app/SharedStorageBackup.apk=com.android.sharedstoragebackup
-package:/system/priv-app/FusedLocation.apk=com.android.location.fused
-package:/system/priv-app/BackupRestoreConfirmation.apk=com.android.backupconfirm
-package:/system/priv-app/SettingsProvider.apk=com.android.providers.settings
-package:/system/priv-app/VpnDialogs.apk=com.android.vpndialogs
-package:/system/priv-app/Keyguard.apk=com.android.keyguard
-package:/system/app/Provision.apk=com.android.provision
-package:/data/app/com.UNIS.MiniPong-1.apk=com.UNIS.MiniPong
-package:/system/app/PacProcessor.apk=com.android.pacprocessor
-package:/system/priv-app/MediaProvider.apk=com.android.providers.media
-package:/system/priv-app/Shell.apk=com.android.shell
-package:/system/app/CertInstaller.apk=com.android.certinstaller
-package:/system/priv-app/DownloadProvider.apk=com.android.providers.downloads
+- root@astar-y3:/ # pm list packages -f
+- package:/system/app/PrintSpooler.apk=com.android.printspooler
+- package:/system/priv-app/DefaultContainerService.apk=com.android.defcontainer
+- package:/system/framework/framework-res.apk=android
+- package:/system/priv-app/Settings.apk=com.android.settings
+- package:/system/priv-app/ContactsProvider.apk=com.android.providers.contacts
+- package:/data/app/com.UNIS.MiniPongAutoTest-1.apk=com.UNIS.MiniPongAutoTest
+- package:/system/priv-app/ExternalStorageProvider.apk=com.android.externalstorage
+- package:/system/app/PartnerBookmarksProvider.apk=com.android.providers.partnerbookmarks
+- package:/system/app/LatinIME.apk=com.android.inputmethod.latin
+- package:/system/priv-app/TeleService.apk=com.android.phone
+- package:/system/app/BasicDreams.apk=com.android.dreams.basic
+- package:/system/app/WisdomTest.apk=com.wisdom.WisdomTest
+- package:/system/priv-app/ProxyHandler.apk=com.android.proxyhandler
+- package:/system/app/HTMLViewer.apk=com.android.htmlviewer
+- package:/system/app/AllApp.apk=com.rk_itvui.allapp
+- package:/system/priv-app/SystemUI.apk=com.android.systemui
+- package:/system/app/LiveWallpapersPicker.apk=com.android.wallpaper.livepicker
+- package:/system/app/SpeechRecorder.apk=com.android.speechrecorder
+- package:/system/app/KeyChain.apk=com.android.keychain
+- package:/system/priv-app/InputDevices.apk=com.android.inputdevices
+- package:/system/app/PackageInstaller_WD.apk=com.android.packageinstaller
+- package:/system/priv-app/hc_sy.apk=com.hc.rotation
+- package:/system/app/TelephonyProvider.apk=com.android.providers.telephony
+- package:/system/app/LiveWallpapers.apk=com.android.wallpaper
+- package:/system/app/FileExplore.apk=com.softwinner.explore
+- package:/system/priv-app/PicoTts.apk=com.svox.pico
+- package:/system/priv-app/OneTimeInitializer.apk=com.android.onetimeinitializer
+- package:/system/app/DownloadProviderUi.apk=com.android.providers.downloads.ui
+- package:/system/app/UserDictionaryProvider.apk=com.android.providers.userdictionary
+- package:/system/app/Update.apk=com.softwinner.update
+- package:/system/app/DocumentsUI.apk=com.android.documentsui
+- package:/system/priv-app/SharedStorageBackup.apk=com.android.sharedstoragebackup
+- package:/system/priv-app/FusedLocation.apk=com.android.location.fused
+- package:/system/priv-app/BackupRestoreConfirmation.apk=com.android.backupconfirm
+- package:/system/priv-app/SettingsProvider.apk=com.android.providers.settings
+- package:/system/priv-app/VpnDialogs.apk=com.android.vpndialogs
+- package:/system/priv-app/Keyguard.apk=com.android.keyguard
+- package:/system/app/Provision.apk=com.android.provision
+- package:/data/app/com.UNIS.MiniPong-1.apk=com.UNIS.MiniPong
+- package:/system/app/PacProcessor.apk=com.android.pacprocessor
+- package:/system/priv-app/MediaProvider.apk=com.android.providers.media
+- package:/system/priv-app/Shell.apk=com.android.shell
+- package:/system/app/CertInstaller.apk=com.android.certinstaller
+- package:/system/priv-app/DownloadProvider.apk=com.android.providers.downloads
 
 
  
