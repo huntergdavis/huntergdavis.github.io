@@ -30,6 +30,23 @@ Second Lightbulb moment!  SDL 1.2 doesn't just support framebuffer backends.  It
 4. Emulators are plentiful and run on all kinds of hardware (Android, game devices, etc)
  
 
+So, I set about my plan. 
+
+1.  Install the kallistos libraries and cross-compile environment
+2.  compile kallistos-ports (including sdl1.2)
+3.  update instantiation for johnny to dreamcast specific 
+4.  compile executable
+5.  assemble iso
+6.  test on emulator
+
+Out of scope for this initial release
+1. Updating dc-specific features (i.e. VMU support)
+2. Testing on actual hardware (I'll need to buy one that supports reading CD-R disks, pre-2000 manufacture date)
+
+
+
+
+
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/dec/recentfiles.jpg" width="600">
 
 
