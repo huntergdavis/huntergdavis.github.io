@@ -5,7 +5,7 @@ date: '2021-03-10 08:33:24'
 ---
 Once again, I am reminded of how much the past influences our future, and the choices we make.  In my case, it's a twisty tale that starts simply enough, but ends with Johnny Castaway running natively from a ramdisk on systems with as little as 64mb.  Interested?  Read on.  Want to download it for yourself right now?  Skip to the end!
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/64mb_ram_vm_boot.webm" width="640">
+https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/64mb_ram_vm_boot.webm
 
 
 This story starts with wonderful news, one of the talented developers working to re-implement Johnny Castaway has done so in a languge I quite enjoy (ansi c), and quite successfully.  When I stumbled upon the newest code for 'Johnny Reborn' (https://github.com/jno6809/jc_reborn), written by the talented Jérémie GUILLAUME, a few things stood out to me:
@@ -62,7 +62,7 @@ And that's about it!  You can download a live ISO that'll boot to ram from any s
 Here's a video of that very ISO booting from a burnt-CD (remember those!) on my beloved 2001 era Thinkpad (256mb RAM)
 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/thinkpad_johnny_960.webm" width="640">
+https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/thinkpad_johnny_960.webm" width="640"
 
 
 
