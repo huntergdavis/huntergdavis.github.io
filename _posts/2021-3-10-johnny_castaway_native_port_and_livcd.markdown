@@ -63,7 +63,7 @@ Anyway, back to the live CD, I was looking to boot with a dynamically linked SDL
 
 And that's about it!  You can download a live ISO that'll boot to ram from any supported medium (17 megabytes or above, sorry floppy friends!)  [here](https://github.com/huntergdavis/jc_reborn/blob/SDL1.2/johnny_dc.iso)  A giant thanks to [Jérémie GUILLAUME](https://github.com/jno6809) for re-implementing Johnny in a clean, portable format that really made my day!! 
 
-[Here's a video of that very ISO booting from a burnt-CD (remember those!) on my beloved 2001 era Thinkpad (256mb RAM)](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/thinkpad_johnny_960.webm" width="640")
+[Here's a video of that very ISO booting from a burnt-CD (remember those!) on my beloved 2001 era Thinkpad (256mb RAM)](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/thinkpad_johnny_960.webm)
 
 
 
