@@ -62,7 +62,7 @@ And that's about it!  You can download a live ISO that'll boot to ram from any s
 Here's a video of that very ISO booting from a burnt-CD (remember those!) on my beloved 2001 era Thinkpad (256mb RAM)
 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/64mb_ram_vm_boot.webm" width="640">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/thinkpad_johnny_960.webm" width="640">
 
 
 
