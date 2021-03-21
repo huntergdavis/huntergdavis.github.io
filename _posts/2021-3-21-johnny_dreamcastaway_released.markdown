@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Johnny Dreamcastaway Released 
+title: Johnny Dreamcastaway Released! 
 date: '2021-03-21 08:33:24'
 ---
 Johnny Castaway for the Dreamcast is now released!  I like to call it Johnny Dreamcastaway, and it didn't take me too long to port. It's working splendidly!  A glorious internal 640x480 screen resolution and a rock-solid 60 FPS carry you forward to your private island with "Johnny Dreamcastaway." Read on for more info and downloads!
