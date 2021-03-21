@@ -3,17 +3,16 @@ layout: post
 title: Johnny Dreamcastaway Released 
 date: '2021-03-21 08:33:24'
 ---
-Johnny Castaway for the Dreamcast is now released!  I like to call it Johnny Dreamcastaway, and it didn't take me too long to port. It's working splendidly!  A glorious internal 640x480 screen resolution and a rock-solid 60 FPS carry you forward to your private island with "Johnny Dreamcastaway"
+Johnny Castaway for the Dreamcast is now released!  I like to call it Johnny Dreamcastaway, and it didn't take me too long to port. It's working splendidly!  A glorious internal 640x480 screen resolution and a rock-solid 60 FPS carry you forward to your private island with "Johnny Dreamcastaway." Download a self-booting CDI image for your dreamcast [here](https://github.com/huntergdavis/jc_reborn/blob/DreamSDK/johnny.cdi), or read on for more info and downloads!
 
 You can download a .CDI image to emulate or burn for a real Dreamcast [here](https://github.com/huntergdavis/jc_reborn/blob/DreamSDK/johnny.cdi)
 You can download the unscrambed release .elf to emulate [here](https://github.com/huntergdavis/jc_reborn/blob/DreamSDK/johnny_dreamcastaway.elf)
 You can view the source code [here](https://github.com/huntergdavis/jc_reborn/tree/DreamSDK)
 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/vbox_johnny_emu.png" width="1126">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/johnny_emu.png" width="1126">
 
-
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/vbox_johnny_load.gif" width="640">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/johnny_load.gif" width="640">
 
 
 As I wrote last week, I stumbled upon the newest code for 'Johnny Reborn' (https://github.com/jno6809/jc_reborn), written by the talented Jérémie GUILLAUME, and immediately wanted to port it to the Dreamcast.
