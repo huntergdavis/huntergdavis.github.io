@@ -3,7 +3,7 @@ layout: post
 title: Johnny Casaway RetroFW Released! 
 date: '2021-07-25 16:33:24'
 ---
-Johnny Castaway for RetroFW devices is now released!  This is the firmware that you'll find running on all your favorite Chinese handheld devices.  Things  like the LDK game, RG-300, RS97, etc.  It is based on my SDL 1.2 port of the engine, and seems to work really well. 
+Johnny Castaway for RetroFW devices is now released!  This is the firmware that you'll find running on all your favorite Chinese handheld devices.  Things  like the LDK game, RG-300, RS97, etc.  It is based on my SDL 1.2 port of the engine, and generally works very well. 
 
 There's not much to the install, just download the .ipk file and install it from your RetroFW file manager.  You'll have a launchable Johnny Castaway icon/shortcut in your applications folder. You can press any key to exit. 
 
