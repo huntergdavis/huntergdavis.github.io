@@ -132,13 +132,9 @@ Launch the 'Server-Duke3d' link we created above first.  Select your server opti
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/duke_nukem_server.jpg" width="1126">
 
 
-After you're in, you can launch the client link we created above on any other RetroFW devices we're networked to.  
+After you're in, you can launch the client link we created above on any other RetroFW devices we're networked to.  Finally, we'll power it all on and get to gaming!
 
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/duke_nukem_coop.jpg" width="1126">
 
-
-Finally, we'll power it all on and get to gaming!
-
-https://www.youtube.com/watch?v=C1WritVPKYI
 
 And that's that.  I've noticed that the RetroFW port of snes9x still has the netplay code compiled in, that's a logic next target for multiplayer gaming via "link cable."  Stay tuned!
