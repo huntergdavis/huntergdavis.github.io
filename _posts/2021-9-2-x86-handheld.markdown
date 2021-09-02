@@ -18,6 +18,23 @@ The problem is emulation overhead.  We can emulate a PS1 on these low-end chipse
 
 It doesn't have to be though!  A one gigahertz processor, a gig of ram, if we were running these games directly instead of emulating the original hardware, that would be more than enough!  Indeed, in the following article I show that it is, and there are a great number of PS2-era games I show running in full speed.  You might just be surprised how powerful 1ghz really is.  Interested?  Read on!  
 
+I set about to put together an X86 handheld.  A really shitty one, the lowest end hardware I could find.  I figured, if I can show these games running great on the lowest spec chip available, that'll really prove the point.  I made some mistakes and bad assumptions along the way, while also learning a ton and even challenging some of my own assumptions. 
+
+The section wherein I spec the hardware. 
+
+I started by searching around (I usually start on Hackaday or github) for anyone else who has built an x86 handheld lately.  I found a couple of interesting articles:
+
+[Wherein a hacker uses a stick PC](https://forum.level1techs.com/t/building-a-x86-handheld-gaming-pc/146654)
+[Wherein a hacker uses an old laptop](https://hackaday.com/2018/07/12/old-laptop-reborn-as-mobile-x86-game-system/)
+
+This is certainly not a new or novel idea, that's good news!!  
+
+I especially liked the idea of using a stick PC.  Easily upgradeable, many were produced quite cheaply, and standard I/O (hdmi/SD card/ USB/wifi/bluetooth)
+
+I stumbled upon the lowest end intel compute stick. 1gb ram, 8gb rom, intel atom x86 processor at 1.4ghz.  These can be found regularly on ebay for 30$ or so, given that the operating system they come with is fundamentally broken.  You see, the original intel compute stick 1gb/8gb came with stock ubuntu.  Stock ubuntu now requires more than 8gb of space to update, and thus these sticks run out of storage space on intitial boot-up, requiring a new OS.  That's too much work for most users, but no touble for my needs, I'll be installing linux fresh anyway.  
+
+So 30$ into this build, and I make my first truly wrong assumption.  I assumed that for this project a display would need to be 800x600. 
+
 
 
 EVERYTHING BELOW THIS LINE IS FROM THE LAST ARTICLE
