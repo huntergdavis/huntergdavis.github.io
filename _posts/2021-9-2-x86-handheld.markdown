@@ -33,7 +33,41 @@ I especially liked the idea of using a stick PC.  Easily upgradeable, many were 
 
 I stumbled upon the lowest end intel compute stick. 1gb ram, 8gb rom, intel atom x86 processor at 1.4ghz.  These can be found regularly on ebay for 30$ or so, given that the operating system they come with is fundamentally broken.  You see, the original intel compute stick 1gb/8gb came with stock ubuntu.  Stock ubuntu now requires more than 8gb of space to update, and thus these sticks run out of storage space on intitial boot-up, requiring a new OS.  That's too much work for most users, but no touble for my needs, I'll be installing linux fresh anyway.  
 
-So 30$ into this build, and I make my first truly wrong assumption.  I assumed that for this project a display would need to be 800x600. 
+So 30$ into this build, and I make my first truly wrong assumption.  I assumed that for this project a display would need to be 800x600.  Any LCD I use for this project, I'm going to want a 4:3 aspect ratio.  During the time period these games were made, there were really three main resolutions most everything supported.  At the top end: 1024x768.  More common in the mid-range was 800x600.  Finally there was the low-end 640x480, which to my recollection was a more common resolution a bit earlier in the 90s.  (an incorrect assumption on my part)
+
+While I can easily test the compute stick on it's own using my nexdock, it doesn't support those 3 target resolutions.  In order to test the games, I was going to need to pick up a test monitor.  I ended up finding a 4:3 8" security camera monitor that supported 1024x768, 800x600, and 640x480.
+
+OK, so we have display and processing, what about storage?  Well, the 8gb it comes with is certainly enough to install a lightweight linux (I've found that Bodhi is a nice balance of small install size and full features).  I also wanted to know how games perform in other scenarios, whether playing directly from SD card, usb thumb drive, or SSD. The results were surprising!
+
+The section wherein I talk about disk performance. 
+
+So, I set about to test PS2-era games on this hardware, using a variety of storage mechanisms.  Here are the results:
+- M2 SSD over USB 2.0 port. -> Slow slow slow!  The USB port on these devices is rather limited, and I never saw over 20mb/sec transfer rate.  Random access was anecdotally abysmal. 
+- USB thumb drive over USB 2.0 port -> Slow slow slow!  Again, the USB port is the limiter here.  
+- SD card via internal SD card slot -> Not bad actually! System boot time is a bit slower compared to internal MMC, but game performance is equivalent.  This was unexpected!
+- Internal MMC -> About the same as the SD card slot, just a bit faster on boot.  
+
+To swap or not to swap?  
+For the above hardware scenarios, I tested out four different swap methodologies. 
+1. No swap at all
+2. Swapfile
+3. Swap partition co-located on same device as data partition
+4. Swap partition on internal MMC, data on separate device.
+
+There are scenarios where having a swap file helps, but that's mostly because of Steam.  For example, when playing the Steam version of Saints Row 2 there's not enough memory to hold both Steam, and Saints row. With 1gb of ram total and 128mb of that allocated towards the GPU, we're sitting around 881mb of usable memory.  Steam can easily use 500mb.  Saints Row 2 does as well.  Enabling swap allows the steam memory usage to get swapped out to disk, at which point you can play the game without major stuttering. 
+
+That said, the real solution here is quite simple.  DON'T USE STEAM.  
+
+Don't get me wrong, I love Steam.  LOVE IT.  I've been on the platform since half life 2 launch day, average about 200 purchases per year since launch, I'm invested in the platform.  Steam however, is not good for a 1gb system.  The webviews are slow, large libraries will take forever to load, and even with 'low bandwidth' and 'low performance' mode turned on, your experience will be poor. Also you won't have enough ram leftover to run most games. 
+
+No, my recommendation here is quite straightforward: [GOG.com](https://www.gog.com) and [Lutris](https://lutris.net/)
+
+I'm a big fan of GOG.  They are invested in preserving classic games, and they release them DRM-free.  It's that DRM that often makes games unplayable on modern systems or via linux/wine/proton, and most Steam games will be drm'd up to hell.  (Props to the folks at DoubleFine, the Steam linux version of Psychonauts is DRM-free!)
+
+I've also recently found out about [Lutris](https://lutris.net/), a community-driven interface for installing windows games within linux via wine.  It automates most of the process, keeps a low memory profile, and the resultant installs are portable across installs (helpful if you're re-installing different versions of linux on the daily, as I was for this article.)
+
+
+
 
 
 
