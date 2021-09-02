@@ -35,7 +35,7 @@ I stumbled upon the lowest end intel compute stick. 1gb ram, 8gb rom, intel atom
 
 So 30$ into this build, and I make my first truly wrong assumption.  I assumed that for this project a display would need to be 800x600.  Any LCD I use for this project, I'm going to want a 4:3 aspect ratio.  During the time period these games were made, there were really three main resolutions most everything supported.  At the top end: 1024x768.  More common in the mid-range was 800x600.  Finally there was the low-end 640x480, which to my recollection was a more common resolution a bit earlier in the 90s.  (an incorrect assumption on my part)
 
-While I can easily test the compute stick on it's own using my nexdock, it doesn't support those 3 target resolutions.  In order to test the games, I was going to need to pick up a test monitor.  I ended up finding a 4:3 8" security camera monitor that supported 1024x768, 800x600, and 640x480.
+While I can easily test the compute stick on it's own using my nexdock, it doesn't support those 3 target resolutions.  In order to test the games, I was going to need to pick up a test monitor.  I ended up finding a 4:3 8" eyoyo security camera monitor that supported 1024x768, 800x600, and 640x480. They sell a bunch of similar models [Eyoyo](https://eyoyomall.com/)
 
 OK, so we have display and processing, what about storage?  Well, the 8gb it comes with is certainly enough to install a lightweight linux (I've found that Bodhi is a nice balance of small install size and full features).  I also wanted to know how games perform in other scenarios, whether playing directly from SD card, usb thumb drive, or SSD. The results were surprising!
 
@@ -66,7 +66,72 @@ I'm a big fan of GOG.  They are invested in preserving classic games, and they r
 
 I've also recently found out about [Lutris](https://lutris.net/), a community-driven interface for installing windows games within linux via wine.  It automates most of the process, keeps a low memory profile, and the resultant installs are portable across installs (helpful if you're re-installing different versions of linux on the daily, as I was for this article.)
 
+After trying a great number of combinations of linux distros and window managers, here's how I ended up setting up my linux partitions and install.
+- No Swap whatsoever.  
+- 50mb (yes megabyte) fat16 EFI partition, first partition of the internal 8gb MMC.  You'll need fat16 here as the minimum fat32 partition size is 256mb
+- 7gb (remaining space) ext4 partition, second partition of the internal 8gb MMC.  Mounted as / (root directory of linux filesystem)
+- 128gb (or whatever size SD card you have) ext4 partition, first partition of the SD card inserted into the SD card slot.  I use a cheap microcenter U3 SD card (12$)
 
+I went with [Bhodhi Linux](https://www.bodhilinux.com/), for the following reasons:
+- Supports fat12/fat16 efi boot partitioning in the installer
+- A full 1gb less space used for root filesystem than even #!++ distro(this was a surprise!)
+- enlightenment window manager, no screen tearing, low resource usage
+- debian based, easy to install Lutris from PPE and steam from .deb package
+
+
+So, at this point we have our Linux base system.  You can do a few things from here. 
+- I tend to immediately install vim (I'm spoiled, sorry vi)
+- apt install wine and winetricks
+- apt install steam_latest.deb (downloaded from store.steampowered.com).  If you're like me, you've got a ton of Steam games, some of which are DRM-free (looking at you Tim Schaefer)
+- add the lutris PPA 
+- Adjust your screen resolution.  I'll discuss this more shortly, but 640x480 is actually a great resolution for every single game tested.  No need to scour for an 800x600 LCD. 
+
+Let's talk Games!
+
+The best part of this project has been getting to actually play all of my favorite games from the early 2000s.  Here's the list of games I cover, prepare to be surprised!
+
+- Psychonauts 
+- Clive Barker's Undying
+- The Simpsons: Road Rage
+- Fallout and Fallout 2
+- Halo: CE
+- No One Lives Forever
+- Portal
+- Saints Row 2
+- Warcraft 3 
+- XIII Classic
+- Beyond Good and Evil
+- Prince of Persia - The Sands of Time
+- Rayman 3
+- Serious Sam: The First Encounter
+- American Mcgee's Alice
+- Freddy Pharkas Fontier Pharmacist (bonus, not really a tough game to run)
+
+
+Let's go through these, one at a time, and I'll walk y'all through setup and performance of each.  Videos and screenshots incoming! 
+
+Psychonauts 
+
+You knew this was going to be top of the list this week!  I've been mightly impressed with Psychonauts 2, and it's got me wanting to dive back into the original. 
+Version: I installed the steam-linux native version, copied it out of /.local/steam/steamapps/common and into my games directory.
+Visual Settings: 640x480, low detail.  
+Swap concerns: No swap needed. 
+Input: XInput Controller supported
+
+
+OK, so I've shown that this chipset is capable of running games that are a generational leap over other low-end handhelds. How cheaply can we put one together ourselves?
+
+Parts list:
+- Intel 8gb/1gb compute stick.  eBay - 30$
+- 640x480 5" LCD w/ HDMI compatible controller board and video cable.  26$
+- 64gb U3 class microsd, microcenter checkout aisle special.  5$
+- bluetooth telescoping tablet controller generic, xinput compatible 13$
+- 2x 2000mah usb battery packs (one for display, one for CPU), 5$ at any supermarket
+
+So, retail cost using off-the-shelf components, 79$.  How would we bring this price down if we were designing our own system?
+- Swap out the telescoping tablet controller for a cheap microcontroller/arduino and some button switches/hats.  Could shave off 5$ here.
+- Purchase the LCD controller+display in bulk instead of one-off, the above is sourced from a set of replacement parts for off the shelf LCD displays. Preferably a simpler controller board that eschews the AV/BNC/VGA connections.  Could shave off 10$ here. 
+- Purchase 
 
 
 
