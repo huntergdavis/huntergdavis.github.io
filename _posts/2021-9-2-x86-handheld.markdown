@@ -4,6 +4,20 @@ title: The Steamin' Deck, A Low-End X86 Handheld
 date: '2021-09-02 08:33:24'
 ---
 
+Y'all probably know, I love games.  I'm also way into handheld gaming, portable consoles, processors, embedded systems and retro gaming in a major way.  I pick up every cheap chinese handheld I can find, love my switch, and am just a major portable and retro gaming enthusiast.  So you can imagine my excitement when the Steam deck was announced.  Of course I preordered, hell I've bought everything GPD has ever released.  
+
+However, it got me thinking, pondering, stewing.  More than a little concerned, I realized that we, as an industry and as a culture of gamers, are missing a critical option.  We've taken a wrong turn at the low-end, and it's holding us back.  
+
+We're missing a generation of games. 
+
+See, here's the thing. For the past decade or so, if I pick up a cheap chinese handheld (think 20-60$, my sweet spot), I know what I'm getting.  A dual or quad core processor, probably right around a gigahertz, running an ARM or MIPS instruction set.  Somewhere between 128 and 1gb of ram. an SD Card for storage.  A low-resolution screen.  You've seen these devices, hell they are my bread and butter for fun porting projects.  These are the anerbics, the gpis, the compute module handhelds.  They are varied and sip battery power oh so slowly.  And they top out at emulating consoles from the 90s. (And some GBA, which in my mind is really a 90s console that released in the 2000s.)
+
+We, as a gaming culture, have hit the 'trough of sorrow' when it comes to our low-end devices. There's an entire segment missing in our market.  At the high-end, we've got plenty of competition.  300-1200$ devices, high-end X86 processors that are capable of running the newest (or nearly newest) games at high resolution and high speed. In the mid-range, that's when we switch processor architectures.  Mid-range gaming portables are universally ARM devices, running a low power chipset with an ARM instruction set.  Think the GPD XD, razor android gaming handheld, etc. At the low-end, the market is saturated with cheap MIPS and low-end ARM processors.  Why is this a problem?
+
+The problem is emulation overhead.  We can emulate a PS1 on these low-end chipsets.  To emulate a PS2, still requires a top of the line system.  The top of the line steam deck may still struggle to emulate some PS2 titles. It may be another 10 or 20 years before we can emulate a PS2 on a cheap 50$ handheld, if ever.  And it has been this way for over a decade. 
+
+It doesn't have to be though!  A one gigahertz processor, a gig of ram, if we were running these games directly instead of emulating the original hardware, that would be more than enough!  Indeed, in the following article I show that it is, and there are a great number of PS2-era games I show running in full speed.  You might just be surprised how powerful 1ghz really is.  Interested?  Read on!  
+
 
 
 EVERYTHING BELOW THIS LINE IS FROM THE LAST ARTICLE
