@@ -11,6 +11,8 @@ However, it got me thinking.  That thinking turned to pondering, and stewing.  M
 
 **We're missing a generation of games on the go no longer!**
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2uorZ2MeuFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablepsychonauts.png" width="500">
 
 See, here's the thing. For the past decade or so, if I pick up a cheap chinese handheld (think 20-60$, my sweet spot), I know what I'm getting.  A dual or quad core processor, probably right around a gigahertz, running an ARM or MIPS instruction set.  Somewhere between 128 and 1gb of ram. an SD Card for storage.  A low-resolution screen.  You've seen these devices, hell they are my bread and butter for fun porting projects.  These are the anerbics, the gpis, the compute module handhelds.  They are varied and sip battery power oh so slowly.  And they top out at emulating consoles from the 90s. (And some GBA, which in my mind is really a 90s console that released in the 2000s.)
@@ -194,9 +196,9 @@ From here, it's straightforward.  Boot into Linux and load some games!
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablesimpsons.png" width="500">
 
 
-Here's a video of The Simpsons Road Rage now "on the go!" 
+Here's a video of Psychonauts now "on the go!" 
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q4a1jqBOFpM" title="Psychonauts Portable" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For an alpha handheld, the Steamin' Deck meets 3 out of the 4 main criteria I have for a handheld
 1. Portable
