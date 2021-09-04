@@ -104,7 +104,7 @@ When I think about the PS2, my thoughts go back to my neighbor who had one.  He 
 
 Here's a video of 2 of these surprise games: Portal and Need for Speed Underground 2
 
-https://youtu.be/FoPb4Hd53iU
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FoPb4Hd53iU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The best part of this project has been getting to actually play all of my favorite games from the early 2000s.  Here's the full list of games I tested, all running at 640x480 
 
@@ -142,7 +142,7 @@ You knew this was going to be top of the list this week!  I've been mightly impr
 
 Here's a video I put together, using a direct HDMI capture from the compute stick, showing a few minutes of most of the games mentioned in this article. 
 
-https://www.youtube.com/watch?v=eus8CUsRFEY
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eus8CUsRFEY" title="gaming on the compute stick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 OK, so I've shown that this chipset is capable of running games that are a generational leap over other low-end handhelds. How cheaply can we put one together ourselves?
 
@@ -196,3 +196,18 @@ From here, it's straightforward.  Boot into Linux and load some games!
 Here's a video of The Simpsons Road Rage and Psychonauts, now "on the go!" 
 
 
+
+For an alpha handheld, it's meets 3 out of the 4 main criteria I have for a handheld
+1. Portable
+2. Plays the games I want to play, right now
+3. It's cheap
+4. ~~Fits in my pocket~~
+
+I'm pretty sure I can tackle the pocketability with a few improvements for the next version
+
+1. Use a telescoping game controller, center of gravity above screen. Smaller and no need for the strain-relief bolt.
+2. Find some smaller usb battery packs, the one I have at home is gigantic. 
+3. Switch from an 8" screen to a 5" screen or smaller. 
+
+
+Until then, be excellent to each other and game on!
