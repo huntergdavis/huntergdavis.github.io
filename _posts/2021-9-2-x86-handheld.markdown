@@ -11,7 +11,7 @@ However, it got me thinking.  That thinking turned to pondering, and stewing.  M
 
 **We're missing a generation of games on the go no longer!**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2uorZ2MeuFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1000" height="600" src="https://www.youtube.com/embed/2uorZ2MeuFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablepsychonauts.png" width="500">
 
@@ -107,7 +107,7 @@ When I think about the PS2, my thoughts go back to my neighbor who had one.  He 
 
 Here's a video of 2 of these surprise games: Portal and Need for Speed Underground 2
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FoPb4Hd53iU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1000" height="600" src="https://www.youtube.com/embed/FoPb4Hd53iU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The best part of this project has been getting to actually play all of my favorite games from the early 2000s.  Here's the full list of games I tested, all running at 640x480 
 
@@ -145,7 +145,7 @@ You knew this was going to be top of the list this week!  I've been mightly impr
 
 Here's a video I put together, using a direct HDMI capture from the compute stick, showing a few minutes of most of the games mentioned in this article. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eus8CUsRFEY" title="gaming on the compute stick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1000" height="600" src="https://www.youtube.com/embed/eus8CUsRFEY" title="gaming on the compute stick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 OK, so I've shown that this chipset is capable of running games that are a generational leap over other low-end handhelds. How cheaply can we put one together ourselves?
 
@@ -198,7 +198,7 @@ From here, it's straightforward.  Boot into Linux and load some games!
 
 Here's a video of Psychonauts now "on the go!" 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q4a1jqBOFpM" title="Psychonauts Portable" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1000" height="600" src="https://www.youtube.com/embed/Q4a1jqBOFpM" title="Psychonauts Portable" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For an alpha handheld, the Steamin' Deck meets 3 out of the 4 main criteria I have for a handheld
 1. Portable
