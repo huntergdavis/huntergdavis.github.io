@@ -21,7 +21,7 @@ We, as a gaming culture, have hit the 'trough of sorrow' when it comes to our lo
 
 The problem is emulation overhead.  We can emulate a PS1 on these low-end chipsets.  To emulate a PS2 still requires a top of the line system.  The top of the line steam deck may still struggle to emulate some PS2 titles. It may be another 10 or 20 years before we can emulate a PS2 on a cheap 50$ handheld, if ever.  And it has been this way for over a decade. 
 
-It doesn't have to be though!  A one gigahertz processor, a gig of ram, if we were running these games directly instead of emulating the original hardware, that would be more than enough!  Indeed, in the following article I show that it is, and there are a great number of PS2-era games I show running in full speed.  You might just be surprised how powerful 1ghz really is.  Interested?  Read on!  
+It doesn't have to be though!  A one gigahertz processor, a gig of ram, if we were running these games directly instead of emulating the original hardware, that would be more than enough!  Indeed, in the following article I show that it is, and there are a great number of PS2-era PC games I show running in full speed.  You might just be surprised how powerful 1ghz really is.  Interested?  Read on!  
 
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/simpsons.png" width="640">
 
@@ -45,13 +45,13 @@ I stumbled upon the lowest end intel compute stick. 1gb ram, 8gb rom, intel atom
 
 So 30$ into this build, and I make my first truly wrong assumption.  I assumed that for this project a display would need to be 800x600.  Any LCD I use for this project, I'm going to want a 4:3 aspect ratio.  During the time period these games were made, there were really three main resolutions most everything supported.  At the top end: 1024x768.  More common in the mid-range was 800x600.  Finally there was the low-end 640x480, which to my recollection was a more common resolution a bit earlier in the 90s.  (an incorrect assumption on my part)
 
-While I can easily test the compute stick on it's own using my nexdock, it doesn't support those 3 target resolutions.  In order to test the games, I was going to need to pick up a test monitor.  I ended up finding a 4:3 8" eyoyo security camera monitor that supported 1024x768, 800x600, and 640x480. They sell a bunch of similar models, here's there (corporate homepage?) [Eyoyo](https://eyoyomall.com/)
+While I can easily test the compute stick on it's own using my nexdock, it doesn't support those 3 target resolutions.  In order to test the games, I was going to need to pick up a test monitor.  I ended up finding a 4:3 8" eyoyo security camera monitor that supported 1024x768, 800x600, and 640x480. They sell a bunch of similar models, this brand -> [Eyoyo](https://eyoyomall.com/)
 
 OK, so we have display and processing, what about storage?  Well, the 8gb it comes with is certainly enough to install a lightweight linux (I've found that Bodhi is a nice balance of small install size and full features).  I also wanted to know how games perform in other scenarios, whether playing directly from SD card, usb thumb drive, or SSD. The results were surprising!
 
 *The section wherein I talk about disk performance.*
 
-So, I set about to test PS2-era games on this hardware, using a variety of storage mechanisms.  Here are the results:
+So, I set about to test PS2-era PC games on this hardware, using a variety of storage mechanisms.  Here are the results:
 - M2 SSD over USB 2.0 port. -> Slow slow slow!  The USB port on these devices is rather limited, and I never saw over 20mb/sec transfer rate.  Random access was anecdotally abysmal. 
 - USB thumb drive over USB 2.0 port -> Slow slow slow!  Again, the USB port is the limiter here.  
 - SD card via internal SD card slot -> Not bad actually! System boot time is a bit slower compared to internal MMC, but game performance is equivalent.  This was unexpected!
@@ -84,7 +84,7 @@ After trying a great number of combinations of linux distros and window managers
 - No Swap whatsoever.  
 - 50mb (yes megabyte) fat16 EFI partition, first partition of the internal 8gb MMC.  You'll need fat16 here as the minimum fat32 partition size is 256mb
 - 7gb (remaining space) ext4 partition, second partition of the internal 8gb MMC.  Mounted as / (root directory of linux filesystem)
-- 128gb (or whatever size SD card you have) ext4 partition, first partition of the SD card inserted into the SD card slot.  I use a cheap microcenter U3 SD card (12$)
+- 128gb (or whatever size SD card you have) ext4 partition, first partition of the SD card inserted into the SD card slot. Mounted as /home  (I use a cheap microcenter U3 SD card ~12$)
 
 I went with [Bhodhi Linux](https://www.bodhilinux.com/), for the following reasons:
 - Supports fat12/fat16 efi boot partitioning in the installer
@@ -97,9 +97,9 @@ I went with [Bhodhi Linux](https://www.bodhilinux.com/), for the following reaso
 So, at this point we have our Linux base system.  You can do a few things from here. 
 - I tend to immediately install vim (I'm spoiled, sorry vi)
 - apt install wine and winetricks
-- apt install steam_latest.deb (downloaded from store.steampowered.com).  If you're like me, you've got a ton of Steam games, some of which are DRM-free (looking at you Tim Schaefer)
+- apt install steam_latest.deb (downloaded from store.steampowered.com).  If you're like me, you've got a ton of Steam games, some of which are DRM-free (looking at you Tim Schafer)
 - add the lutris PPA 
-- Adjust your screen resolution.  I'll discuss this more shortly, but 640x480 is actually a great resolution for every single game tested.  No need to scour for an 800x600 LCD. 
+- Adjust your screen resolution.  I'll discuss this in more detail shortly, but 640x480 is actually a great resolution for every single game tested.  No need to scour for an 800x600 LCD. 
 
 Let's talk Games!
 
@@ -135,7 +135,7 @@ A word about Psychonauts
 
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/psychonauts.png" width="640">
 
-You knew this was going to be top of the list this week!  I've been mightly impressed with Psychonauts 2, and it's got me wanting to dive back into the original.  When I found out the Steam version was (1: linux native) and (2: DRM free), it warranted a special mention. 
+You knew this was going to be top of mind this week!  I've been mightly impressed with Psychonauts 2, and it's got me wanting to dive back into the original.  When I found out the Steam version was (1: linux native) and (2: DRM free), it warranted a special mention. 
 
 *Notes ->*
 - Version: I installed the steam-linux native version, copied it out of /.local/steam/steamapps/common and into my games directory.
@@ -160,7 +160,7 @@ Parts list:
 
 So, retail cost using off-the-shelf components, 79$.  How would we bring this price down if we were designing our own system?
 - Swap out the keyboard/touchpad for a cheap microcontroller/arduino and some button switches/hats.  Could shave off 5$ here.
-- Purchase the LCD controller+display in bulk instead of one-off, the above is sourced from a set of replacement parts for off the shelf LCD displays. Preferably a simpler controller board that eschews the AV/BNC/VGA connections.  Could shave off a few dollars here. and there, but honestly the big savings would need to come in the cost of the LCD, or the SBC used to drive the device.  
+- Purchase the LCD controller+display in bulk instead of one-off, the above is sourced from a set of replacement parts for off the shelf LCD displays. Preferably a simpler controller board that eschews the AV/BNC/VGA connections.  Could shave off a few dollars here and there, but honestly the big savings would need to come in the cost of the LCD, or the SBC used to drive the device.  
 
 So for now, 80$ is the low-end of the DIY 'Steamin Deck'  I'll be keeping my eye on the sbc market, always on the look-out for an affordable, underpowered x86 chipset.  Handheld makers hear my plea, the low-end market is ripe for upheaval!   
 
@@ -196,7 +196,7 @@ From here, it's straightforward.  Boot into Linux and load some games!
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablesimpsons.png" width="500">
 
 
-Here's a video of Psychonauts now "on the go!" 
+Here's a video of Psychonauts "on the go!" 
 
 <iframe width="900" height="600" src="https://www.youtube.com/embed/Q4a1jqBOFpM" title="Psychonauts Portable" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -208,7 +208,7 @@ For an alpha handheld, the Steamin' Deck meets 3 out of the 4 main criteria I ha
 
 I'm pretty sure I can tackle the pocketability with a few improvements for the next version
 
-1. Use a telescoping game controller, center of gravity above screen. Smaller and no need for the strain-relief bolt.
+1. Use a telescoping game controller, bringing up the center of gravity and reducing the overall footprint. Smaller and no need for the strain-relief bolt.
 2. Find some smaller usb battery packs, the one I have at home is gigantic. 
 3. Switch from an 8" screen to a 5" screen or smaller. 
 
