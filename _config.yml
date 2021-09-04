@@ -19,7 +19,7 @@ description: The personal blog of Hunter G. Davis
 keywords: computer, science, hacker, javascript, emulator, gaming, leadership
 
 ##define this for disqus comment support
-disqus: www.hunterdavis.com
+#disqus: www.hunterdavis.com
 
 ##set this to enable google analytics
 #ga_id: 

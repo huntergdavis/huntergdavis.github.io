@@ -2,6 +2,7 @@
 layout: post
 title: The Steamin' Deck, A Low-End X86 Handheld 
 date: '2021-09-02 08:33:24'
+featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablepsychonauts.png'
 ---
 
 Y'all probably know, I love games.  I'm also way into handheld gaming, portable consoles, processors, embedded systems and retro gaming in a major way.  I pick up every cheap chinese handheld I can find, love my switch, and am just a major portable and retro gaming enthusiast.  So you can imagine my excitement when the Steam deck was announced.  Of course I preordered, hell I've bought everything GPD has ever released.  
@@ -10,7 +11,7 @@ However, it got me thinking.  That thinking turned to pondering, and stewing.  M
 
 **We're missing a generation of games on the go no longer!**
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablepsychonauts.png" width="1000">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablepsychonauts.png" width="500">
 
 See, here's the thing. For the past decade or so, if I pick up a cheap chinese handheld (think 20-60$, my sweet spot), I know what I'm getting.  A dual or quad core processor, probably right around a gigahertz, running an ARM or MIPS instruction set.  Somewhere between 128 and 1gb of ram. an SD Card for storage.  A low-resolution screen.  You've seen these devices, hell they are my bread and butter for fun porting projects.  These are the anerbics, the gpis, the compute module handhelds.  They are varied and sip battery power oh so slowly.  And they top out at emulating consoles from the 90s. (And some GBA, which in my mind is really a 90s console that released in the 2000s.)
 
@@ -165,39 +166,39 @@ With that said, I set about to put together an alpha version of the Steamin Deck
 
 First, how to connect a controller?  I have a few clips around, I'll sacrifice one for this project.  A little bit of dremel work later, and we've got a controller clip that'll slide right under the hdmi port.
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminwithcontroller.png" width="1000">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminwithcontroller.jpg" width="1000">
 
 As always, there's quite a bit of leftovers once things are assembled. 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/leftovers.png" width="1000">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/leftovers.jpg" width="1000">
 
 From there, I start to assemble the rest of the parts.  First, I use a u-bend hdmi connector so the compute stick is parallel to the screen.  A rubber bumper keeps it from bending too far. 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminback.png" width="1000">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminback.jpg" width="1000">
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminside.png" width="1000">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminside.jpg" width="1000">
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminbacktop.png" width="1000">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminbacktop.jpg" width="1000">
 
 This seemed precarious, and likely to snap off, so I added a metal bracket to relieve some of the pressure on the controller clip
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminsupportbracket.png" width="1000">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminsupportbracket.jpg" width="1000">
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminbackbracket.png" width="1000">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminbackbracket.jpg" width="1000">
 
 From here, it's straightforward.  Boot into Linux and load some games! 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steamingrub.png" width="1000">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steamingrub.jpg" width="1000">
 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablesimpsons.png" width="1000">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablesimpsons.png" width="500">
 
 
-Here's a video of The Simpsons Road Rage and Psychonauts, now "on the go!" 
+Here's a video of The Simpsons Road Rage now "on the go!" 
 
 
 
-For an alpha handheld, it's meets 3 out of the 4 main criteria I have for a handheld
+For an alpha handheld, the Steamin' Deck meets 3 out of the 4 main criteria I have for a handheld
 1. Portable
 2. Plays the games I want to play, right now
 3. It's cheap
