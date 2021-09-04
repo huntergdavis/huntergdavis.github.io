@@ -2,6 +2,7 @@
 layout: post
 title: The Steamin' Deck, A Low-End X86 Handheld 
 date: '2021-09-02 08:33:24'
+featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablepsychonauts.png'
 ---
 
 Y'all probably know, I love games.  I'm also way into handheld gaming, portable consoles, processors, embedded systems and retro gaming in a major way.  I pick up every cheap chinese handheld I can find, love my switch, and am just a major portable and retro gaming enthusiast.  So you can imagine my excitement when the Steam deck was announced.  Of course I preordered, hell I've bought everything GPD has ever released.  
