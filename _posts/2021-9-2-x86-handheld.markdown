@@ -6,12 +6,11 @@ date: '2021-09-02 08:33:24'
 
 Y'all probably know, I love games.  I'm also way into handheld gaming, portable consoles, processors, embedded systems and retro gaming in a major way.  I pick up every cheap chinese handheld I can find, love my switch, and am just a major portable and retro gaming enthusiast.  So you can imagine my excitement when the Steam deck was announced.  Of course I preordered, hell I've bought everything GPD has ever released.  
 
-However, it got me thinking.  That thinking turned to pondering, and stewing.  More than a little concerned, I realized that we, as an industry and as a culture of gamers, are missing a critical option.  We've taken a wrong turn at the low-end, and it's holding us back.  
+However, it got me thinking.  That thinking turned to pondering, and stewing.  More than a little concerned, I realized that we, as an industry and as a culture of gamers, are missing a critical option.  We've taken a wrong turn at the low-end, and it's holding us back.
 
-**We're missing a generation of games**
+**We're missing a generation of games on the go no longer!**
 
-
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/simpsons.png" width="640">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablepsychonauts.png" width="1000">
 
 See, here's the thing. For the past decade or so, if I pick up a cheap chinese handheld (think 20-60$, my sweet spot), I know what I'm getting.  A dual or quad core processor, probably right around a gigahertz, running an ARM or MIPS instruction set.  Somewhere between 128 and 1gb of ram. an SD Card for storage.  A low-resolution screen.  You've seen these devices, hell they are my bread and butter for fun porting projects.  These are the anerbics, the gpis, the compute module handhelds.  They are varied and sip battery power oh so slowly.  And they top out at emulating consoles from the 90s. (And some GBA, which in my mind is really a 90s console that released in the 2000s.)
 
@@ -20,6 +19,8 @@ We, as a gaming culture, have hit the 'trough of sorrow' when it comes to our lo
 The problem is emulation overhead.  We can emulate a PS1 on these low-end chipsets.  To emulate a PS2 still requires a top of the line system.  The top of the line steam deck may still struggle to emulate some PS2 titles. It may be another 10 or 20 years before we can emulate a PS2 on a cheap 50$ handheld, if ever.  And it has been this way for over a decade. 
 
 It doesn't have to be though!  A one gigahertz processor, a gig of ram, if we were running these games directly instead of emulating the original hardware, that would be more than enough!  Indeed, in the following article I show that it is, and there are a great number of PS2-era games I show running in full speed.  You might just be surprised how powerful 1ghz really is.  Interested?  Read on!  
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/simpsons.png" width="640">
 
 I set about to put together an X86 handheld.  A really shitty one, the lowest end hardware I could find.  I figured if I can show these games running on the lowest spec chip available, that'll really prove the point.  I made some mistakes and bad assumptions along the way, while also learning a ton and even challenging some of my own assumptions. 
 
@@ -99,7 +100,7 @@ So, at this point we have our Linux base system.  You can do a few things from h
 
 Let's talk Games!
 
-When I think about the PS2, my thoughts go back to my neighbor who had one.  He had Need for Speed:Underground 2, and he would be playing it every single time I came over.  It was a great game, and "Riders on the Storm" + Snoop Dogg became a touchpoint in our lives.  That was a long time ago now, but it was a blast to play it on the go.  Same with The Simpsons: Road Rage, Psychonauts, the first Portal and Clive Barker's Undying.  Games I hadn't played in years. 
+When I think about the PS2, my thoughts go back to my neighbor who had one.  He had Need for Speed:Underground 2, and he would be playing it every single time I came over.  It was a great game, and "Riders on the Storm" + Snoop Dogg became a touchpoint in our lives.  That was a long time ago now, but it was a blast to play it on the go.  Same with The Simpsons: Hit and Run, Psychonauts, the first Portal and Clive Barker's Undying.  Games I hadn't played in years. 
 
 Here's a video of 2 of these surprise games: Portal and Need for Speed Underground 2
 
@@ -110,7 +111,7 @@ The best part of this project has been getting to actually play all of my favori
 - Psychonauts 
 - Need for Speed Underground 2
 - Clive Barker's Undying
-- The Simpsons: Road Rage
+- The Simpsons: Hit and Run
 - Fallout and Fallout 2
 - Halo: CE
 - No One Lives Forever
@@ -151,11 +152,47 @@ Parts list:
 - Intel 8gb/1gb compute stick.  eBay - 30$
 - 640x480 5" LCD w/ HDMI compatible controller board and video cable.  26$
 - 32gb U3 class microsd, microcenter checkout aisle special.  5$
-- controller generic, xinput compatible 13$
+- generic wireless mini keyboard+trackpad combo, 13$
 - 2x 2000mah usb battery packs (one for display, one for CPU), 5$ at any supermarket
 
 So, retail cost using off-the-shelf components, 79$.  How would we bring this price down if we were designing our own system?
-- Swap out the telescoping tablet controller for a cheap microcontroller/arduino and some button switches/hats.  Could shave off 5$ here.
+- Swap out the keyboard/touchpad for a cheap microcontroller/arduino and some button switches/hats.  Could shave off 5$ here.
 - Purchase the LCD controller+display in bulk instead of one-off, the above is sourced from a set of replacement parts for off the shelf LCD displays. Preferably a simpler controller board that eschews the AV/BNC/VGA connections.  Could shave off a few dollars here. and there, but honestly the big savings would need to come in the cost of the LCD, or the SBC used to drive the device.  
 
-So for now, 80$ is the low-end of the DIY 'Steamin Deck'  I'll be keeping my eye on the sbc market, always on the look-out for an affordable, underpowered x86 chipset.  Handheld makers hear my plea, the low-end market is ripe for upheaval!  
+So for now, 80$ is the low-end of the DIY 'Steamin Deck'  I'll be keeping my eye on the sbc market, always on the look-out for an affordable, underpowered x86 chipset.  Handheld makers hear my plea, the low-end market is ripe for upheaval!   
+
+With that said, I set about to put together an alpha version of the Steamin Deck using parts I had around my house, and the aforementioned test display. 
+
+First, how to connect a controller?  I have a few clips around, I'll sacrifice one for this project.  A little bit of dremel work later, and we've got a controller clip that'll slide right under the hdmi port.
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminwithcontroller.png" width="1000">
+
+As always, there's quite a bit of leftovers once things are assembled. 
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/leftovers.png" width="1000">
+
+From there, I start to assemble the rest of the parts.  First, I use a u-bend hdmi connector so the compute stick is parallel to the screen.  A rubber bumper keeps it from bending too far. 
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminback.png" width="1000">
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminside.png" width="1000">
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminbacktop.png" width="1000">
+
+This seemed precarious, and likely to snap off, so I added a metal bracket to relieve some of the pressure on the controller clip
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminsupportbracket.png" width="1000">
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminbackbracket.png" width="1000">
+
+From here, it's straightforward.  Boot into Linux and load some games! 
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steamingrub.png" width="1000">
+
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablesimpsons.png" width="1000">
+
+
+Here's a video of The Simpsons Road Rage and Psychonauts, now "on the go!" 
+
+
