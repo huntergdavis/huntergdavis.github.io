@@ -2,6 +2,8 @@
 layout: post
 title: I bought and hacked the Atari Mini Pong Jr. So You Don't Have To! 
 date: '2020-12-20 08:33:24'
+
+featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/dec/Screenshot_1970-01-02-08-46-26.png'
 ---
 This story starts, as most of my hardware hacking stories do: a stupid impulse purchase.  In this case, it's the Atari mini pong Jr.  I'm pretty sure (judging from stock levels) I'm the only one dumb enough to pick this one up.  So, I set about to hack the thing.  It's almost disappointing, as this isn't as much of a 'hack' as it is 'this system is wide open.'  Here's what I've been able to determine/do with zero hardware modification. (TLDR; Everything.  Install and run apps, usb devices, adb shell, etc)
 

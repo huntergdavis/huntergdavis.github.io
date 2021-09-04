@@ -3,6 +3,8 @@ layout: post
 title: Simulating Solitaire
 date: '2020-08-07 08:33:24'
 cardsimulator: true
+
+featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2020/solitaire-1-1.jpg'
 ---
  
  
