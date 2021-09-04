@@ -101,6 +101,7 @@ Let's talk Games!
 The best part of this project has been getting to actually play all of my favorite games from the early 2000s.  Here's the list of games I tested, all running at 640x480 
 
 - Psychonauts 
+- Need for Speed Underground 2
 - Clive Barker's Undying
 - The Simpsons: Road Rage
 - Fallout and Fallout 2
