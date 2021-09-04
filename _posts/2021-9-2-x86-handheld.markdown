@@ -10,6 +10,8 @@ However, it got me thinking, pondering, stewing.  More than a little concerned, 
 
 We're missing a generation of games. 
 
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/simpsons.png" width="640">
+
 See, here's the thing. For the past decade or so, if I pick up a cheap chinese handheld (think 20-60$, my sweet spot), I know what I'm getting.  A dual or quad core processor, probably right around a gigahertz, running an ARM or MIPS instruction set.  Somewhere between 128 and 1gb of ram. an SD Card for storage.  A low-resolution screen.  You've seen these devices, hell they are my bread and butter for fun porting projects.  These are the anerbics, the gpis, the compute module handhelds.  They are varied and sip battery power oh so slowly.  And they top out at emulating consoles from the 90s. (And some GBA, which in my mind is really a 90s console that released in the 2000s.)
 
 We, as a gaming culture, have hit the 'trough of sorrow' when it comes to our low-end devices. There's an entire segment missing in our market.  At the high-end, we've got plenty of competition.  300-1200$ devices, high-end X86 processors that are capable of running the newest (or nearly newest) games at high resolution and high speed. In the mid-range, that's when we switch processor architectures.  Mid-range gaming portables are universally ARM devices, running a low power chipset with an ARM instruction set.  Think the GPD XD, razor android gaming handheld, etc. At the low-end, the market is saturated with cheap MIPS and low-end ARM processors.  Why is this a problem?
@@ -20,11 +22,14 @@ It doesn't have to be though!  A one gigahertz processor, a gig of ram, if we we
 
 I set about to put together an X86 handheld.  A really shitty one, the lowest end hardware I could find.  I figured, if I can show these games running great on the lowest spec chip available, that'll really prove the point.  I made some mistakes and bad assumptions along the way, while also learning a ton and even challenging some of my own assumptions. 
 
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/serioussam.png" width="640">
+
 The section wherein I spec the hardware. 
 
 I started by searching around (I usually start on Hackaday or github) for anyone else who has built an x86 handheld lately.  I found a couple of interesting articles:
 
 [Wherein a hacker uses a stick PC](https://forum.level1techs.com/t/building-a-x86-handheld-gaming-pc/146654)
+
 [Wherein a hacker uses an old laptop](https://hackaday.com/2018/07/12/old-laptop-reborn-as-mobile-x86-game-system/)
 
 This is certainly not a new or novel idea, that's good news!!  
@@ -58,6 +63,8 @@ There are scenarios where having a swap file helps, but that's mostly because of
 
 That said, the real solution here is quite simple.  DON'T USE STEAM.  
 
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portalneedssteam.jpg" width="640">
+
 Don't get me wrong, I love Steam.  LOVE IT.  I've been on the platform since half life 2 launch day, average about 200 purchases per year since launch, I'm invested in the platform.  Steam however, is not good for a 1gb system.  The webviews are slow, large libraries will take forever to load, and even with 'low bandwidth' and 'low performance' mode turned on, your experience will be poor. Also you won't have enough ram leftover to run most games. 
 
 No, my recommendation here is quite straightforward: [GOG.com](https://www.gog.com) and [Lutris](https://lutris.net/)
@@ -65,6 +72,8 @@ No, my recommendation here is quite straightforward: [GOG.com](https://www.gog.c
 I'm a big fan of GOG.  They are invested in preserving classic games, and they release them DRM-free.  It's that DRM that often makes games unplayable on modern systems or via linux/wine/proton, and most Steam games will be drm'd up to hell.  (Props to the folks at DoubleFine, the Steam linux version of Psychonauts is DRM-free!)
 
 I've also recently found out about [Lutris](https://lutris.net/), a community-driven interface for installing windows games within linux via wine.  It automates most of the process, keeps a low memory profile, and the resultant installs are portable across installs (helpful if you're re-installing different versions of linux on the daily, as I was for this article.)
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/lutris.jpg" width="640">
 
 After trying a great number of combinations of linux distros and window managers, here's how I ended up setting up my linux partitions and install.
 - No Swap whatsoever.  
@@ -78,6 +87,7 @@ I went with [Bhodhi Linux](https://www.bodhilinux.com/), for the following reaso
 - enlightenment window manager, no screen tearing, low resource usage
 - debian based, easy to install Lutris from PPE and steam from .deb package
 
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/linux.jpg" width="640">
 
 So, at this point we have our Linux base system.  You can do a few things from here. 
 - I tend to immediately install vim (I'm spoiled, sorry vi)
@@ -88,7 +98,7 @@ So, at this point we have our Linux base system.  You can do a few things from h
 
 Let's talk Games!
 
-The best part of this project has been getting to actually play all of my favorite games from the early 2000s.  Here's the list of games I cover, prepare to be surprised!
+The best part of this project has been getting to actually play all of my favorite games from the early 2000s.  Here's the list of games I tested, all running at 640x480 
 
 - Psychonauts 
 - Clive Barker's Undying
@@ -104,172 +114,38 @@ The best part of this project has been getting to actually play all of my favori
 - Prince of Persia - The Sands of Time
 - Rayman 3
 - Serious Sam: The First Encounter
-- American Mcgee's Alice
 - Freddy Pharkas Fontier Pharmacist (bonus, not really a tough game to run)
 
 
-Let's go through these, one at a time, and I'll walk y'all through setup and performance of each.  Videos and screenshots incoming! 
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/fallout2.png" width="640">
 
-Psychonauts 
+A word about Psychonauts 
 
-You knew this was going to be top of the list this week!  I've been mightly impressed with Psychonauts 2, and it's got me wanting to dive back into the original. 
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/psychonauts.png" width="640">
+
+You knew this was going to be top of the list this week!  I've been mightly impressed with Psychonauts 2, and it's got me wanting to dive back into the original.  When I found out the Steam version was (1: linux native) and (2: DRM free), it warranted a special mention. 
 Version: I installed the steam-linux native version, copied it out of /.local/steam/steamapps/common and into my games directory.
 Visual Settings: 640x480, low detail.  
 Swap concerns: No swap needed. 
 Input: XInput Controller supported
 
+Here's a video I put together, using a direct HDMI capture from the compute stick, showing a few minutes of most of the games mentioned in this article. 
+
+https://www.youtube.com/watch?v=eus8CUsRFEY
 
 OK, so I've shown that this chipset is capable of running games that are a generational leap over other low-end handhelds. How cheaply can we put one together ourselves?
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/sandsoftime.png" width="640">
 
 Parts list:
 - Intel 8gb/1gb compute stick.  eBay - 30$
 - 640x480 5" LCD w/ HDMI compatible controller board and video cable.  26$
 - 64gb U3 class microsd, microcenter checkout aisle special.  5$
-- bluetooth telescoping tablet controller generic, xinput compatible 13$
+- controller generic, xinput compatible 13$
 - 2x 2000mah usb battery packs (one for display, one for CPU), 5$ at any supermarket
 
 So, retail cost using off-the-shelf components, 79$.  How would we bring this price down if we were designing our own system?
 - Swap out the telescoping tablet controller for a cheap microcontroller/arduino and some button switches/hats.  Could shave off 5$ here.
-- Purchase the LCD controller+display in bulk instead of one-off, the above is sourced from a set of replacement parts for off the shelf LCD displays. Preferably a simpler controller board that eschews the AV/BNC/VGA connections.  Could shave off 10$ here. 
-- Purchase 
+- Purchase the LCD controller+display in bulk instead of one-off, the above is sourced from a set of replacement parts for off the shelf LCD displays. Preferably a simpler controller board that eschews the AV/BNC/VGA connections.  Could shave off a few dollars here. and there, but honestly the big savings would need to come in the cost of the LCD, or the SBC used to drive the device.  
 
-
-
-
-EVERYTHING BELOW THIS LINE IS FROM THE LAST ARTICLE
-
-While I was in the process of porting Johnny Castaway over to RetroFW devices, I got to know a bit more about the firmware, and these devices.  I realized it would be possible to bridge the static usb debugging networks generated by each device.  I show here that even a Raspberry Pi Zero is more than capable of acting as a bridge host for multiple systems. 
-
-As this is a full networking solution, this opens the door to netplay for any emulator or application which supports ip networking.  Yes, multiplayer SNES, GB/GBC/GBA link cable emulation, Doom, cross-platform networking and more are all achievable now.  You can also watch a quick co-op game of Duke Nukem between an RG300 and an LDK game system over at [my YouTube channel](https://www.youtube.com/watch?v=C1WritVPKYI)
-
-<iframe width="853" height="480" src="https://www.youtube.com/embed/C1WritVPKYI" title="RG300 vs LDK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-First, a little backstory. I love Johnny Castaway. For the past 33 years I've found a way to get it running on every system within arms reach.  Lately that's meant porting the c version to various game consoles. Last week, that meant RetroFW devices like the LDK Game, RG3xx, and RS-97 series of handhelds and arcade machines.  I was having some trouble getting it running, and I had tried everything to capture the error logs.  I had tried graphical pop-ups, file output, nothing worked.  I was getting frustrated, and I began to go through the [RetroFW Source Code](https://github.com/retrofw/) and [documentation](https://github.com/retrofw/retrofw.github.io/wiki/Configuring-a-Toolchain).
-
-When I read that there was a hidden debugging network created when you plug the device into a host, I knew my troubles were over.  I could telnet straight in, execute my binary, and figure out the problem.  The problem, by the way, was that these devices don't ship with an SDL2 library built-in.  They do for SDL1 though, and I had already backported Johnny to SDL1.2, so that wasn't a big deal.  After that, it was smooth sailing. 
-
-Anyway, fast forward a week and I've been thinking about that debugging network all week.  Even though these devices don't support mounting other devices in host mode, they do present a virtual USB ethernet network in client mode.  A Raspberry pi zero costs 5-10$, that's a reasonable cost for a bridge device, barely more than  the cost of a USB cable. I set about to see if it were possible, and it turns out it's ridiculously easy.  Read on as I detail the four files you can edit to enable USB networking (and thus, multiplayer) on any RetroFW device. 
-
-Here's the gist of it. 
-- Step 1: Edit the network settings and launch link for RetroFW Device 1
-- Step 2: Edit the network settings and launch link for RetroFW Device 2
-- Step 3: Enable ipv4 forwarding on your bridge device
-- Step 4: Plug it all it, power it all on, and launch
-- Success!
-
-
-First, we'll edit the default network on the RetroFW device we want to be the 'server' for our Duke Nukem multiplayer lan party!  
-
-Mount the filesystem of your first RetroFW device, in this case an RG300, and edit '/etc/networking/interfaces' You're going to want to change the subnet address from 169.254.1.1 to 169.254.2.1.  Your interfaces file will look like
-
-    auto lo
-    iface lo inet loopback
-
-    allow-hotplug usb0
-    iface usb0 inet static
-           address 169.254.2.1
-           netmask 255.255.255.0
-           network 169.254.2.0
-           broadcast 169.254.2.255
-           up dnsmasq
-           up route add default gw 169.254.2.2
-           down killall dnsmasq
-
-
-Next, update your '/etc/dnsmasq.conf' file to match, like so:
-
-    interface=usb0
-    port=0
-    dhcp-range=169.254.2.2,169.254.2.2,255.255.255.0,12h
-    dhcp-option=3 
-
-Next, let's create a launch link for our duke nukem server launch. (make sure you've installed the RetroFW version of duke nukem 3d, most come with it installed by default.)  Here's what my '/RETROFW/apps/gmenu2x/sections/games/serverduke32.default.retrofw.lnk' looks like:
-
-    title=Server-EDuke32
-    description=Duke Nukem 3D port
-    icon=/home/retrofw/Ports.Pack/eduke32.opk#eduke32.png
-    opk[icon]=eduke32.png
-    exec=/home/retrofw/Ports.Pack/eduke32.opk
-    params=eduke32.elf -server
-    manual=eduke32.man.txt
-
-
-Next, we'll edit the default network on the RetroFW device we want to be the 'client' joining our Duke Nukem multiplayer lan party!! 
-
-Mount the filesystem of your second RetroFW device, in this case my trusty LDK game, and edit '/etc/networking/interfaces' You're going to want to change the subnet address from 169.254.1.1 to 169.254.3.1.  Your interfaces file will look like
-
-    auto lo
-    iface lo inet loopback
-
-    allow-hotplug usb0
-    iface usb0 inet static
-           address 169.254.3.1
-           netmask 255.255.255.0
-           network 169.254.3.0
-           broadcast 169.254.3.255
-           up dnsmasq
-           up route add default gw 169.254.3.2
-           down killall dnsmasq
-
-
-Next, update your '/etc/dnsmasq.conf' file to match, like so:
-
-    interface=usb0
-    port=0
-    dhcp-range=169.254.3.2,169.254.3.2,255.255.255.0,12h
-    dhcp-option=3 
-
-Next, let's create a launch link for our duke nukem client launch.  Here's what my '/RETROFW/apps/gmenu2x/sections/games/clientduke32.default.retrofw.lnk' looks like:
-
-    title=Client-EDuke32
-    description=Duke Nukem 3D port
-    icon=/home/retrofw/Ports.Pack/eduke32.opk#eduke32.png
-    opk[icon]=eduke32.png 
-    exec=/home/retrofw/Ports.Pack/eduke32.opk 
-    params=eduke32.elf -connect 169.254.2.1 
-    manual=eduke32.man.txt
-
-
-Next, we'll enable ipv4 forwarding on our bridge device.  Mount up your bridge device filesystem, in this case our RasPi Zero, and enable ipv4 forward in (at least for debian-esque systems) '/etc/sysctl.conf'.  
-
-Find the line that looks like:
-
-    #net.ipv4.ip_forward=1
-
-and uncomment it to look like:
-
-    net.ipv4.ip_forward=1
-
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/ip_forwarding.png" width="1126">
-
-
-For most systems, that's enough.  For raspbian, it doesn't include network manager by default.  Simply run:
-
-    sudo apt install network-manager network-manager-gnome
-
-and you'll be good to plug and play as many devices into your raspberry pi as you like, with no additional configuration. 
-
-Here you can see all of the files you need to edit, across all 3 systems in this scenario, in one photo:
-
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/retrofw_config_files.png" width="1126">
-
-
-Finally, let's get it all running.  I use a cheap microSD card I picked up at MicroCenter, and it's not particularly fast.  In this case it takes a full 2 minutes to boot.  Plug the Pi Zero into a power supply, in this case a cheap usb battery pack. I've found that even a cheap usb battery pack will keep this raspi bridge running for many, many hours. At any rate, wait a full 2 minutes before you plug in a device. 
-
-After your bridge device has booted, plug in your first RetroFW device to the RasPi. When the prompt to 'mount filesystem' comes up, hit 'b' for 'charge only', and after 5 seconds the virtual ethernet port will come up with the static IP that you set for the first device. 
-
-Next, plug in your second RetroFW device to the RasPi. When the prompt to 'mount filesystem' comes up, hit 'b' for 'charge only', and after 5 seconds the virtual ethernet port will come up with the static IP that you set for the client.
-
-At this point, provided ipv4 packet forwarding is working properly on your bridge device, your RetroFW devies are fully networked.  You know what that means, it's Duke Nukem 3D time!!
-
-Launch the 'Server-Duke3d' link we created above first.  Select your server options and launch the game proper. 
-
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/duke_nukem_server.jpg" width="1126">
-
-
-After you're in, you can launch the client link we created above on any other RetroFW devices we're networked to.  Finally, we'll power it all on and get to gaming!
-
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/duke_nukem_coop.jpg" width="1126">
-
-
-And that's that.  I've noticed that the RetroFW port of snes9x still has the netplay code compiled in, that's a logic next target for multiplayer gaming via "link cable."  Stay tuned!
+So for now, 80$ is the low-end of the DIY 'Steamin Deck'  I'll be keeping my eye on the sbc market, always on the look-out for an affordable, underpowered x86 chipset.  Handheld makers hear my plea, the low-end market is ripe for upheaval!  
