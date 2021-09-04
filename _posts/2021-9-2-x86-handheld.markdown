@@ -6,9 +6,10 @@ date: '2021-09-02 08:33:24'
 
 Y'all probably know, I love games.  I'm also way into handheld gaming, portable consoles, processors, embedded systems and retro gaming in a major way.  I pick up every cheap chinese handheld I can find, love my switch, and am just a major portable and retro gaming enthusiast.  So you can imagine my excitement when the Steam deck was announced.  Of course I preordered, hell I've bought everything GPD has ever released.  
 
-However, it got me thinking, pondering, stewing.  More than a little concerned, I realized that we, as an industry and as a culture of gamers, are missing a critical option.  We've taken a wrong turn at the low-end, and it's holding us back.  
+However, it got me thinking.  That thinking turned to pondering, and stewing.  More than a little concerned, I realized that we, as an industry and as a culture of gamers, are missing a critical option.  We've taken a wrong turn at the low-end, and it's holding us back.  
 
-We're missing a generation of games. 
+**We're missing a generation of games**
+
 
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/simpsons.png" width="640">
 
@@ -16,15 +17,15 @@ See, here's the thing. For the past decade or so, if I pick up a cheap chinese h
 
 We, as a gaming culture, have hit the 'trough of sorrow' when it comes to our low-end devices. There's an entire segment missing in our market.  At the high-end, we've got plenty of competition.  300-1200$ devices, high-end X86 processors that are capable of running the newest (or nearly newest) games at high resolution and high speed. In the mid-range, that's when we switch processor architectures.  Mid-range gaming portables are universally ARM devices, running a low power chipset with an ARM instruction set.  Think the GPD XD, razor android gaming handheld, etc. At the low-end, the market is saturated with cheap MIPS and low-end ARM processors.  Why is this a problem?
 
-The problem is emulation overhead.  We can emulate a PS1 on these low-end chipsets.  To emulate a PS2, still requires a top of the line system.  The top of the line steam deck may still struggle to emulate some PS2 titles. It may be another 10 or 20 years before we can emulate a PS2 on a cheap 50$ handheld, if ever.  And it has been this way for over a decade. 
+The problem is emulation overhead.  We can emulate a PS1 on these low-end chipsets.  To emulate a PS2 still requires a top of the line system.  The top of the line steam deck may still struggle to emulate some PS2 titles. It may be another 10 or 20 years before we can emulate a PS2 on a cheap 50$ handheld, if ever.  And it has been this way for over a decade. 
 
 It doesn't have to be though!  A one gigahertz processor, a gig of ram, if we were running these games directly instead of emulating the original hardware, that would be more than enough!  Indeed, in the following article I show that it is, and there are a great number of PS2-era games I show running in full speed.  You might just be surprised how powerful 1ghz really is.  Interested?  Read on!  
 
-I set about to put together an X86 handheld.  A really shitty one, the lowest end hardware I could find.  I figured, if I can show these games running great on the lowest spec chip available, that'll really prove the point.  I made some mistakes and bad assumptions along the way, while also learning a ton and even challenging some of my own assumptions. 
+I set about to put together an X86 handheld.  A really shitty one, the lowest end hardware I could find.  I figured if I can show these games running on the lowest spec chip available, that'll really prove the point.  I made some mistakes and bad assumptions along the way, while also learning a ton and even challenging some of my own assumptions. 
 
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/serioussam.png" width="640">
 
-The section wherein I spec the hardware. 
+*The section wherein I spec the hardware.*
 
 I started by searching around (I usually start on Hackaday or github) for anyone else who has built an x86 handheld lately.  I found a couple of interesting articles:
 
@@ -40,11 +41,11 @@ I stumbled upon the lowest end intel compute stick. 1gb ram, 8gb rom, intel atom
 
 So 30$ into this build, and I make my first truly wrong assumption.  I assumed that for this project a display would need to be 800x600.  Any LCD I use for this project, I'm going to want a 4:3 aspect ratio.  During the time period these games were made, there were really three main resolutions most everything supported.  At the top end: 1024x768.  More common in the mid-range was 800x600.  Finally there was the low-end 640x480, which to my recollection was a more common resolution a bit earlier in the 90s.  (an incorrect assumption on my part)
 
-While I can easily test the compute stick on it's own using my nexdock, it doesn't support those 3 target resolutions.  In order to test the games, I was going to need to pick up a test monitor.  I ended up finding a 4:3 8" eyoyo security camera monitor that supported 1024x768, 800x600, and 640x480. They sell a bunch of similar models [Eyoyo](https://eyoyomall.com/)
+While I can easily test the compute stick on it's own using my nexdock, it doesn't support those 3 target resolutions.  In order to test the games, I was going to need to pick up a test monitor.  I ended up finding a 4:3 8" eyoyo security camera monitor that supported 1024x768, 800x600, and 640x480. They sell a bunch of similar models, here's there (corporate homepage?) [Eyoyo](https://eyoyomall.com/)
 
 OK, so we have display and processing, what about storage?  Well, the 8gb it comes with is certainly enough to install a lightweight linux (I've found that Bodhi is a nice balance of small install size and full features).  I also wanted to know how games perform in other scenarios, whether playing directly from SD card, usb thumb drive, or SSD. The results were surprising!
 
-The section wherein I talk about disk performance. 
+*The section wherein I talk about disk performance.*
 
 So, I set about to test PS2-era games on this hardware, using a variety of storage mechanisms.  Here are the results:
 - M2 SSD over USB 2.0 port. -> Slow slow slow!  The USB port on these devices is rather limited, and I never saw over 20mb/sec transfer rate.  Random access was anecdotally abysmal. 
@@ -59,7 +60,7 @@ For the above hardware scenarios, I tested out four different swap methodologies
 3. Swap partition co-located on same device as data partition
 4. Swap partition on internal MMC, data on separate device.
 
-There are scenarios where having a swap file helps, but that's mostly because of Steam.  For example, when playing the Steam version of Saints Row 2 there's not enough memory to hold both Steam, and Saints row. With 1gb of ram total and 128mb of that allocated towards the GPU, we're sitting around 881mb of usable memory.  Steam can easily use 500mb.  Saints Row 2 does as well.  Enabling swap allows the steam memory usage to get swapped out to disk, at which point you can play the game without major stuttering. 
+There are scenarios where having a swap file helps, but that's mostly because of Steam.  For example, when playing the Steam version of Saints Row 2 (or Portal) there's not enough memory to hold both Steam, and a game like Saints row. With 1gb of ram total and 128mb of that allocated towards the GPU, we're sitting around 881mb of usable memory.  Steam can easily use 500mb.  Saints Row 2 does as well.  Enabling swap allows the steam memory usage to get swapped out to disk, at which point you can play the game without major stuttering. 
 
 That said, the real solution here is quite simple.  DON'T USE STEAM.  
 
@@ -131,10 +132,12 @@ A word about Psychonauts
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/psychonauts.png" width="640">
 
 You knew this was going to be top of the list this week!  I've been mightly impressed with Psychonauts 2, and it's got me wanting to dive back into the original.  When I found out the Steam version was (1: linux native) and (2: DRM free), it warranted a special mention. 
-Version: I installed the steam-linux native version, copied it out of /.local/steam/steamapps/common and into my games directory.
-Visual Settings: 640x480, low detail.  
-Swap concerns: No swap needed. 
-Input: XInput Controller supported
+
+*Notes ->*
+- Version: I installed the steam-linux native version, copied it out of /.local/steam/steamapps/common and into my games directory.
+- Visual Settings: 640x480, low detail.  
+- Swap concerns: No swap needed. 
+- Input: XInput Controller supported
 
 Here's a video I put together, using a direct HDMI capture from the compute stick, showing a few minutes of most of the games mentioned in this article. 
 
@@ -147,7 +150,7 @@ OK, so I've shown that this chipset is capable of running games that are a gener
 Parts list:
 - Intel 8gb/1gb compute stick.  eBay - 30$
 - 640x480 5" LCD w/ HDMI compatible controller board and video cable.  26$
-- 64gb U3 class microsd, microcenter checkout aisle special.  5$
+- 32gb U3 class microsd, microcenter checkout aisle special.  5$
 - controller generic, xinput compatible 13$
 - 2x 2000mah usb battery packs (one for display, one for CPU), 5$ at any supermarket
 
