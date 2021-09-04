@@ -19,7 +19,7 @@ description: The personal blog of Hunter G. Davis
 keywords: computer, science, hacker, javascript, emulator, gaming, leadership
 
 ##define this for disqus comment support
-disqus: www.hunterdavis.com
+#disqus: www.hunterdavis.com
 
 ##set this to enable google analytics
 #ga_id: 
@@ -33,6 +33,6 @@ links:
 ##put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
 about_image: placeholder.png
 ##comment this if you want full width posts with no sidebar
-sidebar: on
+#sidebar: on
 
 plugins: [jekyll-paginate]

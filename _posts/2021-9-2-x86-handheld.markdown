@@ -190,10 +190,10 @@ From here, it's straightforward.  Boot into Linux and load some games!
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steamingrub.jpg" width="1000">
 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablesimpsons.png" width="1000">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablesimpsons.png" width="500">
 
 
-Here's a video of The Simpsons Road Rage and another of Psychonauts, now "on the go!" 
+Here's a video of The Simpsons Road Rage now "on the go!" 
 
 
 
