@@ -98,7 +98,13 @@ So, at this point we have our Linux base system.  You can do a few things from h
 
 Let's talk Games!
 
-The best part of this project has been getting to actually play all of my favorite games from the early 2000s.  Here's the list of games I tested, all running at 640x480 
+When I think about the PS2, my thoughts go back to my neighbor who had one.  He had Need for Speed:Underground 2, and he would be playing it every single time I came over.  It was a great game, and "Riders on the Storm" + Snoop Dogg became a touchpoint in our lives.  That was a long time ago now, but it was a blast to play it on the go.  Same with The Simpsons: Road Rage, Psychonauts, the first Portal and Clive Barker's Undying.  Games I hadn't played in years. 
+
+Here's a video of 2 of these surprise games: Portal and Need for Speed Underground 2
+
+https://youtu.be/FoPb4Hd53iU
+
+The best part of this project has been getting to actually play all of my favorite games from the early 2000s.  Here's the full list of games I tested, all running at 640x480 
 
 - Psychonauts 
 - Need for Speed Underground 2
