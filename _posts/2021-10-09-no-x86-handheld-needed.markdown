@@ -11,6 +11,7 @@ I was working on a follow-up to the previous article on my x86 handheld, when I 
 Backing up, in what little free time I've had these past few months, I've been installing and configuring linux/wine/lutris on bay trail devices.  You can pick up these tablets on eBay for under 40$ fully decked out, and it's just this year that linux/alsa/wine all work together well without much headache on these tablets.  The only problem is that they're used, in short supply, and they are not making any more.  So it's not a permanent solution, but it is a nice option.  
 
 
+
 Then comes [TwisterOS](https://twisteros.com/about.html) and changes the game.  Now I can hop over to the Microcenter, pick up a 35-75$ board that plugs into any TV and uses any peripheral, and they're going to manufacture compatible units till the end of time. Nice. 
 
 
