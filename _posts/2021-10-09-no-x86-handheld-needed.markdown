@@ -7,13 +7,9 @@ featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/master
 
 I was working on a follow-up to the previous article on my x86 handheld, when I stumbled upon a technology that totally superseded it.  
 
-
 Backing up, in what little free time I've had these past few months, I've been installing and configuring linux/wine/lutris on bay trail devices.  You can pick up these tablets on eBay for under 40$ fully decked out, and it's just this year that linux/alsa/wine all work together well without much headache on these tablets.  The only problem is that they're used, in short supply, and they are not making any more.  So it's not a permanent solution, but it is a nice option.  
 
-
-
 Then comes [TwisterOS](https://twisteros.com/about.html) and changes the game.  Now I can hop over to the Microcenter, pick up a 35-75$ board that plugs into any TV and uses any peripheral, and they're going to manufacture compatible units till the end of time. Nice. 
-
 
 One interesting tidbit that I did glean from my time buying intel baytrail tablets (you know, the ones that have a 32-bit bios and a 64-bit processor?) is that Fedora 35 supports all of the ones I had out of the box, fully.  I can't even say that for windows 10.  It's a rock solid experience and a great way to play the Simpsons Hit and Run and many other games I wrote about in the previous article, quite cheaply (like 30-40$ for a used tablet cheaply.)
 
