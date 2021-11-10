@@ -4,11 +4,9 @@ title: 15$ for Direct HDMI Input on Oculus Go
 date: '2021-12-09 08:33:24'
 featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/oculus_hunter.jpg'
 ---
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/oculus_hunter.jpg" width="640">
-
 I'm going to come out and say it.  The Oculus Go is my favorite VR headset of 2021, maybe ever.  Yes, [that Oculus go](https://www.oculus.com/go/), the cheap one they don't sell anymore.  I'm currently playing through a [Magnesium 173](https://store.steampowered.com/app/1157200/Magnesium_173/) via Steam Streaming to my PC, emulating light gun games in retroarch, and playing Switch games directly through HDMI! 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/cables_for_oculus_hdmi.jpg" width="640">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/oculus_hunter.jpg" width="640">
 
 I had my eye on one since launch, but with the ties to Facebook and the Facebook login requirement, I kept my distance.  When John Carmack released a rooted/unlocked firmware for the device earlier this fall, I knew it was time to pick one up. 
 
