@@ -4,17 +4,17 @@ title: 15$ for Direct HDMI Input on Oculus Go
 date: '2021-12-09 08:33:24'
 featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/oculus_hunter.jpg'
 ---
-I'm going to come out and say it.  The Oculus Go is my favorite VR headset of 2021, maybe ever.  Yes, [that Oculus go](https://www.oculus.com/go/), the cheap one they don't sell anymore.  I'm currently playing through a [Magnesium 173](https://store.steampowered.com/app/1157200/Magnesium_173/) via Steam Streaming to my PC, emulating light gun games in retroarch, and playing Switch games directly through HDMI! 
+I'm going to come out and say it.  The Oculus Go is my favorite VR headset of 2021, maybe ever.  Yes, [that Oculus go](https://www.oculus.com/go/), the cheap one they don't sell anymore.  I'm currently playing through [Magnesium 173](https://store.steampowered.com/app/1157200/Magnesium_173/) via Steam Streaming to my PC, emulating light gun games in retroarch, and playing Switch games directly through HDMI! 
 
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/oculus_hunter.jpg" width="640">
 
 I had my eye on one since launch, but with the ties to Facebook and the Facebook login requirement, I kept my distance.  When John Carmack released a rooted/unlocked firmware for the device earlier this fall, I knew it was time to pick one up. 
 
-You don't need to have a Facebook account, just submit the form to become an Oculus developer and you can create an Oculus account.  This will let you set up the device for the first time (for now, I'm sure an untethered setup hack is coming soon.)
+You don't need to have a Facebook account, just submit the form to become an Oculus developer and you can create an Oculus account.  This will let you set up the device for the first time (for now... I'm sure an untethered setup hack is coming soon.)
 
 I was really enjoying playing around with it, streaming Steam games from my PC and Xbox games from the cloud.  Retroarch works great, especially light gun games!  (Duck Hunt, House of the Dead, Confidential Mission)
 
-It is not, however, powerful enough to emulate the Switch.  Hell it's not powerful enough to emulate the Gamecube at a reasonable speed.  So how then, am I going to play Metroid Dread on it?  
+It is not powerful enough to emulate the Switch.  Hell it's not powerful enough to emulate the Gamecube at a reasonable speed.  So how then, am I going to play Metroid Dread on it?  
 
 OK, for sure, I could emulate it on my PC and stream it on over.  That'll work fine.  What if I don't want to emulate?  What if I want to use any HDMI capable device, directly on the Go, without having any wifi or internet connectivity requirements?
 
@@ -32,7 +32,7 @@ Android supports this form of USB video well, but you'll need to install a viewe
 
 You'll need to enable developer mode and sideloading, then side load in your USB capture software.  
 
-Here's a great guide for enabling developer mode and sideloading on an Oculus Go. 
+[Here's a guide](https://developer.oculus.com/documentation/native/android/mobile-device-setup/) for enabling developer mode and sideloading on an Oculus Go. 
 
 Once we have all of our cables and software ready, plug them into the Oculus
 
