@@ -30,9 +30,10 @@ No Logs? No Repro? 1. Check Google Play Dev console for a crash log. 2. Check cr
 
 OK, so you have a log.. now what? 1. Filter for error level. 2. Look for output (you’re looking for exceptions). These exceptions are your problems!   
 
-![No Errors? 1. Up your log filter to warning, then debug, then info. Use ‘cat log.txt | grep “e/”‘ 2. Repeat until you find an error.](http://www.hunterdavis.com/content/images/2014/04/page5.png)
 
-No Errors? 1. Up your log filter to warning, then debug, then info. Use ‘cat log.txt | grep “e/”‘ 2. Repeat until you find an error.   
+![No Errors? Up your log filter to warning, then debug, then info](http://www.hunterdavis.com/content/images/2014/04/page5.png)
+
+No Errors? Up your log filter to warning, then debug, then info. Use ‘cat log.txt | grep “e/”‘ Repeat until you find an error.   
 
 ![So you have an ERROR! That’s a good thing! Now you have a Roadmap!](http://www.hunterdavis.com/content/images/2014/04/page6.png)]
 
