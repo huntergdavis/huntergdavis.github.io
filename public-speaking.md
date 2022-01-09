@@ -64,6 +64,8 @@ I have a long personal history working with military personnel, and related publ
 
 <img src="http://www.hunterdavis.com/content/images/2019/hunter_onstage_january_2019.jpeg" height="300">
 
+# Leadership
+
 <a id='leadership'>Engineering and Business Leadership</a>
 <br>
 I'm currently Director of Engineering at RealSelf, and I've been leading engineering teams since the early 2000s. Here are select public speaking appearances and articles related to Engineering and Business Leadership.
