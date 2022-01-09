@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Public Speaking
+title: Leadership and Public Speaking
 image: "/content/images/2019/tux.png"
 date: '2019-01-13 18:14:58'
 
@@ -10,6 +10,7 @@ tags:
 - outreach
 - public-speaking
 - apprenticeship
+- leadership
 - about
 ---
 # Public Speaking
@@ -65,7 +66,9 @@ I have a long personal history working with military personnel, and related publ
 
 <a id='leadership'>Engineering and Business Leadership</a>
 <br>
-I'm currently Director of Engineering at Avvo, and I've been leading engineering teams since the early 2000s. Here are select public speaking appearances related to Engineering and Business Leadership.
+I'm currently Director of Engineering at RealSelf, and I've been leading engineering teams since the early 2000s. Here are select public speaking appearances and articles related to Engineering and Business Leadership.
+
+01/09/2022 - <a href="http://www.hunterdavis.com/2022/01/09/conways-emotional-law.html">Here's</a> an article on one of my foundational leadership concepts - Conway's Emotional Law.
 
 8/20/2018 - <a href="https://stories.avvo.com/inside-avvo/life-at-avvo/meet-hunter-davis">Here's</a> an interview/press release Avvo did with me as Director.
 

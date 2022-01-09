@@ -11,7 +11,7 @@ url: http://www.hunterdavis.com
 sass:
   sass_dir: _sass
   style: :compressed
-paginate: 5
+paginate: 10
 paginate_path: "page:num"
 ##The website description (to be used in meta tags)
 description: The personal blog of Hunter G. Davis
