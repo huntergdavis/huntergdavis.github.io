@@ -12,7 +12,7 @@ featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/master
 
 There is however, a powerful corollary that I've observed.  I call it ["Conway's Emotional Law"](http://www.hunterdavis.com/2022/01/01/conways-emotional-law.html)
 
-> Conway's Emotional Law: How the members of your organization *treat* each other will be reflected in your > designs (software.)
+> Conway's Emotional Law: How the members of your organization *treat* each other will be reflected in your designs (software.)
 
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2022/conwaysemotionallaw.svg" width="640">
 
