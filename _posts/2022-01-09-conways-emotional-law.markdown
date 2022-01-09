@@ -4,7 +4,9 @@ title: Conway's Emotional Law
 date: '2022-01-09 08:33:24'
 featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2022/conwaysemotionallaw.svg'
 ---
-[Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law).  The idea that your organizational structure will be mirrored in your design (software) structure.  Simple in concept and true to my experience, it's a principle that drives many an organizational planning session.  (BTW, [Sketchplanations](https://sketchplanations.com/) has an overview that I love [here](https://sketchplanations.com/conways-law) )
+[Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law).  The idea that your organizational structure will be mirrored in your design (software) structure.  Simple in concept and true to my experience, it's a principle that drives many an organizational planning session.  
+
+[Sketchplanations](https://sketchplanations.com/) has an overview that I love [here](https://sketchplanations.com/conways-law)
 
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2022/conwayslaw.jpg" width="640">
 
