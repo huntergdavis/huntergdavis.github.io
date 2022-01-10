@@ -2,7 +2,7 @@
 layout: post
 title: Coaching Leaders During Covid
 date: '2022-01-10 12:00:24'
-featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2022/problemmountain.jpg'
+featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/problemmountain.jpg'
 ---
 It's 2022. Strange as it is to write this, that means we've been living in a Covid-19 world for two years. For many of us that has meant a shift into remote work and remote leadership.  Looking back on these past two years of fully remote leadership, I've observed that the stress of Covid-19 has only exacerbated the struggles that many new leaders go through. With that in mind, here are four common struggles new leaders commonly face, and coaching lines I tend to employ for each.
  
@@ -15,7 +15,7 @@ Please note, as in all things I try to be empathetic and kind. I myself struggle
 + [Meeting Team Commitments while Growing a Team](#opportunityleadership)
  
  
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2022/badnews.jpeg" width="640">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/badnews.jpeg" width="640">
  
 <a id='badnews'>Delivering Difficult News</a>
 Here's the scenario:
@@ -34,7 +34,7 @@ What I was really doing was building an environment of existential fear. How?  B
  
  
  
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2022/oppseverywhere.jpg" width="640">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/oppseverywhere.jpg" width="640">
  
 <a id='formerpeers'>Loss of Peer Relationships</a>
 Here's the scenario(s)  (this line of coaching is fairly universal):
@@ -63,7 +63,7 @@ Lead through your fundamentals.  This is a kindness to those you support.
 4. Listen.  If you find yourself interrupting folks, sip a drink during  1:1 meetings.
  
  
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2022/trustjar.jpg" width="640">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/trustjar.jpg" width="640">
  
 <a id='trustjartruth'>Assignment of Undesired Tasks</a>
 Here's the scenario:
@@ -81,7 +81,7 @@ There's this concept folks like to talk about in team leadership, that of the "t
 The thing is, that's only half the story.  If you never have to ask for trust, if you never ask a team to suspend their disbelief and (in this case) do this undesirable task, then you've not built real trust. You've just banked goodwill.  You've turned your trust jar into a wishing well, when it should really be more like the 'take a penny leave a penny' tray at the store. A shared trust, going both ways, building depth and value together.  It is through this transparency and the shared shouldering of burdens that you truly build trust with your team.
  
  
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2022/problemmountain.jpg" width="640">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/problemmountain.jpg" width="640">
  
 <a id='opportunityleadership'>Meeting Team Commitments while Growing a Team</a>
 Here's the scenario:
