@@ -20,6 +20,7 @@ Please note, as in all things I try to be empathetic and kind. I myself struggle
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/badnews.jpeg" width="640">
  
 <a id='badnews'>Delivering Difficult News</a>
+
 Here's the scenario:
  
 > A leader is having difficulty delivering difficult/negative news to a team.
@@ -39,6 +40,7 @@ What I was really doing was building an environment of existential fear. How?  B
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/oppseverywhere.jpg" width="640">
  
 <a id='formerpeers'>Loss of Peer Relationships</a>
+
 Here's the scenario(s)  (this line of coaching is fairly universal):
  
 > A newly promoted leader is struggling with the loss of peer relationships on their team
@@ -68,6 +70,7 @@ Lead through your fundamentals.  This is a kindness to those you support.
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/trustjar.jpg" width="640">
  
 <a id='trustjartruth'>Assignment of Undesired Tasks</a>
+
 Here's the scenario:
  
 > A leader is struggling with the assignment of undesirable tasks
@@ -86,6 +89,7 @@ The thing is, that's only half the story.  If you never have to ask for trust, i
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/problemmountain.jpg" width="640">
  
 <a id='opportunityleadership'>Meeting Team Commitments while Growing a Team</a>
+
 Here's the scenario:
  
 > A leader is struggling with team growth while still meeting team commitments
