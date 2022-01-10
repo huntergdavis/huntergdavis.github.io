@@ -70,7 +70,7 @@ I have a long personal history working with military personnel, and related publ
 <br>
 I'm currently Director of Engineering at RealSelf, and I've been leading engineering teams since the early 2000s. Here are select public speaking appearances and articles related to Engineering and Business Leadership.
 
-01/10/2022 - <a href="http://www.hunterdavis.com/2022/01/09/coaching-new-leaders-during-covid.html">Here's</a> an article on coaching lines for leaders during covid.
+01/10/2022 - <a href="http://www.hunterdavis.com/2022/01/10/coaching-new-leaders-during-covid.html">Here's</a> an article on coaching lines for leaders during covid.
 
 01/09/2022 - <a href="http://www.hunterdavis.com/2022/01/09/conways-emotional-law.html">Here's</a> an article on one of my foundational leadership concepts - Conway's Emotional Law.
 
