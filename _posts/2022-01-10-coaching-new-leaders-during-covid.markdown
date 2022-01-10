@@ -16,9 +16,9 @@ Please note, as in all things I try to be empathetic and kind. I myself struggle
 + [Assignment of Undesired Tasks](#trustjartruth)
 + [Meeting Team Commitments while Growing a Team](#opportunityleadership)
  
+
  
- 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/badnews.jpeg" width="640">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/badnews.jpeg" width="320">
  
 <a id='badnews'>Delivering Difficult News</a>
 
@@ -38,7 +38,7 @@ What I was really doing was building an environment of existential fear. How?  B
  
  
  
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/oppseverywhere.jpg" width="640">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/oppseverywhere.jpg" width="320">
  
 <a id='formerpeers'>Loss of Peer Relationships</a>
 
@@ -68,7 +68,7 @@ Lead through your fundamentals. This is a kindness to those you support.
 4. Listen. If you find yourself interrupting folks, sip a drink during  1:1 meetings.
  
  
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/trustjar.jpg" width="640">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/trustjar.jpg" width="320">
  
 <a id='trustjartruth'>Assignment of Undesired Tasks</a>
 
@@ -87,7 +87,7 @@ There's this concept folks like to talk about in team leadership, that of the "t
 The thing is, that's only half the story. If you never have to ask for trust, if you never ask a team to suspend their disbelief and (in this case) do this undesirable task, then you've not built real trust. You've just banked goodwill. You've turned your trust jar into a wishing well, when it should really be more like the 'take a penny leave a penny' tray at the store. A shared trust, going both ways, building depth and value together. It is through this transparency and the shared shouldering of burdens that you truly build trust with your team.
  
  
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/problemmountain.jpg" width="640">
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/problemmountain.jpg" width="320">
  
 <a id='opportunityleadership'>Meeting Team Commitments while Growing a Team</a>
 
