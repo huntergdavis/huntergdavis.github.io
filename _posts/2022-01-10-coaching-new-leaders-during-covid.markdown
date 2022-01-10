@@ -44,9 +44,9 @@ What I was really doing was building an environment of existential fear. How?  B
 
 Here's the scenario(s)  (this line of coaching is fairly universal):
  
-> A newly promoted leader is struggling with the loss of peer relationships on their team
-> A newly remote leader is struggling with building team culture over the internet
-> A leader is struggling to connect with a new team
+> 1. A newly promoted leader is struggling with the loss of peer relationships on their team.
+> 2. A newly remote leader is struggling with building team culture over the internet.
+> 3. A leader is struggling to connect with a new team.
  
 Here's the pitch:
  
