@@ -16,6 +16,7 @@ Please note, as in all things I try to be empathetic and kind. I myself struggle
 + [Assignment of Undesired Tasks](#trustjartruth)
 + [Meeting Team Commitments while Growing a Team](#opportunityleadership)
  
+
  
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/badnews.jpeg" width="640">
  
