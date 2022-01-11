@@ -74,6 +74,8 @@ I'm currently Director of Engineering at RealSelf, and I've been leading enginee
 
 01/09/2022 - <a href="http://www.hunterdavis.com/2022/01/09/conways-emotional-law.html">Here's</a> an article on one of my foundational leadership concepts - Conway's Emotional Law.
 
+12/13/2020 - <a href="https://open.spotify.com/episode/3Hn23Y2kCUJsxBzL77hiFs?si=ns7I6d3zR_Cr9hBcGW_9Mg"> Here's </a> a developer podcast from Educative for which I was interviewed. One of my more lighthearted interviews. 
+
 8/20/2018 - <a href="https://stories.avvo.com/inside-avvo/life-at-avvo/meet-hunter-davis">Here's</a> an interview/press release Avvo did with me as Director.
 
 10/31/2017 - <a href="http://engineering.avvo.com/articles/your-first-day-as-an-engineering-manager.html">Here's</a> an article I published on Avvo around my expectations for a successful first day as an Engineering Manager.  
