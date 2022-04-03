@@ -38,8 +38,6 @@ I was giddy as I looked into the resonator and saw the build certificate and bor
 
 MaCo even took some of the leftover premium woods and created a custom set of coasters for me.  So thoughtful!  
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/opencase.jpeg" width="400">
-
 One last shot of my guitar. 
 
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/righthand.png" width="400">
