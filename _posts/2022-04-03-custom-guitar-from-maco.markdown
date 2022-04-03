@@ -4,7 +4,7 @@ title: My Custom Guitar from MaCo Guitars Is In!
 date: '2022-04-03 12:00:24'
 featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/opencase.jpeg'
 ---
-This has been many years coming, and I'm so excited to finally be able to share this with y'all.  Years ago, I met a brilliant engineer and guitar builder, who later started [MaCo guitars.](http://www.macoguitars.com/) Years ago, my co-founder Mark and I had built a [cigar-box guitar](http://www.hunterdavis.com/about.html#guitar_) together based on the Make magazine cover article. I never forgot how much fun it was, or how much skill goes into even the most basic of guitar building.  I knew, one day I would commission a professional shop to build my dream guitar. 
+This has been many years coming, and I'm so excited to finally be able to share this with y'all.  Years ago, I met a brilliant engineer and guitar builder, who later started [MaCo guitars.](http://www.macoguitars.com/) Many years before thats, my co-founder Mark and I had built a [cigar-box guitar](http://www.hunterdavis.com/about.html#guitar_) together based on the Make magazine cover article. I never forgot how much fun it was, or how much skill goes into even the most basic of guitar building.  I knew, one day I would commission a professional shop to build my dream guitar. 
 
 Well dear readers, that day has come. Below, learn all about my new guitar, and how it came together.  Please note, this is NOT a paid advertisement. I have received no compensation or discounts for writing this article, I'm just so frikkin amazed and in love with my guitar, I want everyone to know!  
 
