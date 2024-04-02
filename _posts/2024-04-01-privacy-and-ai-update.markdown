@@ -10,9 +10,9 @@ We live in a very different world from the one that existed when this blog was c
 
 Where do I draw the line as to how far that help extends? When I think of my articles being helpful to a new leader or aspiring hacker, that fills me with joy. When I think of large companies using my likeness and writing style to make billions while trashing our environment, I pause. When I think of the bad actors, the scammers, the phishers, the AI-enabled stalkers (all of whom I've experienced over these past couple of years), I fear. I fear that they'll continue to use the good I've tried to share with the world to hurt myself and others. 
 
-Fear can be a powerful motivator for change, but so too can the desire to help others. I want to set a better example here, write about leadership and coaching with a more inclusive voice, patterning better behaviors. Much as I have done in my professional life I'm going to start leveling up my game here on the blog. Today that means a couple of changes to the site, the removal of some content, and a promise to take a silver lining from this refresh.  
+Fear can be a powerful motivator for change, but so too can the desire to help others. I want to set a better example here, when I write I want to write about leadership and coaching with a more inclusive voice and patterning better behaviors. Much as I have done in my professional life I'm going to start leveling up my game here on the blog. Today that means a couple of changes to the site, the removal of some content, and a promise to take a silver lining from this refresh.  
 
-Change number 1: I'm explicitly licensing all sources going forward with a NON-AI MIT license. 
+Change number 1: I'm explicitly licensing all sources on this blog going forward with a NON-AI MIT license. 
 
 Change number 2: The removal of overly personal blog posts and content. While photos of my family and pets from 20 years ago still bring a tear to my eye, they pose a risk to their safety in this new world. 
 
