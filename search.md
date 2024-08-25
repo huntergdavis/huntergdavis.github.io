@@ -3,6 +3,7 @@ layout: page
 title: Search Results
 ---
 <!-- List where search results will be rendered -->
+<button id="sort-by-date-button" class="action-button">Sort by date</button>
 <ul id="search-results"></ul>
 
 <script>
@@ -26,3 +27,9 @@ title: Search Results
 <script src="/js/lunr232.js"></script>
 <!-- Custom search script thanks https://www.stephanmiller.com/static-site-search/ -->
 <script src="/js/search.js"></script>
+
+<script>
+    document.getElementById('sort-by-date-button').addEventListener('click', function() {
+        dateSearchIsGo();
+    });
+</script>
