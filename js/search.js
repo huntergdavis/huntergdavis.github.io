@@ -1,4 +1,3 @@
-(function() {
     function showResults(results, store) {
       var searchResults = document.getElementById('search-results');
   
@@ -84,8 +83,7 @@
       }
     }
   
-    var searchTerm = getQuery('query');
-  
+
     function searchIsGo() {
       // Initalize lunr.js with the fields to search.
       // The title field is given more weight with the "boost" parameter
@@ -140,8 +138,8 @@
       showDateResults(results, window.store);        
     }
 
+    var searchTerm = getQuery('query');
     if (searchTerm) {
         searchIsGo()
     }
-  })();
   
