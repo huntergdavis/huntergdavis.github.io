@@ -4,6 +4,7 @@ title: Search Results
 ---
 <!-- List where search results will be rendered -->
 <button id="sort-by-date-button" class="action-button">Sort by date</button>
+<button id="sort-by-relevance-button" class="action-button">Sort by Relevance</button>
 <ul id="search-results"></ul>
 
 <script>
@@ -31,5 +32,8 @@ title: Search Results
 <script>
     document.getElementById('sort-by-date-button').addEventListener('click', function() {
         dateSearchIsGo();
+    });
+        document.getElementById('sort-by-relevance-button').addEventListener('click', function() {
+        searchIsGo();
     });
 </script>
