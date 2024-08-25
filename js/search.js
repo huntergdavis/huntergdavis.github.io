@@ -1,5 +1,23 @@
 (function() {
     function showResults(results, store) {
+      var searchResults = document.getElementById('search-results');
+  
+      if (results.length) { // If there are results...
+        var appendString = '';
+  
+        for (var i = 0; i < results.length; i++) {  // Iterate over them and generate html
+          var item = store[results[i].ref];
+          appendString += '<li><a href="' + item.url + '">(' + item.date + ") " + item.title + '</a>';
+          appendString += '<p>' + item.content.substring(0, 250) + '...</p></li>';
+        }
+  
+        searchResults.innerHTML = appendString;
+      } else {
+        searchResults.innerHTML = '<li>No results found</li>';
+      }
+    }
+
+    function showDateSorted(results, store) {
         var searchResults = document.getElementById('search-results');
     
         // Function to parse dates in the format "16 November 2012"
@@ -50,7 +68,6 @@
             searchResults.innerHTML = '<li>No results found</li>';
         }
     }
-    
   
     function getQuery(variable) {
       var query = window.location.search.substring(1);
@@ -92,7 +109,14 @@
       });
   
       var results = idx.search(searchTerm); // Perform search with Lunr.js
-      showResults(results, window.store);
+
+      if (getQuery('bydate')) {
+        showDateSorted(results, window.store);
+      } else {
+        showResults(results, window.store);
+      }
+
+      
     }
   })();
   
