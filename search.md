@@ -22,6 +22,6 @@ title: Search Results
 </script>
 
 <!-- Import lunr.js from unpkg.com -->
-<script src="/includes/lunr232.js"></script>
+<script src="/js/lunr232.js"></script>
 <!-- Custom search script thanks https://www.stephanmiller.com/static-site-search/ -->
 <script src="/js/search.js"></script>
