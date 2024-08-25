@@ -1,0 +1,17 @@
+---
+layout: post
+title: Physical Media and Markdown Table Renderer 
+date: '2024-08-25 12:00:24'
+featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/markdown.png'
+---
+I'm a big fan of [Obsidian](https://www.obsidian.md/), paying for premium and using it to store notes and lists. 
+
+I was enjoying myself rather thoroughly this weekend while browsing a thrift store in sunny Montana, a couple states away from rainy Seattle. There was a great deal of most excellent used DVDs, Blu-Rays, VHS tapes and other media formats I still find myself using day to day. 
+
+While I have obsidian sync for my local devices, I pondered how to keep my family apprised of what media we have and what we don't, especially when that number is quickly approaching the thousands from the hundreds?
+
+There's a publish option, but that's an additional 10$ per month and I already have a website and GH pages. I realized what I really needed was a way to render markdown tables as HTML client-side, then I could simply point a static page to those markdown files and I've got a nice little interface on the web. 
+
+So that's exactly what I wrote up today. [Live Link.](https://hunterdavis.com/media/) [Github Link.](https://github.com/huntergdavis/media) 
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/markdown.png" width="400">
