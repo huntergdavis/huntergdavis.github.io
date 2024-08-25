@@ -1,21 +1,56 @@
 (function() {
     function showResults(results, store) {
-      var searchResults = document.getElementById('search-results');
-  
-      if (results.length) { // If there are results...
-        var appendString = '';
-  
-        for (var i = 0; i < results.length; i++) {  // Iterate over them and generate html
-          var item = store[results[i].ref];
-          appendString += '<li><a href="' + item.url + '">(' + item.date + ") " + item.title + '</a>';
-          appendString += '<p>' + item.content.substring(0, 250) + '...</p></li>';
+        var searchResults = document.getElementById('search-results');
+    
+        // Function to parse dates in the format "16 November 2012"
+        function parseDate(dateStr) {
+            var parts = dateStr.split(' ');
+            var day = parseInt(parts[0], 10);
+            var month = parts[1];
+            var year = parseInt(parts[2], 10);
+    
+            // Map month names to month numbers (0-based index)
+            var monthNames = {
+                'January': 0,
+                'February': 1,
+                'March': 2,
+                'April': 3,
+                'May': 4,
+                'June': 5,
+                'July': 6,
+                'August': 7,
+                'September': 8,
+                'October': 9,
+                'November': 10,
+                'December': 11
+            };
+    
+            var monthIndex = monthNames[month];
+            return new Date(year, monthIndex, day);
         }
-  
-        searchResults.innerHTML = appendString;
-      } else {
-        searchResults.innerHTML = '<li>No results found</li>';
-      }
+    
+        if (results.length) { // If there are results...
+            // Sort the results by date (newest to oldest)
+            results.sort(function(a, b) {
+                var dateA = parseDate(store[a.ref].date);
+                var dateB = parseDate(store[b.ref].date);
+                return dateB - dateA; // Descending order (newest first)
+            });
+    
+            var appendString = '';
+    
+            for (var i = 0; i < results.length; i++) {  // Iterate over them and generate HTML
+                var item = store[results[i].ref];
+                appendString += '<li><a href="' + item.url + '">(' + item.date + ") " + item.title + '</a>';
+                appendString += '<p>' + item.content.substring(0, 250) + '...</p></li>';
+            }
+    
+            searchResults.innerHTML = appendString;
+        } else {
+            searchResults.innerHTML = '<li>No results found</li>';
+        }
     }
+    
   
     function getQuery(variable) {
       var query = window.location.search.substring(1);
