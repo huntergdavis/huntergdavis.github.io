@@ -15,7 +15,7 @@ title: Search Results
         "category": "{{ post.category | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
         "url": "{{ post.url | xml_escape }}", 
-        "date": "{{ post.date | xml_escape }}"
+        "date": "{{ post.date | date_to_long_string | xml_escape }}"
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
