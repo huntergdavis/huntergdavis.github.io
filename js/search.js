@@ -7,7 +7,7 @@
   
         for (var i = 0; i < results.length; i++) {  // Iterate over them and generate html
           var item = store[results[i].ref];
-          appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
+          appendString += '<li><a href="' + item.url + '"><h3>(' + item.date + ") " + item.title + '</h3></a>';
           appendString += '<p>' + item.content.substring(0, 250) + '...</p></li>';
         }
   
@@ -33,7 +33,7 @@
     var searchTerm = getQuery('query');
   
     if (searchTerm) {
-        
+
       // Initalize lunr.js with the fields to search.
       // The title field is given more weight with the "boost" parameter
       var idx = lunr(function () {
@@ -42,6 +42,7 @@
         this.field('author');
         this.field('category');
         this.field('content');
+        this.field('date');
   
         for (var key in window.store) { // Add the JSON we generated from the site content to Lunr.js.
           this.add({
@@ -49,7 +50,8 @@
             'title': window.store[key].title,
             'author': window.store[key].author,
             'category': window.store[key].category,
-            'content': window.store[key].content
+            'content': window.store[key].content,
+            'date' : window.store[key].date,
           });
         }
       });
