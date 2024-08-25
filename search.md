@@ -33,7 +33,7 @@ title: Search Results
     document.getElementById('sort-by-date-button').addEventListener('click', function() {
         dateSearchIsGo();
     });
-        document.getElementById('sort-by-relevance-button').addEventListener('click', function() {
+    document.getElementById('sort-by-relevance-button').addEventListener('click', function() {
         searchIsGo();
     });
 </script>

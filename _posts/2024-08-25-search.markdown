@@ -1,0 +1,11 @@
+---
+layout: post
+title: Client-Side Site Search for HunterDavis.com 
+date: '2024-08-25 12:00:24'
+featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2024/sitesearch.png'
+---
+I stumbled upon an [Excellent Blog Post](https://www.stephanmiller.com/static-site-search/),  from Stephan Miller, detailing how to set up a local client-side search functionality for static sites. 
+
+So that's exactly what I implemented today. You'll see a search box on the right of the homepage, and you can sort the results by relevance or date. Best of all, this relies on no external search engine and respects your privacy. This works by generating a json blob with all my post data, then running a local search with lunr.js.  Much, MUCH easier to find content now, especially those old Zipit and game review articles. 
+
+<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2024/sitesearch.png" width="400">
