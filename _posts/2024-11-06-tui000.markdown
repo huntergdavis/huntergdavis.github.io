@@ -2,7 +2,7 @@
 layout: post
 title: Tui000: A Terminal Passive Game / Screensaver 
 date: '2024-11-07 01:00:24'
-featured_img: 'https://github.com/huntergdavis/tui000/raw/main/content/screenshots/play_screen_11_7_2024.png'
+featured_img: 'https://github.com/huntergdavis/tui000/raw/main/screenshots/play_screen_11_7_2024.png'
 ---
 
 Announcing Tui000 (sounds like 'three thousand')
