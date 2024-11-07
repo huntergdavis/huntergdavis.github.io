@@ -2,9 +2,9 @@
 layout: post
 title: Tui000: A Terminal Passive Game / Screensaver 
 date: '2024-11-07 01:00:24'
-featured_img: 'https://raw.githubusercontent.com/huntergdavis/huntergdavis.github.io/main/content/images/2024/play_screen_11_7_2024.png'
+image: "/content/images/2024/play_screen_11_7_2024.png"
 ---
-<img src="https://github.com/huntergdavis/tui000/raw/main/screenshots/play_screen_11_7_2024.png" width=400>
+
 Announcing Tui000 (sounds like 'three thousand') 
 
 Source and download here -> [Tui000](https://github.com/huntergdavis/tui000/tree/main)
