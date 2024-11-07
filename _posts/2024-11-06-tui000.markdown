@@ -4,7 +4,6 @@ title: Tui000: A Terminal Passive Game / Screensaver
 date: '2024-11-07 01:00:24'
 featured_img: 'https://github.com/huntergdavis/tui000/raw/main/screenshots/play_screen_11_7_2024.png'
 ---
-
 Announcing Tui000 (sounds like 'three thousand')
 
 Tui000 is a passive game / screensaver for your terminal.  Watch virtual avatars make life decisions, visit the graveyard to see how each life measured out. Passive, small. Now is the time for small joys, for silver linings. I feel 2025 will need as much joy as possible, and I've been inspired to put more little moments of joy out there for folks like I used to. 
