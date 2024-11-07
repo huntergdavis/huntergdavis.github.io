@@ -45,8 +45,8 @@ docker run -d --name tui000-container tui000
 
 You can find the repository below, including original design docs and screenshots. 
 
-![Tui000](https://github.com/huntergdavis/tui000/tree/main)
+[Tui000](https://github.com/huntergdavis/tui000/tree/main)
 
 Main Graveyard Screen -> 
-![Graveyard](screenshots/graveyard_like_concept.png)
-![Graveyard Concept](concept_art/death_screen.jpg)
+<img src="screenshots/graveyard_like_concept.png" width=400>
+<img src="concept_art/death_screen.jpg" width=400>
