@@ -68,7 +68,7 @@ I have a long personal history working with military personnel, and related publ
 
 <a id='leadership'>Engineering and Business Leadership</a>
 <br>
-I'm currently Director of Engineering at RealSelf, and I've been leading engineering teams since the early 2000s. Here are select public speaking appearances and articles related to Engineering and Business Leadership.
+I'm currently VP of Engineering at Mantra Health, and I've been leading engineering teams since the early 2000s. Here are select public speaking appearances and articles related to Engineering and Business Leadership.
 
 01/10/2022 - <a href="http://www.hunterdavis.com/2022/01/10/coaching-new-leaders-during-covid.html">Here's</a> an article on coaching lines for leaders during covid.
 

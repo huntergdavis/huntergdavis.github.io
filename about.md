@@ -2,7 +2,7 @@
 layout: page
 title: My Story
 image: "/content/images/2018/05/IMG_20180417_141421.jpg"
-date: '2017-04-13 18:14:58'
+date: '2024-11-07 18:14:58'
 
 tags:
 - hunter-davis
@@ -53,7 +53,7 @@ tags:
 <a id='whoami'>Who Am I, Today?</a>
 As with any individual, who I am has significantly changed over time.  While this record of my achievements can be viewed as a nearly chronological series of events, my career progression never seemed so straightforward as it does in retrospect.
 
-Who am I, today?  That's an easier question.  I'm a hacker, programmer, author, composer, and leader.  I'm currently engineering director at Realself.  I also serve on the board for Apprenti, a non-profit focused on promoting apprenticeship in technology.
+Who am I, today?  That's an easier question.  I'm a hacker, programmer, author, composer, and leader.  I'm spent the past 3 years as engineering VP at Mantra Health.  I also serve on the board for Apprenti, a non-profit focused on promoting apprenticeship in technology.
 
 <a id='youth'>In My Youth</a>
 In my youth, I focused mainly on video games.  I came from a series of ever-shrinking small towns in rural Indiana.  When I was 8, I traded my hard-earned lemonade stand money-bought Nintendo for my friend's Commodore 64.  This was the 1980s, and you could borrow magazines full of basic code from the library.  This was my first foray into the world of programming, and I was hooked.
@@ -289,7 +289,7 @@ Here's a couple of tunes I composed for one of my children's games.
 
 
 <a id='leadershipandmentorship'>Leadership and Mentorship</a>
-I've spent the last third of my life leading and mentoring teams and organizations.
+I've spent the last half of my life leading and mentoring teams and organizations.
 
 <a id='leadership'>Leadership</a>
 I believe in servant-leadership, kindness, and empathy.
