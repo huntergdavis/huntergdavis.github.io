@@ -43,7 +43,7 @@ Building with Docker:
 sudo docker build -t tui000 .
 
 Running with Docker:
-docker run -d --name tui000-container tui000
+docker run -it --name tui000-container tui000
 
 
 You can find the repository below, including original design docs and screenshots. 
