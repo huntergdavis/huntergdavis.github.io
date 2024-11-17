@@ -9,14 +9,14 @@ Announcing Labrync (like labrynth + ncurses)
 
 Source and download here -> [Labrync](https://github.com/huntergdavis/labrync/)
 
-<img src="https://github.com/huntergdavis/labrync/raw/main/screenshots/earlygame.png" width=400>
+<img src="/content/images/2024/earlygame.png" width=400>
 
 Labrync is a passive or active little console toy. I wanted to play with a few maze exploration algorithms (you can see a bunch in the history).  The color palette is going to change as right now it's a 'hotdog stand' level thing. I thought the concept from onelonecoder was really fun and inspiring and wanted to extend it in some fun ways.  Also ported to python cause why not I guess? 
 
 Like I said before, little things that bring me joy.  Things I might dip in and add a feature to once a year, for 30 years. That's what my internet is all about.  Here's another one. 
 
 
-https://github.com/huntergdavis/labrync/raw/main/screenshots/earlydemo.mp4
+https://github.com/user-attachments/assets/89f0045f-518f-4b25-9698-34922285b47d
 
 
 Based on and extended from the command line C fps from 
