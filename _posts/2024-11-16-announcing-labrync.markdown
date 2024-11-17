@@ -16,13 +16,13 @@ Labrync is a passive or active little console toy. I wanted to play with a few m
 Like I said before, little things that bring me joy.  Things I might dip in and add a feature to once a year, for 30 years. That's what my internet is all about.  Here's another one. 
 
 
-https://github.com/user-attachments/assets/89f0045f-518f-4b25-9698-34922285b47d
+[Early Demo Movie](https://github.com/user-attachments/assets/89f0045f-518f-4b25-9698-34922285b47d)
 
 
 Based on and extended from the command line C fps from 
 onelonecoder
 
-https://github.com/OneLoneCoder/CommandLineFPS
+[One lone coder Github](https://github.com/OneLoneCoder/CommandLineFPS)
 
 
 1. Maps are randomly generated
