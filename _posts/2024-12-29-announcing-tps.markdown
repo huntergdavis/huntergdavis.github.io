@@ -22,5 +22,8 @@ So few, so laughably few.  But hey, enough to honestly help in some situations.
 
 It falls squarely into the bucket of "can't you just use a spreadsheet?"  Yes. Of course you can, I've done so for about 30 years now and I'm sure folks will do so for another 300.  However, this is a helpful way for me to visualize, quickly iterate with small features, and quickly generate scenarios without relying on a cloud-hosted python backend for a simulator or stacks and stacks of resource-crazy google sheets.
 
+Backstory: 
+I'm committing to releasing more things that spark joy, and more little projects.  Sometimes you just write a quick simulator on a Sunday night to help you clear your head and get your thoughts out, and sometimes that's really helpful to other folks. 
+
 
 
