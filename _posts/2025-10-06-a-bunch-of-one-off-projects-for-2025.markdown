@@ -14,7 +14,7 @@ So this is just a quick hits list for 2025 of some fun personal projects I worke
 Back in April, I was messing with the default basic interface on my picocalc (pi pico h1), and wanted a better file browsing shell interface.  You can find that here:
 [Github Repo](https://github.com/huntergdavis/picocalc)
 
-<img src="/content/images/2025/picocal.png" width=400>
+<img src="/content/images/2025/picocalc.png" width=400>
 
 ## InboxZero
 
