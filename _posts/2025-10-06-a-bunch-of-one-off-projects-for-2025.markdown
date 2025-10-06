@@ -46,7 +46,7 @@ I loved winamp 25 years ago.  LOVED IT.  All my music (mp3s), customization, but
 ## Solitaire
 <img src="/content/images/2025/solitaire.png" width=400>
 
-Remember back in Covid, I designed that solitaire varient? I wrote a simulator for it to help play-test and balance, but folks wanted to actually play it.  So, that's what this is, a webapp to play my weird solitare variant. 
+Remember back in Covid, I designed that solitaire variant? I wrote a simulator for it to help play-test and balance, but folks wanted to actually play it.  So, that's what this is, a webapp to play my weird solitare variant. 
 
 [Github Repo](https://github.com/huntergdavis/solitaire)
 
