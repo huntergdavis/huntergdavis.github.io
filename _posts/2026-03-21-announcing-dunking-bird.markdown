@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Dumber and More Dangerous than Ralph Wiggum: The Dunking Bird Method
+title: "Dumber and More Dangerous than Ralph Wiggum: The Dunking Bird Method"
 date: '2026-03-21 10:00:00'
 image: "/content/images/2026/dunking-bird-screenshot.png"
+featured_img: "/content/images/2026/dunking-bird-screenshot.png"
 tags: [ai, tools, helper, app, automation]
 ---
 
