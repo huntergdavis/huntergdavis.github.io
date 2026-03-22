@@ -37,12 +37,10 @@ I've been working on a PS1 version of Johnny Castaway for about a year now.  I h
 
 **GitHub Repository**: You can find the complete source code, installation instructions, and documentation on GitHub: [huntergdavis/dunkingbird](https://github.com/huntergdavis/dunkingbird)
 
-## AI-Generated Concept Art
+## AI-Slopportunity
 
-I also created this AI-generated image to capture the spirit of the Dunking Bird concept:
+Sloppity slop slop, dropitty drop drop look at AI go
 
 <img src="/content/images/2026/dunking-bird-ai-art.png" width=400>
 
 ---
-
-*Dunking Bird represents another step in my journey of building tools that make AI development more efficient and enjoyable. Stay tuned for more updates and improvements!*
