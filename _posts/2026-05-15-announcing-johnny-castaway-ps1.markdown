@@ -65,6 +65,15 @@ Here's said workflow in action:
 
 [Full Version](/content/images/2026/dev-environment-2026-05-06.png)
 
+
+## Getting It Over The Finish Line
+
+This past month, I've actually engaged in an even more aggressive triple-dunking setup. You see, performance and correctness are often at odds with each other. Throw in memory pressure, and you have a real iron triangle situation.  Any change to one affects the other two significantly. My strategy to get this over the finish line was essentially a phased re-prioritization of efforts.  In the beginning, my focus was purely on getting things running at all.  Towards the end of the project, I rotated that iron triangle in phases.  Correctness, then speed, then correctness again.  Once I had all scenes working perfectly, I rotated that triangle and focused on speed.  Once I had the speed optimized for all scenes, I rotated back focused on correctness again.  Bouncing back and forth, regressing stray pixels and timing issues. 
+
+<img src="/content/images/2026/triple-dunking.png" alt="Johnny Castaway PS1 late stage triple dunking screenshot." width="600">
+
+Will this port ever be at the point where I call it 100% perfect?  I don't honestly know.  As I'm drafting this post we're less than 0.3% slow for 20% of the scenes.  A third of a percent. Acceptable?  Probably.  Perfect? No, and I'll continue to refine and update as I get the time.  Maybe someone else will too.  That's my hope with this mountain of documentation and how-tos and regression suites etc etc.  It should be straightforward for anyone with interest to set up a development environment and try something out, and know exactly how that's affected the runtime. Pretty cool, I think. In the meantime, we'll see how close to 100% I get this port for my planned V1 release mid-may. 
+
 ## Try It Out
 
 **GitHub Repository**: You can find the complete source code, installation instructions, .bin/.cue files and documentation on GitHub: [huntergdavis/johnny-castaway-ps1](https://github.com/huntergdavis/johnny-castaway-ps1)
