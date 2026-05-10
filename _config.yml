@@ -42,4 +42,4 @@ about_image: placeholder.png
 ##comment this if you want full width posts with no sidebar
 sidebar: on
 
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-redirect-from]

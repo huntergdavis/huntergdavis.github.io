@@ -528,11 +528,13 @@ is complete.*
       with regeneration command, case-sensitivity note, and
       provenance comments in the file header. Build-fail check
       moved to A.13; live-subset verification moved to A.14.
-- [ ] **A.4** Add `jekyll-redirect-from` to `Gemfile` and the
-      `plugins:` list in `_config.yml`. **S** · *Why:* unblocks
-      the page-move pattern (`redirect_from:` frontmatter) for
-      every later URL recovery item. Plugin is GitHub-Pages
-      whitelisted so it works on the current host.
+- [x] **A.4** Add `jekyll-redirect-from` to `Gemfile` and the
+      `plugins:` list in `_config.yml`. **S** · *Shipped 2026-05-10.*
+      Plugin is GH-Pages whitelisted (works on the live host without
+      changing deploy infra). Pre-flight: 0 posts use `redirect_from:`
+      so adding the plugin is a no-op today and only activates as
+      A.5/A.7 land. Gemfile.lock intentionally not regenerated; user
+      runs `bundle install` next time they build locally.
 - [ ] **A.5** Seed `_data/legacy_redirects.yml` skeleton with the
       five sub-keys (`archives`, `wp_query_ids`, `wp_slugs`,
       `wp_categories`, `about_slugs`). Populate the **13
@@ -1284,3 +1286,8 @@ any public-facing milestone copy until a source is added.
   reserved. Source of truth for the future build-fail collision
   check (A.13) and the live-subset verification (A.14). Two sidebar
   bugs (`/resume/`, `/photo-stream/`) surfaced and recorded.
+- `2026-05-10` — **Phase A.4 shipped**: `jekyll-redirect-from`
+  added to the `:jekyll_plugins` group in `Gemfile` and the
+  `plugins:` array in `_config.yml`. No-op today (no post uses
+  `redirect_from:` yet) but unblocks every later URL-recovery
+  item (A.5, A.7, A.9, the `/about/` split, etc.).
