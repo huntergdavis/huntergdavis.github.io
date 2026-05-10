@@ -655,6 +655,104 @@ is complete.*
       Currently 4 distinct WP IDs in scope (3163, 3426, 3583,
       5580); only 3163 has a confirmed target today. **S**
 
+### Phase B — Information architecture & navigation (ship now, don't wait for v2)
+*Goal: make the 507-post, 30-year archive actually browsable. Today
+the sidebar is a hardcoded flat list of legacy links, the top nav has
+3 items, the footer is empty boilerplate, and there's no way to scan
+the archive by topic, year, or project. This phase ships
+**visible-to-readers** IA wins **incrementally** against the existing
+layouts — each item is independently shippable now, instead of
+waiting for the bigger Phase 5 v2-layout redesign. Where an item
+overlaps with Phase 5, it's the "land it now in the current template"
+version; the v2 redesign will inherit it.*
+
+- [ ] **B.1** Move sidebar from hardcoded HTML to
+      `_data/sidebar.yml`. Each entry:
+      `{ label, url, group, status: live|broken|external }`.
+      Re-render `_includes/sidebar.html` via Liquid. Sets up
+      restructuring without code edits. **S**
+- [ ] **B.2** Group sidebar entries by section (Projects /
+      Writing / Connect / Archive shortcuts). Visual hierarchy
+      via `<h4>` subheaders. Replaces the current flat list of
+      ~10 unrelated links. **S**
+- [ ] **B.3** Audit + prune broken sidebar entries. A.14
+      surfaced `/resume/` and `/photo-stream/` as broken (the
+      actual repos are `Hunter-Davis-impressjs-Resume` and
+      `photo-stream-static`). Sweep the rest with
+      `script/audit_legacy_urls.py` patterns and either fix the
+      target or remove the entry. **S**
+- [ ] **B.4** Expand top nav from 3 to ~6 items: Home,
+      Projects, Writing, Archive, About, Now. Each links to a
+      real page or a temporary placeholder until Phase 2 ships
+      the underlying `/projects/`, `/archive/`, `/tag/`
+      surfaces. Edit `_includes/header.html`. **S**
+- [ ] **B.5** Real footer with site map. Replace the bare
+      copyright + Jekyll credit with four sections:
+      **Browse** (archive, tags, projects), **Read** (latest
+      post, RSS, full-text feed), **Reach** (GitHub, email),
+      **Meta** (about, now, uses). Edit
+      `_layouts/default.html`. **M**
+- [ ] **B.6** Site map page at `/sitemap.html` — distinct from
+      the crawler-targeted `/sitemap.xml`. One human-readable
+      page listing every section, every project family, every
+      year archive. **M**
+- [ ] **B.7** Breadcrumb on post pages. `Home / [year] /
+      [post title]`. Uses `page.date | date: "%Y"` for the year
+      segment; year link points to `/archive/<year>/` (which
+      Phase 2.5 will populate). Pre-declaring the link activates
+      it the moment 2.5 lands. **S**
+- [ ] **B.8** Tag chips on post pages become real links to
+      `/tag/<slug>/`. Today they're decorative spans. Pre-declare
+      the hrefs so chips activate the instant Phase 2.2 ships
+      tag pages. **S**
+- [ ] **B.9** Featured-posts mechanism. Add `featured: true`
+      frontmatter to the ~12 most historically important posts
+      (Dockstar gaming console, the 70-app GitHub release, Sith
+      Challenge announce, IM-ME, Tor-on-Z2, the books, Johnny
+      Castaway native port, TUI000, …). Home page surfaces them
+      in a "Featured" strip above the chronological list. **M**
+- [ ] **B.10** "Currently working on" panel above the home post
+      list. One sentence + a link to the most recent project
+      announcement post. Pulled from `_data/now.yml` (single-key
+      file the user updates manually). Editorial copy is the
+      user's prose, never machine-authored. **S**
+- [ ] **B.11** "Start here" panel for new visitors. Three or
+      four hand-picked entry points (e.g., My Story, Greatest
+      Hits, Latest project). Pulled from `_data/start_here.yml`.
+      User supplies the entry-point labels. **S**
+- [ ] **B.12** "Greatest hits" / milestones strip on the home
+      page. Pulled from `_data/milestones.yml` (the dossier
+      structure planned in 7.6 + Appendix A). Three or four
+      cards linking to the Zipit Z2 era, the 70-app GitHub
+      release, the Johnny Castaway saga, the books. **M**
+- [ ] **B.13** "More from this project" panel on post pages.
+      If `series:` or `project:` frontmatter is set, show up
+      to five sibling posts with the same slug. Builds the
+      saga-style cross-linking the Johnny Castaway, Zipit Z2,
+      Dockstar, etc. arcs deserve. **M**
+- [ ] **B.14** "Other posts from this year" on post pages.
+      Three randomly-sampled (or chronologically nearest) posts
+      from the same `page.date | date: "%Y"` year. Discovery
+      affordance for the deep archive. **S**
+- [ ] **B.15** Promote search to every page. Today the search
+      input lives only in the sidebar and only renders on the
+      home. Move (or copy) it into the header so it's available
+      on every post. Add a `/` keyboard shortcut to focus it.
+      **M**
+- [ ] **B.16** Mobile nav: replace the dated `.android`-class
+      panel + jQuery-style toggle with a native `<details>`
+      element styled as a popover. No JS dependency. Same nav
+      items as B.4. **S**
+- [ ] **B.17** Header tagline: a short user-authored sentence
+      next to "HunterDavis.com" that sets identity without the
+      current giant centred h1. (User supplies the sentence —
+      not machine-authored.) **S**
+- [ ] **B.18** Topic-cloud sidebar widget. Tag chips sized by
+      post-count, linking to `/tag/<slug>/`. Visual discovery
+      for the 30+ tags that exist after Phase 3 backfill
+      completes. Depends on `_data/tags.yml` (Phase 2.1) being
+      in place. **M**
+
 ### Phase 0 — Hygiene & broken-asset fixes
 *Goal: stop shipping bugs. Each item is independently shippable.
 URL preservation work moved to Phase A above.*
@@ -1447,3 +1545,15 @@ any public-facing milestone copy until a source is added.
   pure Liquid (`content | strip_html | number_of_words |
   divided_by: 225 | plus: 1`). Also adds a small `.reading-time`
   CSS rule. Home-card reading-time deferred to new item 7.15.
+- `2026-05-10` — **Phase B added** (18 items). Real
+  information-architecture / navigation track: sidebar
+  restructure, top-nav expansion, real footer, site map,
+  breadcrumbs, tag-chip links, featured posts, "currently
+  working on" + "start here" + "greatest hits" home panels,
+  "more from this project" + "other posts from this year"
+  cross-linking, header search + keyboard shortcut, mobile-nav
+  rewrite, header tagline, topic-cloud widget. The whole phase
+  ships against the existing layouts incrementally — does not
+  wait for the bigger Phase 5 v2 redesign. Editorial copy
+  (now, start here, header tagline) is user-supplied, never
+  machine-authored.
