@@ -839,10 +839,20 @@ URL preservation work moved to Phase A above.*
       not actually consumed by the live site (verify each is only
       referenced by legacy embed pages on hunterdavis.com paths).
       **S** · *Acceptance:* `grep -r` shows no live references.
-- [ ] **0.10** Drop the maxcdn font-awesome `<link>` from
-      `_layouts/default.html`; replace the 4–5 used icons with inline
-      SVG in `_includes/icons/*.svg`. **M** · *Why:* removes a CDN
-      dependency and ~30 KB.
+- [x] **0.10** Drop the maxcdn font-awesome `<link>` from
+      `_layouts/default.html`; the 4 remaining decorative icons
+      (calendar, home, info-circle, tag) removed outright instead
+      of swapped for inline SVG — text labels stand on their own.
+      **M** · *Shipped 2026-05-10.* 4-file change: removed
+      the `<link>` from default.html and the 7 `<i class="fa fa-…">`
+      tags scattered across `_includes/header.html`, `index.html`,
+      and `_layouts/post.html`. Net effect: one fewer HTTP
+      request per page, ~110 KB less data on every first-visit
+      page (CSS + font file), no DNS lookup / TLS handshake to
+      maxcdn.bootstrapcdn.com (privacy + reliability win), no
+      FOIT/FOUT on icon-font load. If decorative icons come
+      back later, they'll be inline SVG `<symbol>` references —
+      tracked as new item 0.16.
 - [x] **0.11** Drop the dead Twitter/Facebook share buttons from
       `_layouts/post.html` (Twitter share UX is broken on X anyway).
       Replace with a single "Copy link" button. **S** ·
@@ -882,6 +892,14 @@ URL preservation work moved to Phase A above.*
 - [ ] **0.15** Set explicit `width` and `height` on home-list images
       (use a default ratio like 1200×630 if unknown) to eliminate CLS.
       **S**
+- [ ] **0.16** Optional: re-add small decorative icons via inline
+      SVG `<symbol>` definitions in a single
+      `_includes/icon_sprite.html`. Referenced from templates as
+      `<svg><use href="#icon-home"/></svg>`. Total inline footprint
+      ~1 KB across all templates (cheaper than the 110 KB
+      font-awesome CDN dropped in 0.10), no third-party
+      dependency, scales to any size cleanly. Skip if the iconless
+      look turns out to read well after 0.10 ships. **S**
 
 ### Phase 1 — Performance quick wins
 *Goal: kill the obvious perf cliffs without touching design yet.*
@@ -1665,3 +1683,10 @@ any public-facing milestone copy until a source is added.
   use (incremental progress toward 0.10) and replaces a
   privacy-leaky (Facebook tracks pre-share) + broken-on-X
   share UX with a modern social-agnostic copy affordance.
+- `2026-05-10` — **Phase 0.10 shipped**: font-awesome CDN
+  dropped. The 4 remaining decorative icons (calendar, home,
+  info-circle, tag) removed instead of swapped for inline SVG
+  — labels stand on their own. Saves ~110 KB and one DNS+TLS
+  handshake on every page; removes a third-party CDN
+  dependency (privacy + reliability win). Future inline-SVG
+  alternative tracked as new item 0.16.
