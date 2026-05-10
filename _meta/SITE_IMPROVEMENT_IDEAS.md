@@ -1374,3 +1374,10 @@ any public-facing milestone copy until a source is added.
   complete: every post is a BlogPosting authored by the home
   page's Person, and that Person resolves to three verified
   profile pages.
+- `2026-05-10` — **Cross-linking, opening salvo**: prev/next
+  chronological nav added to `_layouts/post.html` plus a
+  `.post-nav` block in `css/style.scss`. Uses Jekyll built-ins
+  `page.previous` / `page.next` so no precomputation needed.
+  Every one of the 507 posts now links to its date-adjacent
+  neighbours. Precursor to Phase 5.4's full post-v2 redesign;
+  tag-overlap "related posts" still tracked under 7.3.

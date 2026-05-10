@@ -34,5 +34,15 @@ layout: default
 	</section>
 
 </article>
+{% if page.previous or page.next %}
+<nav class="post-nav" aria-label="Adjacent posts">
+	{% if page.previous %}
+	<a class="prev" rel="prev" href="{{ page.previous.url }}"><span class="post-nav-label">Previous</span><span class="post-nav-title">{{ page.previous.title | escape }}</span></a>
+	{% endif %}
+	{% if page.next %}
+	<a class="next" rel="next" href="{{ page.next.url }}"><span class="post-nav-label">Next</span><span class="post-nav-title">{{ page.next.title | escape }}</span></a>
+	{% endif %}
+</nav>
+{% endif %}
 </div>
 </div>
