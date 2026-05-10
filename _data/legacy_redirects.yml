@@ -1,0 +1,113 @@
+# Single source of truth for legacy-URL → current-Jekyll-URL redirects.
+# Consumed by Phase A.7 (jekyll-redirect-from frontmatter generator).
+#
+# Schema (all sub-keys are arrays of objects):
+#   archives:       old /archives/<id>       → new
+#   wp_query_ids:   old /?p=<id>             → new
+#   wp_slugs:       old /<wp-slug>/          → new   (populated by A.6)
+#   wp_categories:  old /category/<slug>/    → new   (populated by A.6)
+#   about_slugs:    old /about/<slug>/       → new   (populated by A.6)
+#
+# Each entry has:
+#   id (or from), to, source, confidence
+#
+# Confidence levels:
+#   confirmed       third-party source verified the mapping (Hackaday,
+#                   Engadget, the research dossier, etc.)
+#   high            audit's slug match between legacy URL and Jekyll post
+#                   is exact
+#   medium / low    partial / token-overlap slug match
+#   needs-wayback   target unknown; recovery via web.archive.org is
+#                   tracked in Phase A.11
+#
+# To regenerate this file:
+#   python3 script/seed_legacy_redirects.py
+#
+# Last regenerated: 2026-05-10
+
+
+archives:
+  - id: 34
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - id: 97
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - id: 125
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - id: 201
+    to: ""
+    source: dossier-hackaday-2009-09-25
+    confidence: needs-wayback
+  - id: 253
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - id: 407
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - id: 450
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - id: 457
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - id: 466
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - id: 494
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - id: 506
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - id: 706
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - id: 843
+    to: /2010/11/28/a-25-gamingemulation-powerhouse-using-the-dockstar-as-a-gaming-console.html
+    source: dossier-hackaday-2011-01-02
+    confidence: confirmed
+  - id: 1640
+    to: /2011/06/27/so-thats-30-am-i-a-software-jedi-now-maybe-a-software-sith-lord.html
+    source: dossier-hn-2703378
+    confidence: confirmed
+  - id: 2269
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+
+wp_query_ids:
+  - id: 3163
+    to: /2012/07/21/android-sound.html
+    source: audit-slug-match
+    confidence: high
+  - id: 3426
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - id: 3583
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - id: 5580
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+
+wp_slugs: []
+
+wp_categories: []
+
+about_slugs: []
