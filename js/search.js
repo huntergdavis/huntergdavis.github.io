@@ -94,7 +94,7 @@
         this.field('category');
         this.field('content');
         this.field('date');
-  
+
         for (var key in window.store) { // Add the JSON we generated from the site content to Lunr.js.
           this.add({
             'id': key,
@@ -106,7 +106,8 @@
           });
         }
       });
-  
+
+      var searchTerm = getQuery('query');
       var results = idx.search(searchTerm); // Perform search with Lunr.js
       showResults(results, window.store);
     }
@@ -121,7 +122,7 @@
         this.field('category');
         this.field('content');
         this.field('date');
-  
+
         for (var key in window.store) { // Add the JSON we generated from the site content to Lunr.js.
           this.add({
             'id': key,
@@ -133,13 +134,9 @@
           });
         }
       });
-  
-      var results = idx.search(searchTerm); // Perform search with Lunr.js
-      showDateResults(results, window.store);        
-    }
 
-    var searchTerm = getQuery('query');
-    if (searchTerm) {
-        searchIsGo()
+      var searchTerm = getQuery('query');
+      var results = idx.search(searchTerm); // Perform search with Lunr.js
+      showDateResults(results, window.store);
     }
   

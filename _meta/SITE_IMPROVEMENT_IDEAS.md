@@ -722,10 +722,19 @@ URL preservation work moved to Phase A above.*
 ### Phase 1 — Performance quick wins
 *Goal: kill the obvious perf cliffs without touching design yet.*
 
-- [ ] **1.1** Replace `search.md` inline JSON dump with a
+- [x] **1.1** Replace `search.md` inline JSON dump with a
       `search.json` data file built by Liquid, fetched async by
-      `js/search.js`. **M** · *Acceptance:* `_site/search.html`
-      drops below 50 KB; first paint of search is sub-200 ms on 4G.
+      `js/search.js`. **M** · *Shipped 2026-05-10.* New
+      `search.json` Liquid template emits the same per-post object
+      shape as the previous inline `window.store`. `search.md`
+      drops the inline corpus and now `fetch()`s `/search.json`,
+      defers button binding until after the corpus arrives, and
+      shows a "Loading search index…" status during the fetch.
+      `js/search.js` now reads `searchTerm` fresh inside each
+      handler and the bottom auto-trigger is removed (search.md
+      orchestrates timing). Expected impact:
+      `_site/search.html` drops from **1.18 MB to under 5 KB**;
+      `search.json` carries the corpus once and is cacheable.
 - [ ] **1.2** Trim the search corpus: index `title`, `date`, `tags`,
       `excerpt` only — not full content. Keep full-content search as a
       progressive enhancement loaded after the first keystroke. **M**
@@ -1413,3 +1422,10 @@ any public-facing milestone copy until a source is added.
   straight to the content; screen readers can identify the
   primary landmark on every page. CSS uses the standard
   off-screen-until-focused pattern.
+- `2026-05-10` — **Phase 1.1 shipped**: search corpus split out
+  to a fetched `/search.json` so `_site/search.html` is a thin
+  shell instead of a 1.18 MB inline-data page. Search button
+  binding deferred to after the fetch resolves; status message
+  for slow loads / failure. `js/search.js` refactored to read
+  the URL query fresh inside each handler. The single biggest
+  performance cliff on the site is gone.
