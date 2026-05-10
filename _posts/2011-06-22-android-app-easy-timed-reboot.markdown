@@ -2,6 +2,9 @@
 layout: post
 title: Easy Timed Reboot
 date: '2011-06-22 12:53:55'
+redirect_from:
+  - /android-app-easy-timed-reboot
+  - /android-apps/file-and-network-tools/android-app-easy-timed-reboot/
 ---
 
 

@@ -2,6 +2,8 @@
 layout: post
 title: Utilities and Lifestyle Apps
 date: '2012-04-25 17:31:54'
+redirect_from:
+  - /android-apps/utilities-and-lifestyle-apps/
 ---
 
 

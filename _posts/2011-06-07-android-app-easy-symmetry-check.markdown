@@ -9,6 +9,9 @@ tags:
 - image
 - symmetry
 - symmetry-check
+redirect_from:
+  - /android-app-easy-symmetry-check
+  - /android-apps/graphics-and-imaging/android-app-easy-symmetry-check/
 ---
 
 

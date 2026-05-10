@@ -2,6 +2,9 @@
 layout: post
 title: Easy Image Stamp
 date: '2011-07-13 11:13:29'
+redirect_from:
+  - /android-app-easy-image-stamp
+  - /android-apps/graphics-and-imaging/android-app-easy-image-stamp/
 ---
 
 

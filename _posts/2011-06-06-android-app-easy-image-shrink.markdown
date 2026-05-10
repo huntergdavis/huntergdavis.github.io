@@ -10,6 +10,9 @@ tags:
 - image
 - image-scale
 - resizing
+redirect_from:
+  - /android-app-easy-image-shrink
+  - /android-apps/graphics-and-imaging/android-app-easy-image-shrink/
 ---
 
 

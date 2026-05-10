@@ -11,6 +11,9 @@ tags:
 - easy-apps
 - easy-lorem-ipsum
 - publishing
+redirect_from:
+  - /android-app-easy-lorem-ipsum
+  - /android-apps/document-creation-and-information-management/android-app-easy-lorem-ipsum/
 ---
 
 

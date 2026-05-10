@@ -2,6 +2,8 @@
 layout: post
 title: Super Simple RSS - SSRSS
 date: '2008-04-22 10:39:32'
+redirect_from:
+  - /popular-open-source-projects/super-simple-rss-ssrss/
 ---
 
 

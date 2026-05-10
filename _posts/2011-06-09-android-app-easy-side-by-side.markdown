@@ -11,6 +11,9 @@ tags:
 - easy-side-by-side
 - image-apps
 - images
+redirect_from:
+  - /android-app-easy-side-by-side
+  - /android-apps/graphics-and-imaging/android-app-easy-side-by-side/
 ---
 
 

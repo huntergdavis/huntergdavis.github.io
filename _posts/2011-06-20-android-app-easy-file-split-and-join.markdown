@@ -2,6 +2,9 @@
 layout: post
 title: Easy File Split and Join
 date: '2011-06-20 13:35:27'
+redirect_from:
+  - /android-app-easy-file-split-and-join
+  - /android-apps/file-and-network-tools/android-app-easy-file-split-and-join/
 ---
 
 

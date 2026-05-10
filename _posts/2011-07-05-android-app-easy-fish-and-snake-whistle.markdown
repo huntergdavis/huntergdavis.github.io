@@ -2,6 +2,9 @@
 layout: post
 title: Easy Fish And Snake Whistle
 date: '2011-07-05 11:29:11'
+redirect_from:
+  - /android-app-easy-fish-and-snake-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-fish-and-snake-whistle/
 ---
 
 

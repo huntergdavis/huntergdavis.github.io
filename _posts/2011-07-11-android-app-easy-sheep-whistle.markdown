@@ -9,6 +9,9 @@ tags:
 - app-tag
 - easy
 - whistle
+redirect_from:
+  - /android-app-easy-sheep-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-sheep-whistle/
 ---
 
 

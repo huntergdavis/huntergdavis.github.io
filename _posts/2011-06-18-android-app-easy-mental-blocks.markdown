@@ -13,6 +13,9 @@ tags:
 - wiki
 - wikipedia
 - wikis
+redirect_from:
+  - /android-app-easy-mental-blocks
+  - /android-apps/document-creation-and-information-management/android-app-easy-mental-blocks/
 ---
 
 

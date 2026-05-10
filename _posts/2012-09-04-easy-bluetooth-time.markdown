@@ -2,6 +2,8 @@
 layout: post
 title: Easy Bluetooth Time
 date: '2012-09-04 02:46:39'
+redirect_from:
+  - /android-apps/audio-tools/easy-bluetooth-time/
 ---
 
 

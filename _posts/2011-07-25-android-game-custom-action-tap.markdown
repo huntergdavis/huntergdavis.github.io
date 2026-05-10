@@ -2,6 +2,9 @@
 layout: post
 title: Custom Action Tap
 date: '2011-07-25 16:05:36'
+redirect_from:
+  - /android-apps/android-games/android-game-custom-action-tap/
+  - /android-game-custom-action-tap
 ---
 
 

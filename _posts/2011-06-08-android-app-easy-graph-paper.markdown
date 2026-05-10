@@ -10,6 +10,9 @@ tags:
 - graph-paper
 - image-apps
 - images
+redirect_from:
+  - /android-app-easy-graph-paper
+  - /android-apps/graphics-and-imaging/android-app-easy-graph-paper/
 ---
 
 

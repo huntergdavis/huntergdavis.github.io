@@ -10,6 +10,9 @@ tags:
 - easy
 - easy-multi-counter
 - ocd
+redirect_from:
+  - /android-app-easy-multi-counter
+  - /android-apps/document-creation-and-information-management/android-app-easy-multi-counter/
 ---
 
 

@@ -12,6 +12,9 @@ tags:
 - easy
 - wasy-cow-and-chicken-whistle
 - whistle
+redirect_from:
+  - /android-app-easy-cow-and-chicken-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-cow-and-chicken-whistle/
 ---
 
 

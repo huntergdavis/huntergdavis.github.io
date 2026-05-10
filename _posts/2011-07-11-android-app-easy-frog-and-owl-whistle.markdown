@@ -2,6 +2,9 @@
 layout: post
 title: Easy Frog and Owl Whistle
 date: '2011-07-11 17:29:21'
+redirect_from:
+  - /android-app-easy-frog-and-owl-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-frog-and-owl-whistle/
 ---
 
 

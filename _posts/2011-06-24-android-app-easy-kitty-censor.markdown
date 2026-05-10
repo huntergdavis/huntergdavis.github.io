@@ -13,6 +13,9 @@ tags:
 - easy-kitty-censor
 - kitty
 - pets
+redirect_from:
+  - /android-app-easy-kitty-censor
+  - /android-apps/graphics-and-imaging/android-app-easy-kitty-censor/
 ---
 
 

@@ -2,6 +2,9 @@
 layout: post
 title: Skillful Dodge
 date: '2011-07-26 09:49:48'
+redirect_from:
+  - /android-apps/android-games/android-game-skillful-dodge/
+  - /android-game-skillful-dodge
 ---
 
 

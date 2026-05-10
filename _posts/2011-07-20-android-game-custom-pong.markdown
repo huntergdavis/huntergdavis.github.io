@@ -2,6 +2,9 @@
 layout: post
 title: Custom Pong
 date: '2011-07-20 13:40:15'
+redirect_from:
+  - /android-apps/android-games/android-game-custom-pong/
+  - /android-game-custom-pong
 ---
 
 

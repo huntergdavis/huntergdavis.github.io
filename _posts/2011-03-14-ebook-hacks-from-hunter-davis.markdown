@@ -2,6 +2,9 @@
 layout: post
 title: Hacks.. from Hunter Davis
 date: '2011-03-14 19:42:23'
+redirect_from:
+  - /ebook-hacks-from-hunter-davis
+  - /ebook-hacks-from-hunter-davis/
 ---
 
 

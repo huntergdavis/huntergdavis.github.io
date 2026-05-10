@@ -12,6 +12,9 @@ tags:
 - easy-image-morph
 - image
 - image-morph
+redirect_from:
+  - /android-app-easy-image-morph
+  - /android-apps/graphics-and-imaging/android-app-easy-image-morph/
 ---
 
 

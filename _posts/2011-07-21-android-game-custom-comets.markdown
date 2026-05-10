@@ -2,6 +2,9 @@
 layout: post
 title: Custom Comets
 date: '2011-07-21 17:29:01'
+redirect_from:
+  - /android-apps/android-games/android-game-custom-comets/
+  - /android-game-custom-comets
 ---
 
 

@@ -11,6 +11,9 @@ tags:
 - easy-hearing-age-test
 - easy-hearing-test
 - hearing-test
+redirect_from:
+  - /android-app-easy-hearing-age-test
+  - /android-apps/audio-tools/android-app-easy-hearing-age-test/
 ---
 
 

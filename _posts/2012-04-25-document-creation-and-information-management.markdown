@@ -2,6 +2,8 @@
 layout: post
 title: Document Creation and Information Management
 date: '2012-04-25 17:25:55'
+redirect_from:
+  - /android-apps/document-creation-and-information-management/
 ---
 
 

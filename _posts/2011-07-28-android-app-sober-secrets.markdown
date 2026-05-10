@@ -2,6 +2,9 @@
 layout: post
 title: Sober Secrets
 date: '2011-07-28 09:22:01'
+redirect_from:
+  - /android-app-sober-secrets
+  - /android-apps/encryption-and-obfuscation/android-app-sober-secrets/
 ---
 
 

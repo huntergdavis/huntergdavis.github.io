@@ -2,6 +2,9 @@
 layout: post
 title: Easy Mouse And Rat Whistle
 date: '2011-07-05 09:58:54'
+redirect_from:
+  - /android-app-easy-mouse-and-rat-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-mouse-and-rat-whistle/
 ---
 
 

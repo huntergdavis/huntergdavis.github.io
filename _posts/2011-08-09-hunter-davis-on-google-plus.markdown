@@ -2,6 +2,8 @@
 layout: post
 title: add Hunter Davis on Google+
 date: '2011-08-09 10:24:52'
+redirect_from:
+  - /about/hunter-davis-on-google-plus/
 ---
 
 

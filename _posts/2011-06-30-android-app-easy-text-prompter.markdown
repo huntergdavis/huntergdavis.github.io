@@ -9,6 +9,9 @@ tags:
 - easy-apps
 - easy-text
 - easy-text-prompter
+redirect_from:
+  - /android-app-easy-text-prompter
+  - /android-apps/utilities-and-lifestyle-apps/android-app-easy-text-prompter/
 ---
 
 

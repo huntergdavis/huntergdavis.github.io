@@ -11,6 +11,9 @@ tags:
 - easy-pest-control
 - ultra-sonic
 - ultrasonic
+redirect_from:
+  - /android-app-easy-pest-control
+  - /android-apps/android-app-super-whistle/android-app-easy-pest-control/
 ---
 
 

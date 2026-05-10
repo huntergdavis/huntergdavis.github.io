@@ -2,6 +2,9 @@
 layout: post
 title: Easy Rabbit And Hedgehog Whistle
 date: '2011-07-05 11:17:41'
+redirect_from:
+  - /android-app-easy-rabbit-and-hedgehog-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-rabbit-and-hedgehog-whistle/
 ---
 
 

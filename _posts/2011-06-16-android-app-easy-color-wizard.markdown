@@ -2,6 +2,9 @@
 layout: post
 title: Easy Color Wizard
 date: '2011-06-16 16:18:34'
+redirect_from:
+  - /android-app-easy-color-wizard
+  - /android-apps/graphics-and-imaging/android-app-easy-color-wizard/
 ---
 
 

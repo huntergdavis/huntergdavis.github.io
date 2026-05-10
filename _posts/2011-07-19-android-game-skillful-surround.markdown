@@ -2,6 +2,9 @@
 layout: post
 title: Skillful Surround
 date: '2011-07-19 14:40:15'
+redirect_from:
+  - /android-apps/android-games/android-game-skillful-surround/
+  - /android-game-skillful-surround
 ---
 
 

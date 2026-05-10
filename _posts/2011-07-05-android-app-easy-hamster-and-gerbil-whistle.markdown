@@ -2,6 +2,9 @@
 layout: post
 title: Easy Hamster And Gerbil Whistle
 date: '2011-07-05 10:43:01'
+redirect_from:
+  - /android-app-easy-hamster-and-gerbil-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-hamster-and-gerbil-whistle/
 ---
 
 

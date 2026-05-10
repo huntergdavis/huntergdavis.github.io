@@ -2,6 +2,9 @@
 layout: post
 title: The Grind
 date: '2011-07-27 21:49:46'
+redirect_from:
+  - /android-apps/android-games/android-game-the-grind/
+  - /android-game-the-grind
 ---
 
 

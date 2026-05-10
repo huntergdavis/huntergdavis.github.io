@@ -11,6 +11,9 @@ tags:
 - network
 - network-apps
 - udp
+redirect_from:
+  - /android-app-easy-packet-blast
+  - /android-apps/file-and-network-tools/android-app-easy-packet-blast/
 ---
 
 

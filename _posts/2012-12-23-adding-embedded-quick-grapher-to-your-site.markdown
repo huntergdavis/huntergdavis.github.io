@@ -2,6 +2,8 @@
 layout: post
 title: Adding Embedded Quick Grapher to Your Site
 date: '2012-12-23 18:30:27'
+redirect_from:
+  - /popular-open-source-projects/quickgrapher_open_source/adding-embedded-quick-grapher-to-your-site/
 ---
 
 

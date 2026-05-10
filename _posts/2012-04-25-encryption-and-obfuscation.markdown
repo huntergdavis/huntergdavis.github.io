@@ -2,6 +2,8 @@
 layout: post
 title: Encryption and Obfuscation
 date: '2012-04-25 17:17:39'
+redirect_from:
+  - /android-apps/encryption-and-obfuscation/
 ---
 
 

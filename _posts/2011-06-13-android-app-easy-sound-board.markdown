@@ -9,6 +9,9 @@ tags:
 - easy-sound-board
 - sound-board
 - sounds
+redirect_from:
+  - /android-app-easy-sound-board
+  - /android-apps/audio-tools/android-app-easy-sound-board/
 ---
 
 

@@ -2,6 +2,9 @@
 layout: post
 title: Super Whistle +Android Whistles
 date: '2011-07-29 12:12:51'
+redirect_from:
+  - /android-app-super-whistle
+  - /android-apps/android-app-super-whistle/
 ---
 
 

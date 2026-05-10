@@ -2,6 +2,9 @@
 layout: post
 title: Easy Reptile Whistle
 date: '2011-07-05 09:33:41'
+redirect_from:
+  - /android-app-easy-reptile-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-reptile-whistle/
 ---
 
 

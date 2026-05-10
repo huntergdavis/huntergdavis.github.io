@@ -9,6 +9,9 @@ tags:
 - easy-hidden
 - easy-hidden-notepad
 - hidden-notepad
+redirect_from:
+  - /android-app-easy-hidden-notepad
+  - /android-apps/encryption-and-obfuscation/android-app-easy-hidden-notepad/
 ---
 
 

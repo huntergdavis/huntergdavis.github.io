@@ -2,6 +2,8 @@
 layout: post
 title: Ko-Nami Code
 date: '2011-08-18 10:23:46'
+redirect_from:
+  - /about/ko-nami-code/
 ---
 
 

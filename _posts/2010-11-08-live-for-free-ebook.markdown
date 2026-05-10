@@ -2,6 +2,9 @@
 layout: post
 title: Live for Free - The Chronicles of a Nerd Saving for a Startup
 date: '2010-11-08 09:37:49'
+redirect_from:
+  - /live-for-free-ebook
+  - /live-for-free-ebook/
 ---
 
 

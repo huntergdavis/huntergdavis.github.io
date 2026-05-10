@@ -9,6 +9,9 @@ tags:
 - android-easy-positive
 - easy
 - easy-positive-audio
+redirect_from:
+  - /android-app-easy-positive-audio
+  - /android-apps/audio-tools/android-app-easy-positive-audio/
 ---
 
 

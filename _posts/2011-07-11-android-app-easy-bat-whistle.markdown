@@ -2,6 +2,9 @@
 layout: post
 title: Easy Bat Whistle
 date: '2011-07-11 17:02:08'
+redirect_from:
+  - /android-app-easy-bat-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-bat-whistle/
 ---
 
 

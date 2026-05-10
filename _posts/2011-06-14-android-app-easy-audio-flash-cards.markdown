@@ -10,6 +10,9 @@ tags:
 - audio
 - easy-audio-flash-cards
 - flash-cards
+redirect_from:
+  - /android-app-easy-audio-flash-cards
+  - /android-apps/audio-tools/android-app-easy-audio-flash-cards/
 ---
 
 

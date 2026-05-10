@@ -9,6 +9,9 @@ tags:
 - easy
 - easy-static
 - images
+redirect_from:
+  - /android-app-easy-static
+  - /android-apps/graphics-and-imaging/android-app-easy-static/
 ---
 
 

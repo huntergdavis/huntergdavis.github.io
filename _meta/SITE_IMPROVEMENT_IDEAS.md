@@ -563,20 +563,22 @@ is complete.*
       checks confirmed targets hit real `_posts/` files.
       Remaining 17 unresolved rows all flagged `needs-wayback`
       for Phase A.11.
-- [ ] **A.7** Emit redirect stubs for every entry in
-      `_data/legacy_redirects.yml`. Two flavours, pick one:
-      - **(a) Custom plugin** `_plugins/legacy_redirects.rb`:
-        iterates the data file, emits a static stub at every
-        `from`/`id` URL with `<meta http-equiv="refresh">` +
-        `<link rel="canonical">`. Cleanest, requires CI build
-        (Phase 8.3) since stock GitHub Pages disables custom
-        `_plugins/`.
-      - **(b) Frontmatter generator** `script/expand_redirects.py`:
-        a one-shot script that reads `_data/legacy_redirects.yml`
-        and adds a `redirect_from:` array to each Jekyll target
-        post. Works on stock GH Pages today via
-        `jekyll-redirect-from` (A.4). More frontmatter sprawl,
-        but immediate. **M**
+- [x] **A.7** Emit redirect stubs for every entry in
+      `_data/legacy_redirects.yml`. **M** · *Shipped 2026-05-10.*
+      Took path (b) — `script/expand_redirects.py` writes
+      `redirect_from:` arrays into target post frontmatter, picked
+      up by `jekyll-redirect-from` on the live deploy without any
+      CI changes. Stats: **93 posts updated, 164 legacy URLs wired
+      to canonical Jekyll permalinks**. Filters in the script
+      excluded 14 needs-wayback rows (no `to:`), 1 medium-confidence
+      row, and 1 sibling-repo collision (`/source-tree-visualizer/`
+      vs the `Source-Tree-Visualizer` GH-Pages-deployed repo). All
+      507 posts re-parsed cleanly with PyYAML after the rewrite.
+      Script is idempotent — re-running it on a post that already
+      has `redirect_from:` is a no-op, so future post additions can
+      be picked up by re-running without clobbering.
+      `wp_query_ids` deferred to A.15 (query strings can't be
+      static stub paths).
 - [ ] **A.8** Loose-artifact mirror. From the CSV, fetch each
       referenced `/csa.zip`, `/zipit.tgz`, `/snesaver.pl`,
       `/cam.cpp`, `/hunterdavis.pdf`, `/wirelessplusx.rar`,
@@ -642,6 +644,16 @@ is complete.*
       linked but no exact-match repo exists (deploy is probably
       `Hunter-Davis-impressjs-Resume`), and `/photo-stream/` is
       linked but the repo is `photo-stream-static`. **M**
+- [ ] **A.15** WordPress query-string ID handler. `?p=NNN`,
+      `?s=foo`, `?cat=bar` etc. can't be static stub paths so
+      `jekyll-redirect-from` (A.4 / A.7) doesn't help. Add a
+      small `<script>` to `index.html` (or a dedicated
+      `/redirect.html`) that reads `URLSearchParams`, looks up
+      the ID against `site.data.legacy_redirects.wp_query_ids`,
+      and `location.replace()`s to the canonical URL. Falls
+      through to the smart-404 (A.12) for unknown IDs.
+      Currently 4 distinct WP IDs in scope (3163, 3426, 3583,
+      5580); only 3163 has a confirmed target today. **S**
 
 ### Phase 0 — Hygiene & broken-asset fixes
 *Goal: stop shipping bugs. Each item is independently shippable.
@@ -1320,3 +1332,12 @@ any public-facing milestone copy until a source is added.
   wp_categories 4 (low; need manual taxonomy review later),
   about_slugs 3 (all high). Spot-check confirmed sample targets
   point at real posts.
+- `2026-05-10` — **Phase A.7 shipped**: `script/expand_redirects.py`
+  wrote `redirect_from:` frontmatter onto **93 posts covering 164
+  legacy URLs**. Once GH Pages rebuilds, every Hackaday / Engadget /
+  HN inbound link from the WordPress era starts resolving again
+  via `jekyll-redirect-from` static stubs. Filtered out: 14
+  needs-wayback (no target), 1 medium-confidence, 1 sibling-repo
+  collision (`/source-tree-visualizer/`). All 507 posts still
+  parse cleanly post-rewrite. `wp_query_ids` (`?p=NNN`) deferred
+  to new item A.15 since they're query strings, not paths.

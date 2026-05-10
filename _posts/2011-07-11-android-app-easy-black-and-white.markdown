@@ -11,6 +11,9 @@ tags:
 - easy-images
 - image
 - images
+redirect_from:
+  - /android-app-easy-black-and-white
+  - /android-apps/graphics-and-imaging/android-app-easy-black-and-white/
 ---
 
 

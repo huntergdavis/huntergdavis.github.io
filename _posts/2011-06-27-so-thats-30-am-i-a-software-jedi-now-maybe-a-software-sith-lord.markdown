@@ -13,6 +13,8 @@ tags:
 - software-sith-lord
 - 30-days
 - 30-android-apps-in-30-days
+redirect_from:
+  - /archives/1640
 ---
 
 

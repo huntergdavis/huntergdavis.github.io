@@ -2,6 +2,9 @@
 layout: post
 title: Android App - Easy Dog Whistle
 date: '2011-06-16 13:50:48'
+redirect_from:
+  - /android-app-easy-dog-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-dog-whistle/
 ---
 
 

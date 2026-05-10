@@ -11,6 +11,9 @@ tags:
 - easy-done
 - easy-tone-dialer
 - tone-dialer
+redirect_from:
+  - /android-app-easy-tone-dialer
+  - /android-apps/audio-tools/android-app-easy-tone-dialer/
 ---
 
 

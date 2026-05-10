@@ -9,6 +9,9 @@ tags:
 - easy
 - easy-unit-conversion
 - unit-conversion
+redirect_from:
+  - /android-app-easy-unit-conversion
+  - /android-apps/utilities-and-lifestyle-apps/android-app-easy-unit-conversion/
 ---
 
 

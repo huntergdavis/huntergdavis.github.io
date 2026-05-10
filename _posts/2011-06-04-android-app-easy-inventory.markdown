@@ -2,6 +2,9 @@
 layout: post
 title: Easy Inventory
 date: '2011-06-04 14:07:10'
+redirect_from:
+  - /android-app-easy-inventory
+  - /android-apps/document-creation-and-information-management/android-app-easy-inventory/
 ---
 
 

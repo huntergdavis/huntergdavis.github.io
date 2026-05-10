@@ -2,6 +2,9 @@
 layout: post
 title: Easy Raccoon and Opossum Whistle
 date: '2011-07-11 16:51:27'
+redirect_from:
+  - /android-app-easy-raccoon-and-opossum-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-raccoon-and-opossum-whistle/
 ---
 
 

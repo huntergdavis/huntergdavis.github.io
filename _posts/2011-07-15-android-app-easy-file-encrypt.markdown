@@ -2,6 +2,9 @@
 layout: post
 title: Easy File Encrypt
 date: '2011-07-15 10:26:03'
+redirect_from:
+  - /android-app-easy-file-encrypt
+  - /android-apps/encryption-and-obfuscation/android-app-easy-file-encrypt/
 ---
 
 

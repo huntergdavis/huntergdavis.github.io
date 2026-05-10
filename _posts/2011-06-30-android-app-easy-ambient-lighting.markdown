@@ -11,6 +11,9 @@ tags:
 - easy
 - easy-ambient-lighting
 - lighting
+redirect_from:
+  - /android-app-easy-ambient-lighting
+  - /android-apps/graphics-and-imaging/android-app-easy-ambient-lighting/
 ---
 
 

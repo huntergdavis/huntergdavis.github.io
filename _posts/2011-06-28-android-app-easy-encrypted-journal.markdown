@@ -11,6 +11,9 @@ tags:
 - easy
 - easy-encrypted-journal
 - encryption
+redirect_from:
+  - /android-app-easy-encrypted-journal
+  - /android-apps/encryption-and-obfuscation/android-app-easy-encrypted-journal/
 ---
 
 

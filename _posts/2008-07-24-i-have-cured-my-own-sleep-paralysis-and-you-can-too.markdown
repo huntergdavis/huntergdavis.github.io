@@ -2,6 +2,8 @@
 layout: post
 title: I have cured my own sleep paralysis, and you can too.
 date: '2008-07-24 17:05:28'
+redirect_from:
+  - /about/i-have-cured-my-own-sleep-paralysis-and-you-can-too/
 ---
 
 

@@ -2,6 +2,8 @@
 layout: post
 title: Pop Them Balloons!
 date: '2012-12-30 02:15:25'
+redirect_from:
+  - /android-apps/android-games/pop-them-balloons/
 ---
 
 

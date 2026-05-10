@@ -7,6 +7,9 @@ tags:
 - android-apps-2
 - android-games-2
 - apps-tag
+redirect_from:
+  - /android-app-ar-wiki-augmented-reality-wikipedia
+  - /android-apps/utilities-and-lifestyle-apps/android-app-ar-wiki-augmented-reality-wikipedia/
 ---
 
 

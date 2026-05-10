@@ -9,6 +9,9 @@ tags:
 - app-tag
 - easy
 - easy-ratings
+redirect_from:
+  - /android-app-easy-ratings
+  - /android-apps/document-creation-and-information-management/android-app-easy-ratings/
 ---
 
 

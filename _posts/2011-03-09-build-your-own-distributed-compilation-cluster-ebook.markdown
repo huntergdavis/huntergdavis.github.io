@@ -2,6 +2,10 @@
 layout: post
 title: Build Your Own Distributed Compilation Cluster
 date: '2011-03-09 21:51:57'
+redirect_from:
+  - /books/build-your-own-distributed-compilation-cluster-ebook/
+  - /build-your-own-distributed-compilation-cluster-ebook
+  - /build-your-own-distributed-compilation-cluster-ebook/
 ---
 
 

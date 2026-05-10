@@ -11,6 +11,9 @@ tags:
 - easy-image-splice
 - easy-images
 - image-splice
+redirect_from:
+  - /android-app-easy-image-splice
+  - /android-apps/graphics-and-imaging/android-app-easy-image-splice/
 ---
 
 

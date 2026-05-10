@@ -11,6 +11,9 @@ tags:
 - easy-fractal
 - fractal-math
 - math
+redirect_from:
+  - /android-app-easy-fractal
+  - /android-apps/graphics-and-imaging/android-app-easy-fractal/
 ---
 
 

@@ -2,6 +2,8 @@
 layout: post
 title: Graphics and Imaging
 date: '2012-04-25 17:12:39'
+redirect_from:
+  - /android-apps/graphics-and-imaging/
 ---
 
 

@@ -2,6 +2,8 @@
 layout: post
 title: Games
 date: '2012-04-25 16:34:56'
+redirect_from:
+  - /android-apps/android-games/
 ---
 
 

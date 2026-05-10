@@ -2,6 +2,9 @@
 layout: post
 title: Easy Horse and Donkey Whistle
 date: '2011-07-11 16:35:39'
+redirect_from:
+  - /android-app-easy-horse-and-donkey-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-horse-and-donkey-whistle/
 ---
 
 

@@ -2,6 +2,8 @@
 layout: post
 title: Personal Finance
 date: '2013-04-29 01:30:09'
+redirect_from:
+  - /personal-finance/
 ---
 
 

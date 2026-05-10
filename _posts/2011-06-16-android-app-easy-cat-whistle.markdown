@@ -8,6 +8,9 @@ tags:
 - android-apps-2
 - app-tag
 - easy
+redirect_from:
+  - /android-app-easy-cat-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-cat-whistle/
 ---
 
 

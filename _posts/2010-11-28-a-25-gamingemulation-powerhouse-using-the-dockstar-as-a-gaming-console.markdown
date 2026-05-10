@@ -15,6 +15,8 @@ tags:
 - porting
 - snes
 - software
+redirect_from:
+  - /archives/843
 ---
 
 

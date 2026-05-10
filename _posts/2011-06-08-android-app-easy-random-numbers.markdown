@@ -8,6 +8,9 @@ tags:
 - apps-tag
 - easy-random-numbers
 - random-numbers
+redirect_from:
+  - /android-app-easy-random-numbers
+  - /android-apps/utilities-and-lifestyle-apps/android-app-easy-random-numbers/
 ---
 
 

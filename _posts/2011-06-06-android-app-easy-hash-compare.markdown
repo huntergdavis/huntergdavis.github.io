@@ -9,6 +9,9 @@ tags:
 - compare
 - hash
 - md5
+redirect_from:
+  - /android-app-easy-hash-compare
+  - /android-apps/file-and-network-tools/android-app-easy-hash-compare/
 ---
 
 
