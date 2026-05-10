@@ -818,9 +818,17 @@ URL preservation work moved to Phase A above.*
 - [ ] **0.3** Switch `_config.yml` `url` and `base_url` to
       `https://www.hunterdavis.com`. Update `robots.txt` / `sitemap.xml`
       / `feed.xml` to use `site.url` consistently. **S**
-- [ ] **0.4** Collapse `site.url` and `site.base_url` to a single key
+- [x] **0.4** Collapse `site.url` and `site.base_url` to a single key
       and fix all references in `_includes/ssn.html`, `feed.xml`,
-      `sitemap.xml`, `robots.txt`. **S**
+      `sitemap.xml`, `robots.txt`. **S** ·
+      *Shipped 2026-05-10.* Dropped the duplicate `base_url`
+      key from `_config.yml`; renamed all 8 `site.base_url`
+      references (5 in `_includes/ssn.html`, 2 in `sitemap.xml`,
+      1 in `robots.txt`) to `site.url`. `feed.xml` already used
+      `site.url`. `_config.yml` had both keys set to identical
+      values so the rendered output is byte-identical; the
+      configuration now has a single source of truth for the
+      site origin, aligned with Jekyll's own convention.
 - [x] **0.5** Fix empty `<img src="" width=600 />` on the home list:
       only render the image element when `post.image` is non-empty.
       Edit `index.html`. **S** · *Shipped 2026-05-10 (bundled with
@@ -1721,3 +1729,11 @@ any public-facing milestone copy until a source is added.
   — they're links to YouTube, not embeds). Embedded videos no
   longer set tracking cookies on readers' browsers until they
   actually press play.
+- `2026-05-10` — **Phase 0.4 shipped**: dual `site.url` /
+  `site.base_url` config keys collapsed into a single
+  `site.url`. 8 `site.base_url` references in `ssn.html`,
+  `sitemap.xml`, and `robots.txt` renamed; the duplicate
+  config line dropped from `_config.yml`. Byte-identical
+  output (both keys held the same value), but now there's a
+  single source of truth for the site origin — important
+  before the HTTPS switch in 0.3.
