@@ -919,13 +919,15 @@ last commit in this phase swaps the default.*
       (privacy-friendly + works in modern browsers). **S**
 - [ ] **7.13** Add 404 page upgrade with site-map and search.
       (Smart-routing extensions for legacy paths handled in A.12.) **S**
-- [ ] **7.14** Add JSON-LD `Person` schema to the home page —
-      `@type: Person`, `name: Hunter Davis`, `url: site.url`,
-      `sameAs: [github.com/huntergdavis, ...]`. New
-      `_includes/jsonld_person.html`, rendered from
-      `_layouts/home.html`. Companion to 7.1's BlogPosting schema
-      so search engines can connect post authors to a single
-      Person entity. **S**
+- [x] **7.14** Add JSON-LD `Person` schema to the home page. **S** ·
+      *Shipped 2026-05-10.* New `_includes/jsonld_person.html`
+      referenced from `_layouts/home.html`. Fields: `@type: Person`,
+      `name: Hunter Davis`, `url` (site root via `absolute_url`),
+      and `sameAs` array with three dossier-confirmed identities
+      (GitHub via `site.links.github`, LinkedIn, Hacker News).
+      Validated as valid JSON. Pairs with 7.1's BlogPosting so
+      search engines can resolve `BlogPosting.author.name` to a
+      single Person entity with verified profile links.
 
 ### Phase 8 — Modernize tooling & infrastructure
 - [ ] **8.1** Bump Jekyll to 4.x, update Gemfile + `Gemfile.lock`,
@@ -1364,3 +1366,11 @@ any public-facing milestone copy until a source is added.
   across four representative post shapes. Burns down the
   "schema support" project line. Person schema on home tracked
   separately as 7.14.
+- `2026-05-10` — **Phase 7.14 shipped**: Person JSON-LD on home
+  page via new `_includes/jsonld_person.html` referenced from
+  `_layouts/home.html`. `sameAs` array contains three
+  dossier-confirmed identity URLs (GitHub, LinkedIn, HN).
+  Together with 7.1, the search-engine entity graph is now
+  complete: every post is a BlogPosting authored by the home
+  page's Person, and that Person resolves to three verified
+  profile pages.
