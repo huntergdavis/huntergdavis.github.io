@@ -669,14 +669,21 @@ URL preservation work moved to Phase A above.*
 - [ ] **0.4** Collapse `site.url` and `site.base_url` to a single key
       and fix all references in `_includes/ssn.html`, `feed.xml`,
       `sitemap.xml`, `robots.txt`. **S**
-- [ ] **0.5** Fix empty `<img src="" width=600 />` on the home list:
+- [x] **0.5** Fix empty `<img src="" width=600 />` on the home list:
       only render the image element when `post.image` is non-empty.
-      Edit `index.html`. **S**
-- [ ] **0.6** Add `loading="lazy"` and `decoding="async"` to home and
-      post-list image renders. **S**
-- [ ] **0.7** Remove the `{{ post.featured_img }}` line entirely from
+      Edit `index.html`. **S** · *Shipped 2026-05-10 (bundled with
+      0.6 + 0.7).*
+- [x] **0.6** Add `loading="lazy"` and `decoding="async"` to home and
+      post-list image renders. **S** · *Shipped 2026-05-10 (bundled
+      with 0.5 + 0.7).* Also added `alt=""` for decorative-image
+      WCAG compliance.
+- [x] **0.7** Remove the `{{ post.featured_img }}` line entirely from
       `index.html` (the recent dunking-bird fix proved it's redundant).
-      **S**
+      **S** · *Shipped 2026-05-10 (bundled with 0.5 + 0.6).* Kept
+      `featured_img` as a Liquid `default:` fallback to avoid
+      regressing 16 posts (mostly 2020–2021 Johnny Castaway saga)
+      that have `featured_img:` but no `image:`. A future commit
+      can migrate those posts' frontmatter and drop the fallback.
 - [ ] **0.8** Delete `_includes/disqus.html` — unused, references a
       `site.disqus` value that's commented out. **S**
 - [ ] **0.9** Delete `_includes/jquery-1.4.4.min.js`,
@@ -1381,3 +1388,13 @@ any public-facing milestone copy until a source is added.
   Every one of the 507 posts now links to its date-adjacent
   neighbours. Precursor to Phase 5.4's full post-v2 redesign;
   tag-overlap "related posts" still tracked under 7.3.
+- `2026-05-10` — **Phase 0.5 + 0.6 + 0.7 shipped** (bundled):
+  home image rendering modernized. Replaced two `<img>` lines
+  (one always broken from `featured_img`, one always rendered
+  even with empty `src`) with a single guarded `<img>` that
+  uses `post.image | default: post.featured_img`, adds
+  `loading="lazy" decoding="async" alt=""`, and quotes the
+  `width="600"` attribute. Net effect: **338 broken-icon
+  renders eliminated** across the archive while preserving the
+  169 posts that have a hero image (153 via `image:`, 16 via
+  `featured_img:` fallback). Zero regression.
