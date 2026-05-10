@@ -12,6 +12,23 @@
 html, body{
 	background-color: #eee;
 }
+
+.skip-link{
+	position: absolute;
+	top: -40px;
+	left: 0;
+	background: #000;
+	color: #fff;
+	padding: 8px 16px;
+	z-index: 1000;
+	text-decoration: none;
+	border-radius: 0 0 4px 0;
+
+	&:focus{
+		top: 0;
+		outline: 2px solid #1AC9DB;
+	}
+}
 body{
 	text-align: left;
 

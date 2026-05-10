@@ -704,8 +704,17 @@ URL preservation work moved to Phase A above.*
       analytics snippet (Plausible / GoatCounter / self-hosted) only if
       `site.analytics_url` is set. Otherwise remove the include
       altogether. **S**
-- [ ] **0.14** Add `<main>` landmark and a visually-hidden
-      "Skip to content" link in `_layouts/default.html`. **S**
+- [x] **0.14** Add `<main>` landmark and a visually-hidden
+      "Skip to content" link in `_layouts/default.html`. **S** ·
+      *Shipped 2026-05-10.* Replaced `<section class="content">`
+      with `<main id="main" class="content">` (CSS kept working —
+      rules target the class, not the element). Added a `<a
+      class="skip-link" href="#main">` as the first focusable
+      element in `<body>`, with CSS that keeps it off-screen
+      until focused (standard `position: absolute; top: -40px;`
+      pattern, `top: 0` on `:focus`, plus a high-contrast accent
+      outline). Skip-link vocabulary matches existing site UI
+      labels.
 - [ ] **0.15** Set explicit `width` and `height` on home-list images
       (use a default ratio like 1200×630 if unknown) to eliminate CLS.
       **S**
@@ -1398,3 +1407,9 @@ any public-facing milestone copy until a source is added.
   renders eliminated** across the archive while preserving the
   169 posts that have a hero image (153 via `image:`, 16 via
   `featured_img:` fallback). Zero regression.
+- `2026-05-10` — **Phase 0.14 shipped**: `<main>` landmark and
+  skip-to-content link in `_layouts/default.html`. Keyboard
+  users now have a one-tab path past the header navigation
+  straight to the content; screen readers can identify the
+  primary landmark on every page. CSS uses the standard
+  off-screen-until-focused pattern.
