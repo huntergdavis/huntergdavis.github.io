@@ -626,14 +626,21 @@ is complete.*
       matches. Catches anything the explicit redirects miss
       (especially URLs only linked from third-party sites we
       can't enumerate). **S**
-- [ ] **A.13** Build-fail subpath-collision check. Add
-      `script/check_subpath_collisions.py` (callable from a git
-      pre-commit hook AND from Phase 8.3 CI). It loads
-      `_data/projects_subpaths.yml`, lists every top-level file
-      and directory in the source tree (excluding `_`-prefixed
-      Jekyll dirs and the entries already in `_config.yml`'s
-      `exclude:`), and exits non-zero if any path collides
-      case-insensitively with a `reserved:` name. **S**
+- [x] **A.13** Build-fail subpath-collision check. **S** ·
+      *Shipped 2026-05-10.* `script/check_subpath_collisions.py`
+      loads `_data/projects_subpaths.yml` (135 reserved names),
+      walks the source root, skips Jekyll-special directories
+      (`_posts`, `_layouts`, `_includes`, `_sass`, `_data`,
+      `_site`, `_drafts`, `_plugins`, `_meta`) + dotfiles +
+      Gemfile / Gemfile.lock + anything in `_config.yml`'s
+      `exclude:` list, and exits non-zero with an actionable
+      "rename / exclude / update-data" message if any remaining
+      top-level entry collides case-insensitively with a
+      reserved name. Verified by adversarial test
+      (`mkdir quickgrapher && python3 script/check_subpath_collisions.py`
+      → exit 1 with clear collision message; removed → exit 0).
+      Hookable from a git pre-commit hook today, or wired into
+      CI when Phase 8.3 lands.
 - [ ] **A.14** Verify the live subset of `_data/projects_subpaths.yml`.
       For each of the 135 reserved repo names, probe
       `https://hunterdavis.com/<name>/` (HEAD request, follow
@@ -1763,3 +1770,13 @@ any public-facing milestone copy until a source is added.
   links to `/`; year is plain text until Phase 2.5 ships
   `/archive/<year>/`. Adds an immediate contextual cue at
   the top of every post without creating broken links.
+- `2026-05-10` — **Phase A.13 shipped**:
+  `script/check_subpath_collisions.py`. Reads
+  `_data/projects_subpaths.yml` (135 reserved names) and the
+  source root, exits non-zero if any non-Jekyll-special,
+  non-excluded top-level entry collides case-insensitively
+  with a sibling-repo subpath. Adversarial test confirms:
+  `mkdir quickgrapher` → exit 1 with remediation message;
+  removed → exit 0. Defensive infrastructure that prevents
+  future commits from silently clobbering a sibling-repo
+  deploy.
