@@ -10,6 +10,22 @@
       </ul>
     </details>
   </nav>
+  <form class="header-search" action="/search.html" method="get" role="search">
+    <label for="header-search-input" class="visually-hidden">Search</label>
+    <input type="search" name="query" id="header-search-input" placeholder="Search… (press /)" aria-label="Search posts" autocomplete="off">
+  </form>
+  <script>
+    (function(){
+      document.addEventListener('keydown', function(e){
+        if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+        var t = e.target;
+        var tag = t && t.tagName;
+        if (tag === 'INPUT' || tag === 'TEXTAREA' || (t && t.isContentEditable)) return;
+        var input = document.getElementById('header-search-input');
+        if (input) { e.preventDefault(); input.focus(); input.select(); }
+      });
+    })();
+  </script>
 
 
 {% if page.quickgrapher == true %}

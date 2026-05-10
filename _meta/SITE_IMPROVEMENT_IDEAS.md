@@ -758,11 +758,22 @@ version; the v2 redesign will inherit it.*
       across four representative posts (2007 → 5 siblings, 2011
       → 5 siblings, 2025 → 0, 2026 → 0; aside suppressed in
       the latter two).
-- [ ] **B.15** Promote search to every page. Today the search
-      input lives only in the sidebar and only renders on the
-      home. Move (or copy) it into the header so it's available
-      on every post. Add a `/` keyboard shortcut to focus it.
-      **M**
+- [x] **B.15** Promote search to every page. **M** ·
+      *Shipped 2026-05-10.* New `<form class="header-search"
+      role="search">` in `_includes/header.html`, rendered on
+      every page (header is in default layout). `<input
+      type="search" placeholder="Search… (press /)">` with
+      hidden `<label>` for accessible name. Tiny inline JS
+      script in the same include listens for the `/` key and
+      focuses the input — guarded against firing when the user
+      is already typing in an input/textarea/contenteditable
+      element, and against Ctrl/Meta/Alt modifier combinations.
+      `.visually-hidden` utility added to `css/style.scss`
+      alongside `.header-search` styles (centered, max-width
+      360px on desktop, full-width on mobile, focus outline
+      using existing #1AC9DB accent). The old sidebar search
+      form is left in place for now — removing it is a
+      separate atomic follow-up.
 - [x] **B.16** Mobile nav: replace the dated `.android`-class
       panel + jQuery-style toggle with a native `<details>`
       element styled as a popover. No JS dependency. **S** ·
@@ -1621,3 +1632,10 @@ any public-facing milestone copy until a source is added.
   (`.android`, `.opener`, `.clear-opener`, `.active-menu`
   rules removed). Desktop visual unchanged; mobile menu now
   actually opens.
+- `2026-05-10` — **Phase B.15 shipped**: search input promoted
+  to the header, rendered on every page (was sidebar-only,
+  home-only). Tiny inline JS adds a `/` keyboard shortcut to
+  focus the input, guarded against firing while typing in an
+  input/textarea/contenteditable. `role="search"` and
+  hidden-label a11y. The deep archive now has a one-keystroke
+  search affordance from any post page.
