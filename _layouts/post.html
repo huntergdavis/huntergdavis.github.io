@@ -4,6 +4,12 @@ layout: default
 {% include jsonld_post.html %}
 <div id="home" class="grid post">
 <div class="unit whole">
+<nav class="breadcrumb" aria-label="Breadcrumb">
+	<ol>
+		<li><a href="/">Home</a></li>
+		<li>{{ page.date | date: "%Y" }}</li>
+	</ol>
+</nav>
 <article>
 	<header>
 		<h1>{{ page.title }}</h1>

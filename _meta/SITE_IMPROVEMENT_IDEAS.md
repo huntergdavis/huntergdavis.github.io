@@ -717,11 +717,16 @@ version; the v2 redesign will inherit it.*
       the crawler-targeted `/sitemap.xml`. One human-readable
       page listing every section, every project family, every
       year archive. **M**
-- [ ] **B.7** Breadcrumb on post pages. `Home / [year] /
-      [post title]`. Uses `page.date | date: "%Y"` for the year
-      segment; year link points to `/archive/<year>/` (which
-      Phase 2.5 will populate). Pre-declaring the link activates
-      it the moment 2.5 lands. **S**
+- [x] **B.7** Breadcrumb on post pages. **S** ·
+      *Shipped 2026-05-10.* Compact `Home / <year>` strip above
+      every post's `<h1>`. Semantic markup: `<nav
+      aria-label="Breadcrumb"><ol><li>` per the WAI-ARIA
+      pattern; separators rendered via CSS `::after` so screen
+      readers don't have to read them. Year is plain text (not
+      linked) until Phase 2.5 ships `/archive/<year>/` —
+      avoids creating 404 hyperlinks. Activation when 2.5
+      lands is a one-line change: wrap
+      `{{ page.date | date: "%Y" }}` in an `<a>`.
 - [ ] **B.8** Tag chips on post pages become real links to
       `/tag/<slug>/`. Today they're decorative spans. Pre-declare
       the hrefs so chips activate the instant Phase 2.2 ships
@@ -1752,3 +1757,9 @@ any public-facing milestone copy until a source is added.
   went from 13 files to 6, every remaining file actively
   referenced by a `{% include %}` statement. Zero behaviour
   change — none of these were ever loaded by Liquid.
+- `2026-05-10` — **Phase B.7 shipped**: breadcrumb strip
+  above every post's `<h1>`. `Home / <year>` rendered as a
+  WAI-ARIA `<nav aria-label="Breadcrumb"><ol><li>`. Home
+  links to `/`; year is plain text until Phase 2.5 ships
+  `/archive/<year>/`. Adds an immediate contextual cue at
+  the top of every post without creating broken links.
