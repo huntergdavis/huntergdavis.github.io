@@ -1,0 +1,37 @@
+Audit run: 1958 rows from 1794 unique URLs across 509 source files.
+
+By category:
+  1466  image_asset
+    76  wp_slug_android_apps_nested
+    60  wp_slug_android_app
+    45  jekyll_post
+    24  gh_pages_project_path
+    22  wp_query_id
+    21  loose_subdir_asset
+    13  archives_id
+    11  loose_artifact_archive
+     9  loose_root_image
+     9  wp_slug_post
+     8  wp_slug_android_game
+     6  wp_slug_popular_oss
+     5  other
+     5  loose_artifact_code
+     3  wp_slug_about
+     3  wp_category
+     2  wp_slug_personal_finance
+     1  home
+     1  wp_query_search
+     1  wp_archives_category
+     1  loose_artifact_binary
+     1  wp_slug_books
+     1  loose_artifact_pdf
+
+By confidence (unique URLs):
+  1703  high
+    48  mirror
+    36  none
+     5  low
+     2  medium
+
+Wrote: _meta/legacy_url_inventory.csv
+Wrote: _meta/legacy_url_inventory_summary.txt

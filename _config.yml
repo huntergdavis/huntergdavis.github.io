@@ -13,6 +13,11 @@ sass:
   style: :compressed
 paginate: 10
 paginate_path: "page:num"
+##internal-only directories — kept out of _site/ so they don't ship publicly
+exclude:
+  - script
+  - vendor
+  - .bundle
 ##The website description (to be used in meta tags)
 description: The personal blog of Hunter G. Davis
 ##Some frequently used keywords on your website
