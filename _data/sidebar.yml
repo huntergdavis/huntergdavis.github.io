@@ -1,0 +1,28 @@
+# Sidebar project links rendered by _includes/sidebar.html.
+#
+# Each entry: { label, url }
+# Labels and URLs preserved verbatim from the previous hardcoded list
+# in _includes/sidebar.html so the visible output is unchanged after
+# this migration. B.2 (grouping) and B.3 (prune broken) extend this
+# file in follow-up commits.
+#
+# The dynamic Github / Twitter / Facebook / email / RSS / search-form
+# entries still come from site.links and stay inline in sidebar.html.
+
+projects:
+  - label: QuickGrapher
+    url: http://www.hunterdavis.com/quickgrapher/
+  - label: Physical Media
+    url: http://www.hunterdavis.com/media/
+  - label: Streak!
+    url: http://www.hunterdavis.com/streak/
+  - label: Visualizer
+    url: http://www.hunterdavis.com/visualizer/
+  - label: My Solitaire Varient
+    url: http://www.hunterdavis.com/solitaire/
+  - label: People Grid
+    url: http://www.hunterdavis.com/peoplegrid/
+  - label: PsyRunner Game
+    url: http://www.hunterdavis.com/psyrunner/
+  - label: AsteroidMiner
+    url: http://www.hunterdavis.com/asteroidminer/

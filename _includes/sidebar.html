@@ -13,14 +13,9 @@
 			{% if site.links.github %}
 				<li><a href="https://github.com/{{ site.links.github }}" target="_blank">Github</a></li>
 			{% endif %}
-			<li><a href='http://www.hunterdavis.com/quickgrapher/'  target="_blank">QuickGrapher</a></li>
-			<li><a href='http://www.hunterdavis.com/media/'  target="_blank">Physical Media</a></li>
-			<li><a href='http://www.hunterdavis.com/streak/'  target="_blank">Streak!</a></li>
-			<li><a href='http://www.hunterdavis.com/visualizer/'  target="_blank">Visualizer</a></li>
-			<li><a href='http://www.hunterdavis.com/solitaire/'  target="_blank">My Solitaire Varient</a></li>		
-			<li><a href='http://www.hunterdavis.com/peoplegrid/'  target="_blank">People Grid</a></li>
-			<li><a href='http://www.hunterdavis.com/psyrunner/'  target="_blank">PsyRunner Game</a></li>
-			<li><a href='http://www.hunterdavis.com/asteroidminer/'  target="_blank">AsteroidMiner</a></li>
+			{% for project in site.data.sidebar.projects %}
+				<li><a href="{{ project.url }}" target="_blank">{{ project.label }}</a></li>
+			{% endfor %}
 			{% if site.links.twitter %}
 				<li><a href="https://twitter.com/{{ site.links.twitter }}" target="_blank">Twitter</a></li>
 			{% endif %}
@@ -36,6 +31,6 @@
 				<input type="submit" value="search">
 			  </form></li>
 		</ul>
-	  
+
 	</div>
 </div>

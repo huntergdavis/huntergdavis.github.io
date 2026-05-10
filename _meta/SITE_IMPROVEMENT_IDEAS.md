@@ -666,11 +666,18 @@ waiting for the bigger Phase 5 v2-layout redesign. Where an item
 overlaps with Phase 5, it's the "land it now in the current template"
 version; the v2 redesign will inherit it.*
 
-- [ ] **B.1** Move sidebar from hardcoded HTML to
+- [x] **B.1** Move sidebar from hardcoded HTML to
       `_data/sidebar.yml`. Each entry:
       `{ label, url, group, status: live|broken|external }`.
       Re-render `_includes/sidebar.html` via Liquid. Sets up
-      restructuring without code edits. **S**
+      restructuring without code edits. **S** ·
+      *Shipped 2026-05-10.* 8 project entries migrated to
+      `_data/sidebar.yml` (just `label` + `url` fields for now;
+      `group` and `status` fields will be added by B.2 and B.3).
+      Labels and URLs preserved verbatim — rendered output is
+      byte-identical. The site.links-driven entries (Github,
+      Twitter, Facebook, email, RSS, search) stay inline in
+      sidebar.html since they're already config-driven.
 - [ ] **B.2** Group sidebar entries by section (Projects /
       Writing / Connect / Archive shortcuts). Visual hierarchy
       via `<h4>` subheaders. Replaces the current flat list of
@@ -1557,3 +1564,10 @@ any public-facing milestone copy until a source is added.
   wait for the bigger Phase 5 v2 redesign. Editorial copy
   (now, start here, header tagline) is user-supplied, never
   machine-authored.
+- `2026-05-10` — **Phase B.1 shipped**: sidebar project list
+  migrated from hardcoded HTML in `_includes/sidebar.html` to
+  `_data/sidebar.yml`. 8 project entries (QuickGrapher, Physical
+  Media, Streak!, Visualizer, My Solitaire Varient, People
+  Grid, PsyRunner Game, AsteroidMiner) preserved verbatim;
+  rendered output byte-identical. Unblocks B.2 (grouping) and
+  B.3 (prune broken) without touching template code.
