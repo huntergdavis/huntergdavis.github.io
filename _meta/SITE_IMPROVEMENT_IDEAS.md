@@ -914,8 +914,15 @@ last commit in this phase swaps the default.*
       (Dockstar tags-only, TUI000 image-only, Dunking Bird both,
       csserver minimal) — all parse as valid JSON. Person schema
       on the home page split out to new item 7.14.
-- [ ] **7.2** Compute reading-time at build (kramdown word count /
-      225 wpm) and surface in post header + home cards. **S**
+- [x] **7.2** Compute reading-time at build (kramdown word count /
+      225 wpm) and surface in post header + home cards. **S** ·
+      *Shipped 2026-05-10 (post header only).* Pure Liquid:
+      `content | strip_html | number_of_words | divided_by: 225 |
+      plus: 1` produces an integer `~N min read` next to the post
+      date, with a tooltip explaining the 225 wpm assumption.
+      Verified sane across 5 representative posts (csserver = 1 min,
+      Dockstar = 11 min, etc.). Home-card reading-time tracked
+      separately as 7.15.
 - [ ] **7.3** Compute related-posts at build using
       `_plugins/related_posts.rb` (shared tags + same family +
       chronological neighbours). **M**
@@ -953,6 +960,12 @@ last commit in this phase swaps the default.*
       Validated as valid JSON. Pairs with 7.1's BlogPosting so
       search engines can resolve `BlogPosting.author.name` to a
       single Person entity with verified profile links.
+- [ ] **7.15** Surface reading-time on home post-list cards too.
+      Same `content | strip_html | number_of_words` formula as 7.2
+      but applied per-card in `index.html`. Mind the cost — Liquid
+      `content` for every paginated post still runs through
+      `strip_html` per render, so check Lighthouse build-time
+      impact. **S**
 
 ### Phase 8 — Modernize tooling & infrastructure
 - [ ] **8.1** Bump Jekyll to 4.x, update Gemfile + `Gemfile.lock`,
@@ -1429,3 +1442,8 @@ any public-facing milestone copy until a source is added.
   for slow loads / failure. `js/search.js` refactored to read
   the URL query fresh inside each handler. The single biggest
   performance cliff on the site is gone.
+- `2026-05-10` — **Phase 7.2 shipped (post header only)**:
+  reading-time indicator next to every post date, computed via
+  pure Liquid (`content | strip_html | number_of_words |
+  divided_by: 225 | plus: 1`). Also adds a small `.reading-time`
+  CSS rule. Home-card reading-time deferred to new item 7.15.
