@@ -879,8 +879,16 @@ last commit in this phase swaps the default.*
       flag in a sibling `.image-meta.yml`. **S**
 
 ### Phase 7 — Content polish & findability
-- [ ] **7.1** Add JSON-LD `Article` schema to post layout and
-      `Person` schema on home. **S**
+- [x] **7.1** Add JSON-LD `Article` schema to post layout. **S** ·
+      *Shipped 2026-05-10.* New `_includes/jsonld_post.html` rendered
+      from `_layouts/post.html` for every post page; emits a
+      `BlogPosting` with `headline`, `datePublished`, canonical
+      `url`, `mainEntityOfPage`, `author` (Person/Hunter Davis),
+      and conditional `image` and `keywords` based on frontmatter.
+      Validated structure against four representative post shapes
+      (Dockstar tags-only, TUI000 image-only, Dunking Bird both,
+      csserver minimal) — all parse as valid JSON. Person schema
+      on the home page split out to new item 7.14.
 - [ ] **7.2** Compute reading-time at build (kramdown word count /
       225 wpm) and surface in post header + home cards. **S**
 - [ ] **7.3** Compute related-posts at build using
@@ -911,6 +919,13 @@ last commit in this phase swaps the default.*
       (privacy-friendly + works in modern browsers). **S**
 - [ ] **7.13** Add 404 page upgrade with site-map and search.
       (Smart-routing extensions for legacy paths handled in A.12.) **S**
+- [ ] **7.14** Add JSON-LD `Person` schema to the home page —
+      `@type: Person`, `name: Hunter Davis`, `url: site.url`,
+      `sameAs: [github.com/huntergdavis, ...]`. New
+      `_includes/jsonld_person.html`, rendered from
+      `_layouts/home.html`. Companion to 7.1's BlogPosting schema
+      so search engines can connect post authors to a single
+      Person entity. **S**
 
 ### Phase 8 — Modernize tooling & infrastructure
 - [ ] **8.1** Bump Jekyll to 4.x, update Gemfile + `Gemfile.lock`,
@@ -1341,3 +1356,11 @@ any public-facing milestone copy until a source is added.
   collision (`/source-tree-visualizer/`). All 507 posts still
   parse cleanly post-rewrite. `wp_query_ids` (`?p=NNN`) deferred
   to new item A.15 since they're query strings, not paths.
+- `2026-05-10` — **Phase 7.1 shipped**: BlogPosting JSON-LD on
+  every post page via new `_includes/jsonld_post.html` referenced
+  from `_layouts/post.html`. Schema fields: headline,
+  datePublished, url, mainEntityOfPage, author (Hunter Davis),
+  conditional image + keywords. Output validated as valid JSON
+  across four representative post shapes. Burns down the
+  "schema support" project line. Person schema on home tracked
+  separately as 7.14.
