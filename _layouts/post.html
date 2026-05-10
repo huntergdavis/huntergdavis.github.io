@@ -11,13 +11,39 @@ layout: default
 			<time class="timeago postlist-meta" datetime="{{ page.date | date: "%Y-%m-%d" }}"><i class="fa fa-calendar"></i>{{ page.date | date: "%B %-d, %Y" }}</time>
 			{% assign reading_time = content | strip_html | number_of_words | divided_by: 225 | plus: 1 %}
 			<span class="reading-time" title="Estimated reading time at 225 words/minute">~{{ reading_time }} min read</span>
-			<a class="sharer facebook" href="#" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+window.location.href,'_blank','height=300,width=600');return false;"><i class="fa fa-facebook"></i></a>
-			{% if site.twitter %}
-				<a class="sharer twitter" href="#" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href+'&via={{ site.twitter }}','_blank','height=300,width=600');return false;"><i class="fa fa-twitter"></i></a>
-			{% else %}
-				<a class="sharer twitter" href="#" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href,'_blank','height=300,width=600');return false;"><i class="fa fa-twitter"></i></a>
-			{% endif %}
+			<button type="button" class="sharer copy-link" data-url="{{ page.url | absolute_url }}" data-label-copy="Copy link" data-label-done="Copied">Copy link</button>
 		</p>
+		<script>
+		(function(){
+			function copy(text){
+				if (navigator.clipboard && window.isSecureContext){
+					return navigator.clipboard.writeText(text);
+				}
+				return new Promise(function(resolve, reject){
+					var ta = document.createElement('textarea');
+					ta.value = text;
+					ta.style.position = 'fixed';
+					ta.style.opacity = '0';
+					document.body.appendChild(ta);
+					ta.select();
+					try { document.execCommand('copy'); resolve(); }
+					catch(e){ reject(e); }
+					finally { document.body.removeChild(ta); }
+				});
+			}
+			var buttons = document.querySelectorAll('.copy-link');
+			for (var i = 0; i < buttons.length; i++){
+				(function(btn){
+					btn.addEventListener('click', function(){
+						copy(btn.getAttribute('data-url')).then(function(){
+							btn.textContent = btn.getAttribute('data-label-done');
+							setTimeout(function(){ btn.textContent = btn.getAttribute('data-label-copy'); }, 1500);
+						});
+					});
+				})(buttons[i]);
+			}
+		})();
+		</script>
 	</header>
 		<img src="{{ page.image }}" >
 	<section>

@@ -843,9 +843,26 @@ URL preservation work moved to Phase A above.*
       `_layouts/default.html`; replace the 4–5 used icons with inline
       SVG in `_includes/icons/*.svg`. **M** · *Why:* removes a CDN
       dependency and ~30 KB.
-- [ ] **0.11** Drop the dead Twitter/Facebook share buttons from
+- [x] **0.11** Drop the dead Twitter/Facebook share buttons from
       `_layouts/post.html` (Twitter share UX is broken on X anyway).
-      Replace with a single "Copy link" button. **S**
+      Replace with a single "Copy link" button. **S** ·
+      *Shipped 2026-05-10.* Removed the `.sharer.facebook`
+      `<a>` (which `onclick`-popups Facebook's sharer.php that
+      tracks the reader pre-share) and both branches of the
+      `{% if site.twitter %}` Twitter-share `<a>` (X moved away
+      from those URL params). Replaced with a single
+      `<button class="sharer copy-link" data-url="…">Copy link</button>`
+      and a tiny inline script using `navigator.clipboard` when
+      available with an `execCommand('copy')` fallback for
+      HTTP/older browsers. Button flashes "Copied" for 1.5 s.
+      Restyled `.sharer` from coloured-circle to a real text
+      button (existing palette #0B5485). Dropped the
+      `.sharer.facebook` and `.sharer.twitter` CSS blocks and
+      updated the print stylesheet's hider from `a.sharer` to
+      `.sharer` since the element is now a `<button>`. Side
+      benefit: removes 2 of the 6 font-awesome icons in use
+      (fa-facebook, fa-twitter), incrementally working toward
+      0.10 (drop the CDN entirely).
 - [ ] **0.12** Delete `index.old` (it's a Jekyll comment-only stub). **S**
 - [ ] **0.13** Replace `_includes/analytics.html` with a privacy-respecting
       analytics snippet (Plausible / GoatCounter / self-hosted) only if
@@ -1639,3 +1656,12 @@ any public-facing milestone copy until a source is added.
   input/textarea/contenteditable. `role="search"` and
   hidden-label a11y. The deep archive now has a one-keystroke
   search affordance from any post page.
+- `2026-05-10` — **Phase 0.11 shipped**: dead Facebook /
+  Twitter share `<a>` blocks removed from post pages and
+  replaced with a single `<button class="copy-link">` that
+  uses `navigator.clipboard` when available, falls back to
+  `execCommand('copy')` for HTTP / older browsers, and flashes
+  "Copied" for 1.5 s. Drops 2 of the 6 font-awesome icons in
+  use (incremental progress toward 0.10) and replaces a
+  privacy-leaky (Facebook tracks pre-share) + broken-on-X
+  share UX with a modern social-agnostic copy affordance.

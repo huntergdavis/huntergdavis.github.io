@@ -152,23 +152,23 @@ nav ul {
 	}
 }
 
-a {
-	&.sharer {
-		padding: 0px 4px;
-		border-radius: 1px;
-		color: #333;
+.sharer {
+	display: inline-block;
+	padding: 4px 10px;
+	margin-left: 0.5em;
+	font-size: 0.8em;
+	font-family: inherit;
+	color: #0B5485;
+	background: #fff;
+	border: 1px solid #0B5485;
+	border-radius: 3px;
+	cursor: pointer;
+	vertical-align: baseline;
 
-		i {
-			margin: 0px;
-		}
-	}
-	&.facebook {
-		background: #3b5998;
+	&:hover, &:focus {
 		color: #fff;
-	}
-	&.twitter {
-		background: #3B94D9;
-		color: #fff;
+		background: #0B5485;
+		outline: none;
 	}
 }
 
@@ -585,7 +585,7 @@ article{
 			display: none;
 		}
 	}
-	a.sharer{
+	.sharer{
 		display: none;
 	}
 }
