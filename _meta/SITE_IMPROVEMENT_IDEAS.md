@@ -519,16 +519,15 @@ is complete.*
       that need archive.org lookup in A.11), 5 `low` and 2 `medium`
       for human review. Idempotent — re-run any time after adding
       posts. Summary at `_meta/legacy_url_inventory_summary.txt`.
-- [ ] **A.3** Reserve `_data/projects_subpaths.yml` with the names
-      of `huntergdavis/*` GitHub-Pages-deployed sibling repos
-      (`quickgrapher`, `resume`, `streak`, `solitaire`, `visualizer`,
-      `peoplegrid`, `psyrunner`, `asteroidminer`,
-      `teamplanningsimulator`, `media`, `photo-stream`,
-      `inboxzero`, `poke`, `webflight`, `2djsgameboilerplate`,
-      `asljs`, `johnnycastawaywine`, `linked_out`, ...). Add a
-      Jekyll generator (or precommit check) that **fails the
-      build** if any new top-level file or directory in this repo
-      would collide with one of these names. **S**
+- [x] **A.3** Reserve `_data/projects_subpaths.yml` with the names
+      of `huntergdavis/*` sibling repos that auto-publish at
+      `hunterdavis.com/<name>/`. **S** · *Shipped 2026-05-10.*
+      Authoritative list pulled live via
+      `gh repo list huntergdavis --limit 300 --visibility=public --no-archived`,
+      yielded **135 reserved names** under a single `reserved:` key
+      with regeneration command, case-sensitivity note, and
+      provenance comments in the file header. Build-fail check
+      moved to A.13; live-subset verification moved to A.14.
 - [ ] **A.4** Add `jekyll-redirect-from` to `Gemfile` and the
       `plugins:` list in `_config.yml`. **S** · *Why:* unblocks
       the page-move pattern (`redirect_from:` frontmatter) for
@@ -610,6 +609,24 @@ is complete.*
       matches. Catches anything the explicit redirects miss
       (especially URLs only linked from third-party sites we
       can't enumerate). **S**
+- [ ] **A.13** Build-fail subpath-collision check. Add
+      `script/check_subpath_collisions.py` (callable from a git
+      pre-commit hook AND from Phase 8.3 CI). It loads
+      `_data/projects_subpaths.yml`, lists every top-level file
+      and directory in the source tree (excluding `_`-prefixed
+      Jekyll dirs and the entries already in `_config.yml`'s
+      `exclude:`), and exits non-zero if any path collides
+      case-insensitively with a `reserved:` name. **S**
+- [ ] **A.14** Verify the live subset of `_data/projects_subpaths.yml`.
+      For each of the 135 reserved repo names, probe
+      `https://hunterdavis.com/<name>/` (HEAD request, follow
+      redirects) and record which actually serve content today
+      vs. 404. Result: add a `live:` array to the data file
+      listing the verified-deployed subset (subset of `reserved:`).
+      Two known sidebar bugs to fix as part of this: `/resume/` is
+      linked but no exact-match repo exists (deploy is probably
+      `Hunter-Davis-impressjs-Resume`), and `/photo-stream/` is
+      linked but the repo is `photo-stream-static`. **M**
 
 ### Phase 0 — Hygiene & broken-asset fixes
 *Goal: stop shipping bugs. Each item is independently shippable.
@@ -1262,3 +1279,8 @@ any public-facing milestone copy until a source is added.
   Pre-flight checks confirmed zero output diff vs. Jekyll's implicit
   default for this corpus. Foundation for all later URL preservation
   work locked in.
+- `2026-05-10` — **Phase A.3 shipped**: `_data/projects_subpaths.yml`
+  with all 135 public, non-archived `huntergdavis/*` repo names
+  reserved. Source of truth for the future build-fail collision
+  check (A.13) and the live-subset verification (A.14). Two sidebar
+  bugs (`/resume/`, `/photo-stream/`) surfaced and recorded.
