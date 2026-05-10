@@ -222,6 +222,18 @@ a {
 				text-decoration: none;
 				background-color: #333;
 			}
+			&.group-heading{
+				margin-top: 0.75em;
+				margin-bottom: 4px;
+				padding: 4px 0;
+				font-size: 0.75em;
+				font-weight: bold;
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+				color: #555;
+				border-bottom: 1px solid #ccc;
+				background: transparent;
+			}
 		}
 	}
 

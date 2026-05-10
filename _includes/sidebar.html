@@ -13,8 +13,12 @@
 			{% if site.links.github %}
 				<li><a href="https://github.com/{{ site.links.github }}" target="_blank">Github</a></li>
 			{% endif %}
-			{% for project in site.data.sidebar.projects %}
-				<li><a href="{{ project.url }}" target="_blank">{{ project.label }}</a></li>
+			{% assign groups = site.data.sidebar.projects | group_by: "group" %}
+			{% for g in groups %}
+				<li class="group-heading">{{ g.name }}</li>
+				{% for project in g.items %}
+					<li><a href="{{ project.url }}" target="_blank">{{ project.label }}</a></li>
+				{% endfor %}
 			{% endfor %}
 			{% if site.links.twitter %}
 				<li><a href="https://twitter.com/{{ site.links.twitter }}" target="_blank">Twitter</a></li>

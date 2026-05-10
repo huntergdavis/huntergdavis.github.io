@@ -678,10 +678,19 @@ version; the v2 redesign will inherit it.*
       byte-identical. The site.links-driven entries (Github,
       Twitter, Facebook, email, RSS, search) stay inline in
       sidebar.html since they're already config-driven.
-- [ ] **B.2** Group sidebar entries by section (Projects /
-      Writing / Connect / Archive shortcuts). Visual hierarchy
-      via `<h4>` subheaders. Replaces the current flat list of
-      ~10 unrelated links. **S**
+- [x] **B.2** Group sidebar entries by section. **S** ·
+      *Shipped 2026-05-10.* Each entry in `_data/sidebar.yml`
+      now carries a `group:` field; `_includes/sidebar.html`
+      uses Liquid's `group_by` filter to emit uppercase
+      `.group-heading` rows between sections. Current groups
+      derived from each repo's own description: **Tools** (5 —
+      QuickGrapher, Physical Media, Streak!, Visualizer, People
+      Grid) and **Games** (3 — My Solitaire Varient, PsyRunner
+      Game, AsteroidMiner). New groups (Writing, Archive
+      shortcuts, etc.) can be introduced by simply adding
+      entries with a new `group:` value. Heading styling: small
+      uppercase, bottom-border, transparent background — set
+      apart from the existing dark-button link rows.
 - [ ] **B.3** Audit + prune broken sidebar entries. A.14
       surfaced `/resume/` and `/photo-stream/` as broken (the
       actual repos are `Hunter-Davis-impressjs-Resume` and
@@ -1571,3 +1580,10 @@ any public-facing milestone copy until a source is added.
   Grid, PsyRunner Game, AsteroidMiner) preserved verbatim;
   rendered output byte-identical. Unblocks B.2 (grouping) and
   B.3 (prune broken) without touching template code.
+- `2026-05-10` — **Phase B.2 shipped**: sidebar entries grouped
+  into **Tools** (5) and **Games** (3) by a new `group:` field
+  per entry plus a Liquid `group_by` in the template plus a
+  `.group-heading` CSS rule. The 8 project links are now
+  visually scannable as two distinct categories instead of one
+  flat list. New groups can be added with no template changes —
+  just new YAML entries.

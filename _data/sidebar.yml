@@ -1,10 +1,13 @@
 # Sidebar project links rendered by _includes/sidebar.html.
 #
-# Each entry: { label, url }
-# Labels and URLs preserved verbatim from the previous hardcoded list
-# in _includes/sidebar.html so the visible output is unchanged after
-# this migration. B.2 (grouping) and B.3 (prune broken) extend this
-# file in follow-up commits.
+# Each entry: { label, url, group }
+#   group: short bucket name used by sidebar.html's group_by filter
+#          to render a sub-header. Free-form string; current values
+#          are "Tools" and "Games" but new groups (e.g. "Writing",
+#          "Archive") can be added by introducing new entries.
+#
+# Labels and URLs preserved verbatim from the previous hardcoded
+# list. Groups derived from each repo's own description on GitHub.
 #
 # The dynamic Github / Twitter / Facebook / email / RSS / search-form
 # entries still come from site.links and stay inline in sidebar.html.
@@ -12,17 +15,25 @@
 projects:
   - label: QuickGrapher
     url: http://www.hunterdavis.com/quickgrapher/
+    group: Tools
   - label: Physical Media
     url: http://www.hunterdavis.com/media/
+    group: Tools
   - label: Streak!
     url: http://www.hunterdavis.com/streak/
+    group: Tools
   - label: Visualizer
     url: http://www.hunterdavis.com/visualizer/
-  - label: My Solitaire Varient
-    url: http://www.hunterdavis.com/solitaire/
+    group: Tools
   - label: People Grid
     url: http://www.hunterdavis.com/peoplegrid/
+    group: Tools
+  - label: My Solitaire Varient
+    url: http://www.hunterdavis.com/solitaire/
+    group: Games
   - label: PsyRunner Game
     url: http://www.hunterdavis.com/psyrunner/
+    group: Games
   - label: AsteroidMiner
     url: http://www.hunterdavis.com/asteroidminer/
+    group: Games
