@@ -55,4 +55,4 @@ Step seven: Make some noise
 
 Seriously, it's ridiculous how much sound you can put out from a briefcase.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/86N1mY1RL5E" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/86N1mY1RL5E" frameborder="0" allowfullscreen></iframe>

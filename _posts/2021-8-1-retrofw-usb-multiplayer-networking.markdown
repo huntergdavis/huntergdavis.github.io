@@ -8,7 +8,7 @@ While I was in the process of porting Johnny Castaway over to RetroFW devices, I
 
 As this is a full networking solution, this opens the door to netplay for any emulator or application which supports ip networking.  Yes, multiplayer SNES, GB/GBC/GBA link cable emulation, Doom, cross-platform networking and more are all achievable now.  You can also watch a quick co-op game of Duke Nukem between an RG300 and an LDK game system over at [my YouTube channel](https://www.youtube.com/watch?v=C1WritVPKYI)
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/C1WritVPKYI" title="RG300 vs LDK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/C1WritVPKYI" title="RG300 vs LDK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 First, a little backstory. I love Johnny Castaway. For the past 33 years I've found a way to get it running on every system within arms reach.  Lately that's meant porting the c version to various game consoles. Last week, that meant RetroFW devices like the LDK Game, RG3xx, and RS-97 series of handhelds and arcade machines.  I was having some trouble getting it running, and I had tried everything to capture the error logs.  I had tried graphical pop-ups, file output, nothing worked.  I was getting frustrated, and I began to go through the [RetroFW Source Code](https://github.com/retrofw/) and [documentation](https://github.com/retrofw/retrofw.github.io/wiki/Configuring-a-Toolchain).
 

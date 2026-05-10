@@ -32,6 +32,6 @@ The graphics have been improved slightly on the 3DS, though nothing jumps out at
 
 I suppose I’m on Dave’s side with this one:
 
-<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube.com/embed/bRGxbQcunnU?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube-nocookie.com/embed/bRGxbQcunnU?feature=oembed" width="700"></iframe>
 
 

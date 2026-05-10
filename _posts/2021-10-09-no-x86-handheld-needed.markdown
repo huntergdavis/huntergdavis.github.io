@@ -17,7 +17,7 @@ But no, there's no need for that now.  I read about TWISTER OS, a linux distribu
 
 I was way wrong!  Check out this video of The Simpsons: Hit and Run playing full speed (1024x768 resolution) on a raspberry pi 400.  Honestly this is a game changer, and as compatibility rises you can be certain this will get more attention.  
 
-<iframe width="900" height="600" src="https://www.youtube.com/embed/mnX5fogHdoQ" title="Simpsons Hit and Run on the Pi 400" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="900" height="600" src="https://www.youtube-nocookie.com/embed/mnX5fogHdoQ" title="Simpsons Hit and Run on the Pi 400" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I wasn't able to get the windows version of Psychonauts running (at least on the first try), nor Clive Barker's Undying, but I'm going to dig in with lutris configurations and see if I can't get them going.  SimCity 3000 worked like a champ out of the box.  So did Beyond Good and Evil!  
 

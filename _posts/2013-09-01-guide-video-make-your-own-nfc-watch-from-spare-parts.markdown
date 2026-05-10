@@ -8,7 +8,7 @@ date: '2013-09-01 00:21:57'
 
 We’ve all read the reports. The iWatch is coming! The Nexus watch is coming! The Galaxy watch is coming! Who needs em?
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/YEB816Due48?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/YEB816Due48?feature=oembed" width="700"></iframe>
 
 If you’re just wanting to unlock your phone from your watch (or pay for your bus travel, if you’re that sort of hacker), why would you wait for some large company to gouge you on price when you can build that functionality today, for almost nothing.
 

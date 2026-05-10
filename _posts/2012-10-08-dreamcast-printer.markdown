@@ -11,7 +11,7 @@ When I go to start working on a new hack, the issue of how to enclose it is alwa
 
 Still, that ever-present question arose. What to encase it in? I decided to ride over to the local thrift shop and peruse the aisles. Nothing great came from the furniture section, but something caught my eye in the electronics area. Encased there among the mile-high stack of dead and antiquated printers was an old epson multi-function printer/scan/fix. Something about it called to me, and it’s huge bulky frame almost guaranteed that no-one would purchase it, even for the 4$ price it was being offered at. I purchased it, and began the process of disassembly.
 
-<iframe allowfullscreen="" frameborder="0" height="394" src="http://www.youtube.com/embed/7RZ7xkqhfmA?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube-nocookie.com/embed/7RZ7xkqhfmA?feature=oembed" width="700"></iframe>
 
 Read on for the full story and more photos.
 

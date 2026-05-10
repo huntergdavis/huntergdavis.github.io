@@ -8,7 +8,7 @@ date: '2014-04-28 01:15:53'
 
 Check the video for how it went down.
 
-<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube.com/embed/7VGcAxoeync?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube-nocookie.com/embed/7VGcAxoeync?feature=oembed" width="700"></iframe>
 
 Here’s how it went down if you can’t see the video. I invited some friends and family over, we moved some boxes, cut some more vines, and opened up the secret building!
 
@@ -30,6 +30,6 @@ So ok, it’s not gold or silver, but it’s still a pretty sweet find, and a ve
 
 Bonus stinger, we try to get it to start!
 
-<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube.com/embed/LOjfQwyanaM?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube-nocookie.com/embed/LOjfQwyanaM?feature=oembed" width="700"></iframe>
 
 

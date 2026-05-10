@@ -19,7 +19,7 @@ https://plus.google.com/photos/109597056286687737899/albums/5700658936240673073
 
 Check out a video of a tree being built:
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/4h-SAu4x3bU?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/4h-SAu4x3bU?feature=oembed" width="700"></iframe>
 
 You can get the latest code, examples, media, etc from the github repository here.  It’s all BSD licensed, so you can use it most anywhere 🙂
 

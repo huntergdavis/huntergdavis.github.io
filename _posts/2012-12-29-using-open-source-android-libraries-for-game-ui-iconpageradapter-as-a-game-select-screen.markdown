@@ -8,7 +8,7 @@ date: '2012-12-29 22:35:36'
 
 While UI is often the last thing a programmer thinks about when starting on a new project, it’s often the very first thing a user knows about your project. Why then don’t we all use the latest and greatest UI patterns? Perhaps many coders find visual design to be out of their domain, or perhaps they feel that the execution of the algorithms contained within their program are of paramount concern to users. Regardless of the reason, [disgruntled users have started to leave](http://www.androiduipatterns.com/2012/11/bad-outdated-ux-will-be-rejected-by.html) once trusted programs whose interfaces have not kept up with the times. How then to update your app(or game!) to the newest visual hotness?
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/2PjwRR0e7aM?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/2PjwRR0e7aM?feature=oembed" width="700"></iframe>
 
 In this article I’ll be taking you through the creation of a dynamic game selection screen based on the excellent [ViewPagerIndicator library by Jake Wharton](https://github.com/JakeWharton/Android-ViewPagerIndicator). As always, you can follow along in code at the [5 Seconds GitHub repository](https://github.com/huntergdavis/FiveSeconds). When you finish the article, you should be able to easily implement a icon-enabled view pager for your Android app or game.
 

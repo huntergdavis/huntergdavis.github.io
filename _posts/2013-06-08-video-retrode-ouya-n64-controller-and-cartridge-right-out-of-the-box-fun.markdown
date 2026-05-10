@@ -22,7 +22,7 @@ Here’s how I set the whole thing up in just a couple minutes:
 
 That’s that! I’ll be posting up more Retrode + Ouya videos soon but in the meantime, feel confident that you can get your retro game on with your [Ouya](http://www.ouya.tv/) without breaking any laws or downloading any ROMS.
 
-<iframe allowfullscreen="" frameborder="0" height="394" src="http://www.youtube.com/embed/roK3pij8n-o?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube-nocookie.com/embed/roK3pij8n-o?feature=oembed" width="700"></iframe>
 
 And here’s a quick photo of the hardware:
 

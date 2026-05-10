@@ -9,7 +9,7 @@ I’ve been studying my site and app traffic for a while now, and I’ve come to
 
 Seriously, all the sources. Every one. To start with, I’ve created repositories for the roughly 70 Android applications I’ve released. As of today, you can browse through them all on my [GitHub account page](https://github.com/huntergdavis).
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/74BzSTQCl_c?feature=player_embedded" width="640"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube-nocookie.com/embed/74BzSTQCl_c?feature=player_embedded" width="640"></iframe>
 
 Unfortunately for me, the task of open sourcing 100+ projects is a daunting one, so I set about writing a script to troll my folders and create GitHub projects. This script itself is also available on GitHub [here](https://github.com/huntergdavis/createGitHubscript). Read on for more info about the construction of the script.
 

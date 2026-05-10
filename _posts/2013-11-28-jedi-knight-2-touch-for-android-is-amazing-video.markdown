@@ -12,6 +12,6 @@ There’s a [developer](https://play.google.com/store/search?q=com.beloko) who h
 
 That said, it’s frikkin perfect. It runs full speed on my phone, controls flawlessly with my MOGA pro, all the dialog and cut scenes are intact. It’s amazing. If you, like I, spent countless hours engaged in lightsaber battles and high-stakes deathmatches when JK2 was originally released, you must try this. It’s life changing.
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/jCcyHuwe1X4?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/jCcyHuwe1X4?feature=oembed" width="700"></iframe>
 
 

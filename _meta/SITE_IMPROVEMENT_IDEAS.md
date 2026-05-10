@@ -1133,9 +1133,18 @@ last commit in this phase swaps the default.*
       (becomes mostly moot after 7.7/7.8.)
 - [ ] **7.11** Sweep posts for `http://hunterdavis.com/...` self-links
       and rewrite to relative URLs. **M**
-- [ ] **7.12** Sweep posts for `<iframe ... src="http://...">` and
+- [x] **7.12** Sweep posts for `<iframe ... src="http://...">` and
       upgrade YouTube embeds to `https://www.youtube-nocookie.com/`
-      (privacy-friendly + works in modern browsers). **S**
+      (privacy-friendly + works in modern browsers). **S** ·
+      *Shipped 2026-05-10.* Single regex pass via sed:
+      `https?://(www\.)?youtube\.com/embed/` →
+      `https://www.youtube-nocookie.com/embed/`. **48 URLs
+      migrated across 28 post/page files** (the 4 `/watch?v=`
+      hyperlinks were intentionally left untouched — those are
+      links to YouTube, not embeds, and don't have the embed
+      tracking-cookie problem until the user clicks them).
+      youtube-nocookie.com is Google's "privacy-enhanced mode"
+      that doesn't set tracking cookies until playback starts.
 - [ ] **7.13** Add 404 page upgrade with site-map and search.
       (Smart-routing extensions for legacy paths handled in A.12.) **S**
 - [x] **7.14** Add JSON-LD `Person` schema to the home page. **S** ·
@@ -1705,3 +1714,10 @@ any public-facing milestone copy until a source is added.
   the handler with no JS change. Final hole in URL
   preservation closed for the WP-era inbound links our audit
   could see.
+- `2026-05-10` — **Phase 7.12 shipped**: every YouTube embed
+  on the site now uses `youtube-nocookie.com` over HTTPS.
+  Single regex pass swapped 48 URLs across 28 post/page files
+  (the 4 `/watch?v=` hyperlinks were intentionally left as-is
+  — they're links to YouTube, not embeds). Embedded videos no
+  longer set tracking cookies on readers' browsers until they
+  actually press play.

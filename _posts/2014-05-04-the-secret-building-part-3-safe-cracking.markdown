@@ -22,7 +22,7 @@ First came the door hinges. They were covered by small caps. These were a quick 
 
 Next came the outer door assembly. I used the pry-bar to get an edge up and just started hammering on the corner for a while.
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube.com/embed/cR1-jLFm2_Q?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/cR1-jLFm2_Q?feature=oembed" width="700"></iframe>
 
 It was fairly cheap metal, and was no match for my hammer.
 
@@ -40,7 +40,7 @@ Finally, I saw what I was looking for. The lock assembly connected to a thick me
 
 A few choice hits with the hammer began to bend the metal and knocked out the lock assembly.
 
-<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube.com/embed/RpnOu4WNMt4?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube-nocookie.com/embed/RpnOu4WNMt4?feature=oembed" width="700"></iframe>
 
 A little pry-bar action allowed the corners to be bent inward.
 

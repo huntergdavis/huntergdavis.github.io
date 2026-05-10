@@ -18,10 +18,10 @@ Download, exploit, and contribute to the source at the github project [here](ht
 Find out how to embed QuickGrapher on your site [here](http://www.hunterdavis.com/popular-open-source-projects/quickgrapher_open_source/adding-embedded-quick-grapher-to-your-site/).
 
 Videos:  
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/WOC_IzFQt44?feature=oembed" width="700"></iframe>  
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/XiIPsVVtCU4?feature=oembed" width="700"></iframe>  
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/ej7pAX2fMj4?feature=oembed" width="700"></iframe>  
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/o24ph-0_u9M?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/WOC_IzFQt44?feature=oembed" width="700"></iframe>  
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/XiIPsVVtCU4?feature=oembed" width="700"></iframe>  
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/ej7pAX2fMj4?feature=oembed" width="700"></iframe>  
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/o24ph-0_u9M?feature=oembed" width="700"></iframe>
 
 Check out the drake equation in QuickGrapher [here](http://www.hunterdavis.com/quickgrapher/index.html?StarFormationRate*StarsWithPlanets*LifeSustainingPlanets*PlanetsWhichActuallyDevelopLife*PlanetsWithIntelligentLife*CivilizationsWithDetectors*DurationOfSpaceSignals=0:0:0:0:0:0:0:{20:1:10:1:1:1:20:}1:0.1:1:0.1:0.1:0.1:1:[10:0.5:2:1:0.1:0.1:10:;1:1:1:1:1:1:1:=Drake%20Equation]).
 

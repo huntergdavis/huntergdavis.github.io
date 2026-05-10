@@ -15,7 +15,7 @@ Check out the drake equation in QuickGrapher [here](http://www.hunterdavis.com/
 Check out the set of video tutorials we did for it [here.](http://www.hunterdavis.com/quickgrapher/quickgrapher-tutorials.html)
 
 (my favorite video)  
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/WOC_IzFQt44?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/WOC_IzFQt44?feature=oembed" width="700"></iframe>
 
 Download, exploit, and contribute to the source at the github project [here](https://github.com/huntergdavis/Quick-Grapher).
 

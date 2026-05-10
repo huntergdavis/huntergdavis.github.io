@@ -8,7 +8,7 @@ date: '2015-06-13 22:47:04'
 
 So you’re wanting to play one of the many original Xbox games that isn’t backwards compatible with your new Xbox 360 or Xbox One system. That’s cool, and everything is going great until you go to drag out your old Xbox and remember that your TV only has HDMI. Not wanting to clutter up your wall with another plug, and not wanting to take the lid off of your Xbox, there’s still another way!
 
-<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube.com/embed/cio5uM00XGw?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube-nocookie.com/embed/cio5uM00XGw?feature=oembed" width="700"></iframe>
 
 You’ll need:
 

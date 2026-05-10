@@ -67,7 +67,7 @@ Not all of my hacking work can fit into the below categories. There are a number
 <a id='zipit'>Zipit Z2</a>
 The Zipit Z2 was a wireless communications device for teens which was able to run Linux. I ported a number of popular softwares to this platform, and popularized it as a hacking device. 
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/yJzGlgaymZc" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/yJzGlgaymZc" frameborder="0" allowfullscreen></iframe>
 
 My YouTube video tutorials became popular and got a lot of folks interested in the Z2 hacking community.
 
@@ -78,7 +78,7 @@ Regardless of where it started, I wrote many articles, released many videos, and
 <a id='dockstar'>The Dockstar</a>
 The Dockstar is a networked media server that could be made to run Linux. I added an external video display to the Dockstar, ported a number of emulators and compilation systems, and used it as the basis for a compilation system (see my third book).
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/hwVwFHDA5iE" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/hwVwFHDA5iE" frameborder="0" allowfullscreen></iframe>
 
 <a id='imme'>The IM-ME</a>
 The im-me is a small pink radio text messaging device. A reader of my website had suggested I purchase one to see how it worked, and as it was only 14$ I decided to pick it up as a 'filler' item for free shipping on amazon.com.
@@ -122,7 +122,7 @@ https://github.com/huntergdavis/Source-Tree-Visualizer
 Quickgrapher started as a research project at Discursive Labs. The goal of the project is to easily enable open source and freely licensed graphs for the everyday web user. You can get the latest version and the source code from github.  
 https://github.com/huntergdavis/Quick-Grapher
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/WOC_IzFQt44?feature=oembed" width="700"></iframe>  
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/WOC_IzFQt44?feature=oembed" width="700"></iframe>  
 
 <a id='easyinventory'>Easy Inventory</a>
 Easy Inventory is the first Android app I ever wrote, and the first in the 60 day challenge. I ended up open sourcing it after a number of folks requested to use the source in their projects. You can check it out on the Google Play Store.
@@ -285,7 +285,7 @@ I enjoy musical composition, and have a long love of music and musicology.
 
 Here's a couple of tunes I composed for one of my children's games.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/2PjwRR0e7aM" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/2PjwRR0e7aM" frameborder="0" allowfullscreen></iframe>
 
 
 <a id='leadershipandmentorship'>Leadership and Mentorship</a>

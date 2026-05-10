@@ -10,7 +10,7 @@ One of the great things about open source is that you’re free to modify and re
 
 Fast forward to this week. I was relaxing on a short stay-cation, playing games and watching TV, and I began to think to myself: “Why not remix one of my games with some of this new creative commons content?” So that’s what I set out to do. You can grab the latest source code from the GitHub page [here](https://github.com/huntergdavis/cantstoptherock). Here’s how it’s looking right now: (**Note any ghosting or slowdown you see is an artifact from screen capture)
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube.com/embed/6Uj_0MR8Ty8?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/6Uj_0MR8Ty8?feature=oembed" width="700"></iframe>
 
 I started by copying the base of my last game, [Pop Them Balloons](https://github.com/huntergdavis/PopThemBalloons). The source is heavily commented, and uses my high-level abstraction libraries to make basic game design a very straightforward task. Title/Credits screens are one-liners in code. This allows me to concentrate on the base gameplay mechanics and refine the core experience without worrying about scrolling end credits text or background music etc.
 
@@ -32,11 +32,11 @@ And here I ran into my first creative editing situation. I felt the ‘game over
 
 I wanted the action to be fast and furious, so I went with high BPM tracks and removed some graphical flourishes for now.
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube.com/embed/dBl-0xNH544?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/dBl-0xNH544?feature=oembed" width="700"></iframe>
 
 From here I updated the background to pulsate through a known list of pleasant colors, and updated the little rock hero to actually pop some balloons as it crossed them. The gameplay is very fast paced, so much so that my video encoder gives me ghosting when screen capturing on my aging nook tablet.
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube.com/embed/RS_y7JrntAQ?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/RS_y7JrntAQ?feature=oembed" width="700"></iframe>
 
 I think some of the best casual gameplay comes around the use of sound and audio to immerse the player in the experience. With that in mind, I set out to add some musical fun to the game. My first thought was to include midi playback, but there’s too much baggage. I ended up heading over to freesound.org and downloading a set of guitar chords, then arranging the play screen into note quadrants. It makes for some interesting music opportunities.
 

@@ -7,7 +7,7 @@ date: '2012-01-23 03:28:05'
 
 As most of you know, Mark and I shelved Discursive Labs about a year ago.  While the business didn’t make it, we ended up creating some really cool stuff in our research department.  One of those projects was Source Tree Visualizer.  We’ve decided to open source it with a BSD license, so feel free to modify the code and use it most anywhere.
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/4h-SAu4x3bU?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/4h-SAu4x3bU?feature=oembed" width="700"></iframe>
 
 Check out my gallery of some really cool trees (Google+ gallery below as well):
 

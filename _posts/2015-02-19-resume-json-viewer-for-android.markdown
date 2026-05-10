@@ -20,7 +20,7 @@ Features:
  3. Launch urls and email addresses directly from within the app.  
  4. Open-source at https://github.com/huntergdavis/json_resume
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube.com/embed/3PLzhSifX98?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/3PLzhSifX98?feature=oembed" width="700"></iframe>
 
 [![device-2015-02-18-135226](http://www.hunterdavis.com/content/images/2015/02/device-2015-02-18-135226.png)](http://www.hunterdavis.com/content/images/2015/02/device-2015-02-18-135226.png)
 

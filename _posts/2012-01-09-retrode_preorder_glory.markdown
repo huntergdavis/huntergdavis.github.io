@@ -41,11 +41,11 @@ Glorious success!  The Mario Kart cartridge shows up as USB003, and the SNES co
 
 Here’s a video of me playing Marvel VS Capcom 3 using a Super Nintendo Controller.
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/I4NXk3IJJN4?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/I4NXk3IJJN4?feature=oembed" width="700"></iframe>
 
 Here’s a video of me playing Mario Kart (from the original cartridge) using a PS3 Controller and a SNES controller).
 
-<iframe allowfullscreen="" frameborder="0" height="525" src="http://www.youtube.com/embed/tAiAaTUan60?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/tAiAaTUan60?feature=oembed" width="700"></iframe>
 
  
 
