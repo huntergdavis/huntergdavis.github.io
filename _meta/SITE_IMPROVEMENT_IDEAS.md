@@ -493,11 +493,16 @@ loose downloadable artifacts, and the GitHub-Pages project paths.
 Nothing in later phases is allowed to break a URL until this phase
 is complete.*
 
-- [ ] **A.1** Lock the post permalink format. Set
+- [x] **A.1** Lock the post permalink format. Set
       `permalink: /:year/:month/:day/:title.html` explicitly in
       `_config.yml` — currently it's the implicit default; locking
       it prevents an accidental theme change from breaking 500+
-      indexed URLs. **S**
+      indexed URLs. **S** · *Shipped 2026-05-10.* Verified safe
+      pre-flight: 0 posts use `categories:` frontmatter, 0 posts
+      live in subfolders, 0 posts override `permalink:`, all 507
+      posts use the standard `YYYY-MM-DD-slug.markdown` shape, so
+      the explicit string is identical to Jekyll's implicit
+      default — zero URL changes.
 - [x] **A.2** Inventory every legacy URL into a CSV.
       `script/audit_legacy_urls.py` greps every
       `https?://(www\.)?hunterdavis\.com/...` reference inside
@@ -1252,3 +1257,8 @@ any public-facing milestone copy until a source is added.
   drops behind it. **Phase A.2 shipped**: `script/audit_legacy_urls.py`
   + `_meta/legacy_url_inventory.csv` (1,794 unique URLs, 94.9%
   high confidence, 48 to mirror, 36 needing archive.org lookup).
+- `2026-05-10` — **Phase A.1 shipped**: explicit
+  `permalink: /:year/:month/:day/:title.html` in `_config.yml`.
+  Pre-flight checks confirmed zero output diff vs. Jekyll's implicit
+  default for this corpus. Foundation for all later URL preservation
+  work locked in.

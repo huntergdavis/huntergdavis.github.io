@@ -8,6 +8,8 @@ highlighter: rouge
 ##define base_url for valid usage in sitemap.xml and robots.txt
 base_url: http://www.hunterdavis.com
 url: http://www.hunterdavis.com
+##post URL shape — explicit so it can't drift and break inbound links
+permalink: /:year/:month/:day/:title.html
 sass:
   sass_dir: _sass
   style: :compressed
