@@ -763,10 +763,24 @@ version; the v2 redesign will inherit it.*
       home. Move (or copy) it into the header so it's available
       on every post. Add a `/` keyboard shortcut to focus it.
       **M**
-- [ ] **B.16** Mobile nav: replace the dated `.android`-class
+- [x] **B.16** Mobile nav: replace the dated `.android`-class
       panel + jQuery-style toggle with a native `<details>`
-      element styled as a popover. No JS dependency. Same nav
-      items as B.4. **S**
+      element styled as a popover. No JS dependency. **S** ·
+      *Shipped 2026-05-10.* Pre-flight surfaced a latent bug:
+      the existing mobile menu's `.active-menu` toggle was
+      defined in CSS but no JS ever applied it, so the mobile
+      menu was **broken in production** — tapping the opener
+      did nothing. Replaced the `.opener` + `.clear-opener` +
+      `.active-menu` machinery with a semantic
+      `<details><summary>Menu</summary>…</details>` block in
+      `_includes/header.html` and rewrote the corresponding
+      CSS in `css/style.scss`. Net **−70 lines of CSS** (the
+      `.android` block was dead code, and the
+      `.active-menu`/`.opener`/`.clear-opener` rules
+      collapsed into native `details[open] > ul` toggling).
+      Desktop visual: unchanged. Mobile: tap "Menu" → list
+      expands; tap again → collapses. Native browser
+      disclosure semantics, screen-reader-friendly, no JS.
 - [ ] **B.17** Header tagline: a short user-authored sentence
       next to "HunterDavis.com" that sets identity without the
       current giant centred h1. (User supplies the sentence —
@@ -1600,3 +1614,10 @@ any public-facing milestone copy until a source is added.
   + `contains "<li>"` guard so solo-post years don't render an
   empty section. Discovery boost across the 30-year archive
   without any frontmatter changes or precomputation.
+- `2026-05-10` — **Phase B.16 shipped**: mobile nav rewritten
+  with native `<details>/<summary>`, fixing a latent
+  production bug (the `.active-menu` toggle was defined in CSS
+  but no JS ever applied it). Net −70 lines of dead CSS
+  (`.android`, `.opener`, `.clear-opener`, `.active-menu`
+  rules removed). Desktop visual unchanged; mobile menu now
+  actually opens.

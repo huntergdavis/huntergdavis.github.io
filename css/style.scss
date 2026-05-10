@@ -57,69 +57,20 @@ nav ul {
 	list-style: none;
 }
 
-.android {
-	position: fixed;
-	top: 0px;
-	right: 0px;
-	padding: 0px;
-	margin: 10px 10px 0px 0px;
-	border: 1px solid #ccc;
-	z-index: 100;
-	background: #fff;
-	-webkit-box-shadow: -4px 4px 10px #898989;
-	-moz-box-shadow: -4px 4px 10px #898989;
-	box-shadow: -4px 4px 10px #898989;
-	border: none;
-
-	ul{
-		display: none;
-	}
-
-	&.active-menu{
-		min-width: 200px;
-
-		ul {
-			display: block;
-		}
-		.opener{
-			color: #08c;
-		}
-	}
-	.clear-opener{
-		clear: right;
-	}
-
-	a{
-		text-decoration: none;
-		color: #4C4B4B;
-		&.opener {
-			display: inline-block;
-			min-width: 40px;
-			min-height: 40px;
-			font-weight: bolder;
-			text-align: center;
-			float: right;
-			transform: rotate(90deg);
-		}
-		&:hover {
-			background-color: #E7E7E7;
-		}
-	}
-
-	li {
-		a {
-			display: block;
-			padding: 8px;
-		}
-	}
-}
-
 .main-nav{
 	overflow: auto;
 	padding: 0;
 	margin: 0;
 	background-color: $nav-back-color;
 
+	details > summary{
+		display: none;
+		list-style: none;
+		&::-webkit-details-marker{ display: none; }
+	}
+	details > ul{
+		display: inline-block;
+	}
 	ul{
 		display: inline-block;
 	}
@@ -509,67 +460,47 @@ article{
 		margin: 0px;
 		z-index: 100;
 		background: #fff;
-		-webkit-box-shadow: -4px 4px 10px #898989;
-		-moz-box-shadow: -4px 4px 10px #898989;
 		box-shadow: -4px 4px 10px #898989;
 		border: none;
 		overflow: hidden;
+		border-radius: 2px;
 
-		ul{
+		details > summary{
+			display: block;
+			min-width: 40px;
+			padding: 10px 16px;
+			font-weight: bold;
+			color: #4C4B4B;
+			cursor: pointer;
+			list-style: none;
+			&::-webkit-details-marker{ display: none; }
+		}
+		details:not([open]) > ul{
 			display: none;
 		}
-
-		&.active-menu{
+		details[open] > ul{
+			display: block;
 			min-width: 200px;
-			border-radius: 2px;
 			@include animation(menuShow 0.3s);
-			-webkit-animation-timing-function: ease-out;
-			-o-animation-timing-function: ease-out;
 			animation-timing-function: ease-out;
-
-			ul {
-				display: block;
-			}
-			.opener{
-				color: #08c;
-			}
-		}
-		.clear-opener{
-			clear: right;
 		}
 
-		a{
-			text-decoration: none;
-			color: #4C4B4B;
-			padding: 0px;
-			border: none;
-			&.opener {
-				display: inline-block;
-				min-width: 40px;
-				min-height: 40px;
-				font-weight: bolder;
-				text-align: center;
-				float: right;
-				transform: rotate(90deg);
-				&:hover{
-					color: #08c;
-					background-color: #fff;
-				}
-			}
-			&:hover {
-				background-color: #E7E7E7;
-				border: none;
-			}
+		ul{
+			display: block;
 		}
-
 		li {
 			display: block;
-			margin: 0px;
+			margin: 0;
 			a {
 				display: block;
-				padding: 8px;
-				border: none;
+				padding: 8px 16px;
 				color: #4C4B4B;
+				text-decoration: none;
+				border: none;
+
+				&:hover {
+					background-color: #E7E7E7;
+				}
 			}
 		}
 	}
