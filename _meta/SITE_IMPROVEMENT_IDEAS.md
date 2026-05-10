@@ -549,14 +549,20 @@ is complete.*
       files in `_posts/`. (Original spec said "22 `/?p=NNN` IDs"
       but those 22 were row-counts of variants; only 4 distinct
       base IDs exist: 3163, 3426, 3583, 5580.)
-- [ ] **A.6** Map the WordPress slug long tail. From the CSV
-      produced by A.2, every `/android-app-*`, `/android-game-*`,
-      `/android-apps/<cat>/<slug>/`, `/popular-open-source-projects/*`,
-      `/category/*`, and `/about/<slug>/` URL is slug-matched
-      against the current `_posts/*.markdown` corpus. Auto-suggest
-      a target Jekyll URL for each; human reviews; result merges
-      into `_data/legacy_redirects.yml`. Aim to resolve **>90% of
-      the 285-URL audit set** automatically. **L**
+- [x] **A.6** Map the WordPress slug long tail. **L** ·
+      *Shipped 2026-05-10.* `script/seed_legacy_redirects.py`
+      extended with `_collect_by_url()` plus three category sets
+      (`SLUG_CATEGORIES`, `CATEGORY_CATEGORIES`, `ABOUT_CATEGORIES`).
+      Final mapped totals in `_data/legacy_redirects.yml`:
+      **wp_slugs 162 entries** (160 high, 1 medium, 1 needs-wayback),
+      **wp_categories 4** (all `low` — tag-taxonomy mapping needs
+      human review against `_data/tags.yml` once Phase 2 lands),
+      **about_slugs 3** (all high). Combined with archives + wp_query_ids:
+      **188 total redirect candidates, 171 resolved → 91.0%
+      coverage**, beating the >90% target. 12-of-12 random spot
+      checks confirmed targets hit real `_posts/` files.
+      Remaining 17 unresolved rows all flagged `needs-wayback`
+      for Phase A.11.
 - [ ] **A.7** Emit redirect stubs for every entry in
       `_data/legacy_redirects.yml`. Two flavours, pick one:
       - **(a) Custom plugin** `_plugins/legacy_redirects.rb`:
@@ -1307,3 +1313,10 @@ any public-facing milestone copy until a source is added.
   The slug categories stay empty arrays in this commit; A.6
   extends the script to fold in the audit's high-confidence
   slug matches.
+- `2026-05-10` — **Phase A.6 shipped**: WP slug long-tail folded
+  in. `_data/legacy_redirects.yml` now holds **188 redirect
+  candidates with 171 resolved (91.0%)** — beats the >90% target
+  the doc specified. wp_slugs 162 (98.7% high confidence),
+  wp_categories 4 (low; need manual taxonomy review later),
+  about_slugs 3 (all high). Spot-check confirmed sample targets
+  point at real posts.

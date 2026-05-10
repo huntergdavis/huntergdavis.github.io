@@ -65,6 +65,19 @@ DOSSIER_CONFIRMED = {
     },
 }
 
+# CSV category buckets that fold into each YAML key
+SLUG_CATEGORIES = frozenset({
+    "wp_slug_android_app",
+    "wp_slug_android_game",
+    "wp_slug_android_apps_nested",
+    "wp_slug_popular_oss",
+    "wp_slug_post",
+    "wp_slug_personal_finance",
+    "wp_slug_books",
+})
+CATEGORY_CATEGORIES = frozenset({"wp_category", "wp_archives_category"})
+ABOUT_CATEGORIES = frozenset({"wp_slug_about"})
+
 
 def load_csv_rows(path: Path):
     rows = []
@@ -95,6 +108,36 @@ def collect_archives(rows):
     for nid, override in DOSSIER_CONFIRMED.get("archives", {}).items():
         seen[nid] = override
     return [{"id": nid, **seen[nid]} for nid in sorted(seen)]
+
+
+def _collect_by_url(rows, allowed_categories):
+    """Generic collector: dedup by URL, take any row's suggested_to and
+    confidence (they're identical across rows for the same URL)."""
+    seen = {}
+    for r in rows:
+        if r["category"] not in allowed_categories:
+            continue
+        url = r["url"]
+        if url in seen:
+            continue
+        seen[url] = {
+            "to": r["suggested_to"] or "",
+            "source": "audit-slug-match" if r["suggested_to"] else "in-repo-cross-reference",
+            "confidence": r["confidence"] if r["suggested_to"] else "needs-wayback",
+        }
+    return [{"from": u, **seen[u]} for u in sorted(seen)]
+
+
+def collect_wp_slugs(rows):
+    return _collect_by_url(rows, SLUG_CATEGORIES)
+
+
+def collect_wp_categories(rows):
+    return _collect_by_url(rows, CATEGORY_CATEGORIES)
+
+
+def collect_about_slugs(rows):
+    return _collect_by_url(rows, ABOUT_CATEGORIES)
 
 
 def collect_wp_query_ids(rows):
@@ -168,7 +211,8 @@ HEADER = """\
 """
 
 
-def emit_yaml(archives_entries, wp_entries) -> str:
+def emit_yaml(archives_entries, wp_query_entries, wp_slug_entries,
+              wp_cat_entries, about_slug_entries) -> str:
     lines = [HEADER, ""]
 
     def emit_section(name, entries, key="id"):
@@ -190,13 +234,20 @@ def emit_yaml(archives_entries, wp_entries) -> str:
         lines.append("")
 
     emit_section("archives", archives_entries, key="id")
-    emit_section("wp_query_ids", wp_entries, key="id")
-    # A.6 fills these:
-    emit_section("wp_slugs", [], key="from")
-    emit_section("wp_categories", [], key="from")
-    emit_section("about_slugs", [], key="from")
+    emit_section("wp_query_ids", wp_query_entries, key="id")
+    emit_section("wp_slugs", wp_slug_entries, key="from")
+    emit_section("wp_categories", wp_cat_entries, key="from")
+    emit_section("about_slugs", about_slug_entries, key="from")
 
     return "\n".join(lines)
+
+
+def _summarize(label, entries):
+    by_conf = {}
+    for e in entries:
+        by_conf[e["confidence"]] = by_conf.get(e["confidence"], 0) + 1
+    parts = ", ".join(f"{c}={n}" for c, n in sorted(by_conf.items()))
+    print(f"  {label:14s} {len(entries):4d}  ({parts})")
 
 
 def main() -> int:
@@ -207,18 +258,21 @@ def main() -> int:
     rows = load_csv_rows(INPUT_CSV)
     archives = collect_archives(rows)
     wp_ids = collect_wp_query_ids(rows)
-    yaml_text = emit_yaml(archives, wp_ids)
+    wp_slugs = collect_wp_slugs(rows)
+    wp_cats = collect_wp_categories(rows)
+    about_slugs = collect_about_slugs(rows)
+
+    yaml_text = emit_yaml(archives, wp_ids, wp_slugs, wp_cats, about_slugs)
 
     OUTPUT_YML.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_YML.write_text(yaml_text, encoding="utf-8")
 
     print(f"wrote {OUTPUT_YML.relative_to(REPO_ROOT)}")
-    print(f"  archives:     {len(archives)} entries")
-    print(f"    confirmed:    {sum(1 for e in archives if e['confidence'] == 'confirmed')}")
-    print(f"    needs-wayback:{sum(1 for e in archives if e['confidence'] == 'needs-wayback')}")
-    print(f"  wp_query_ids: {len(wp_ids)} entries")
-    print(f"    high:         {sum(1 for e in wp_ids if e['confidence'] == 'high')}")
-    print(f"    needs-wayback:{sum(1 for e in wp_ids if e['confidence'] == 'needs-wayback')}")
+    _summarize("archives", archives)
+    _summarize("wp_query_ids", wp_ids)
+    _summarize("wp_slugs", wp_slugs)
+    _summarize("wp_categories", wp_cats)
+    _summarize("about_slugs", about_slugs)
     return 0
 
 

@@ -106,8 +106,684 @@ wp_query_ids:
     source: in-repo-cross-reference
     confidence: needs-wayback
 
-wp_slugs: []
+wp_slugs:
+  - from: /android-app-ar-wiki-augmented-reality-wikipedia
+    to: /2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-ambient-lighting
+    to: /2011/06/30/android-app-easy-ambient-lighting.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-audio-flash-cards
+    to: /2011/06/14/android-app-easy-audio-flash-cards.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-bat-whistle
+    to: /2011/07/11/android-app-easy-bat-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-black-and-white
+    to: /2011/07/11/android-app-easy-black-and-white.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-cat-whistle
+    to: /2011/06/16/android-app-easy-cat-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-color-wizard
+    to: /2011/06/16/android-app-easy-color-wizard.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-cow-and-chicken-whistle
+    to: /2011/07/11/android-app-easy-cow-and-chicken-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-decoder-ring
+    to: /2011/06/10/android-app-easy-decoder-ring.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-dog-whistle
+    to: /2011/06/16/android-app-easy-dog-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-encrypted-journal
+    to: /2011/06/28/android-app-easy-encrypted-journal.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-ferret-and-chinchilla-whistle
+    to: /2011/07/05/android-app-easy-ferret-and-chinchilla-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-file-encrypt
+    to: /2011/07/15/android-app-easy-file-encrypt.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-file-scramble
+    to: /2011/07/14/android-app-easy-file-scramble.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-file-split-and-join
+    to: /2011/06/20/android-app-easy-file-split-and-join.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-fish-and-snake-whistle
+    to: /2011/07/05/android-app-easy-fish-and-snake-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-fractal
+    to: /2011/06/21/android-app-easy-fractal.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-frog-and-owl-whistle
+    to: /2011/07/11/android-app-easy-frog-and-owl-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-graph-paper
+    to: /2011/06/08/android-app-easy-graph-paper.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-hamster-and-gerbil-whistle
+    to: /2011/07/05/android-app-easy-hamster-and-gerbil-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-hash-compare
+    to: /2011/06/06/android-app-easy-hash-compare.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-hearing-age-test
+    to: /2011/06/15/android-app-easy-hearing-age-test.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-hidden-notepad
+    to: /2011/06/10/android-app-easy-hidden-notepad.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-horse-and-donkey-whistle
+    to: /2011/07/11/android-app-easy-horse-and-donkey-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-image-morph
+    to: /2011/06/23/android-app-easy-image-morph.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-image-negative
+    to: /2011/06/08/android-app-easy-image-negative.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-image-shrink
+    to: /2011/06/06/android-app-easy-image-shrink.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-image-splice
+    to: /2011/07/07/android-app-easy-image-splice.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-image-stamp
+    to: /2011/07/13/android-app-easy-image-stamp.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-inventory
+    to: /2011/06/04/android-app-easy-inventory.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-kitty-censor
+    to: /2011/06/24/android-app-easy-kitty-censor.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-lorem-ipsum
+    to: /2011/06/29/android-app-easy-lorem-ipsum.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-md5
+    to: /2011/06/06/android-app-easy-md5.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-md5/
+    to: /2011/06/06/android-app-easy-md5.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-mental-blocks
+    to: /2011/06/18/android-app-easy-mental-blocks.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-mouse-and-rat-whistle
+    to: /2011/07/05/android-app-easy-mouse-and-rat-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-multi-counter
+    to: /2011/06/27/android-app-easy-multi-counter.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-packet-blast
+    to: /2011/07/01/android-app-easy-packet-blast.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-pest-control
+    to: /2011/06/17/android-app-easy-pest-control.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-positive-audio
+    to: /2011/06/16/android-app-easy-positive-audio.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-positive-feedback
+    to: /2011/06/16/android-app-easy-positive-feedback.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-rabbit-and-hedgehog-whistle
+    to: /2011/07/05/android-app-easy-rabbit-and-hedgehog-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-raccoon-and-opossum-whistle
+    to: /2011/07/11/android-app-easy-raccoon-and-opossum-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-random-numbers
+    to: /2011/06/08/android-app-easy-random-numbers.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-ratings
+    to: /2011/07/06/android-app-easy-ratings.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-reptile-whistle
+    to: /2011/07/05/android-app-easy-reptile-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-sheep-whistle
+    to: /2011/07/11/android-app-easy-sheep-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-side-by-side
+    to: /2011/06/09/android-app-easy-side-by-side.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-sound-board
+    to: /2011/06/13/android-app-easy-sound-board.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-static
+    to: /2011/06/08/android-app-easy-static.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-symmetry-check
+    to: /2011/06/07/android-app-easy-symmetry-check.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-text-prompter
+    to: /2011/06/30/android-app-easy-text-prompter.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-timed-reboot
+    to: /2011/06/22/android-app-easy-timed-reboot.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-tone-dialer
+    to: /2011/06/15/android-app-easy-tone-dialer.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-unit-conversion
+    to: /2011/07/08/android-app-easy-unit-conversion.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-wake-on-lan-manager
+    to: /2011/06/10/android-app-easy-wake-on-lan-manager.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-easy-whale-and-porpoise-whistle
+    to: /2011/07/11/android-app-easy-whale-and-porpoise-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-ea…split-and-join
+    to: /2011/06/20/android-app-easy-file-split-and-join.html
+    source: audit-slug-match
+    confidence: medium
+  - from: /android-app-sober-secrets
+    to: /2011/07/28/android-app-sober-secrets.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-app-super-whistle
+    to: /2011/07/29/android-app-super-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/
+    to: /2011/07/29/android-app-super-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-bat-whistle/
+    to: /2011/07/11/android-app-easy-bat-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-cat-whistle/
+    to: /2011/06/16/android-app-easy-cat-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-cow-and-chicken-whistle/
+    to: /2011/07/11/android-app-easy-cow-and-chicken-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-dog-whistle/
+    to: /2011/06/16/android-app-easy-dog-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-ferret-and-chinchilla-whistle/
+    to: /2011/07/05/android-app-easy-ferret-and-chinchilla-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-fish-and-snake-whistle/
+    to: /2011/07/05/android-app-easy-fish-and-snake-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-frog-and-owl-whistle/
+    to: /2011/07/11/android-app-easy-frog-and-owl-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-hamster-and-gerbil-whistle/
+    to: /2011/07/05/android-app-easy-hamster-and-gerbil-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-horse-and-donkey-whistle/
+    to: /2011/07/11/android-app-easy-horse-and-donkey-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-mouse-and-rat-whistle/
+    to: /2011/07/05/android-app-easy-mouse-and-rat-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-pest-control/
+    to: /2011/06/17/android-app-easy-pest-control.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-rabbit-and-hedgehog-whistle/
+    to: /2011/07/05/android-app-easy-rabbit-and-hedgehog-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-raccoon-and-opossum-whistle/
+    to: /2011/07/11/android-app-easy-raccoon-and-opossum-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-reptile-whistle/
+    to: /2011/07/05/android-app-easy-reptile-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-sheep-whistle/
+    to: /2011/07/11/android-app-easy-sheep-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-app-super-whistle/android-app-easy-whale-and-porpoise-whistle/
+    to: /2011/07/11/android-app-easy-whale-and-porpoise-whistle.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-games/
+    to: /2012/04/25/android-games.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-games/android-game-custom-action-tap/
+    to: /2011/07/25/android-game-custom-action-tap.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-games/android-game-custom-comets/
+    to: /2011/07/21/android-game-custom-comets.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-games/android-game-custom-onslaught/
+    to: /2011/07/22/android-game-custom-onslaught.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-games/android-game-custom-pong/
+    to: /2011/07/20/android-game-custom-pong.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-games/android-game-skillful-dodge/
+    to: /2011/07/26/android-game-skillful-dodge.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-games/android-game-skillful-lines/
+    to: /2011/07/18/android-game-skillful-lines.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-games/android-game-skillful-surround/
+    to: /2011/07/19/android-game-skillful-surround.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-games/android-game-the-grind/
+    to: /2011/07/27/android-game-the-grind.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/android-games/pop-them-balloons/
+    to: /2012/12/30/pop-them-balloons.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/audio-tools/
+    to: /2012/04/25/audio-tools.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/audio-tools/android-app-easy-audio-flash-cards/
+    to: /2011/06/14/android-app-easy-audio-flash-cards.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/audio-tools/android-app-easy-hearing-age-test/
+    to: /2011/06/15/android-app-easy-hearing-age-test.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/audio-tools/android-app-easy-positive-audio/
+    to: /2011/06/16/android-app-easy-positive-audio.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/audio-tools/android-app-easy-sound-board/
+    to: /2011/06/13/android-app-easy-sound-board.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/audio-tools/android-app-easy-tone-dialer/
+    to: /2011/06/15/android-app-easy-tone-dialer.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/audio-tools/easy-bluetooth-time/
+    to: /2012/09/04/easy-bluetooth-time.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/document-creation-and-information-management/
+    to: /2012/04/25/document-creation-and-information-management.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/document-creation-and-information-management/android-app-easy-inventory/
+    to: /2011/06/04/android-app-easy-inventory.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/document-creation-and-information-management/android-app-easy-lorem-ipsum/
+    to: /2011/06/29/android-app-easy-lorem-ipsum.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/document-creation-and-information-management/android-app-easy-mental-blocks/
+    to: /2011/06/18/android-app-easy-mental-blocks.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/document-creation-and-information-management/android-app-easy-multi-counter/
+    to: /2011/06/27/android-app-easy-multi-counter.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/document-creation-and-information-management/android-app-easy-positive-feedback/
+    to: /2011/06/16/android-app-easy-positive-feedback.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/document-creation-and-information-management/android-app-easy-ratings/
+    to: /2011/07/06/android-app-easy-ratings.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/document-creation-and-information-management/json-game-list-viewer/
+    to: /2015/03/23/json-game-list-viewer.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/encryption-and-obfuscation/
+    to: /2012/04/25/encryption-and-obfuscation.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/encryption-and-obfuscation/android-app-easy-decoder-ring/
+    to: /2011/06/10/android-app-easy-decoder-ring.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/encryption-and-obfuscation/android-app-easy-encrypted-journal/
+    to: /2011/06/28/android-app-easy-encrypted-journal.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/encryption-and-obfuscation/android-app-easy-file-encrypt/
+    to: /2011/07/15/android-app-easy-file-encrypt.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/encryption-and-obfuscation/android-app-easy-file-scramble/
+    to: /2011/07/14/android-app-easy-file-scramble.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/encryption-and-obfuscation/android-app-easy-hidden-notepad/
+    to: /2011/06/10/android-app-easy-hidden-notepad.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/encryption-and-obfuscation/android-app-sober-secrets/
+    to: /2011/07/28/android-app-sober-secrets.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/file-and-network-tools/
+    to: /2012/04/25/file-and-network-tools.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/file-and-network-tools/android-app-easy-file-split-and-join/
+    to: /2011/06/20/android-app-easy-file-split-and-join.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/file-and-network-tools/android-app-easy-hash-compare/
+    to: /2011/06/06/android-app-easy-hash-compare.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/file-and-network-tools/android-app-easy-md5/
+    to: /2011/06/06/android-app-easy-md5.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/file-and-network-tools/android-app-easy-packet-blast/
+    to: /2011/07/01/android-app-easy-packet-blast.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/file-and-network-tools/android-app-easy-timed-reboot/
+    to: /2011/06/22/android-app-easy-timed-reboot.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/file-and-network-tools/android-app-easy-wake-on-lan-manager/
+    to: /2011/06/10/android-app-easy-wake-on-lan-manager.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/
+    to: /2012/04/25/graphics-and-imaging.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-ambient-lighting/
+    to: /2011/06/30/android-app-easy-ambient-lighting.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-black-and-white/
+    to: /2011/07/11/android-app-easy-black-and-white.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-color-wizard/
+    to: /2011/06/16/android-app-easy-color-wizard.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-fractal/
+    to: /2011/06/21/android-app-easy-fractal.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-graph-paper/
+    to: /2011/06/08/android-app-easy-graph-paper.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-image-morph/
+    to: /2011/06/23/android-app-easy-image-morph.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-image-negative/
+    to: /2011/06/08/android-app-easy-image-negative.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-image-shrink/
+    to: /2011/06/06/android-app-easy-image-shrink.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-image-splice/
+    to: /2011/07/07/android-app-easy-image-splice.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-image-stamp/
+    to: /2011/07/13/android-app-easy-image-stamp.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-kitty-censor/
+    to: /2011/06/24/android-app-easy-kitty-censor.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-side-by-side/
+    to: /2011/06/09/android-app-easy-side-by-side.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-static/
+    to: /2011/06/08/android-app-easy-static.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/graphics-and-imaging/android-app-easy-symmetry-check/
+    to: /2011/06/07/android-app-easy-symmetry-check.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/utilities-and-lifestyle-apps/
+    to: /2012/04/25/utilities-and-lifestyle-apps.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/utilities-and-lifestyle-apps/android-app-ar-wiki-augmented-reality-wikipedia/
+    to: /2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/utilities-and-lifestyle-apps/android-app-easy-random-numbers/
+    to: /2011/06/08/android-app-easy-random-numbers.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/utilities-and-lifestyle-apps/android-app-easy-text-prompter/
+    to: /2011/06/30/android-app-easy-text-prompter.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-apps/utilities-and-lifestyle-apps/android-app-easy-unit-conversion/
+    to: /2011/07/08/android-app-easy-unit-conversion.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-game-custom-action-tap
+    to: /2011/07/25/android-game-custom-action-tap.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-game-custom-comets
+    to: /2011/07/21/android-game-custom-comets.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-game-custom-onslaught
+    to: /2011/07/22/android-game-custom-onslaught.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-game-custom-pong
+    to: /2011/07/20/android-game-custom-pong.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-game-skillful-dodge
+    to: /2011/07/26/android-game-skillful-dodge.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-game-skillful-lines
+    to: /2011/07/18/android-game-skillful-lines.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-game-skillful-surround
+    to: /2011/07/19/android-game-skillful-surround.html
+    source: audit-slug-match
+    confidence: high
+  - from: /android-game-the-grind
+    to: /2011/07/27/android-game-the-grind.html
+    source: audit-slug-match
+    confidence: high
+  - from: /books/build-your-own-distributed-compilation-cluster-ebook/
+    to: /2011/03/09/build-your-own-distributed-compilation-cluster-ebook.html
+    source: audit-slug-match
+    confidence: high
+  - from: /build-your-own-distributed-compilation-cluster-ebook
+    to: /2011/03/09/build-your-own-distributed-compilation-cluster-ebook.html
+    source: audit-slug-match
+    confidence: high
+  - from: /build-your-own-distributed-compilation-cluster-ebook/
+    to: /2011/03/09/build-your-own-distributed-compilation-cluster-ebook.html
+    source: audit-slug-match
+    confidence: high
+  - from: /ebook-hacks-from-hunter-davis
+    to: /2011/03/14/ebook-hacks-from-hunter-davis.html
+    source: audit-slug-match
+    confidence: high
+  - from: /ebook-hacks-from-hunter-davis/
+    to: /2011/03/14/ebook-hacks-from-hunter-davis.html
+    source: audit-slug-match
+    confidence: high
+  - from: /keys
+    to: ""
+    source: in-repo-cross-reference
+    confidence: needs-wayback
+  - from: /live-for-free-ebook
+    to: /2010/11/08/live-for-free-ebook.html
+    source: audit-slug-match
+    confidence: high
+  - from: /live-for-free-ebook/
+    to: /2010/11/08/live-for-free-ebook.html
+    source: audit-slug-match
+    confidence: high
+  - from: /personal-finance/
+    to: /2013/04/29/personal-finance.html
+    source: audit-slug-match
+    confidence: high
+  - from: /personal-finance/only-pay-yourself-purchase-log/
+    to: /2013/04/29/only-pay-yourself-purchase-log.html
+    source: audit-slug-match
+    confidence: high
+  - from: /popular-open-source-projects/quickgrapher_open_source/
+    to: /2012/01/23/quickgrapher_open_source.html
+    source: audit-slug-match
+    confidence: high
+  - from: /popular-open-source-projects/quickgrapher_open_source/adding-embedded-quick-grapher-to-your-site/
+    to: /2012/12/23/adding-embedded-quick-grapher-to-your-site.html
+    source: audit-slug-match
+    confidence: high
+  - from: /popular-open-source-projects/save-game-saver-backup-and-retrieve-your-save-games-from-gmail/
+    to: /2009/09/11/save-game-saver-backup-and-retrieve-your-save-games-from-gmail.html
+    source: audit-slug-match
+    confidence: high
+  - from: /popular-open-source-projects/source-tree-visualizer/
+    to: /2012/01/23/source-tree-visualizer.html
+    source: audit-slug-match
+    confidence: high
+  - from: /popular-open-source-projects/super-simple-rss-ssrss/
+    to: /2008/04/22/super-simple-rss-ssrss.html
+    source: audit-slug-match
+    confidence: high
+  - from: /popular-open-source-projects/title-bar-scroller/
+    to: /2008/04/21/title-bar-scroller.html
+    source: audit-slug-match
+    confidence: high
+  - from: /source-tree-visualizer/
+    to: /2012/01/23/source-tree-visualizer.html
+    source: audit-slug-match
+    confidence: high
+  - from: /zipit-z2-a-wireless-tor-and-privoxy-router-in-the-palm-of-your-hand/
+    to: /2008/12/12/zipit-z2-a-wireless-tor-and-privoxy-router-in-the-palm-of-your-hand.html
+    source: audit-slug-match
+    confidence: high
 
-wp_categories: []
+wp_categories:
+  - from: /archives/category/zipit-hacking
+    to: /tag/archiveszipit-hacking/
+    source: audit-slug-match
+    confidence: low
+  - from: /category/gaming/game-reviews/
+    to: /tag/gaming/game-reviews/
+    source: audit-slug-match
+    confidence: low
+  - from: /category/hacking-and-robotics/
+    to: /tag/hacking-and-robotics/
+    source: audit-slug-match
+    confidence: low
+  - from: /category/zipit-hacking/
+    to: /tag/zipit-hacking/
+    source: audit-slug-match
+    confidence: low
 
-about_slugs: []
+about_slugs:
+  - from: /about/hunter-davis-on-google-plus/
+    to: /2011/08/09/hunter-davis-on-google-plus.html
+    source: audit-slug-match
+    confidence: high
+  - from: /about/i-have-cured-my-own-sleep-paralysis-and-you-can-too/
+    to: /2008/07/24/i-have-cured-my-own-sleep-paralysis-and-you-can-too.html
+    source: audit-slug-match
+    confidence: high
+  - from: /about/ko-nami-code/
+    to: /2011/08/18/ko-nami-code.html
+    source: audit-slug-match
+    confidence: high
