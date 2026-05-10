@@ -46,5 +46,13 @@ layout: default
 	{% endif %}
 </nav>
 {% endif %}
+{% assign current_year = page.date | date: "%Y" %}
+{% capture same_year_html %}{% assign shown = 0 %}{% for p in site.posts %}{% if p.url == page.url %}{% continue %}{% endif %}{% assign py = p.date | date: "%Y" %}{% if py == current_year %}<li><a href="{{ p.url }}">{{ p.title | escape }}</a></li>{% assign shown = shown | plus: 1 %}{% if shown >= 5 %}{% break %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
+{% if same_year_html contains "<li>" %}
+<aside class="same-year" aria-label="More posts from this year">
+	<h3>More from {{ current_year }}</h3>
+	<ul>{{ same_year_html }}</ul>
+</aside>
+{% endif %}
 </div>
 </div>

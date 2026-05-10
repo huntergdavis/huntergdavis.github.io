@@ -357,6 +357,39 @@ article{
 
 }
 
+.same-year{
+	margin-top: 1em;
+	padding: 0.75em 0;
+	border-top: 1px solid #ccc;
+
+	h3{
+		font-size: 0.75em;
+		margin: 0 0 0.5em;
+		font-weight: bold;
+		color: #555;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+	}
+	ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	li{
+		margin-bottom: 0.25em;
+		font-size: 0.9em;
+	}
+	a{
+		color: #0B5485;
+		text-decoration: none;
+
+		&:hover{
+			color: #149797;
+			text-decoration: underline;
+		}
+	}
+}
+
 .post-nav{
 	display: flex;
 	gap: 1em;

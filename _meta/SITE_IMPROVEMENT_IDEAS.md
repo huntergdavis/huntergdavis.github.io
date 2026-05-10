@@ -746,10 +746,18 @@ version; the v2 redesign will inherit it.*
       to five sibling posts with the same slug. Builds the
       saga-style cross-linking the Johnny Castaway, Zipit Z2,
       Dockstar, etc. arcs deserve. **M**
-- [ ] **B.14** "Other posts from this year" on post pages.
-      Three randomly-sampled (or chronologically nearest) posts
-      from the same `page.date | date: "%Y"` year. Discovery
-      affordance for the deep archive. **S**
+- [x] **B.14** "Other posts from this year" on post pages. **S** ·
+      *Shipped 2026-05-10.* Pure-Liquid implementation in
+      `_layouts/post.html` plus `.same-year` styles in
+      `css/style.scss`. Walks `site.posts` (already sorted
+      descending by date), skips self, collects up to 5 posts
+      with the same `date | "%Y"` year, captures the HTML, and
+      conditionally renders the `<aside>` only if at least one
+      `<li>` was emitted (so solo-post years like 2025/2026
+      don't show an empty heading). Verified the simulation
+      across four representative posts (2007 → 5 siblings, 2011
+      → 5 siblings, 2025 → 0, 2026 → 0; aside suppressed in
+      the latter two).
 - [ ] **B.15** Promote search to every page. Today the search
       input lives only in the sidebar and only renders on the
       home. Move (or copy) it into the header so it's available
@@ -1587,3 +1595,8 @@ any public-facing milestone copy until a source is added.
   visually scannable as two distinct categories instead of one
   flat list. New groups can be added with no template changes —
   just new YAML entries.
+- `2026-05-10` — **Phase B.14 shipped**: "More from {year}"
+  aside on post pages. Pure-Liquid sibling-finder via a capture
+  + `contains "<li>"` guard so solo-post years don't render an
+  empty section. Discovery boost across the 30-year archive
+  without any frontmatter changes or precomputation.
