@@ -844,14 +844,18 @@ URL preservation work moved to Phase A above.*
       regressing 16 posts (mostly 2020–2021 Johnny Castaway saga)
       that have `featured_img:` but no `image:`. A future commit
       can migrate those posts' frontmatter and drop the fallback.
-- [ ] **0.8** Delete `_includes/disqus.html` — unused, references a
-      `site.disqus` value that's commented out. **S**
-- [ ] **0.9** Delete `_includes/jquery-1.4.4.min.js`,
+- [x] **0.8** Delete `_includes/disqus.html` — unused, references a
+      `site.disqus` value that's commented out. **S** ·
+      *Shipped 2026-05-10 (bundled with 0.9 + 0.12).*
+- [x] **0.9** Delete `_includes/jquery-1.4.4.min.js`,
       `jquery-ui-1.8.9.custom.min.js`, `modernizr-1.6.min.js`,
-      `obfs_embed.js`, `deck.js`, `simulator.js` from `_includes/` if
-      not actually consumed by the live site (verify each is only
-      referenced by legacy embed pages on hunterdavis.com paths).
-      **S** · *Acceptance:* `grep -r` shows no live references.
+      `obfs_embed.js`, `deck.js`, `simulator.js` from `_includes/`.
+      **S** · *Shipped 2026-05-10 (bundled with 0.8 + 0.12).*
+      Confirmed via grep that no `{% include %}` references these
+      files; the legacy embed pages on `hunterdavis.com/quickgrapher/…`
+      and `hunterdavis.com/deck-of-cards/…` use externally-hosted
+      copies of these scripts, not these in-repo ones. ~290 KB
+      of dead JS removed from the git tree.
 - [x] **0.10** Drop the maxcdn font-awesome `<link>` from
       `_layouts/default.html`; the 4 remaining decorative icons
       (calendar, home, info-circle, tag) removed outright instead
@@ -886,7 +890,8 @@ URL preservation work moved to Phase A above.*
       benefit: removes 2 of the 6 font-awesome icons in use
       (fa-facebook, fa-twitter), incrementally working toward
       0.10 (drop the CDN entirely).
-- [ ] **0.12** Delete `index.old` (it's a Jekyll comment-only stub). **S**
+- [x] **0.12** Delete `index.old` (it's a Jekyll comment-only stub).
+      **S** · *Shipped 2026-05-10 (bundled with 0.8 + 0.9).*
 - [ ] **0.13** Replace `_includes/analytics.html` with a privacy-respecting
       analytics snippet (Plausible / GoatCounter / self-hosted) only if
       `site.analytics_url` is set. Otherwise remove the include
@@ -1737,3 +1742,13 @@ any public-facing milestone copy until a source is added.
   output (both keys held the same value), but now there's a
   single source of truth for the site origin — important
   before the HTTPS switch in 0.3.
+- `2026-05-10` — **Phase 0.8 + 0.9 + 0.12 shipped** (bundled):
+  dead-code purge from `_includes/` and root. Deleted
+  `_includes/disqus.html`, `_includes/jquery-1.4.4.min.js`,
+  `_includes/jquery-ui-1.8.9.custom.min.js`,
+  `_includes/modernizr-1.6.min.js`, `_includes/obfs_embed.js`,
+  `_includes/deck.js`, `_includes/simulator.js`, and
+  `index.old`. ~290 KB removed from git tree. `_includes/`
+  went from 13 files to 6, every remaining file actively
+  referenced by a `{% include %}` statement. Zero behaviour
+  change — none of these were ever loaded by Liquid.
