@@ -644,16 +644,21 @@ is complete.*
       linked but no exact-match repo exists (deploy is probably
       `Hunter-Davis-impressjs-Resume`), and `/photo-stream/` is
       linked but the repo is `photo-stream-static`. **M**
-- [ ] **A.15** WordPress query-string ID handler. `?p=NNN`,
-      `?s=foo`, `?cat=bar` etc. can't be static stub paths so
-      `jekyll-redirect-from` (A.4 / A.7) doesn't help. Add a
-      small `<script>` to `index.html` (or a dedicated
-      `/redirect.html`) that reads `URLSearchParams`, looks up
-      the ID against `site.data.legacy_redirects.wp_query_ids`,
-      and `location.replace()`s to the canonical URL. Falls
-      through to the smart-404 (A.12) for unknown IDs.
-      Currently 4 distinct WP IDs in scope (3163, 3426, 3583,
-      5580); only 3163 has a confirmed target today. **S**
+- [x] **A.15** WordPress query-string ID handler. **S** ·
+      *Shipped 2026-05-10.* Tiny inline `<script>` at the top
+      of `index.html` reads `URLSearchParams`, looks up `?p=NNN`
+      against a build-time Liquid map of
+      `site.data.legacy_redirects.wp_query_ids`, and
+      `location.replace()`s to the canonical post when matched.
+      Also handles `?s=foo` (WordPress search) by redirecting
+      to `/search.html?query=foo`. Today this resolves
+      `?p=3163` → `/2012/07/21/android-sound.html` (the one
+      confirmed mapping); the three needs-wayback IDs (3426,
+      3583, 5580) fall through to the home page until A.11
+      recovers their targets. JS validated with `node -c`;
+      trailing comma in the emitted object literal is legal in
+      modern JS, browsers without `URLSearchParams` (effectively
+      IE11 only) degrade gracefully to the home page.
 
 ### Phase B — Information architecture & navigation (ship now, don't wait for v2)
 *Goal: make the 507-post, 30-year archive actually browsable. Today
@@ -1690,3 +1695,13 @@ any public-facing milestone copy until a source is added.
   handshake on every page; removes a third-party CDN
   dependency (privacy + reliability win). Future inline-SVG
   alternative tracked as new item 0.16.
+- `2026-05-10` — **Phase A.15 shipped**: WordPress
+  query-string redirect handler. Inline `<script>` at the top
+  of `index.html` reads `?p=NNN` and `?s=foo` via
+  `URLSearchParams` and bounces to the canonical Jekyll URL
+  (or `/search.html` for searches). Build-time Liquid map
+  pulls from `site.data.legacy_redirects.wp_query_ids`, so
+  any future A.11 archive.org recovery automatically extends
+  the handler with no JS change. Final hole in URL
+  preservation closed for the WP-era inbound links our audit
+  could see.
