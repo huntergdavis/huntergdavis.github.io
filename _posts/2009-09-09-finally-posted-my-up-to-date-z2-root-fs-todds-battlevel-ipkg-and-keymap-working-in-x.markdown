@@ -3,6 +3,7 @@ layout: post
 title: 'Updated* Follow thread for new packages and images!: MyAliosa27''s up to date
   Z2 root FS, Todd''s battlevel ipkg and keymap working in X'
 date: '2009-09-09 14:04:38'
+project: zipit-z2
 ---
 
 

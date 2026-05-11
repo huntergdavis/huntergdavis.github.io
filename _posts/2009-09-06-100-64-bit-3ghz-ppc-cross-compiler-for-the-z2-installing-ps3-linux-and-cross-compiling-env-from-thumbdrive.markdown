@@ -3,6 +3,7 @@ layout: post
 title: 100$ 64-bit 3ghz ppc cross compiler for the Z2 (Installing PS3 Linux and Cross
   Compiling Env from Thumbdrive)
 date: '2009-09-06 20:26:36'
+project: zipit-z2
 ---
 
 

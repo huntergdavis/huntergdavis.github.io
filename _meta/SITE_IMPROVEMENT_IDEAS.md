@@ -1963,3 +1963,15 @@ any public-facing milestone copy until a source is added.
   edition). A reader landing on the Dreamcast port now sees
   five other Johnny Castaway commits one click away. Zipit,
   Dockstar, etc. arcs can be retro-tagged in follow-ups.
+- `2026-05-10` — **B.13 extension**: tagged the Zipit Z2
+  saga with `project: zipit-z2`. **19 posts** spanning
+  2008-12 → 2015-05, covering the full Z2 arc: Tor + Privoxy
+  router, DOSBox port, kernel updates, ScummVM, NES emulator,
+  Fluxbox WM, Aliosa27 / RootNexus / Mozzwald userlands,
+  HULU streaming, cross-compiler setup, Hulu, pen-testing
+  distribution, Cloud Print, "Spirit of the Zipit Lives On".
+  The aside template from this morning's B.13 commit
+  activates automatically — every Zipit post now lists 5
+  others in the era. Tangential mentions (Dockstar gaming
+  console, Hacks ebook, Hackaway-prize threads, My Story,
+  the modern site-search announce) deliberately not tagged.

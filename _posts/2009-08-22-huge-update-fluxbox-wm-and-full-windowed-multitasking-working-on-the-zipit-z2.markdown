@@ -3,6 +3,7 @@ layout: post
 title: HUGE UPDATE - Fluxbox WM and full windowed multitasking working on the Zipit
   Z2
 date: '2009-08-22 15:30:49'
+project: zipit-z2
 ---
 
 

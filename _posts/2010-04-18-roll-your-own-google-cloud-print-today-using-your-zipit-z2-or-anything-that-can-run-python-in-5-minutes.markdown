@@ -12,6 +12,7 @@ tags:
 - python
 - z2
 - zipit
+project: zipit-z2
 ---
 
 

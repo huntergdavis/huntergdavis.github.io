@@ -2,6 +2,7 @@
 layout: post
 title: NES emulator running fullspeed in fluxbox on the Zipit Z2
 date: '2009-08-26 21:56:44'
+project: zipit-z2
 ---
 
 

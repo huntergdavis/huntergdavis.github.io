@@ -4,6 +4,7 @@ title: Zipit Z2 New Kernel Update!
 date: '2009-06-20 16:40:59'
 tags:
 - zipit-dosbox-games-hacking-fun-c-source-hack
+project: zipit-z2
 ---
 
 

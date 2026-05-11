@@ -3,6 +3,7 @@ layout: post
 title: The Spirit Of The Zipit Lives On
 image: http://www.hunterdavis.com/content/images/2015/05/pocketchip.jpg
 date: '2015-05-08 16:18:46'
+project: zipit-z2
 ---
 
 

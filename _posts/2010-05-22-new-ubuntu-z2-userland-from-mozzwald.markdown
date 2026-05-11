@@ -10,6 +10,7 @@ tags:
 - z2
 - zipit
 - zipit-z2-ubuntu-debian-userland
+project: zipit-z2
 ---
 
 
