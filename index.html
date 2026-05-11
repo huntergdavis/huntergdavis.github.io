@@ -21,8 +21,8 @@ lastmod: 2014-07-07T16:57:30+05:30
 {% if paginator.page == 1 %}
 {% assign featured_posts = site.posts | where: "featured", true %}
 {% if featured_posts.size > 0 %}
-<aside class="featured" aria-label="Greatest hits">
-	<h2>Greatest hits</h2>
+<aside class="featured" aria-labelledby="greatest-hits-heading">
+	<h2 id="greatest-hits-heading">Greatest hits</h2>
 	{% assign group_order = "programming,johnny,leadership" | split: "," %}
 	{% assign group_labels = "Programming and hacking,Johnny Castaway,Leadership" | split: "," %}
 	{% for g in group_order %}
