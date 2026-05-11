@@ -785,12 +785,25 @@ version; the v2 redesign will inherit it.*
       `/tag/<slug>/`. Today they're decorative spans. Pre-declare
       the hrefs so chips activate the instant Phase 2.2 ships
       tag pages. **S**
-- [ ] **B.9** Featured-posts mechanism. Add `featured: true`
-      frontmatter to the ~12 most historically important posts
-      (Dockstar gaming console, the 70-app GitHub release, Sith
-      Challenge announce, IM-ME, Tor-on-Z2, the books, Johnny
-      Castaway native port, TUI000, …). Home page surfaces them
-      in a "Featured" strip above the chronological list. **M**
+- [x] **B.9** Featured-posts mechanism. **M** ·
+      *Shipped 2026-05-10.* `featured: true` frontmatter added
+      to 11 historically important posts (the pre-existing
+      "My Story" already had it, totalling 12). The set was
+      sourced directly from Appendix A's dossier-confirmed
+      milestones so editorial selection traces to verified
+      third-party coverage: Zipit Z2 Tor+Privoxy origin,
+      IM-ME hack (Hackaday), Dockstar $25 console (Hackaday
+      + Engadget), Sith Lord 30-in-30 (HN), QuickGrapher
+      (HN front page), Source Tree Visualizer, 70-app GitHub
+      mass release (HN + Hackaday), quarter-million Play
+      Store downloads, Rhapsody + Ford SYNC (CES 2013),
+      TUI000 (terminal screensaver), Dunking Bird (current
+      project). `index.html` renders a `.featured` aside only
+      on `paginator.page == 1`, listing each featured post
+      with date. CSS adds a left-accent strip in the existing
+      #0B5485 palette. The user can add/remove entries by
+      flipping the `featured:` frontmatter field — the home
+      page picks up changes automatically.
 - [ ] **B.10** "Currently working on" panel above the home post
       list. One sentence + a link to the most recent project
       announcement post. Pulled from `_data/now.yml` (single-key
@@ -2160,3 +2173,16 @@ any public-facing milestone copy until a source is added.
   authored "My Story" label is preserved verbatim — not
   renamed to "About". Writing and Now stay deferred until
   those pages are built.
+- `2026-05-10` — **Phase B.9 shipped**: featured-posts
+  strip on the home page. 11 historically important posts
+  (sourced from Appendix A's dossier-confirmed milestones)
+  tagged `featured: true` — IM-ME hack, Dockstar console,
+  Sith Lord challenge, QuickGrapher, Source Tree Visualizer,
+  70-app GitHub release, quarter-million downloads, Rhapsody/
+  Ford CES, TUI000, Dunking Bird, plus the Zipit-Z2 Tor+
+  Privoxy origin. With pre-existing "My Story" already
+  featured, that's 12 total. Home page renders a `.featured`
+  aside above the chronological list, only on
+  `paginator.page == 1`. A reader's first impression of the
+  home now leads with the greatest-hits, not just the most
+  recent post.

@@ -2,6 +2,7 @@
 layout: post
 title: Source Tree Visualizer - Now Open Source
 date: '2012-01-23 03:28:05'
+featured: true
 ---
 
 

@@ -238,6 +238,45 @@ nav ul {
 		}
 	}
 
+.featured{
+	background: #fff;
+	padding: 1em 1.25em;
+	margin-bottom: 1.5em;
+	border-radius: $border-radius;
+	box-shadow: 0px 1px 2px #B1B1B1;
+	border-left: 4px solid #0B5485;
+
+	h2{
+		font-size: 1.1em;
+		margin: 0 0 0.5em;
+		color: #0B5485;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+	}
+	ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	li{
+		margin-bottom: 0.35em;
+		font-size: 0.95em;
+	}
+	a{
+		color: #0B5485;
+		text-decoration: none;
+
+		&:hover{
+			color: #149797;
+			text-decoration: underline;
+		}
+	}
+	.featured-date{
+		color: #888;
+		font-size: 0.85em;
+	}
+}
+
 .unit.posts, .posts{
 	padding: 0;
 	h2{

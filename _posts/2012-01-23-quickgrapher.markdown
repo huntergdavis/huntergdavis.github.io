@@ -3,6 +3,7 @@ layout: post
 title: What if HTML5 Equations and Graphs Were Completely Free and Disgustingly Easy?
   QuickGrapher.com is gone, Lives on as QuickGrapher - An Open Source HTM
 date: '2012-01-23 04:06:43'
+featured: true
 ---
 
 

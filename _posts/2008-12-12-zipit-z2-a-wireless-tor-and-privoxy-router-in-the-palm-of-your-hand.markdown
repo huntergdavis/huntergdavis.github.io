@@ -5,6 +5,7 @@ date: '2008-12-12 11:15:28'
 redirect_from:
   - /zipit-z2-a-wireless-tor-and-privoxy-router-in-the-palm-of-your-hand/
 project: zipit-z2
+featured: true
 ---
 
 

@@ -3,6 +3,7 @@ layout: post
 title: A Quarter of a Million Downloads - End of 2012 Metrics for Hunter Davis on
   the Google Play Store
 date: '2012-12-30 18:49:41'
+featured: true
 ---
 
 
