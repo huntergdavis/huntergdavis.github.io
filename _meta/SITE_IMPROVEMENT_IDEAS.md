@@ -1501,6 +1501,26 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **1.10** Add `loading="lazy"` + `decoding="async"` to post
+      body images. **S** · *Shipped 2026-05-11.* The home-card
+      images (`index.html`) and the post hero
+      (`_layouts/post.html` Phase 7.22) already had these
+      hints, but every `<img>` inside a post body —
+      whether kramdown-rendered from `![alt](url)` or written
+      as inline HTML — had neither attribute, forcing the
+      browser to eagerly load every screenshot on every post
+      regardless of whether the reader had scrolled past it.
+      Some review/announcement posts have a dozen+ images.
+      One-line `replace` filter on `{{ content }}` in
+      `_layouts/post.html` adds `loading="lazy"
+      decoding="async"` to every `<img>` it emits. Verified
+      zero pre-existing `loading=` attributes in any post
+      (sweep returned 0), so the prefixed-attribute approach
+      has no duplicate-attribute conflict risk. Modern
+      browsers automatically promote viewport-visible lazy
+      images to eager fetching, so above-the-fold post-body
+      images won't visibly delay; below-the-fold images will
+      defer until the reader scrolls toward them.
 - [x] **A.17** Switch `site.url` from www subdomain to apex.
       **M** · *Shipped 2026-05-11.* `_config.yml` declared
       `url: https://www.hunterdavis.com` but A.14's live audit
@@ -2520,6 +2540,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 1.10 shipped**: every `<img>` in
+  post body content now gets `loading="lazy" decoding="async"`
+  via a one-line Liquid `replace` in `_layouts/post.html`.
+  No author-attribute conflicts (zero pre-existing
+  `loading=` attrs in any post). Big perf win for the long
+  screenshot-heavy posts.
 - `2026-05-11` — **Phase A.17 shipped**: switched `site.url`
   from `https://www.hunterdavis.com` to `https://hunterdavis.com`
   to match the actual canonical apex serving target. Updated

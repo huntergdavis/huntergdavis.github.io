@@ -65,7 +65,7 @@ layout: default
 				<a class="tag-chip" href="/search.html?query={{ tag | url_encode }}">{{ tag }}</a>{% endif %}{% endfor %}
 			</div>
 		{% endif %}
-		{{ content }}
+		{{ content | replace: '<img ', '<img loading="lazy" decoding="async" ' }}
 		{% if page.cardsimulator == true %}
 		<div id="simulator"></div>
     	{% endif %}
