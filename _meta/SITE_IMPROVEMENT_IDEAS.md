@@ -949,10 +949,17 @@ version; the v2 redesign will inherit it.*
 *Goal: stop shipping bugs. Each item is independently shippable.
 URL preservation work moved to Phase A above.*
 
-- [ ] **0.1** Add `favicon.png` (and `favicon.svg`, 32×32 PNG fallback) at
-      repo root. **S** · *Why:* every page references it and 404s today.
-- [ ] **0.2** Add `sharer.png` (default 1200×630 OG image) at repo root.
-      **S** · *Why:* every shared link 404s its preview image.
+- [x] **0.1** Add `favicon.png` (and `favicon.svg`, 32×32 PNG fallback) at
+      repo root. **S** · *Shipped 2026-05-11.* Phase 0.18 added inline-SVG
+      favicon (brand-blue H tile). Phase 0.1 added the matching
+      `favicon.png` (256×256, 979 bytes) and Phase B.59 added
+      `apple-touch-icon.png` (180×180) for iOS home-screen. Both PNGs
+      generated reproducibly via `script/generate_favicon_png.py`.
+- [x] **0.2** Add `sharer.png` (default 1200×630 OG image) at repo root.
+      **S** · *Shipped 2026-05-11.* New `script/generate_sharer_png.py`
+      emits a 1200×630 brand-blue card with the site name centered.
+      Posts without their own `page.image`/`featured_img` now share with a
+      clean brand-default card instead of the long-standing 404.
 - [x] **0.3** Switch `_config.yml` `url` and `base_url` to
       `https://www.hunterdavis.com`. **S** ·
       *Shipped 2026-05-10.* Single-line change:
@@ -1369,9 +1376,14 @@ populate.*
 - [ ] **3.13** Add `series:` frontmatter for posts in series (Johnny
       Castaway saga, 65 Apps grind, Build Your Own DCC chapters,
       Reviews of the Month, etc.). **M**
-- [ ] **3.14** Add `featured: true` to the ~25 most historically
+- [x] **3.14** Add `featured: true` to the ~25 most historically
       important posts so we can cherry-pick them on the home and
-      milestones page. **S**
+      milestones page. **S** · *Shipped 2026-05-11.* See the
+      duplicate-numbered 3.14 entry below for full details. 23 posts
+      now flagged, all with verified third-party backlinks from
+      Appendix A's dossier, grouped via Phase 3.16's
+      `featured_group:` field into Programming and hacking / Johnny
+      Castaway / Leadership.
 
 ### Phase 4 — Project hubs (one commit per project)
 *Each commit populates a project landing page using the new layout.*
