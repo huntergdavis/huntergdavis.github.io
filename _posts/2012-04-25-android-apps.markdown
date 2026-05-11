@@ -9,11 +9,11 @@ I’ve written about 70 Android Apps and Games since getting started with the pl
 
 2017 Update - Here are a few that I've released:
 
-- [JSON Game List Viewer](http://www.hunterdavis.com:80/json-game-list-viewer/)
-- [JSON Resume Viewer](http://www.hunterdavis.com:80/resume-json-viewer-for-android/)
-- [AutoRoboIntercom](http://www.hunterdavis.com:80/autorobointercom/)
-- [Pop Them Balloons](http://www.hunterdavis.com:80/pop-them-balloons/)
-- [Easy Bluetooth Time](http://www.hunterdavis.com:80/easy-bluetooth-time/)
+- [JSON Game List Viewer](/json-game-list-viewer/)
+- [JSON Resume Viewer](/resume-json-viewer-for-android/)
+- [AutoRoboIntercom](/autorobointercom/)
+- [Pop Them Balloons](/pop-them-balloons/)
+- [Easy Bluetooth Time](/easy-bluetooth-time/)
 - [Document Creation and Information Management](/android-apps/document-creation-and-information-management/)- [Easy Inventory](/android-apps/document-creation-and-information-management/android-app-easy-inventory/)
 - [Easy Lorem Ipsum](/android-apps/document-creation-and-information-management/android-app-easy-lorem-ipsum/)
 - [Easy Mental Blocks](/android-apps/document-creation-and-information-management/android-app-easy-mental-blocks/)

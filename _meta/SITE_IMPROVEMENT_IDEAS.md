@@ -1501,6 +1501,22 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **7.26** Sweep markdown-link self-URLs to relative form.
+      **S** · *Shipped 2026-05-11.* Six markdown-link
+      anchors of the form
+      `[label](http://www.hunterdavis.com:80/<slug>/)`
+      remained in two posts (`2012-04-25-android-apps`,
+      `2013-08-03-resumes`) — relics of the WordPress era
+      where every internal link was a full absolute URL with
+      an explicit `:80` port. Rewritten to relative
+      `[label](/<slug>/)`, eliminating the http→https→www→apex
+      redirect chain when readers click these links. Bare URLs
+      embedded inside prose paragraphs (e.g.
+      `…my website http://www.hunterdavis.com…`) were
+      deliberately left alone — those are part of the
+      user-written sentences and would show different text
+      after rewriting. Same canonicalization-without-prose-
+      editing principle as Phase 7.11.
 - [x] **7.25** Sweep GitHub-raw image URLs in posts to relative
       paths. **S** · *Shipped 2026-05-11.* 18 posts had a
       total of **86** `featured_img:` / inline `<img>` /
@@ -2222,6 +2238,10 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.26 shipped**: rewrote 6 markdown-link
+  `[label](http://www.hunterdavis.com:80/<slug>/)` anchors in
+  two posts to relative form. Eliminates redirect chain on
+  click. Bare URLs in prose left untouched.
 - `2026-05-11` — **Phase 7.25 shipped**: rewrote 86
   GitHub-raw image refs across 18 posts (`featured_img:`,
   inline `<img>`, markdown `![]()`) from

@@ -15,5 +15,5 @@ Check out an ancient (2012?) interactive resume [here](/content/images/2017/othe
 
 [This site as well.](/)
 
-[Here's an android app to view JSON resumes, which I wrote to get potential employers to download my JSON resume](http://www.hunterdavis.com:80/resume-json-viewer-for-android/)
+[Here's an android app to view JSON resumes, which I wrote to get potential employers to download my JSON resume](/resume-json-viewer-for-android/)
 
