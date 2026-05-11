@@ -8,7 +8,7 @@ project: zipit-z2
 
 And not just HULU, anything that you can dynamically transcode and serve on the network, you can watch or listen to on the Z2. 30 rock on the Zipit Z2? Oh YES THANKS. Instructions after the jump.
 
-<object height="344" width="425"><param name="movie" value="http://www.youtube.com/v/yJzGlgaymZc&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed allowfullscreen="true" allowscriptaccess="always" height="344" src="http://www.youtube.com/v/yJzGlgaymZc&hl=en&fs=1" type="application/x-shockwave-flash" width="425"></embed></object>
+<iframe width="425" height="344" src="https://www.youtube-nocookie.com/embed/yJzGlgaymZc" frameborder="0" allowfullscreen></iframe>
 
 Though this has been possible from the first image posted, I only today finally sat down and set it all up. Essentially, you are going to transcode audio or video on the fly to the Z2 using a windows or linux computer.
 

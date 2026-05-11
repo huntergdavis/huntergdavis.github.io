@@ -8,7 +8,7 @@ date: '2009-10-03 11:10:34'
 
 Just a quick followup to the debian image video.
 
-<object height="344" width="425"><param name="movie" value="http://www.youtube.com/v/2re-2xClC0M&rel=0&color1=0xb1b1b1&color2=0xcfcfcf&feature=player_profilepage&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed allowfullscreen="true" allowscriptaccess="always" height="344" src="http://www.youtube.com/v/2re-2xClC0M&rel=0&color1=0xb1b1b1&color2=0xcfcfcf&feature=player_profilepage&fs=1" type="application/x-shockwave-flash" width="425"></embed></object>
+<iframe width="425" height="344" src="https://www.youtube-nocookie.com/embed/2re-2xClC0M" frameborder="0" allowfullscreen></iframe>
 
   
  Bomberclone is in the debian repository. It loads, but at 640×480. <del datetime="2009-10-04T07:23:53+00:00">You can change this in the source code and re-compile if you wish, however it’s still (mostly) playable at 640</del> Just edit .bomberclone.cfg and change the xres to 320 and yres to 240!! Works perfect and netplay! Wormux installs but fails to fully load at 640×480 as well. Haven’t looked into the source yet, probably have to replace the sdl-render options like with dosbox last year.  

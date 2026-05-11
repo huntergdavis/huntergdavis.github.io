@@ -1501,6 +1501,28 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **7.27** Upgrade legacy Flash YouTube `<object>` embeds.
+      **M** · *Shipped 2026-05-11.* Phase 7.12 had already
+      modernized 48 YouTube `<iframe>` embeds to
+      `youtube-nocookie.com`, but it didn't catch the older
+      `<object><param/><embed type="application/x-shockwave-flash"/></object>`
+      pattern used by 13 posts from 2007–2010. Flash has been
+      dead since 2020, so those embeds rendered as blank
+      space in every modern browser for the last 6 years.
+      One-shot Python sweep: matched each `<object>…</object>`
+      block, pulled the YouTube video ID out of the inner
+      `youtube.com/v/<ID>` URL, preserved the original
+      width/height, and rewrote the whole block to
+      `<iframe src="https://www.youtube-nocookie.com/embed/<ID>"
+      width=… height=… frameborder="0" allowfullscreen></iframe>`.
+      13 of 13 conversions clean; spot-checked three video
+      IDs (`Gza4nB5cCfg`, `uwxGQhtf4uU`, `fbJ6Qnbgw74`) and
+      all return 200 from YouTube today. The one remaining
+      Flash embed in the corpus is an old ustream.tv
+      livestream embed in about.md / my-story.md whose
+      `vid=17217400` video is genuinely gone with Ustream's
+      consumer-service shutdown — left as historical
+      artifact (renders to nothing, harms nothing).
 - [x] **B.29** Add OpenSearch description for browser
       auto-discovery. **S** · *Shipped 2026-05-11.* New
       `opensearch.xml` at the site root declares the search
@@ -2393,6 +2415,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.27 shipped**: rewrote 13 legacy Flash
+  YouTube `<object><embed>` blocks (2007–2010 posts) to modern
+  `<iframe src="youtube-nocookie.com/embed/...">`. Those videos
+  haven't rendered in any browser since Flash died in 2020;
+  now they play again. Three video IDs spot-checked 200.
 - `2026-05-11` — **Phase B.29 shipped**: added OpenSearch
   description (`/opensearch.xml`) plus `<link rel="search">` in
   `<head>` so Chrome/Edge/Firefox auto-discover the site search.

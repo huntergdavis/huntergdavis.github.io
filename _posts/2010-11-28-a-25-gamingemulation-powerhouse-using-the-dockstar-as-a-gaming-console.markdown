@@ -24,7 +24,7 @@ featured: true
 
 As most regular readers will probably know, I’ve got a thing for low powered devices. In my [daily work life](http://www.discursivelabs.com), I build clusters with them and write/run scientific computing and visualization software on them. At home though, I’ve got a thing for [game consoles](/archives/706), [emulation](/archives/253), and [USB](/archives/450). I’ve especially got a thing for getting people playing games or running consoles on unusual systems that they would have never thought to use. I think the [Zipit](/archives/category/zipit-hacking) and [IM-ME](http://hackaday.com/2009/11/30/pink-wireless-terminal-of-wonder/) communities are fairly well aware of this already. What amazed me though, is how few people I found seriously discussing the idea of using a pogoplug device as a game or emulation console. Allow me to get the conversation started with a bang.
 
-<object height="385" width="480"><param name="movie" value="http://www.youtube.com/v/hwVwFHDA5iE?fs=1&hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed allowfullscreen="true" allowscriptaccess="always" height="385" src="http://www.youtube.com/v/hwVwFHDA5iE?fs=1&hl=en_US" type="application/x-shockwave-flash" width="480"></embed></object>
+<iframe width="480" height="385" src="https://www.youtube-nocookie.com/embed/hwVwFHDA5iE" frameborder="0" allowfullscreen></iframe>
 
 For those with web ADHD:  
  tl;dr – Using a Dockstar and a DisplayLink adapter in tandem for gaming works incredibly well not just as an emulation console, but as a general purpose desktop as well, watch the video below for a multitude of console and PC gaming goodness. I show it running

@@ -18,7 +18,7 @@ And that’s about all you’ll need. Just open up your ~/.xscreensaver file and
 
 Here’s a youtube video of it in action.
 
-<object height="355" width="425"><param name="movie" value="http://www.youtube.com/v/46vB8-7PLLY&rel=1"></param><param name="wmode" value="transparent"></param><embed height="355" src="http://www.youtube.com/v/46vB8-7PLLY&rel=1" type="application/x-shockwave-flash" width="425" wmode="transparent"></embed></object>
+<iframe width="425" height="355" src="https://www.youtube-nocookie.com/embed/46vB8-7PLLY" frameborder="0" allowfullscreen></iframe>
 
 /H
 

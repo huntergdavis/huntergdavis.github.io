@@ -21,7 +21,7 @@ tags:
 
 After a particularly long (but rewarding) day of prototyping and contract hunting over at Discursive Labs, Mark and I weren’t quite ready to stop creating when the work day ended. Already having his trusty iron handy, and me with my parts (and [MY AXE](/archives/494)), we decided to unwind and relax by hacking something. Typical Wednesdays right? Anyway, after reading about how the PS3 homebrew scene is blowing up, we decided to see if we could build a PS3 jailbreak device with parts we had around our workbench. After finding an old ‘atari in a joystick’ TV game we had previously stuffed into a PS1 trackball, we had the spark of an idea. Read on for photos, video, a ridiculously scatterbrained photostream, and all around good times.
 
-<object height="344" width="425"><param name="movie" value="http://www.youtube.com/v/Gza4nB5cCfg?hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed allowfullscreen="true" allowscriptaccess="always" height="344" src="http://www.youtube.com/v/Gza4nB5cCfg?hl=en&fs=1" type="application/x-shockwave-flash" width="425"></embed></object>
+<iframe width="425" height="344" src="https://www.youtube-nocookie.com/embed/Gza4nB5cCfg" frameborder="0" allowfullscreen></iframe>
 
 If you’ll recall the ppc/vision work I was doing back in 07′, I have a thing for computer vision and integrated peripherals. Having picked up an Arduino (duemilanove) on Amazon during a prime free trial last year, and having a bucket of resistors and caps, leds diodes and webcam parts, Mark and I began work on the breakout board necessary to interface the duemilanove with the PS3.
 

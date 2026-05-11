@@ -8,7 +8,7 @@ date: '2009-10-04 17:24:27'
 
 So now that the Z2 is running debian and everything is working, it’s really easy to install new programs and emulators. They are even automatically added to the fluxbox right-click mouse menu. I haven’t changed or recompiled a single C file this time, this is fully “general public” ready! Here’s what I’ve been playing with this weekend.
 
-<object height="344" width="425"><param name="movie" value="http://www.youtube.com/v/CVMef5P02z8&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed allowfullscreen="true" allowscriptaccess="always" height="344" src="http://www.youtube.com/v/CVMef5P02z8&hl=en&fs=1" type="application/x-shockwave-flash" width="425"></embed></object>
+<iframe width="425" height="344" src="https://www.youtube-nocookie.com/embed/CVMef5P02z8" frameborder="0" allowfullscreen></iframe>
 
   
  Before we get to the fun stuff, let’s set up fluxbox to start (no more console login required)

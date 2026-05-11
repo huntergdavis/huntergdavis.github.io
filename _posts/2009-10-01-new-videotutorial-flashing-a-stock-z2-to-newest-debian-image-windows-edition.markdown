@@ -8,7 +8,7 @@ project: zipit-z2
 
 So you’ve only got a windows machine handy, and you want to flash your Z2 to the newest debian (apt-get! no more cross-compiling!) image with wireless? This video is for you. Full Text after the jump.
 
-<object height="344" width="425"><param name="movie" value="http://www.youtube.com/v/txUFH7uPh7A&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed allowfullscreen="true" allowscriptaccess="always" height="344" src="http://www.youtube.com/v/txUFH7uPh7A&hl=en&fs=1" type="application/x-shockwave-flash" width="425"></embed></object>
+<iframe width="425" height="344" src="https://www.youtube-nocookie.com/embed/txUFH7uPh7A" frameborder="0" allowfullscreen></iframe>
 
 You’ll need
 

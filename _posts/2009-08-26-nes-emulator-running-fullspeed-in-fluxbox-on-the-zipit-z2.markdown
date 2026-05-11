@@ -6,7 +6,7 @@ project: zipit-z2
 ---
 
 
-<object height="344" width="425"><param name="movie" value="http://www.youtube.com/v/uwxGQhtf4uU&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed allowfullscreen="true" allowscriptaccess="always" height="344" src="http://www.youtube.com/v/uwxGQhtf4uU&hl=en&fs=1" type="application/x-shockwave-flash" width="425"></embed></object>
+<iframe width="425" height="344" src="https://www.youtube-nocookie.com/embed/uwxGQhtf4uU" frameborder="0" allowfullscreen></iframe>
 
 Oh and Java is working now too. Lots of packages compiling now. Don’t try installing GDM, can get you into a nasty crash loop.
 

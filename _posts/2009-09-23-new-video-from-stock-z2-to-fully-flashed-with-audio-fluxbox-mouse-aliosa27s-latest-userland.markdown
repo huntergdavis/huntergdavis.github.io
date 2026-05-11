@@ -8,7 +8,7 @@ project: zipit-z2
 
 
 Here is a video Mark and I made of the complete flashing and installation process, and a tour of the new userland features.  
-<object height="344" width="425"><param name="movie" value="http://www.youtube.com/v/x_LrI2g2VT8&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed allowfullscreen="true" allowscriptaccess="always" height="344" src="http://www.youtube.com/v/x_LrI2g2VT8&hl=en&fs=1" type="application/x-shockwave-flash" width="425"></embed></object>  
+<iframe width="425" height="344" src="https://www.youtube-nocookie.com/embed/x_LrI2g2VT8" frameborder="0" allowfullscreen></iframe>  
   
  For those following along at home, the required setup artifacts are below. You will need
 
