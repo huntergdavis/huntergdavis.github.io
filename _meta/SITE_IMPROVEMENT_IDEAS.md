@@ -1468,6 +1468,23 @@ last commit in this phase swaps the default.*
       Validated as valid JSON. Pairs with 7.1's BlogPosting so
       search engines can resolve `BlogPosting.author.name` to a
       single Person entity with verified profile links.
+- [x] **7.17** Add JSON-LD `BreadcrumbList` schema to post
+      pages. **S** · *Shipped 2026-05-10.* New
+      `_includes/jsonld_breadcrumb_post.html` referenced from
+      `_layouts/post.html`. Emits a three-step trail
+      (Home → YYYY → post title), each with absolute URLs via
+      `absolute_url` and JSON-safe strings via `jsonify`. The
+      year step links to the real per-year archive page
+      shipped in Phase 2.5 (`/archive/YYYY/`), not a fragment
+      anchor — Google's BreadcrumbList spec wants real URLs
+      per step, so this only works *because* 2.5 landed first.
+      Visible breadcrumb in `_layouts/post.html` already uses
+      WAI-ARIA `<nav aria-label="Breadcrumb">` markup (B.7);
+      the JSON-LD mirrors that exact structure so eligible
+      results in Google SERP can render the crumb trail
+      directly under the title. Pairs with 7.1 (BlogPosting)
+      and 7.14 (Person) to give every post a complete schema
+      footprint with no prose involved.
 - [x] **7.15** Surface reading-time on home post-list cards too.
       **S** · *Shipped 2026-05-10.* Two-line addition to
       `index.html` reusing the existing `.reading-time` CSS
@@ -1852,6 +1869,14 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-10` — **Phase 7.17 shipped**: BreadcrumbList JSON-LD
+  on every post page. New `_includes/jsonld_breadcrumb_post.html`
+  emits a three-step `Home → YYYY → title` trail mirroring the
+  visible B.7 breadcrumb. The year step points at the real
+  per-year archive URL from Phase 2.5; the title step
+  references the canonical post URL. Validated JSON-safe via
+  `jsonify`. Burns down "schema support" project line: posts
+  now ship BlogPosting + BreadcrumbList; home ships Person.
 - `2026-05-10` — **Phase 2.5 shipped**: per-year archive pages.
   `script/generate_year_archives.py` emits 19 pages at
   `/archive/2007/`–`/archive/2026/` (2023 has no posts so it's

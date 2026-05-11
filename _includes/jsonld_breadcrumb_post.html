@@ -1,0 +1,27 @@
+{% assign bc_year = page.date | date: "%Y" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": {{ '/' | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ bc_year | jsonify }},
+      "item": {{ '/archive/' | append: bc_year | append: '/' | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.title | jsonify }},
+      "item": {{ page.url | absolute_url | jsonify }}
+    }
+  ]
+}
+</script>
