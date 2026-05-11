@@ -2,7 +2,7 @@
 layout: post
 title: Coaching Leaders During Covid
 date: '2022-01-10 12:00:24'
-featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/problemmountain.jpg'
+featured_img: '/content/images/2022/problemmountain.jpg'
 ---
 It's 2022. Strange as it is to write this, that means we've been living in a Covid-19 world for two years. For many of us that has meant a shift into remote work and remote leadership. Looking back on these past two years of fully remote leadership, I've observed that the stress of Covid-19 has only exacerbated the struggles that many new leaders go through. With that in mind, here are four struggles new leaders commonly face, and coaching lines I tend to employ for each.
 
@@ -20,7 +20,7 @@ Please note, as in all things I try to be empathetic and kind. I myself struggle
 
 <a id='badnews'>Delivering Difficult News</a>
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/badnews.jpeg" width="320">
+<img src="/content/images/2022/badnews.jpeg" width="320">
 
 Here's the scenario:
  
@@ -40,7 +40,7 @@ What I was really doing was building an environment of existential fear. How?  B
  
 <a id='formerpeers'>Loss of Peer Relationships</a>
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/oppseverywhere.jpg" width="320">
+<img src="/content/images/2022/oppseverywhere.jpg" width="320">
 
 Here's the scenario(s)  (this line of coaching is fairly universal):
  
@@ -71,7 +71,7 @@ Lead through your fundamentals. This is a kindness to those you support.
  
 <a id='trustjartruth'>Assignment of Undesired Tasks</a>
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/trustjar.jpg" width="320">
+<img src="/content/images/2022/trustjar.jpg" width="320">
 
 Here's the scenario:
  
@@ -91,7 +91,7 @@ The thing is, that's only half the story. If you never have to ask for trust, if
  
 <a id='opportunityleadership'>Meeting Team Commitments while Growing a Team</a>
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2022/problemmountain.jpg" width="320">
+<img src="/content/images/2022/problemmountain.jpg" width="320">
 
 Here's the scenario:
  

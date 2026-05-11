@@ -2,16 +2,16 @@
 layout: post
 title: Johnny Castaway Native Live CD 
 date: '2021-03-10 08:33:24'
-featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/vbox_johnny.png'
+featured_img: '/content/images/2021/vbox_johnny.png'
 project: johnny-castaway
 ---
 Once again, I am reminded of how much the past influences our future, and the choices we make.  In my case, it's a twisty tale that starts simply enough, but ends with Johnny Castaway running natively from a ramdisk on systems with as little as 64mb.  Interested?  Read on.  Want to download it for yourself right now?  Skip to the end!
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/vbox_johnny.png" width="640">
+<img src="/content/images/2021/vbox_johnny.png" width="640">
 
  
 
-[And here's a nice video from VirtualBox :)](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/64mb_ram_vm_boot.webm)
+[And here's a nice video from VirtualBox :)](/content/images/2021/64mb_ram_vm_boot.webm)
 
 
 This story starts with wonderful news, one of the talented developers working to re-implement Johnny Castaway has done so in a languge I quite enjoy (ansi c), and quite successfully.  When I stumbled upon the newest code for 'Johnny Reborn' (https://github.com/jno6809/jc_reborn), written by the talented Jérémie GUILLAUME, a few things stood out to me:
@@ -65,7 +65,7 @@ Anyway, back to the live CD, I was looking to boot with a dynamically linked SDL
 
 And that's about it!  You can download a live ISO that'll boot to ram from any supported medium (17 megabytes or above, sorry floppy friends!)  [here](https://github.com/huntergdavis/jc_reborn/blob/SDL1.2/johnny_dc.iso)  A giant thanks to [Jérémie GUILLAUME](https://github.com/jno6809) for re-implementing Johnny in a clean, portable format that really made my day!! 
 
-[Here's a video of that very ISO booting from a burnt-CD (remember those!) on my beloved 2001 era Thinkpad (256mb RAM)](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/thinkpad_johnny_960.webm)
+[Here's a video of that very ISO booting from a burnt-CD (remember those!) on my beloved 2001 era Thinkpad (256mb RAM)](/content/images/2021/thinkpad_johnny_960.webm)
 
 
 

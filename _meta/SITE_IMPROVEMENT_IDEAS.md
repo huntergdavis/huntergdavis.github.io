@@ -1501,6 +1501,24 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **7.25** Sweep GitHub-raw image URLs in posts to relative
+      paths. **S** · *Shipped 2026-05-11.* 18 posts had a
+      total of **86** `featured_img:` / inline `<img>` /
+      markdown `![]()` references pointing at
+      `https://github.com/huntergdavis/huntergdavis.github.io/raw/(master|main)/…`
+      — fetching the same files the Jekyll site already
+      publishes, through a *two-hop* redirect chain
+      (github.com → raw.githubusercontent.com → file). Some
+      URLs still said `raw/master/` from the pre-rename
+      branch name, kept alive only by GitHub's legacy-branch
+      redirect. Rewrote all 86 to local relative paths
+      (`/content/images/…` and `/img/…`) so the browser
+      fetches direct from the same origin: no DNS to
+      `github.com`, no redirect, no cross-origin caching
+      quirks, and immune to future branch-rename or repo-name
+      changes. Spot-verified three of the rewritten paths
+      return HTTP 200 direct on the live site. Same
+      canonicalization spirit as B.3 and B.21.
 - [x] **B.22** Self-sufficient search form on `/search.html`.
       **S** · *Shipped 2026-05-11.* The search results page
       previously had two sort buttons and an empty results
@@ -2204,6 +2222,13 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.25 shipped**: rewrote 86
+  GitHub-raw image refs across 18 posts (`featured_img:`,
+  inline `<img>`, markdown `![]()`) from
+  `github.com/.../raw/(master|main)/…` to local relative
+  paths. Removes a two-hop redirect chain on every load,
+  fixes the silent `master` branch-name rot, and pulls all
+  images same-origin.
 - `2026-05-11` — **Phase B.22 shipped**: self-sufficient search
   form on `/search.html`. Added a real `<form>` with autofocused
   search input plus URLSearchParams pre-fill. The page now stands

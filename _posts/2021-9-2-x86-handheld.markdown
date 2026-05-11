@@ -2,7 +2,7 @@
 layout: post
 title: The Steamin' Deck, A Low-End X86 Handheld 
 date: '2021-09-02 08:33:24'
-featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablepsychonauts.png'
+featured_img: '/content/images/2021/portablepsychonauts.png'
 ---
 
 Y'all probably know, I love games.  I'm also way into handheld gaming, portable consoles, processors, embedded systems and retro gaming in a major way.  I pick up every cheap chinese handheld I can find, love my switch, and am just a major portable and retro gaming enthusiast.  So you can imagine my excitement when the Steam deck was announced.  Of course I preordered, hell I've bought everything GPD has ever released.  
@@ -13,7 +13,7 @@ However, it got me thinking.  That thinking turned to pondering, and stewing.  M
 
 <iframe width="900" height="600" src="https://www.youtube-nocookie.com/embed/2uorZ2MeuFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablepsychonauts.png" width="500">
+<img src="/content/images/2021/portablepsychonauts.png" width="500">
 
 See, here's the thing. For the past decade or so, if I pick up a cheap chinese handheld (think 20-60$, my sweet spot), I know what I'm getting.  A dual or quad core processor, probably right around a gigahertz, running an ARM or MIPS instruction set.  Somewhere between 128 and 1gb of ram. an SD Card for storage.  A low-resolution screen.  You've seen these devices, hell they are my bread and butter for fun porting projects.  These are the anerbics, the gpis, the compute module handhelds.  They are varied and sip battery power oh so slowly.  And they top out at emulating consoles from the 90s. (And some GBA, which in my mind is really a 90s console that released in the 2000s.)
 
@@ -23,11 +23,11 @@ The problem is emulation overhead.  We can emulate a PS1 on these low-end chipse
 
 It doesn't have to be though!  A one gigahertz processor, a gig of ram, if we were running these games directly instead of emulating the original hardware, that would be more than enough!  Indeed, in the following article I show that it is, and there are a great number of PS2-era PC games I show running in full speed.  You might just be surprised how powerful 1ghz really is.  Interested?  Read on!  
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/simpsons.png" width="640">
+<img src="/content/images/2021/simpsons.png" width="640">
 
 I set about to put together an X86 handheld.  A really shitty one, the lowest end hardware I could find.  I figured if I can show these games running on the lowest spec chip available, that'll really prove the point.  I made some mistakes and bad assumptions along the way, while also learning a ton and even challenging some of my own assumptions. 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/serioussam.png" width="640">
+<img src="/content/images/2021/serioussam.png" width="640">
 
 *The section wherein I spec the hardware.*
 
@@ -68,7 +68,7 @@ There are scenarios where having a swap file helps, but that's mostly because of
 
 That said, the real solution here is quite simple.  DON'T USE STEAM.  
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portalneedssteam.jpg" width="640">
+<img src="/content/images/2021/portalneedssteam.jpg" width="640">
 
 Don't get me wrong, I love Steam.  LOVE IT.  I've been on the platform since half life 2 launch day, average about 200 purchases per year since launch, I'm invested in the platform.  Steam however, is not good for a 1gb system.  The webviews are slow, large libraries will take forever to load, and even with 'low bandwidth' and 'low performance' mode turned on, your experience will be poor. Also you won't have enough ram leftover to run most games. 
 
@@ -78,7 +78,7 @@ I'm a big fan of GOG.  They are invested in preserving classic games, and they r
 
 I've also recently found out about [Lutris](https://lutris.net/), a community-driven interface for installing windows games within linux via wine.  It automates most of the process, keeps a low memory profile, and the resultant installs are portable across installs (helpful if you're re-installing different versions of linux on the daily, as I was for this article.)
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/lutris.jpg" width="640">
+<img src="/content/images/2021/lutris.jpg" width="640">
 
 After trying a great number of combinations of linux distros and window managers, here's how I ended up setting up my linux partitions and install.
 - No Swap whatsoever.  
@@ -92,7 +92,7 @@ I went with [Bhodhi Linux](https://www.bodhilinux.com/), for the following reaso
 - enlightenment window manager, no screen tearing, low resource usage
 - debian based, easy to install Lutris from PPE and steam from .deb package
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/linux.jpg" width="640">
+<img src="/content/images/2021/linux.jpg" width="640">
 
 So, at this point we have our Linux base system.  You can do a few things from here. 
 - I tend to immediately install vim (I'm spoiled, sorry vi)
@@ -129,11 +129,11 @@ The best part of this project has been getting to actually play all of my favori
 - Freddy Pharkas Fontier Pharmacist (bonus, not really a tough game to run)
 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/fallout2.png" width="640">
+<img src="/content/images/2021/fallout2.png" width="640">
 
 A word about Psychonauts 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/psychonauts.png" width="640">
+<img src="/content/images/2021/psychonauts.png" width="640">
 
 You knew this was going to be top of mind this week!  I've been mightly impressed with Psychonauts 2, and it's got me wanting to dive back into the original.  When I found out the Steam version was (1: linux native) and (2: DRM free), it warranted a special mention. 
 
@@ -149,7 +149,7 @@ Here's a video I put together, using a direct HDMI capture from the compute stic
 
 OK, so I've shown that this chipset is capable of running games that are a generational leap over other low-end handhelds. How cheaply can we put one together ourselves?
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/sandsoftime.png" width="640">
+<img src="/content/images/2021/sandsoftime.png" width="640">
 
 Parts list:
 - Intel 8gb/1gb compute stick.  eBay - 30$
@@ -168,32 +168,32 @@ With that said, I set about to put together an alpha version of the Steamin Deck
 
 First, how to connect a controller?  I have a few clips around, I'll sacrifice one for this project.  A little bit of dremel work later, and we've got a controller clip that'll slide right under the hdmi port.
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminwithcontroller.jpg" width="1000">
+<img src="/content/images/2021/steaminwithcontroller.jpg" width="1000">
 
 As always, there's quite a bit of leftovers once things are assembled. 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/leftovers.jpg" width="1000">
+<img src="/content/images/2021/leftovers.jpg" width="1000">
 
 From there, I start to assemble the rest of the parts.  First, I use a u-bend hdmi connector so the compute stick is parallel to the screen.  A rubber bumper keeps it from bending too far. 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminback.jpg" width="1000">
+<img src="/content/images/2021/steaminback.jpg" width="1000">
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminside.jpg" width="1000">
+<img src="/content/images/2021/steaminside.jpg" width="1000">
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminbacktop.jpg" width="1000">
+<img src="/content/images/2021/steaminbacktop.jpg" width="1000">
 
 This seemed precarious, and likely to snap off, so I added a metal bracket to relieve some of the pressure on the controller clip
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminsupportbracket.jpg" width="1000">
+<img src="/content/images/2021/steaminsupportbracket.jpg" width="1000">
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steaminbackbracket.jpg" width="1000">
+<img src="/content/images/2021/steaminbackbracket.jpg" width="1000">
 
 From here, it's straightforward.  Boot into Linux and load some games! 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/steamingrub.jpg" width="1000">
+<img src="/content/images/2021/steamingrub.jpg" width="1000">
 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/portablesimpsons.png" width="500">
+<img src="/content/images/2021/portablesimpsons.png" width="500">
 
 
 Here's a video of Psychonauts "on the go!" 
