@@ -413,6 +413,14 @@ nav ul {
 	transition: all 0.2s;
 	border: 1px solid transparent;
 
+	img{
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0.5em auto;
+		border-radius: 3px;
+	}
+
 	.description{
 		margin: 0px;
 		padding: 0.5em 0em;
