@@ -1501,9 +1501,26 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
-- [ ] **7.3** Compute related-posts at build using
-      `_plugins/related_posts.rb` (shared tags + same family +
-      chronological neighbours). **M**
+- [x] **7.3** Compute related-posts at build. **M** ·
+      *Shipped 2026-05-11.* New `script/generate_related.py`
+      pre-computes related-by-tag links per post and writes
+      them to `_data/related.yml`. Algorithm: tag-set
+      intersection size as the score, recency as tiebreaker,
+      top 5 per post, drop posts with zero overlap. (The
+      original ticket mentioned a `_plugins/related_posts.rb`
+      Ruby generator — switched to Python pre-build because
+      GitHub Pages disallows custom plugins; same pattern as
+      2.2 and 2.5.) `_layouts/post.html` reads
+      `site.data.related[page.url]` and renders a third
+      `<aside class="related-posts">` (after the same-project
+      and same-year asides) — no Liquid loop over the whole
+      corpus, just a direct data lookup. CSS rule extended
+      to share the existing `.same-year`/`.same-project`
+      treatment for visual consistency. Snapshot: 507 posts
+      indexed; 106 (21%) have at least one related match
+      today — coverage will scale up dramatically once the
+      Phase 3 tag-backfill batches land (currently only
+      ~84 tags appear on 2+ posts).
 - [ ] **7.4** Build `/now/` page from `_data/now.yml`. **S**
 - [ ] **7.5** Build `/uses/` page from `_data/uses.yml`. **S**
 - [ ] **7.6** Build `/milestones/` timeline page from
@@ -2119,6 +2136,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.3 shipped**: related-posts at build.
+  `script/generate_related.py` emits `_data/related.yml` keyed
+  by post URL; `_layouts/post.html` renders a "Related by tag"
+  aside via direct data lookup. 106 of 507 posts have a match
+  today; coverage scales with Phase 3 tag backfill.
 - `2026-05-11` — **Phase B.3 shipped**: sidebar entry audit + URL
   cleanup. All 8 entries verified LIVE against A.14 results; no
   pruning needed. Side-swept all URLs from `http://www.…` to

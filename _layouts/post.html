@@ -91,6 +91,13 @@ layout: default
 </aside>
 {% endif %}
 {% endif %}
+{% assign related = site.data.related[page.url] %}
+{% if related and related.size > 0 %}
+<aside class="related-posts" aria-label="Related posts by tag">
+	<h3>Related by tag</h3>
+	<ul>{% for r in related %}<li><a href="{{ r.url }}">{{ r.title | escape }}</a></li>{% endfor %}</ul>
+</aside>
+{% endif %}
 {% assign current_year = page.date | date: "%Y" %}
 {% capture same_year_html %}{% assign shown = 0 %}{% for p in site.posts %}{% if p.url == page.url %}{% continue %}{% endif %}{% assign py = p.date | date: "%Y" %}{% if py == current_year %}<li><a href="{{ p.url }}">{{ p.title | escape }}</a></li>{% assign shown = shown | plus: 1 %}{% if shown >= 5 %}{% break %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
 {% if same_year_html contains "<li>" %}

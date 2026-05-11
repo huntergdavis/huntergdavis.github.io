@@ -1,0 +1,1512 @@
+# Auto-generated related-post map.
+# Key: canonical post URL.  Value: ordered list of up to 5
+# {url, title} dicts, scored by tag-set intersection (recency as
+# tiebreaker).  Posts with zero tag-overlap to every other post
+# get an empty list and the post-page aside is suppressed.
+#
+# Regenerate:
+#   python3 script/generate_related.py
+
+"/2007/12/19/about.html": []
+"/2007/12/19/building-a-completely-automated-websshvnc-controlled-home-automation-server-from-a-clamshell-ibook-with-a-faulty-cd-drive-and-10-worth-of-electronics.html": []
+"/2007/12/19/building-the-perfect-batch-file-processor-for-converting-videos-with-vlc-for-xbox-360-playback.html": []
+"/2007/12/19/csserver-adventure.html": []
+"/2007/12/19/home-automation-gmail-in-ubuntu.html": []
+"/2007/12/19/installing-scilab-and-the-scilab-image-and-video-processing-toolbox-in-ubuntu-linux.html": []
+"/2007/12/19/picasa-web-album-living-in-la.html": []
+"/2007/12/19/ping-rebooter.html": []
+"/2007/12/19/re-writing-the-laser-pointer-paint-program-image-processing-in-cc-10x-speed-improvement.html": []
+"/2007/12/19/shell-script-to-monitor-pid-cpu-usage-over-time.html": []
+"/2007/12/19/ssrss-super-simple-rss-2.html": []
+"/2007/12/19/ssrss-super-simple-rss.html":
+  - url: "/2010/05/29/hackaway-2010-is-over-a-massive-success.html"
+    title: "Hackaway 2010 is Over!  A Massive Success!"
+"/2007/12/19/title-bar-scroller-read-books-on-any-application-window-title-and-so-much-more.html": []
+"/2007/12/19/title-bar-scroller-source-code.html": []
+"/2007/12/19/using-scilab-video-processing-toolbox-and-a-laser-pointer-to-paint-a-scene-in-realtime.html": []
+"/2007/12/28/casey-on-youtube.html": []
+"/2007/12/30/easy-execution-library-c-class-library-for-spawning-processes.html": []
+"/2008/01/11/snesaver-zsnes-screen-saver-for-linux.html": []
+"/2008/04/21/title-bar-scroller.html": []
+"/2008/04/22/super-simple-rss-ssrss.html": []
+"/2008/06/10/half-a-line-of-shell-to-display-to-screen-while-compressing-output-the-most-useful-shell-ive-written-in-forever.html": []
+"/2008/07/14/food-and-diet-management-for-the-unix-geek-a-python-script.html": []
+"/2008/07/24/i-have-cured-my-own-sleep-paralysis-and-you-can-too.html": []
+"/2008/10/14/the-live-for-free-philosophy-httpliveforfreenet.html": []
+"/2008/11/17/halloween-2008-king-me.html": []
+"/2008/11/25/calorie-counter-for-game-boy-advanceds.html": []
+"/2008/12/12/zipit-z2-a-wireless-tor-and-privoxy-router-in-the-palm-of-your-hand.html": []
+"/2008/12/13/dosbox-for-zipit-z2.html":
+  - url: "/2010/05/30/hackaway-2010-winners-announced.html"
+    title: "Hackaway 2010 Winners Announced!"
+  - url: "/2009/06/20/zipit-z2-new-kernel-update.html"
+    title: "Zipit Z2 New Kernel Update!"
+"/2008/12/15/dont-panic-the-real-hitchhikers-guide-is-here-today.html": []
+"/2009/02/17/save-game-saver-2-backup-and-retrieve-your-save-games-from-gmail.html": []
+"/2009/03/20/my-new-wallclock-at-work.html": []
+"/2009/04/21/wallclock-20.html":
+  - url: "/2010/05/29/hackaway-2010-is-over-a-massive-success.html"
+    title: "Hackaway 2010 is Over!  A Massive Success!"
+"/2009/06/20/zipit-z2-new-kernel-update.html":
+  - url: "/2010/05/30/hackaway-2010-winners-announced.html"
+    title: "Hackaway 2010 Winners Announced!"
+  - url: "/2008/12/13/dosbox-for-zipit-z2.html"
+    title: "Dosbox for Zipit Z2!"
+"/2009/08/13/wallclock-3-0-200x-microscope-edition.html": []
+"/2009/08/16/scummvm-and-monkey-island-working-on-zipit-z2.html": []
+"/2009/08/19/wallclock-4-0-portable-project-natal.html": []
+"/2009/08/21/wirelessx-image-for-zipit-z2.html": []
+"/2009/08/22/huge-update-fluxbox-wm-and-full-windowed-multitasking-working-on-the-zipit-z2.html": []
+"/2009/08/26/nes-emulator-running-fullspeed-in-fluxbox-on-the-zipit-z2.html": []
+"/2009/09/06/100-64-bit-3ghz-ppc-cross-compiler-for-the-z2-installing-ps3-linux-and-cross-compiling-env-from-thumbdrive.html": []
+"/2009/09/09/finally-posted-my-up-to-date-z2-root-fs-todds-battlevel-ipkg-and-keymap-working-in-x.html": []
+"/2009/09/11/save-game-saver-backup-and-retrieve-your-save-games-from-gmail.html": []
+"/2009/09/20/aliosa27s-new-z2-image-with-x-audio-and-keymouse.html": []
+"/2009/09/23/new-video-from-stock-z2-to-fully-flashed-with-audio-fluxbox-mouse-aliosa27s-latest-userland.html": []
+"/2009/09/28/new-video-hulu-on-the-zipit-z2.html": []
+"/2009/10/01/new-videotutorial-flashing-a-stock-z2-to-newest-debian-image-windows-edition.html": []
+"/2009/10/03/z2-quickie-video-followup-debian-bomberclone-running-with-sound-sdl-etc-on-the-z2.html": []
+"/2009/10/04/z2-gaming-and-system-update-gba-gbgbc-scummvm-sam-and-max-full-talkie-auto-login-to-fluxbox-on-boot.html": []
+"/2009/10/10/hacking-the-trivial-pursuit-digial-choice-edition-pt-1.html": []
+"/2009/10/17/openmsx-on-the-z2-100-perfect.html": []
+"/2009/10/28/new-publication.html": []
+"/2009/11/15/hacking-the-girltech-im-me-usb-wireless-device.html": []
+"/2009/12/02/hackaway-2009-the-great-hack-giveaway-has-begun.html": []
+"/2009/12/04/hackaway-2009-is-over-thanks-everyone.html": []
+"/2009/12/04/hackaway-2009-winners-announced.html": []
+"/2009/12/20/17-mobile-java-gaming-console-plus-sample-code-and-application-to-get-you-started.html": []
+"/2009/12/24/npower-fusion-breakdown-tutorial-and-chipset-info.html": []
+"/2010/01/25/great-new-z2-userland-from-rootnexus.html": []
+"/2010/02/01/im-me-linux-drivers-beta-release-and-sourceforge-page.html": []
+"/2010/02/13/75-20-watt-blue-ray-player-with-video-and-kill-a-watt-goodness.html": []
+"/2010/02/14/leapfrog-crammer-10-ogg-vorbismp3-etc-with-disassembly.html":
+  - url: "/2010/05/29/hackaway-2010-is-over-a-massive-success.html"
+    title: "Hackaway 2010 is Over!  A Massive Success!"
+"/2010/02/21/site-upgrades.html": []
+"/2010/03/24/great-pen-testing-zipit-distribution-from-adrian-crenshaw-irongeek-com.html":
+  - url: "/2010/04/18/roll-your-own-google-cloud-print-today-using-your-zipit-z2-or-anything-that-can-run-python-in-5-minutes.html"
+    title: "Roll your own Google Cloud Print, Today, Using Your Zipit Z2 (or anything that can run python), in 5 Minutes"
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+  - url: "/2010/08/23/rexvm-a-virtualbox-appliance-for-developing-for-the-rex-6000.html"
+    title: "rexVM - A virtualBox Appliance for Developing for The REX 6000"
+  - url: "/2010/05/22/hackaway-2010-announced.html"
+    title: "Hackaway 2010 Announced!"
+"/2010/03/29/finished-building-my-first-guitar.html":
+  - url: "/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html"
+    title: "Jailbreaking a PS3 with Trackball Style (With Video)"
+  - url: "/2017/04/13/my-story.html"
+    title: "My Story"
+  - url: "/2011/10/21/a-cure-for-dandruff-that-will-save-you-money.html"
+    title: "A Cure for Dandruff That Will Save You Money"
+  - url: "/2011/06/04/android-apps-easy-inventory.html"
+    title: "Android Apps - Easy Inventory"
+  - url: "/2011/05/06/build-your-own-hide-a-tablet-book.html"
+    title: "Build Your Own Hide-A-Tablet Book"
+"/2010/04/11/the-littlest-famicom.html":
+  - url: "/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html"
+    title: "Jailbreaking a PS3 with Trackball Style (With Video)"
+  - url: "/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html"
+    title: "Distributed Java, Fortran, and ARM to X86 Cross Compilation"
+  - url: "/2010/12/06/using-the-arm-based-pogoplug-as-an-x86-64-compilation-cluster-an-article-series.html"
+    title: "Using the ARM Based PogoPlug as an X86-64 Compilation Cluster - An Article Series"
+  - url: "/2010/11/08/how-i-saved-for-my-startup-free-e-book-released.html"
+    title: "How I Saved For My Startup - Free E-book Released"
+  - url: "/2011/12/04/rks-christmas-quiz.html"
+    title: "RK's Christmas Quiz"
+"/2010/04/18/roll-your-own-google-cloud-print-today-using-your-zipit-z2-or-anything-that-can-run-python-in-5-minutes.html":
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+  - url: "/2010/08/23/rexvm-a-virtualbox-appliance-for-developing-for-the-rex-6000.html"
+    title: "rexVM - A virtualBox Appliance for Developing for The REX 6000"
+  - url: "/2010/03/24/great-pen-testing-zipit-distribution-from-adrian-crenshaw-irongeek-com.html"
+    title: "Great Pen Testing Zipit Distribution from Adrian Crenshaw (irongeek.com)"
+  - url: "/2011/12/04/rks-christmas-quiz.html"
+    title: "RK's Christmas Quiz"
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+"/2010/04/20/a-quick-tuesday-prediction.html":
+  - url: "/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html"
+    title: "Jailbreaking a PS3 with Trackball Style (With Video)"
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2011/03/06/secure-ssh-terminal-in-your-steam-overlay.html"
+    title: "Secure SSH Terminal in your Steam Overlay"
+  - url: "/2010/08/23/rexvm-a-virtualbox-appliance-for-developing-for-the-rex-6000.html"
+    title: "rexVM - A virtualBox Appliance for Developing for The REX 6000"
+  - url: "/2010/05/29/hackaway-2010-is-over-a-massive-success.html"
+    title: "Hackaway 2010 is Over!  A Massive Success!"
+"/2010/05/10/90s-tech-to-the-rescue-network-monitor.html":
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+  - url: "/2010/08/23/rexvm-a-virtualbox-appliance-for-developing-for-the-rex-6000.html"
+    title: "rexVM - A virtualBox Appliance for Developing for The REX 6000"
+  - url: "/2010/05/22/hackaway-2010-announced.html"
+    title: "Hackaway 2010 Announced!"
+  - url: "/2010/04/18/roll-your-own-google-cloud-print-today-using-your-zipit-z2-or-anything-that-can-run-python-in-5-minutes.html"
+    title: "Roll your own Google Cloud Print, Today, Using Your Zipit Z2 (or anything that can run python), in 5 Minutes"
+"/2010/05/22/hackaway-2010-announced.html":
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+  - url: "/2010/08/23/rexvm-a-virtualbox-appliance-for-developing-for-the-rex-6000.html"
+    title: "rexVM - A virtualBox Appliance for Developing for The REX 6000"
+  - url: "/2010/05/30/hackaway-2010-winners-announced.html"
+    title: "Hackaway 2010 Winners Announced!"
+  - url: "/2010/05/29/hackaway-2010-is-over-a-massive-success.html"
+    title: "Hackaway 2010 is Over!  A Massive Success!"
+"/2010/05/22/new-ubuntu-z2-userland-from-mozzwald.html":
+  - url: "/2010/04/18/roll-your-own-google-cloud-print-today-using-your-zipit-z2-or-anything-that-can-run-python-in-5-minutes.html"
+    title: "Roll your own Google Cloud Print, Today, Using Your Zipit Z2 (or anything that can run python), in 5 Minutes"
+  - url: "/2011/12/04/rks-christmas-quiz.html"
+    title: "RK's Christmas Quiz"
+  - url: "/2010/08/23/rexvm-a-virtualbox-appliance-for-developing-for-the-rex-6000.html"
+    title: "rexVM - A virtualBox Appliance for Developing for The REX 6000"
+  - url: "/2010/03/24/great-pen-testing-zipit-distribution-from-adrian-crenshaw-irongeek-com.html"
+    title: "Great Pen Testing Zipit Distribution from Adrian Crenshaw (irongeek.com)"
+"/2010/05/29/hackaway-2010-is-over-a-massive-success.html":
+  - url: "/2010/11/08/source-tree-visualizer-beta-2-media-update-with-images-and-video.html"
+    title: "Source Tree Visualizer Beta 2 Media Update with Images and Video"
+  - url: "/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html"
+    title: "Jailbreaking a PS3 with Trackball Style (With Video)"
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2011/06/04/android-apps-easy-inventory.html"
+    title: "Android Apps - Easy Inventory"
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+"/2010/05/30/hackaway-2010-winners-announced.html":
+  - url: "/2010/05/29/hackaway-2010-is-over-a-massive-success.html"
+    title: "Hackaway 2010 is Over!  A Massive Success!"
+  - url: "/2010/05/22/hackaway-2010-announced.html"
+    title: "Hackaway 2010 Announced!"
+  - url: "/2009/06/20/zipit-z2-new-kernel-update.html"
+    title: "Zipit Z2 New Kernel Update!"
+  - url: "/2008/12/13/dosbox-for-zipit-z2.html"
+    title: "Dosbox for Zipit Z2!"
+"/2010/08/23/rexvm-a-virtualbox-appliance-for-developing-for-the-rex-6000.html":
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+  - url: "/2010/04/18/roll-your-own-google-cloud-print-today-using-your-zipit-z2-or-anything-that-can-run-python-in-5-minutes.html"
+    title: "Roll your own Google Cloud Print, Today, Using Your Zipit Z2 (or anything that can run python), in 5 Minutes"
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html"
+    title: "Distributed Java, Fortran, and ARM to X86 Cross Compilation"
+  - url: "/2011/01/10/writing-your-own-distributed-compilation-system.html"
+    title: "Writing Your Own Distributed Compilation System"
+"/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html":
+  - url: "/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html"
+    title: "Distributed Java, Fortran, and ARM to X86 Cross Compilation"
+  - url: "/2011/01/10/writing-your-own-distributed-compilation-system.html"
+    title: "Writing Your Own Distributed Compilation System"
+  - url: "/2010/12/06/using-the-arm-based-pogoplug-as-an-x86-64-compilation-cluster-an-article-series.html"
+    title: "Using the ARM Based PogoPlug as an X86-64 Compilation Cluster - An Article Series"
+  - url: "/2010/04/18/roll-your-own-google-cloud-print-today-using-your-zipit-z2-or-anything-that-can-run-python-in-5-minutes.html"
+    title: "Roll your own Google Cloud Print, Today, Using Your Zipit Z2 (or anything that can run python), in 5 Minutes"
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+"/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html":
+  - url: "/2010/04/11/the-littlest-famicom.html"
+    title: "The littlest famicom"
+  - url: "/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html"
+    title: "Distributed Java, Fortran, and ARM to X86 Cross Compilation"
+  - url: "/2010/05/29/hackaway-2010-is-over-a-massive-success.html"
+    title: "Hackaway 2010 is Over!  A Massive Success!"
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2011/04/24/quick-and-dirty-tablet-dock.html"
+    title: "Quick and Dirty Tablet Dock"
+"/2010/11/08/how-i-saved-for-my-startup-free-e-book-released.html":
+  - url: "/2011/03/09/build-your-own-distributed-cluster-now-available-to-purchase-online.html"
+    title: "Build Your Own Distributed Cluster Now Available to Purchase Online"
+  - url: "/2011/03/09/live-for-free-now-available-to-purchase-online.html"
+    title: "Live For Free Now Available To Purchase Online"
+  - url: "/2010/08/23/rexvm-a-virtualbox-appliance-for-developing-for-the-rex-6000.html"
+    title: "rexVM - A virtualBox Appliance for Developing for The REX 6000"
+  - url: "/2010/04/11/the-littlest-famicom.html"
+    title: "The littlest famicom"
+  - url: "/2011/12/04/rks-christmas-quiz.html"
+    title: "RK's Christmas Quiz"
+"/2010/11/08/live-for-free-ebook.html": []
+"/2010/11/08/source-tree-visualizer-beta-2-media-update-with-images-and-video.html":
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+  - url: "/2010/05/29/hackaway-2010-is-over-a-massive-success.html"
+    title: "Hackaway 2010 is Over!  A Massive Success!"
+  - url: "/2011/06/04/android-apps-easy-inventory.html"
+    title: "Android Apps - Easy Inventory"
+  - url: "/2011/01/10/writing-your-own-distributed-compilation-system.html"
+    title: "Writing Your Own Distributed Compilation System"
+  - url: "/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html"
+    title: "Jailbreaking a PS3 with Trackball Style (With Video)"
+"/2010/11/18/preview-sliders-beta-and-upcoming-beta-opportunities.html":
+  - url: "/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html"
+    title: "Distributed Java, Fortran, and ARM to X86 Cross Compilation"
+  - url: "/2011/01/10/writing-your-own-distributed-compilation-system.html"
+    title: "Writing Your Own Distributed Compilation System"
+  - url: "/2010/12/06/using-the-arm-based-pogoplug-as-an-x86-64-compilation-cluster-an-article-series.html"
+    title: "Using the ARM Based PogoPlug as an X86-64 Compilation Cluster - An Article Series"
+  - url: "/2010/11/08/source-tree-visualizer-beta-2-media-update-with-images-and-video.html"
+    title: "Source Tree Visualizer Beta 2 Media Update with Images and Video"
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+"/2010/11/28/a-25-gamingemulation-powerhouse-using-the-dockstar-as-a-gaming-console.html":
+  - url: "/2011/01/10/writing-your-own-distributed-compilation-system.html"
+    title: "Writing Your Own Distributed Compilation System"
+  - url: "/2012/01/09/retrode_preorder_glory.html"
+    title: "Using an Original SNES Controller and Cartridge with your PC, PS3, or Dockstar (Retrode Pre-Order glory)"
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2011/03/21/xbslink-on-arm-linux-get-your-ps3-back-online-using-only-4-watts.html"
+    title: "XBSLink on (ARM) Linux - Get Your PS3 Back Online Using Only 4 Watts"
+  - url: "/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html"
+    title: "Distributed Java, Fortran, and ARM to X86 Cross Compilation"
+"/2010/12/06/using-the-arm-based-pogoplug-as-an-x86-64-compilation-cluster-an-article-series.html":
+  - url: "/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html"
+    title: "Distributed Java, Fortran, and ARM to X86 Cross Compilation"
+  - url: "/2011/01/10/writing-your-own-distributed-compilation-system.html"
+    title: "Writing Your Own Distributed Compilation System"
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2011/03/21/xbslink-on-arm-linux-get-your-ps3-back-online-using-only-4-watts.html"
+    title: "XBSLink on (ARM) Linux - Get Your PS3 Back Online Using Only 4 Watts"
+"/2011/01/10/writing-your-own-distributed-compilation-system.html":
+  - url: "/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html"
+    title: "Distributed Java, Fortran, and ARM to X86 Cross Compilation"
+  - url: "/2010/12/06/using-the-arm-based-pogoplug-as-an-x86-64-compilation-cluster-an-article-series.html"
+    title: "Using the ARM Based PogoPlug as an X86-64 Compilation Cluster - An Article Series"
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+  - url: "/2010/11/28/a-25-gamingemulation-powerhouse-using-the-dockstar-as-a-gaming-console.html"
+    title: "A 25$ Gaming/Emulation Powerhouse - Using the Dockstar as a Gaming Console"
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+"/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html":
+  - url: "/2011/01/10/writing-your-own-distributed-compilation-system.html"
+    title: "Writing Your Own Distributed Compilation System"
+  - url: "/2010/12/06/using-the-arm-based-pogoplug-as-an-x86-64-compilation-cluster-an-article-series.html"
+    title: "Using the ARM Based PogoPlug as an X86-64 Compilation Cluster - An Article Series"
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+  - url: "/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html"
+    title: "Jailbreaking a PS3 with Trackball Style (With Video)"
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+"/2011/02/21/a-programmers-desktop-background.html": []
+"/2011/02/28/a-programmers-window-manger-testing-the-notion-window-manager.html":
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2017/11/25/ti99fun.html"
+    title: "TI-99/4A Tis Fun/4All"
+  - url: "/2011/04/24/quick-and-dirty-tablet-dock.html"
+    title: "Quick and Dirty Tablet Dock"
+  - url: "/2011/03/21/xbslink-on-arm-linux-get-your-ps3-back-online-using-only-4-watts.html"
+    title: "XBSLink on (ARM) Linux - Get Your PS3 Back Online Using Only 4 Watts"
+  - url: "/2011/03/06/secure-ssh-terminal-in-your-steam-overlay.html"
+    title: "Secure SSH Terminal in your Steam Overlay"
+"/2011/03/04/can-pixel-qi-technology-change-your-life.html": []
+"/2011/03/06/secure-ssh-terminal-in-your-steam-overlay.html":
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2011/08/01/the-grind-magic-and-post-apocalypse-pack-is-live.html"
+    title: "The Grind - Magic and Post-Apocalypse Pack is Live!"
+  - url: "/2011/07/27/63-android-game-the-grind.html"
+    title: "#63 - Android Game - The Grind"
+  - url: "/2011/07/25/61-android-game-custom-action-tap.html"
+    title: "#61 - Android Game - Custom Action Tap"
+  - url: "/2011/07/18/56-android-game-skillful-lines.html"
+    title: "#56 - Android Game - Skillful Lines"
+"/2011/03/09/build-your-own-distributed-cluster-now-available-to-purchase-online.html":
+  - url: "/2011/03/09/live-for-free-now-available-to-purchase-online.html"
+    title: "Live For Free Now Available To Purchase Online"
+  - url: "/2010/11/08/how-i-saved-for-my-startup-free-e-book-released.html"
+    title: "How I Saved For My Startup - Free E-book Released"
+  - url: "/2011/07/28/ebooks-update-now-available-in-more-stores-and-countries.html"
+    title: "eBooks Update - Now Available In More Stores And Countries!"
+"/2011/03/09/build-your-own-distributed-compilation-cluster-ebook.html": []
+"/2011/03/09/live-for-free-now-available-to-purchase-online.html":
+  - url: "/2011/03/09/build-your-own-distributed-cluster-now-available-to-purchase-online.html"
+    title: "Build Your Own Distributed Cluster Now Available to Purchase Online"
+  - url: "/2010/11/08/how-i-saved-for-my-startup-free-e-book-released.html"
+    title: "How I Saved For My Startup - Free E-book Released"
+  - url: "/2011/07/28/ebooks-update-now-available-in-more-stores-and-countries.html"
+    title: "eBooks Update - Now Available In More Stores And Countries!"
+"/2011/03/14/ebook-hacks-from-hunter-davis.html": []
+"/2011/03/14/hacks-now-available-to-purchase-online.html": []
+"/2011/03/19/pixel-qi-netbook-with-14-hr-battery-life-on-sale-today-on-my-ebay-page.html": []
+"/2011/03/21/xbslink-on-arm-linux-get-your-ps3-back-online-using-only-4-watts.html":
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html"
+    title: "Distributed Java, Fortran, and ARM to X86 Cross Compilation"
+  - url: "/2011/01/10/writing-your-own-distributed-compilation-system.html"
+    title: "Writing Your Own Distributed Compilation System"
+  - url: "/2010/12/06/using-the-arm-based-pogoplug-as-an-x86-64-compilation-cluster-an-article-series.html"
+    title: "Using the ARM Based PogoPlug as an X86-64 Compilation Cluster - An Article Series"
+  - url: "/2010/11/28/a-25-gamingemulation-powerhouse-using-the-dockstar-as-a-gaming-console.html"
+    title: "A 25$ Gaming/Emulation Powerhouse - Using the Dockstar as a Gaming Console"
+"/2011/04/24/quick-and-dirty-tablet-dock.html":
+  - url: "/2011/05/06/build-your-own-hide-a-tablet-book.html"
+    title: "Build Your Own Hide-A-Tablet Book"
+  - url: "/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html"
+    title: "Distributed Java, Fortran, and ARM to X86 Cross Compilation"
+  - url: "/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html"
+    title: "Jailbreaking a PS3 with Trackball Style (With Video)"
+  - url: "/2015/11/27/tutorial-using-sourcegraph-in-your-android-github-flow.html"
+    title: "(Tutorial) Using Sourcegraph In Your Android GitHub Flow"
+  - url: "/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html"
+    title: "Android App - AR Wiki (Augmented Reality Wikipedia)"
+"/2011/05/04/no-solder-no-tools-no-trouble-usb-wii-sensor-bar-conversion.html":
+  - url: "/2017/11/25/ti99fun.html"
+    title: "TI-99/4A Tis Fun/4All"
+  - url: "/2012/02/28/debug-logs-as-python-programs.html"
+    title: "Debug Logs as Python Programs"
+  - url: "/2012/01/30/now-is-the-time-to-buy-a-first-generation-e-reader.html"
+    title: "Now is the Time to Buy a First Generation E-Reader"
+  - url: "/2012/01/09/retrode_preorder_glory.html"
+    title: "Using an Original SNES Controller and Cartridge with your PC, PS3, or Dockstar (Retrode Pre-Order glory)"
+  - url: "/2011/08/18/easter-eggs.html"
+    title: "Easter Eggs!"
+"/2011/05/06/build-your-own-hide-a-tablet-book.html":
+  - url: "/2011/04/24/quick-and-dirty-tablet-dock.html"
+    title: "Quick and Dirty Tablet Dock"
+  - url: "/2015/11/27/tutorial-using-sourcegraph-in-your-android-github-flow.html"
+    title: "(Tutorial) Using Sourcegraph In Your Android GitHub Flow"
+  - url: "/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html"
+    title: "Android App - AR Wiki (Augmented Reality Wikipedia)"
+  - url: "/2011/08/07/the-grind-expansion-pack-2-easy-mode-is-live.html"
+    title: "The Grind Expansion Pack 2 - Easy Mode is live!"
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+"/2011/06/04/android-app-easy-inventory.html": []
+"/2011/06/04/android-apps-easy-inventory.html":
+  - url: "/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html"
+    title: "Android App - AR Wiki (Augmented Reality Wikipedia)"
+  - url: "/2011/10/14/easy-inventory-now-open-source-on-sourceforge.html"
+    title: "Easy Inventory - Now Open Source on Sourceforge!"
+  - url: "/2011/08/07/the-grind-expansion-pack-2-easy-mode-is-live.html"
+    title: "The Grind Expansion Pack 2 - Easy Mode is live!"
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+"/2011/06/06/android-app-easy-hash-compare.html":
+  - url: "/2011/06/20/android-app-update-easy-md5-is-now-version-2.html"
+    title: "Android App Update - Easy MD5 is now version 2"
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+  - url: "/2011/07/15/android-app-55-easy-file-encrypt.html"
+    title: "Android App #55 - Easy File Encrypt"
+"/2011/06/06/android-app-easy-hash-compare2.html": []
+"/2011/06/06/android-app-easy-image-shrink.html":
+  - url: "/2011/07/11/android-app-easy-black-and-white.html"
+    title: "Android App - Easy Black and White"
+  - url: "/2011/06/23/android-app-easy-image-morph.html"
+    title: "Android App - Easy Image Morph"
+  - url: "/2011/06/07/android-app-easy-symmetry-check.html"
+    title: "Android App - Easy Symmetry Check"
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+"/2011/06/06/android-app-easy-image-shrink2.html": []
+"/2011/06/06/android-app-easy-md5.html": []
+"/2011/06/06/android-app-easy-md52.html": []
+"/2011/06/07/android-app-easy-symmetry-check.html":
+  - url: "/2011/07/11/android-app-easy-black-and-white.html"
+    title: "Android App - Easy Black and White"
+  - url: "/2011/06/23/android-app-easy-image-morph.html"
+    title: "Android App - Easy Image Morph"
+  - url: "/2011/06/06/android-app-easy-image-shrink.html"
+    title: "Android App - Easy Image Shrink"
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+"/2011/06/07/android-app-easy-symmetry-check2.html": []
+"/2011/06/08/android-app-easy-graph-paper.html":
+  - url: "/2011/06/09/android-app-easy-side-by-side.html"
+    title: "Android App - Easy Side By Side"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-black-and-white.html"
+    title: "Android App - Easy Black and White"
+  - url: "/2011/06/08/android-app-easy-static.html"
+    title: "Android App - Easy Static"
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+"/2011/06/08/android-app-easy-graph-paper2.html": []
+"/2011/06/08/android-app-easy-image-negative.html": []
+"/2011/06/08/android-app-easy-image-negative2.html": []
+"/2011/06/08/android-app-easy-random-numbers.html":
+  - url: "/2011/07/29/65-android-app-super-whistle.html"
+    title: "#65 - Android App - Super Whistle"
+  - url: "/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html"
+    title: "Android App - AR Wiki (Augmented Reality Wikipedia)"
+  - url: "/2011/10/14/easy-inventory-now-open-source-on-sourceforge.html"
+    title: "Easy Inventory - Now Open Source on Sourceforge!"
+  - url: "/2011/08/07/the-grind-expansion-pack-2-easy-mode-is-live.html"
+    title: "The Grind Expansion Pack 2 - Easy Mode is live!"
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+"/2011/06/08/android-app-easy-random-numbers2.html": []
+"/2011/06/08/android-app-easy-static.html":
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-black-and-white.html"
+    title: "Android App - Easy Black and White"
+  - url: "/2011/07/15/android-app-55-easy-file-encrypt.html"
+    title: "Android App #55 - Easy File Encrypt"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+"/2011/06/08/android-app-easy-static2.html": []
+"/2011/06/09/android-app-easy-side-by-side.html":
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/06/08/android-app-easy-graph-paper.html"
+    title: "Android App - Easy Graph Paper"
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+"/2011/06/09/android-app-easy-side-by-side2.html": []
+"/2011/06/10/android-app-easy-decoder-ring.html": []
+"/2011/06/10/android-app-easy-decoder-ring2.html": []
+"/2011/06/10/android-app-easy-hidden-notepad.html":
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+  - url: "/2011/07/15/android-app-55-easy-file-encrypt.html"
+    title: "Android App #55 - Easy File Encrypt"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+"/2011/06/10/android-app-easy-hidden-notepad2.html": []
+"/2011/06/10/android-app-easy-wake-on-lan-manager.html": []
+"/2011/06/10/android-app-easy-wake-on-lan-manager2.html": []
+"/2011/06/13/android-app-easy-sound-board.html":
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+"/2011/06/13/android-app-easy-sound-board2.html": []
+"/2011/06/14/android-app-easy-audio-flash-cards.html":
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+"/2011/06/14/android-app-easy-audio-flash-cards2.html": []
+"/2011/06/15/android-app-easy-hearing-age-test.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/06/15/android-app-easy-hearing-age-test2.html": []
+"/2011/06/15/android-app-easy-tone-dialer.html":
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+"/2011/06/15/android-app-easy-tone-dialer2.html": []
+"/2011/06/16/android-app-easy-cat-whistle.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/06/16/android-app-easy-cat-whistle2.html": []
+"/2011/06/16/android-app-easy-color-wizard.html": []
+"/2011/06/16/android-app-easy-color-wizard2.html":
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+"/2011/06/16/android-app-easy-dog-whistle.html": []
+"/2011/06/16/android-app-easy-dog-whistle2.html": []
+"/2011/06/16/android-app-easy-positive-audio.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/06/16/android-app-easy-positive-audio2.html": []
+"/2011/06/16/android-app-easy-positive-feedback.html": []
+"/2011/06/16/android-app-easy-positive-feedback2.html":
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+"/2011/06/17/android-app-easy-pest-control.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/06/17/android-app-easy-pest-control2.html": []
+"/2011/06/18/android-app-easy-mental-blocks.html":
+  - url: "/2011/06/28/easy-mental-blocks-is-now-version-1-3.html"
+    title: "Easy Mental Blocks is Now Version 1.3"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+"/2011/06/18/android-app-easy-mental-blocks2.html": []
+"/2011/06/20/android-app-easy-file-split-and-join.html": []
+"/2011/06/20/android-app-easy-split-and-join.html": []
+"/2011/06/20/android-app-update-easy-md5-is-now-version-2.html":
+  - url: "/2011/06/20/android-app-update-easy-md5-is-now-version-3.html"
+    title: "Android App Update - Easy MD5 is now version 3"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+"/2011/06/20/android-app-update-easy-md5-is-now-version-3.html":
+  - url: "/2011/06/20/android-app-update-easy-md5-is-now-version-2.html"
+    title: "Android App Update - Easy MD5 is now version 2"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+"/2011/06/21/android-app-easy-fractal.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/06/21/android-app-easy-fractal2.html": []
+"/2011/06/22/android-app-easy-timed-reboot.html": []
+"/2011/06/22/android-app-easy-timed-reboot2.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/06/23/android-app-easy-image-morph.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-black-and-white.html"
+    title: "Android App - Easy Black and White"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+"/2011/06/23/android-app-easy-image-morph2.html": []
+"/2011/06/24/android-app-easy-kitty-censor.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/06/24/android-app-easy-kitty-censor2.html": []
+"/2011/06/27/android-app-easy-multi-counter.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/06/27/android-app-easy-multi-counter2.html": []
+"/2011/06/27/so-thats-30-am-i-a-software-jedi-now-maybe-a-software-sith-lord.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/06/28/android-app-easy-encrypted-journal.html":
+  - url: "/2011/07/15/android-app-55-easy-file-encrypt.html"
+    title: "Android App #55 - Easy File Encrypt"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+"/2011/06/28/android-app-easy-encrypted-journal2.html": []
+"/2011/06/28/easy-mental-blocks-is-now-version-1-3.html":
+  - url: "/2011/06/18/android-app-easy-mental-blocks.html"
+    title: "Android App - Easy Mental Blocks"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+"/2011/06/29/android-app-easy-lorem-ipsum.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/06/29/android-app-easy-lorem-ipsum2.html": []
+"/2011/06/30/android-app-easy-ambient-lighting.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-easy-sheep-whistle.html"
+    title: "Android App - Easy Sheep Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+"/2011/06/30/android-app-easy-ambient-lighting2.html": []
+"/2011/06/30/android-app-easy-text-prompter.html":
+  - url: "/2011/06/29/android-app-easy-lorem-ipsum.html"
+    title: "Android App - Easy Lorem Ipsum"
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+"/2011/06/30/android-app-easy-text-prompter2.html": []
+"/2011/07/01/android-app-easy-packet-blast.html":
+  - url: "/2011/07/15/android-app-55-easy-file-encrypt.html"
+    title: "Android App #55 - Easy File Encrypt"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-black-and-white.html"
+    title: "Android App - Easy Black and White"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+"/2011/07/01/android-app-easy-packet-blast2.html": []
+"/2011/07/05/android-app-easy-ferret-and-chinchilla-whistle.html": []
+"/2011/07/05/android-app-easy-fish-and-snake-whistle.html": []
+"/2011/07/05/android-app-easy-hamster-and-gerbil-whistle.html": []
+"/2011/07/05/android-app-easy-mouse-and-rat-whistle.html": []
+"/2011/07/05/android-app-easy-rabbit-and-hedgehog-whistle.html": []
+"/2011/07/05/android-app-easy-reptile-whistle.html": []
+"/2011/07/05/android-apps-easy-whistles-wrap-up.html":
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-easy-sheep-whistle.html"
+    title: "Android App - Easy Sheep Whistle"
+"/2011/07/06/android-app-easy-ratings.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/07/06/android-app-easy-ratings2.html": []
+"/2011/07/07/android-app-easy-image-splice.html":
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/11/android-app-easy-black-and-white.html"
+    title: "Android App - Easy Black and White"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+"/2011/07/07/android-app-easy-image-splice2.html": []
+"/2011/07/08/android-app-easy-unit-conversion.html":
+  - url: "/2011/07/15/android-app-55-easy-file-encrypt.html"
+    title: "Android App #55 - Easy File Encrypt"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-black-and-white.html"
+    title: "Android App - Easy Black and White"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+"/2011/07/08/android-app-easy-unit-conversion2.html": []
+"/2011/07/11/android-app-easy-bat-whistle.html": []
+"/2011/07/11/android-app-easy-black-and-white.html":
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+  - url: "/2011/06/23/android-app-easy-image-morph.html"
+    title: "Android App - Easy Image Morph"
+  - url: "/2011/06/08/android-app-easy-static.html"
+    title: "Android App - Easy Static"
+  - url: "/2011/07/15/android-app-55-easy-file-encrypt.html"
+    title: "Android App #55 - Easy File Encrypt"
+"/2011/07/11/android-app-easy-black-and-white2.html": []
+"/2011/07/11/android-app-easy-cow-and-chicken-whistle.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-sheep-whistle.html"
+    title: "Android App - Easy Sheep Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/07/11/android-app-easy-cow-and-chicken-whistle2.html": []
+"/2011/07/11/android-app-easy-frog-and-owl-whistle.html": []
+"/2011/07/11/android-app-easy-horse-and-donkey-whistle.html": []
+"/2011/07/11/android-app-easy-raccoon-and-opossum-whistle.html": []
+"/2011/07/11/android-app-easy-sheep-whistle.html":
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/07/11/android-app-easy-sheep-whistle2.html": []
+"/2011/07/11/android-app-easy-whale-and-porpoise-whistle.html": []
+"/2011/07/11/android-app-more-whistles-roundup.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+  - url: "/2011/07/06/android-app-easy-ratings.html"
+    title: "Android App - Easy Ratings"
+"/2011/07/13/android-app-53-easy-image-stamp.html":
+  - url: "/2011/07/11/android-app-easy-black-and-white.html"
+    title: "Android App - Easy Black and White"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+"/2011/07/13/android-app-easy-image-stamp.html": []
+"/2011/07/14/android-app-54-easy-file-scramble.html":
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+  - url: "/2011/07/06/android-app-easy-ratings.html"
+    title: "Android App - Easy Ratings"
+"/2011/07/14/android-app-easy-file-scramble.html": []
+"/2011/07/15/android-app-55-easy-file-encrypt.html":
+  - url: "/2011/06/28/android-app-easy-encrypted-journal.html"
+    title: "Android App - Easy Encrypted Journal"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-black-and-white.html"
+    title: "Android App - Easy Black and White"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+"/2011/07/15/android-app-easy-file-encrypt.html": []
+"/2011/07/18/56-android-game-skillful-lines.html":
+  - url: "/2011/07/26/62-android-game-skillful-dodge.html"
+    title: "#62 - Android Game - Skillful Dodge"
+  - url: "/2011/07/19/57-android-game-skillful-surround.html"
+    title: "#57 - Android Game - Skillful Surround"
+  - url: "/2011/08/01/the-grind-magic-and-post-apocalypse-pack-is-live.html"
+    title: "The Grind - Magic and Post-Apocalypse Pack is Live!"
+  - url: "/2011/07/20/58-android-game-custom-pong.html"
+    title: "#58 - Android Game - Custom Pong"
+  - url: "/2011/07/27/63-android-game-the-grind.html"
+    title: "#63 - Android Game - The Grind"
+"/2011/07/18/android-game-skillful-lines.html": []
+"/2011/07/19/57-android-game-skillful-surround.html":
+  - url: "/2011/07/18/56-android-game-skillful-lines.html"
+    title: "#56 - Android Game - Skillful Lines"
+  - url: "/2011/07/26/62-android-game-skillful-dodge.html"
+    title: "#62 - Android Game - Skillful Dodge"
+  - url: "/2011/07/20/58-android-game-custom-pong.html"
+    title: "#58 - Android Game - Custom Pong"
+  - url: "/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html"
+    title: "Android App - AR Wiki (Augmented Reality Wikipedia)"
+  - url: "/2011/08/07/the-grind-expansion-pack-2-easy-mode-is-live.html"
+    title: "The Grind Expansion Pack 2 - Easy Mode is live!"
+"/2011/07/19/android-game-skillful-surround.html": []
+"/2011/07/19/new-video-time-lapse-of-android-game-development.html": []
+"/2011/07/20/58-android-game-custom-pong.html":
+  - url: "/2011/07/26/62-android-game-skillful-dodge.html"
+    title: "#62 - Android Game - Skillful Dodge"
+  - url: "/2011/07/19/57-android-game-skillful-surround.html"
+    title: "#57 - Android Game - Skillful Surround"
+  - url: "/2011/07/18/56-android-game-skillful-lines.html"
+    title: "#56 - Android Game - Skillful Lines"
+  - url: "/2011/07/25/61-android-game-custom-action-tap.html"
+    title: "#61 - Android Game - Custom Action Tap"
+  - url: "/2011/07/15/android-app-55-easy-file-encrypt.html"
+    title: "Android App #55 - Easy File Encrypt"
+"/2011/07/20/android-game-custom-pong.html": []
+"/2011/07/20/book-prices-rise-at-midnight.html": []
+"/2011/07/21/59-android-game-custom-comets.html":
+  - url: "/2011/07/26/62-android-game-skillful-dodge.html"
+    title: "#62 - Android Game - Skillful Dodge"
+  - url: "/2011/07/18/56-android-game-skillful-lines.html"
+    title: "#56 - Android Game - Skillful Lines"
+  - url: "/2011/07/20/58-android-game-custom-pong.html"
+    title: "#58 - Android Game - Custom Pong"
+  - url: "/2011/07/19/57-android-game-skillful-surround.html"
+    title: "#57 - Android Game - Skillful Surround"
+  - url: "/2011/08/04/step-by-step-how-to-publish-and-profit-from-your-android-application.html"
+    title: "Step-by-Step How to Publish and Profit from your Android Application"
+"/2011/07/21/android-game-custom-comets.html": []
+"/2011/07/22/60-android-game-custom-onslaught.html": []
+"/2011/07/22/android-game-custom-onslaught.html": []
+"/2011/07/25/61-android-game-custom-action-tap.html":
+  - url: "/2011/08/01/the-grind-magic-and-post-apocalypse-pack-is-live.html"
+    title: "The Grind - Magic and Post-Apocalypse Pack is Live!"
+  - url: "/2011/07/26/62-android-game-skillful-dodge.html"
+    title: "#62 - Android Game - Skillful Dodge"
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+  - url: "/2011/07/27/63-android-game-the-grind.html"
+    title: "#63 - Android Game - The Grind"
+  - url: "/2011/07/20/58-android-game-custom-pong.html"
+    title: "#58 - Android Game - Custom Pong"
+"/2011/07/25/android-game-custom-action-tap.html": []
+"/2011/07/26/62-android-game-skillful-dodge.html":
+  - url: "/2011/07/18/56-android-game-skillful-lines.html"
+    title: "#56 - Android Game - Skillful Lines"
+  - url: "/2011/07/25/61-android-game-custom-action-tap.html"
+    title: "#61 - Android Game - Custom Action Tap"
+  - url: "/2011/07/20/58-android-game-custom-pong.html"
+    title: "#58 - Android Game - Custom Pong"
+  - url: "/2011/07/19/57-android-game-skillful-surround.html"
+    title: "#57 - Android Game - Skillful Surround"
+  - url: "/2011/08/01/the-grind-magic-and-post-apocalypse-pack-is-live.html"
+    title: "The Grind - Magic and Post-Apocalypse Pack is Live!"
+"/2011/07/26/android-game-skillful-dodge.html": []
+"/2011/07/27/63-android-game-the-grind.html":
+  - url: "/2011/08/07/the-grind-expansion-pack-2-easy-mode-is-live.html"
+    title: "The Grind Expansion Pack 2 - Easy Mode is live!"
+  - url: "/2011/08/01/the-grind-magic-and-post-apocalypse-pack-is-live.html"
+    title: "The Grind - Magic and Post-Apocalypse Pack is Live!"
+  - url: "/2011/07/25/61-android-game-custom-action-tap.html"
+    title: "#61 - Android Game - Custom Action Tap"
+  - url: "/2011/07/18/56-android-game-skillful-lines.html"
+    title: "#56 - Android Game - Skillful Lines"
+  - url: "/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html"
+    title: "Android App - AR Wiki (Augmented Reality Wikipedia)"
+"/2011/07/27/android-game-the-grind.html": []
+"/2011/07/28/64-android-app-sober-secrets.html":
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+"/2011/07/28/android-app-sober-secrets.html": []
+"/2011/07/28/ebooks-update-now-available-in-more-stores-and-countries.html":
+  - url: "/2017/04/13/my-story.html"
+    title: "My Story"
+  - url: "/2012/02/28/debug-logs-as-python-programs.html"
+    title: "Debug Logs as Python Programs"
+  - url: "/2012/01/30/now-is-the-time-to-buy-a-first-generation-e-reader.html"
+    title: "Now is the Time to Buy a First Generation E-Reader"
+  - url: "/2011/08/18/easter-eggs.html"
+    title: "Easter Eggs!"
+  - url: "/2011/07/29/my-books-75-off-this-week-for-smashwords-summer-sale.html"
+    title: "My Books 75% off this week for Smashwords Summer Sale!"
+"/2011/07/29/65-android-app-super-whistle.html":
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-easy-sheep-whistle.html"
+    title: "Android App - Easy Sheep Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/06/29/android-app-easy-lorem-ipsum.html"
+    title: "Android App - Easy Lorem Ipsum"
+  - url: "/2011/06/08/android-app-easy-random-numbers.html"
+    title: "Android App - Easy Random Numbers"
+"/2011/07/29/android-app-super-whistle.html": []
+"/2011/07/29/my-books-75-off-this-week-for-smashwords-summer-sale.html":
+  - url: "/2012/01/30/now-is-the-time-to-buy-a-first-generation-e-reader.html"
+    title: "Now is the Time to Buy a First Generation E-Reader"
+  - url: "/2011/07/28/ebooks-update-now-available-in-more-stores-and-countries.html"
+    title: "eBooks Update - Now Available In More Stores And Countries!"
+  - url: "/2011/04/24/quick-and-dirty-tablet-dock.html"
+    title: "Quick and Dirty Tablet Dock"
+  - url: "/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html"
+    title: "Distributed Java, Fortran, and ARM to X86 Cross Compilation"
+  - url: "/2010/12/06/using-the-arm-based-pogoplug-as-an-x86-64-compilation-cluster-an-article-series.html"
+    title: "Using the ARM Based PogoPlug as an X86-64 Compilation Cluster - An Article Series"
+"/2011/08/01/android-updates-and-i-claim-the-crown.html":
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+"/2011/08/01/the-grind-magic-and-post-apocalypse-pack-is-live.html":
+  - url: "/2011/07/27/63-android-game-the-grind.html"
+    title: "#63 - Android Game - The Grind"
+  - url: "/2011/08/07/the-grind-expansion-pack-2-easy-mode-is-live.html"
+    title: "The Grind Expansion Pack 2 - Easy Mode is live!"
+  - url: "/2011/07/25/61-android-game-custom-action-tap.html"
+    title: "#61 - Android Game - Custom Action Tap"
+  - url: "/2011/07/18/56-android-game-skillful-lines.html"
+    title: "#56 - Android Game - Skillful Lines"
+  - url: "/2011/07/26/62-android-game-skillful-dodge.html"
+    title: "#62 - Android Game - Skillful Dodge"
+"/2011/08/02/splitting-it-down-the-middle-book-prices-at-4-99-starting-midnight-august-2nd.html": []
+"/2011/08/03/android-app-updates.html":
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+"/2011/08/04/step-by-step-how-to-publish-and-profit-from-your-android-application.html":
+  - url: "/2011/07/14/android-app-54-easy-file-scramble.html"
+    title: "Android App #54 - Easy File Scramble"
+  - url: "/2011/07/13/android-app-53-easy-image-stamp.html"
+    title: "Android App #53- Easy Image Stamp"
+  - url: "/2011/07/11/android-app-easy-cow-and-chicken-whistle.html"
+    title: "Android App - Easy Cow and Chicken Whistle"
+  - url: "/2011/07/11/android-app-more-whistles-roundup.html"
+    title: "Android App - More Whistles Roundup"
+  - url: "/2011/07/07/android-app-easy-image-splice.html"
+    title: "Android App - Easy Image Splice"
+"/2011/08/04/the-retrode2-console-needs-you-contest.html": []
+"/2011/08/07/the-grind-expansion-pack-2-easy-mode-is-live.html":
+  - url: "/2011/07/27/63-android-game-the-grind.html"
+    title: "#63 - Android Game - The Grind"
+  - url: "/2011/08/01/the-grind-magic-and-post-apocalypse-pack-is-live.html"
+    title: "The Grind - Magic and Post-Apocalypse Pack is Live!"
+  - url: "/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html"
+    title: "Android App - AR Wiki (Augmented Reality Wikipedia)"
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+  - url: "/2011/07/19/57-android-game-skillful-surround.html"
+    title: "#57 - Android Game - Skillful Surround"
+"/2011/08/09/hunter-davis-on-google-plus.html": []
+"/2011/08/09/using-the-dockstar-as-a-full-home-theater-replacement-part-1.html": []
+"/2011/08/09/want-to-see-more-hacks-in-action-follow-me-on-google.html":
+  - url: "/2010/04/18/roll-your-own-google-cloud-print-today-using-your-zipit-z2-or-anything-that-can-run-python-in-5-minutes.html"
+    title: "Roll your own Google Cloud Print, Today, Using Your Zipit Z2 (or anything that can run python), in 5 Minutes"
+"/2011/08/10/advanced-tips-fun-with-vnc.html":
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+  - url: "/2010/05/10/90s-tech-to-the-rescue-network-monitor.html"
+    title: "90's Tech to The Rescue (network monitor)"
+  - url: "/2011/03/21/xbslink-on-arm-linux-get-your-ps3-back-online-using-only-4-watts.html"
+    title: "XBSLink on (ARM) Linux - Get Your PS3 Back Online Using Only 4 Watts"
+  - url: "/2011/03/06/secure-ssh-terminal-in-your-steam-overlay.html"
+    title: "Secure SSH Terminal in your Steam Overlay"
+  - url: "/2011/02/28/a-programmers-window-manger-testing-the-notion-window-manager.html"
+    title: "A Programmer's Window Manger - Testing the Notion Window Manager"
+"/2011/08/13/dockstar-stereo-wii-frontend.html": []
+"/2011/08/18/easter-eggs.html":
+  - url: "/2012/02/28/debug-logs-as-python-programs.html"
+    title: "Debug Logs as Python Programs"
+  - url: "/2012/01/30/now-is-the-time-to-buy-a-first-generation-e-reader.html"
+    title: "Now is the Time to Buy a First Generation E-Reader"
+  - url: "/2011/07/28/ebooks-update-now-available-in-more-stores-and-countries.html"
+    title: "eBooks Update - Now Available In More Stores And Countries!"
+  - url: "/2011/05/04/no-solder-no-tools-no-trouble-usb-wii-sensor-bar-conversion.html"
+    title: "No Solder, No Tools, No Trouble USB Wii Sensor Bar Conversion"
+"/2011/08/18/ko-nami-code.html": []
+"/2011/10/14/easy-inventory-now-open-source-on-sourceforge.html":
+  - url: "/2011/08/07/the-grind-expansion-pack-2-easy-mode-is-live.html"
+    title: "The Grind Expansion Pack 2 - Easy Mode is live!"
+  - url: "/2011/07/29/65-android-app-super-whistle.html"
+    title: "#65 - Android App - Super Whistle"
+  - url: "/2011/07/28/64-android-app-sober-secrets.html"
+    title: "#64 - Android App - Sober Secrets"
+  - url: "/2011/06/08/android-app-easy-random-numbers.html"
+    title: "Android App - Easy Random Numbers"
+  - url: "/2011/06/04/android-apps-easy-inventory.html"
+    title: "Android Apps - Easy Inventory"
+"/2011/10/21/a-cure-for-dandruff-that-will-save-you-money.html":
+  - url: "/2017/04/13/my-story.html"
+    title: "My Story"
+  - url: "/2011/06/04/android-apps-easy-inventory.html"
+    title: "Android Apps - Easy Inventory"
+  - url: "/2010/11/08/source-tree-visualizer-beta-2-media-update-with-images-and-video.html"
+    title: "Source Tree Visualizer Beta 2 Media Update with Images and Video"
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+  - url: "/2010/05/29/hackaway-2010-is-over-a-massive-success.html"
+    title: "Hackaway 2010 is Over!  A Massive Success!"
+"/2011/11/01/easy-inventory-ad-revenue-increases-upon-open-sourcing.html": []
+"/2011/12/04/rks-christmas-quiz.html":
+  - url: "/2010/04/18/roll-your-own-google-cloud-print-today-using-your-zipit-z2-or-anything-that-can-run-python-in-5-minutes.html"
+    title: "Roll your own Google Cloud Print, Today, Using Your Zipit Z2 (or anything that can run python), in 5 Minutes"
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2010/11/08/how-i-saved-for-my-startup-free-e-book-released.html"
+    title: "How I Saved For My Startup - Free E-book Released"
+  - url: "/2010/11/08/source-tree-visualizer-beta-2-media-update-with-images-and-video.html"
+    title: "Source Tree Visualizer Beta 2 Media Update with Images and Video"
+  - url: "/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html"
+    title: "Jailbreaking a PS3 with Trackball Style (With Video)"
+"/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html":
+  - url: "/2011/08/07/the-grind-expansion-pack-2-easy-mode-is-live.html"
+    title: "The Grind Expansion Pack 2 - Easy Mode is live!"
+  - url: "/2011/07/19/57-android-game-skillful-surround.html"
+    title: "#57 - Android Game - Skillful Surround"
+  - url: "/2011/06/04/android-apps-easy-inventory.html"
+    title: "Android Apps - Easy Inventory"
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+"/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia2.html": []
+"/2011/12/18/pro-tip-add-your-wii-games-to-your-steam-list.html": []
+"/2011/12/27/registrar-and-hosting-switch-from-godaddy-plus-shameless-plug-for-dropbox-storage.html": []
+"/2011/12/30/apologies-for-the-site-hiccups.html": []
+"/2012/01/02/why-im-hip-to-android.html": []
+"/2012/01/09/retrode_preorder_glory.html":
+  - url: "/2010/11/28/a-25-gamingemulation-powerhouse-using-the-dockstar-as-a-gaming-console.html"
+    title: "A 25$ Gaming/Emulation Powerhouse - Using the Dockstar as a Gaming Console"
+  - url: "/2011/05/04/no-solder-no-tools-no-trouble-usb-wii-sensor-bar-conversion.html"
+    title: "No Solder, No Tools, No Trouble USB Wii Sensor Bar Conversion"
+  - url: "/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html"
+    title: "Jailbreaking a PS3 with Trackball Style (With Video)"
+"/2012/01/10/quick-update-the-retrode-works-with-android.html": []
+"/2012/01/12/google-is-my-new-cellular-carrier.html": []
+"/2012/01/19/what-unlimited-storage-really-means-in-america-bandwidth-limitations.html": []
+"/2012/01/23/quickgrapher.html": []
+"/2012/01/23/quickgrapher_open_source.html": []
+"/2012/01/23/source-tree-visualizer-now-open-source.html": []
+"/2012/01/23/source-tree-visualizer.html": []
+"/2012/01/24/update-quickgrapher-has-been-ported-to-android.html": []
+"/2012/01/29/apparently-people-are-buying-my-book-on-the-apple-book-store.html": []
+"/2012/01/30/now-is-the-time-to-buy-a-first-generation-e-reader.html":
+  - url: "/2012/02/28/debug-logs-as-python-programs.html"
+    title: "Debug Logs as Python Programs"
+  - url: "/2011/08/18/easter-eggs.html"
+    title: "Easter Eggs!"
+  - url: "/2011/07/29/my-books-75-off-this-week-for-smashwords-summer-sale.html"
+    title: "My Books 75% off this week for Smashwords Summer Sale!"
+  - url: "/2011/07/28/ebooks-update-now-available-in-more-stores-and-countries.html"
+    title: "eBooks Update - Now Available In More Stores And Countries!"
+  - url: "/2011/05/04/no-solder-no-tools-no-trouble-usb-wii-sensor-bar-conversion.html"
+    title: "No Solder, No Tools, No Trouble USB Wii Sensor Bar Conversion"
+"/2012/01/31/speaking-of-a-blast-to-the-past-heres-an-opengl-tron-game-i-wrote-as-an-undergrad.html": []
+"/2012/01/31/ten-years-of-hunterdavis-com-from-archive-orgs-perspective.html": []
+"/2012/02/15/asl-js-american-sign-language-javascript.html": []
+"/2012/02/28/debug-logs-as-python-programs.html":
+  - url: "/2011/08/18/easter-eggs.html"
+    title: "Easter Eggs!"
+  - url: "/2012/01/30/now-is-the-time-to-buy-a-first-generation-e-reader.html"
+    title: "Now is the Time to Buy a First Generation E-Reader"
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2011/07/28/ebooks-update-now-available-in-more-stores-and-countries.html"
+    title: "eBooks Update - Now Available In More Stores And Countries!"
+  - url: "/2011/05/04/no-solder-no-tools-no-trouble-usb-wii-sensor-bar-conversion.html"
+    title: "No Solder, No Tools, No Trouble USB Wii Sensor Bar Conversion"
+"/2012/03/11/automatically-updated-impress-js-resume-using-git-submodules-and-cron.html": []
+"/2012/03/13/update-quickgrapher-graphs-in-3d-using-impress-js.html": []
+"/2012/03/14/webgl-html5-audio-web-strobe-tuner.html": []
+"/2012/03/15/live-web-strobe-tuner-is-live-now.html": []
+"/2012/03/20/asl-js-now-auto-generates-impress-js-finger-spelling-presentations-in-html5.html": []
+"/2012/04/11/i-released-70-open-source-projects-today.html": []
+"/2012/04/12/i-found-another-11-programs-from-the-archives-to-open-source-on-github.html": []
+"/2012/04/12/some-quick-statistics-w-mspaint-infographic.html": []
+"/2012/04/13/impress-js-resume-project-updated.html": []
+"/2012/04/25/android-apps.html": []
+"/2012/04/25/android-games.html": []
+"/2012/04/25/audio-tools.html": []
+"/2012/04/25/books.html": []
+"/2012/04/25/document-creation-and-information-management.html": []
+"/2012/04/25/encryption-and-obfuscation.html": []
+"/2012/04/25/file-and-network-tools.html": []
+"/2012/04/25/graphics-and-imaging.html": []
+"/2012/04/25/popular-open-source-projects.html": []
+"/2012/04/25/quick-pro-tip-add-a-tablet-holder-to-your-laptop-table.html": []
+"/2012/04/25/site-updates-incoming.html": []
+"/2012/04/25/utilities-and-lifestyle-apps.html": []
+"/2012/05/08/a-preview-of-my-upcoming-fourth-book-a-direct-sequel-to-live-for-free.html": []
+"/2012/05/21/fun-pro-tip-armfp-debian-unstable-x11-sound-actually-usable-linux-on-android.html": []
+"/2012/06/11/fun-pro-tip-touchscreen-classic-dos-rpgs-on-android.html": []
+"/2012/07/21/android-sound.html": []
+"/2012/09/04/android-app-easy-bluetooth-time.html": []
+"/2012/09/04/easy-bluetooth-time.html": []
+"/2012/09/10/10-minute-hacks-asus-transformer-cade.html": []
+"/2012/10/04/a-treasure-chest-of-wii-goodness.html": []
+"/2012/10/08/dreamcast-printer.html": []
+"/2012/10/14/10-minute-hacks-weather-resistant-sega-saturn-briefcase-a-direct-result-of-ethical-quandry.html": []
+"/2012/10/22/dreamcast-printer-as-a-coffee-table-wip.html": []
+"/2012/10/28/wip-dreamcast-coffee-table-gets-a-nintendo-style-makeover.html": []
+"/2012/11/19/weekend-update-dreamcast-coffee-table-gets-legs-building-an-electronic-game-from-a-1972-electronic-slide-rule.html": []
+"/2012/11/26/adding-sound-to-your-android-apps-and-games-part-2-of-the-2012-android-apps-refresh.html": []
+"/2012/12/07/adding-automatic-crash-reporting-to-your-android-apps-with-crittercism.html": []
+"/2012/12/07/the-grind-expansion-pack-3-is-live.html": []
+"/2012/12/23/adding-embedded-quick-grapher-to-your-site.html": []
+"/2012/12/23/project-updates-asljs-on-github-pages-quickgrapher-is-back-quickgrapher-graphs-anywhere-on-hunterdavis-com-even-comments.html": []
+"/2012/12/24/spruce-up-your-github-readme-with-a-current-source-tree-visualization.html": []
+"/2012/12/29/using-open-source-android-libraries-for-game-ui-iconpageradapter-as-a-game-select-screen.html": []
+"/2012/12/30/a-quarter-of-a-million-downloads-end-of-2012-metrics-for-hunter-davis-on-the-google-play-store.html": []
+"/2012/12/30/android-game-pop-them-balloons-released.html": []
+"/2012/12/30/pop-them-balloons.html": []
+"/2013/01/08/rhapsody-ford-sync-debuts-ces-today.html": []
+"/2013/01/12/pro-tip-android-stick-pc-webcam-google-plus-low-maintenance-internet-security-cam-with-unlimited-free-storage.html": []
+"/2013/04/27/basic-skeletal-animation-from-paper-to-math-to-code-part-1.html": []
+"/2013/04/27/cs-nerds-are-not-just-obsessed-with-cats.html": []
+"/2013/04/27/you-are-buying-this-for-life.html": []
+"/2013/04/28/lifestyle-are-your-personal-tastes-a-sound-investment-strategy-wherein-i-create-the-only-pay-yourself-strategy.html": []
+"/2013/04/29/only-pay-yourself-purchase-log.html": []
+"/2013/04/29/personal-finance.html": []
+"/2013/04/29/the-ads-are-back.html": []
+"/2013/05/01/only-pay-yourself-may-1st-recap.html": []
+"/2013/05/06/only-pay-yourself-throwing-common-sense-out-the-window.html": []
+"/2013/05/07/opy-when-is-a-doughnut-not-a-doughnut.html": []
+"/2013/05/16/goodbye-paypal-goodbye-ebay.html": []
+"/2013/05/21/opy-guilty-pleasures-and-foreign-indexes.html": []
+"/2013/05/27/13-short-game-reviews.html": []
+"/2013/06/03/birthdays-photos-and-more-replacing-facebook-a-step-at-a-time.html": []
+"/2013/06/04/patch-yourself-up-a-new-pair-of-4-dumpsterphones.html": []
+"/2013/06/05/ooof-this-is-why-you-wear-gloves-while-longboarding.html": []
+"/2013/06/08/ouya-retrode-a-match-made-in-heaven-stay-tuned.html": []
+"/2013/06/08/video-retrode-ouya-n64-controller-and-cartridge-right-out-of-the-box-fun.html": []
+"/2013/06/12/join-me-on-diaspora.html": []
+"/2013/06/15/videos-ouya-retrode-snesgenesisgbagb-cartridges.html": []
+"/2013/06/30/brining-peanuts.html": []
+"/2013/07/20/a-decades-old-tale-trapped-in-20-year-old-tech.html": []
+"/2013/07/26/sometimes-you-get-lucky.html": []
+"/2013/07/30/site-redesign-incoming.html": []
+"/2013/08/03/resumes.html": []
+"/2013/08/03/using-timeline-js-to-make-a-timeline-from-your-resume.html": []
+"/2013/08/05/challenge-accepted-10-years-of-steam-and-1000-game-reviews.html": []
+"/2013/08/05/game-reviews.html": []
+"/2013/08/05/games.html": []
+"/2013/08/07/steam-game-reviews-1-half-life-2.html": []
+"/2013/08/10/indie-game-review-1-8-bit-commando.html": []
+"/2013/08/10/nds-emulator-drastic-raises-the-emulation-bar-very-very-high.html": []
+"/2013/08/11/steam-game-review-2-rag-doll-kung-fu.html": []
+"/2013/08/12/5-minute-hacks-money-clip-watch.html": []
+"/2013/08/12/indie-game-review-2-analogue-a-hate-story.html": []
+"/2013/08/12/steam-game-review-3-half-life-2-episode-one.html": []
+"/2013/08/15/indie-game-review-3-auditorium.html": []
+"/2013/08/16/steam-game-review-4-half-life-2-episode-2-the-orange-box-part-1.html": []
+"/2013/08/17/steam-game-review-4-part-2-team-fortress-2-the-orange-box-part-2.html": []
+"/2013/08/18/indie-game-review-4-bunny-must-die.html": []
+"/2013/08/18/steam-game-review-4-part-3-portal-the-orange-box-part-3.html": []
+"/2013/08/18/steam-game-review-5-the-wonderful-end-of-the-world.html": []
+"/2013/08/25/indie-game-review-5-chester.html": []
+"/2013/08/25/saints-row-4-crackdown-3-is-here-today.html": []
+"/2013/08/25/what-i-liked-about-the-crackdown-series-of-games-xbox-360.html": []
+"/2013/08/26/steam-game-review-6-audiosurf.html": []
+"/2013/08/30/pax-prime-2013.html": []
+"/2013/08/31/game-reviews-going-multi-platform-187-new-games-added-to-review-list.html": []
+"/2013/08/31/indie-game-review-6-chime.html": []
+"/2013/08/31/wrap-up-pax-prime-2013.html": []
+"/2013/09/01/easy-cat-whistle-hd.html": []
+"/2013/09/01/guide-video-make-your-own-nfc-watch-from-spare-parts.html": []
+"/2013/09/01/steam-game-review-7-doom-1993.html": []
+"/2013/09/12/indie-game-review-7-cute-things-dying-violently.html": []
+"/2013/09/21/review-volgarr-the-viking.html": []
+"/2013/09/22/review-doom-ii-hell-on-earth.html": []
+"/2013/09/23/review-rogue-legacy.html": []
+"/2013/09/24/the-grind-expansion-pack-4-is-live-global-leaderboards-and-achievements.html": []
+"/2013/09/24/tutorial-achievements-and-leaderboards-with-google-play-services.html": []
+"/2013/09/25/review-pac-man-2-the-new-adventures-genesis.html": []
+"/2013/09/27/review-da-new-guys-day-of-the-jackass.html": []
+"/2013/09/28/review-street-fighter-x-mega-man.html": []
+"/2013/09/29/review-doom-3-doom-3-resurrection-of-evil.html": []
+"/2013/09/29/review-valdis-story-abyssal-city.html": []
+"/2013/09/30/review-pitfall-pitafall-the-mayan-adventure-genesis.html": []
+"/2013/10/03/tutorial-crashlytics-android-studio-crash-reporting-on-easy-mode.html": []
+"/2013/10/05/review-demon-sword-nintendo-entertainment-system.html": []
+"/2013/10/06/easy-graph-paper-updated-images-colors.html": []
+"/2013/10/11/review-dangerous-high-school-girls-in-trouble.html": []
+"/2013/10/19/copycat-apps-make-it-official-ive-made-it-big-as-an-app-developer.html": []
+"/2013/10/27/rhapsody-for-android-gets-an-equalizer.html": []
+"/2013/11/19/review-saints-row-2006.html": []
+"/2013/11/20/opennote-set-up-your-self-hosted-evernote-clone-in-5-minutes.html": []
+"/2013/11/28/jedi-knight-2-touch-for-android-is-amazing-video.html": []
+"/2013/11/30/pop-them-balloons-updated-to-version-1-1.html": []
+"/2013/11/30/secondhand-saturdays-find-of-the-century.html": []
+"/2013/12/01/5-minute-hacks-diy-hdtv-antenna.html": []
+"/2013/12/01/review-skullgirls.html": []
+"/2013/12/07/review-king-of-fighters-xiii-steam-edition.html": []
+"/2013/12/16/review-saints-row-2-2008.html": []
+"/2013/12/22/review-ducktales-remastered.html": []
+"/2013/12/22/review-new-super-luigi-u.html": []
+"/2013/12/29/review-castlevania-lords-of-shadow-ultimate-edition.html": []
+"/2014/01/13/review-super-mario-3d-world-wii-u.html": []
+"/2014/02/03/review-saints-row-the-third.html": []
+"/2014/02/09/review-beyond-two-souls-ps3.html": []
+"/2014/02/12/prediction-cryptocurrency-mining-to-supplement-freemium-business-models-in-2014.html": []
+"/2014/02/25/okiu.html": []
+"/2014/03/04/new-android-app-auto-discovering-intercom-system.html": []
+"/2014/03/11/idea-using-gamification-and-brand-identity-to-end-hunger-now.html": []
+"/2014/03/13/autorobointercom-updated-with-remote-command-protocol-battery-monitor.html": []
+"/2014/03/20/open-sourcing-a-fable-oubastets-repository.html": []
+"/2014/03/20/oubastets-wager.html": []
+"/2014/03/31/review-the-legend-of-zelda-a-link-between-worlds.html": []
+"/2014/03/31/rhapsody-and-napster-add-chromecast-support.html": []
+"/2014/04/02/how-to-fix-a-bug-android-edition.html": []
+"/2014/04/07/location-based-advertising-for-the-thrifty-hacker.html": []
+"/2014/04/20/review-cubivore-gamecube.html": []
+"/2014/04/22/nda-lifted-opengl-cable-box-fan-tv-featuring-rhapsody-release-announcement.html": []
+"/2014/04/26/the-secret-building-part-1-thats-no-berry-bush.html": []
+"/2014/04/28/the-secret-building-part-2-with-video-holy-crap-theres-stuff-in-it.html": []
+"/2014/05/04/the-secret-building-part-3-safe-cracking.html": []
+"/2014/05/23/the-secret-building-part-4-the-end-of-the-secret-building.html": []
+"/2014/05/30/autorobointercom-now-on-google-play.html": []
+"/2014/05/30/autorobointercom.html": []
+"/2014/06/01/sprucing-up-a-basement-wall-with-mario.html": []
+"/2014/06/08/mario-3-wall-and-final-fantasy-freezer.html": []
+"/2014/06/15/using-a-vendor-locked-videophone-as-a-network-sharing-mp3-player.html": []
+"/2014/07/03/review-naruto-shippuden-ultimate-ninja-storm-3-full-burst.html": []
+"/2014/07/08/review-wolfenstein-the-new-order-bulletstein.html": []
+"/2014/07/19/5-minute-hacks-the-game-frame.html": []
+"/2014/08/08/10-second-hacks-paint-a-rotating-fan.html": []
+"/2014/08/10/review-shovel-knight.html": []
+"/2014/08/14/review-ittle-dew.html": []
+"/2014/08/22/gamestick-dock-hacking.html": []
+"/2014/08/24/1-hour-lifehack-chalkboard-freezer.html": []
+"/2014/09/05/simplify.html": []
+"/2014/09/06/review-red-dead-redemption.html": []
+"/2014/09/20/review-castlevania-aria-of-sorrow.html": []
+"/2014/09/21/review-dark-castle-macos.html": []
+"/2014/09/27/review-zelda-2-the-adventure-of-link.html": []
+"/2014/10/20/review-eye-of-the-beholder-gba.html": []
+"/2014/10/20/review-kid-dracula-game-boy.html": []
+"/2014/11/01/review-final-fantasy-xiii-steam-edition.html": []
+"/2014/11/08/review-steamworld-dig.html": []
+"/2014/11/13/review-the-wolf-among-us.html": []
+"/2014/11/23/review-super-mario-galaxy-2.html": []
+"/2014/11/25/review-castle-of-illusion-starring-mickey-mouse.html": []
+"/2014/11/27/remixing-open-source-games-with-creative-commons-content.html": []
+"/2014/11/30/remixing-continues-boss-fight-casual-katamari-guitar-ish-thing.html": []
+"/2014/12/17/the-android-cant-open-all-your-bookmarks-in-tabs-conspiracy.html": []
+"/2014/12/23/review-shantae-gbc.html": []
+"/2015/02/08/review-the-legend-of-zelda-ocarina-of-time-3d.html": []
+"/2015/02/13/review-shantae-riskys-revenge-directors-cut.html": []
+"/2015/02/19/json-resume-viewer-for-android.html": []
+"/2015/02/19/resume-json-viewer-for-android.html": []
+"/2015/03/23/json-game-list-viewer-android.html": []
+"/2015/03/23/json-game-list-viewer.html": []
+"/2015/03/25/woeful-is-the-hacker-who-knows-everything.html": []
+"/2015/05/08/the-spirit-of-the-zipit-lives-on.html": []
+"/2015/05/09/review-deadpool-2013.html": []
+"/2015/06/13/xbox-hdmi.html": []
+"/2015/08/15/ratchet-and-clankdown-sunset-overdrive-review.html": []
+"/2015/11/27/tutorial-using-sourcegraph-in-your-android-github-flow.html":
+  - url: "/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html"
+    title: "Android App - AR Wiki (Augmented Reality Wikipedia)"
+  - url: "/2011/08/07/the-grind-expansion-pack-2-easy-mode-is-live.html"
+    title: "The Grind Expansion Pack 2 - Easy Mode is live!"
+  - url: "/2011/08/03/android-app-updates.html"
+    title: "Android App Updates"
+  - url: "/2011/08/01/android-updates-and-i-claim-the-crown.html"
+    title: "Android Updates and I Claim The Crown."
+  - url: "/2011/08/01/the-grind-magic-and-post-apocalypse-pack-is-live.html"
+    title: "The Grind - Magic and Post-Apocalypse Pack is Live!"
+"/2015/12/01/review-final-fantasy-xiii-2-steam-edition.html": []
+"/2015/12/31/emotional-gaming-fallout-4-vs-ori-and-the-blind-forest.html": []
+"/2016/03/13/quit-the-drip-legit.html": []
+"/2016/03/27/review-lightning-returns-final-fantasy-13-3.html": []
+"/2016/05/16/review-doom-2016.html": []
+"/2016/09/22/review-one-piece-pirate-warriors-3-vita.html": []
+"/2017/01/16/gta-iv-the-dating-simulator-gotham-needed.html": []
+"/2017/03/14/site-changes-incoming.html": []
+"/2017/04/13/my-story.html":
+  - url: "/2011/10/21/a-cure-for-dandruff-that-will-save-you-money.html"
+    title: "A Cure for Dandruff That Will Save You Money"
+  - url: "/2011/07/28/ebooks-update-now-available-in-more-stores-and-countries.html"
+    title: "eBooks Update - Now Available In More Stores And Countries!"
+  - url: "/2011/06/04/android-apps-easy-inventory.html"
+    title: "Android Apps - Easy Inventory"
+  - url: "/2010/11/08/source-tree-visualizer-beta-2-media-update-with-images-and-video.html"
+    title: "Source Tree Visualizer Beta 2 Media Update with Images and Video"
+  - url: "/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html"
+    title: "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
+"/2017/06/24/road-rash-sega-cd.html": []
+"/2017/07/22/an-ode-to-antennae.html": []
+"/2017/07/24/chromecast-your-lps-with-a-little-help-from-webaudio.html": []
+"/2017/10/07/boom-box-build-version-1.html": []
+"/2017/10/31/your-first-day-as-an-engineering-manager.html": []
+"/2017/11/12/my-486-gaming-laptop.html": []
+"/2017/11/25/ti99fun.html":
+  - url: "/2011/08/10/advanced-tips-fun-with-vnc.html"
+    title: "Advanced Tips - Fun with VNC"
+  - url: "/2011/05/04/no-solder-no-tools-no-trouble-usb-wii-sensor-bar-conversion.html"
+    title: "No Solder, No Tools, No Trouble USB Wii Sensor Bar Conversion"
+  - url: "/2011/02/28/a-programmers-window-manger-testing-the-notion-window-manager.html"
+    title: "A Programmer's Window Manger - Testing the Notion Window Manager"
+  - url: "/2010/11/28/a-25-gamingemulation-powerhouse-using-the-dockstar-as-a-gaming-console.html"
+    title: "A 25$ Gaming/Emulation Powerhouse - Using the Dockstar as a Gaming Console"
+"/2017/11/29/i-think-im-against-app-stores-now.html": []
+"/2018/01/01/game-boy-classic.html": []
+"/2018/01/01/surface-rt-equalizer-visualizer.html": []
+"/2018/05/14/hunter-davis-manager-readme.html": []
+"/2018/12/26/johnny-castaway-on-the-web-on-the-hunt.html": []
+"/2019/11/05/director-readme.html": []
+"/2019/12/08/ease-yourself-off-of-facebook.html": []
+"/2019/12/08/goodbye-twitter.html": []
+"/2019/12/12/launch_blog_post.html": []
+"/2019/12/22/super_nintendo_on_the_road.html": []
+"/2019/12/27/blast-from-my-past.html": []
+"/2020/03/11/photo-stream.html": []
+"/2020/04/08/easy-photo-stream.html": []
+"/2020/06/25/moving-to-hey-email.html": []
+"/2020/07/05/making-use-of-linkedin-data.html": []
+"/2020/08/07/simulating-solitaire.html": []
+"/2020/12/20/hacking-atari-pong-jr-mini.html": []
+"/2021/03/10/johnny_castaway_native_port_and_livcd.html": []
+"/2021/03/21/johnny_dreamcastaway_released.html": []
+"/2021/07/25/johnny-castaway-for-retrofw-released.html": []
+"/2021/08/01/retrofw-usb-multiplayer-networking.html": []
+"/2021/09/02/x86-handheld.html": []
+"/2021/10/09/no-x86-handheld-needed.html": []
+"/2021/11/09/hdmi-in-on-oculus-go.html": []
+"/2021/12/11/johnny-castaway-text-edition.html": []
+"/2022/01/09/conways-emotional-law.html": []
+"/2022/01/10/coaching-new-leaders-during-covid.html": []
+"/2022/04/03/custom-guitar-from-maco.html": []
+"/2024/04/01/privacy-and-ai-update.html": []
+"/2024/08/25/media.html": []
+"/2024/08/25/search.html": []
+"/2024/11/06/announcing-tui000.html": []
+"/2024/11/16/announcing-labrync.html": []
+"/2024/12/29/announcing-tps.html": []
+"/2025/10/06/a-bunch-of-one-off-projects-for-2025.html": []
+"/2026/03/21/announcing-dunking-bird.html": []
