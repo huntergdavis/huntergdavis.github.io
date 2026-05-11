@@ -8,6 +8,10 @@
 @import 'anims';
 @import 'monokai';
 
+html{
+	scroll-behavior: smooth;
+}
+
 html, body{
 	background-color: #eee;
 }
