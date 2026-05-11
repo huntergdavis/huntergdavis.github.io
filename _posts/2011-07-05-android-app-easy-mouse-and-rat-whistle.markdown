@@ -19,7 +19,7 @@ redirect_from:
 
 Easy Mouse And Rat Whistle is a fast and free app to generate sounds your pet mice or rats can hear. Use this to train your pets…. maybe. You can also use it as a frequency generator.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot128-180x300.png "screenshot1")](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot128.png)
+[![](/content/images/2011/07/screenshot128-180x300.png "screenshot1")](/content/images/2011/07/screenshot128.png)
 
 You can download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easymouseandratwhistle).
 

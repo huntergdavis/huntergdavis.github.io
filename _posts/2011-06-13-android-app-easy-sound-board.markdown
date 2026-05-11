@@ -17,7 +17,7 @@ redirect_from:
 
 Easy Sound Board is a fast and free application which allows you to load and play audio files from a virtual sound board.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot119-180x300.png "screenshot1")](/android-app-easy-sound-board)
+[![](/content/images/2011/06/screenshot119-180x300.png "screenshot1")](/android-app-easy-sound-board)
 
 The sound board retains its settings even after a device reboot.
 

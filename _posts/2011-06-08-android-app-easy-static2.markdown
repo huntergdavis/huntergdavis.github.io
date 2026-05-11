@@ -14,7 +14,7 @@ tags:
 
 Easy Static is a fast and easy way to generate random visual static. This is ideal for test patterns, visual researchers, meditation, etc.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/staticscreenshot11-180x300.png "staticscreenshot1")](http://66.147.244.180/~hunterda/content/images/2011/06/staticscreenshot11.png)
+[![](/content/images/2011/06/staticscreenshot11-180x300.png "staticscreenshot1")](/content/images/2011/06/staticscreenshot11.png)
 
 You can download it from the Android app store [here](https://market.android.com/details?id=com.hunterdavis.easystatic).
 

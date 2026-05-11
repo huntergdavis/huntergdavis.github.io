@@ -66,13 +66,13 @@ Although I intend to eventually turn this into a battery powered handheld system
 
 I have been chastised heavily for this believe for many years now, but if you are not legally backing up/dumping the roms for your arcade or cartridge games you are almost certainly costing yourself money. While many consider emulation to be an underground community by its nature, there are quite legal ways for you to enjoy your existing game library without resorting to theft of intellectual property, or worse re-purchasing the games for each platform as they are slowly re-released by the publisher. Support folks like Matthias_H and back up or play your cartridges legally with solutions like the [retrode](http://www.retrode.org/), a hand coded nes rom dumper [like this one](http://www.barkered.com/old-site-content/nes/rom-dumper/), or at least play some [free homebrew roms.](http://dl.qj.net/psp/homebrew-packs-roms.html)
 
-<div class="wp-caption alignleft" id="attachment_846" style="width: 306px">[![Dockstar Running NES and ScummVM over TightVNC](http://66.147.244.180/~hunterda/content/images/2010/11/epicwin1-300x187.jpg "Dockstar Running NES and ScummVM over TightVNC")](http://66.147.244.180/~hunterda/content/images/2010/11/epicwin1.jpg)Dockstar Running NES and ScummVM over TightVNC
+<div class="wp-caption alignleft" id="attachment_846" style="width: 306px">[![Dockstar Running NES and ScummVM over TightVNC](/content/images/2010/11/epicwin1-300x187.jpg "Dockstar Running NES and ScummVM over TightVNC")](/content/images/2010/11/epicwin1.jpg)Dockstar Running NES and ScummVM over TightVNC
 
 </div>**Proof of Concept**
 
 Before running out to my local computer shop and plunking down the 60$ for a decent USB displaylink adapter, I wanted to make sure the Dockstar was actually capable of emulating a couple of systems. After using Jeff Doozan’s debian install script (which disables the pogoplug service, installs uboot, bootstraps debian onto the USB drive etc) I installed VNC server and Xorg (gotta have those fonts!), and started up two separate VNC sessions. In the first, I emulated contra with a nes emulator from the debian repository, controlled via a usb gamepad I had plugged in via an extra USB port gained from plugging in an old IBM USB keyboard with built-in hub. In the second, I used ScummVM to emulate Monkey Island 2 (both of which I have purchased many, many times). I then streamed both of these over the network to my desktop PC, simultaneously. So, concurrently, there was USB gamepad usage, NES emulation , Scummvm emulation, 2 X servers, 2 framebuffers being compressed with jpeg and tightvnc compression, 2 remote console terminals with byobu screen and a TOP processing showing CPU usage… which never pegged out, and natually was mostly spent on the TightVNC server processes. This gave me a bit of confidence when heading out to the store to purchase more hardware.
 
-<div class="wp-caption alignleft" id="attachment_860" style="width: 252px">[![Alsamixer on the Dockstar Debian System](http://66.147.244.180/~hunterda/content/images/2010/11/alsamixer1-246x300.png "AlsaMixer on the Dockstar Debian System")](http://66.147.244.180/~hunterda/content/images/2010/11/alsamixer1.png)Alsamixer on the Dockstar Debian System
+<div class="wp-caption alignleft" id="attachment_860" style="width: 252px">[![Alsamixer on the Dockstar Debian System](/content/images/2010/11/alsamixer1-246x300.png "AlsaMixer on the Dockstar Debian System")](/content/images/2010/11/alsamixer1.png)Alsamixer on the Dockstar Debian System
 
 </div>**Easy and Cheap- Audio**
 
@@ -94,7 +94,7 @@ The USB displaylink linux driver and setup has grown in leaps and bounds since l
 
 A quick search turned up a nice tutorial on setting up USB multiseat over at [plugable.com](http://plugable.com/2009/11/16/setting-up-usb-multiseat-with-displaylink-on-linux-gdm-up-to-2-20/). While a bit dated, I figured it was roughly analogous to the Dockstar Debian system I had running and should work. After installing module-assistant, I decided to skip the entire tutorial and just try plugging the device into the Dockstar and a (failing) 15″ vga Monitor from ancient times and seeing what happens… Success! It was a green screen with no borders. This means the driver is loaded and working! A quick test of dmesg showed what I wanted to see
 
-<div class="wp-caption alignleft" id="attachment_870" style="width: 306px">[![DisplayLink Green Screen From Dockstar](http://66.147.244.180/~hunterda/content/images/2010/11/IMG_673211-300x225.jpg "DisplayLink Green Screen From Dockstar")](http://66.147.244.180/~hunterda/content/images/2010/11/IMG_673211.jpg)DisplayLink Green Screen From Dockstar
+<div class="wp-caption alignleft" id="attachment_870" style="width: 306px">[![DisplayLink Green Screen From Dockstar](/content/images/2010/11/IMG_673211-300x225.jpg "DisplayLink Green Screen From Dockstar")](/content/images/2010/11/IMG_673211.jpg)DisplayLink Green Screen From Dockstar
 
 </div>```
 <br></br>
@@ -113,7 +113,7 @@ A quick search turned up a nice tutorial on setting up USB multiseat over at [pl
 
 Success! So I skipped ahead to the Xorg configuration
 
-<div class="wp-caption alignleft" id="attachment_881" style="width: 306px">[![Debian XDM Login On the Dockstar](http://66.147.244.180/~hunterda/content/images/2010/11/IMG_67331-300x225.jpg "Debian XDM Login On the Dockstar")](http://66.147.244.180/~hunterda/content/images/2010/11/IMG_67331.jpg)Debian XDM Login On the Dockstar
+<div class="wp-caption alignleft" id="attachment_881" style="width: 306px">[![Debian XDM Login On the Dockstar](/content/images/2010/11/IMG_67331-300x225.jpg "Debian XDM Login On the Dockstar")](/content/images/2010/11/IMG_67331.jpg)Debian XDM Login On the Dockstar
 
 </div>  
 **Video -Xorg**From here, I decided to see if a reboot would bring up a txt console (and perhaps a login?) on the usb monitor. It produced another green screen. This is good, as it means we’ll not have to be manually stopping fbcon from starting on bootup as many guides have suggested. While I’m not sure if it’s necessary, I went ahead and installed pkg-config and xorg-dev, along with fluxbox and xdm. They pull in a lot of good prerequisites from the Debian apt repository, and may come in handly later.
@@ -131,7 +131,7 @@ After installing XDM, a reboot producted me with a XDM debian login window! Now 
 
 Anything in the debian repo should work (no guarantees on speed). I managed to install desmume the ds emulator, but it didn’t run faster than 3fps ever, and didn’t seem to do much.
 
-<div class="wp-caption alignleft" id="attachment_905" style="width: 306px">[![OpenArena On the Dockstar](http://66.147.244.180/~hunterda/content/images/2010/11/IMG_674111-300x225.jpg "OpenArena")](http://66.147.244.180/~hunterda/content/images/2010/11/IMG_674111.jpg)OpenArena On the Dockstar
+<div class="wp-caption alignleft" id="attachment_905" style="width: 306px">[![OpenArena On the Dockstar](/content/images/2010/11/IMG_674111-300x225.jpg "OpenArena")](/content/images/2010/11/IMG_674111.jpg)OpenArena On the Dockstar
 
 </div>**Installing Programs/Desktop Usage**
 

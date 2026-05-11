@@ -21,11 +21,11 @@ This includes colored lines and image backgrounds! The GitHub repository has bee
 
 [![768x1280--guitar-green](/content/images/2013/10/768x1280-guitar-green-180x300.png)](/content/images/2013/10/768x1280-guitar-green.png)
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot118-180x300.png "screenshot1")](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot118.png)
+[![](/content/images/2011/06/screenshot118-180x300.png "screenshot1")](/content/images/2011/06/screenshot118.png)
 
 You can adjust the resolution and graph density of your graph paper, then save it out for later use!
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot216-180x300.png "screenshot2")](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot216.png)
+[![](/content/images/2011/06/screenshot216-180x300.png "screenshot2")](/content/images/2011/06/screenshot216.png)
 
 You can download Easy Graph Paper from the Android market [here](https://market.android.com/details?id=com.hunterdavis.easygraphpaper).
 

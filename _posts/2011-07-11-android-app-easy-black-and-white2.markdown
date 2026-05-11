@@ -17,7 +17,7 @@ tags:
 
 Easy Black And White is a fast and free app to convert any image into a two color black and white image. It features a convenient sliding scale threshold for conversion, and the ability to select your two colors (they don’t have to be black and white!). This is handy for creating artistic renderings, two-color icons, game art, and more!
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/07/devicess21-180x300.png "devicess2")](http://66.147.244.180/~hunterda/content/images/2011/07/devicess21.png)
+[![](/content/images/2011/07/devicess21-180x300.png "devicess2")](/content/images/2011/07/devicess21.png)
 
 You can download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easyblackandwhite).
 

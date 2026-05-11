@@ -19,7 +19,7 @@ As someone who hacks up every console he’s ever gotten, my PS3 has been rockin
 
 Anyway, things being what they are I decided to get their main competitor (XBSLink) running on the ARM platform. Some of the ps3 [hacker](http://www.ps3-hacks.com/2011/03/19/alternatives-to-psn-game-online-elsewhere/) [blogs ](http://www.ps3hax.net/2011/03/no-psn-try-xbslink-v0-9-2-0/)have been talking about XBSLink lately, and I thought it’d be an optimal application for a little ARM box (a pogoplog perhaps). This will allow you to run the XBSLink daemon on your ARM based Linux box (hopefully pulling 4 watts or less like mine is) and save you the hassle of running a full 400 watt multi core many gigahertz PC for a frikkin port forwarding application. Read on for the setup tutorial. I had gone into this article prepared to walk you through a full compilation and porting tutorial, but it turns out it’s not necessary. Read on for the full guide!
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/03/XBSLink1-300x189.png "XBSLink")](http://66.147.244.180/~hunterda/content/images/2011/03/XBSLink1.png)
+[![](/content/images/2011/03/XBSLink1-300x189.png "XBSLink")](/content/images/2011/03/XBSLink1.png)
 
 **Install Prerequisites**  
  XBSLink requires mono and libpcap, so install them with `apt-get install libpcap-dev mono-runtime libmono-* mono-winforms*`

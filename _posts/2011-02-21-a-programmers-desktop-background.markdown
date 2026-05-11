@@ -13,7 +13,7 @@ tags:
 
 While not famous in any sense of the word, I’m pretty used to having folks come up to me in public and ask me questions. These are usually along the lines of “I’ve never seen a laptop like that before..did you build it?” (yes I did) or “how did you get it to do that?” (Linux, mostly). Lately, I’ve had a few people comment on my somewhat unique desktop “wallpaper” I use on my laptop, and I thought I’d do a quick tutorial for those coming in off google searches :). This is basically a 5-up devilspie embedded application background consisting of terminals, text editors, and conky. I keep these on my primary desktop in Ubuntu at all times, and this is the configuration I’ve found to be optimal. Read on for the detailed setup guide and rationale behind this configuration
 
-[!["Embedded Windows As Desktop Background](http://66.147.244.180/~hunterda/content/images/2011/02/5updesktop1-1024x576.png "5 Window Desktop Background")](http://66.147.244.180/~hunterda/content/images/2011/02/5updesktop1.png)
+[!["Embedded Windows As Desktop Background](/content/images/2011/02/5updesktop1-1024x576.png "5 Window Desktop Background")](/content/images/2011/02/5updesktop1.png)
 
 Now, I know what many of you are thinking. You’re thinking, “why not just embed one huge terminal and run a 4-plex screen instance inside? I actually preferred that setup for many years, but I’ve since switched to a split layout featuring a gedit window and conky. Why? Well first of all screen is an excellent screen multiplexer, but it becomes quite an involved problem when you start to squeeze oddly shaped terminal sizes together. Using devilspie to adjust each window as a separate profile is quick and allows us to load programs separately at our leisure.
 

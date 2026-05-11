@@ -19,7 +19,7 @@ project: dockstar
 
 Chris Irwin alerted me in a previous article about MPD, the music playing daemon. While I was planning on installing this as both a client and a server on the dockstar stereo, It turns out there’s a MPD frontend for the Wii. I hadn’t been giving my Wii very much love lately, being so active in the PS3 scene. On a whim I picked up a little tv to use as a monitor for the Dockstar stereo, and I hooked the Wii up to it to see how things were going in the Wii homebrew community. I was BLOWN away. Not only has the wii media center grown tremendously, (it streams from samba shares), all the emulators have been updated (ps1 games from samba shares!), and there’s a tremendously dynamic game modification community (check out smashmods for some of the coolest in-ram game modification you will EVER see). The wii VNC client works quite well as a head unit for the dockstar stereo, but it’s got a native MPD frontend that I thought would be fun to get running. Read on for the setup of MPD on the Dockstar Stereo (or any embedded arm linux).
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/IMG_20110813_1442451-300x224.jpg "IMG_20110813_144245")](http://66.147.244.180/~hunterda/content/images/2011/08/IMG_20110813_1442451.jpg)
+[![](/content/images/2011/08/IMG_20110813_1442451-300x224.jpg "IMG_20110813_144245")](/content/images/2011/08/IMG_20110813_1442451.jpg)
 
   
 **Installing MPD**  

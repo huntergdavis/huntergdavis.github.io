@@ -17,9 +17,9 @@ Easy Pest Control is a fast and free app designed to repel the most common types
 
 Update – You can now specify exactly how long to play your pest control noise.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot1171-180x300.png "screenshot1")](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot1171.png)
+[![](/content/images/2011/06/screenshot1171-180x300.png "screenshot1")](/content/images/2011/06/screenshot1171.png)
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot181-180x300.png "screenshot1")](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot181.png)
+[![](/content/images/2011/06/screenshot181-180x300.png "screenshot1")](/content/images/2011/06/screenshot181.png)
 
 You can download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easypestcontrol).
 

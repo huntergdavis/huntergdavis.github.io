@@ -15,8 +15,8 @@ tags:
 
 After a power out blanked my wallclock’s memory, I was not eager to go searching through ten year old websites looking for a new terminal emulator. Luckily I found a ten year old NES emulator that loads fine! Behold wallclock 2.0, NES edition! Also be sure to peep the ancient medical tablet that is pulling duty as my new serial terminal. Fun!
 
-[![](http://66.147.244.180/~hunterda/content/images/2009/04/l-1600-1200-93fbb402-0d5d-4c8b-b1b6-b45e1fe328221.jpeg)](http://66.147.244.180/~hunterda/content/images/2009/04/l-1600-1200-93fbb402-0d5d-4c8b-b1b6-b45e1fe328221.jpeg)
+[![](/content/images/2009/04/l-1600-1200-93fbb402-0d5d-4c8b-b1b6-b45e1fe328221.jpeg)](/content/images/2009/04/l-1600-1200-93fbb402-0d5d-4c8b-b1b6-b45e1fe328221.jpeg)
 
-[![](http://66.147.244.180/~hunterda/content/images/2009/04/p-1600-1200-2a5048fe-4588-4ad0-ada8-d7ba5d1d6d0a1.jpeg)](http://66.147.244.180/~hunterda/content/images/2009/04/p-1600-1200-2a5048fe-4588-4ad0-ada8-d7ba5d1d6d0a1.jpeg)
+[![](/content/images/2009/04/p-1600-1200-2a5048fe-4588-4ad0-ada8-d7ba5d1d6d0a1.jpeg)](/content/images/2009/04/p-1600-1200-2a5048fe-4588-4ad0-ada8-d7ba5d1d6d0a1.jpeg)
 
 

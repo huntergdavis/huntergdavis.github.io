@@ -15,7 +15,7 @@ project: zipit-z2
 ---
 
 
-[![Pools of Radiance](http://66.147.244.180/~hunterda/content/images/2008/12/poolrad1.jpg)](http://66.147.244.180/~hunterda/content/images/2008/12/poolrad1.jpg "Pools of Radiance")
+[![Pools of Radiance](/content/images/2008/12/poolrad1.jpg)](/content/images/2008/12/poolrad1.jpg "Pools of Radiance")
 
 It turns out that with a bit of source code modification, you can get dosbox running quite well on your zipit z2!! This is HUGE for me, as I’m currently reliving my youth with a Pools of Radiance campaign on my z2! For those impatient to try it out, DL the openembedded ipkg and modified source files at the end of this post.
 

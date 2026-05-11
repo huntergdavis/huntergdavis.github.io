@@ -16,7 +16,7 @@ tags:
 
 Easy File Encrypt is a fast and free app which allows you to encrypt and decrypt files on the go! Set your own AES cypher password, and your file will be encrypted. Now no-one can decrypt the file without knowing the password!
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/07/mainscreenfull11-180x300.png "mainscreenfull")](/android-app-easy-file-encrypt)
+[![](/content/images/2011/07/mainscreenfull11-180x300.png "mainscreenfull")](/android-app-easy-file-encrypt)
 
 You can view the permalink page [here](/android-app-easy-file-encrypt), or download Easy File Encrypt from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easyfileencrypt).
 

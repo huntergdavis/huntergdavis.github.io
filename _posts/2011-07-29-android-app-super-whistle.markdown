@@ -51,7 +51,7 @@ Super Whistle is a fast and effective whistle app for the Android. Culminating t
 
 You can use this app in a myriad of ways, from training your pets to scaring away pests!
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1251-180x300.png "screenshot1")](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1251.png)
+[![](/content/images/2011/07/screenshot1251-180x300.png "screenshot1")](/content/images/2011/07/screenshot1251.png)
 
 You can purchase Super Whistle from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.superwhistle).
 

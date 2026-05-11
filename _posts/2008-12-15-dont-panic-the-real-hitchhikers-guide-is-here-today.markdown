@@ -16,7 +16,7 @@ tags:
 
 As it turns out, with a little bit of effort you can put together a cheap (50$), handheld, wireless, graphical wikipedia browser ala the HitchHiker’s Guide.
 
-[![Don’t panic!  A real guide to everything (Wikipedia)](http://66.147.244.180/~hunterda/content/images/2008/12/dontpanic1.png)](http://66.147.244.180/~hunterda/content/images/2008/12/dontpanic1.png "Don’t panic!  A real guide to everything (Wikipedia)")
+[![Don’t panic!  A real guide to everything (Wikipedia)](/content/images/2008/12/dontpanic1.png)](/content/images/2008/12/dontpanic1.png "Don’t panic!  A real guide to everything (Wikipedia)")
 
 Prerequisites:  
  Install Linux (wifi), Xfbdev (x11) and Dillo (browser) on your Zipit Z2 as described [here](http://linux.zipitwireless.com/wiki/OpenEmbedded).

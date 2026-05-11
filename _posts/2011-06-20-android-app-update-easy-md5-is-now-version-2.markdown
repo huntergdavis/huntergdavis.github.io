@@ -15,6 +15,6 @@ tags:
 
 [Easy MD5](/android-app-easy-md5/) has now been updated to allow you to save .md5 files to disk. This is useful when creating torrents etc. Android Market should automatically update your installation sometime today, otherwise you can manually update.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/mainscreenfull2-180x300.png "mainscreenfull")](http://66.147.244.180/~hunterda/content/images/2011/06/mainscreenfull2.png)
+[![](/content/images/2011/06/mainscreenfull2-180x300.png "mainscreenfull")](/content/images/2011/06/mainscreenfull2.png)
 
 

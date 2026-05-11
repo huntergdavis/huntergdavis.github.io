@@ -24,9 +24,9 @@ Update 8/23/2011 – It turns out there are a number of phones that this program
 
 Update – Batch Mode has been added! Batch encrypt/decrypt any number of files.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/07/mainscreenempty21-180x300.png "mainscreenempty")](http://66.147.244.180/~hunterda/content/images/2011/07/mainscreenempty21.png)
+[![](/content/images/2011/07/mainscreenempty21-180x300.png "mainscreenempty")](/content/images/2011/07/mainscreenempty21.png)
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/07/mainscreenfull11-180x300.png "mainscreenfull")](http://66.147.244.180/~hunterda/content/images/2011/07/mainscreenfull11.png)
+[![](/content/images/2011/07/mainscreenfull11-180x300.png "mainscreenfull")](/content/images/2011/07/mainscreenfull11.png)
 
 You can download Easy File Encrypt from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easyfileencrypt).
 

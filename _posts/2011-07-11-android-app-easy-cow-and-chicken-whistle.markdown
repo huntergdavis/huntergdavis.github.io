@@ -22,7 +22,7 @@ So, I thought I was done with the whistles for a while, but a friend of mine ask
 
 Easy Cow and Chicken Whistle is a fast and free app to generate sounds your cows and chickens can hear. Use this to train your farm animals…. maybe. You can also use it as a frequency generator.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot191-180x300.png "screenshot1")](/android-app-easy-cow-and-chicken-whistle)
+[![](/content/images/2011/07/screenshot191-180x300.png "screenshot1")](/android-app-easy-cow-and-chicken-whistle)
 
 You can view the permalink page for it [here](/android-app-easy-cow-and-chicken-whistle), or download it from the Android marketplace [here](https://market.android.com/details?id=com.hunterdavis.easycowandchickenwhistle).
 

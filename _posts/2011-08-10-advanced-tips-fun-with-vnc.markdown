@@ -26,12 +26,12 @@ project: dockstar
 
 While it will be a bit before my next full update in the”Using the Dockstar as a full Home Theater Replacement” series (conveniently shortened to Dockstar Stereo), I’m always tweaking and installing things. While these may not warrant a full update, they’re usually fun little additions or tweaks that come in handy. While I mentioned in the [last Dockstar Stereo article](/archives/2269) that you could run a video or Window Maker session over VNC, I never went into any details on the fun things you can do with VNC sessions. Read on for a couple of fun VNC tricks and tips that you may not have heard before. I assume you to be using a Linux installation. I’m running all examples on the ‘Dockstar Stereo’, an integrated arm board with limited memory.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/vnssesh1-300x176.png "vnssesh")](http://66.147.244.180/~hunterda/content/images/2011/08/vnssesh1.png)
+[![](/content/images/2011/08/vnssesh1-300x176.png "vnssesh")](/content/images/2011/08/vnssesh1.png)
 
   
 **Single Application Sessions**
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/fullscreen1-300x168.png "fullscreen")](http://66.147.244.180/~hunterda/content/images/2011/08/fullscreen1.png)
+[![](/content/images/2011/08/fullscreen1-300x168.png "fullscreen")](/content/images/2011/08/fullscreen1.png)
 
 When tightvnc server loads up, it loads a shell script located at /home/username/.vnc/xstartup . Generally, people use this to start window managers or startup programs but it isn’t really necessary. It’s also a regular old shell script, that fully supports environment variables. For this reason we can comment out what we don’t want in the script, and add an environment variable for the startup application. I recommend installing ratpoison (`sudo apt-get install ratpoison`) as it auto-maximizes single application sessions. Edit your .vnc/xstartup so that it looks like the following: ```
 <br></br>
@@ -49,19 +49,19 @@ Now whenever you start a vncserver session, you’ll preface it with the name of
 
 `export APP=banshee;vncserver `
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/banshee11-300x241.png "banshee")](http://66.147.244.180/~hunterda/content/images/2011/08/banshee11.png)
+[![](/content/images/2011/08/banshee11-300x241.png "banshee")](/content/images/2011/08/banshee11.png)
 
 `export APP=conky;vncserver `
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/conky1-286x300.png "conky")](http://66.147.244.180/~hunterda/content/images/2011/08/conky1.png)
+[![](/content/images/2011/08/conky1-286x300.png "conky")](/content/images/2011/08/conky1.png)
 
 `export APP=gnome-system-monitor;vncserver `
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/gnome-system-monitor1-300x242.png "gnome-system-monitor")](http://66.147.244.180/~hunterda/content/images/2011/08/gnome-system-monitor1.png)
+[![](/content/images/2011/08/gnome-system-monitor1-300x242.png "gnome-system-monitor")](/content/images/2011/08/gnome-system-monitor1.png)
 
 `export APP=gedit;vncserver `
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/gedit1-300x240.png "gedit")](http://66.147.244.180/~hunterda/content/images/2011/08/gedit1.png)
+[![](/content/images/2011/08/gedit1-300x240.png "gedit")](/content/images/2011/08/gedit1.png)
 
 **Application Specific USERS**
 
@@ -88,6 +88,6 @@ Luckily for all of us each of these scenarios can be easily resolved with the sa
 
 And that’s that. Each of the scenarios above is just a customization of the security settings for the above steps. For instance in the coffee shop example above you could have the manager ssh into the jukebox when it first loads to start up a VNC session, then have the baristas connect using the normal VNC password and the customers connect using the view-only password.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/vnssesh1-300x176.png "vnssesh")](http://66.147.244.180/~hunterda/content/images/2011/08/vnssesh1.png)
+[![](/content/images/2011/08/vnssesh1-300x176.png "vnssesh")](/content/images/2011/08/vnssesh1.png)
 
 

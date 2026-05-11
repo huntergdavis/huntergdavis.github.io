@@ -16,6 +16,6 @@ In case any of you have been meaning to pick up a Pixel Qi display and install i
 [Here’s the link to the auction](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=170617839696), it’ll be running till March 24th. Good luck!
 
 If anyone here ends up being the winning bidder, do let me know if you’d like me to sign your case 🙂  
-[![](http://66.147.244.180/~hunterda/content/images/2011/03/SprintPhoto_b5kc1n1-300x225.jpg "Pixel Qi down by the beach")](http://66.147.244.180/~hunterda/content/images/2011/03/SprintPhoto_b5kc1n1.jpg)
+[![](/content/images/2011/03/SprintPhoto_b5kc1n1-300x225.jpg "Pixel Qi down by the beach")](/content/images/2011/03/SprintPhoto_b5kc1n1.jpg)
 
 

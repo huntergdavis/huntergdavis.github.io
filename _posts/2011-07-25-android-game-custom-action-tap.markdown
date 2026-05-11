@@ -20,7 +20,7 @@ redirect_from:
 
 Custom Action Tap is a fast and free Android game that breathes new life into the “balloon tapping” genre. Enemies float towards the top of the screen, and it’s your goal to tap them gone! With customizable enemy models, elemental and explosive power ups, and an ever increasing difficulty level you’ll find yourself tapping again and again.
 
-<table><tr><td>[![](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1221-180x300.png "screenshot1")](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1221.png)</td><td>[![](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot281-180x300.png "screenshot2")](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot281.png)</td><td>[![](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot331-180x300.png "screenshot3")](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot331.png)</td></tr></table>Power Ups Include:
+<table><tr><td>[![](/content/images/2011/07/screenshot1221-180x300.png "screenshot1")](/content/images/2011/07/screenshot1221.png)</td><td>[![](/content/images/2011/07/screenshot281-180x300.png "screenshot2")](/content/images/2011/07/screenshot281.png)</td><td>[![](/content/images/2011/07/screenshot331-180x300.png "screenshot3")](/content/images/2011/07/screenshot331.png)</td></tr></table>Power Ups Include:
 
 - Lightning – Strike down your enemies with a lightning strike!
 - Fire – Burn up your enemies with contagious fire!

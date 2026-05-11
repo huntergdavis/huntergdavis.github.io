@@ -18,7 +18,7 @@ redirect_from:
 
 Easy Graph Paper is a fast and free way to generate graph paper images on the go. You can use these for graphics development or print them out for use as real graph paper.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot118-180x300.png "screenshot1")](/android-app-easy-graph-paper)
+[![](/content/images/2011/06/screenshot118-180x300.png "screenshot1")](/android-app-easy-graph-paper)
 
 You can view the permalink page for it [here](/android-app-easy-graph-paper), or download it on the Android market [here](https://market.android.com/details?id=com.hunterdavis.easygraphpaper).
 

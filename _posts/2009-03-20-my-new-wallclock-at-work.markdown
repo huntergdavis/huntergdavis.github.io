@@ -10,7 +10,7 @@ tags:
 ---
 
 
-[![wallclock](http://66.147.244.180/~hunterda/content/images/2009/03/photo1.jpg)](http://66.147.244.180/~hunterda/content/images/2009/03/photo1.jpg "wallclock")
+[![wallclock](/content/images/2009/03/photo1.jpg)](/content/images/2009/03/photo1.jpg "wallclock")
 
  10 year old HP Jornada Windows CE 3.0 device – 15$  
   

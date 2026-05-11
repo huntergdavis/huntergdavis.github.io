@@ -19,7 +19,7 @@ tags:
 
 Easy MD5 is a fast and easy way to generate an MD5 on the go.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/mainscreenfull2-180x300.png "mainscreenfull")](http://66.147.244.180/~hunterda/content/images/2011/06/mainscreenfull2.png)
+[![](/content/images/2011/06/mainscreenfull2-180x300.png "mainscreenfull")](/content/images/2011/06/mainscreenfull2.png)
 
 Simply select a file and an MD5 is generated.
 

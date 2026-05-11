@@ -18,6 +18,6 @@ Today is the first day of August. After two straight months of adding an app a d
 
 As such, I’m stopping the app a day. Sixty-five apps in sixty days is still impressive, and as far as I can tell no-one else out there has even released 40 apps in 40 days, let alone 50 or 60. Ever. Anywhere. On any platform. Even just scripts. As of today I’m going to claim the Jedi (or Sith) challenge master crown until someone else attempts to do 66 (or greater) apps in 66 days. This doesn’t mean I’ll stop writing apps, or releasing cool research tech for the Android platform. Just not every day. As an added bonus, this will free up time for me to update my previous apps and brainstorm really good app ideas.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/theking11-293x300.jpg "theking")](http://66.147.244.180/~hunterda/content/images/2011/08/theking11.jpg)
+[![](/content/images/2011/08/theking11-293x300.jpg "theking")](/content/images/2011/08/theking11.jpg)
 
 

@@ -15,11 +15,11 @@ tags:
 
 Easy Symmetry Check is a free and simple way to test for left and right symmetry in photos.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/device111-180x300.png "screenshot1 empty screenshot")](http://66.147.244.180/~hunterda/content/images/2011/06/device111.png)
+[![](/content/images/2011/06/device111-180x300.png "screenshot1 empty screenshot")](/content/images/2011/06/device111.png)
 
 Simply select a photo, then apply a left or right symmetry to the photo. Fast, free, and simple!
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/device211-180x300.png "Symmetry screenshot with image")](http://66.147.244.180/~hunterda/content/images/2011/06/device211.png)
+[![](/content/images/2011/06/device211-180x300.png "Symmetry screenshot with image")](/content/images/2011/06/device211.png)
 
 You can download it from the Android app store [here](https://market.android.com/details?id=com.hunterdavis.easysymmetrycheck).
 

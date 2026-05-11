@@ -14,7 +14,7 @@ tags:
 
 I acquired the Trivial Pursuit – Digital Choice Edition game at a local target for 10$. It’s an interesting little device, with an b&w LCD display, usb out, 16mb internal storage, and the ability to download or create your own questions… on windows only (ouch).. Turns out it’s an interesting device. Here’s what I’ve been able to find out so far.
 
-![hasbro TP digital choice](http://66.147.244.180/~hunterda/content/images/2009/10/041791298fd5_Main4001.jpg)
+![hasbro TP digital choice](/content/images/2009/10/041791298fd5_Main4001.jpg)
 
 Plugging it into my spare linux box (trusty old ps3…) I found that the device is recognized, but the partition is not. As it’s only a 16mb partition, it shouldn’t be hard to get a good image. I first copied it straight to a file with `sudo dd if=/dev/sdb of=/home/hunter/Desktop/trivp.img`
 

@@ -16,7 +16,7 @@ redirect_from:
 
 Easy Random Numbers is a fast and free application to generate dice rolls, coin flips, and random numbers within a specified range.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/sshot21-180x300.png "sshot2")](/android-app-easy-random-numbers)
+[![](/content/images/2011/06/sshot21-180x300.png "sshot2")](/android-app-easy-random-numbers)
 
 You can see the permalink page for it [here](/android-app-easy-random-numbers), or download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.EasyRandomNumbers).
 

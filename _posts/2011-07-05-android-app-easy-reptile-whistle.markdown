@@ -20,7 +20,7 @@ redirect_from:
 
 Easy Reptile Whistle is a fast and free app to generate sounds your reptile can hear. Use this to train your reptile…. maybe. You can also use it as a frequency generator.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1110-180x300.png "screenshot1")](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1110.png)
+[![](/content/images/2011/07/screenshot1110-180x300.png "screenshot1")](/content/images/2011/07/screenshot1110.png)
 
 You can download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easyreptilewhistle).
 

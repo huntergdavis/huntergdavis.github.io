@@ -14,7 +14,7 @@ tags:
 
 I have a very ominous looking stack of upcoming hacking projects. I also have a very lonely looking stack of already hacked projects, extra consoles, spare parts etc. To clear up space for the new hacks, I’m giving away 9 previous hacks. Read on for how to enter.
 
-![hackaway giveaway items 2009](http://66.147.244.180/~hunterda/content/images/2009/12/PIC_00381.jpg)
+![hackaway giveaway items 2009](/content/images/2009/12/PIC_00381.jpg)
 
   
  Here’s the deal: email hunter@hunterdavis.com the number of the item(s) you’d want (subject line hackaway 2009), and within <del datetime="2009-12-03T03:39:48+00:00">a week</del><del datetime="2009-12-05T00:53:12+00:00">(a day or two!! tons of response!)</del> (It’s over!! See next post) I’ll randomly choose winners, notify them and get their addresses, then ship them out their gear, one per person. I pay for all shipping and handling, no restrictions about geographic location as long as I can ship to there from the US. All items are working, and do not require additional $ or hardware to start messing with.

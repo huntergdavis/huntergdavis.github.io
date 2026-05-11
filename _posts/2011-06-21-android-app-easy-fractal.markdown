@@ -19,7 +19,7 @@ redirect_from:
 
 Easy Fractal is a fast and free program to generate and save two-color fractal images.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot281-180x300.png "screenshot1")](/android-app-easy-fractal)
+[![](/content/images/2011/06/screenshot281-180x300.png "screenshot1")](/android-app-easy-fractal)
 
 You can view the permalink page [here](/android-app-easy-fractal), or download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easyfractal).
 
