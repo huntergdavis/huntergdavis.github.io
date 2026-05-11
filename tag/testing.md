@@ -9,10 +9,10 @@ permalink: /tags/testing/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: testing",
-  "url": "https://www.hunterdavis.com/tags/testing/",
+  "url": "https://hunterdavis.com/tags/testing/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/testing/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2010/11/18/preview-sliders-beta-and-upcoming-beta-opportunities.html",
+        "url": "https://hunterdavis.com/2010/11/18/preview-sliders-beta-and-upcoming-beta-opportunities.html",
         "name": "(Preview) - Sliders (beta) and Upcoming Beta Opportunities"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2010/03/24/great-pen-testing-zipit-distribution-from-adrian-crenshaw-irongeek-com.html",
+        "url": "https://hunterdavis.com/2010/03/24/great-pen-testing-zipit-distribution-from-adrian-crenshaw-irongeek-com.html",
         "name": "Great Pen Testing Zipit Distribution from Adrian Crenshaw (irongeek.com)"
       }
     ]

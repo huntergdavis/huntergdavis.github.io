@@ -9,10 +9,10 @@ permalink: /tags/google/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: google",
-  "url": "https://www.hunterdavis.com/tags/google/",
+  "url": "https://hunterdavis.com/tags/google/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/google/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2011/08/09/want-to-see-more-hacks-in-action-follow-me-on-google.html",
+        "url": "https://hunterdavis.com/2011/08/09/want-to-see-more-hacks-in-action-follow-me-on-google.html",
         "name": "Want to see more Hacks in Action?  Follow me on Google+"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2010/04/18/roll-your-own-google-cloud-print-today-using-your-zipit-z2-or-anything-that-can-run-python-in-5-minutes.html",
+        "url": "https://hunterdavis.com/2010/04/18/roll-your-own-google-cloud-print-today-using-your-zipit-z2-or-anything-that-can-run-python-in-5-minutes.html",
         "name": "Roll your own Google Cloud Print, Today, Using Your Zipit Z2 (or anything that can run python), in 5 Minutes"
       }
     ]

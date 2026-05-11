@@ -9,10 +9,10 @@ permalink: /tags/hunter-davis/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: hunter-davis",
-  "url": "https://www.hunterdavis.com/tags/hunter-davis/",
+  "url": "https://hunterdavis.com/tags/hunter-davis/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/hunter-davis/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2017/04/13/my-story.html",
+        "url": "https://hunterdavis.com/2017/04/13/my-story.html",
         "name": "My Story"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/07/28/ebooks-update-now-available-in-more-stores-and-countries.html",
+        "url": "https://hunterdavis.com/2011/07/28/ebooks-update-now-available-in-more-stores-and-countries.html",
         "name": "eBooks Update - Now Available In More Stores And Countries!"
       }
     ]

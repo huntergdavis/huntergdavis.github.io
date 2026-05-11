@@ -6,7 +6,7 @@ markdown: kramdown
 highlighter: rouge
 
 ##canonical site origin — referenced everywhere as site.url
-url: https://www.hunterdavis.com
+url: https://hunterdavis.com
 ##post URL shape — explicit so it can't drift and break inbound links
 permalink: /:year/:month/:day/:title.html
 sass:

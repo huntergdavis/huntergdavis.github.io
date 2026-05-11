@@ -9,10 +9,10 @@ permalink: /tags/chips/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: chips",
-  "url": "https://www.hunterdavis.com/tags/chips/",
+  "url": "https://hunterdavis.com/tags/chips/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,31 +22,31 @@ permalink: /tags/chips/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html",
+        "url": "https://hunterdavis.com/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html",
         "name": "Distributed Java, Fortran, and ARM to X86 Cross Compilation"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/01/10/writing-your-own-distributed-compilation-system.html",
+        "url": "https://hunterdavis.com/2011/01/10/writing-your-own-distributed-compilation-system.html",
         "name": "Writing Your Own Distributed Compilation System"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "url": "https://www.hunterdavis.com/2010/12/06/using-the-arm-based-pogoplug-as-an-x86-64-compilation-cluster-an-article-series.html",
+        "url": "https://hunterdavis.com/2010/12/06/using-the-arm-based-pogoplug-as-an-x86-64-compilation-cluster-an-article-series.html",
         "name": "Using the ARM Based PogoPlug as an X86-64 Compilation Cluster - An Article Series"
       },
       {
         "@type": "ListItem",
         "position": 4,
-        "url": "https://www.hunterdavis.com/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html",
+        "url": "https://hunterdavis.com/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html",
         "name": "Jailbreaking a PS3 with Trackball Style (With Video)"
       },
       {
         "@type": "ListItem",
         "position": 5,
-        "url": "https://www.hunterdavis.com/2010/04/11/the-littlest-famicom.html",
+        "url": "https://hunterdavis.com/2010/04/11/the-littlest-famicom.html",
         "name": "The littlest famicom"
       }
     ]

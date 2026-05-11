@@ -9,10 +9,10 @@ permalink: /tags/hack/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: hack",
-  "url": "https://www.hunterdavis.com/tags/hack/",
+  "url": "https://hunterdavis.com/tags/hack/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,25 +22,25 @@ permalink: /tags/hack/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2011/05/06/build-your-own-hide-a-tablet-book.html",
+        "url": "https://hunterdavis.com/2011/05/06/build-your-own-hide-a-tablet-book.html",
         "name": "Build Your Own Hide-A-Tablet Book"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2010/11/08/how-i-saved-for-my-startup-free-e-book-released.html",
+        "url": "https://hunterdavis.com/2010/11/08/how-i-saved-for-my-startup-free-e-book-released.html",
         "name": "How I Saved For My Startup - Free E-book Released"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "url": "https://www.hunterdavis.com/2010/08/23/rexvm-a-virtualbox-appliance-for-developing-for-the-rex-6000.html",
+        "url": "https://hunterdavis.com/2010/08/23/rexvm-a-virtualbox-appliance-for-developing-for-the-rex-6000.html",
         "name": "rexVM - A virtualBox Appliance for Developing for The REX 6000"
       },
       {
         "@type": "ListItem",
         "position": 4,
-        "url": "https://www.hunterdavis.com/2010/03/29/finished-building-my-first-guitar.html",
+        "url": "https://hunterdavis.com/2010/03/29/finished-building-my-first-guitar.html",
         "name": "Finished building my first guitar"
       }
     ]

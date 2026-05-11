@@ -9,10 +9,10 @@ permalink: /tags/discursive-labs/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: discursive-labs",
-  "url": "https://www.hunterdavis.com/tags/discursive-labs/",
+  "url": "https://hunterdavis.com/tags/discursive-labs/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,37 +22,37 @@ permalink: /tags/discursive-labs/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html",
+        "url": "https://hunterdavis.com/2011/01/20/distributed-java-fortran-and-arm-to-x86-cross-compilation.html",
         "name": "Distributed Java, Fortran, and ARM to X86 Cross Compilation"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/01/10/writing-your-own-distributed-compilation-system.html",
+        "url": "https://hunterdavis.com/2011/01/10/writing-your-own-distributed-compilation-system.html",
         "name": "Writing Your Own Distributed Compilation System"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "url": "https://www.hunterdavis.com/2010/12/06/using-the-arm-based-pogoplug-as-an-x86-64-compilation-cluster-an-article-series.html",
+        "url": "https://hunterdavis.com/2010/12/06/using-the-arm-based-pogoplug-as-an-x86-64-compilation-cluster-an-article-series.html",
         "name": "Using the ARM Based PogoPlug as an X86-64 Compilation Cluster - An Article Series"
       },
       {
         "@type": "ListItem",
         "position": 4,
-        "url": "https://www.hunterdavis.com/2010/11/18/preview-sliders-beta-and-upcoming-beta-opportunities.html",
+        "url": "https://hunterdavis.com/2010/11/18/preview-sliders-beta-and-upcoming-beta-opportunities.html",
         "name": "(Preview) - Sliders (beta) and Upcoming Beta Opportunities"
       },
       {
         "@type": "ListItem",
         "position": 5,
-        "url": "https://www.hunterdavis.com/2010/11/08/source-tree-visualizer-beta-2-media-update-with-images-and-video.html",
+        "url": "https://hunterdavis.com/2010/11/08/source-tree-visualizer-beta-2-media-update-with-images-and-video.html",
         "name": "Source Tree Visualizer Beta 2 Media Update with Images and Video"
       },
       {
         "@type": "ListItem",
         "position": 6,
-        "url": "https://www.hunterdavis.com/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html",
+        "url": "https://hunterdavis.com/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html",
         "name": "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
       }
     ]

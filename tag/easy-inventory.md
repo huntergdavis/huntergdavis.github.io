@@ -9,10 +9,10 @@ permalink: /tags/easy-inventory/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: easy-inventory",
-  "url": "https://www.hunterdavis.com/tags/easy-inventory/",
+  "url": "https://hunterdavis.com/tags/easy-inventory/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/easy-inventory/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2011/10/14/easy-inventory-now-open-source-on-sourceforge.html",
+        "url": "https://hunterdavis.com/2011/10/14/easy-inventory-now-open-source-on-sourceforge.html",
         "name": "Easy Inventory - Now Open Source on Sourceforge!"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/06/04/android-apps-easy-inventory.html",
+        "url": "https://hunterdavis.com/2011/06/04/android-apps-easy-inventory.html",
         "name": "Android Apps - Easy Inventory"
       }
     ]

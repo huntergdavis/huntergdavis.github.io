@@ -9,10 +9,10 @@ permalink: /tags/hackaway/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: hackaway",
-  "url": "https://www.hunterdavis.com/tags/hackaway/",
+  "url": "https://hunterdavis.com/tags/hackaway/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,19 +22,19 @@ permalink: /tags/hackaway/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2010/05/30/hackaway-2010-winners-announced.html",
+        "url": "https://hunterdavis.com/2010/05/30/hackaway-2010-winners-announced.html",
         "name": "Hackaway 2010 Winners Announced!"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2010/05/29/hackaway-2010-is-over-a-massive-success.html",
+        "url": "https://hunterdavis.com/2010/05/29/hackaway-2010-is-over-a-massive-success.html",
         "name": "Hackaway 2010 is Over!  A Massive Success!"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "url": "https://www.hunterdavis.com/2010/05/22/hackaway-2010-announced.html",
+        "url": "https://hunterdavis.com/2010/05/22/hackaway-2010-announced.html",
         "name": "Hackaway 2010 Announced!"
       }
     ]

@@ -9,10 +9,10 @@ permalink: /tags/hacking-linux-wallclock-personal/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: hacking-linux-wallclock-personal",
-  "url": "https://www.hunterdavis.com/tags/hacking-linux-wallclock-personal/",
+  "url": "https://hunterdavis.com/tags/hacking-linux-wallclock-personal/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/hacking-linux-wallclock-personal/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2010/05/29/hackaway-2010-is-over-a-massive-success.html",
+        "url": "https://hunterdavis.com/2010/05/29/hackaway-2010-is-over-a-massive-success.html",
         "name": "Hackaway 2010 is Over!  A Massive Success!"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2009/04/21/wallclock-20.html",
+        "url": "https://hunterdavis.com/2009/04/21/wallclock-20.html",
         "name": "Wallclock 2.0"
       }
     ]

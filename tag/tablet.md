@@ -9,10 +9,10 @@ permalink: /tags/tablet/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: tablet",
-  "url": "https://www.hunterdavis.com/tags/tablet/",
+  "url": "https://hunterdavis.com/tags/tablet/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/tablet/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2011/05/06/build-your-own-hide-a-tablet-book.html",
+        "url": "https://hunterdavis.com/2011/05/06/build-your-own-hide-a-tablet-book.html",
         "name": "Build Your Own Hide-A-Tablet Book"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/04/24/quick-and-dirty-tablet-dock.html",
+        "url": "https://hunterdavis.com/2011/04/24/quick-and-dirty-tablet-dock.html",
         "name": "Quick and Dirty Tablet Dock"
       }
     ]

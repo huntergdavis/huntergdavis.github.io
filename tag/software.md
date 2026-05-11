@@ -9,10 +9,10 @@ permalink: /tags/software/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: software",
-  "url": "https://www.hunterdavis.com/tags/software/",
+  "url": "https://hunterdavis.com/tags/software/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,19 +22,19 @@ permalink: /tags/software/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2011/01/10/writing-your-own-distributed-compilation-system.html",
+        "url": "https://hunterdavis.com/2011/01/10/writing-your-own-distributed-compilation-system.html",
         "name": "Writing Your Own Distributed Compilation System"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2010/11/28/a-25-gamingemulation-powerhouse-using-the-dockstar-as-a-gaming-console.html",
+        "url": "https://hunterdavis.com/2010/11/28/a-25-gamingemulation-powerhouse-using-the-dockstar-as-a-gaming-console.html",
         "name": "A 25$ Gaming/Emulation Powerhouse - Using the Dockstar as a Gaming Console"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "url": "https://www.hunterdavis.com/2010/11/08/source-tree-visualizer-beta-2-media-update-with-images-and-video.html",
+        "url": "https://hunterdavis.com/2010/11/08/source-tree-visualizer-beta-2-media-update-with-images-and-video.html",
         "name": "Source Tree Visualizer Beta 2 Media Update with Images and Video"
       }
     ]

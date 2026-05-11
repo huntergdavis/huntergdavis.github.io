@@ -9,10 +9,10 @@ permalink: /tags/ebooks-2/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: ebooks-2",
-  "url": "https://www.hunterdavis.com/tags/ebooks-2/",
+  "url": "https://hunterdavis.com/tags/ebooks-2/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/ebooks-2/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2011/07/29/my-books-75-off-this-week-for-smashwords-summer-sale.html",
+        "url": "https://hunterdavis.com/2011/07/29/my-books-75-off-this-week-for-smashwords-summer-sale.html",
         "name": "My Books 75% off this week for Smashwords Summer Sale!"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/07/28/ebooks-update-now-available-in-more-stores-and-countries.html",
+        "url": "https://hunterdavis.com/2011/07/28/ebooks-update-now-available-in-more-stores-and-countries.html",
         "name": "eBooks Update - Now Available In More Stores And Countries!"
       }
     ]

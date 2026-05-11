@@ -9,10 +9,10 @@ permalink: /tags/usb/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: usb",
-  "url": "https://www.hunterdavis.com/tags/usb/",
+  "url": "https://hunterdavis.com/tags/usb/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/usb/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2012/01/09/retrode_preorder_glory.html",
+        "url": "https://hunterdavis.com/2012/01/09/retrode_preorder_glory.html",
         "name": "Using an Original SNES Controller and Cartridge with your PC, PS3, or Dockstar (Retrode Pre-Order glory)"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/05/04/no-solder-no-tools-no-trouble-usb-wii-sensor-bar-conversion.html",
+        "url": "https://hunterdavis.com/2011/05/04/no-solder-no-tools-no-trouble-usb-wii-sensor-bar-conversion.html",
         "name": "No Solder, No Tools, No Trouble USB Wii Sensor Bar Conversion"
       }
     ]

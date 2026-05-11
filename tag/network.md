@@ -9,10 +9,10 @@ permalink: /tags/network/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: network",
-  "url": "https://www.hunterdavis.com/tags/network/",
+  "url": "https://hunterdavis.com/tags/network/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/network/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2011/08/10/advanced-tips-fun-with-vnc.html",
+        "url": "https://hunterdavis.com/2011/08/10/advanced-tips-fun-with-vnc.html",
         "name": "Advanced Tips - Fun with VNC"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/07/01/android-app-easy-packet-blast.html",
+        "url": "https://hunterdavis.com/2011/07/01/android-app-easy-packet-blast.html",
         "name": "Android App - Easy Packet Blast"
       }
     ]

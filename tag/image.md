@@ -9,10 +9,10 @@ permalink: /tags/image/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: image",
-  "url": "https://www.hunterdavis.com/tags/image/",
+  "url": "https://hunterdavis.com/tags/image/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,25 +22,25 @@ permalink: /tags/image/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2011/07/11/android-app-easy-black-and-white.html",
+        "url": "https://hunterdavis.com/2011/07/11/android-app-easy-black-and-white.html",
         "name": "Android App - Easy Black and White"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/06/23/android-app-easy-image-morph.html",
+        "url": "https://hunterdavis.com/2011/06/23/android-app-easy-image-morph.html",
         "name": "Android App - Easy Image Morph"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "url": "https://www.hunterdavis.com/2011/06/07/android-app-easy-symmetry-check.html",
+        "url": "https://hunterdavis.com/2011/06/07/android-app-easy-symmetry-check.html",
         "name": "Android App - Easy Symmetry Check"
       },
       {
         "@type": "ListItem",
         "position": 4,
-        "url": "https://www.hunterdavis.com/2011/06/06/android-app-easy-image-shrink.html",
+        "url": "https://hunterdavis.com/2011/06/06/android-app-easy-image-shrink.html",
         "name": "Android App - Easy Image Shrink"
       }
     ]

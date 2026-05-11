@@ -9,10 +9,10 @@ permalink: /tags/images/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: images",
-  "url": "https://www.hunterdavis.com/tags/images/",
+  "url": "https://hunterdavis.com/tags/images/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,31 +22,31 @@ permalink: /tags/images/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2011/07/13/android-app-53-easy-image-stamp.html",
+        "url": "https://hunterdavis.com/2011/07/13/android-app-53-easy-image-stamp.html",
         "name": "Android App #53- Easy Image Stamp"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/07/11/android-app-easy-black-and-white.html",
+        "url": "https://hunterdavis.com/2011/07/11/android-app-easy-black-and-white.html",
         "name": "Android App - Easy Black and White"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "url": "https://www.hunterdavis.com/2011/06/09/android-app-easy-side-by-side.html",
+        "url": "https://hunterdavis.com/2011/06/09/android-app-easy-side-by-side.html",
         "name": "Android App - Easy Side By Side"
       },
       {
         "@type": "ListItem",
         "position": 4,
-        "url": "https://www.hunterdavis.com/2011/06/08/android-app-easy-graph-paper.html",
+        "url": "https://hunterdavis.com/2011/06/08/android-app-easy-graph-paper.html",
         "name": "Android App - Easy Graph Paper"
       },
       {
         "@type": "ListItem",
         "position": 5,
-        "url": "https://www.hunterdavis.com/2011/06/08/android-app-easy-static.html",
+        "url": "https://hunterdavis.com/2011/06/08/android-app-easy-static.html",
         "name": "Android App - Easy Static"
       }
     ]

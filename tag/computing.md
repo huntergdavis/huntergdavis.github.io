@@ -9,10 +9,10 @@ permalink: /tags/computing/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: computing",
-  "url": "https://www.hunterdavis.com/tags/computing/",
+  "url": "https://hunterdavis.com/tags/computing/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/computing/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html",
+        "url": "https://hunterdavis.com/2010/10/12/the-benefits-of-low-power-cluster-compilation-and-shameless-self-promotion.html",
         "name": "The Benefits of Low Power Cluster Compilation (and Shameless Self-Promotion)"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2010/04/18/roll-your-own-google-cloud-print-today-using-your-zipit-z2-or-anything-that-can-run-python-in-5-minutes.html",
+        "url": "https://hunterdavis.com/2010/04/18/roll-your-own-google-cloud-print-today-using-your-zipit-z2-or-anything-that-can-run-python-in-5-minutes.html",
         "name": "Roll your own Google Cloud Print, Today, Using Your Zipit Z2 (or anything that can run python), in 5 Minutes"
       }
     ]

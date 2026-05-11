@@ -9,10 +9,10 @@ permalink: /tags/arcade/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: arcade",
-  "url": "https://www.hunterdavis.com/tags/arcade/",
+  "url": "https://hunterdavis.com/tags/arcade/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/arcade/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html",
+        "url": "https://hunterdavis.com/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html",
         "name": "Jailbreaking a PS3 with Trackball Style (With Video)"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2010/04/20/a-quick-tuesday-prediction.html",
+        "url": "https://hunterdavis.com/2010/04/20/a-quick-tuesday-prediction.html",
         "name": "A Quick Tuesday Prediction"
       }
     ]

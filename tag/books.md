@@ -9,10 +9,10 @@ permalink: /tags/books/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: books",
-  "url": "https://www.hunterdavis.com/tags/books/",
+  "url": "https://hunterdavis.com/tags/books/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/books/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2012/01/30/now-is-the-time-to-buy-a-first-generation-e-reader.html",
+        "url": "https://hunterdavis.com/2012/01/30/now-is-the-time-to-buy-a-first-generation-e-reader.html",
         "name": "Now is the Time to Buy a First Generation E-Reader"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/07/29/my-books-75-off-this-week-for-smashwords-summer-sale.html",
+        "url": "https://hunterdavis.com/2011/07/29/my-books-75-off-this-week-for-smashwords-summer-sale.html",
         "name": "My Books 75% off this week for Smashwords Summer Sale!"
       }
     ]

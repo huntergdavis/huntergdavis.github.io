@@ -9,10 +9,10 @@ permalink: /tags/fun/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: fun",
-  "url": "https://www.hunterdavis.com/tags/fun/",
+  "url": "https://hunterdavis.com/tags/fun/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,31 +22,31 @@ permalink: /tags/fun/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2011/08/10/advanced-tips-fun-with-vnc.html",
+        "url": "https://hunterdavis.com/2011/08/10/advanced-tips-fun-with-vnc.html",
         "name": "Advanced Tips - Fun with VNC"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/03/06/secure-ssh-terminal-in-your-steam-overlay.html",
+        "url": "https://hunterdavis.com/2011/03/06/secure-ssh-terminal-in-your-steam-overlay.html",
         "name": "Secure SSH Terminal in your Steam Overlay"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "url": "https://www.hunterdavis.com/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html",
+        "url": "https://hunterdavis.com/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html",
         "name": "Jailbreaking a PS3 with Trackball Style (With Video)"
       },
       {
         "@type": "ListItem",
         "position": 4,
-        "url": "https://www.hunterdavis.com/2010/05/29/hackaway-2010-is-over-a-massive-success.html",
+        "url": "https://hunterdavis.com/2010/05/29/hackaway-2010-is-over-a-massive-success.html",
         "name": "Hackaway 2010 is Over!  A Massive Success!"
       },
       {
         "@type": "ListItem",
         "position": 5,
-        "url": "https://www.hunterdavis.com/2010/04/20/a-quick-tuesday-prediction.html",
+        "url": "https://hunterdavis.com/2010/04/20/a-quick-tuesday-prediction.html",
         "name": "A Quick Tuesday Prediction"
       }
     ]

@@ -9,10 +9,10 @@ permalink: /tags/emulation/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: emulation",
-  "url": "https://www.hunterdavis.com/tags/emulation/",
+  "url": "https://hunterdavis.com/tags/emulation/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,19 +22,19 @@ permalink: /tags/emulation/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2017/11/25/ti99fun.html",
+        "url": "https://hunterdavis.com/2017/11/25/ti99fun.html",
         "name": "TI-99/4A Tis Fun/4All"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/05/04/no-solder-no-tools-no-trouble-usb-wii-sensor-bar-conversion.html",
+        "url": "https://hunterdavis.com/2011/05/04/no-solder-no-tools-no-trouble-usb-wii-sensor-bar-conversion.html",
         "name": "No Solder, No Tools, No Trouble USB Wii Sensor Bar Conversion"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "url": "https://www.hunterdavis.com/2010/11/28/a-25-gamingemulation-powerhouse-using-the-dockstar-as-a-gaming-console.html",
+        "url": "https://hunterdavis.com/2010/11/28/a-25-gamingemulation-powerhouse-using-the-dockstar-as-a-gaming-console.html",
         "name": "A 25$ Gaming/Emulation Powerhouse - Using the Dockstar as a Gaming Console"
       }
     ]

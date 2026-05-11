@@ -9,10 +9,10 @@ permalink: /tags/box/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: box",
-  "url": "https://www.hunterdavis.com/tags/box/",
+  "url": "https://hunterdavis.com/tags/box/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/box/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html",
+        "url": "https://hunterdavis.com/2010/10/13/jailbreaking-a-ps3-with-trackball-style-with-video.html",
         "name": "Jailbreaking a PS3 with Trackball Style (With Video)"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2010/03/29/finished-building-my-first-guitar.html",
+        "url": "https://hunterdavis.com/2010/03/29/finished-building-my-first-guitar.html",
         "name": "Finished building my first guitar"
       }
     ]

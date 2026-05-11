@@ -34,7 +34,7 @@ REPO = Path(__file__).resolve().parents[1]
 POSTS = REPO / "_posts"
 OUT = REPO / "tag"
 MIN_POSTS = 2
-SITE_URL = "https://www.hunterdavis.com"
+SITE_URL = "https://hunterdavis.com"
 
 POST_RE = re.compile(
     r"^(?P<y>\d{4})-(?P<m>\d{1,2})-(?P<d>\d{1,2})-(?P<slug>.+)\.(?:md|markdown)$"

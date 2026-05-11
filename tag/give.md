@@ -9,10 +9,10 @@ permalink: /tags/give/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: give",
-  "url": "https://www.hunterdavis.com/tags/give/",
+  "url": "https://hunterdavis.com/tags/give/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/give/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2010/05/30/hackaway-2010-winners-announced.html",
+        "url": "https://hunterdavis.com/2010/05/30/hackaway-2010-winners-announced.html",
         "name": "Hackaway 2010 Winners Announced!"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2010/05/22/hackaway-2010-announced.html",
+        "url": "https://hunterdavis.com/2010/05/22/hackaway-2010-announced.html",
         "name": "Hackaway 2010 Announced!"
       }
     ]

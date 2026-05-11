@@ -9,10 +9,10 @@ permalink: /tags/zipit-dosbox-games-hacking-fun-c-source-hack/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: zipit-dosbox-games-hacking-fun-c-source-hack",
-  "url": "https://www.hunterdavis.com/tags/zipit-dosbox-games-hacking-fun-c-source-hack/",
+  "url": "https://hunterdavis.com/tags/zipit-dosbox-games-hacking-fun-c-source-hack/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,19 +22,19 @@ permalink: /tags/zipit-dosbox-games-hacking-fun-c-source-hack/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2010/05/30/hackaway-2010-winners-announced.html",
+        "url": "https://hunterdavis.com/2010/05/30/hackaway-2010-winners-announced.html",
         "name": "Hackaway 2010 Winners Announced!"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2009/06/20/zipit-z2-new-kernel-update.html",
+        "url": "https://hunterdavis.com/2009/06/20/zipit-z2-new-kernel-update.html",
         "name": "Zipit Z2 New Kernel Update!"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "url": "https://www.hunterdavis.com/2008/12/13/dosbox-for-zipit-z2.html",
+        "url": "https://hunterdavis.com/2008/12/13/dosbox-for-zipit-z2.html",
         "name": "Dosbox for Zipit Z2!"
       }
     ]

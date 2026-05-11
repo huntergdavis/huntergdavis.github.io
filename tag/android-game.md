@@ -9,10 +9,10 @@ permalink: /tags/android-game/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: android-game",
-  "url": "https://www.hunterdavis.com/tags/android-game/",
+  "url": "https://hunterdavis.com/tags/android-game/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,43 +22,43 @@ permalink: /tags/android-game/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2011/08/01/the-grind-magic-and-post-apocalypse-pack-is-live.html",
+        "url": "https://hunterdavis.com/2011/08/01/the-grind-magic-and-post-apocalypse-pack-is-live.html",
         "name": "The Grind - Magic and Post-Apocalypse Pack is Live!"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/07/26/62-android-game-skillful-dodge.html",
+        "url": "https://hunterdavis.com/2011/07/26/62-android-game-skillful-dodge.html",
         "name": "#62 - Android Game - Skillful Dodge"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "url": "https://www.hunterdavis.com/2011/07/25/61-android-game-custom-action-tap.html",
+        "url": "https://hunterdavis.com/2011/07/25/61-android-game-custom-action-tap.html",
         "name": "#61 - Android Game - Custom Action Tap"
       },
       {
         "@type": "ListItem",
         "position": 4,
-        "url": "https://www.hunterdavis.com/2011/07/21/59-android-game-custom-comets.html",
+        "url": "https://hunterdavis.com/2011/07/21/59-android-game-custom-comets.html",
         "name": "#59 - Android Game - Custom Comets"
       },
       {
         "@type": "ListItem",
         "position": 5,
-        "url": "https://www.hunterdavis.com/2011/07/20/58-android-game-custom-pong.html",
+        "url": "https://hunterdavis.com/2011/07/20/58-android-game-custom-pong.html",
         "name": "#58 - Android Game - Custom Pong"
       },
       {
         "@type": "ListItem",
         "position": 6,
-        "url": "https://www.hunterdavis.com/2011/07/19/57-android-game-skillful-surround.html",
+        "url": "https://hunterdavis.com/2011/07/19/57-android-game-skillful-surround.html",
         "name": "#57 - Android Game - Skillful Surround"
       },
       {
         "@type": "ListItem",
         "position": 7,
-        "url": "https://www.hunterdavis.com/2011/07/18/56-android-game-skillful-lines.html",
+        "url": "https://hunterdavis.com/2011/07/18/56-android-game-skillful-lines.html",
         "name": "#56 - Android Game - Skillful Lines"
       }
     ]

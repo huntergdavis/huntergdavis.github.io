@@ -9,10 +9,10 @@ permalink: /tags/thrift/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: thrift",
-  "url": "https://www.hunterdavis.com/tags/thrift/",
+  "url": "https://hunterdavis.com/tags/thrift/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/thrift/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2010/11/08/how-i-saved-for-my-startup-free-e-book-released.html",
+        "url": "https://hunterdavis.com/2010/11/08/how-i-saved-for-my-startup-free-e-book-released.html",
         "name": "How I Saved For My Startup - Free E-book Released"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2010/04/11/the-littlest-famicom.html",
+        "url": "https://hunterdavis.com/2010/04/11/the-littlest-famicom.html",
         "name": "The littlest famicom"
       }
     ]

@@ -1501,6 +1501,30 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **A.17** Switch `site.url` from www subdomain to apex.
+      **M** · *Shipped 2026-05-11.* `_config.yml` declared
+      `url: https://www.hunterdavis.com` but A.14's live audit
+      established that every request to that URL returns a
+      `301` to `https://hunterdavis.com/...` (apex). The site
+      *actually* serves at apex; www is just the redirect
+      shim. The misaligned config meant every absolute URL
+      Liquid emitted via `absolute_url` (JSON-LD `@id`/`url`
+      fields across BlogPosting, Person, WebSite,
+      BreadcrumbList, CollectionPage; OG/Twitter share-card
+      URLs; `<link rel="canonical">`; RSS `<link>` and `<guid>`
+      elements; the XML sitemap's `<loc>`; the OpenSearch
+      `urlTemplate`) emitted a stale www URL that
+      auto-redirected. Repointed `site.url` to
+      `https://hunterdavis.com`. Also updated the `SITE_URL`
+      constant in `script/generate_year_archives.py` and
+      `script/generate_tag_pages.py` and regenerated all 19
+      year-archive pages and 84 tag pages — those scripts
+      bake JSON-LD URLs as literal strings rather than
+      reading from `site.url`, so the constant needed to
+      move in lockstep. Verified zero remaining
+      `www.hunterdavis.com` references in generated content;
+      the only ones left are bare URLs inside user prose in
+      `about.md` (preserved per the prose-is-mine rule).
 - [x] **B.30** Sidebar reorder + cleaner site title. **S** ·
       *Shipped 2026-05-11.* User flagged: Contact Me and RSS
       visually fell under the "Games" group heading because
@@ -2496,6 +2520,14 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase A.17 shipped**: switched `site.url`
+  from `https://www.hunterdavis.com` to `https://hunterdavis.com`
+  to match the actual canonical apex serving target. Updated
+  the `SITE_URL` constant in both generator scripts and
+  regenerated 19 year-archive + 84 tag pages so the baked
+  JSON-LD URLs follow. Removes a 301-redirect hop on every
+  scraped canonical URL, OG share URL, RSS feed link, and
+  schema `@id`.
 - `2026-05-11` — **Phase B.30 shipped**: sidebar Contact Me + RSS
   moved up to positions 2 and 3 right after GitHub; redundant
   broken `<form class="side-search-form">` removed; external

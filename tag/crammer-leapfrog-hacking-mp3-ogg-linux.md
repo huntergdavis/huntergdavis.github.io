@@ -9,10 +9,10 @@ permalink: /tags/crammer-leapfrog-hacking-mp3-ogg-linux/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: crammer-leapfrog-hacking-mp3-ogg-linux",
-  "url": "https://www.hunterdavis.com/tags/crammer-leapfrog-hacking-mp3-ogg-linux/",
+  "url": "https://hunterdavis.com/tags/crammer-leapfrog-hacking-mp3-ogg-linux/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/crammer-leapfrog-hacking-mp3-ogg-linux/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2010/05/29/hackaway-2010-is-over-a-massive-success.html",
+        "url": "https://hunterdavis.com/2010/05/29/hackaway-2010-is-over-a-massive-success.html",
         "name": "Hackaway 2010 is Over!  A Massive Success!"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2010/02/14/leapfrog-crammer-10-ogg-vorbismp3-etc-with-disassembly.html",
+        "url": "https://hunterdavis.com/2010/02/14/leapfrog-crammer-10-ogg-vorbismp3-etc-with-disassembly.html",
         "name": "Leapfrog Crammer - 10$ ogg vorbis/mp3 etc with disassembly"
       }
     ]

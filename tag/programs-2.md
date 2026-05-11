@@ -9,10 +9,10 @@ permalink: /tags/programs-2/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Tagged: programs-2",
-  "url": "https://www.hunterdavis.com/tags/programs-2/",
+  "url": "https://hunterdavis.com/tags/programs-2/",
   "isPartOf": {
     "@type": "WebSite",
-    "url": "https://www.hunterdavis.com/"
+    "url": "https://hunterdavis.com/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -22,13 +22,13 @@ permalink: /tags/programs-2/
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://www.hunterdavis.com/2012/02/28/debug-logs-as-python-programs.html",
+        "url": "https://hunterdavis.com/2012/02/28/debug-logs-as-python-programs.html",
         "name": "Debug Logs as Python Programs"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://www.hunterdavis.com/2011/08/18/easter-eggs.html",
+        "url": "https://hunterdavis.com/2011/08/18/easter-eggs.html",
         "name": "Easter Eggs!"
       }
     ]
