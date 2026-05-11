@@ -604,14 +604,27 @@ is complete.*
       as the new sub-page slugs. Add the 3 legacy `/about/<slug>/`
       URLs to `_data/legacy_redirects.yml` → current Jekyll post.
       **S**
-- [ ] **A.10** `script/check_redirects.py` — bootstrap with a
-      curated list of canonical historical URLs (Hackaday-linked
-      posts, the `/archives/NNN` IDs, the home, `/about.html`,
-      `/feed.xml`, `/sitemap.xml`). Asserts 200 or refresh→200
-      against a target host. Use `--host=http://localhost:4000`
-      locally, `--host=https://hunterdavis.com` in CI. Extend to
-      cover every entry in `_data/legacy_redirects.yml` once A.7
-      is in place. **M**
+- [x] **A.10** `script/check_redirects.py` — bootstrap with a
+      curated list of canonical historical URLs. **M** ·
+      *Shipped 2026-05-10.* Reads every confirmed/high entry
+      from `_data/legacy_redirects.yml` (archives, wp_slugs,
+      about_slugs — 164 entries after filtering out the
+      source-tree-visualizer sibling-repo collision via
+      `_data/projects_subpaths.yml`), GETs each legacy URL
+      against `--host`, follows native 301/302s, also parses
+      `<meta http-equiv="refresh">` stubs (the form
+      `jekyll-redirect-from` emits since GH Pages can't serve
+      true 301s), and asserts the final URL contains the
+      expected target. `--limit N` for partial checks,
+      `--verbose` for per-URL log. Exit 0 on success, 1 on
+      any failure, 2 on config error. Defaults to
+      `https://hunterdavis.com`. Doesn't run in CI yet —
+      that's Phase 8.3; today this is a manual post-deploy
+      verification tool. Script syntax-validated; entry
+      collection verified to match A.7's emission count
+      exactly (164). Also added `__pycache__/`, `*.pyc`,
+      `.bundle/`, `vendor/` to `.gitignore` so pyc artifacts
+      from script invocations don't pollute the working tree.
 - [ ] **A.11** Recover anything still unmapped from `archive.org`.
       `script/scrape_wayback_legacy_urls.py` walks
       `web.archive.org/web/*/hunterdavis.com/*`, extracts
@@ -2046,3 +2059,13 @@ any public-facing milestone copy until a source is added.
   click and survives any future host change (e.g., 8.4's
   apex/www flip). The codebase is now portable: `_site/`
   could be served from any origin without rewriting bodies.
+- `2026-05-10` — **Phase A.10 shipped**:
+  `script/check_redirects.py`. Defensive verification tool
+  that GETs every confirmed/high entry from
+  `_data/legacy_redirects.yml` (164 after subpath-collision
+  filter), follows 301/302s natively, parses meta-refresh
+  stubs, and asserts the final URL hits the expected target.
+  Manual post-deploy use today; CI integration tracked under
+  8.3. `.gitignore` extended to cover `__pycache__/` /
+  `*.pyc` / `.bundle/` / `vendor/` so future script
+  invocations don't dirty the working tree.
