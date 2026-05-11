@@ -4,6 +4,14 @@ title: Save Game Saver - Gmail Save Game Storage
 date: '2009-09-11 08:53:41'
 redirect_from:
   - /popular-open-source-projects/save-game-saver-backup-and-retrieve-your-save-games-from-gmail/
+tags:
+- python
+- games
+- open-source
+- programming
+- google
+- cloud
+- github
 ---
 
 

@@ -2,6 +2,12 @@
 layout: post
 title: New Publication
 date: '2009-10-28 09:34:11'
+tags:
+- personal
+- announcement
+- publishing
+- book
+- amazon
 ---
 
 

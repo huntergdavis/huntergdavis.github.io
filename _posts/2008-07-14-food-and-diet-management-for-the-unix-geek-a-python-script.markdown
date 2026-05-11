@@ -2,6 +2,13 @@
 layout: post
 title: Food (and diet) management for the unix geek, a python script
 date: '2008-07-14 15:39:05'
+tags:
+- python
+- linux
+- unix
+- scripts
+- programming
+- body-hacks
 ---
 
 

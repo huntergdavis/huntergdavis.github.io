@@ -2,6 +2,13 @@
 layout: post
 title: Wallclock 4.0 - Portable Project Natal
 date: '2009-08-19 10:19:17'
+tags:
+- hacking
+- hack
+- repurposing
+- thrift
+- build
+- hot-glue
 ---
 
 

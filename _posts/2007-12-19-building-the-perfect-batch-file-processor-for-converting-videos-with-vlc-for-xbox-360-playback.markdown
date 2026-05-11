@@ -5,6 +5,11 @@ title: Building the Perfect Batch File Processor for Converting Videos with VLC 
 date: '2007-12-19 16:06:05'
 tags:
 - xbox-360-conversion-software
+- xbox
+- video
+- conversion
+- scripts
+- windows
 ---
 
 

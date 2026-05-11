@@ -3,6 +3,14 @@ layout: post
 title: Z2 quickie video followup - (debian) Bomberclone running (with sound, SDL ,etc)
   on the Z2
 date: '2009-10-03 11:10:34'
+tags:
+- zipit-z2
+- zipit
+- z2
+- linux
+- debian
+- games
+- video
 ---
 
 

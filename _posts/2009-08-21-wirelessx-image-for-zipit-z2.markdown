@@ -3,6 +3,13 @@ layout: post
 title: wireless+x image for zipit z2
 date: '2009-08-21 16:43:51'
 project: zipit-z2
+tags:
+- zipit-z2
+- zipit
+- z2
+- linux
+- hacking
+- build
 ---
 
 

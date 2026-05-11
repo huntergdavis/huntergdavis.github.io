@@ -2,6 +2,11 @@
 layout: post
 title: Casey on youtube!
 date: '2007-12-28 15:35:29'
+tags:
+- personal
+- pets
+- video
+- fun
 ---
 
 

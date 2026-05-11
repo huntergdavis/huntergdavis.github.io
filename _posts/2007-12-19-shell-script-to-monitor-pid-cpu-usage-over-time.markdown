@@ -2,6 +2,11 @@
 layout: post
 title: Shell Script to Monitor PID cpu usage over time
 date: '2007-12-19 16:30:50'
+tags:
+- linux
+- shell
+- scripts
+- programming
 ---
 
 

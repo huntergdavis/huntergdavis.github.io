@@ -2,6 +2,12 @@
 layout: post
 title: csserver adventure!
 date: '2007-12-19 16:23:19'
+tags:
+- games
+- rpg
+- open-source
+- programming
+- source-code
 ---
 
 

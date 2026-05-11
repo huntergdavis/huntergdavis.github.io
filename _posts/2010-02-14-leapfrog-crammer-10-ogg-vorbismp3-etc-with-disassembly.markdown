@@ -4,6 +4,12 @@ title: Leapfrog Crammer - 10$ ogg vorbis/mp3 etc with disassembly
 date: '2010-02-14 10:14:04'
 tags:
 - crammer-leapfrog-hacking-mp3-ogg-linux
+- hacking
+- linux
+- audio
+- cheap
+- repurposing
+- chips
 ---
 
 

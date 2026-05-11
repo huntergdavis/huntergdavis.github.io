@@ -3,6 +3,15 @@ layout: post
 title: Z2 gaming and system update - GBA, GB/GBC, ScummVM (Sam and Max/Full Throttle
   Full Talkie), auto-login to Fluxbox on boot
 date: '2009-10-04 17:24:27'
+tags:
+- zipit-z2
+- zipit
+- z2
+- emulation
+- games
+- gba
+- linux
+- video
 ---
 
 

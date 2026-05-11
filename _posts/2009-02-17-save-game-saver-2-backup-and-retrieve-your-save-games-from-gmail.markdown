@@ -4,6 +4,12 @@ title: Save Game Saver -- Backup and Retrieve your Save Games from Gmail
 date: '2009-02-17 12:24:56'
 tags:
 - save-games-programs-python-gmail-free-gpl
+- python
+- games
+- open-source
+- programming
+- google
+- cloud
 ---
 
 

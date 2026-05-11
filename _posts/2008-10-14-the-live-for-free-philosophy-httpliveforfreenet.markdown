@@ -2,6 +2,11 @@
 layout: post
 title: The Live For Free Philosophy -- http://liveforfree.net/
 date: '2008-10-14 11:17:41'
+tags:
+- live-for-free
+- personal
+- announcement
+- thrift
 ---
 
 

@@ -3,6 +3,15 @@ layout: post
 title: New Video - HULU on the Zipit Z2
 date: '2009-09-28 19:57:07'
 project: zipit-z2
+tags:
+- zipit-z2
+- zipit
+- z2
+- linux
+- hacking
+- video
+- network
+- tutorial
 ---
 
 

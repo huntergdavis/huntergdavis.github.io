@@ -3,6 +3,16 @@ layout: post
 title: New Video/Tutorial - Flashing a Stock Z2 to Newest Debian Image (Windows edition)
 date: '2009-10-01 22:19:00'
 project: zipit-z2
+tags:
+- zipit-z2
+- zipit
+- z2
+- linux
+- debian
+- hacking
+- video
+- tutorial
+- windows
 ---
 
 

@@ -2,6 +2,13 @@
 layout: post
 title: Hacking the Trivial Pursuit - Digial Choice Edition - pt 1 -
 date: '2009-10-10 17:58:00'
+tags:
+- hacking
+- linux
+- repurposing
+- usb
+- games
+- encryption
 ---
 
 

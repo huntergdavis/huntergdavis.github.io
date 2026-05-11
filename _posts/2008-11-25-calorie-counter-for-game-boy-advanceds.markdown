@@ -2,6 +2,13 @@
 layout: post
 title: Calorie Counter for Game Boy Advance and Nintendo DS
 date: '2008-11-25 14:14:26'
+tags:
+- gba
+- nintendo
+- programming
+- open-source
+- body-hacks
+- emulation
 ---
 
 

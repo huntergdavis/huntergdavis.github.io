@@ -3,6 +3,14 @@ layout: post
 title: 17$ Mobile Java Gaming Console - Plus Sample Code and Application To Get You
   Started!
 date: '2009-12-20 20:32:15'
+tags:
+- hacking
+- games
+- programming
+- cheap
+- repurposing
+- arm
+- source-code
 ---
 
 

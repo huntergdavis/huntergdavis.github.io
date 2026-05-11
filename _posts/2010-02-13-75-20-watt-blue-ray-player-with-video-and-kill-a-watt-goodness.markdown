@@ -2,6 +2,13 @@
 layout: post
 title: 75$, 20 watt blue ray player (with video and kill-a-watt goodness)
 date: '2010-02-13 14:59:08'
+tags:
+- hacking
+- hack
+- repurposing
+- video
+- cheap
+- low-power
 ---
 
 

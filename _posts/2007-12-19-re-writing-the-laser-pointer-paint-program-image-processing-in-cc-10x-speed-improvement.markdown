@@ -3,6 +3,13 @@ layout: post
 title: Re-Writing the laser pointer paint program (image processing) in C/C++ - 10x
   speed improvement
 date: '2007-12-19 16:45:02'
+tags:
+- linux
+- programming
+- computer-vision
+- image
+- open-source
+- tutorial
 ---
 
 

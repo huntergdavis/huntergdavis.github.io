@@ -2,6 +2,13 @@
 layout: post
 title: Hackaway 2009 - The great hack giveaway has begun!
 date: '2009-12-02 17:28:55'
+tags:
+- hackaway
+- hacking
+- give-away
+- give
+- announcement
+- news
 ---
 
 
