@@ -1177,6 +1177,21 @@ populate.*
       gives Phase 2.2 (tag pages), 2.3 (tag index), and B.18
       (topic cloud) the data they need without imposing
       authored vocabulary on the user's organic tagging.
+- [x] **2.2b** Point tag-chip links at the new tag pages. **S** ·
+      *Shipped 2026-05-11.* Wired up the three places that
+      render tag chips so they prefer `/tags/<slug>/` over
+      `/search.html?query=<slug>`: post pages
+      (`_layouts/post.html`), home post cards (`index.html`),
+      and the sidebar topic-cloud (`_includes/sidebar.html`).
+      Post and home use a `{% if site.data.tags[tag] >= 2 %}`
+      guard so single-use tags (no generated page) still fall
+      through to `/search.html`. Sidebar is unconditional —
+      the topic-cloud limits to the top 30 tags by count and
+      the 30th tag has count 3, comfortably above threshold.
+      Closes the 2.2 cross-linking loop: posts now connect
+      to dedicated tag pages, tag pages back-link to
+      `/tags/` and `/archive/`, and the cycle of internal
+      links is unbroken.
 - [x] **2.2** Generate per-tag pages. **M** ·
       *Shipped 2026-05-11.* Used a Python pre-build script
       instead of a Ruby `_plugins/` generator since the
@@ -2055,6 +2070,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 2.2b shipped**: tag chips on post pages,
+  home post cards, and the sidebar topic-cloud now link to the
+  new `/tags/<slug>/` pages instead of `/search.html?query=`.
+  Post/home use a conditional guard on `_data/tags.yml`
+  counts so single-use tags fall back to search; sidebar
+  top-30 is unconditional (all eligible).
 - `2026-05-11` — **Phase 2.2 shipped**: per-tag pages. New
   `script/generate_tag_pages.py` emits 84 pages at
   `/tags/<slug>/` for every tag with ≥ 2 posts (286 single-use

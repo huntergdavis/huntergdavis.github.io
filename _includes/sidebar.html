@@ -41,7 +41,7 @@
 	<div class="unit whole topic-cloud">
 		<h4>Tags</h4>
 		<ul>
-			{% for pair in site.data.tags limit: 30 %}<li><a href="/search.html?query={{ pair[0] | url_encode }}">{{ pair[0] }} <span class="count">{{ pair[1] }}</span></a></li>
+			{% for pair in site.data.tags limit: 30 %}<li><a href="/tags/{{ pair[0] }}/">{{ pair[0] }} <span class="count">{{ pair[1] }}</span></a></li>
 			{% endfor %}
 		</ul>
 		<p class="more"><a href="/tags/">All tags &rarr;</a></p>

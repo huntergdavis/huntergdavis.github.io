@@ -60,9 +60,9 @@ layout: default
 		{% if page.tags and page.tags.size > 0 %}
 			<div class="tags">
 				Tagged:
-				{% for tag in page.tags %}
-				<a class="tag-chip" href="/search.html?query={{ tag | url_encode }}">{{ tag }}</a>
-				{% endfor %}
+				{% for tag in page.tags %}{% assign tag_count = site.data.tags[tag] %}{% if tag_count >= 2 %}
+				<a class="tag-chip" href="/tags/{{ tag }}/">{{ tag }}</a>{% else %}
+				<a class="tag-chip" href="/search.html?query={{ tag | url_encode }}">{{ tag }}</a>{% endif %}{% endfor %}
 			</div>
 		{% endif %}
 		{{ content }}
