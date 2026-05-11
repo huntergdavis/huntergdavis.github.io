@@ -2671,6 +2671,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.83 shipped**: paginator semantic hints —
+  `<link rel="prev">` and `<link rel="next">` in head when
+  paginator has neighbors. Complements B.82's prefetch; useful to
+  browsers, RSS readers, and accessibility tooling that surface
+  next/previous within a paginated series.
 - `2026-05-11` — **Phase B.82 shipped**: `<link rel="prefetch">` for
   the next paginated page when paginator.next_page exists. Browsers
   fetch page N+1 in the background — near-instant transitions when
