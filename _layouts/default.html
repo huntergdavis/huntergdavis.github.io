@@ -18,8 +18,8 @@
         <link rel="alternate" type="application/rss+xml" title="{{ site.name }} (full-content)" href="/feed-full.xml">
         <link rel="search" type="application/opensearchdescription+xml" title="{{ site.name }}" href="/opensearch.xml">
         {% if site.links.github %}<link rel="me" href="https://github.com/{{ site.links.github }}">{% endif %}
-        <link rel="me" href="https://www.linkedin.com/in/hunterdavis/">
-        <link rel="me" href="https://news.ycombinator.com/user?id=huntergdavis">
+        {% if site.links.linkedin %}<link rel="me" href="{{ site.links.linkedin }}">{% endif %}
+        {% if site.links.hackernews %}<link rel="me" href="{{ site.links.hackernews }}">{% endif %}
         {% include ssn.html %}
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/style.css">

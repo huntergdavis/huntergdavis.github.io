@@ -5,9 +5,9 @@
   "name": {{ site.author | default: "Hunter Davis" | jsonify }},
   "url": {{ '/' | absolute_url | jsonify }},
   "sameAs": [
-    {{ "https://github.com/" | append: site.links.github | jsonify }},
-    "https://www.linkedin.com/in/hunterdavis/",
-    "https://news.ycombinator.com/user?id=huntergdavis"
+    {% if site.links.github %}{{ "https://github.com/" | append: site.links.github | jsonify }}{% if site.links.linkedin or site.links.hackernews %},{% endif %}
+    {% endif %}{% if site.links.linkedin %}{{ site.links.linkedin | jsonify }}{% if site.links.hackernews %},{% endif %}
+    {% endif %}{% if site.links.hackernews %}{{ site.links.hackernews | jsonify }}{% endif %}
   ]
 }
 </script>
