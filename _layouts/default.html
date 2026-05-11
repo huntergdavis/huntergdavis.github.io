@@ -18,6 +18,7 @@
         <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/feed.xml">
         <link rel="alternate" type="application/rss+xml" title="{{ site.name }} (full-content)" href="/feed-full.xml">
         <link rel="search" type="application/opensearchdescription+xml" title="{{ site.name }}" href="/opensearch.xml">
+        {% if paginator.next_page %}<link rel="prefetch" href="{{ paginator.next_page_path }}">{% endif %}
         {% if site.links.github %}<link rel="me" href="https://github.com/{{ site.links.github }}">{% endif %}
         {% if site.links.linkedin %}<link rel="me" href="{{ site.links.linkedin }}">{% endif %}
         {% if site.links.hackernews %}<link rel="me" href="{{ site.links.hackernews }}">{% endif %}

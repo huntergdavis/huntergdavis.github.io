@@ -2671,6 +2671,10 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.82 shipped**: `<link rel="prefetch">` for
+  the next paginated page when paginator.next_page exists. Browsers
+  fetch page N+1 in the background — near-instant transitions when
+  the visitor pages forward through the home feed.
 - `2026-05-11` — **Phase B.81 shipped**: home page-1 first card
   hero img is now eager + `fetchpriority="high"` (drops
   `loading="lazy"`); subsequent cards retain lazy-loading.
