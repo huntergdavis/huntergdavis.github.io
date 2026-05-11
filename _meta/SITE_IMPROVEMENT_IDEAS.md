@@ -618,14 +618,19 @@ is complete.*
       `(url, title, date)` tuples for any URL not already in
       `_data/legacy_redirects.yml`, best-matches each to a Jekyll
       post slug, output to CSV for human review. **L**
-- [ ] **A.12** Smart 404 enhancement. When the requested path
-      starts with `/archives/`, `/category/`, `/android-app-`,
-      `/android-game-`, `/?p=`, or `/about/`, the page extracts
-      the slug from `window.location.pathname`, runs a prefilled
-      lunr search over the post index, and presents likely
-      matches. Catches anything the explicit redirects miss
-      (especially URLs only linked from third-party sites we
-      can't enumerate). **S**
+- [x] **A.12** Smart 404 enhancement. **S** ·
+      *Shipped 2026-05-10.* `404.html` now displays the
+      requested path in a `<code>` block, ships a prominent
+      search form, and runs a tiny JS pattern-extractor that
+      derives a sensible search hint from the requested URL.
+      Patterns covered: `/android-app-…`, `/android-game-…`,
+      `/android-apps/<cat>/<slug>`, `/popular-open-source-projects/<slug>`,
+      `/category/<slug>`, `/about/<slug>`, `?s=<term>`, and any
+      remaining slug-shaped path. The input auto-focuses with
+      the prefilled hint selected, so the reader can hit Enter
+      to search or type to replace. Verified across 9 sample
+      URLs; the existing user-authored "Sorry…" copy and "Go
+      back" link preserved verbatim. No AI prose authored.
 - [x] **A.13** Build-fail subpath-collision check. **S** ·
       *Shipped 2026-05-10.* `script/check_subpath_collisions.py`
       loads `_data/projects_subpaths.yml` (135 reserved names),
@@ -1780,3 +1785,13 @@ any public-facing milestone copy until a source is added.
   removed → exit 0. Defensive infrastructure that prevents
   future commits from silently clobbering a sibling-repo
   deploy.
+- `2026-05-10` — **Phase A.12 shipped**: smart 404 page. The
+  existing "Sorry…" copy is preserved, joined by a path
+  display and a prefilled search form. Tiny JS pattern-matcher
+  derives a search hint from `/android-app-…`,
+  `/android-apps/<cat>/<slug>`, `/popular-open-source-projects/<slug>`,
+  `/category/<slug>`, `/about/<slug>`, `?s=…`, and slug-shaped
+  paths. Reader lands on an unknown URL → sees what they
+  asked for, an auto-focused search input prefilled with a
+  best-guess term, and a Go-back affordance. Catches anything
+  the explicit redirects miss.

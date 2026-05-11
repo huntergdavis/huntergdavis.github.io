@@ -349,6 +349,48 @@ article{
 
 }
 
+.not-found-path{
+	text-align: center;
+	margin: 1em 0;
+
+	code{
+		background: #f4f4f4;
+		padding: 4px 10px;
+		border-radius: 3px;
+		color: #b00;
+	}
+}
+
+.not-found-search{
+	display: flex;
+	gap: 0.5em;
+	justify-content: center;
+	margin: 1em 0;
+
+	input[type="search"]{
+		flex: 1 1 0;
+		max-width: 300px;
+		padding: 6px 10px;
+		font-size: 0.95em;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+	}
+	button{
+		padding: 6px 14px;
+		font-size: 0.95em;
+		background: #0B5485;
+		color: #fff;
+		border: 1px solid #0B5485;
+		border-radius: 3px;
+		cursor: pointer;
+
+		&:hover, &:focus{
+			background: #149797;
+			border-color: #149797;
+		}
+	}
+}
+
 .breadcrumb{
 	font-size: 0.85em;
 	color: #666;

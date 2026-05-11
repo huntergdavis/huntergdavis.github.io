@@ -5,6 +5,38 @@ title: Error 404
 <div id="home" class="grid post">
 <div class="unit whole">
 	<h1>Sorry. Looks like the bit you requested does not exist.</h1>
+	<p class="not-found-path"><code id="not-found-path"></code></p>
+	<form class="not-found-search" action="/search.html" method="get" role="search">
+		<label for="not-found-search-input" class="visually-hidden">Search</label>
+		<input type="search" id="not-found-search-input" name="query" placeholder="Search…" autocomplete="off">
+		<button type="submit">Search</button>
+	</form>
 	<p style="text-align:center"><a href="/">Go back</a></p>
+	<script>
+	(function(){
+		var path = location.pathname || '';
+		var qs = location.search || '';
+		var el = document.getElementById('not-found-path');
+		if (el) el.textContent = path + qs;
+
+		var hint = '';
+		var m;
+		if (m = path.match(/^\/android-app-(.+?)\/?$/)) hint = m[1].replace(/-/g, ' ');
+		else if (m = path.match(/^\/android-game-(.+?)\/?$/)) hint = m[1].replace(/-/g, ' ');
+		else if (m = path.match(/^\/android-apps\/[^\/]+\/(.+?)\/?$/)) hint = m[1].replace(/[-_]/g, ' ');
+		else if (m = path.match(/^\/popular-open-source-projects\/(.+?)\/?$/)) hint = m[1].replace(/[-_]/g, ' ');
+		else if (m = path.match(/^\/category\/(.+?)\/?$/)) hint = m[1].replace(/[-_\/]/g, ' ');
+		else if (m = path.match(/^\/about\/(.+?)\/?$/)) hint = m[1].replace(/-/g, ' ');
+		else if (m = qs.match(/[?&]s=([^&]+)/)) hint = decodeURIComponent(m[1]).replace(/\+/g, ' ');
+		else if (m = path.match(/^\/([a-z][a-z0-9-]+)\/?$/)) hint = m[1].replace(/-/g, ' ');
+
+		var input = document.getElementById('not-found-search-input');
+		if (input && hint) {
+			input.value = hint;
+			input.focus();
+			input.select();
+		}
+	})();
+	</script>
 </div>
 </div>
