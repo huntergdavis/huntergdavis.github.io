@@ -1501,6 +1501,22 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.24** Differentiate `<title>` on paginated home pages.
+      **S** · *Shipped 2026-05-11.* Every paginated home page
+      (`/page2/`, `/page3/`, …) used to share the same
+      `<title>Home | HunterDavis.com</title>` — duplicate
+      titles across the corpus are an SEO smell and confuse
+      reopened-tab labeling. Updated the `<title>` in
+      `_layouts/default.html` to suffix ` (page N)` when
+      `paginator.page > 1`. Page 1 stays `Home | …`
+      unchanged; non-paginated pages (posts, /about/,
+      /projects/, etc.) where `paginator` is nil are
+      protected by the `paginator and …` short-circuit. The
+      OG/Twitter title meta tags deliberately keep just the
+      page title — adding " (page N)" would make social
+      share cards look broken. Side benefit: bookmarks and
+      browser-history entries for paginated pages now show
+      which page the user was on.
 - [x] **A.16** Redirect WordPress date archives to per-year
       pages. **S** · *Shipped 2026-05-11.* WordPress used
       `/YYYY/` and `/YYYY/MM/` URLs as date archives. After the
@@ -2271,6 +2287,10 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.24 shipped**: paginated home pages now
+  get distinct `<title>` tags — ` (page N)` suffix appears when
+  `paginator.page > 1`. Cures duplicate-title SEO smell across
+  /page2/–/pageN/ and clarifies bookmarks/history.
 - `2026-05-11` — **Phase A.16 shipped**: WordPress date-archive URLs
   (`/YYYY/`, `/YYYY/MM/`) now redirect via 404.html's smart
   handler to `/archive/YYYY/`. Bounded regex avoids matching
