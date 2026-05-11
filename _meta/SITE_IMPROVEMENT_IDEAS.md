@@ -1501,6 +1501,33 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.27** Fix tags sidebar + tighten header nav. **S** ·
+      *Shipped 2026-05-11.* Two user-flagged visual bugs.
+      (1) **Tags sidebar bug**: `_data/tags.yml` was emitted
+      by `audit_tags.py` with an extra top-level wrapper key
+      `tags:` so the actual slug→count dict was nested one
+      level deep. Every Liquid consumer assumed flat access
+      — `site.data.tags[slug]` and `for pair in site.data.tags`
+      — so the sidebar topic-cloud rendered a single `<li>`
+      with text "tags" and a Ruby-hash-dump count, and the
+      conditional `>= 2` guards on home/post tag chips
+      always fell through to `/search.html` because the
+      lookup returned nil. The /tags/ index also rendered
+      one bullet instead of 370. Flattened the generator's
+      output (no more `tags:` header, no two-space prefix
+      on each line) and regenerated. All four consumers now
+      work as designed: post tag chips link to
+      `/tags/<slug>/`, sidebar topic-cloud shows the real
+      top 30, /tags/ index lists all 370.
+      (2) **Header nav looked dirty**: nav items were
+      left-aligned inside a full-width dark band with chunky
+      15px/20px padding. Added `text-align: center` to
+      `.main-nav` so the inline-block ul centers within the
+      band, dropped link padding to 10px/16px, and tightened
+      the active-page underline from a heavy `4px solid` to
+      a cleaner `3px solid` (matched on hover too). Removed
+      the legacy `margin-right: -4px` whitespace hack that
+      isn't needed once the container is text-aligned.
 - [x] **B.26** Comprehensive `/sitemap.xml`. **M** ·
       *Shipped 2026-05-11.* The crawler-facing XML sitemap
       previously listed only `site.posts` (507) plus any
@@ -2324,6 +2351,13 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.27 shipped**: fixed two visual bugs.
+  `_data/tags.yml` was wrapped in a `tags:` key making every
+  Liquid lookup fail silently — flattened the audit_tags.py
+  output so /tags/, the sidebar topic-cloud, and the tag-chip
+  count guards on home/posts all work. Also centered the
+  header nav and tightened its padding (10/16 from 15/20, 3px
+  underline from 4px).
 - `2026-05-11` — **Phase B.26 shipped**: rewrote `/sitemap.xml` to
   iterate `site.html_pages` automatically, picking up /archive/,
   /projects/, /tags/, all 84 tag pages, all 19 year-archive

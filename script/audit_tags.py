@@ -40,9 +40,10 @@ HEADER = """\
 # Captures every distinct tag value that appears anywhere in
 # _posts/*.markdown, with the number of posts each tag appears on.
 #
-# This is the minimum data Phase 2.1 needs to enable downstream
-# work: Phase 2.2 (tag page generator), Phase 2.3 (/tags/ index),
-# and Phase B.18 (topic-cloud widget) all consume this dict.
+# Read in Liquid as `site.data.tags[slug]` (count lookup) or
+# `for pair in site.data.tags` (iterate). The top level of this
+# file is intentionally the flat slug -> count map — no wrapper
+# key — so those access patterns work directly.
 #
 # Canonical-form curation — collapsing near-synonyms like
 # android-app / android-apps-2 / app-tag into one, giving each
@@ -52,8 +53,6 @@ HEADER = """\
 #
 # Regenerate:
 #   python3 script/audit_tags.py
-
-tags:
 """
 
 
@@ -88,7 +87,7 @@ def main() -> int:
         # words ("true", "no", etc.), and anything else unambiguously
         # parsed as strings.
         quoted = slug.replace('"', '\\"')
-        lines.append(f'  "{quoted}": {n}')
+        lines.append(f'"{quoted}": {n}')
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
