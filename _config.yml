@@ -3,6 +3,9 @@ name: HunterDavis.com
 ##The author's full name — used in <meta name="author">, JSON-LD,
 ##and any consumer that wants a human-readable creator name.
 author: Hunter Davis
+##First year of original content on the site. Used in the footer's
+##copyright year-range. Earliest post is 2007-12-19-csserver-adventure.
+start_year: 2007
 ##Markdown processor
 markdown: kramdown
 ##syntax highlighter. change it to rogue
