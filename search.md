@@ -4,7 +4,7 @@ title: Search Results
 ---
 <form class="search-page-form" action="/search.html" method="get" role="search">
   <label for="search-page-input" class="visually-hidden">Search</label>
-  <input type="search" id="search-page-input" name="query" placeholder="Search…" autocomplete="off" autofocus>
+  <input type="search" id="search-page-input" name="query" placeholder="Search…" autocomplete="off" autofocus enterkeyhint="search">
   <button type="submit">Search</button>
 </form>
 <script>
