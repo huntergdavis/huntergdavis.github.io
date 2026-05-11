@@ -27,6 +27,10 @@ title: Error 404
 		var el = document.getElementById('not-found-path');
 		if (el) el.textContent = path + qs;
 
+		// WordPress-era date archives: /YYYY/ or /YYYY/MM/ -> /archive/YYYY/
+		var dm = path.match(/^\/((?:19|20)\d{2})\/(?:\d{1,2}\/?)?$/);
+		if (dm) { location.replace('/archive/' + dm[1] + '/'); return; }
+
 		var hint = '';
 		var m;
 		if (m = path.match(/^\/android-app-(.+?)\/?$/)) hint = m[1].replace(/-/g, ' ');

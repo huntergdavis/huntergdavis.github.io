@@ -1501,6 +1501,24 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **A.16** Redirect WordPress date archives to per-year
+      pages. **S** · *Shipped 2026-05-11.* WordPress used
+      `/YYYY/` and `/YYYY/MM/` URLs as date archives. After the
+      Jekyll migration those paths 404, but they're still
+      indexed by Google for older posts and occasionally
+      referenced in old comment threads. Added a tiny regex
+      at the very top of `404.html`'s smart-handler script:
+      `^/((?:19|20)\d{2})/(?:\d{1,2}/?)?$` matches both the
+      year-only and year-month forms (with or without
+      trailing slash) and `location.replace`s to
+      `/archive/YYYY/` — the real per-year archive page
+      shipped in 2.5. The redirect returns early so the rest
+      of the 404 hint-derivation pipeline doesn't run on
+      these paths. Carefully bounded to not match real post
+      URLs (`/2010/12/06/foo.html` has too many segments)
+      or any other archive-like path (`/archive/2023/`
+      starts with `/archive/`, not a year). Pairs with A.12
+      (smart-routing extensions for legacy paths).
 - [x] **B.23** Add `theme-color` and `color-scheme` meta tags.
       **S** · *Shipped 2026-05-11.* Two-line addition to
       `_layouts/default.html` `<head>`:
@@ -2253,6 +2271,10 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase A.16 shipped**: WordPress date-archive URLs
+  (`/YYYY/`, `/YYYY/MM/`) now redirect via 404.html's smart
+  handler to `/archive/YYYY/`. Bounded regex avoids matching
+  real post URLs.
 - `2026-05-11` — **Phase B.23 shipped**: added `theme-color` (#0B5485,
   the site's primary blue) and `color-scheme` (light) meta tags
   in `<head>`. Mobile browser chrome now tints to brand color;
