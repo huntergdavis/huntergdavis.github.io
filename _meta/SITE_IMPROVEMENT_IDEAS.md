@@ -1481,6 +1481,27 @@ last commit in this phase swaps the default.*
       Validated as valid JSON. Pairs with 7.1's BlogPosting so
       search engines can resolve `BlogPosting.author.name` to a
       single Person entity with verified profile links.
+- [x] **7.19** Add JSON-LD `WebSite` + `SearchAction` to home.
+      **S** · *Shipped 2026-05-11.* New
+      `_includes/jsonld_website.html` referenced from
+      `_layouts/home.html` (alongside the existing Person
+      include from 7.14). Declares the site name, description,
+      canonical root URL, language, and a
+      `potentialAction.SearchAction` whose `urlTemplate`
+      points at `/search.html?query={search_term_string}` —
+      the exact URL pattern the on-site search form
+      (`_includes/header.html`, `search.md`) already uses.
+      `{search_term_string}` survives `absolute_url`
+      unmolested (Jekyll's `absolute_url` doesn't URL-encode
+      paths) and `jsonify` doesn't need to escape `{`/`}` in
+      JSON strings, so the placeholder reaches Google
+      verbatim per its SearchAction spec. Unlocks the
+      sitelinks search box in Google SERPs when the site is
+      eligible: searching "hunterdavis.com" can now show an
+      inline search box that submits directly to
+      `/search.html`. Posts ship BlogPosting + BreadcrumbList;
+      home ships Person + WebSite — the per-page schema
+      footprint is now complete for current page types.
 - [x] **7.18** Per-post share-card image. **S** ·
       *Shipped 2026-05-11.* Updated `_includes/ssn.html` so
       `og:image` and `twitter:image` resolve to the post's own
@@ -1904,6 +1925,13 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.19 shipped**: WebSite + SearchAction
+  JSON-LD on home page. New `_includes/jsonld_website.html`
+  declares the site and a SearchAction whose `urlTemplate`
+  points at the existing `/search.html?query={search_term_string}`
+  endpoint, making the site eligible for Google's sitelinks
+  search box. Per-page schema set is now complete: posts have
+  BlogPosting + BreadcrumbList, home has Person + WebSite.
 - `2026-05-11` — **Phase 5.9 shipped (pulled forward)**: removed
   `text-align: justify` from article body paragraphs. WCAG-aligned
   accessibility fix; eliminates "river" whitespace in long-form
