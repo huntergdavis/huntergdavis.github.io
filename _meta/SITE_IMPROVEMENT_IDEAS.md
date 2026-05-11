@@ -2679,6 +2679,17 @@ any public-facing milestone copy until a source is added.
   hero img is now eager + `fetchpriority="high"` (drops
   `loading="lazy"`); subsequent cards retain lazy-loading.
   Improves LCP for the most-visited entry path.
+- `2026-05-11` — **Phase B.80 shipped**: per-post `<meta
+  name="description">`, `og:description`, and
+  `twitter:description` fall back to truncated content
+  when `page.excerpt` is shorter than 80 chars (was
+  emitting things like just "Introduction").
+- `2026-05-11` — **Phase B.79 shipped**: dropped dead CSS classes
+  `.timeago` and `.postlist-meta` (no markup ever referenced them).
+- `2026-05-11` — **Phase B.78 shipped**: home post-card excerpts
+  fall back to truncated `post.content` when `post.excerpt` is
+  shorter than 80 chars — no more single-word "Introduction"
+  card bodies on the feed.
 - `2026-05-11` — **Phase B.77 shipped**: extracted copy-link IIFE
   to `/js/copy-link.js` (was inlined on every post page;
   ~500KB of duplicated bytes across the corpus).
