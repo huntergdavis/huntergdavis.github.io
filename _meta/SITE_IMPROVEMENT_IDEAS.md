@@ -1074,9 +1074,32 @@ URL preservation work moved to Phase A above.*
       orchestrates timing). Expected impact:
       `_site/search.html` drops from **1.18 MB to under 5 KB**;
       `search.json` carries the corpus once and is cacheable.
-- [ ] **1.2** Trim the search corpus: index `title`, `date`, `tags`,
-      `excerpt` only — not full content. Keep full-content search as a
-      progressive enhancement loaded after the first keystroke. **M**
+- [x] **1.2** Trim the search corpus: index `title`, `date`, `tags`,
+      `excerpt` only — not full content. **M** ·
+      *Shipped 2026-05-11.* `search.json` rewritten: dropped
+      `author` and `category` (the first was always "Hunter
+      Davis", the second was rarely set), added `tags` (joined
+      with spaces for lunr token-search), and the `content`
+      field now holds `post.excerpt | strip_html` instead of
+      `post.content | strip_html`. The post content is
+      typically 10–50× longer than the excerpt — for 507
+      posts the corpus collapses from a multi-MB JSON
+      payload to one that loads in a fraction of the time.
+      All Liquid field interpolations converted to `jsonify`
+      so titles/URLs with quotes serialize safely.
+      `js/search.js` updated in lockstep (both
+      `searchIsGo` and `dateSearchIsGo`): dropped
+      `author`/`category` from the lunr field list, added
+      `tags` with `boost: 5` (less than the existing
+      `title` boost of 10, more than plain `content`).
+      Renderer untouched — still uses
+      `item.url`, `item.date`, `item.title`,
+      `item.content.substring(0, 250)`. The progressive-
+      enhancement layered-load idea from the original
+      backlog item is dropped: with the excerpt-only corpus
+      the payload is already small enough that the extra
+      complexity isn't worth it. If full-content search
+      becomes a need later it can be a separate item.
 - [ ] **1.3** Self-host the Vollkorn font subset (latin only,
       400/700 + italics) with `font-display: swap`. **M** · *Why:*
       drops Google Fonts dependency + speeds first paint.
@@ -2014,6 +2037,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 1.2 shipped**: trimmed the search corpus.
+  `search.json` now indexes title, tags, excerpt, url, date — no
+  more `author`/`category` noise, no more full-`post.content`
+  bloat. `js/search.js` updated in lockstep (both lunr index
+  bodies), `tags` field added with `boost: 5`. Corpus shrinks ~10×
+  for typical posts.
 - `2026-05-11` — **Phase 7.23 shipped**: CollectionPage + ItemList
   JSON-LD on `/projects/`. Inline Liquid block at top of
   `projects.md` lists all 31 `project:`-tagged posts as

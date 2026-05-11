@@ -90,8 +90,7 @@
       var idx = lunr(function () {
         this.field('id');
         this.field('title', { boost: 10 });
-        this.field('author');
-        this.field('category');
+        this.field('tags', { boost: 5 });
         this.field('content');
         this.field('date');
 
@@ -99,8 +98,7 @@
           this.add({
             'id': key,
             'title': window.store[key].title,
-            'author': window.store[key].author,
-            'category': window.store[key].category,
+            'tags': window.store[key].tags,
             'content': window.store[key].content,
             'date' : window.store[key].date,
           });
@@ -118,8 +116,7 @@
       var idx = lunr(function () {
         this.field('id');
         this.field('title', { boost: 10 });
-        this.field('author');
-        this.field('category');
+        this.field('tags', { boost: 5 });
         this.field('content');
         this.field('date');
 
@@ -127,8 +124,7 @@
           this.add({
             'id': key,
             'title': window.store[key].title,
-            'author': window.store[key].author,
-            'category': window.store[key].category,
+            'tags': window.store[key].tags,
             'content': window.store[key].content,
             'date' : window.store[key].date,
           });
