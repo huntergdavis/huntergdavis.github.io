@@ -1501,6 +1501,24 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.19** Active-page indication in main nav. **S** ·
+      *Shipped 2026-05-11.* Each of the five top-nav links in
+      `_includes/header.html` now emits `aria-current="page"`
+      when its target matches `page.url`. The new attribute
+      tells screen readers ("current page") and pairs with a
+      tiny CSS rule (`.main-nav a[aria-current="page"]`)
+      that flips the link text to pure white and adds the
+      same cyan bottom-border the hover state uses, so
+      sighted users see *where they are* in the nav without
+      reading the URL bar. Conditional is a per-link Liquid
+      `{% if page.url == '/foo/' %}` check — five inline
+      conditionals rather than a data-driven loop, which is
+      the smallest change that achieves the goal. Affects
+      Home, Projects, Archive, My Story, Leadership and
+      Public Speaking. Sub-pages like `/archive/2010/` and
+      individual posts intentionally don't activate any nav
+      item — there's no canonical "section" they belong to
+      in this flat hierarchy. WCAG SC 2.4.4 / 2.4.8 alignment.
 - [x] **7.3** Compute related-posts at build. **M** ·
       *Shipped 2026-05-11.* New `script/generate_related.py`
       pre-computes related-by-tag links per post and writes
@@ -2136,6 +2154,10 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.19 shipped**: active-page indication in
+  main nav. Each top-nav `<a>` emits `aria-current="page"` when
+  it targets the current `page.url`; new CSS flips it to white
+  text with a cyan underline. Screen-reader + visual cue.
 - `2026-05-11` — **Phase 7.3 shipped**: related-posts at build.
   `script/generate_related.py` emits `_data/related.yml` keyed
   by post URL; `_layouts/post.html` renders a "Related by tag"

@@ -4,11 +4,11 @@
     <details class="nav-toggle">
       <summary>Menu</summary>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects/">Projects</a></li>
-        <li><a href="/archive/">Archive</a></li>
-        <li><a href="/about.html">My Story</a></li>
-        <li><a href="/public-speaking.html">Leadership and Public Speaking</a></li>
+        <li><a href="/"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a></li>
+        <li><a href="/projects/"{% if page.url == '/projects/' %} aria-current="page"{% endif %}>Projects</a></li>
+        <li><a href="/archive/"{% if page.url == '/archive/' %} aria-current="page"{% endif %}>Archive</a></li>
+        <li><a href="/about.html"{% if page.url == '/about.html' %} aria-current="page"{% endif %}>My Story</a></li>
+        <li><a href="/public-speaking.html"{% if page.url == '/public-speaking.html' %} aria-current="page"{% endif %}>Leadership and Public Speaking</a></li>
       </ul>
     </details>
   </nav>

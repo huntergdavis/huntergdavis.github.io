@@ -143,6 +143,11 @@ nav ul {
 			background-color: darken($nav-back-color, 10%);
 			border-bottom: 4px solid #1AC9DB;
 		}
+
+		&[aria-current="page"]{
+			color: #fff;
+			border-bottom: 4px solid #1AC9DB;
+		}
 	}
 }
 
