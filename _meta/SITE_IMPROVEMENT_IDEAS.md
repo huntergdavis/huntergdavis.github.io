@@ -1468,6 +1468,28 @@ last commit in this phase swaps the default.*
       Validated as valid JSON. Pairs with 7.1's BlogPosting so
       search engines can resolve `BlogPosting.author.name` to a
       single Person entity with verified profile links.
+- [x] **7.18** Per-post share-card image. **S** ·
+      *Shipped 2026-05-11.* Updated `_includes/ssn.html` so
+      `og:image` and `twitter:image` resolve to the post's own
+      `page.image` (or `page.featured_img`) when present,
+      falling back to the site-wide `/sharer.png`. Path
+      resolution uses Liquid's `default` chain plus
+      `absolute_url`, so relative paths
+      (`/content/images/2026/foo.png`) and absolute paths
+      (GitHub raw URLs) both serialize correctly. Twitter
+      card type now also flips from `summary` to
+      `summary_large_image` for any post with a hero image —
+      Twitter's spec wants `summary_large_image` for cards
+      with images ≥ 300×157px, and every post hero on this
+      site exceeds that. Pure-additive change: posts without
+      an explicit hero image behave identically to before.
+      The pre-existing missing-`sharer.png` issue (item 0.2)
+      is unchanged — that fallback path is the same one used
+      previously and still 404s until the OG image asset
+      lands. The win: posts like the recent
+      `announcing-dunking-bird` and `announcing-tps` posts
+      now share with their actual hero image instead of a
+      broken generic.
 - [x] **7.17** Add JSON-LD `BreadcrumbList` schema to post
       pages. **S** · *Shipped 2026-05-10.* New
       `_includes/jsonld_breadcrumb_post.html` referenced from
@@ -1869,6 +1891,14 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.18 shipped**: per-post share-card
+  image. `_includes/ssn.html` now resolves `og:image` and
+  `twitter:image` to the post's own hero (`page.image` or
+  `page.featured_img`) via Liquid `default` chain + `absolute_url`,
+  falling back to `/sharer.png`. Twitter card type auto-upgrades
+  to `summary_large_image` when a hero is present. Recent
+  announcement posts (Dunking Bird, TPS, Labrync, Tui000) now
+  share with their real hero image.
 - `2026-05-10` — **Phase 7.17 shipped**: BreadcrumbList JSON-LD
   on every post page. New `_includes/jsonld_breadcrumb_post.html`
   emits a three-step `Home → YYYY → title` trail mirroring the
