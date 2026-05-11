@@ -1501,6 +1501,28 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.28** Upgrade home paginator with First/Last + semantics.
+      **S** · *Shipped 2026-05-11.* The home paginator on a 51-
+      page corpus had only Previous/Next, so getting from page
+      1 to the oldest posts on page 51 took 50 clicks. Added
+      **First** and **Last** jump links (the first page lives
+      at `/`, the last at `/page{N}/`). Wrapped the whole
+      block in `<nav aria-label="Pagination">` instead of a
+      bare `<div>` for assistive-tech awareness. Added
+      `rel="prev"` / `rel="next"` on the relevant anchors (a
+      hint to browsers and feed readers even after Google
+      stopped using these for ranking). Each link carries an
+      `aria-label="…page"` so screen readers announce
+      "Previous page" instead of just "Previous". Visual:
+      switched the next/previous markers from heavy `«`/`»`
+      to single chevrons `‹`/`›` and reserved the heavy
+      double-chevrons for First/Last — clearer hierarchy of
+      "step one page" vs "jump to end". Per-link CSS
+      pseudo-elements were extended in parallel so the
+      chevrons stay decoration-only (the `aria-label` carries
+      the announcement). Page indicator span now styled with
+      its own padding + gray color so it reads as a label
+      rather than another button.
 - [x] **B.27** Fix tags sidebar + tighten header nav. **S** ·
       *Shipped 2026-05-11.* Two user-flagged visual bugs.
       (1) **Tags sidebar bug**: `_data/tags.yml` was emitted
@@ -2351,6 +2373,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.28 shipped**: home paginator gained
+  First/Last jump links, `<nav aria-label="Pagination">` wrapper,
+  `rel="prev"`/`rel="next"` on anchors, and aria-labels for
+  screen readers. Visual chevron hierarchy: `‹›` for step,
+  `«»` for jump.
 - `2026-05-11` — **Phase B.27 shipped**: fixed two visual bugs.
   `_data/tags.yml` was wrapped in a `tags:` key making every
   Liquid lookup fail silently — flattened the audit_tags.py

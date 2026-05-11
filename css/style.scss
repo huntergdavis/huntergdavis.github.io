@@ -467,11 +467,22 @@ article{
 			border: 1px solid #ccc;
 		}
 	}
-	.next::after, .next:after{
-		content: "»";
+	.next::after{
+		content: " ›";
 	}
-	.previous::before, .previous:before{
-		content: "«";
+	.previous::before{
+		content: "‹ ";
+	}
+	.first::before{
+		content: "« ";
+	}
+	.last::after{
+		content: " »";
+	}
+	span{
+		display: inline-block;
+		padding: 4px 10px;
+		color: #555;
 	}
 
 }
