@@ -16,18 +16,24 @@ permalink: /tags/nook/
   },
   "mainEntity": {
     "@type": "ItemList",
-    "numberOfItems": 2,
+    "numberOfItems": 3,
     "itemListOrder": "https://schema.org/ItemListOrderDescending",
     "itemListElement": [
       {
         "@type": "ListItem",
         "position": 1,
+        "url": "https://hunterdavis.com/2012/01/30/now-is-the-time-to-buy-a-first-generation-e-reader.html",
+        "name": "Now is the Time to Buy a First Generation E-Reader"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
         "url": "https://hunterdavis.com/2011/03/09/build-your-own-distributed-cluster-now-available-to-purchase-online.html",
         "name": "Build Your Own Distributed Cluster Now Available to Purchase Online"
       },
       {
         "@type": "ListItem",
-        "position": 2,
+        "position": 3,
         "url": "https://hunterdavis.com/2011/03/09/live-for-free-now-available-to-purchase-online.html",
         "name": "Live For Free Now Available To Purchase Online"
       }
@@ -36,8 +42,9 @@ permalink: /tags/nook/
 }
 </script>
 
-<p class="tag-summary">2 posts tagged <code>nook</code>.</p>
+<p class="tag-summary">3 posts tagged <code>nook</code>.</p>
 
+- 2012-01-30 — [Now is the Time to Buy a First Generation E-Reader](/2012/01/30/now-is-the-time-to-buy-a-first-generation-e-reader.html)
 - 2011-03-09 — [Build Your Own Distributed Cluster Now Available to Purchase Online](/2011/03/09/build-your-own-distributed-cluster-now-available-to-purchase-online.html)
 - 2011-03-09 — [Live For Free Now Available To Purchase Online](/2011/03/09/live-for-free-now-available-to-purchase-online.html)
 

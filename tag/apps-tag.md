@@ -16,7 +16,7 @@ permalink: /tags/apps-tag/
   },
   "mainEntity": {
     "@type": "ItemList",
-    "numberOfItems": 5,
+    "numberOfItems": 7,
     "itemListOrder": "https://schema.org/ItemListOrderDescending",
     "itemListElement": [
       {
@@ -28,24 +28,36 @@ permalink: /tags/apps-tag/
       {
         "@type": "ListItem",
         "position": 2,
+        "url": "https://hunterdavis.com/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia2.html",
+        "name": "AR Wiki (Augmented Reality Wikipedia)"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
         "url": "https://hunterdavis.com/2011/07/29/65-android-app-super-whistle.html",
         "name": "#65 - Android App - Super Whistle"
       },
       {
         "@type": "ListItem",
-        "position": 3,
+        "position": 4,
+        "url": "https://hunterdavis.com/2011/07/29/android-app-super-whistle.html",
+        "name": "Super Whistle +Android Whistles"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
         "url": "https://hunterdavis.com/2011/07/15/android-app-55-easy-file-encrypt.html",
         "name": "Android App #55 - Easy File Encrypt"
       },
       {
         "@type": "ListItem",
-        "position": 4,
+        "position": 6,
         "url": "https://hunterdavis.com/2011/06/08/android-app-easy-random-numbers.html",
         "name": "Android App - Easy Random Numbers"
       },
       {
         "@type": "ListItem",
-        "position": 5,
+        "position": 7,
         "url": "https://hunterdavis.com/2011/06/04/android-apps-easy-inventory.html",
         "name": "Android Apps - Easy Inventory"
       }
@@ -54,10 +66,12 @@ permalink: /tags/apps-tag/
 }
 </script>
 
-<p class="tag-summary">5 posts tagged <code>apps-tag</code>.</p>
+<p class="tag-summary">7 posts tagged <code>apps-tag</code>.</p>
 
 - 2011-12-10 — [Android App - AR Wiki (Augmented Reality Wikipedia)](/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html)
+- 2011-12-10 — [AR Wiki (Augmented Reality Wikipedia)](/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia2.html)
 - 2011-07-29 — [#65 - Android App - Super Whistle](/2011/07/29/65-android-app-super-whistle.html)
+- 2011-07-29 — [Super Whistle +Android Whistles](/2011/07/29/android-app-super-whistle.html)
 - 2011-07-15 — [Android App #55 - Easy File Encrypt](/2011/07/15/android-app-55-easy-file-encrypt.html)
 - 2011-06-08 — [Android App - Easy Random Numbers](/2011/06/08/android-app-easy-random-numbers.html)
 - 2011-06-04 — [Android Apps - Easy Inventory](/2011/06/04/android-apps-easy-inventory.html)
