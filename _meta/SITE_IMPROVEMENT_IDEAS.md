@@ -958,8 +958,21 @@ URL preservation work moved to Phase A above.*
 - [ ] **1.3** Self-host the Vollkorn font subset (latin only,
       400/700 + italics) with `font-display: swap`. **M** · *Why:*
       drops Google Fonts dependency + speeds first paint.
-- [ ] **1.4** Trim `feed.xml` to title + excerpt + link; add
-      `feed-full.xml` for full-content readers. **S**
+- [x] **1.4** Trim `feed.xml` to title + excerpt + link; add
+      `feed-full.xml` for full-content readers. **S** ·
+      *Shipped 2026-05-10.* `feed.xml` swapped `post.content`
+      for `post.excerpt | strip_html | normalize_whitespace`,
+      dropping per-item description from full HTML (often KBs)
+      to a short plain-text first-paragraph. Added an
+      `<atom:link rel="alternate">` advertising the new
+      full-content feed. New `feed-full.xml` ships
+      `<content:encoded><![CDATA[…]]></content:encoded>` with
+      the full HTML body for power readers who want the post
+      inline in their RSS client (CDATA collision audit
+      confirmed zero posts contain literal `]]>`). Incidental
+      bug fix in both: removed the spurious `/` between
+      `site.url` and `post.url` in `<link>` and `<guid>`
+      (post.url already starts with `/`).
 - [ ] **1.5** Remove unused SCSS partials (`_buttons.scss` already
       commented; audit `_anims.scss`, `_monokai.scss`, parts of
       `_markdown.scss`). **S**
@@ -1795,3 +1808,13 @@ any public-facing milestone copy until a source is added.
   asked for, an auto-focused search input prefilled with a
   best-guess term, and a Go-back affordance. Catches anything
   the explicit redirects miss.
+- `2026-05-10` — **Phase 1.4 shipped**: feed slimmed +
+  full-content feed added. `feed.xml` now ships
+  `post.excerpt | strip_html | normalize_whitespace` per
+  item (was full `post.content`), trimming RSS payload from
+  ~115 KB to a small fraction. New `feed-full.xml` keeps the
+  full HTML body in a `<content:encoded><![CDATA[…]]>` block
+  for power readers; both feeds cross-reference each other
+  via `<atom:link rel="alternate">`. Incidental fix: removed
+  the spurious `/` in `<link>{{ site.url }}/{{ post.url }}`
+  that produced double-slash URLs.
