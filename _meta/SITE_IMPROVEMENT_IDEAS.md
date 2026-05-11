@@ -1177,12 +1177,30 @@ populate.*
       gives Phase 2.2 (tag pages), 2.3 (tag index), and B.18
       (topic cloud) the data they need without imposing
       authored vocabulary on the user's organic tagging.
-- [ ] **2.2** Add a `_plugins/tag_pages.rb` generator (or use
-      `jekyll-archives`) to emit `/tag/<slug>/index.html` per tag,
-      with paginated post lists. **M** · *Note:* GitHub Pages disallows
-      custom plugins on the default builder — confirm whether deploy
-      uses GH Actions / Netlify / custom CI before assuming plugins
-      are OK.
+- [x] **2.2** Generate per-tag pages. **M** ·
+      *Shipped 2026-05-11.* Used a Python pre-build script
+      instead of a Ruby `_plugins/` generator since the
+      site deploys via GH Pages' default builder, which
+      disallows custom plugins. New
+      `script/generate_tag_pages.py` walks `_posts/`, parses
+      every frontmatter via PyYAML, and emits one
+      `tag/<slug>.md` page per tag that has **≥ 2 posts**
+      (with `permalink: /tags/<slug>/`). 84 tag pages
+      generated out of the 370 distinct tags — the other
+      286 are single-use and don't earn a dedicated page;
+      `/tags/` index falls back to `/search.html?query=<tag>`
+      for those. The script is idempotent: it deletes any
+      stale `tag/*.md` whose tag has dropped below the
+      threshold before regenerating. Filesystem safety is
+      enforced via `SAFE_SLUG_RE` (`[A-Za-z0-9][A-Za-z0-9._-]*`)
+      — all 370 current slugs already pass. Each page lists
+      its posts in reverse chronological order with a
+      `MM-DD` date prefix and ends with `[All tags] · [Archive]`
+      back-link. Pure cross-linking win: posts with tags now
+      have a real destination per tag, not just a search
+      query parameter. Pagination deferred — the largest
+      page (`android`, 58 posts) renders cleanly in one shot
+      and is still a fraction of any `/archive/YYYY/` page.
 - [x] **2.3** Build `/tags/` — alphabetical list of tags with
       post counts. **S** · *Shipped 2026-05-10.* New `tags.md`
       permalinked to `/tags/` lists all 370 distinct tags from
@@ -2037,6 +2055,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 2.2 shipped**: per-tag pages. New
+  `script/generate_tag_pages.py` emits 84 pages at
+  `/tags/<slug>/` for every tag with ≥ 2 posts (286 single-use
+  tags still fall through to `/search.html`). `/tags/` index
+  updated to link to the new pages conditionally on the count
+  in `_data/tags.yml`. Big cross-linking win.
 - `2026-05-11` — **Phase 1.2 shipped**: trimmed the search corpus.
   `search.json` now indexes title, tags, excerpt, url, date — no
   more `author`/`category` noise, no more full-`post.content`
