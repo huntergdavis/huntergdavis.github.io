@@ -7,6 +7,8 @@ tags:
 - engineering-management
 - leadership
 - personal
+featured: true
+featured_group: leadership
 ---
 [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law).  The idea that your organizational structure will be mirrored in your design (software) structure.  Simple in concept and true to my experience, it's a principle that drives many an organizational planning session.  
 

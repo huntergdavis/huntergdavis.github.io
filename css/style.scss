@@ -339,10 +339,33 @@ nav ul {
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
 	}
+	.greatest-hits-sub{
+		display: block;
+		font-size: 0.7em;
+		font-weight: normal;
+		color: #888;
+		letter-spacing: 0;
+		text-transform: none;
+		margin-top: 0.15em;
+	}
+	.greatest-hits-group{
+		font-size: 0.78em;
+		font-weight: bold;
+		color: #444;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		margin: 0.9em 0 0.25em;
+		padding-bottom: 0.15em;
+		border-bottom: 1px solid #e1e4e8;
+
+		&:first-of-type{
+			margin-top: 0.4em;
+		}
+	}
 	ul{
 		list-style: none;
 		padding: 0;
-		margin: 0;
+		margin: 0 0 0.25em;
 	}
 	li{
 		margin-bottom: 0.35em;

@@ -10,6 +10,8 @@ tags:
 - open-source
 - porting
 - retrofw
+featured: true
+featured_group: johnny
 ---
 Johnny Castaway for RetroFW devices is now released!  This is the firmware that you'll find running on all your favorite Chinese handheld devices.  Things  like the LDK game, RG-300, RS97, etc.  It is based on my SDL 1.2 port of the engine, and generally works very well. 
 

@@ -9,6 +9,7 @@ tags:
 - news
 - personal
 - programming
+featured_group: programming
 ---
 
 

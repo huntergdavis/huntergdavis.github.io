@@ -8,6 +8,8 @@ tags:
 - open-source
 - personal
 - programming
+featured: true
+featured_group: programming
 ---
 I'm a big fan of [Obsidian](https://www.obsidian.md/), paying for premium and using it to store notes and lists. 
 

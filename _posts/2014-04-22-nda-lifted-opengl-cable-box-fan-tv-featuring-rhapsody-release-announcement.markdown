@@ -10,6 +10,7 @@ tags:
 - news
 - opengl
 - rhapsody
+featured_group: programming
 ---
 
 

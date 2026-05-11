@@ -11,6 +11,7 @@ tags:
 - open-source
 - programming
 - quickgrapher
+featured_group: programming
 ---
 
 

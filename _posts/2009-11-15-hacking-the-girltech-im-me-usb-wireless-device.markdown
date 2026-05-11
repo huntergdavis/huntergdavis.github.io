@@ -11,6 +11,7 @@ tags:
 - usb
 - repurposing
 - network
+featured_group: programming
 ---
 
 

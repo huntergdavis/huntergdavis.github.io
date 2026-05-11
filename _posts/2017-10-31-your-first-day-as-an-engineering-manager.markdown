@@ -7,6 +7,8 @@ tags:
 - engineering-management
 - leadership
 - personal
+featured: true
+featured_group: leadership
 ---
 
 Hey Folks,

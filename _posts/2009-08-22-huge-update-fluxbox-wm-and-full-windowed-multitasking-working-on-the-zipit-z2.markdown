@@ -13,6 +13,7 @@ tags:
 - hacking
 - window-managers
 - video
+featured_group: programming
 ---
 
 

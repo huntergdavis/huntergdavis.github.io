@@ -11,6 +11,7 @@ tags:
 - atari
 - hack
 - hacking
+featured_group: programming
 ---
 This story starts, as most of my hardware hacking stories do: a stupid impulse purchase.  In this case, it's the Atari mini pong Jr.  I'm pretty sure (judging from stock levels) I'm the only one dumb enough to pick this one up.  So, I set about to hack the thing.  It's almost disappointing, as this isn't as much of a 'hack' as it is 'this system is wide open.'  Here's what I've been able to determine/do with zero hardware modification. (TLDR; Everything.  Install and run apps, usb devices, adb shell, etc)
 

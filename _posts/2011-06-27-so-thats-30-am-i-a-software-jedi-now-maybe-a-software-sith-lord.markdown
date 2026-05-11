@@ -16,6 +16,7 @@ tags:
 redirect_from:
   - /archives/1640
 featured: true
+featured_group: programming
 ---
 
 

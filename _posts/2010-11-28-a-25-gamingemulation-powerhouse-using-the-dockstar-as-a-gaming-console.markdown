@@ -19,6 +19,7 @@ redirect_from:
   - /archives/843
 project: dockstar
 featured: true
+featured_group: programming
 ---
 
 
