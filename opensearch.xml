@@ -6,6 +6,6 @@ layout: none
   <ShortName>{{ site.name }}</ShortName>
   <Description>Search {{ site.name }}</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Url type="text/html" template="{{ '/search.html?query={searchTerms}' | absolute_url }}"/>
+  <Url type="text/html" template="{{ '/search.html?query=' | absolute_url }}{% raw %}{searchTerms}{% endraw %}"/>
   <moz:SearchForm xmlns:moz="http://www.mozilla.org/2006/browser/search/">{{ '/search.html' | absolute_url }}</moz:SearchForm>
 </OpenSearchDescription>

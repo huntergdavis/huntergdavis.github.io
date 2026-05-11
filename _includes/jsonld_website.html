@@ -10,7 +10,8 @@
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": {{ '/search.html?query={search_term_string}' | absolute_url | jsonify }}
+      {% capture search_url %}{{ '/search.html?query=' | absolute_url }}{% raw %}{search_term_string}{% endraw %}{% endcapture %}
+      "urlTemplate": {{ search_url | jsonify }}
     },
     "query-input": "required name=search_term_string"
   }
