@@ -659,16 +659,35 @@ is complete.*
       → exit 1 with clear collision message; removed → exit 0).
       Hookable from a git pre-commit hook today, or wired into
       CI when Phase 8.3 lands.
-- [ ] **A.14** Verify the live subset of `_data/projects_subpaths.yml`.
-      For each of the 135 reserved repo names, probe
-      `https://hunterdavis.com/<name>/` (HEAD request, follow
-      redirects) and record which actually serve content today
-      vs. 404. Result: add a `live:` array to the data file
-      listing the verified-deployed subset (subset of `reserved:`).
-      Two known sidebar bugs to fix as part of this: `/resume/` is
-      linked but no exact-match repo exists (deploy is probably
-      `Hunter-Davis-impressjs-Resume`), and `/photo-stream/` is
-      linked but the repo is `photo-stream-static`. **M**
+- [x] **A.14** Verify the live subset of
+      `_data/projects_subpaths.yml`. **M** ·
+      *Shipped 2026-05-11.* New `script/audit_subpaths.py`
+      HEAD-checks all 135 reserved subpaths against
+      `https://hunterdavis.com/<name>/` (parallel, 12-worker
+      thread pool, 8s timeout) and writes a categorized report
+      to `_meta/projects_subpaths_audit.md`. Snapshot today:
+      **22 LIVE** (actually serve content via GitHub Pages),
+      **1 REDIRECT** (`thegilamonsters` → its own custom
+      domain `thegilamonsters.com`), **112 DEAD** (the repo
+      exists and is reserved against collision but Pages is
+      not enabled — still valuable to keep in the reservation
+      list in case Pages gets flipped on later), **0 ERROR**.
+      First probe ran against `www.hunterdavis.com` which
+      returned 135 × 301 redirects to the apex — caught the
+      apex-redirect topology and re-pointed at
+      `https://hunterdavis.com` for the real status. The two
+      known sidebar bugs from the original ticket
+      (`/resume/`, `/photo-stream/`) are both confirmed DEAD
+      in the audit and stay queued for B.3 — they need to be
+      replaced with the actual repo names
+      (`Hunter-Davis-impressjs-Resume` and
+      `photo-stream-static`) rather than removed from the
+      reservation list. A `live:` array on the data file
+      itself was *not* added — the markdown audit report is
+      a richer artifact, and adding a stale snapshot to a
+      data file consumed by build-time scripts would risk
+      bit-rot. Re-run `script/audit_subpaths.py` periodically
+      to refresh.
 - [x] **A.15** WordPress query-string ID handler. **S** ·
       *Shipped 2026-05-10.* Tiny inline `<script>` at the top
       of `index.html` reads `URLSearchParams`, looks up `?p=NNN`
@@ -2088,6 +2107,15 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase A.14 shipped**: live-subset audit of
+  `_data/projects_subpaths.yml`. New
+  `script/audit_subpaths.py` runs parallel HEAD checks against
+  all 135 reserved subpaths and writes
+  `_meta/projects_subpaths_audit.md`. Snapshot: 22 LIVE,
+  1 REDIRECT (gilamonsters → custom domain), 112 DEAD (Pages
+  not enabled — still kept reserved for collision safety).
+  Caught and corrected an apex-redirect topology bug
+  (www→apex 301s) in the first run.
 - `2026-05-11` — **Phase 7.24 shipped**: CollectionPage + ItemList
   JSON-LD baked into all 84 tag pages by
   `generate_tag_pages.py`. Round-trip-validated as JSON
