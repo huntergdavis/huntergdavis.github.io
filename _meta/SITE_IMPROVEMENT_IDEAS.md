@@ -1240,12 +1240,16 @@ last commit in this phase swaps the default.*
       Validated as valid JSON. Pairs with 7.1's BlogPosting so
       search engines can resolve `BlogPosting.author.name` to a
       single Person entity with verified profile links.
-- [ ] **7.15** Surface reading-time on home post-list cards too.
-      Same `content | strip_html | number_of_words` formula as 7.2
-      but applied per-card in `index.html`. Mind the cost — Liquid
-      `content` for every paginated post still runs through
-      `strip_html` per render, so check Lighthouse build-time
-      impact. **S**
+- [x] **7.15** Surface reading-time on home post-list cards too.
+      **S** · *Shipped 2026-05-10.* Two-line addition to
+      `index.html` reusing the existing `.reading-time` CSS
+      from Phase 7.2. Each home card now shows
+      `{{ post.date | date: "%B %-d, %Y" }} · ~N min read`.
+      Verified the formula across the latest 10 posts: spread
+      from 1 to 6 minutes, matches the post-page indicator
+      exactly. Build cost is ~510 Liquid invocations of
+      `content | strip_html | number_of_words` across the 51
+      paginated home pages — measured negligible.
 
 ### Phase 8 — Modernize tooling & infrastructure
 - [ ] **8.1** Bump Jekyll to 4.x, update Gemfile + `Gemfile.lock`,
@@ -1885,3 +1889,10 @@ any public-facing milestone copy until a source is added.
   `_config.yml`. ~20 lines of dead code removed total.
   Future analytics adds via the privacy-respecting path
   tracked as new item 0.17.
+- `2026-05-10` — **Phase 7.15 shipped**: reading-time on
+  every home-list card. Same `content | strip_html |
+  number_of_words | divided_by: 225 | plus: 1` Liquid chain
+  as 7.2, reusing the `.reading-time` CSS class. Readers
+  scanning the home page now see "~N min read" next to each
+  post date, matching the post-page indicator. Spread on the
+  latest 10 posts: 1–6 minutes.
