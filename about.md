@@ -9,6 +9,7 @@ tags:
 - personal
 - life-story
 - about
+hide_title: true
 ---
 # My Story
 

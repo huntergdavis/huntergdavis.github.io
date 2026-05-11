@@ -12,6 +12,7 @@ tags:
 - apprenticeship
 - leadership
 - about
+hide_title: true
 ---
 # Public Speaking
 + [Apprenticeship](#apprenticeship)
