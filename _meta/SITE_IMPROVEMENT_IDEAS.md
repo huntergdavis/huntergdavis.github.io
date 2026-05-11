@@ -2671,6 +2671,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.86 shipped**: declare share-image
+  dimensions for the default `/sharer.png` — `og:image:width`,
+  `og:image:height`, `og:image:type`. Facebook/LinkedIn render
+  the share-card without round-tripping to measure the asset
+  on first encounter. Skipped when a post overrides the share
+  image (we don't know those dimensions).
 - `2026-05-11` — **Phase B.85 shipped**: non-post pages (`/about/`,
   `/timeline/`, `/search/`, `/random/`, `/public-speaking/`, etc.)
   now self-canonical via `page.url` instead of all claiming
