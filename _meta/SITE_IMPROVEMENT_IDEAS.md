@@ -853,7 +853,7 @@ version; the v2 redesign will inherit it.*
       four hand-picked entry points (e.g., My Story, Greatest
       Hits, Latest project). Pulled from `_data/start_here.yml`.
       User supplies the entry-point labels. **S**
-- [ ] **B.12** "Greatest hits" / milestones strip on the home
+- [x] **B.12** "Greatest hits" / milestones strip on the home
       page. Pulled from `_data/milestones.yml` (the dossier
       structure planned in 7.6 + Appendix A). Three or four
       cards linking to the Zipit Z2 era, the 70-app GitHub
@@ -1355,17 +1355,17 @@ populate.*
       `script/`) that proposes tags per post by regexing title +
       first 800 chars against `_data/tags.yml` keywords. Output a diff
       that the human reviews and applies. **M**
-- [ ] **3.2** Backfill tags batch 1: `2007-12-*` (~17 posts). **S**
-- [ ] **3.3** Backfill tags batch 2: `2008-*` (~12 posts). **S**
-- [ ] **3.4** Backfill tags batch 3: `2009-*` (~28 posts). **S**
-- [ ] **3.5** Backfill tags batch 4: `2010-*` (~24 posts). **S**
-- [ ] **3.6** Backfill tags batch 5: `2011-01..06` (~80 posts). **M**
-- [ ] **3.7** Backfill tags batch 6: `2011-07..12` (~88 posts). **M**
-- [ ] **3.8** Backfill tags batch 7: `2012-*` (~60 posts). **M**
-- [ ] **3.9** Backfill tags batch 8: `2013-01..06` (~45 posts). **M**
-- [ ] **3.10** Backfill tags batch 9: `2013-07..12` (~40 posts). **M**
-- [ ] **3.11** Backfill tags batch 10: `2014..2016` (~67 posts). **M**
-- [ ] **3.12** Backfill tags batch 11: `2017..2026` (~50 posts). **M**
+- [x] **3.2** Backfill tags batch 1: `2007-12-*` (~17 posts). **S** · *Shipped 2026-05-11 via parallel-agent backfill.*
+- [x] **3.3** Backfill tags batch 2: `2008-*` (~12 posts). **S** · *Shipped 2026-05-11 via parallel-agent backfill.*
+- [x] **3.4** Backfill tags batch 3: `2009-*` (~28 posts). **S** · *Shipped 2026-05-11 via parallel-agent backfill.*
+- [x] **3.5** Backfill tags batch 4: `2010-*` (~24 posts). **S** · *Shipped 2026-05-11 via parallel-agent backfill.*
+- [x] **3.6** Backfill tags batch 5: `2011-01..06` (~80 posts). **M** · *Shipped 2026-05-11 via parallel-agent backfill.*
+- [x] **3.7** Backfill tags batch 6: `2011-07..12` (~88 posts). **M** · *Shipped 2026-05-11 via parallel-agent backfill.*
+- [x] **3.8** Backfill tags batch 7: `2012-*` (~60 posts). **M** · *Shipped 2026-05-11 via parallel-agent backfill.*
+- [x] **3.9** Backfill tags batch 8: `2013-01..06` (~45 posts). **M** · *Shipped 2026-05-11 via parallel-agent backfill.*
+- [x] **3.10** Backfill tags batch 9: `2013-07..12` (~40 posts). **M** · *Shipped 2026-05-11 via parallel-agent backfill.*
+- [x] **3.11** Backfill tags batch 10: `2014..2016` (~67 posts). **M** · *Shipped 2026-05-11 via parallel-agent backfill.*
+- [x] **3.12** Backfill tags batch 11: `2017..2026` (~50 posts). **M** · *Shipped 2026-05-11 via parallel-agent backfill.*
 - [ ] **3.13** Add `series:` frontmatter for posts in series (Johnny
       Castaway saga, 65 Apps grind, Build Your Own DCC chapters,
       Reviews of the Month, etc.). **M**
@@ -2659,6 +2659,28 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.37 shipped**: `article section img`
+  now has `max-width: 100%; height: auto;` so hardcoded wide
+  `width="1126"` images in old posts don't overflow mobile.
+- `2026-05-11` — **Phase 7.33 shipped**: added empty `alt=""`
+  to 77 bare `<img>` tags across 21 posts.
+- `2026-05-11` — **Phase 7.32 shipped**: converted 41 legacy
+  `<a id='X'>Label</a>` anchor markers in `my-story` and
+  `coaching-leaders-during-covid` to kramdown `## Label {#X}`
+  headings. Same pattern as 7.10/7.16.
+- `2026-05-11` — **Phase 7.31 shipped**: removed dead Google
+  Plus widget script (service shut down 2019, http://-only).
+- `2026-05-11` — **Phase 3.16 shipped**: added 7 more Greatest
+  Hits entries + topic groups (Programming and hacking,
+  Johnny Castaway, Leadership). 22 total grouped via new
+  `featured_group:` frontmatter.
+- `2026-05-11` — **Phases 3.2–3.12 shipped**: 5 parallel
+  worktree agents backfilled tags across the entire post
+  corpus. 370 → 406 distinct tags; 774 → 2898 applications;
+  84 → 286 per-tag pages; 106 → 507 posts with related-by-tag
+  matches.
+- `2026-05-11` — **Phase B.36 shipped**: respect
+  `prefers-reduced-motion` for vestibular-sensitive users.
 - `2026-05-11` — **Phase B.35 shipped**: new `/timeline/` page —
   every post in a grid-of-cards view grouped by year, with
   lazy-loaded thumbnails. Pure Liquid; auto-updates when posts
