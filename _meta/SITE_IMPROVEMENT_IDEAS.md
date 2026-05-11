@@ -1501,6 +1501,23 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **7.30** Sweep markdown-link URLs to HTTPS for known
+      HTTPS-only domains. **S** · *Shipped 2026-05-11.* Many
+      old posts linked to external sites via `http://` because
+      those sites were still http-only when the posts were
+      written. Most of those domains have been HTTPS-only for
+      a decade now (wikipedia, github, youtube, twitter,
+      amazon, linkedin, facebook, ebay, play.google,
+      docs.google, sourceforge, hackaday, stackoverflow, etc.).
+      Whitelist-regex sweep rewrote `](http://<domain>/…)` →
+      `](https://<domain>/…)` for those domains only. **38
+      URL rewrites across 27 posts.** Only the URL inside
+      markdown-link form was touched — bare URLs in prose
+      (where the http://… is the *displayed text* and
+      kramdown auto-links it) were deliberately left alone per
+      the prose-is-mine rule. Cuts the redirect hop on every
+      click; immune to any future http retirement by those
+      sites.
 - [x] **7.29** Fix two broken Google Docs viewer iframes. **S** ·
       *Shipped 2026-05-11.* `2012-12-30-a-quarter-of-a-million-downloads-…`
       and `2012-05-08-a-preview-of-my-upcoming-fourth-book-…`
@@ -2457,6 +2474,13 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.30 shipped**: swept 38 markdown-link
+  URLs across 27 posts from `http://` to `https://` for domains
+  that have been HTTPS-only for years (wikipedia, github,
+  youtube, twitter, amazon, linkedin, facebook, ebay,
+  play/docs.google, sourceforge, hackaday, stackoverflow,
+  reddit, etc.). Only the URL inside `](…)` was touched — bare
+  URLs in prose stay verbatim.
 - `2026-05-11` — **Phase 7.29 shipped**: fixed two Google Docs
   viewer iframes that referenced dead WP-era
   `wp-content/uploads/` URLs. Re-pointed at the canonical

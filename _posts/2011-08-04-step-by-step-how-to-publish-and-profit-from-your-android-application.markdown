@@ -19,7 +19,7 @@ I had a YouTube comment a while back ask me for the source code to one of my gam
 
 Read on for the full 25 step guide to adding ads and publishing your Android app to market.
 
-1. Step 1 is, of course, to actually write an Android app. Check out my [YouTube channel](http://www.youtube.com/huntergdavis) for a nice video to help you along with that.
+1. Step 1 is, of course, to actually write an Android app. Check out my [YouTube channel](https://www.youtube.com/huntergdavis) for a nice video to help you along with that.
 2. Write out a nice description for your app in a word processor. No spelling mistakes! You’ll paste this description all over, so make sure it’s good.
 3. Register a new android app on admob.com. You’ll need the description you wrote above.
 4. On the AdMob site, set admob.com->app name->app settings->google adsense to TRUE. I also like to set a 60 second ad refresh timeout.

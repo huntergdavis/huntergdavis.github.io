@@ -15,7 +15,7 @@ Hacks is a collection of my most popular tutorials, scripts, tweaks, Zipit Z2 wo
 Currently you can buy Hacks from
 
 1. [Barnes and Nobles Store](http://search.barnesandnoble.com/books/product.aspx?ean=2940012274199)
-2. [Amazon Store](http://www.amazon.com/Hacks-ebook/dp/B004S7B27Q/)
+2. [Amazon Store](https://www.amazon.com/Hacks-ebook/dp/B004S7B27Q/)
 3. Preview, purchase, and rent my books from Google Books in all territories (NO DRM, full copy-paste support).
 4. Sony eBook Store
 5. Kobo Store

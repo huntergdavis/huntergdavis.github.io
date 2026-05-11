@@ -19,7 +19,7 @@ A 2012 Update:
 - The absolute best ways to find out about me are to read the archives, check out my [interactive resume](/resume/), or trawl [my GitHub page](https://github.com/huntergdavis).
 - Enterprising hackers have ported a number of my software projects to Android, Blackberry, Windows Mobile/8 and many more.
 - [add Hunter Davis on Google+](/about/hunter-davis-on-google-plus/)
-- You can also connect with me professionally on [LinkedIn](http://www.linkedin.com/in/hunterdavis) and [StackOverflow](https://careers.stackoverflow.com/huntergdavis).
+- You can also connect with me professionally on [LinkedIn](https://www.linkedin.com/in/hunterdavis) and [StackOverflow](https://careers.stackoverflow.com/huntergdavis).
 - [I have cured my own sleep paralysis, and you can too.](/about/i-have-cured-my-own-sleep-paralysis-and-you-can-too/)
 - [Ko-Nami Code](/about/ko-nami-code/)
 

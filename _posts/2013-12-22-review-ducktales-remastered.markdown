@@ -10,7 +10,7 @@ DuckTales Remastered is a lovingly recrafted game and a true gem of a platformer
 
 [![2013-12-22_00009](/content/images/2013/12/2013-12-22_00009-300x168.jpg)](/content/images/2013/12/2013-12-22_00009.jpg)
 
-The music is excellent. This is a remastered version of the 1989 NES classic version of Ducktales, and the music was excellent then. Each track hsa been updated with a new fuller, more modern sound. I was not disappointed. Fans of [Brentalfloss’s](http://www.youtube.com/watch?v=fHEgzRtKC5o) version of the moon and [amazon](http://www.youtube.com/watch?v=e0EaygJdxyc) themes will be singing right along.
+The music is excellent. This is a remastered version of the 1989 NES classic version of Ducktales, and the music was excellent then. Each track hsa been updated with a new fuller, more modern sound. I was not disappointed. Fans of [Brentalfloss’s](https://www.youtube.com/watch?v=fHEgzRtKC5o) version of the moon and [amazon](https://www.youtube.com/watch?v=e0EaygJdxyc) themes will be singing right along.
 
 [![2013-12-22_00013](/content/images/2013/12/2013-12-22_00013-300x168.jpg)](/content/images/2013/12/2013-12-22_00013.jpg)
 

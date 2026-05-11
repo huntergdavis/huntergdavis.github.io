@@ -16,7 +16,7 @@ My second eBook, Build Your Own Distributed Compilation Cluster – A Practical 
 </div>Currently you can buy the book at:
 
 1. [Barnes and Nobles](http://search.barnesandnoble.com/books/product.aspx?ean=2940012184719)
-2. [Amazon Kindle Store](http://www.amazon.com/Build-Distributed-Compilation-Cluster-ebook/dp/B004RHXWG6/ref=sr_1_1?ie=UTF8&qid=1299809296&sr=8-1)
+2. [Amazon Kindle Store](https://www.amazon.com/Build-Distributed-Compilation-Cluster-ebook/dp/B004RHXWG6/ref=sr_1_1?ie=UTF8&qid=1299809296&sr=8-1)
 3. Preview, purchase, and rent my books from Google Books in all territories (NO DRM, full copy-paste support).
 4. Sony eBook Store
 5. Kobo Store

@@ -14,7 +14,7 @@ Seriously though, my significant other and I enjoy the occasional trip to Baskin
 
 1. DNKN – $41.05
 
-If you’re in the mood for an interesting corporate history, check out the corporate ownership history for [Baskin Robbins on Wikipedia](http://en.wikipedia.org/wiki/Baskin-Robbins#History). Apparently investment groups love them some donuts and ice cream as well.
+If you’re in the mood for an interesting corporate history, check out the corporate ownership history for [Baskin Robbins on Wikipedia](https://en.wikipedia.org/wiki/Baskin-Robbins#History). Apparently investment groups love them some donuts and ice cream as well.
 
 Also, it turns out that doughnut jewelry is a popular category of food-related jewelry.
 

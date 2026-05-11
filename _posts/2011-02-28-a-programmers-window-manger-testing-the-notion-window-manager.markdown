@@ -26,7 +26,7 @@ Following up on my previous post, NeonLicht suggested I try out the Ion window m
 4. Create an Entry for GDM
 
 **Installing Prerequisites**  
- As per the instructions on the [Notion Wiki,](http://sourceforge.net/apps/mediawiki/notion/index.php?title=Development) you’re going to need to install and compile some prerequisites for Notion. If you’ve done this for Ion, you should be used to the process by now. First, install the prerequisite libraries from apt with `sudo apt-get install lua5.1 liblua5.1-0-dev libx11-dev libxext-dev libsm-dev gettext`
+ As per the instructions on the [Notion Wiki,](https://sourceforge.net/apps/mediawiki/notion/index.php?title=Development) you’re going to need to install and compile some prerequisites for Notion. If you’ve done this for Ion, you should be used to the process by now. First, install the prerequisite libraries from apt with `sudo apt-get install lua5.1 liblua5.1-0-dev libx11-dev libxext-dev libsm-dev gettext`
 
 Next, you’re going to need to pull the git libraries for libtu and libextl. In the same Notion project director you created above, execute the following 2 git checkout commands. `git clone git://notion.git.sourceforge.net/gitroot/notion/libtu`  
  and  

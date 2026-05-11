@@ -11,7 +11,7 @@ Yep, I finally  made the switch to using Google Voice as my primary number.  M
 
 How is this possible?
 
-[I’m up on burners, playa!](http://en.wikipedia.org/wiki/Barney_Stinson)
+[I’m up on burners, playa!](https://en.wikipedia.org/wiki/Barney_Stinson)
 
 It’s really quite simple.  There’s a terrific Android application called [GrooveIP](https://market.android.com/details?id=com.gvoip&hl=en) that connects to Google voice and lets you make cell phone calls and txts over WiFi.  This lets me txt and make calls wherever there is WiFi signal (my house and work, and coffee shops).  How significant is this?
 

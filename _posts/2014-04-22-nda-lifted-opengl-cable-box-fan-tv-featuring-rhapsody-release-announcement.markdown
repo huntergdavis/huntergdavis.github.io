@@ -6,7 +6,7 @@ date: '2014-04-22 23:23:36'
 ---
 
 
-Eagle-eyed readers may recall about a year ago I mentioned that I was working on an exciting futuristic cable box with a gorgeous API backed by OpenGL. Imagine my excitement when I saw the [official](https://www.fan.tv/tv) [product](http://news.rhapsody.com/2014/04/22/rhapsody-available-on-fan-tv-for-time-warner-cable-at-launch/) [announcement](http://www.ubergizmo.com/2014/04/rhapsody-is-exclusive-music-streaming-service-for-fan-tv/?utm_source=mainrss) begin to hit the [newsfeeds](http://www.cnet.com/news/fan-tv-gets-time-warner-cable-support-and-q2-release-date/)!
+Eagle-eyed readers may recall about a year ago I mentioned that I was working on an exciting futuristic cable box with a gorgeous API backed by OpenGL. Imagine my excitement when I saw the [official](https://www.fan.tv/tv) [product](http://news.rhapsody.com/2014/04/22/rhapsody-available-on-fan-tv-for-time-warner-cable-at-launch/) [announcement](http://www.ubergizmo.com/2014/04/rhapsody-is-exclusive-music-streaming-service-for-fan-tv/?utm_source=mainrss) begin to hit the [newsfeeds](https://www.cnet.com/news/fan-tv-gets-time-warner-cable-support-and-q2-release-date/)!
 
 [![Rhapsody-Fan-TV](/content/images/2014/04/Rhapsody-Fan-TV-300x190.jpg)](/content/images/2014/04/Rhapsody-Fan-TV.jpg)
 

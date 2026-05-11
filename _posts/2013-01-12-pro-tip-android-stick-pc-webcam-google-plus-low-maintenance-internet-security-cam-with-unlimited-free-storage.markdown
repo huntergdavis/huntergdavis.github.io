@@ -14,7 +14,7 @@ While [IP camera](https://play.google.com/store/apps/details?id=com.pas.webcam&f
 
 If you’re using a android-on-a-stick and not an old phone then you’ll need to make sure your time-lapse app supports your USB webcam. [Here’s a good thread](http://www.squidoo.com/mk802-skype-usb-webcam#module161474464) on which cameras are confirmed working. Many free photo apps ([example](https://play.google.com/store/apps/details?id=net.hellosam.despy.free&feature=search_result)) (and perhaps even the photo app that came with your stick pc) support time-lapse photography.
 
-Google recently changed their [privacy policy](http://www.google.com/policies/faq/) to allow for one user to hold multiple accounts. I’d recommend setting one up for your security system, so as not to cloud your regular Google+ instant uploads folder with an infinite history of security photos.
+Google recently changed their [privacy policy](https://www.google.com/policies/faq/) to allow for one user to hold multiple accounts. I’d recommend setting one up for your security system, so as not to cloud your regular Google+ instant uploads folder with an infinite history of security photos.
 
 Most of these stick PCs come with 8gb of internal storage, though some come with 4gb. You can also generally use micro-SD cards as well. I picked up a 32gb micro-sd card for 20$ at my local big-box store. As the photos we’ll be shooting will be relatively small, you will only have to clear out your storage every  
 `(megabytes free storage)/((photo file size in megabytes) * (Photos Per Month))`  

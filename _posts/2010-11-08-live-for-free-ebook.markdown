@@ -15,7 +15,7 @@ Live For Free is an ebook I wrote and distributed in part on www.liveforfree.net
 Currently you can buy the book at:
 
 1. [Barnes and Nobles](http://search.barnesandnoble.com/books/e/2940012269249/?itm=6&USRI=live+for+free)
-2. [Amazon Kindle Store](http://www.amazon.com/Live-Free-Chronicles-Startup-ebook/dp/B004RCLWCM/ref=sr_1_2?ie=UTF8&m=AG56TWVU5XWC2&s=digital-text&qid=1299809273&sr=1-2)
+2. [Amazon Kindle Store](https://www.amazon.com/Live-Free-Chronicles-Startup-ebook/dp/B004RCLWCM/ref=sr_1_2?ie=UTF8&m=AG56TWVU5XWC2&s=digital-text&qid=1299809273&sr=1-2)
 3. Preview, purchase, and rent my books from Google Books in all territories (NO DRM, full copy-paste support).
 4. Sony eBook Store
 5. Kobo Store

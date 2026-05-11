@@ -28,6 +28,6 @@ Do you have everything ready? Let’s get to it!
 8. Boot the Z2 and allow it to flash and reboot to the new Linux logo
 9. This will also make a copy of your original kernel and wifi firmware, copy them off the microSD somewhere safe
 10. Using Gparted, Format the microSD into 2 new partitions, ext2 (the majority of the card) and swap (the remaining 256 megs)
-11. Rename and copy the wifi firmware back to the Z2 as described [here](http://sourceforge.net/apps/mediawiki/openzipit/index.php?title=Getting_Started_with_Open_Embedded_and_the_Z2#WIFI_firmware)
+11. Rename and copy the wifi firmware back to the Z2 as described [here](https://sourceforge.net/apps/mediawiki/openzipit/index.php?title=Getting_Started_with_Open_Embedded_and_the_Z2#WIFI_firmware)
 
 
