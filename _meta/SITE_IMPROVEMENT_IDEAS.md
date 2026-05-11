@@ -727,11 +727,17 @@ version; the v2 redesign will inherit it.*
       `photo-stream-static`). Sweep the rest with
       `script/audit_legacy_urls.py` patterns and either fix the
       target or remove the entry. **S**
-- [ ] **B.4** Expand top nav from 3 to ~6 items: Home,
-      Projects, Writing, Archive, About, Now. Each links to a
-      real page or a temporary placeholder until Phase 2 ships
-      the underlying `/projects/`, `/archive/`, `/tag/`
-      surfaces. Edit `_includes/header.html`. **S**
+- [x] **B.4** Expand top nav. **S** ·
+      *Shipped 2026-05-10.* Nav went from 3 to 5 items in
+      `_includes/header.html`:
+      Home → Projects → Archive → My Story → Leadership and
+      Public Speaking. The two new links (Projects, Archive)
+      target real pages shipped in 2.4 and 2.6. The user's
+      existing "My Story" label is preserved verbatim (no
+      rename to "About") — it's authored prose. The original
+      6-item spec proposed Writing and Now too; those stay
+      deferred until `/writing/` and `/now/` are built (7.4
+      and the future writing-hub).
 - [x] **B.5** Real footer with site map. **M** ·
       *Shipped 2026-05-10.* `_layouts/default.html` footer
       replaced. Was: two lines (copyright + Bitwiser/Jekyll
@@ -2147,3 +2153,10 @@ any public-facing milestone copy until a source is added.
   with `Archive` link. Three browsing axes now live:
   chronological (Archive), thematic (Projects), structural
   (Site Map).
+- `2026-05-10` — **Phase B.4 shipped**: top nav expanded
+  from 3 to 5 items. `_includes/header.html` adds
+  `Projects` (→ /projects/) and `Archive` (→ /archive/),
+  both targeting pages shipped in 2.6 and 2.4. The user's
+  authored "My Story" label is preserved verbatim — not
+  renamed to "About". Writing and Now stay deferred until
+  those pages are built.
