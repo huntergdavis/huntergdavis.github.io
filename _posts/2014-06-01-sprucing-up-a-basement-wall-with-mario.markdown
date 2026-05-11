@@ -3,6 +3,11 @@ layout: post
 title: Sprucing Up A Basement Wall With Mario
 image: /content/images/2014/05/map.png
 date: '2014-06-01 23:20:40'
+tags:
+- fun
+- mario
+- nintendo
+- personal
 ---
 
 

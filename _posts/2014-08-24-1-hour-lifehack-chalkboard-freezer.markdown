@@ -3,6 +3,11 @@ layout: post
 title: '1-Hour LifeHack: Chalkboard Freezer'
 image: /content/images/2014/08/20140824_081347.jpg
 date: '2014-08-24 15:23:19'
+tags:
+- fun
+- hacking
+- personal
+- tips
 ---
 
 

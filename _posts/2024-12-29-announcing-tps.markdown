@@ -3,6 +3,12 @@ layout: post
 title: Announcing TPS  
 date: '2024-12-29 01:00:24'
 image: "/content/images/2024/tps.png"
+tags:
+- fun
+- javascript
+- leadership
+- open-source
+- programming
 ---
 
 Announcing TPS (Team Planning Simulator) (see, it generates TPS Reports ha!)

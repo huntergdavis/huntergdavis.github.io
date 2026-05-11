@@ -3,6 +3,10 @@ layout: post
 title: Oubastet's Wager
 image: /content/images/2014/03/bastet.jpg
 date: '2014-03-20 01:32:54'
+tags:
+- books
+- open-source
+- personal
 ---
 
 

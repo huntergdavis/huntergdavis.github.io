@@ -3,6 +3,10 @@ layout: post
 title: The Android Can't "Open All Your Bookmarks in Tabs" Conspiracy
 image: /content/images/2014/12/tabs.png
 date: '2014-12-17 01:38:04'
+tags:
+- android
+- news
+- personal
 ---
 
 

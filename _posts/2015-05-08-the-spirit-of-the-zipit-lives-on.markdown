@@ -4,6 +4,11 @@ title: The Spirit Of The Zipit Lives On
 image: /content/images/2015/05/pocketchip.jpg
 date: '2015-05-08 16:18:46'
 project: zipit-z2
+tags:
+- embedded
+- hacking
+- linux
+- zipit
 ---
 
 

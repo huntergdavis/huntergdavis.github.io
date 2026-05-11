@@ -3,6 +3,11 @@ layout: post
 title: 'Review: Shovel Knight'
 image: /content/images/2014/08/2014-08-09_00007.jpg
 date: '2014-08-10 22:51:02'
+tags:
+- games
+- pc
+- retro
+- review
 ---
 
 

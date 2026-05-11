@@ -3,6 +3,12 @@ layout: post
 title: 'Review: The Legend of Zelda: Ocarina of Time 3D'
 image: /content/images/2015/02/6878_600.jpg
 date: '2015-02-08 16:28:21'
+tags:
+- 3ds
+- games
+- nintendo
+- review
+- zelda
 ---
 
 

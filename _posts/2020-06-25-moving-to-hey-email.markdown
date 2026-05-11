@@ -3,6 +3,10 @@ layout: post
 title: hunterdavis@hey.com
 date: '2020-06-25 08:33:24'
 quickgrapher: false
+tags:
+- news
+- personal
+- privacy
 ---
 I remember how I used to feel about email.  It was many years after my first email address that I got a gmail account.  It was both ephemeral, and permanent.   I never had to worry about storage, that little storage counter was always going up!  I would email myself small attachments, keep archives in very nice hierarchies, and generally revel in my 'unlimited' email account. 
 

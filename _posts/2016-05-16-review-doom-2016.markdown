@@ -3,6 +3,10 @@ layout: post
 title: "(Review) Doom (2016)"
 image: /content/images/2016/05/379720_screenshots_20160514001940_1.jpg
 date: '2016-05-16 00:10:27'
+tags:
+- games
+- pc
+- review
 ---
 
 

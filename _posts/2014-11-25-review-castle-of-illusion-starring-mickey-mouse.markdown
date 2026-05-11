@@ -3,6 +3,11 @@ layout: post
 title: 'Review: Castle of Illusion Starring Mickey Mouse'
 image: /content/images/2014/11/2014-11-24_00068.jpg
 date: '2014-11-25 04:22:33'
+tags:
+- games
+- pc
+- review
+- steam
 ---
 
 

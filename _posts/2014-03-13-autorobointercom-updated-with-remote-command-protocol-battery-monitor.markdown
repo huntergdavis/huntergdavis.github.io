@@ -3,6 +3,12 @@ layout: post
 title: AutoRoboIntercom Updated With Remote Command Protocol, Battery Monitor
 image: /content/images/2014/03/choo-choo-choose.png
 date: '2014-03-13 04:55:16'
+tags:
+- android
+- android-app
+- network
+- open-source
+- programming
 ---
 
 

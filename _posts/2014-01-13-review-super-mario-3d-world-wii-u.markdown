@@ -3,6 +3,12 @@ layout: post
 title: 'Review: Super Mario 3D World (Wii U)'
 image: /content/images/2014/01/Super-Mario-3D-World-6.jpg
 date: '2014-01-13 03:59:49'
+tags:
+- games
+- mario
+- nintendo
+- review
+- wii-u
 ---
 
 

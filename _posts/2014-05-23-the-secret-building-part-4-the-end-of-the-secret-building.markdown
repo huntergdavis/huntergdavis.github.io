@@ -3,6 +3,10 @@ layout: post
 title: 'The Secret Building: Part 4 (The End Of The Secret Building!)'
 image: /content/images/2014/05/IMG_20140522_123842.jpg
 date: '2014-05-23 03:45:06'
+tags:
+- fun
+- house
+- personal
 ---
 
 

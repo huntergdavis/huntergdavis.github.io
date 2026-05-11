@@ -3,6 +3,12 @@ layout: post
 title: No x86 Handheld Needed 
 date: '2021-10-09 08:33:24'
 featured_img: '/content/images/2021/pi400beyondgoodandevil.jpg'
+tags:
+- emulation
+- games
+- handheld
+- linux
+- raspberry-pi
 ---
 I was working on a follow-up to the previous article on my x86 handheld, when I stumbled upon a technology that totally superseded it.  
 

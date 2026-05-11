@@ -3,6 +3,12 @@ layout: post
 title: Chromecast your LPs With a Little Help From WebAudio
 image: "/content/images/2017/07/justtheeq.png"
 date: '2017-07-24 01:23:27'
+tags:
+- audio
+- chromecast
+- hacking
+- linux
+- thrift
 ---
 
 As it usually does, this all started in the thrift store. I was perusing the usual DVD racks and furniture when something caught my eye.  It was an ion USB turntable, the kind with no speakers.  These types of cheap turntables clutter the electronics sections of most thrift stores, as the replacement needle is generally more valuable than the turntable itself.  Nevertheless I decided to take a look.

@@ -3,6 +3,11 @@ layout: post
 title: 'Review: Kid Dracula (Game Boy)'
 image: /content/images/2014/10/images.png
 date: '2014-10-20 00:03:13'
+tags:
+- game-boy
+- games
+- nintendo
+- review
 ---
 
 

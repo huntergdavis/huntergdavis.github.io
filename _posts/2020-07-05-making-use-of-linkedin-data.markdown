@@ -3,6 +3,10 @@ layout: post
 title: Replacing LinkedIn
 date: '2020-07-05 08:33:24'
 quickgrapher: false
+tags:
+- news
+- personal
+- privacy
 ---
 
 It's been a few weeks since I extracted myself from instagram.  Not nearly as difficult as it was removing myself from Facebook last year, though I hardly know why. 

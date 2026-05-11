@@ -3,6 +3,11 @@ layout: post
 title: 'Prediction: Cryptocurrency Mining To Supplement "Freemium" Business Models
   in 2014'
 date: '2014-02-12 06:57:16'
+tags:
+- cryptocurrency
+- news
+- personal
+- prediction
 ---
 
 

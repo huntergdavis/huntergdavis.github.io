@@ -3,6 +3,11 @@ layout: post
 title: 'Review: Shantae (GBC)'
 image: /content/images/2014/12/shantae-usa.png
 date: '2014-12-23 16:15:03'
+tags:
+- game-boy
+- games
+- nintendo
+- review
 ---
 
 

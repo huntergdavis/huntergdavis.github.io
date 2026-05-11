@@ -3,6 +3,12 @@ layout: post
 title: 'Remixing Continues: Boss Fight!, Casual Katamari, Guitar-ish Thing?'
 image: /content/images/2014/11/device-2014-11-30-153242.png
 date: '2014-11-30 23:51:51'
+tags:
+- android
+- android-game
+- games
+- open-source
+- programming
 ---
 
 

@@ -3,6 +3,11 @@ layout: post
 title: Location-Based Advertising For The Thrifty Hacker
 image: /content/images/2014/04/2014-04-06-17.19.57.jpg
 date: '2014-04-07 01:50:38'
+tags:
+- cheap
+- hacking
+- repurposing
+- thrift
 ---
 
 

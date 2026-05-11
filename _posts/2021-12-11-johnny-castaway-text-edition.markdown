@@ -4,6 +4,12 @@ title: Johnny Castaway Text Edition
 date: '2021-12-11 08:33:24'
 featured_img: '/content/images/2021/johnny_printer.jpg'
 project: johnny-castaway
+tags:
+- fun
+- johnny-castaway
+- open-source
+- porting
+- shell
 ---
 <img src="/content/images/2021/johnny_printer.jpg" width="640">
 I've been enjoying and porting Johnny Castaway to new systems for many years now.  Today though, is the first time I've actually added a fundamentally new feature to Johnny.  

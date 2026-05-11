@@ -3,6 +3,11 @@ layout: post
 title: 'Review: Steamworld Dig'
 image: /content/images/2014/11/2014-11-06_00001.jpg
 date: '2014-11-08 06:16:24'
+tags:
+- games
+- pc
+- review
+- steam
 ---
 
 

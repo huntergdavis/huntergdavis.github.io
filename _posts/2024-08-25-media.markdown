@@ -3,6 +3,11 @@ layout: post
 title: Physical Media and Markdown Table Renderer 
 date: '2024-08-25 12:00:24'
 featured_img: '/content/images/2024/markdown.png'
+tags:
+- javascript
+- open-source
+- personal
+- programming
 ---
 I'm a big fan of [Obsidian](https://www.obsidian.md/), paying for premium and using it to store notes and lists. 
 

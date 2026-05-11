@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Red Dead Redemption'
 image: /content/images/2014/09/250px-Rdr_cover.jpg
 date: '2014-09-06 18:10:17'
+tags:
+- games
+- ps3
+- review
 ---
 
 

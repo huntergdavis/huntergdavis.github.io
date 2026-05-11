@@ -3,6 +3,10 @@ layout: post
 title: Woeful is The Hacker Who Knows Everything
 image: /content/images/2015/03/scumbaghackerhunter.png
 date: '2015-03-25 23:04:00'
+tags:
+- hacking
+- linux
+- personal
 ---
 
 

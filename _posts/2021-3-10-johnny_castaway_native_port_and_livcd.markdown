@@ -5,6 +5,12 @@ date: '2021-03-10 08:33:24'
 featured_img: '/content/images/2021/vbox_johnny.png'
 project: johnny-castaway
 featured: true
+tags:
+- embedded
+- johnny-castaway
+- linux
+- open-source
+- porting
 ---
 Once again, I am reminded of how much the past influences our future, and the choices we make.  In my case, it's a twisty tale that starts simply enough, but ends with Johnny Castaway running natively from a ramdisk on systems with as little as 64mb.  Interested?  Read on.  Want to download it for yourself right now?  Skip to the end!
 

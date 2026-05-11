@@ -3,6 +3,11 @@ layout: post
 title: A Quick (Grapher) Blast From My Past
 date: '2019-12-27 08:33:24'
 quickgrapher: true
+tags:
+- javascript
+- open-source
+- personal
+- programming
 ---
 
 

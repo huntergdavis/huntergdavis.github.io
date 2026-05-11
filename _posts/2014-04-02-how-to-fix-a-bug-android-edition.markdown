@@ -3,6 +3,11 @@ layout: post
 title: How To Fix A Bug (Android Edition)
 image: /content/images/2014/04/page0.png
 date: '2014-04-02 02:53:09'
+tags:
+- android
+- debugging
+- fun
+- programming
 ---
 
 

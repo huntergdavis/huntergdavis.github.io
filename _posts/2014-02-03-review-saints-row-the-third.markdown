@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Saints Row The Third'
 image: /content/images/2014/02/2014-02-02_00026.jpg
 date: '2014-02-03 04:27:37'
+tags:
+- games
+- pc
+- review
 ---
 
 

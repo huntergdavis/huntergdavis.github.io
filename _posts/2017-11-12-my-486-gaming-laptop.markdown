@@ -3,6 +3,12 @@ layout: post
 title: My (486) Gaming Laptop
 image: "/content/images/2017/11/IMG_20171111_192925.jpg"
 date: '2017-11-12 04:21:43'
+tags:
+- emulation
+- games
+- hacking
+- retro
+- vintage-computers
 ---
 
 When it comes to modern retro gaming, there's a whole world of emulation options out there.  Dosbox runs on anything, and even your phone is powerful enough to emulate modern consoles.  Still, for some of us that's not enough. There's something magical about playing on original hardware.  

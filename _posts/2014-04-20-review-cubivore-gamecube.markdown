@@ -3,6 +3,11 @@ layout: post
 title: 'Review: Cubivore (Gamecube)'
 image: /content/images/2014/04/GCVEEB-15.png
 date: '2014-04-20 00:43:15'
+tags:
+- gamecube
+- games
+- nintendo
+- review
 ---
 
 

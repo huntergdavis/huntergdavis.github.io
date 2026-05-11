@@ -3,6 +3,11 @@ layout: post
 title: 'Review: The Legend of Zelda: A Link Between Worlds'
 image: /content/images/2014/03/3DS_ZeldaLBW_NBD_StreetPass_05.jpg
 date: '2014-03-31 06:10:03'
+tags:
+- games
+- nintendo
+- review
+- zelda
 ---
 
 

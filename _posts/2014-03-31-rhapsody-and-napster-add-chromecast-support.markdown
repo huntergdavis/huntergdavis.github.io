@@ -3,6 +3,12 @@ layout: post
 title: Rhapsody and Napster Add ChromeCast Support
 image: /content/images/2014/03/napster_chromecast.png
 date: '2014-03-31 22:30:22'
+tags:
+- android
+- chromecast
+- news
+- programming
+- rhapsody
 ---
 
 

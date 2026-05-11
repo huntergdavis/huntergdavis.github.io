@@ -3,6 +3,11 @@ layout: post
 title: 'Emotional Gaming: Fallout 4 vs. Ori and the Blind Forest'
 image: /content/images/2015/12/orivsfallout4.png
 date: '2015-12-31 19:50:57'
+tags:
+- games
+- pc
+- personal
+- review
 ---
 
 

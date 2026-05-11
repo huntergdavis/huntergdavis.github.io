@@ -3,6 +3,12 @@ layout: post
 title: AutoRoboIntercom Now On Google Play
 image: /content/images/2014/03/speaknow.png
 date: '2014-05-30 05:26:11'
+tags:
+- android
+- android-app
+- android-market
+- announcement
+- google
 ---
 
 

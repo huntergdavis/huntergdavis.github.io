@@ -3,6 +3,10 @@ layout: post
 title: 'GTA IV: The Dating Simulator Gotham Needed'
 image: /content/images/2017/01/23.jpg
 date: '2017-01-16 02:47:16'
+tags:
+- games
+- pc
+- review
 ---
 
 

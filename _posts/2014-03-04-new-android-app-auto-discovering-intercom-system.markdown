@@ -3,6 +3,12 @@ layout: post
 title: 'New Android App: Auto Discovering Intercom System'
 image: /content/images/2014/03/speaknow.png
 date: '2014-03-04 03:36:29'
+tags:
+- android
+- android-app
+- hacking
+- open-source
+- programming
 ---
 
 

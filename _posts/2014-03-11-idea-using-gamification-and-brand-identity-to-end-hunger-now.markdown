@@ -3,6 +3,10 @@ layout: post
 title: 'Idea: Using Gamification and Brand Identity to End Hunger Now'
 image: /content/images/2014/03/jane-austin-RTEC.png
 date: '2014-03-11 01:59:23'
+tags:
+- give
+- news
+- personal
 ---
 
 

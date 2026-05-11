@@ -3,6 +3,12 @@ layout: post
 title: 'Review: Lightning Returns: Final Fantasy 13-3'
 image: /content/images/2016/03/gfs_278120_2_5.jpg
 date: '2016-03-27 16:25:20'
+tags:
+- games
+- pc
+- review
+- rpg
+- steam
 ---
 
 

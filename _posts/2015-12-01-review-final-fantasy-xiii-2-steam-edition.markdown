@@ -3,6 +3,12 @@ layout: post
 title: 'Review: Final Fantasy XIII-2 (Steam Edition)'
 image: /content/images/2015/11/5998mooglethrow_b02_us_rgb-psd_.jpg
 date: '2015-12-01 01:45:21'
+tags:
+- games
+- pc
+- review
+- rpg
+- steam
 ---
 
 
