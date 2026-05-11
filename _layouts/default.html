@@ -24,9 +24,18 @@
       <main id="main" class="content">
         {{ content }}
       </main>
-      <footer class="grid site-footer">
-        <p>&copy;&nbsp;{{ site.name }}</p>
-        <p><small>Powered by <a href="http://jekyllrb.com" target="_blank"><em>Jekyll</em></a> using <a href="http://bitwiser.in/bitwiser/" target="_blank"><em>Bitwiser</em></a> theme.</small></p>
+      <footer class="site-footer" aria-label="Site footer">
+        <ul class="footer-links">
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/public-speaking.html">Leadership and Public Speaking</a></li>
+          <li><a href="/search.html">Search</a></li>
+          <li><a href="/feed.xml">RSS</a></li>
+          <li><a href="/feed-full.xml">RSS (full)</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+          {% if site.links.github %}<li><a href="https://github.com/{{ site.links.github }}">GitHub</a></li>{% endif %}
+          {% if site.links.email %}<li><a href="mailto:{{ site.links.email }}">Email</a></li>{% endif %}
+        </ul>
+        <p class="footer-credit">&copy;&nbsp;{{ site.name }} &middot; <small>Powered by <a href="https://jekyllrb.com">Jekyll</a></small></p>
       </footer>
     </body>
 </html>

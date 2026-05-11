@@ -719,12 +719,23 @@ version; the v2 redesign will inherit it.*
       real page or a temporary placeholder until Phase 2 ships
       the underlying `/projects/`, `/archive/`, `/tag/`
       surfaces. Edit `_includes/header.html`. **S**
-- [ ] **B.5** Real footer with site map. Replace the bare
-      copyright + Jekyll credit with four sections:
-      **Browse** (archive, tags, projects), **Read** (latest
-      post, RSS, full-text feed), **Reach** (GitHub, email),
-      **Meta** (about, now, uses). Edit
-      `_layouts/default.html`. **M**
+- [x] **B.5** Real footer with site map. **M** ·
+      *Shipped 2026-05-10.* `_layouts/default.html` footer
+      replaced. Was: two lines (copyright + Bitwiser/Jekyll
+      attribution). Now: flat horizontal list of 8 functional
+      links — About, Leadership and Public Speaking, Search,
+      RSS, RSS (full), Sitemap, GitHub, Email — plus a compact
+      credit line. Every link destination exists today (no 404
+      traps; surfaces like /archive/ and /projects/ omitted
+      until their Phase 2 / Phase 4 pages exist). Section-heading
+      version deliberately skipped to avoid authoring
+      section-name prose; the flat list is honest about what
+      each link is. Link labels match existing UI vocabulary
+      verbatim (e.g., "Leadership and Public Speaking" matches
+      the nav). Bitwiser-theme attribution removed since the
+      codebase has been substantially rewritten from the
+      template — the recent dead-code purges in 0.8/0.9/0.10/0.12
+      gutted most of what was left of it. Jekyll credit retained.
 - [ ] **B.6** Site map page at `/sitemap.html` — distinct from
       the crawler-targeted `/sitemap.xml`. One human-readable
       page listing every section, every project family, every
@@ -1896,3 +1907,13 @@ any public-facing milestone copy until a source is added.
   scanning the home page now see "~N min read" next to each
   post date, matching the post-page indicator. Spread on the
   latest 10 posts: 1–6 minutes.
+- `2026-05-10` — **Phase B.5 shipped**: real footer with site
+  map. The two-line copyright + Bitwiser-theme attribution
+  was replaced by a flat horizontal list of 8 functional
+  links (About, Leadership and Public Speaking, Search, RSS,
+  RSS full, Sitemap, GitHub, Email) plus a compact Jekyll
+  credit. Every link goes somewhere that resolves today.
+  Footer renders on every page via the default layout. The
+  Bitwiser-theme credit was dropped since the codebase has
+  been substantially rewritten from the original (most of the
+  Bitwiser scaffolding has been deleted in recent commits).

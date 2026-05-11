@@ -552,9 +552,38 @@ article{
 
 .site-footer{
 	border-top: 1px solid #ccc;
-	padding-top: 0.5em;
-	padding-left: $padding-left;
+	padding: 1em $padding-left;
 	text-align: center;
+	color: #555;
+
+	.footer-links{
+		list-style: none;
+		padding: 0;
+		margin: 0 0 0.5em 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.25em 1em;
+		font-size: 0.9em;
+
+		li{
+			display: inline;
+		}
+		a{
+			color: #0B5485;
+			text-decoration: none;
+
+			&:hover, &:focus{
+				color: #149797;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.footer-credit{
+		margin: 0.5em 0 0 0;
+		font-size: 0.85em;
+	}
 }
 
 @media screen and (max-width: 568px) {
