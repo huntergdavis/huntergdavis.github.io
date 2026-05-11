@@ -87,7 +87,7 @@ body{
 	margin: 0 auto;
 }
 a{
-	transition: .2s ease-in all;
+	transition: color .2s ease-in, background-color .2s ease-in, border-color .2s ease-in;
 }
 .site-title{
 	margin: 0.25em 0 0;
