@@ -1113,8 +1113,23 @@ URL preservation work moved to Phase A above.*
 *Goal: surfaces exist (even if empty), so subsequent commits can
 populate.*
 
-- [ ] **2.1** Create `_data/tags.yml` with the controlled vocabulary
-      defined under "Tag taxonomy" above. **M**
+- [x] **2.1** Create `_data/tags.yml` with the controlled vocabulary
+      defined under "Tag taxonomy" above. **M** ·
+      *Shipped 2026-05-10 (minimum scope).* `script/audit_tags.py`
+      walks every post's frontmatter, extracts every distinct tag
+      value, and emits `_data/tags.yml` as a flat slug → count
+      dict (sorted descending by count, alphabetical for ties).
+      370 distinct tags captured across 113 tagged posts (774
+      total tag applications, 3.3 avg per post). Top entries:
+      android (58), android-app (44), android-apps-2 (43),
+      app-tag (43), easy (37), linux (14), hacking (13).
+      Curation into canonical vocabulary (collapsing synonyms
+      like android-app / android-apps-2 / app-tag, defining
+      display names, grouping into families) is a separate
+      downstream commit — tracked as new item 2.9. This commit
+      gives Phase 2.2 (tag pages), 2.3 (tag index), and B.18
+      (topic cloud) the data they need without imposing
+      authored vocabulary on the user's organic tagging.
 - [ ] **2.2** Add a `_plugins/tag_pages.rb` generator (or use
       `jekyll-archives`) to emit `/tag/<slug>/index.html` per tag,
       with paginated post lists. **M** · *Note:* GitHub Pages disallows
@@ -1162,6 +1177,17 @@ populate.*
 - [ ] **2.8** Add `_layouts/project.html` for project landing pages —
       renders project metadata, "Posts" list filtered by tag/slug, and
       external links. **S**
+- [ ] **2.9** Curate the `_data/tags.yml` inventory into a
+      canonical vocabulary. Collapse near-synonyms (e.g.,
+      `android-app` + `android-apps-2` + `app-tag` → one
+      canonical slug), pick display names, group into families
+      (hardware-hack / software / writing / etc.). Restructures
+      the flat slug → count dict shipped in 2.1 into per-tag
+      objects with `count, display, family, aliases:[…]` keys.
+      The script `script/audit_tags.py` keeps regenerating the
+      count column; the rest is editorial. Until this lands,
+      tag pages (2.2) and the topic cloud (B.18) render all
+      370 slugs as-is. **M**
 
 ### Phase 3 — Tag backfill (bulk metadata recovery)
 *Goal: fill in the 394 untagged posts. One commit per batch.*
@@ -2186,3 +2212,13 @@ any public-facing milestone copy until a source is added.
   `paginator.page == 1`. A reader's first impression of the
   home now leads with the greatest-hits, not just the most
   recent post.
+- `2026-05-10` — **Phase 2.1 shipped (minimum scope)**:
+  `_data/tags.yml` inventory of every tag value in post
+  frontmatter. New `script/audit_tags.py` extracts 370
+  distinct tags across 113 tagged posts (774 total tag
+  applications) and writes the data file as a flat slug →
+  count dict, descending by count. Foundation for Phase 2.2
+  (tag pages), 2.3 (tag index), and B.18 (topic cloud) —
+  all three need the data, even before canonical-form
+  curation. Curation into canonical vocabulary tracked as
+  new item 2.9.
