@@ -11,7 +11,15 @@ title: Error 404
 		<input type="search" id="not-found-search-input" name="query" placeholder="Search…" autocomplete="off">
 		<button type="submit">Search</button>
 	</form>
-	<p style="text-align:center"><a href="/">Go back</a></p>
+	<nav class="not-found-nav" aria-label="Site sections">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/archive/">Archive</a></li>
+			<li><a href="/projects/">Projects</a></li>
+			<li><a href="/tags/">Tags</a></li>
+			<li><a href="/sitemap.html">Site map</a></li>
+		</ul>
+	</nav>
 	<script>
 	(function(){
 		var path = location.pathname || '';

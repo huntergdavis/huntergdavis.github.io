@@ -476,6 +476,32 @@ article{
 	}
 }
 
+.not-found-nav{
+	margin: 1.5em 0 0.5em 0;
+	text-align: center;
+	font-size: 0.95em;
+
+	ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.25em 1em;
+	}
+	li{
+		display: inline;
+	}
+	a{
+		color: #0B5485;
+
+		&:hover, &:focus{
+			color: #149797;
+		}
+	}
+}
+
 .not-found-search{
 	display: flex;
 	gap: 0.5em;

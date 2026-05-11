@@ -1458,8 +1458,21 @@ last commit in this phase swaps the default.*
       tracking-cookie problem until the user clicks them).
       youtube-nocookie.com is Google's "privacy-enhanced mode"
       that doesn't set tracking cookies until playback starts.
-- [ ] **7.13** Add 404 page upgrade with site-map and search.
-      (Smart-routing extensions for legacy paths handled in A.12.) **S**
+- [x] **7.13** Add 404 page upgrade with site-map and search.
+      **S** · *Shipped 2026-05-11.* The 404 page already had a
+      search box and JS-driven path-derivation (auto-fills the
+      query from common legacy URL patterns like
+      `/android-app-*/`, `/category/*`, `?s=` etc.). Added a
+      `<nav class="not-found-nav">` with five quick-escape
+      links — Home, Archive, Projects, Tags, Site map —
+      mirroring the footer link set. Removed the misleading
+      "Go back" anchor (it actually went to `/`, not the
+      previous page). New CSS uses flex + wrap so the link row
+      gracefully degrades on narrow viewports. Smart-routing
+      for *resolvable* legacy paths is still handled
+      server-side in A.12; this page is the fallback when
+      nothing matches. Palette-consistent with the rest of the
+      site (#0B5485 / #149797).
 - [x] **7.16** Convert `<a id='X'>` anchors in
       `public-speaking.md` to real kramdown heading IDs (same
       pattern as 7.10's about.md conversion). **S** ·
@@ -1945,6 +1958,13 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.13 shipped**: 404 page upgrade.
+  Added a quick-escape `<nav>` with five links (Home, Archive,
+  Projects, Tags, Site map) mirroring the footer. Replaces the
+  misleading "Go back" anchor. Smart-search auto-fill from
+  legacy URL patterns (Android apps, /category/, ?s= etc.)
+  was already in place. CSS uses flex-wrap so the link row
+  collapses cleanly on narrow viewports.
 - `2026-05-11` — **Phase 7.20 shipped**: completed article-level
   Open Graph metadata on posts. `_includes/ssn.html` now emits
   `og:url`, `article:published_time`, `article:author`, and one
