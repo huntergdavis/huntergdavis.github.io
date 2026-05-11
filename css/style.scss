@@ -629,6 +629,24 @@ article{
 	}
 }
 
+.action-button{
+	display: inline-block;
+	padding: 6px 14px;
+	margin: 0.25em 0.25em 0.5em 0;
+	font-size: 0.9em;
+	font-family: inherit;
+	background: #fff;
+	color: #0B5485;
+	border: 1px solid #0B5485;
+	border-radius: 3px;
+	cursor: pointer;
+
+	&:hover, &:focus{
+		background: #0B5485;
+		color: #fff;
+	}
+}
+
 .not-found-search,
 .search-page-form{
 	display: flex;
