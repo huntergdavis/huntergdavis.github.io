@@ -1481,6 +1481,26 @@ last commit in this phase swaps the default.*
       Validated as valid JSON. Pairs with 7.1's BlogPosting so
       search engines can resolve `BlogPosting.author.name` to a
       single Person entity with verified profile links.
+- [x] **7.20** Complete article-level Open Graph metadata on
+      posts. **S** · *Shipped 2026-05-11.* `_includes/ssn.html`
+      previously emitted `og:url` only on the home branch
+      (when `page.excerpt` was empty), which is the opposite
+      of what's needed — share scrapers want `og:url` on
+      every page to identify the canonical share target.
+      Added: `og:url` on the article branch (resolved through
+      `absolute_url`, matching the canonical), plus
+      `article:published_time` (ISO 8601 via
+      `date_to_xmlschema`), `article:author`, and one
+      `article:tag` per `page.tags` entry. The two
+      date/author tags are guarded by `{% if page.date %}` so
+      they only fire on real posts, not the static markdown
+      pages (about, archive, projects, etc.) that also enter
+      the article branch by virtue of having an excerpt.
+      Facebook, LinkedIn, Discord, Slack, Mastodon and any
+      OGP-compliant scraper can now show the publication date
+      and tag list in the rich-card preview, not just the
+      title/image. Completes the OG metadata story started
+      with 7.18 (per-post share-card image).
 - [x] **7.19** Add JSON-LD `WebSite` + `SearchAction` to home.
       **S** · *Shipped 2026-05-11.* New
       `_includes/jsonld_website.html` referenced from
@@ -1925,6 +1945,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.20 shipped**: completed article-level
+  Open Graph metadata on posts. `_includes/ssn.html` now emits
+  `og:url`, `article:published_time`, `article:author`, and one
+  `article:tag` per tag on every post — Facebook/LinkedIn/Slack
+  rich cards now include the publication date and tag list.
 - `2026-05-11` — **Phase 7.19 shipped**: WebSite + SearchAction
   JSON-LD on home page. New `_includes/jsonld_website.html`
   declares the site and a SearchAction whose `urlTemplate`
