@@ -432,10 +432,34 @@ nav ul {
 }
 
 code{
-	background-color: #dbdbdb;
-	color: #000;
-	padding: 0 3px;
-	word-break: break-all;
+	background-color: #f6f8fa;
+	color: #24292e;
+	padding: 0.15em 0.35em;
+	border-radius: 3px;
+	font-size: 0.9em;
+	word-break: break-word;
+}
+
+pre{
+	background: #f6f8fa;
+	border: 1px solid #e1e4e8;
+	border-radius: 4px;
+	padding: 0.85em 1em;
+	overflow-x: auto;
+	max-width: 100%;
+	line-height: 1.45;
+	font-size: 0.9em;
+	-webkit-overflow-scrolling: touch;
+
+	code{
+		background: transparent;
+		padding: 0;
+		border-radius: 0;
+		font-size: 1em;
+		white-space: pre;
+		word-break: normal;
+		color: inherit;
+	}
 }
 
 article{

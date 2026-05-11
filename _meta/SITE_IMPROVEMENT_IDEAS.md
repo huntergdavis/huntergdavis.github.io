@@ -1501,6 +1501,29 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.32** Style `<pre>` blocks + fix `<code>` `word-break`.
+      **S** · *Shipped 2026-05-11.* `code` rule had
+      `word-break: break-all` which was disastrous for code
+      samples — it'd break a function name like
+      `getElementById` mid-character at the column edge.
+      Worse, there was **no `<pre>` rule at all**, so
+      multi-line code blocks rendered with browser defaults:
+      no background, no border, no horizontal-scroll, and
+      kramdown's emitted `<pre><code>` inherited the
+      break-all word-break, mangling indentation.
+      (1) `code` now uses GitHub-style `#f6f8fa` background
+      with `#24292e` text, `0.15em 0.35em` padding,
+      `border-radius: 3px`, and **`word-break: break-word`**
+      (word-boundary breaks, not arbitrary character breaks).
+      (2) New `pre` rule: bg + border + padding + 4px
+      radius + **`overflow-x: auto`** with
+      `-webkit-overflow-scrolling: touch` for iOS, +
+      `max-width: 100%` so wide code blocks scroll inside
+      their container instead of breaking the layout.
+      (3) `pre code` nested rule resets the inline-code
+      decoration so the pre block isn't double-styled, and
+      uses `white-space: pre` + `word-break: normal` so
+      indentation and line structure are preserved verbatim.
 - [x] **B.31** Responsive tables + collapsed-border styling. **S** ·
       *Shipped 2026-05-11.* 31 posts have content tables.
       Three small CSS upgrades bundled together:
@@ -2557,6 +2580,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.32 shipped**: code block styling.
+  `<code>` swapped from `#dbdbdb` + `word-break: break-all` to
+  GitHub-style `#f6f8fa` + `break-word`. New `<pre>` rule adds
+  bg/border/padding + `overflow-x:auto` for horizontal scroll
+  of wide code samples. `pre code` resets so nested code
+  isn't double-styled and indentation is preserved.
 - `2026-05-11` — **Phase B.31 shipped**: responsive tables for the
   31 posts with content tables. Mobile media query flips them
   to `display:block` + `overflow-x:auto` so wide tables scroll
