@@ -52,7 +52,10 @@ layout: default
 		})();
 		</script>
 	</header>
-		<img src="{{ page.image }}" >
+	{% assign hero = page.image | default: page.featured_img %}
+	{% if hero != blank %}
+		<img class="post-hero" src="{{ hero }}" alt="" decoding="async">
+	{% endif %}
 	<section>
 		{% if page.tags and page.tags.size > 0 %}
 			<div class="tags">

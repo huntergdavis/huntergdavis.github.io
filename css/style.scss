@@ -415,6 +415,12 @@ article{
 	header{
 		border-bottom: 1px solid #ccc;
 	}
+	.post-hero{
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin: 1em auto;
+	}
 	section{
 		img {
 			display: block;

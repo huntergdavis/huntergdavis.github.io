@@ -1458,6 +1458,26 @@ last commit in this phase swaps the default.*
       tracking-cookie problem until the user clicks them).
       youtube-nocookie.com is Google's "privacy-enhanced mode"
       that doesn't set tracking cookies until playback starts.
+- [x] **7.22** Fix broken `<img src="">` on post hero. **S** ·
+      *Shipped 2026-05-11.* `_layouts/post.html` previously
+      emitted `<img src="{{ page.image }}" >` unconditionally,
+      which rendered as `<img src="">` on every post without a
+      hero image — invalid HTML that Chrome misinterprets as a
+      reference to the document URL, plus no `alt` attribute
+      (WCAG 1.1.1 violation). Replaced with a guarded block:
+      resolves through `page.image | default: page.featured_img`
+      (same pattern as `index.html`'s home cards, picking up
+      legacy `featured_img` posts too), emits the `<img>` only
+      when a real source exists, adds `alt=""` (decorative —
+      the H1 title is right above), `decoding="async"`, and a
+      new `.post-hero` class. New CSS rule (`display: block;
+      max-width: 100%; height: auto; margin: 1em auto`) keeps
+      wide images contained within the post column and
+      centered. Brace balance 166/166. Older posts with
+      `featured_img` (e.g., `2024-04-01-privacy-and-ai-update`,
+      `2024-08-25-media`, `2024-08-25-search`) now correctly
+      render their hero too — previously they fell through
+      silently because the layout only checked `page.image`.
 - [x] **7.21** Add CollectionPage + ItemList JSON-LD to per-year
       archive pages. **S** · *Shipped 2026-05-11.* Updated
       `script/generate_year_archives.py` to emit a
@@ -1976,6 +1996,13 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.22 shipped**: fixed broken hero `<img>`
+  in `_layouts/post.html`. Previously every post emitted
+  `<img src="">` with no alt. Now guarded by `if hero != blank`,
+  resolves `page.image | default: page.featured_img`, adds
+  `alt=""`, `decoding="async"`, `.post-hero` class. New CSS
+  rule contains the hero within the column. Legacy
+  `featured_img` posts now render their hero correctly too.
 - `2026-05-11` — **Phase 7.21 shipped**: CollectionPage + ItemList
   JSON-LD on per-year archive pages. `generate_year_archives.py`
   bakes a JSON-LD block into each of the 19 `archive/YYYY.md`
