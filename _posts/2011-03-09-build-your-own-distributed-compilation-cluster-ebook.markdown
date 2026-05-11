@@ -6,6 +6,13 @@ redirect_from:
   - /books/build-your-own-distributed-compilation-cluster-ebook/
   - /build-your-own-distributed-compilation-cluster-ebook
   - /build-your-own-distributed-compilation-cluster-ebook/
+tags:
+- ebook
+- arm
+- linux
+- cloud
+- build
+- cluster
 ---
 
 

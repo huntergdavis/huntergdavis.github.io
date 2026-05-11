@@ -2,6 +2,12 @@
 layout: post
 title: A Programmer's Desktop Background
 date: '2011-02-21 12:31:54'
+tags:
+- linux
+- ubuntu
+- desktop
+- tutorial
+- programming
 ---
 
 

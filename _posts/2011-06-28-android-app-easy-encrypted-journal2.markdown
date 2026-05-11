@@ -2,6 +2,14 @@
 layout: post
 title: Easy Encrypted Journal
 date: '2011-06-28 13:30:39'
+tags:
+- android
+- android-app
+- android-market
+- easy
+- easy-encrypted-journal
+- encryption
+- aes
 ---
 
 

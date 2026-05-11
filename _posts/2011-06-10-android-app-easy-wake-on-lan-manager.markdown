@@ -5,6 +5,13 @@ date: '2011-06-10 16:36:40'
 redirect_from:
   - /android-app-easy-wake-on-lan-manager
   - /android-apps/file-and-network-tools/android-app-easy-wake-on-lan-manager/
+tags:
+- android
+- android-app
+- android-market
+- easy
+- network
+- network-apps
 ---
 
 

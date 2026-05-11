@@ -2,6 +2,13 @@
 layout: post
 title: Hacks.. Now Available to Purchase Online
 date: '2011-03-14 20:15:03'
+tags:
+- ebook
+- hack
+- hacking
+- amazon
+- barnes-and-nobles
+- zipit-z2
 ---
 
 

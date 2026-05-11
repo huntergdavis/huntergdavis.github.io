@@ -5,6 +5,15 @@ date: '2011-06-16 13:50:48'
 redirect_from:
   - /android-app-easy-dog-whistle
   - /android-apps/android-app-super-whistle/android-app-easy-dog-whistle/
+tags:
+- android
+- android-app
+- android-market
+- easy
+- easy-whistle
+- whistle
+- dog-whistle
+- easy-dog-whistle
 ---
 
 

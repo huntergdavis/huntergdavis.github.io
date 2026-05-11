@@ -2,6 +2,13 @@
 layout: post
 title: Easy Text Prompter
 date: '2011-06-30 16:22:39'
+tags:
+- android
+- android-app
+- android-market
+- easy
+- easy-text-prompter
+- easy-text
 ---
 
 

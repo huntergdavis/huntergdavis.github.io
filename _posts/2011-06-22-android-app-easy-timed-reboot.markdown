@@ -5,6 +5,14 @@ date: '2011-06-22 12:53:55'
 redirect_from:
   - /android-app-easy-timed-reboot
   - /android-apps/file-and-network-tools/android-app-easy-timed-reboot/
+tags:
+- android
+- android-app
+- android-market
+- easy
+- easy-timed-reboot
+- root
+- timed-reboot
 ---
 
 

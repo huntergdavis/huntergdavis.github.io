@@ -2,6 +2,12 @@
 layout: post
 title: Pixel Qi Netbook With 14 hr Battery Life On Sale Today (on my eBay page)
 date: '2011-03-19 15:44:47'
+tags:
+- gadgets
+- sale
+- low-power
+- hack
+- linux
 ---
 
 

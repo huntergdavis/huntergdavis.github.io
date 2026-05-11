@@ -2,6 +2,13 @@
 layout: post
 title: Easy Lorem Ipsum
 date: '2011-06-29 12:18:27'
+tags:
+- android
+- android-app
+- android-market
+- easy
+- easy-lorem-ipsum
+- easy-text
 ---
 
 

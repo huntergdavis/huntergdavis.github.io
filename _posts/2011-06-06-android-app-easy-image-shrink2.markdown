@@ -2,6 +2,14 @@
 layout: post
 title: Easy Image Shrink
 date: '2011-06-06 13:51:39'
+tags:
+- android
+- android-app
+- android-market
+- easy
+- easy-images
+- image
+- image-scale
 ---
 
 
