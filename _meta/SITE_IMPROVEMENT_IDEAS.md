@@ -1501,6 +1501,22 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.20** RSS feed auto-discovery + MIME correction. **S** ·
+      *Shipped 2026-05-11.* Added two
+      `<link rel="alternate" type="application/rss+xml">`
+      tags inside `<head>` in `_layouts/default.html`, one
+      per feed (`/feed.xml` and `/feed-full.xml`). Modern
+      browsers and feed readers can now auto-detect both
+      feeds from any page on the site — paste any URL into
+      a reader and it discovers the feeds automatically.
+      Also corrected the long-standing MIME-type bug in
+      `_includes/sidebar.html` where the inline RSS link
+      claimed `application/atom+xml` despite both feed
+      templates emitting `<rss version="2.0">` documents.
+      Zero risk: only adds discovery metadata + corrects a
+      typed-wrong attribute. Pairs with 1.4 (the existing
+      split between trimmed `/feed.xml` and full-content
+      `/feed-full.xml`).
 - [x] **B.19** Active-page indication in main nav. **S** ·
       *Shipped 2026-05-11.* Each of the five top-nav links in
       `_includes/header.html` now emits `aria-current="page"`
@@ -2154,6 +2170,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.20 shipped**: RSS feed auto-discovery.
+  Two `<link rel="alternate" type="application/rss+xml">` tags
+  added inside `<head>` so browsers and feed readers
+  auto-detect both `/feed.xml` and `/feed-full.xml` from any
+  page. Also corrected a mis-typed `application/atom+xml`
+  attribute in the sidebar RSS link — feeds are RSS 2.0.
 - `2026-05-11` — **Phase B.19 shipped**: active-page indication in
   main nav. Each top-nav `<a>` emits `aria-current="page"` when
   it targets the current `page.url`; new CSS flips it to white
