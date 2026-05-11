@@ -266,7 +266,7 @@ During my tenure at Miso Media I ported their proprietary pitch detection and FF
 ### Air Beats {#airbeats}
 Airbeats is an augmented realited drum kit I designed for the 2011 San Francisco TechCrunch Hackathon. I lead a team of designers, muscians, and engineers to create a fully working iOS and Android app in just under 15 hours. You can read an overview here, view a video of my colleague discussing it here, or watch me present it below.
 
-<embed flashvars="vid=17217400&autoplay=false" width="720" height="431" allowfullscreen="true" allowscriptaccess="always" src="http://www.ustream.tv/flash/viewer.swf" type="application/x-shockwave-flash"></embed>
+https://techcrunch.com/video/air-beats-ar-drum-kit/
 
 ### Rhapsody (Napster) {#rhapsody}
 In the spring of 2012 I joined the Android team at Rhapsody International.
