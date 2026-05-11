@@ -399,14 +399,25 @@ nav ul {
 	
 	table {
 	  margin: 10px 0px;
-	  
+	  border-collapse: collapse;
+
 	  th {
 	  	font-weight: bold;
+	  	background: #f4f4f4;
 	  }
 	}
 	th, td {
 		padding: 6px 13px;
 		border: 1px solid #ddd;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	article section table {
+		display: block;
+		overflow-x: auto;
+		max-width: 100%;
+		-webkit-overflow-scrolling: touch;
 	}
 }
 

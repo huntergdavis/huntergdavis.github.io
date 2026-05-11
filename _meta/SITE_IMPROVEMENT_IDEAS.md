@@ -1501,6 +1501,23 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.31** Responsive tables + collapsed-border styling. **S** ·
+      *Shipped 2026-05-11.* 31 posts have content tables.
+      Three small CSS upgrades bundled together:
+      (1) `border-collapse: collapse` on article tables —
+      removes the doubled-border look between adjacent cells
+      that looked dated.
+      (2) `th { background: #f4f4f4 }` — header rows visually
+      distinguished by a light gray fill rather than just a
+      bold weight; faster to scan.
+      (3) Mobile-only `@media (max-width: 568px)` rule that
+      flips article tables to `display: block` + `overflow-x:
+      auto` (with `-webkit-overflow-scrolling: touch` for iOS
+      momentum) so a 6-column wide-table doesn't blow out the
+      phone viewport — it scrolls horizontally within its own
+      container instead. Desktop layout completely unchanged.
+      Same pattern Bootstrap's `.table-responsive` has used
+      for years.
 - [x] **1.10** Add `loading="lazy"` + `decoding="async"` to post
       body images. **S** · *Shipped 2026-05-11.* The home-card
       images (`index.html`) and the post hero
@@ -2540,6 +2557,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.31 shipped**: responsive tables for the
+  31 posts with content tables. Mobile media query flips them
+  to `display:block` + `overflow-x:auto` so wide tables scroll
+  inside their container instead of blowing out the phone
+  viewport. Also: `border-collapse: collapse` and a light gray
+  `th` background for visual polish.
 - `2026-05-11` — **Phase 1.10 shipped**: every `<img>` in
   post body content now gets `loading="lazy" decoding="async"`
   via a one-line Liquid `replace` in `_layouts/post.html`.
