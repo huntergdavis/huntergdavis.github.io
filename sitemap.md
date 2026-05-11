@@ -9,6 +9,9 @@ permalink: /sitemap.html
 - [Home](/)
 - [About](/about.html)
 - [Leadership and Public Speaking](/public-speaking.html)
+- [Projects](/projects/)
+- [Archive](/archive/)
+- [Tags](/tags/)
 - [Search](/search.html)
 
 ## Recent posts
@@ -28,7 +31,7 @@ permalink: /sitemap.html
 ## Posts by year
 
 {% assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
-{% for year_group in years %}- **{{ year_group.name }}** — {{ year_group.items.size }} posts
+{% for year_group in years %}- [**{{ year_group.name }}**](/archive/{{ year_group.name }}/) — {{ year_group.items.size }} posts
 {% endfor %}
 
 ## Feeds and metadata

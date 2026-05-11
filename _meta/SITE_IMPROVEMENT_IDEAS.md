@@ -1501,6 +1501,20 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.25** Round out `/sitemap.html` with the new
+      index pages and clickable year archives. **S** ·
+      *Shipped 2026-05-11.* The hand-written sitemap was a
+      pre-2.5/2.6/2.3-era artifact and didn't list any of
+      the three new browse-by-X index pages. Added three
+      entries to the Pages list: **Projects** (/projects/,
+      shipped 2.6), **Archive** (/archive/, shipped 2.4),
+      **Tags** (/tags/, shipped 2.3). Also upgraded the
+      "Posts by year" list — each year was a bold but
+      non-clickable label like `**2010** — 24 posts`. With
+      per-year archive pages shipped in 2.5, every year now
+      renders as a real link to `/archive/YYYY/`. Internal
+      link graph is denser; user has a clear path from the
+      site map to every browse-by-X surface.
 - [x] **B.24** Differentiate `<title>` on paginated home pages.
       **S** · *Shipped 2026-05-11.* Every paginated home page
       (`/page2/`, `/page3/`, …) used to share the same
@@ -2287,6 +2301,10 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.25 shipped**: `/sitemap.html` now lists
+  /projects/, /archive/, /tags/ alongside the older pages, and
+  every year entry in "Posts by year" links to its real
+  /archive/YYYY/ page.
 - `2026-05-11` — **Phase B.24 shipped**: paginated home pages now
   get distinct `<title>` tags — ` (page N)` suffix appears when
   `paginator.page > 1`. Cures duplicate-title SEO smell across
