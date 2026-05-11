@@ -22,10 +22,15 @@
 <meta property="article:tag" content="{{ tag }}" />{% endfor %}
 {% endif %}
 {% else %}
+{% if paginator.page and paginator.page > 1 %}
+<link rel="canonical" href="{{ site.url }}/page{{ paginator.page }}" />
+<meta property="og:url" content="{{ site.url }}/page{{ paginator.page }}" />
+{% else %}
 <link rel="canonical" href="{{ site.url }}/" />
+<meta property="og:url" content="{{ '/' | absolute_url }}" />
+{% endif %}
 <meta property="og:site_name" content="{{ site.name }}" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{ '/' | absolute_url }}" />
 <meta name="description" content="{{ site.description }}">
 <meta property="og:description" content="{{ site.description }}" />
 <meta name="twitter:description" content="{{ site.description }}" />

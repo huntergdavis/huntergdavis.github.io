@@ -2671,6 +2671,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.84 shipped**: paginated home pages
+  (`/page2`, `/page3`, …) are now self-canonical instead of all
+  claiming canonical=`/`. og:url tracks. Each paginated page is
+  distinct content; self-canonical lets search engines index
+  each individually instead of treating them as duplicates of
+  the home.
 - `2026-05-11` — **Phase B.83 shipped**: paginator semantic hints —
   `<link rel="prev">` and `<link rel="next">` in head when
   paginator has neighbors. Complements B.82's prefetch; useful to
