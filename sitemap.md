@@ -11,6 +11,7 @@ permalink: /sitemap.html
 - [Leadership and Public Speaking](/public-speaking.html)
 - [Projects](/projects/)
 - [Archive](/archive/)
+- [Timeline](/timeline/)
 - [Tags](/tags/)
 - [Search](/search.html)
 
