@@ -1108,12 +1108,27 @@ populate.*
       recent-25 strip. **M**
 - [ ] **2.5** Build per-year `/archive/<year>/` archives. **M**
       (auto-generated; no manual content).
-- [ ] **2.6** Build `/projects/index.html` — hub of cards, one per
-      project family. Initial cards reference inline content; project
-      pages are stubbed. **M**
-- [ ] **2.7** Add `_data/projects.yml` listing each project with
-      `slug, name, family, tags, hero_image, dates, blurb,
-      external_links`. **M**
+- [x] **2.6** Build `/projects/` hub. **M** ·
+      *Shipped 2026-05-10.* New `projects.md` permalinked to
+      `/projects/`, pure-Liquid: groups `site.posts` by the
+      `project:` frontmatter value, sorts alphabetically by
+      project slug, uses `_data/projects.yml` to humanize each
+      slug to its display name, and lists each project's posts
+      in oldest-first ("saga reading order") inside each
+      section. Heavier hub-of-cards layout deferred until more
+      projects are tagged — 3 today (Dockstar, Johnny
+      Castaway, Zipit Z2). Footer extended to link to
+      `/projects/`.
+- [x] **2.7** Add `_data/projects.yml`. **M** ·
+      *Shipped 2026-05-10 (minimum schema).* Currently maps
+      slug → display name only (3 entries: zipit-z2 →
+      Zipit Z2, johnny-castaway → Johnny Castaway, dockstar →
+      Dockstar). The richer schema from the original spec
+      (`family`, `tags`, `hero_image`, `dates`, `blurb`,
+      `external_links`) can be added incrementally per
+      project once `_layouts/project.html` (item 2.8) lands —
+      consumed fields are additive and don't break the
+      sitemap.html / projects.html consumers.
 - [ ] **2.8** Add `_layouts/project.html` for project landing pages —
       renders project metadata, "Posts" list filtered by tag/slug, and
       external links. **S**
@@ -2100,3 +2115,13 @@ any public-facing milestone copy until a source is added.
   so the sitemap can show real titles instead of slugs.
   Footer now links to `Site Map` (and the existing XML
   sitemap link is relabeled `XML Sitemap` for clarity).
+- `2026-05-10` — **Phase 2.6 + 2.7 shipped**: `/projects/`
+  hub page. New `projects.md` permalinked to `/projects/`,
+  groups `site.posts` by `project:` frontmatter value,
+  humanizes via `_data/projects.yml`, lists each project's
+  posts oldest-first (saga reading order). Footer extended
+  to link to `/projects/`. 2.7's minimum schema (slug →
+  display name) ships today; richer per-project metadata
+  (hero image, dates, blurb, external links) is additive and
+  can land per-project when 2.8's `_layouts/project.html`
+  comes online.
