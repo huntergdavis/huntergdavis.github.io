@@ -2,6 +2,7 @@
 layout: post
 title: Dockstar Stereo + Wii Frontend
 date: '2011-08-13 16:21:08'
+project: dockstar
 ---
 
 

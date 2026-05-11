@@ -17,6 +17,7 @@ tags:
 - software
 redirect_from:
   - /archives/843
+project: dockstar
 ---
 
 

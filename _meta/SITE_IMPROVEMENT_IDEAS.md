@@ -2069,3 +2069,13 @@ any public-facing milestone copy until a source is added.
   8.3. `.gitignore` extended to cover `__pycache__/` /
   `*.pyc` / `.bundle/` / `vendor/` so future script
   invocations don't dirty the working tree.
+- `2026-05-10` — **B.13 extension**: tagged the Dockstar
+  saga with `project: dockstar`. **4 posts** spanning
+  2010-11 → 2011-08: the flagship $25 gaming/emulation
+  powerhouse (Hackaday-covered Nov 2010, Jan 2011),
+  Home-Theater-Replacement deep-dive, "Fun with VNC"
+  Dockstar Stereo tips, and Dockstar Stereo + Wii Frontend.
+  Project tags now: zipit-z2 (19) · johnny-castaway (6) ·
+  dockstar (4). Tangential Dockstar mentions in Retrode2,
+  hosting-switch, location-based-ad, and the My Story page
+  deliberately not tagged.
