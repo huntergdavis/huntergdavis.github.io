@@ -1458,6 +1458,24 @@ last commit in this phase swaps the default.*
       tracking-cookie problem until the user clicks them).
       youtube-nocookie.com is Google's "privacy-enhanced mode"
       that doesn't set tracking cookies until playback starts.
+- [x] **7.23** Add CollectionPage + ItemList JSON-LD to
+      `/projects/`. **S** · *Shipped 2026-05-11.* Inlined a
+      Liquid-templated `<script type="application/ld+json">`
+      block at the top of `projects.md` that declares the
+      page as a `CollectionPage` whose `mainEntity` is an
+      `ItemList` over all 31 posts with a `project:` tag.
+      Each `ListItem` jsonifies its `position`, `url`, and
+      `name`, so titles containing quotes/backslashes
+      serialize safely. `forloop.last` suppresses the
+      trailing comma. Mirrors the per-year-archive treatment
+      from 7.21 (CollectionPage + ItemList) but inline-Liquid
+      instead of Python-baked, since `projects.md` is a
+      Liquid template rather than a generator output. Schema
+      footprint: posts have BlogPosting + BreadcrumbList;
+      home has Person + WebSite; year archives and now
+      `/projects/` have CollectionPage + ItemList. `/tags/`
+      is the next list page that could get the same
+      treatment, tracked under a separate item.
 - [x] **7.22** Fix broken `<img src="">` on post hero. **S** ·
       *Shipped 2026-05-11.* `_layouts/post.html` previously
       emitted `<img src="{{ page.image }}" >` unconditionally,
@@ -1996,6 +2014,10 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.23 shipped**: CollectionPage + ItemList
+  JSON-LD on `/projects/`. Inline Liquid block at top of
+  `projects.md` lists all 31 `project:`-tagged posts as
+  structured ListItems with jsonify-safe titles and URLs.
 - `2026-05-11` — **Phase 7.22 shipped**: fixed broken hero `<img>`
   in `_layouts/post.html`. Previously every post emitted
   `<img src="">` with no alt. Now guarded by `if hero != blank`,
