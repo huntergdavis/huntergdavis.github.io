@@ -7,7 +7,8 @@
         for (var i = 0; i < results.length; i++) {  // Iterate over them and generate html
           var item = store[results[i].ref];
           appendString += '<li><a href="' + item.url + '">(' + item.date + ") " + item.title + '</a>';
-          appendString += '<p>' + item.content.substring(0, 250) + '...</p></li>';
+          var snippet = item.content && item.content.length > 250 ? item.content.substring(0, 250) + '…' : (item.content || '');
+          appendString += '<p>' + snippet + '</p></li>';
         }
   
         searchResults.innerHTML = appendString;
@@ -59,7 +60,8 @@
             for (var i = 0; i < results.length; i++) {  // Iterate over them and generate HTML
                 var item = store[results[i].ref];
                 appendString += '<li><a href="' + item.url + '">(' + item.date + ") " + item.title + '</a>';
-                appendString += '<p>' + item.content.substring(0, 250) + '...</p></li>';
+                var snippet = item.content && item.content.length > 250 ? item.content.substring(0, 250) + '…' : (item.content || '');
+          appendString += '<p>' + snippet + '</p></li>';
             }
     
             searchResults.innerHTML = appendString;
