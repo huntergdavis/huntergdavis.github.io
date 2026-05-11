@@ -7,6 +7,8 @@ layout: none
     <title>{{ site.name | xml_escape }}</title>
     <description>{{ site.description | xml_escape }} (full-content feed)</description>
     <link>{{ site.url }}</link>
+    <language>en-US</language>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
     <atom:link href="{{ site.url }}/feed-full.xml" rel="self" type="application/rss+xml" />
     <atom:link href="{{ site.url }}/feed.xml" rel="alternate" type="application/rss+xml" title="Excerpt feed" />
     {% for post in site.posts limit:20 %}
