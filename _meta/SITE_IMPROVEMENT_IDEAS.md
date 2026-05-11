@@ -843,9 +843,26 @@ URL preservation work moved to Phase A above.*
       repo root. **S** · *Why:* every page references it and 404s today.
 - [ ] **0.2** Add `sharer.png` (default 1200×630 OG image) at repo root.
       **S** · *Why:* every shared link 404s its preview image.
-- [ ] **0.3** Switch `_config.yml` `url` and `base_url` to
-      `https://www.hunterdavis.com`. Update `robots.txt` / `sitemap.xml`
-      / `feed.xml` to use `site.url` consistently. **S**
+- [x] **0.3** Switch `_config.yml` `url` and `base_url` to
+      `https://www.hunterdavis.com`. **S** ·
+      *Shipped 2026-05-10.* Single-line change:
+      `url: http://www.hunterdavis.com` →
+      `url: https://www.hunterdavis.com`. The `base_url` half
+      of the original task was already shipped in 0.4
+      (collapsed dual keys into single `site.url`). Propagates
+      to 23 `site.url` / `absolute_url` renders across
+      `ssn.html`, `feed.xml`, `feed-full.xml`, `sitemap.xml`,
+      `robots.txt`, `jsonld_post.html`, `jsonld_person.html`,
+      and the inline favicon `<link>` + Copy-link button.
+      Canonical URLs, OG / Twitter URLs, RSS feed links,
+      sitemap entries, and JSON-LD identifiers are now all
+      HTTPS. GitHub Pages has enforced HTTPS for custom
+      domains by default since 2018, so the underlying site
+      has been serving HTTPS even though canonical tags
+      previously claimed HTTP — this commit aligns the
+      metadata with reality. The `www`-vs-apex mismatch (CNAME
+      is apex, url has `www`) is a separate host-normalization
+      issue tracked under 8.4.
 - [x] **0.4** Collapse `site.url` and `site.base_url` to a single key
       and fix all references in `_includes/ssn.html`, `feed.xml`,
       `sitemap.xml`, `robots.txt`. **S** ·
@@ -1917,3 +1934,12 @@ any public-facing milestone copy until a source is added.
   Bitwiser-theme credit was dropped since the codebase has
   been substantially rewritten from the original (most of the
   Bitwiser scaffolding has been deleted in recent commits).
+- `2026-05-10` — **Phase 0.3 shipped**: `site.url` flipped
+  from `http://www.hunterdavis.com` to
+  `https://www.hunterdavis.com`. One-line config change
+  propagates to 23 downstream renders (canonical tags,
+  OG/Twitter URLs, RSS feed links, sitemap entries, JSON-LD
+  identifiers, favicon `<link>`, Copy-link button). GitHub
+  Pages has enforced HTTPS for custom domains since 2018 so
+  the underlying site has been HTTPS-reachable all along —
+  this commit finally makes the canonical metadata agree.
