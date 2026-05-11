@@ -2,6 +2,17 @@
 layout: post
 title: Dockstar Stereo + Wii Frontend
 date: '2011-08-13 16:21:08'
+tags:
+- arm
+- audio
+- dockstar
+- embedded
+- emulation
+- hacking
+- linux
+- repurposing
+- tutorial
+- wii
 project: dockstar
 ---
 

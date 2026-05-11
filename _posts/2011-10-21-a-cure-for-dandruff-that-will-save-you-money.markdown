@@ -7,6 +7,9 @@ tags:
 - dandruff
 - personal
 - shampoo
+- cheap
+- live-for-free
+- savings
 ---
 
 

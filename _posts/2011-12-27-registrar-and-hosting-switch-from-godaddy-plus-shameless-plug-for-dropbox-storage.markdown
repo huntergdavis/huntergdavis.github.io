@@ -2,6 +2,13 @@
 layout: post
 title: Registrar and Hosting Switch From GoDaddy Plus Shameless Plug For Dropbox Storage
 date: '2011-12-27 09:27:03'
+tags:
+- censorship
+- cloud
+- hosting
+- news
+- personal
+- update
 ---
 
 

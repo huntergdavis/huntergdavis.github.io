@@ -2,6 +2,17 @@
 layout: post
 title: Easy Image Stamp
 date: '2011-07-13 11:13:29'
+tags:
+- android
+- android-app
+- android-apps-2
+- app-tag
+- easy
+- easy-image-stamp
+- easy-images
+- image
+- images
+- stamps
 redirect_from:
   - /android-app-easy-image-stamp
   - /android-apps/graphics-and-imaging/android-app-easy-image-stamp/

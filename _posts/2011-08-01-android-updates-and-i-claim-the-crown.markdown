@@ -7,6 +7,10 @@ tags:
 - android-app
 - android-apps-2
 - app-tag
+- 30-android-apps-in-30-days
+- announcement
+- personal
+- software-sith-lord
 ---
 
 

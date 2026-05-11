@@ -2,6 +2,13 @@
 layout: post
 title: Easy Ratings
 date: '2011-07-06 19:12:40'
+tags:
+- android
+- android-app
+- android-apps-2
+- app-tag
+- easy
+- easy-ratings
 ---
 
 
