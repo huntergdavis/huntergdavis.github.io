@@ -2,6 +2,12 @@
 layout: post
 title: Some Quick Statistics w/ MSpaint Infographic!
 date: '2012-04-12 21:17:17'
+tags:
+- android
+- android-app
+- github
+- news
+- open-source
 ---
 
 

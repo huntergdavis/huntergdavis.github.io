@@ -3,6 +3,13 @@ layout: post
 title: Adding New Features to your Old Games and Apps using Android Libraries - Part
   1
 date: '2012-07-21 00:58:33'
+tags:
+- android
+- android-app
+- audio
+- open-source
+- programming
+- tutorial
 ---
 
 

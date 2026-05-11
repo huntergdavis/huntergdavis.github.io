@@ -2,6 +2,12 @@
 layout: post
 title: 'Tutorial: Spruce Up Your GitHub Readme with a Current Source Tree Visualization'
 date: '2012-12-24 02:22:06'
+tags:
+- github
+- open-source
+- source-tree-visualizer
+- tutorial
+- visualization
 ---
 
 

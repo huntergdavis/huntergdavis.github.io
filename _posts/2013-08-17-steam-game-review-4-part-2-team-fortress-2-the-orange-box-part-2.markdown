@@ -3,6 +3,10 @@ layout: post
 title: 'Steam Game Review #4 (Part 2): Team Fortress 2 (The Orange Box Part 2)'
 image: /content/images/2013/08/2013-08-17_00002.jpg
 date: '2013-08-17 22:19:55'
+tags:
+- game
+- games
+- steam
 ---
 
 

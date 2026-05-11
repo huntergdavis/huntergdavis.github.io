@@ -3,6 +3,13 @@ layout: post
 title: 'Tutorial: Achievements and Leaderboards with Google Play Services'
 image: /content/images/2013/09/magic_achievements.png
 date: '2013-09-24 05:37:00'
+tags:
+- android
+- android-game
+- open-source
+- programming
+- the-grind
+- tutorial
 ---
 
 

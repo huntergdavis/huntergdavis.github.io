@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Pitfall + Pitfall: The Mayan Adventure (Genesis)'
 image: /content/images/2013/09/title11.png
 date: '2013-09-30 02:51:02'
+tags:
+- emulation
+- game
+- games
 ---
 
 

@@ -3,6 +3,9 @@ layout: post
 title: 'Review: Da New Guys: Day Of The Jackass'
 image: /content/images/2013/09/dng3.jpg
 date: '2013-09-27 02:06:55'
+tags:
+- game
+- games
 ---
 
 

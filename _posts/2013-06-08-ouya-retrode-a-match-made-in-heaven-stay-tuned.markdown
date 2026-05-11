@@ -3,6 +3,12 @@ layout: post
 title: 'Ouya + Retrode: A Match Made in Heaven?  Stay Tuned..!'
 image: /content/images/2013/06/20130607_171240.jpg
 date: '2013-06-08 00:34:15'
+tags:
+- android
+- emulation
+- games
+- n64
+- retrode
 ---
 
 

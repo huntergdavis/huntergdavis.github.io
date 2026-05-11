@@ -2,6 +2,12 @@
 layout: post
 title: Asl.JS Now Auto-Generates Impress.JS Finger Spelling Presentations in HTML5
 date: '2012-03-20 19:05:43'
+tags:
+- github
+- html
+- javascript
+- open-source
+- programs-2
 ---
 
 

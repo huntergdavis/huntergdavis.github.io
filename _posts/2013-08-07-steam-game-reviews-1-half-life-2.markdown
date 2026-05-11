@@ -3,6 +3,10 @@ layout: post
 title: 'Steam Game Reviews #1: Half-Life 2'
 image: /content/images/2013/08/2013-08-05_00003.jpg
 date: '2013-08-07 03:46:18'
+tags:
+- game
+- games
+- steam
 ---
 
 

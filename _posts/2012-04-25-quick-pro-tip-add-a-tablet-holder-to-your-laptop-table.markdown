@@ -2,6 +2,12 @@
 layout: post
 title: Quick Pro-Tip, Add a Tablet Holder to Your Laptop Table
 date: '2012-04-25 01:52:17'
+tags:
+- cheap
+- hack
+- hacks-2
+- tablet
+- tips
 ---
 
 

@@ -3,6 +3,10 @@ layout: post
 title: Game Reviews Going Multi-Platform, 187 New Games Added To Review List
 image: /content/images/2013/08/somanygames.png
 date: '2013-08-31 21:40:58'
+tags:
+- game
+- games
+- news
 ---
 
 

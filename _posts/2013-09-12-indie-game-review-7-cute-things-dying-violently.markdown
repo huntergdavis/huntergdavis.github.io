@@ -3,6 +3,9 @@ layout: post
 title: 'Indie Game Review #7: Cute Things Dying Violently'
 image: /content/images/2013/09/title.png
 date: '2013-09-12 02:12:46'
+tags:
+- game
+- games
 ---
 
 

@@ -3,6 +3,10 @@ layout: post
 title: 'Steam Game Review #3: Half-Life 2: Episode One'
 image: /content/images/2013/08/2013-08-11_00037.jpg
 date: '2013-08-12 04:37:49'
+tags:
+- game
+- games
+- steam
 ---
 
 

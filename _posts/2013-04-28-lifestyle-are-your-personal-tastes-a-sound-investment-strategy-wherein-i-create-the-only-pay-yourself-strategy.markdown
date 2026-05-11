@@ -3,6 +3,11 @@ layout: post
 title: 'Lifestyle: Are Your Personal Tastes A Sound Investment Strategy?  Wherein
   I create The ''Only Pay Yourself'' Strategy.'
 date: '2013-04-28 00:43:51'
+tags:
+- economics
+- live-for-free
+- money
+- personal
 ---
 
 

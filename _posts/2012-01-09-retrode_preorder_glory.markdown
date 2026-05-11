@@ -4,9 +4,14 @@ title: Using an Original SNES Controller and Cartridge with your PC, PS3, or Doc
   (Retrode Pre-Order glory)
 date: '2012-01-09 02:05:16'
 tags:
+- arm
 - dockstar
+- emulation
 - gaming
+- hack
+- linux
 - marvel-vs-capcom
+- nes
 - ps3
 - retro
 - retro-gaming

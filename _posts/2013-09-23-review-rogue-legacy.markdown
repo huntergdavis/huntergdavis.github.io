@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Rogue Legacy'
 image: /content/images/2013/09/2013-09-22_00008.jpg
 date: '2013-09-23 02:50:50'
+tags:
+- game
+- games
+- steam
 ---
 
 

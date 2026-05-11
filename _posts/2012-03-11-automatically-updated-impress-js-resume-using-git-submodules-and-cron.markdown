@@ -2,6 +2,13 @@
 layout: post
 title: Automatically Updated Impress.js Resume using Git Submodules and Cron
 date: '2012-03-11 00:11:59'
+tags:
+- git
+- github
+- html
+- javascript
+- open-source
+- programming
 ---
 
 

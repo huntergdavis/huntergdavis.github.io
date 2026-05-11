@@ -3,6 +3,11 @@ layout: post
 title: Challenge Accepted! 10 Years of Steam and 1000 Game Reviews
 image: /content/images/2013/08/12.png
 date: '2013-08-05 04:03:50'
+tags:
+- game
+- games
+- personal
+- steam
 ---
 
 

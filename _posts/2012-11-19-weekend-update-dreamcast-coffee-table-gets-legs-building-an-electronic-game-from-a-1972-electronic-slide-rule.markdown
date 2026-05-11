@@ -3,6 +3,11 @@ layout: post
 title: 'Weekend Update: Dreamcast Coffee Table gets Legs, Building an Electronic ''Game''
   from a 1972 Electronic Slide Rule'
 date: '2012-11-19 01:25:10'
+tags:
+- build
+- hack
+- hacks-2
+- vintage-computers
 ---
 
 

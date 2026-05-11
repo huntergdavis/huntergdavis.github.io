@@ -2,6 +2,11 @@
 layout: post
 title: Impress.JS Resume Project Updated And A Quick Update
 date: '2012-04-13 15:15:22'
+tags:
+- html
+- javascript
+- open-source
+- personal
 ---
 
 

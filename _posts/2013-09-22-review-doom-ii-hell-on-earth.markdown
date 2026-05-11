@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Doom II: Hell on Earth'
 image: /content/images/2013/09/death.png
 date: '2013-09-22 16:57:33'
+tags:
+- game
+- games
+- steam
 ---
 
 

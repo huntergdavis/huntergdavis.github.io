@@ -3,6 +3,10 @@ layout: post
 title: 'Indie Game Review #3: Auditorium'
 image: /content/images/2013/08/swirly.png
 date: '2013-08-15 03:03:16'
+tags:
+- audio
+- game
+- games
 ---
 
 

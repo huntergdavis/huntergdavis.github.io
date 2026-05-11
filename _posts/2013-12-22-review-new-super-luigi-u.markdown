@@ -3,6 +3,11 @@ layout: post
 title: 'Review: New Super Luigi U'
 image: /content/images/2013/12/art-multiplay.png
 date: '2013-12-22 02:03:28'
+tags:
+- game
+- games
+- nintendo
+- wii
 ---
 
 

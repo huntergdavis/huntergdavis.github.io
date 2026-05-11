@@ -3,6 +3,11 @@ layout: post
 title: Sometimes You Get Lucky
 image: /content/images/2013/07/n64.jpg
 date: '2013-07-26 22:22:09'
+tags:
+- games
+- n64
+- personal
+- thrift
 ---
 
 

@@ -2,6 +2,12 @@
 layout: post
 title: Speaking of a Blast to the Past, Here's an openGL Tron Game I wrote as an Undergrad
 date: '2012-01-31 04:13:12'
+tags:
+- fun
+- games
+- open-source
+- personal
+- programming
 ---
 
 

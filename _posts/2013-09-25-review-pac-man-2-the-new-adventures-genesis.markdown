@@ -3,6 +3,11 @@ layout: post
 title: 'Review: Pac Man 2: The New Adventures (Genesis)'
 image: /content/images/2013/09/cap1.png
 date: '2013-09-25 03:46:43'
+tags:
+- emulation
+- game
+- games
+- thrift
 ---
 
 

@@ -3,6 +3,10 @@ layout: post
 title: 'Review: King of Fighters XIII Steam Edition'
 image: /content/images/2013/12/2013-12-07_00017.jpg
 date: '2013-12-07 20:49:17'
+tags:
+- game
+- games
+- steam
 ---
 
 

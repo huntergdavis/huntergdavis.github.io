@@ -2,6 +2,13 @@
 layout: post
 title: 'Basic Skeletal Animation: From Paper to Math to Code, Part 1'
 date: '2013-04-27 16:13:03'
+tags:
+- android
+- android-game
+- math
+- open-source
+- programming
+- tutorial
 ---
 
 

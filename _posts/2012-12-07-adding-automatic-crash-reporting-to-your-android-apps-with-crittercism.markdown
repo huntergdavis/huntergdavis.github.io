@@ -2,6 +2,12 @@
 layout: post
 title: Adding Automatic Crash Reporting to Your Android Apps with Crittercism
 date: '2012-12-07 17:34:45'
+tags:
+- android
+- android-app
+- debugging
+- programming
+- tutorial
 ---
 
 

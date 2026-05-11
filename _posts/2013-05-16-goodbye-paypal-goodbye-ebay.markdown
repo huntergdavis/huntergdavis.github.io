@@ -2,6 +2,11 @@
 layout: post
 title: Goodbye Paypal, Goodbye Ebay
 date: '2013-05-16 01:05:52'
+tags:
+- live-for-free
+- money
+- news
+- personal
 ---
 
 

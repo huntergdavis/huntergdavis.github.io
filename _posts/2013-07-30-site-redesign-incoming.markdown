@@ -3,6 +3,9 @@ layout: post
 title: Site Redesign Incoming
 image: /content/images/2013/07/Construction_crew.jpg
 date: '2013-07-30 04:39:33'
+tags:
+- news
+- personal
 ---
 
 

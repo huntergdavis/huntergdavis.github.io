@@ -3,6 +3,11 @@ layout: post
 title: 'Birthdays, Photos, and More: Replacing Facebook A Step at a Time'
 image: /content/images/2013/06/Not_facebook_not_like_thumbs_down.png
 date: '2013-06-03 03:02:30'
+tags:
+- cloud
+- news
+- open-source
+- personal
 ---
 
 

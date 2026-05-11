@@ -3,6 +3,13 @@ layout: post
 title: 'CopyCat Apps Make It Official: I''ve "Made It Big" As An App Developer'
 image: /content/images/2013/10/dawhistles.png
 date: '2013-10-19 00:53:53'
+tags:
+- android
+- android-app
+- easy-apps
+- open-source
+- personal
+- whistle
 ---
 
 

@@ -3,6 +3,9 @@ layout: post
 title: 'Indie Game Review #2: Analogue: A Hate Story'
 image: /content/images/2013/08/interaction.png
 date: '2013-08-12 01:06:48'
+tags:
+- game
+- games
 ---
 
 

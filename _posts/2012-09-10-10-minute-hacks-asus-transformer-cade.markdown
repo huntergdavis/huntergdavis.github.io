@@ -2,6 +2,12 @@
 layout: post
 title: '10 Minute Hacks: Asus Transformer-Cade'
 date: '2012-09-10 02:28:25'
+tags:
+- android
+- games
+- hack
+- hacks-2
+- tablet
 ---
 
 

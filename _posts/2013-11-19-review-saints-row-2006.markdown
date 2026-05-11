@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Saints Row (2006)'
 image: /content/images/2013/11/Saints_Row_Box_Art.jpg
 date: '2013-11-19 03:41:00'
+tags:
+- game
+- games
+- xbox
 ---
 
 

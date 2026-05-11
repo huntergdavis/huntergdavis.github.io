@@ -3,6 +3,12 @@ layout: post
 title: 'Project Updates: ASLJS on GitHub Pages, QuickGrapher is Back!, QuickGrapher
   Graphs Anywhere On HunterDavis.com (Even Comments!)'
 date: '2012-12-23 19:45:02'
+tags:
+- github
+- html
+- javascript
+- open-source
+- quickgrapher
 ---
 
 

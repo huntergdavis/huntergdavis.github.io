@@ -3,6 +3,10 @@ layout: post
 title: 'PAX Prime: 2013'
 image: /content/images/2007/12/hunterdavisqr.png
 date: '2013-08-30 14:22:52'
+tags:
+- games
+- news
+- personal
 ---
 
 

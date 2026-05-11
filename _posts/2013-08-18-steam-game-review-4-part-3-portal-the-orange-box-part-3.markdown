@@ -3,6 +3,10 @@ layout: post
 title: 'Steam Game Review #4 (Part 3): Portal (The Orange Box Part 3)'
 image: /content/images/2013/08/2013-08-17_000011.jpg
 date: '2013-08-18 01:32:02'
+tags:
+- game
+- games
+- steam
 ---
 
 

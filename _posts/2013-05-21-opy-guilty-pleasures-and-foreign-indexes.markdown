@@ -3,6 +3,10 @@ layout: post
 title: 'OPY: Guilty Pleasures and Foreign Indexes'
 image: /content/images/2013/04/20130427_173938.jpg
 date: '2013-05-21 19:07:21'
+tags:
+- economics
+- money
+- personal
 ---
 
 

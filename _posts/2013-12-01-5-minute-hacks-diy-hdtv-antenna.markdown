@@ -3,6 +3,12 @@ layout: post
 title: '5 Minute Hacks: DIY HDTV Antenna'
 image: /content/images/2013/12/2013-12-01-12.12.45.jpg
 date: '2013-12-01 20:28:44'
+tags:
+- build
+- cheap
+- hack
+- hacks-2
+- tips
 ---
 
 

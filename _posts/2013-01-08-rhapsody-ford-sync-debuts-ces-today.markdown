@@ -3,6 +3,12 @@ layout: post
 title: Rhapsody + Ford Sync Debuts at CES Today
 date: '2013-01-08 04:17:19'
 featured: true
+tags:
+- android
+- audio
+- news
+- personal
+- programming
 ---
 
 

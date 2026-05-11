@@ -2,6 +2,12 @@
 layout: post
 title: Quick Update - The Retrode Works with Android
 date: '2012-01-10 05:00:17'
+tags:
+- android
+- emulation
+- hack
+- retrode
+- snes
 ---
 
 

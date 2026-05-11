@@ -2,6 +2,11 @@
 layout: post
 title: 'Only Pay Yourself: Throwing Common Sense Out The Window'
 date: '2013-05-06 15:53:51'
+tags:
+- economics
+- money
+- personal
+- tablet
 ---
 
 

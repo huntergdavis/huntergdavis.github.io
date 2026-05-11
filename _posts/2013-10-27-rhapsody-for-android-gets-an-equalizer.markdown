@@ -3,6 +3,12 @@ layout: post
 title: Rhapsody for Android Gets An Equalizer
 image: /content/images/2013/10/2013-10-27-10-59-46.png
 date: '2013-10-27 18:15:17'
+tags:
+- android
+- audio
+- news
+- personal
+- programming
 ---
 
 

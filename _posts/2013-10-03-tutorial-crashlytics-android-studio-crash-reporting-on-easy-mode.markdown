@@ -3,6 +3,12 @@ layout: post
 title: 'Tutorial: Crashlytics + Android Studio = Crash Reporting on Easy Mode'
 image: /content/images/2013/10/allfinished.png
 date: '2013-10-03 18:03:50'
+tags:
+- android
+- android-app
+- debugging
+- programming
+- tutorial
 ---
 
 

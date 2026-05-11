@@ -2,6 +2,12 @@
 layout: post
 title: A Treasure Chest of Wii Goodness
 date: '2012-10-04 17:28:54'
+tags:
+- build
+- emulation
+- hack
+- hacks-2
+- wii
 ---
 
 
