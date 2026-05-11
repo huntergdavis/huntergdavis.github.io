@@ -1,10 +1,14 @@
+{% assign hero = page.image | default: page.featured_img %}
+{% assign post_word_count = content | strip_html | number_of_words %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": {{ page.title | jsonify }},
   "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
   "url": {{ page.url | absolute_url | jsonify }},
+  "wordCount": {{ post_word_count }},
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": {{ page.url | absolute_url | jsonify }}
@@ -13,8 +17,8 @@
     "@type": "Person",
     "name": "Hunter Davis",
     "url": {{ '/' | absolute_url | jsonify }}
-  }{% if page.image != blank %},
-  "image": {{ page.image | absolute_url | jsonify }}{% endif %}{% if page.tags and page.tags.size > 0 %},
+  }{% if hero != blank %},
+  "image": {{ hero | absolute_url | jsonify }}{% endif %}{% if page.tags and page.tags.size > 0 %},
   "keywords": {{ page.tags | join: ", " | jsonify }}{% endif %}
 }
 </script>
