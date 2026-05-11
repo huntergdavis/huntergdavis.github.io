@@ -1501,6 +1501,28 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **7.28** Repair broken Amazon affiliate iframes in
+      `2013-05-27-13-short-game-reviews`. **S** ·
+      *Shipped 2026-05-11.* 12 of the 13 review entries had
+      a small Amazon product-card `<iframe>` pulling from
+      `http://rcm.amazon.com/e/cm?asins=<ASIN>`. Two
+      problems: (1) `http://` source blocked by modern
+      browsers as mixed-content on this HTTPS site, so the
+      cards rendered as blank space; (2) Amazon retired the
+      legacy iframe ad-card service years ago — even if the
+      mixed-content block didn't apply the iframe would
+      404. Result: a 13-game review post that has shown
+      12 blank gaps for years. One-shot Python sweep
+      extracted the 10-char ASIN from each iframe's
+      `asins=` query param and replaced the entire iframe
+      with a clean Markdown link:
+      `[Amazon →](https://www.amazon.com/dp/<ASIN>/?tag=wwwhunterdavi-20)`.
+      The `wwwhunterdavi-20` Amazon Associates tag is
+      preserved verbatim from each iframe so the
+      affiliate-revenue intent survives the modernization.
+      Three ASINs (`B004FS8LYK`, `B009SPZ11Q`, `B00006M3R6`)
+      spot-checked HTTP 200 on amazon.com. The 13th review
+      entry never had an iframe — unchanged.
 - [x] **7.27** Upgrade legacy Flash YouTube `<object>` embeds.
       **M** · *Shipped 2026-05-11.* Phase 7.12 had already
       modernized 48 YouTube `<iframe>` embeds to
@@ -2415,6 +2437,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.28 shipped**: replaced 12 broken Amazon
+  affiliate iframes in `13-short-game-reviews` (`http://rcm.amazon.com`
+  blocked as mixed content + retired service) with clean text
+  links `[Amazon →](amazon.com/dp/<ASIN>/?tag=wwwhunterdavi-20)`.
+  Affiliate tag preserved. Three ASINs spot-checked 200.
 - `2026-05-11` — **Phase 7.27 shipped**: rewrote 13 legacy Flash
   YouTube `<object><embed>` blocks (2007–2010 posts) to modern
   `<iframe src="youtube-nocookie.com/embed/...">`. Those videos
