@@ -1328,7 +1328,20 @@ last commit in this phase swaps the default.*
       stored in `localStorage`. **M**
 - [ ] **5.8** Tag chip component, used on home cards, post pages,
       tag index. **S**
-- [ ] **5.9** Remove `text-align: justify` site-wide. **S**
+- [x] **5.9** Remove `text-align: justify` site-wide. **S** ·
+      *Shipped 2026-05-11.* The single offender in
+      `css/style.scss` was the `article section p` rule
+      forcing justified text on every post body paragraph.
+      Justified text on the web creates uneven "rivers" of
+      whitespace, hurts dyslexic readers (WCAG 2.1 SC 1.4.8
+      explicitly warns against it), and makes narrow-viewport
+      layouts ugly because the browser can't hyphenate to
+      compensate. Removed; paragraphs now fall back to the
+      default left/start alignment. No HTML changes required;
+      brace balance verified (160/160). Pulled forward out of
+      the deferred Phase 5 redesign because the cost of doing
+      it now (one CSS rule deletion) is dramatically less than
+      the readability cost of waiting until the v2 cutover.
 - [ ] **5.10** Cutover: switch `default.html`, `home.html`, `post.html`
       to the v2 versions; delete the legacy ones. **M**
 - [ ] **5.11** Cutover: switch `_includes/header.html` to the new nav
@@ -1891,6 +1904,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 5.9 shipped (pulled forward)**: removed
+  `text-align: justify` from article body paragraphs. WCAG-aligned
+  accessibility fix; eliminates "river" whitespace in long-form
+  posts. One rule deleted from `css/style.scss`, brace balance
+  160/160.
 - `2026-05-11` — **Phase 7.18 shipped**: per-post share-card
   image. `_includes/ssn.html` now resolves `og:image` and
   `twitter:image` to the post's own hero (`page.image` or
