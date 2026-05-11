@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'PAX Prime: 2013'
-image: http://www.hunterdavis.com/content/images/2007/12/hunterdavisqr.png
+image: /content/images/2007/12/hunterdavisqr.png
 date: '2013-08-30 14:22:52'
 ---
 

@@ -11,7 +11,7 @@ redirect_from:
 
 My second eBook, Build Your Own Distributed Compilation Cluster – A Practical Walkthrough is a collected volume of my article series of the same name. Throughout the 6 in-depth how-to articles, I’ll take you through the process of building a fully working cross-compilation distributed build system. The canonical example is of building a distributed ARM to X86-64 cross-compilation cluster. This system is also generic enough to apply to most any compilation environment, while remaining powerful enough to outperform all but the most advanced compilation systems. With source code examples provided and easy step by step instructions, this 60+ page instructional eBook is a valuable introductory and practical resource for those interested in distributed compilation, cross compilation, low power computing clusters, and so much more. It’s also one terrific bargain, and an excellent reference.
 
-<div class="wp-caption alignnone" id="attachment_1081" style="width: 306px">[![](http://hunterdavis.com/content/images/2011/03/linux-supercomputing-cluster1-300x225.png "Build Your Own Distributed Compilation Cluster")](http://hunterdavis.com/content/images/2011/03/linux-supercomputing-cluster1.png)This is the cover image for my second eBook, Build Your Own Compilation Cluster
+<div class="wp-caption alignnone" id="attachment_1081" style="width: 306px">[![](/content/images/2011/03/linux-supercomputing-cluster1-300x225.png "Build Your Own Distributed Compilation Cluster")](/content/images/2011/03/linux-supercomputing-cluster1.png)This is the cover image for my second eBook, Build Your Own Compilation Cluster
 
 </div>Currently you can buy the book at:
 

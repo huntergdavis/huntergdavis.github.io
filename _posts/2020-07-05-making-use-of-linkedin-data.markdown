@@ -31,6 +31,6 @@ Step 3: Displaying the data.  I found a jekyll template for a help-desk which ha
 
 Step 4: Formatting the data.  I simply added question, ', answer and end ' separaters into the CSV to generate the jekyll templates.
 
-Step 5: Telling folks that I've done this.  See this post (meta!)  Check out the 'recommendations' link at the top of the blog.  Head on over to https://github.com/huntergdavis/linked_out and check out the code, or http://www.hunterdavis.com/linked_out/ to actually read the recommendations. 
+Step 5: Telling folks that I've done this.  See this post (meta!)  Check out the 'recommendations' link at the top of the blog.  Head on over to https://github.com/huntergdavis/linked_out and check out the code, or /linked_out/ to actually read the recommendations. 
 
 email me about it, hunterdavis@hey.com 

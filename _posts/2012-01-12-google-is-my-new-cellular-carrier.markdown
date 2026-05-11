@@ -7,7 +7,7 @@ date: '2012-01-12 01:19:57'
 
 Yep, I finally  made the switch to using Google Voice as my primary number.  My cell phone number hasn’t changed though, I’ve simply paid google the 20$ carrier transfer fee and ported my number over to Google Voice.  No more bills from Sprint.  No more automatic charges.  No monthly bill.  Ever again.  I expect to save 95% of the cost of my cell phone over the next year and lose absolutely none of the functionality.
 
-[![](http://www.hunterdavis.com/content/images/2012/01/hero-300x178.jpg "google marketing materials")](http://www.hunterdavis.com/content/images/2012/01/hero.jpg)
+[![](/content/images/2012/01/hero-300x178.jpg "google marketing materials")](/content/images/2012/01/hero.jpg)
 
 How is this possible?
 

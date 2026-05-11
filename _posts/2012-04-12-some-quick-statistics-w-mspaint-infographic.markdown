@@ -7,7 +7,7 @@ date: '2012-04-12 21:17:17'
 
 Just throwing up some statistics for posterity and new readers. Sometimes it’s helpful to give a little context to the state of my work and the site etc. These come from the advanced GitHub search box and manually going over the top user profiles by number of repositories, and I implore anyone with contrary data to let me know so I can update these. The text of the infographic image is below the jump for those of you who don’t like to load large images in posts.
 
-[![](http://www.hunterdavis.com/content/images/2012/04/HunterDavisAndroidInfographic.png "HunterDavisAndroidInfographic")](http://www.hunterdavis.com/content/images/2012/04/HunterDavisAndroidInfographic.png)
+[![](/content/images/2012/04/HunterDavisAndroidInfographic.png "HunterDavisAndroidInfographic")](/content/images/2012/04/HunterDavisAndroidInfographic.png)
 
 - Between 4 and 6pm yesterday I open-sourced 80 full projects on GitHub. This is the the highest number of full software projects ever open sourced by an individual GitHub developer in one day.
 - 60 of these were open sourced over a one hour period, also a record.

@@ -18,6 +18,6 @@ Easy Cat Whistle is a fast and free app to generate sounds only your cat can hea
 
 [![](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot171-180x300.png "screenshot1")]()
 
-You can see the permalink page [here](http://hunterdavis.com/android-app-easy-cat-whistle), or download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easycatwhistle).
+You can see the permalink page [here](/android-app-easy-cat-whistle), or download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easycatwhistle).
 
 

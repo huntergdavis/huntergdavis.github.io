@@ -11,11 +11,11 @@ QuickGrapher.com was one of the research projects spun out of Discursive Labs. �
 
 You can use it to embed graphs of any equation within a webpage as easily as a single tag.  You can use it to solve complex equations, functions, etc.  It runs completely in client side Javascript and doesn’t require a web connection. it runs on mobile and desktop platforms.  It can display hundreds of thousands of data points and adjust them in real-time.  And now it’s open source, BSD licensed, and ready for you to use to escape the tyrannical grasp of Wolfram Alpha.
 
-You can see an outdated version of it in action [here](http://www.hunterdavis.com/quickgrapher/).
+You can see an outdated version of it in action [here](/quickgrapher/).
 
 Download, exploit, and contribute to the source at the github project [here](https://github.com/huntergdavis/Quick-Grapher).
 
-Find out how to embed QuickGrapher on your site [here](http://www.hunterdavis.com/popular-open-source-projects/quickgrapher_open_source/adding-embedded-quick-grapher-to-your-site/).
+Find out how to embed QuickGrapher on your site [here](/popular-open-source-projects/quickgrapher_open_source/adding-embedded-quick-grapher-to-your-site/).
 
 Videos:  
 <iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/WOC_IzFQt44?feature=oembed" width="700"></iframe>  
@@ -23,7 +23,7 @@ Videos:
 <iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/ej7pAX2fMj4?feature=oembed" width="700"></iframe>  
 <iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/o24ph-0_u9M?feature=oembed" width="700"></iframe>
 
-Check out the drake equation in QuickGrapher [here](http://www.hunterdavis.com/quickgrapher/index.html?StarFormationRate*StarsWithPlanets*LifeSustainingPlanets*PlanetsWhichActuallyDevelopLife*PlanetsWithIntelligentLife*CivilizationsWithDetectors*DurationOfSpaceSignals=0:0:0:0:0:0:0:{20:1:10:1:1:1:20:}1:0.1:1:0.1:0.1:0.1:1:[10:0.5:2:1:0.1:0.1:10:;1:1:1:1:1:1:1:=Drake%20Equation]).
+Check out the drake equation in QuickGrapher [here](/quickgrapher/index.html?StarFormationRate*StarsWithPlanets*LifeSustainingPlanets*PlanetsWhichActuallyDevelopLife*PlanetsWithIntelligentLife*CivilizationsWithDetectors*DurationOfSpaceSignals=0:0:0:0:0:0:0:{20:1:10:1:1:1:20:}1:0.1:1:0.1:0.1:0.1:1:[10:0.5:2:1:0.1:0.1:10:;1:1:1:1:1:1:1:=Drake%20Equation]).
 
 Here’s the old FAQ:
 

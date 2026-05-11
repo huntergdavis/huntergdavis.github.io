@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JSON Resume Viewer for Android
-image: http://www.hunterdavis.com/content/images/2015/02/device-2015-02-18-1352261.png
+image: /content/images/2015/02/device-2015-02-18-1352261.png
 date: '2015-02-19 05:35:17'
 ---
 
@@ -12,13 +12,13 @@ Yesterday, I had dental surgery. I woke up this morning with an aching jaw and a
 
 Flash back to a few months prior. I had found myself interested in the resume.JSON format, but there were no android apps to display it in a readable fashion. In order to view a resume.JSON file in a readable format, I had to go to a website (that was down at the time) to attempt to apply a theme to the resume once it had been uploaded to their server? Too much! Open formats need open readers. So today I created one for Android. Open source, Android UI, no ads or strange permissions.
 
-[![device-2015-02-18-194307](http://www.hunterdavis.com/content/images/2015/02/device-2015-02-18-194307.png)](http://www.hunterdavis.com/content/images/2015/02/device-2015-02-18-194307.png)
+[![device-2015-02-18-194307](/content/images/2015/02/device-2015-02-18-194307.png)](/content/images/2015/02/device-2015-02-18-194307.png)
 
 Download directly from the Google Play Store at:  
 [https://play.google.com/store/apps/details?id=com.hunterdavis.jsonresumeviewer](https://play.google.com/store/apps/details?id=com.hunterdavis.jsonresumeviewer)
 
 My Perma-Link Page Is here:  
-[http://www.hunterdavis.com/?p=5580](http://www.hunterdavis.com/?p=5580)
+[/?p=5580](/?p=5580)
 
 You can find out more about the resume.JSON format at:  
 [https://jsonresume.org/](https://jsonresume.org/)
@@ -34,6 +34,6 @@ Features:
 
 <iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/3PLzhSifX98?feature=oembed" width="700"></iframe>
 
-[![device-2015-02-18-135226](http://www.hunterdavis.com/content/images/2015/02/device-2015-02-18-135226.png)](http://www.hunterdavis.com/content/images/2015/02/device-2015-02-18-135226.png)
+[![device-2015-02-18-135226](/content/images/2015/02/device-2015-02-18-135226.png)](/content/images/2015/02/device-2015-02-18-135226.png)
 
 

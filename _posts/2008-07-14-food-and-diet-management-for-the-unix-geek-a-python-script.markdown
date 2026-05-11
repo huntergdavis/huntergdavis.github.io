@@ -23,6 +23,6 @@ echo "-----------------------------------------"<br></br>
 ~/Scripts/DotFoodStatistics.py ~/Desktop/*.food | grep today<br></br>
 echo "-----------------------------------------"<br></br>```
 
-Attached->[python “food processor” diet statistics](http://hunterdavis.com/content/images/2008/07/dotfoodprocessing.py "python “food processor” diet statistics")
+Attached->[python “food processor” diet statistics](/content/images/2008/07/dotfoodprocessing.py "python “food processor” diet statistics")
 
 

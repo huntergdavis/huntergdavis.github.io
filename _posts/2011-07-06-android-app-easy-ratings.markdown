@@ -19,6 +19,6 @@ Easy Ratings is a fast and free app to visually organize and rate anything. Simp
 
 [![](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot171-180x300.png "screenshot1")](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot171.png)
 
-You can view more about Easy Ratings on the permalink page [here](http://hunterdavis.com/android-app-easy-ratings), or download Easy Ratings from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easyratings).
+You can view more about Easy Ratings on the permalink page [here](/android-app-easy-ratings), or download Easy Ratings from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easyratings).
 
 

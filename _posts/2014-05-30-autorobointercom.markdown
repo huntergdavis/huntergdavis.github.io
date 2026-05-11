@@ -1,12 +1,12 @@
 ---
 layout: post
 title: AutoRoboIntercom
-image: http://www.hunterdavis.com/content/images/2014/03/speaknow.png
+image: /content/images/2014/03/speaknow.png
 date: '2014-05-30 04:22:04'
 ---
 
 
-[![choo-choo-choose](http://www.hunterdavis.com/content/images/2014/03/choo-choo-choose-168x300.png)](http://www.hunterdavis.com/content/images/2014/03/choo-choo-choose.png)
+[![choo-choo-choose](/content/images/2014/03/choo-choo-choose-168x300.png)](/content/images/2014/03/choo-choo-choose.png)
 
 I’ve finally figured out what folks can do with those 4-year old Android phones, and I’ve just finished writing up version .01! Announcing my newest “pet project” [AutoRoboIntercom](https://github.com/huntergdavis/AutoRoboIntercom)!
 
@@ -16,7 +16,7 @@ AutoRoboIntercom is your basic auto-discovering intercom system, with a twist or
 
 Simply load AutoRoboIntercom on your Android 2.1+ device and connect it to your Wifi network. You now have a robotic intercom system. That’s it, no configuration necessary (though you can set your room/user name from the menu.)
 
-[![nokeyboard](http://www.hunterdavis.com/content/images/2014/03/nokeyboard-168x300.png)](http://www.hunterdavis.com/content/images/2014/03/nokeyboard.png)
+[![nokeyboard](/content/images/2014/03/nokeyboard-168x300.png)](/content/images/2014/03/nokeyboard.png)
 
 You can type or talk (speech to text) and it will be broadcast to all connected clients on the network. Clients hear “(Name) said (Message)”.
 
@@ -31,7 +31,7 @@ So for example you’re in a house with 5 rooms, named:
 
 Hunter has just finished work on his latest app, and wants to let the rest of the house know it’s done. He taps the ‘record’ button in AutoRoboIntercom on his ancient HTC Hero Phone (Android 2.1) and says “Hey everyone! Come check this out I just finished an app!”
 
-[![speaknow](http://www.hunterdavis.com/content/images/2014/03/speaknow-168x300.png)](http://www.hunterdavis.com/content/images/2014/03/speaknow.png)
+[![speaknow](/content/images/2014/03/speaknow-168x300.png)](/content/images/2014/03/speaknow.png)
 
 Sallie, Jen, Mom, and Ben (working in the Garage) all hear:
 
@@ -41,7 +41,7 @@ Everyone hears this message read to them in the text-to-speech voice which is in
 
 This is all working today. Right now. Ready to go. This is done now, and the era of AutoRoboIntercom is now.
 
-[![keyboardpopped](http://www.hunterdavis.com/content/images/2014/03/keyboardpopped-168x300.png)](http://www.hunterdavis.com/content/images/2014/03/keyboardpopped.png)
+[![keyboardpopped](/content/images/2014/03/keyboardpopped-168x300.png)](/content/images/2014/03/keyboardpopped.png)
 
 /begin technical discussion
 

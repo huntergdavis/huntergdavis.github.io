@@ -1,14 +1,14 @@
 ---
 layout: post
 title: '5 Minute Hacks: The Game Frame'
-image: http://www.hunterdavis.com/content/images/2014/07/IMG_20140718_210732.jpg
+image: /content/images/2014/07/IMG_20140718_210732.jpg
 date: '2014-07-19 04:13:38'
 ---
 
 
 So I finally got tired of seeing the piles of digital picture frames littering the thrift stores and picked one up. The resolution is terrible, and it’s only got 512mb of storage capacity. Still, that got me thinking. I’d like to re-play more classic games (which generally had terrible resolution), but with so little time it’s becoming a rarity. Why not put game playthroughs on the picture frame? And so I did.
 
-[![IMG_20140718_210732](http://www.hunterdavis.com/content/images/2014/07/IMG_20140718_210732.jpg)](http://www.hunterdavis.com/content/images/2014/07/IMG_20140718_210732.jpg)
+[![IMG_20140718_210732](/content/images/2014/07/IMG_20140718_210732.jpg)](/content/images/2014/07/IMG_20140718_210732.jpg)
 
 Step 1: Download a walkthrough video.  
  This step is easy. Simply download one of the thousands of game walkthrough videos which are making the rounds on the internet. I found a good one for “Zelda II” on NES.

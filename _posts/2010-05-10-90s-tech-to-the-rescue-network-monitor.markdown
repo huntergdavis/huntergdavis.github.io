@@ -15,7 +15,7 @@ tags:
 
 Like many of you, I am throttled by the uplink speed of my network. Unfortunately, my upstream router (which also supplies my HDTV channels) is supplied by my ISP, and I do not have root access. The cable company also doesn’t release metrics for line usage, data transfer for television shows, etc. Fortunately, it uses standard ip networking over Ethernet. I ended up using a 90’s era netgear router and an old Palm V to display link statistics, throughput, etc. The connection was made using paper-clips…. more info after the break!
 
-![palm v router information](http://www.hunterdavis.com/palmvrouter.jpg)
+![palm v router information](/palmvrouter.jpg)
 
 The netgear 314 I had in my closet is actually a re-branded ZyXEL Prestige 314. This is nice as it comes with a serial terminal interface already set up. By inserting this router into your network between your router and the upstream port you can easily set up a syslog rebroadcaster to a linux box on your network. That’s the easy way…..
 

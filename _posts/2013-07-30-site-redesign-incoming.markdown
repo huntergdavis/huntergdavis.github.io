@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Site Redesign Incoming
-image: http://www.hunterdavis.com/content/images/2013/07/Construction_crew.jpg
+image: /content/images/2013/07/Construction_crew.jpg
 date: '2013-07-30 04:39:33'
 ---
 

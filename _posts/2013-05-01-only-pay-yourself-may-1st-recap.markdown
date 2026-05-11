@@ -5,9 +5,9 @@ date: '2013-05-01 15:53:58'
 ---
 
 
-Though it was a couple days before the official kick-off, I went ahead and started the investing week early. For the first time, starting Monday I followed the ‘[Only Pay Yourself](http://www.hunterdavis.com/personal-finance/)‘ investment and lifestyle strategy I created [earlier this week](http://www.hunterdavis.com/2013/04/28/lifestyle-are-your-personal-tastes-a-sound-investment-strategy-wherein-i-create-the-only-pay-yourself-strategy/). Any time I needed/wanted to make a purchase, I first had to acquire (at minimum) 1 stock from the company that makes/distributes/produces said product or service.
+Though it was a couple days before the official kick-off, I went ahead and started the investing week early. For the first time, starting Monday I followed the ‘[Only Pay Yourself](/personal-finance/)‘ investment and lifestyle strategy I created [earlier this week](/2013/04/28/lifestyle-are-your-personal-tastes-a-sound-investment-strategy-wherein-i-create-the-only-pay-yourself-strategy/). Any time I needed/wanted to make a purchase, I first had to acquire (at minimum) 1 stock from the company that makes/distributes/produces said product or service.
 
-In general, I’ll be posting up here to the blog and updating my purchase spreadsheet ([visible at this page](http://www.hunterdavis.com/personal-finance/only-pay-yourself-purchase-log/) and at the bottom of finance posts) on any day which I purchase stock or weigh a purchasing decision.
+In general, I’ll be posting up here to the blog and updating my purchase spreadsheet ([visible at this page](/personal-finance/only-pay-yourself-purchase-log/) and at the bottom of finance posts) on any day which I purchase stock or weigh a purchasing decision.
 
 For those that don’t care to read the details, here is how the first two days worth of stock purchases went down:
 

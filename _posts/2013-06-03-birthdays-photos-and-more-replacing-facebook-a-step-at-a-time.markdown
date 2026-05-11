@@ -1,12 +1,12 @@
 ---
 layout: post
 title: 'Birthdays, Photos, and More: Replacing Facebook A Step at a Time'
-image: http://www.hunterdavis.com/content/images/2013/06/Not_facebook_not_like_thumbs_down.png
+image: /content/images/2013/06/Not_facebook_not_like_thumbs_down.png
 date: '2013-06-03 03:02:30'
 ---
 
 
-[![Not_facebook_not_like_thumbs_down](http://www.hunterdavis.com/content/images/2013/06/Not_facebook_not_like_thumbs_down-300x256.png "That's me if you didn't know")](http://www.hunterdavis.com/content/images/2013/06/Not_facebook_not_like_thumbs_down.png)
+[![Not_facebook_not_like_thumbs_down](/content/images/2013/06/Not_facebook_not_like_thumbs_down-300x256.png "That's me if you didn't know")](/content/images/2013/06/Not_facebook_not_like_thumbs_down.png)
 
 In my life, Facebook is the sum total of five sets of “social” functions.
 

@@ -1,12 +1,12 @@
 ---
 layout: post
 title: AutoRoboIntercom Updated With Remote Command Protocol, Battery Monitor
-image: http://www.hunterdavis.com/content/images/2014/03/choo-choo-choose.png
+image: /content/images/2014/03/choo-choo-choose.png
 date: '2014-03-13 04:55:16'
 ---
 
 
-[![choo-choo-choose](http://www.hunterdavis.com/content/images/2014/03/choo-choo-choose-168x300.png)](http://www.hunterdavis.com/content/images/2014/03/choo-choo-choose.png)
+[![choo-choo-choose](/content/images/2014/03/choo-choo-choose-168x300.png)](/content/images/2014/03/choo-choo-choose.png)
 
 AutoRoboIntercom has been updated to include the underpinnings of a remote command protocol, as well as the first example “Battery Monitor”.
 

@@ -7,7 +7,7 @@ tags:
 ---
 
 
-Ok, so here’s a fun bit of perl code I wrote last night. It’s called snesaver, [and you can download it here](http://www.hunterdavis.com/snesaver.pl "snesaver - snes screen saver"). Here’s how it works,
+Ok, so here’s a fun bit of perl code I wrote last night. It’s called snesaver, [and you can download it here](/snesaver.pl "snesaver - snes screen saver"). Here’s how it works,
 
 1. You’ll need to be running some flavor of *nix (self=ubuntu), with perl installed  
  2. You’ll need to have xscreensaver set up as your screensaver (though it should be simplicity itself to do this for most any other screensaver)  

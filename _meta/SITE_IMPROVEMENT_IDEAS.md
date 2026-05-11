@@ -1266,8 +1266,23 @@ last commit in this phase swaps the default.*
       updating its TOC link to match. Cross-check confirms 37
       TOC refs ↔ 37 heading IDs, 0 missing, 0 orphans.
       `public-speaking.md` half tracked as new item 7.16.
-- [ ] **7.11** Sweep posts for `http://hunterdavis.com/...` self-links
-      and rewrite to relative URLs. **M**
+- [x] **7.11** Sweep posts for `http://hunterdavis.com/...` self-links
+      and rewrite to relative URLs. **M** ·
+      *Shipped 2026-05-10.* **2,404 same-origin URLs**
+      converted to relative paths across **321 files**
+      (`_posts/`, `about.md`, `public-speaking.md`). Two-pass
+      Python regex: first pass converted `https?://(www\.)?hunterdavis\.com/X`
+      → `/X` across 2,399 URLs; second pass with a stricter
+      character class (excluding `(`, `)`, `[`, `]`) cleaned
+      up 5 markdown-link `[label](url)` edge cases where both
+      label and url were absolute. The 16 bare-domain prose
+      mentions (`http://www.hunterdavis.com.` etc.) were
+      preserved as authored text. Wins:
+      (a) every internal link saves a DNS+TLS handshake,
+      (b) every link survives future host changes (apex/www
+      flip in 8.4, any future domain move),
+      (c) the codebase becomes portable — `_site/` can be
+      served from any origin without rewriting bodies.
 - [x] **7.12** Sweep posts for `<iframe ... src="http://...">` and
       upgrade YouTube embeds to `https://www.youtube-nocookie.com/`
       (privacy-friendly + works in modern browsers). **S** ·
@@ -2018,3 +2033,16 @@ any public-facing milestone copy until a source is added.
   refs now 5/5 resolve. The two pre-existing `# h1` lines
   the user authored as in-page dividers were left
   untouched.
+- `2026-05-10` — **Phase 7.11 shipped**: every same-origin
+  absolute URL in the archive converted to a relative path.
+  **2,404 URLs rewritten across 321 files**
+  (`_posts/*.markdown`, `about.md`, `public-speaking.md`).
+  Two-pass regex sweep: the broad pass handled 2,399 URLs;
+  a stricter second pass cleaned up 5 `[label](url)` edge
+  cases where both halves were absolute hunterdavis.com
+  URLs. The 16 bare-domain prose mentions ("…via
+  http://www.hunterdavis.com.") were preserved as authored
+  text. Each internal link now saves a DNS+TLS handshake on
+  click and survives any future host change (e.g., 8.4's
+  apex/www flip). The codebase is now portable: `_site/`
+  could be served from any origin without rewriting bodies.

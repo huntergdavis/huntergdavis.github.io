@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Oubastet's Wager
-image: http://www.hunterdavis.com/content/images/2014/03/bastet.jpg
+image: /content/images/2014/03/bastet.jpg
 date: '2014-03-20 01:32:54'
 ---
 
 
-[![bastet](http://www.hunterdavis.com/content/images/2014/03/bastet-242x300.jpg)](http://www.hunterdavis.com/content/images/2014/03/bastet.jpg)
+[![bastet](/content/images/2014/03/bastet-242x300.jpg)](/content/images/2014/03/bastet.jpg)
 
 Thousands of years ago, man was the dominant species on this earth. Horses, camels, mules, dogs, all manner of beasts bowed to his might. Man tilled the earth, brought forth grain for beer, raised cattle for meat. There was no species considered greater than man, for man had conquered all.
 

@@ -14,7 +14,7 @@ I call it the “Only Pay Yourself” strategy (OPY). The theory is this, if you
 
 ***Pay Yourself First, Last, and Only***
 
-[![PayYourselfFirst](http://www.hunterdavis.com/content/images/2013/04/20130427_173938-225x300.jpg)](http://www.hunterdavis.com/content/images/2013/04/20130427_173938.jpg)
+[![PayYourselfFirst](/content/images/2013/04/20130427_173938-225x300.jpg)](/content/images/2013/04/20130427_173938.jpg)
 
 I’m setting up a new brokerage account just for this experiment, and starting May 1st 2013 I’m going to literally put my money where my mouth(‘s food) is (coming from). I’ll be keeping track of the entire thing, and logging with metrics. Just like my open-source software and its subsequent income, I’ll be writing the whole thing up.
 

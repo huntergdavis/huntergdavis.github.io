@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JSON Game List Viewer (Android)
-image: http://www.hunterdavis.com/content/images/2015/03/device-2015-03-22-174455.png
+image: /content/images/2015/03/device-2015-03-22-174455.png
 date: '2015-03-23 01:23:46'
 ---
 
@@ -14,12 +14,12 @@ Fully open source at [https://github.com/huntergdavis/json_game_list](https://gi
 
 Download from the Google Play Store (within the next day or so, depending on what country you live in) at: [https://play.google.com/store/apps/details?id=com.hunterdavis.jsongamelistmanager](https://play.google.com/store/apps/details?id=com.hunterdavis.jsongamelistmanager)
 
-[![device-2015-03-22-174455](http://www.hunterdavis.com/content/images/2015/03/device-2015-03-22-174455.png)](http://www.hunterdavis.com/content/images/2015/03/device-2015-03-22-174455.png)
+[![device-2015-03-22-174455](/content/images/2015/03/device-2015-03-22-174455.png)](/content/images/2015/03/device-2015-03-22-174455.png)
 
-[![device-2015-03-22-174525](http://www.hunterdavis.com/content/images/2015/03/device-2015-03-22-174525.png)](http://www.hunterdavis.com/content/images/2015/03/device-2015-03-22-174525.png)
+[![device-2015-03-22-174525](/content/images/2015/03/device-2015-03-22-174525.png)](/content/images/2015/03/device-2015-03-22-174525.png)
 
-[![device-2015-03-22-174611](http://www.hunterdavis.com/content/images/2015/03/device-2015-03-22-174611.png)](http://www.hunterdavis.com/content/images/2015/03/device-2015-03-22-174611.png)
+[![device-2015-03-22-174611](/content/images/2015/03/device-2015-03-22-174611.png)](/content/images/2015/03/device-2015-03-22-174611.png)
 
-You can see the permalink page at [http://www.hunterdavis.com/android-apps/document-creation-and-information-management/json-game-list-viewer/](http://www.hunterdavis.com/android-apps/document-creation-and-information-management/json-game-list-viewer/)
+You can see the permalink page at [/android-apps/document-creation-and-information-management/json-game-list-viewer/](/android-apps/document-creation-and-information-management/json-game-list-viewer/)
 
 

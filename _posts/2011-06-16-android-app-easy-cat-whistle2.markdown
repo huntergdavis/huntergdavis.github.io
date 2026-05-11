@@ -13,7 +13,7 @@ You can download it from the Android Market [here](https://market.android.com/de
 
 New For 2013! There’s an HD version available [here on Android Market](https://play.google.com/store/apps/details?id=com.hunterdavis.easycatwhistlehd).
 
-[![layout-2013-08-31-231840](http://www.hunterdavis.com/content/images/2013/09/layout-2013-08-31-231840-187x300.png)](http://www.hunterdavis.com/content/images/2013/09/layout-2013-08-31-231840.png)
+[![layout-2013-08-31-231840](/content/images/2013/09/layout-2013-08-31-231840-187x300.png)](/content/images/2013/09/layout-2013-08-31-231840.png)
 
 You can see the HD version on GitHub [here](https://github.com/huntergdavis/Easy_Cat_Whistle_HD).
 

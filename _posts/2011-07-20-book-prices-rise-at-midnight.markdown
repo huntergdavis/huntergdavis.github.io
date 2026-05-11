@@ -10,8 +10,8 @@ People (not just publishers) have been hounding me to up my book prices for some
 [![](http://66.147.244.180/~hunterda/content/images/2011/07/alltogether1-1024x306.png "alltogether")](http://66.147.244.180/~hunterda/content/images/2011/07/alltogether1.png)
 
 You can see their permalink pages below:  
-[Hacks](http://hunterdavis.com/ebook-hacks-from-hunter-davis)  
-[Live For Free](http://hunterdavis.com/live-for-free-ebook)  
-[Build Your Own Distributed Compilation Cluster](http://hunterdavis.com/build-your-own-distributed-compilation-cluster-ebook)
+[Hacks](/ebook-hacks-from-hunter-davis)  
+[Live For Free](/live-for-free-ebook)  
+[Build Your Own Distributed Compilation Cluster](/build-your-own-distributed-compilation-cluster-ebook)
 
 

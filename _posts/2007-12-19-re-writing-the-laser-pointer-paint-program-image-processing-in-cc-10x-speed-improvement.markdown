@@ -16,7 +16,7 @@ Well that’s simple enough. The structure of the program has a few changes.
 2. Program no longer does image subtraction for a mask over the image, it’s direct processing now
 3. Program is significantly (10x) faster, depending on speed of camera frame grabs
 4. Check out the openCV tutorial for grabbing images from a camera, then check out the code below..
-5. You can snag it [here](http://www.hunterdavis.com/cam.cpp)
+5. You can snag it [here](/cam.cpp)
 6. Also, please note that ‘escape’ will end the loop and finish the program
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sometimes You Get Lucky
-image: http://www.hunterdavis.com/content/images/2013/07/n64.jpg
+image: /content/images/2013/07/n64.jpg
 date: '2013-07-26 22:22:09'
 ---
 
@@ -18,6 +18,6 @@ Moral of the story, don’t be afraid to take a small risk at a thrift shop. It 
 
 Gratuitous gaming pic.
 
-[![n64](http://www.hunterdavis.com/content/images/2013/07/n64-225x300.jpg)](http://www.hunterdavis.com/content/images/2013/07/n64.jpg)
+[![n64](/content/images/2013/07/n64-225x300.jpg)](/content/images/2013/07/n64.jpg)
 
 

@@ -23,7 +23,7 @@ tags:
 ---
 
 
-While it will be a bit before my next full update in the”Using the Dockstar as a full Home Theater Replacement” series (conveniently shortened to Dockstar Stereo), I’m always tweaking and installing things. While these may not warrant a full update, they’re usually fun little additions or tweaks that come in handy. While I mentioned in the [last Dockstar Stereo article](http://hunterdavis.com/archives/2269) that you could run a video or Window Maker session over VNC, I never went into any details on the fun things you can do with VNC sessions. Read on for a couple of fun VNC tricks and tips that you may not have heard before. I assume you to be using a Linux installation. I’m running all examples on the ‘Dockstar Stereo’, an integrated arm board with limited memory.
+While it will be a bit before my next full update in the”Using the Dockstar as a full Home Theater Replacement” series (conveniently shortened to Dockstar Stereo), I’m always tweaking and installing things. While these may not warrant a full update, they’re usually fun little additions or tweaks that come in handy. While I mentioned in the [last Dockstar Stereo article](/archives/2269) that you could run a video or Window Maker session over VNC, I never went into any details on the fun things you can do with VNC sessions. Read on for a couple of fun VNC tricks and tips that you may not have heard before. I assume you to be using a Linux installation. I’m running all examples on the ‘Dockstar Stereo’, an integrated arm board with limited memory.
 
 [![](http://66.147.244.180/~hunterda/content/images/2011/08/vnssesh1-300x176.png "vnssesh")](http://66.147.244.180/~hunterda/content/images/2011/08/vnssesh1.png)
 

@@ -26,7 +26,7 @@ Read on for the exciting preamble and the free E-book download of “Live for Fr
 
 So it’s late 2008. Having worked as the ‘hardcore’ CS guy at a score of jobs over the past decade, I had concerns over the (overly bland) course my career was taking. Though responsibilities and titles were ever plentiful, I had little to say in the overall direction of the companies I worked for. No matter the company, the projects began to feel less exciting. The desire to start my own company had been silently brewing for some time already, and began to occupy a greater portion of my thoughts. Like most late twenty somethings coming out of grad school could tell you, I had debt. And as a fresh graduate living in West LA, I had expenses. Specifically, as a young computer scientist I had gadget-lust related expenses. Video games, cell phones, the newest technology fascinates and drives our culture. How did I resolve these desires, raise enough capital to fund a startup, and do it without going into debt?
 
-Grab the E-Book and find out [here](http://hunterdavis.com/live-for-free-ebook).
+Grab the E-Book and find out [here](/live-for-free-ebook).
 
 I think this should be of interest not only to those wishing to save for a startup, but to anyone who is interested in saving money, buying or selling online, or the product cycles of geek tech in general.
 

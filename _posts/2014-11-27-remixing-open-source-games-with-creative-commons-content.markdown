@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Remixing Open Source Games With Creative Commons Content
-image: http://www.hunterdavis.com/content/images/2014/11/device-2014-11-26-193651.png
+image: /content/images/2014/11/device-2014-11-26-193651.png
 date: '2014-11-27 03:48:49'
 ---
 
@@ -16,7 +16,7 @@ I started by copying the base of my last game, [Pop Them Balloons](https://githu
 
 The concept for my new game “Can’t Stop The Rock” is quite simple. It’s a casual game flipped on it’s head. You play “the level”, dropping balloons that quickly scroll left towards “the rock.”. The rock rolls around the screen dispatching your balloons. I’ll add weapon upgrades and various mechanics from my previous action games for the rock to execute while you drop balloons. The “goal”, if there is one, is to get balloons past the rock. I want the game to be so fast and slick, 60+fps at all times. And I’m going to do it without resorting to native code or OpenGL.
 
-[![device-2014-11-26-102558](http://www.hunterdavis.com/content/images/2014/11/device-2014-11-26-102558.png)](http://www.hunterdavis.com/content/images/2014/11/device-2014-11-26-102558.png)
+[![device-2014-11-26-102558](/content/images/2014/11/device-2014-11-26-102558.png)](/content/images/2014/11/device-2014-11-26-102558.png)
 
 I kept the balloon abstraction from “Pop Them Balloons,” as well as the difficulty selection screen and the basic game panel structure. Balloons now update to float right to left instead of bottom to top. I also updated the base project to use Gradle as the compilation system.
 
@@ -28,7 +28,7 @@ First, it was time to upgrade the audio. Pop Them Balloons had three main songs,
 
 And here I ran into my first creative editing situation. I felt the ‘game over’ theme from HalyconFalconX would make for a great title them on Can’t Stop The Rock… Except for the inclusion of “Fail!” at the end of the song. Not to worry, I opened up Audacity (my favorite open source MP3 editor) and clipped it out of the waveform. That’s the sort of thing you can do with open content.
 
-[![audacity](http://www.hunterdavis.com/content/images/2014/11/audacity.png)](http://www.hunterdavis.com/content/images/2014/11/audacity.png)
+[![audacity](/content/images/2014/11/audacity.png)](/content/images/2014/11/audacity.png)
 
 I wanted the action to be fast and furious, so I went with high BPM tracks and removed some graphical flourishes for now.
 
@@ -42,7 +42,7 @@ I think some of the best casual gameplay comes around the use of sound and audio
 
 As you can see, as each balloon is placed onto the screen it is painted with a note. This is the note that plays if it gets popped. Right now it doesn’t seem much like most games, and it doesn’t play like most instruments. Pretty fun stuff, and a lot of cool directions to take this in the near future. Next time perhaps I’ll play with the mechanics of color and sound, or add an RPG stat system to our hero. The sky’s the limit.
 
-[![device-2014-11-26-193651](http://www.hunterdavis.com/content/images/2014/11/device-2014-11-26-193651.png)](http://www.hunterdavis.com/content/images/2014/11/device-2014-11-26-193651.png)
+[![device-2014-11-26-193651](/content/images/2014/11/device-2014-11-26-193651.png)](/content/images/2014/11/device-2014-11-26-193651.png)
 
 And with that, I’m going to break for Thanksgiving holiday here in the US. I’ll update with another article when things have progressed further.
 

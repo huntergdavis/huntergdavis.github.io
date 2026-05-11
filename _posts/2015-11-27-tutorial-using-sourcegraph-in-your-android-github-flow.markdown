@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "(Tutorial) Using Sourcegraph In Your Android GitHub Flow"
-image: http://www.hunterdavis.com/content/images/2015/11/sourcegraph.png
+image: /content/images/2015/11/sourcegraph.png
 date: '2015-11-27 00:21:27'
 tags:
 - android
@@ -13,7 +13,7 @@ tags:
 
 As I was reading my daily news articles the other day, I came upon a fascinating piece of [oddly-licensed](https://fair.io/) software: [Sourcegraph](https://src.sourcegraph.com/sourcegraph). It’s a Git server with much the same features as GitHub, only with the added “code intelligence” feature. Code intelligence is a parsing engine that allows for the same smart-lookup (and quick-lookup) features you’d find in an IDE, only available in your browser while viewing the repository.
 
-[![sourcegraph](http://www.hunterdavis.com/content/images/2015/11/sourcegraph.png)](http://www.hunterdavis.com/content/images/2015/11/sourcegraph.png)
+[![sourcegraph](/content/images/2015/11/sourcegraph.png)](/content/images/2015/11/sourcegraph.png)
 
 As it’s free for personal use, I thought I’d give it a spin as a local code intelligence server for use in my personal network. It supports Java and Gradle, so my first project to add was an Android game collection I wrote: [Can’t Stop The Rock](https://github.com/huntergdavis/cantstoptherock).
 

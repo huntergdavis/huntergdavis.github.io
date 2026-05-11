@@ -9,7 +9,7 @@ So I’m on my lunchbreak, browsing the hot deals forums over at Fatwallet.  I 
 
 For those of you just finding this blog, I’m a complete media glutton.  I’ve (legally, at least for now) made digital backups of every DVD, audio CD, BLU-Ray, cartridge game, Playstation game or eBook I’ve ever owned or created.  On top of that, I tend to keep a local store repository of my 600+ steam game collection for fast retrieval (and if they decide to later pull any of the games I bought).  Add in the couple hundred gigs of personal photos I’ve taken as well as tons of software projects, virtual machines, disk images, dev environments, half-finished projects, etc  and you’re looking at about 5 terabytes of data.  This is locally spread out over my two Drobo storage bots full of 2tb drives.  Unfortunately, some facts about the internet here in America come into play:
 
-[![](http://www.hunterdavis.com/content/images/2012/01/Holly_pumping_engine_New_Catechism_of_the_Steam_Engine_1904-300x169.png "Holly_pumping_engine_(New_Catechism_of_the_Steam_Engine,_1904)")](http://www.hunterdavis.com/content/images/2012/01/Holly_pumping_engine_New_Catechism_of_the_Steam_Engine_1904.png)
+[![](/content/images/2012/01/Holly_pumping_engine_New_Catechism_of_the_Steam_Engine_1904-300x169.png "Holly_pumping_engine_(New_Catechism_of_the_Steam_Engine,_1904)")](/content/images/2012/01/Holly_pumping_engine_New_Catechism_of_the_Steam_Engine_1904.png)
 
 JustCloud and Me – by the numbers:
 

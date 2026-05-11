@@ -8,7 +8,7 @@ date: '2013-05-07 13:56:11'
 > Q: When is a doughnut not a doughnut?  
 >  A: When it costs 50$.
 
-[![The Other 50$ Donuts](http://www.hunterdavis.com/content/images/2013/05/donut_jewelry-298x300.jpg)](http://www.hunterdavis.com/content/images/2013/05/donut_jewelry.jpg)
+[![The Other 50$ Donuts](/content/images/2013/05/donut_jewelry-298x300.jpg)](/content/images/2013/05/donut_jewelry.jpg)
 
 Seriously though, my significant other and I enjoy the occasional trip to Baskin Robbins and/or Dunkin Donuts. Last night was one such an occasion. While the ice cream was quite reasonably priced at 6$ for two, the stock is currently hovering at around 7 times that. That’s quite a tax for ice cream (and donuts). Still, the stock has a steady 25% gain over 5 years and I do love me some ice cream.
 

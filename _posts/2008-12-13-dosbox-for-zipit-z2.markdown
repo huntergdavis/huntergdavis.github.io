@@ -49,6 +49,6 @@ cd poolrad<br></br>
 start```
 
 And that’s that! You can download the updated source code and ipkg files here.  
-[dosbox modified sources and configs](http://hunterdavis.com/content/images/2008/12/dosboxtar.gz "dosbox modified sources and configs")
+[dosbox modified sources and configs](/content/images/2008/12/dosboxtar.gz "dosbox modified sources and configs")
 
 

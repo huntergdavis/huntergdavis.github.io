@@ -11,7 +11,7 @@ Source Tree Visualizer is an open source project that visualizes source control 
 
 Part of this project was to visualize the most popular source repositories on github and google code, etc at the time.  Some of these turned out with really interesting features and tall branches, etc.
 
-[![](http://www.hunterdavis.com/content/images/2012/01/zebra-crossing-300x300.png "zebra-crossing")](http://www.hunterdavis.com/content/images/2012/01/zebra-crossing.png)
+[![](/content/images/2012/01/zebra-crossing-300x300.png "zebra-crossing")](/content/images/2012/01/zebra-crossing.png)
 
 Check out my Google+ gallery of some of the more popular source repositories:
 

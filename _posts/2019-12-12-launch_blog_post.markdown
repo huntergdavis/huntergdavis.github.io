@@ -8,7 +8,7 @@ project: johnny-castaway
 
 It's been about a year since I threw Johnny Castaway up on the web, and I thought it might be time for an update.  
 
-TLDR; [http://www.hunterdavis.com/johnnycastawaywine/](http://www.hunterdavis.com/johnnycastawaywine/) is up and running via Wine in JS, but it's much, much slower than the DosBox version.
+TLDR; [/johnnycastawaywine/](/johnnycastawaywine/) is up and running via Wine in JS, but it's much, much slower than the DosBox version.
 
 
 ![](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2019/johnny_many_arms.png)
@@ -36,4 +36,4 @@ And here's the new Javascript->Wine(Windows)->Johnny stack using 25+% CPU and it
 The interesting thing about these projects is that with additional work the Wine version would end up being the fastest, but that is very unlikely to occur.  Not due to purely technical reasons, but due to the relative (un)popularity of the boxwine project compared to the massively popular DosBox project.  
 
 See it live:
-[http://www.hunterdavis.com/johnnycastawaywine/](http://www.hunterdavis.com/johnnycastawaywine/)
+[/johnnycastawaywine/](/johnnycastawaywine/)

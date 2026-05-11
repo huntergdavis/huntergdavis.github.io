@@ -12,6 +12,6 @@ While I have obsidian sync for my local devices, I pondered how to keep my famil
 
 There's a publish option, but that's an additional 10$ per month and I already have a website and GH pages. I realized what I really needed was a way to render markdown tables as HTML client-side, then I could simply point a static page to those markdown files and I've got a nice little interface on the web. 
 
-So that's exactly what I wrote up today. [Live Link.](https://hunterdavis.com/media/) [Github Link.](https://github.com/huntergdavis/media) 
+So that's exactly what I wrote up today. [Live Link.](/media/) [Github Link.](https://github.com/huntergdavis/media) 
 
 <img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/main/content/images/2024/markdown.png" width="400">

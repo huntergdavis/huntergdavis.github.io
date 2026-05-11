@@ -12,8 +12,8 @@ Read more to see photos of my hands after my short trip to the bank today. The m
 Meta #1: It’s hard to type naturally without my palms feeling.. “sticky” with blood. Gross  
  Meta #2: Remember when I said that I’ve given up posting to social media directly, you’re likely to see shorter, more frequent updates here on the site? This post would definitely fall under that category.
 
-[![20130604_154730](http://www.hunterdavis.com/content/images/2013/06/20130604_154730-225x300.jpg)](http://www.hunterdavis.com/content/images/2013/06/20130604_154730.jpg)
+[![20130604_154730](/content/images/2013/06/20130604_154730-225x300.jpg)](/content/images/2013/06/20130604_154730.jpg)
 
-[![20130604_154735](http://www.hunterdavis.com/content/images/2013/06/20130604_154735-300x225.jpg)](http://www.hunterdavis.com/content/images/2013/06/20130604_154735.jpg)
+[![20130604_154735](/content/images/2013/06/20130604_154735-300x225.jpg)](/content/images/2013/06/20130604_154735.jpg)
 
 

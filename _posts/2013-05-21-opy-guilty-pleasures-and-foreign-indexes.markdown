@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'OPY: Guilty Pleasures and Foreign Indexes'
-image: http://www.hunterdavis.com/content/images/2013/04/20130427_173938.jpg
+image: /content/images/2013/04/20130427_173938.jpg
 date: '2013-05-21 19:07:21'
 ---
 

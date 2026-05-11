@@ -6,27 +6,27 @@ date: '2012-11-26 02:04:24'
 ---
 
 
-This is the second in an article series about Android development, open source software, audio production, and so much more. You can read part 1 [here](http://www.hunterdavis.com/2012/07/21/android-sound/).
+This is the second in an article series about Android development, open source software, audio production, and so much more. You can read part 1 [here](/2012/07/21/android-sound/).
 
-**[Preface – A New Game!](http://www.hunterdavis.com/?p=3163/#a0)**  
-**[Using the Hardware at Hand](http://www.hunterdavis.com/?p=3163/#a1)**  
-**[Capture List, Gotta Capt’ em All!](http://www.hunterdavis.com/?p=3163/#a2)**  
-**[Fun with Audio Capture](http://www.hunterdavis.com/?p=3163/#a4)**  
-**[Editing your Audio – Audacity](http://www.hunterdavis.com/?p=3163/#a5)**  
-**[Removing Ambient Noise with Audacity](http://www.hunterdavis.com/?p=3163/android-sound/#a6)**  
-**[Recording a Title Theme with Audacity](http://www.hunterdavis.com/?p=3163/android-sound/#a7)**
+**[Preface – A New Game!](/?p=3163/#a0)**  
+**[Using the Hardware at Hand](/?p=3163/#a1)**  
+**[Capture List, Gotta Capt’ em All!](/?p=3163/#a2)**  
+**[Fun with Audio Capture](/?p=3163/#a4)**  
+**[Editing your Audio – Audacity](/?p=3163/#a5)**  
+**[Removing Ambient Noise with Audacity](/?p=3163/android-sound/#a6)**  
+**[Recording a Title Theme with Audacity](/?p=3163/android-sound/#a7)**
 
 **[]()Preface – A New Game!**
 
 When I wrote the first article in this series, I never thought It would take me where it has. I’ve been all over town recording audio samples on my little boom mic, learned quite a bit about basic audio and recording techniques, and received a ton of excellent feedback from friends and strangers alike. My original intention was simply to update all of my previous Android apps to use my new audio library, but the sparks of creativity cannot be contained. I am therefore starting work on a new minigame collection titled ‘5 seconds’. It will; of course, be fully open source. Expect cameos from all of my previous game characters and a good dose of fun. You can also expect site updates describing the game development process and how ‘5 Seconds’ is evolving. You can checkout the GitHub page for it [here](https://github.com/huntergdavis/FiveSeconds).
 
-[![](http://www.hunterdavis.com/content/images/2012/11/fivesecondstitle.png "fivesecondstitle")](http://www.hunterdavis.com/content/images/2012/11/fivesecondstitle.png)
+[![](/content/images/2012/11/fivesecondstitle.png "fivesecondstitle")](/content/images/2012/11/fivesecondstitle.png)
 
 **[]()Using the Hardware at Hand**
 
 Having tried to record some audio clips with my low-end android phone, I became convinced that this was not the way to move forward. Digging through my parts box, I found a (now obsolete) Sony Minidisc recorder and a Memorex 1/4″ high impedance microphone. I used an old Seiko in-line guitar tuner and some RCA patch cables to bring the Microphone line to the 3.5mm input on the Minidisc recorder. Not the prettiest setup, but it gave me ~10 feet of line to work with, certainly enough for a boom pole. Unfortunately I wasn’t bringing the level up enough, and the recording level was too low.
 
-[![](http://www.hunterdavis.com/content/images/2012/07/CameraZOOM-20120722163528873-300x225.jpg "Microphone Setup")](http://www.hunterdavis.com/content/images/2012/07/CameraZOOM-20120722163528873.jpg)
+[![](/content/images/2012/07/CameraZOOM-20120722163528873-300x225.jpg "Microphone Setup")](/content/images/2012/07/CameraZOOM-20120722163528873.jpg)
 
 Next I tried using a standard computer headset. This worked well in that the level was much improved, but the mic had terrible range. I finally settled on a ‘TV microphone’ from my ’80’s junk’ box. The audio was coming in at an appropriate level and I had plenty of 3.5mm extension cables to work with. My portable mic setup was ready to go.
 
@@ -198,7 +198,7 @@ The final list of sounds to capture for this first iteration of the library ende
 
 Now that I had a portable audio recording system set up that could produce decent results (with a far greater range than my cell-phone microphone), it was time to go out into the world and record some audio. An excellent reason to take an impromptu camping trip! I took my recording setup and list of sounds to capture out into the world. Anything that I didn’t feel had an appropriate sound in nature simply would get recorded as a voice-over (i.e. COMBO!) when I returned home from the trip.
 
-[![](http://www.hunterdavis.com/content/images/2012/08/justmyfeet-300x219.png "justmyfeet")](http://www.hunterdavis.com/content/images/2012/08/justmyfeet.png)
+[![](/content/images/2012/08/justmyfeet-300x219.png "justmyfeet")](/content/images/2012/08/justmyfeet.png)
 
 **[]()Editing your Audio – Audacity**
 
@@ -213,13 +213,13 @@ For these and many other reasons, I’ll be referring to Audacity many times thr
 
 **[]()Removing Ambient Noise with Audacity**
 
-One of the best plugins that ships with Audacity is the noise removal plugin from Dominic Mazzoni. It’s dead simple to use, and does a very excellent job of removing background and mechanical noise from your audio clips. I’ve uploaded some small clips as mp3s to demonstrate the profound difference in quality between the original and the post-processed version. [Here](http://www.hunterdavis.com/content/images/2012/07/before-processing.mp3) is the original clip, and [here](http://www.hunterdavis.com/content/images/2012/07/post-processing.mp3)is the post-processed clip. Note the hissing and light background noise has been virtually eliminated from the source audio. It’s actually quite an easy process.
+One of the best plugins that ships with Audacity is the noise removal plugin from Dominic Mazzoni. It’s dead simple to use, and does a very excellent job of removing background and mechanical noise from your audio clips. I’ve uploaded some small clips as mp3s to demonstrate the profound difference in quality between the original and the post-processed version. [Here](/content/images/2012/07/before-processing.mp3) is the original clip, and [here](/content/images/2012/07/post-processing.mp3)is the post-processed clip. Note the hissing and light background noise has been virtually eliminated from the source audio. It’s actually quite an easy process.
 
-1. First, open up your audio clip in Audacity. [![](http://www.hunterdavis.com/content/images/2012/07/pre-processed-wav-150x150.png "pre-processed-wav")](http://www.hunterdavis.com/content/images/2012/07/pre-processed-wav.png)
-2. Select a small chunk of your audio clip that is only background noise. [![](http://www.hunterdavis.com/content/images/2012/07/select_some_noise-150x150.png "select_some_noise")](http://www.hunterdavis.com/content/images/2012/07/select_some_noise.png)
-3. Next, select Effects->Noise Removal. [![](http://www.hunterdavis.com/content/images/2012/07/select_noise_removal-150x150.png "select_noise_removal")](http://www.hunterdavis.com/content/images/2012/07/select_noise_removal.png)
+1. First, open up your audio clip in Audacity. [![](/content/images/2012/07/pre-processed-wav-150x150.png "pre-processed-wav")](/content/images/2012/07/pre-processed-wav.png)
+2. Select a small chunk of your audio clip that is only background noise. [![](/content/images/2012/07/select_some_noise-150x150.png "select_some_noise")](/content/images/2012/07/select_some_noise.png)
+3. Next, select Effects->Noise Removal. [![](/content/images/2012/07/select_noise_removal-150x150.png "select_noise_removal")](/content/images/2012/07/select_noise_removal.png)
 4. From within the Noise Removal Pane, select “Get Noise Profile”.
-5. Hit Ctrl-A to select the entire clip. [![](http://www.hunterdavis.com/content/images/2012/07/ctrl-a-150x150.png "ctrl-a")](http://www.hunterdavis.com/content/images/2012/07/ctrl-a.png)
+5. Hit Ctrl-A to select the entire clip. [![](/content/images/2012/07/ctrl-a-150x150.png "ctrl-a")](/content/images/2012/07/ctrl-a.png)
 6. Again, select Effects->Noise Removal
 7. Click ‘OK’. That’s all.
 
@@ -228,12 +228,12 @@ One of the best plugins that ships with Audacity is the noise removal plugin fro
 Audacity is also a great tool for recording simple multi-track loops and vocals. As long as you’ve got a mic plugged in and selected in the preferences, recording your theme song is as easy as pie.
 
 1. Record a small vocal. For my upcoming game ‘5 seconds’ I recorded ‘hurry hurry’
-[![](http://www.hunterdavis.com/content/images/2012/11/audacity1-300x300.png "audacity1")](http://www.hunterdavis.com/content/images/2012/11/audacity1.png)
+[![](/content/images/2012/11/audacity1-300x300.png "audacity1")](/content/images/2012/11/audacity1.png)
 
 3. Record the same vocal again, in a slightly different pitch
 4. Repeat a few times
 5. Add some supporting sounds (bass notes, harmonies)
-[![](http://www.hunterdavis.com/content/images/2012/11/audacity2-264x300.png "audacity2")](http://www.hunterdavis.com/content/images/2012/11/audacity2.png)
+[![](/content/images/2012/11/audacity2-264x300.png "audacity2")](/content/images/2012/11/audacity2.png)
 
 7. That’s that!
 

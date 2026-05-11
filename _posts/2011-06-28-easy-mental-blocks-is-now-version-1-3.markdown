@@ -17,6 +17,6 @@ Easy Mental Blocks has now been updated to Version 1.3. Due to an increase in po
 
 [![](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot42-180x300.png "screenshot4")](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot42.png)
 
-You can view the permalink page for it [here](http://hunterdavis.com/android-app-easy-mental-blocks), or download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easymentalblocks)..
+You can view the permalink page for it [here](/android-app-easy-mental-blocks), or download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easymentalblocks)..
 
 

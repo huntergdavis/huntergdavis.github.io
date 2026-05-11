@@ -12,16 +12,16 @@ While UI is often the last thing a programmer thinks about when starting on a ne
 
 In this article I’ll be taking you through the creation of a dynamic game selection screen based on the excellent [ViewPagerIndicator library by Jake Wharton](https://github.com/JakeWharton/Android-ViewPagerIndicator). As always, you can follow along in code at the [5 Seconds GitHub repository](https://github.com/huntergdavis/FiveSeconds). When you finish the article, you should be able to easily implement a icon-enabled view pager for your Android app or game.
 
-[![thisistheendFrontNoAdvert](http://www.hunterdavis.com/content/images/2012/12/thisistheendFrontNoAdvert-168x300.png)](http://www.hunterdavis.com/content/images/2012/12/thisistheendFrontNoAdvert.png)
+[![thisistheendFrontNoAdvert](/content/images/2012/12/thisistheendFrontNoAdvert-168x300.png)](/content/images/2012/12/thisistheendFrontNoAdvert.png)
 
-1. [Open Source FTW](http://www.hunterdavis.com/?p=3583/#a0)
-2. [Creating your Activity](http://www.hunterdavis.com/?p=3583/#a1)
-3. [UI Layouts and Unobtrusive Advertising](http://www.hunterdavis.com/?p=3583/#a2)
-4. [Creating your Generic Fragment with Saving and Loading of State Values](http://www.hunterdavis.com/?p=3583/#a3)
-5. [Creating Your Adapter](http://www.hunterdavis.com/?p=3583/#a4)
-6. [Putting it all Together – Instantiation](http://www.hunterdavis.com/?p=3583/#a5)
-7. [Icing On the Cake – Title Music Loading](http://www.hunterdavis.com/?p=3583/#a6)
-8. [Conclusion](http://www.hunterdavis.com/?p=3583/#a7)
+1. [Open Source FTW](/?p=3583/#a0)
+2. [Creating your Activity](/?p=3583/#a1)
+3. [UI Layouts and Unobtrusive Advertising](/?p=3583/#a2)
+4. [Creating your Generic Fragment with Saving and Loading of State Values](/?p=3583/#a3)
+5. [Creating Your Adapter](/?p=3583/#a4)
+6. [Putting it all Together – Instantiation](/?p=3583/#a5)
+7. [Icing On the Cake – Title Music Loading](/?p=3583/#a6)
+8. [Conclusion](/?p=3583/#a7)
 
 Read on for the full article!  
   
@@ -78,7 +78,7 @@ As you can see there’s not much too it. We’ll add in the instantiation of ou
 
 For the generic layout that can be inflated for each of the games, you’ll want a large display area for the game title screen icon. If you are using advertising, you also may want to include it on this screen rather than on any of the game screens (seems like people are starting to hate in-game advertisement, but a menu advertisement feels like a fair compromise). This looks like:
 
-[![pop them baloons with adverts front screen](http://www.hunterdavis.com/content/images/2012/12/pop-them-baloons-with-adverts-front-screen-180x300.png)](http://www.hunterdavis.com/content/images/2012/12/pop-them-baloons-with-adverts-front-screen.png)
+[![pop them baloons with adverts front screen](/content/images/2012/12/pop-them-baloons-with-adverts-front-screen-180x300.png)](/content/images/2012/12/pop-them-baloons-with-adverts-front-screen.png)
 
 And the code is simply:  
 `<br></br><?xml version="1.0" encoding="utf-8"??><br></br><linearlayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" xmlns:android="http://schemas.android.com/apk/res/android"></linearlayout>`

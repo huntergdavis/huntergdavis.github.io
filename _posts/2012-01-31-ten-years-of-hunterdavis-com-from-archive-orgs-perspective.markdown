@@ -11,7 +11,7 @@ I was relaxing after a hard day at work today, and thought it may be fun to thro
 
  
 
-[![](http://www.hunterdavis.com/content/images/2012/01/tenyearsofhd.gif "tenyearsofhd")](http://www.hunterdavis.com/content/images/2012/01/tenyearsofhd.gif)
+[![](/content/images/2012/01/tenyearsofhd.gif "tenyearsofhd")](/content/images/2012/01/tenyearsofhd.gif)
 
 10./14/2001
 

@@ -17,7 +17,7 @@ project: zipit-z2
 
 
 When I read about Google’s new [strategy](http://mashable.com/2010/04/16/google-cloud-print/) for cloud printing, I thought “hey that’s great!, wish I could use it before 2011!”. Thankfully, I run linux on damn near everything. As I don’t have an android (which would be a pretty ideal running platform for this…), I’ve used the Z2 as my “drop in” cloud print server. Doesn’t seem like it’ll take the manufacturing companies long to integrate this into new product lines, as it’s pretty simple. Instructions and source code links below!  
-![cloud printing from the zipit z2](http://www.hunterdavis.com/cloudprint.jpg)
+![cloud printing from the zipit z2](/cloudprint.jpg)
 
 So here’s the plan. We’re going to configure our Z2 to periodically check an email address for emails with attachments. When it finds an email with an attachment, it prints the attachment and archives the email. As you can see from the photo, I place a little notecard on the Z2 which states “Email __EMAILREDACTED___ to print to this printer”. If you want to print to this device “from the cloud”, just email to it. Pretty simple :), and the arm in the Z2 takes up a fairly low wattage overhead as a cloud monitor/print server.
 

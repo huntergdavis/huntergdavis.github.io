@@ -40,6 +40,6 @@ Congratulations, you now have crash reporting in your app. You can now upload yo
 
 Now that crash reporting is in your app, simply log into Crittercism, click on the application you registered, and click the ‘crash reports’ tab.
 
-[![](http://www.hunterdavis.com/content/images/2012/12/crittercismlog-207x300.png "crittercismlog")](http://www.hunterdavis.com/content/images/2012/12/crittercismlog.png)
+[![](/content/images/2012/12/crittercismlog-207x300.png "crittercismlog")](/content/images/2012/12/crittercismlog.png)
 
 

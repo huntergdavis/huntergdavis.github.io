@@ -7,9 +7,9 @@ date: '2013-08-05 01:37:45'
 
 Often, I’ll review games.
 
-[13 Short Game Reviews](http://www.hunterdavis.com/2013/05/27/13-short-game-reviews/)
+[13 Short Game Reviews](/2013/05/27/13-short-game-reviews/)
 
-You can see all of my game review blog-posts [here](http://www.hunterdavis.com/category/gaming/game-reviews/).
+You can see all of my game review blog-posts [here](/category/gaming/game-reviews/).
 
 Here’s a spreadsheet with my current review list.
 

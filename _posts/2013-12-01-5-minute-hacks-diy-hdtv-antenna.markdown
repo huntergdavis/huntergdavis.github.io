@@ -1,14 +1,14 @@
 ---
 layout: post
 title: '5 Minute Hacks: DIY HDTV Antenna'
-image: http://www.hunterdavis.com/content/images/2013/12/2013-12-01-12.12.45.jpg
+image: /content/images/2013/12/2013-12-01-12.12.45.jpg
 date: '2013-12-01 20:28:44'
 ---
 
 
 So you’ve picked up an HDTV (or tuner) and you’re wondering what to plug into that RF connector? You head down to the local electronics store, only to be faced with a $30+ price tag for an indoor antenna? Isn’t it just a piece of metal?
 
-[![2013-12-01 12.12.45](http://www.hunterdavis.com/content/images/2013/12/2013-12-01-12.12.45-225x300.jpg)](http://www.hunterdavis.com/content/images/2013/12/2013-12-01-12.12.45.jpg)
+[![2013-12-01 12.12.45](/content/images/2013/12/2013-12-01-12.12.45-225x300.jpg)](/content/images/2013/12/2013-12-01-12.12.45.jpg)
 
 Well, yeah. Of course it is. So why don’t you bend your own piece of metal and save 30 bucks? Here’s what you’ll need.
 

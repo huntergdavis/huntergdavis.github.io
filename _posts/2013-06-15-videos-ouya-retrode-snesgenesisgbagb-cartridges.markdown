@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Videos: Ouya + Retrode + SNES/Genesis/GBA/GB Cartridges'
-image: http://www.hunterdavis.com/content/images/2013/06/20130607_171527.jpg
+image: /content/images/2013/06/20130607_171527.jpg
 date: '2013-06-15 23:08:30'
 ---
 

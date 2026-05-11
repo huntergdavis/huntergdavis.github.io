@@ -71,7 +71,7 @@ Want to know why this game is selling horribly? It’s not for lack of character
 > Prediction: psychonauts will come out for android within a year.
 
 **Super Amazing Wagon Adventure**  
-[![steamworkshop_collection_1346990471_collection_branding](http://www.hunterdavis.com/content/images/2013/05/steamworkshop_collection_1346990471_collection_branding.png)](http://steamcommunity.com/sharedfiles/filedetails/?id=94482719)  
+[![steamworkshop_collection_1346990471_collection_branding](/content/images/2013/05/steamworkshop_collection_1346990471_collection_branding.png)](http://steamcommunity.com/sharedfiles/filedetails/?id=94482719)  
 *Super Amazing Wagon Adventure*: ARRGGGGHHH WHY CAN’T I BEAT THIS GAME?? I’ve literally played through over 100 times and I have never made it to the ‘real’ ending. I’ve go so many different wagons and have had so many time traveling, space-faring, scuba diving adventures but I’ve never made it. 1$. 1 freaking dollar I spent on this seemingly cute little game. It’s a trap. Run. You’ll never escape it.
 
 > WHY CAN’T I BEAT THIS GAME???!!

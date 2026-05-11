@@ -15,6 +15,6 @@ Easy MD5 is a fast and easy way to generate an MD5 on the go.
 
 Simply select a file and an MD5 is generated.
 
-You can see the permalink page for it [here](http://hunterdavis.com/android-app-easy-md5), and the android app store page [here](https://market.android.com/details?id=com.hunterdavis.easymd5).
+You can see the permalink page for it [here](/android-app-easy-md5), and the android app store page [here](https://market.android.com/details?id=com.hunterdavis.easymd5).
 
 

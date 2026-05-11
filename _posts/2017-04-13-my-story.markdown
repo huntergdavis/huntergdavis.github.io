@@ -71,7 +71,7 @@ The Zipit Z2 was a wireless communications device for teens which was able to ru
 
 My YouTube video tutorials became popular and got a lot of folks interested in the Z2 hacking community.
 
-It's kind of funny that emulating Nintendo and Dosbox was what it took to popularize the Z2, as I had originally envisioned it as a portable Tor/Privoxy node for political dissidents. You can read the article where I detail porting Tor/Privoxy to this 'new Z2 platform' <A href="http://www.hunterdavis.com/zipit-z2-a-wireless-tor-and-privoxy-router-in-the-palm-of-your-hand/">here</a>
+It's kind of funny that emulating Nintendo and Dosbox was what it took to popularize the Z2, as I had originally envisioned it as a portable Tor/Privoxy node for political dissidents. You can read the article where I detail porting Tor/Privoxy to this 'new Z2 platform' <A href="/zipit-z2-a-wireless-tor-and-privoxy-router-in-the-palm-of-your-hand/">here</a>
 
 Regardless of where it started, I wrote many articles, released many videos, and inspired many folks to pick up a Z2 and start using Linux. You can still find thos articles and videos on http://www.hunterdavis.com.
 
@@ -234,7 +234,7 @@ Oubastet's Wager is a fable I wrote, then open-sourced.  Here's the announcement
 
 I wrote a fable when I awoke this evening. It wasn’t perfect, but it’s out there and I like it. How then, will I track and improve it, sharing it with others? How would we know fables if they had not been shared? Where will our new fables come from? So I’m open-sourcing my fable. Your move Peter Molyneux.
 
-![](http://www.hunterdavis.com/content/images/2014/03/oubastets_repository.png)
+![](/content/images/2014/03/oubastets_repository.png)
 
 <a id='education'>Education and Related</a>
 2005-2007 Indiana University Bloomington, IN

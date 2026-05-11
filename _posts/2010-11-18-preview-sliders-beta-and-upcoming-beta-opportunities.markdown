@@ -19,6 +19,6 @@ First thanks to everyone who applied for beta status over at Discursive Labs. Yo
 
 Also, on a completely separate note we’ve got another technology preview with an upcoming public beta called Sliders (beta). It’s a graphical, dynamically updating equation solving, graphing, and sharing application written in HTML5 and gRaphael. Preview it over at the Discursive Labs [corporate blog](http://www.discursivelabs.com/?p=327).
 
-![Sliders (beta)](http://hunterdavis.com/discursivewordpress/content/images/2010/11/slidersbeta2.png)
+![Sliders (beta)](/discursivewordpress/content/images/2010/11/slidersbeta2.png)
 
 

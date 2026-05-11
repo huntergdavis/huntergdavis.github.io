@@ -26,10 +26,10 @@ So I’ve gotten some more requests for whistles, thought I’d get them out of 
 
 [![](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1161-180x300.png "screenshot1")](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1161.png)
 
-1. [Horse and Donkey](http://hunterdavis.com/android-app-easy-horse-and-donkey-whistle)
-2. [Raccoon and Opossum](http://hunterdavis.com/android-app-easy-raccoon-and-opossum-whistle)
-3. [Bat](http://hunterdavis.com/android-app-easy-bat-whistle)
-4. [Whale and Porpoise](http://hunterdavis.com/android-app-easy-whale-and-porpoise-whistle)
-5. [Frog and Owl](http://hunterdavis.com/android-app-easy-frog-and-owl-whistle)
+1. [Horse and Donkey](/android-app-easy-horse-and-donkey-whistle)
+2. [Raccoon and Opossum](/android-app-easy-raccoon-and-opossum-whistle)
+3. [Bat](/android-app-easy-bat-whistle)
+4. [Whale and Porpoise](/android-app-easy-whale-and-porpoise-whistle)
+5. [Frog and Owl](/android-app-easy-frog-and-owl-whistle)
 
 

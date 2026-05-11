@@ -9,6 +9,6 @@ My 60th app in 52 days! That means I’m a double Jedi… all the way across the
 
 [![](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1211-180x300.png "screenshot1")](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1211.png)
 
-You can see more at the permalink page [here](http://hunterdavis.com/android-game-custom-onslaught), or download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.customonslaught).
+You can see more at the permalink page [here](/android-game-custom-onslaught), or download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.customonslaught).
 
 

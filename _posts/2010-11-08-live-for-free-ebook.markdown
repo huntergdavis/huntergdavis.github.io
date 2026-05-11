@@ -10,7 +10,7 @@ redirect_from:
 
 Live For Free is an ebook I wrote and distributed in part on www.liveforfree.net from 2008 to 2010. In it, I chronicle the trials and tips I accumulated whilst saving for my startup, Discursive Labs. In a series of 27 easy to digest chapters, I detail the methodologies and money saving practices which allowed me to “live for free” and save the capital necessary to bootstrap a successful startup. From selling items online to gauging market fluctuations and historical pricing metrics, these concrete examples can help you save tremendous amounts of money, while still living the cutting edge high tech lifestyle. An enjoyable afternoon read, I present you this eBook in the hopes that it helps you, in a concrete and direct fashion, achieve your dream. It helped me achieve mine.
 
-![front cover](http://hunterdavis.com/content/images/2010/11/huntertowel1.jpg)
+![front cover](/content/images/2010/11/huntertowel1.jpg)
 
 Currently you can buy the book at:
 

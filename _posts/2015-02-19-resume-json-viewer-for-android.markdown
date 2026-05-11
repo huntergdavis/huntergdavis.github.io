@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JSON Resume Viewer for Android
-image: http://www.hunterdavis.com/content/images/2015/02/device-2015-02-18-135226.png
+image: /content/images/2015/02/device-2015-02-18-135226.png
 date: '2015-02-19 03:25:48'
 ---
 
@@ -22,6 +22,6 @@ Features:
 
 <iframe allowfullscreen="" frameborder="0" height="525" src="https://www.youtube-nocookie.com/embed/3PLzhSifX98?feature=oembed" width="700"></iframe>
 
-[![device-2015-02-18-135226](http://www.hunterdavis.com/content/images/2015/02/device-2015-02-18-135226.png)](http://www.hunterdavis.com/content/images/2015/02/device-2015-02-18-135226.png)
+[![device-2015-02-18-135226](/content/images/2015/02/device-2015-02-18-135226.png)](/content/images/2015/02/device-2015-02-18-135226.png)
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Join Me On Diaspora
-image: http://www.hunterdavis.com/content/images/2013/06/Not_facebook_not_like_thumbs_down.png
+image: /content/images/2013/06/Not_facebook_not_like_thumbs_down.png
 date: '2013-06-12 16:10:35'
 ---
 

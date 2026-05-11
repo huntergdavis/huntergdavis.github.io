@@ -13,8 +13,8 @@ Miso Media will be officially launching this HTML5 web strobe tuner on their [co
 
 That said, not everybody has Flash and I’m certainly no big fan of Adobe’s business model.  I wrote the web tuner in a completely modular way, with Flash being used for only the most bare minimum of microphone functions.  Because of this, I’ve created a ‘demo’ HTML5 strobe tuner that you can use with audio files.  No Flash is required, but you will need a browser that supports the html5 audio tag (Chrome for now, all other browsers to come soon).  A musician I forwarded this to told me: ‘This is one of the coolest things I’ve ever seen on the web, period.”  I don’t know if it stands up to said proclamation, but I am terrifically proud of my work, and hope you enjoy it.  The code is minified to protect their IP, but my hope is that some future version will be open source as their algorithms change over time.
 
-You can try out the pure HTML5 Strobe tuner [here](http://www.hunterdavis.com/resume/tunerdemo/tuner.html), and you can view it embedded in my impress.JS resume [here](http://www.hunterdavis.com/resume/#/webtuner2).
+You can try out the pure HTML5 Strobe tuner [here](/resume/tunerdemo/tuner.html), and you can view it embedded in my impress.JS resume [here](/resume/#/webtuner2).
 
-[![](http://www.hunterdavis.com/content/images/2012/03/Screen-Shot-2012-03-14-at-3.26.43-PM-300x250.png "Screen Shot 2012-03-14 at 3.26.43 PM")](http://hunterdavis.com/resume/#/webtuner2)
+[![](/content/images/2012/03/Screen-Shot-2012-03-14-at-3.26.43-PM-300x250.png "Screen Shot 2012-03-14 at 3.26.43 PM")](/resume/#/webtuner2)
 
 

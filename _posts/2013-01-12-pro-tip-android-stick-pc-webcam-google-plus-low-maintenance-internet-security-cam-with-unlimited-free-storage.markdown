@@ -8,7 +8,7 @@ date: '2013-01-12 10:55:28'
 
 First generation Android-on-a-stick PCs can be had for as low as 30$ now, and I routinely find old webcams available for 5$ everywhere. Now that Google+ users get free unlimited storage for their photos (up to a certain resolution), the time has never been better to build a home security system. Why? Because Google has thoughtfully enabled ‘instant upload’ for Google+. Using a few simple (and free) Android apps you can turn your old stick PC (or old Android phone) into a home security system with unlimited cloud storage.
 
-[![IMAG0248](http://www.hunterdavis.com/content/images/2013/01/IMAG0248-300x168.jpg)](http://www.hunterdavis.com/content/images/2013/01/IMAG0248.jpg)
+[![IMAG0248](/content/images/2013/01/IMAG0248-300x168.jpg)](/content/images/2013/01/IMAG0248.jpg)
 
 While [IP camera](https://play.google.com/store/apps/details?id=com.pas.webcam&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5wYXMud2ViY2FtIl0.) apps which turn your phone into network streaming video servers are quite useful in their own right, they don’t answer the question of ‘where does that data go?’. With an app which supports time-lapse photography, we know the answer to that question, as Google+ can automatically upload every photo taken thanks to ‘Instant Upload’.
 

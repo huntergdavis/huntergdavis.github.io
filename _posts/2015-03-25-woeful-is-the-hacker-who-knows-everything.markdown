@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Woeful is The Hacker Who Knows Everything
-image: http://www.hunterdavis.com/content/images/2015/03/scumbaghackerhunter.png
+image: /content/images/2015/03/scumbaghackerhunter.png
 date: '2015-03-25 23:04:00'
 ---
 
@@ -24,6 +24,6 @@ Yes, I spent a year running between my laptop and couch because I knew too much 
 
 **Woeful is The Hacker Who Knows Everything**
 
-[![scumbaghackerhunter](http://www.hunterdavis.com/content/images/2015/03/scumbaghackerhunter.png)](http://www.hunterdavis.com/content/images/2015/03/scumbaghackerhunter.png)
+[![scumbaghackerhunter](/content/images/2015/03/scumbaghackerhunter.png)](/content/images/2015/03/scumbaghackerhunter.png)
 
 

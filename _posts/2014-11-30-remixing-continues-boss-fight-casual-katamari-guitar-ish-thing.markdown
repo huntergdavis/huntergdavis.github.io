@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Remixing Continues: Boss Fight!, Casual Katamari, Guitar-ish Thing?'
-image: http://www.hunterdavis.com/content/images/2014/11/device-2014-11-30-153242.png
+image: /content/images/2014/11/device-2014-11-30-153242.png
 date: '2014-11-30 23:51:51'
 ---
 
@@ -11,15 +11,15 @@ So the remixing of Creative Commons content into my games continues. I’ve deri
 As always, you can grab the newest code (or compiled APKs) at the GitHub page [here](https://github.com/huntergdavis/cantstoptherock).
 
 The game variant select screen:  
-[![device-2014-11-30-151956](http://www.hunterdavis.com/content/images/2014/11/device-2014-11-30-151956.png)](http://www.hunterdavis.com/content/images/2014/11/device-2014-11-30-151956.png)
+[![device-2014-11-30-151956](/content/images/2014/11/device-2014-11-30-151956.png)](/content/images/2014/11/device-2014-11-30-151956.png)
 
 Boss Fight!:  
-[![device-2014-11-30-153242](http://www.hunterdavis.com/content/images/2014/11/device-2014-11-30-153242.png)](http://www.hunterdavis.com/content/images/2014/11/device-2014-11-30-153242.png)
+[![device-2014-11-30-153242](/content/images/2014/11/device-2014-11-30-153242.png)](/content/images/2014/11/device-2014-11-30-153242.png)
 
 Guitar Thing:  
-[![device-2014-11-30-153403](http://www.hunterdavis.com/content/images/2014/11/device-2014-11-30-153403.png)](http://www.hunterdavis.com/content/images/2014/11/device-2014-11-30-153403.png)
+[![device-2014-11-30-153403](/content/images/2014/11/device-2014-11-30-153403.png)](/content/images/2014/11/device-2014-11-30-153403.png)
 
 Casual Katamari:  
-[![device-2014-11-30-153443](http://www.hunterdavis.com/content/images/2014/11/device-2014-11-30-153443.png)](http://www.hunterdavis.com/content/images/2014/11/device-2014-11-30-153443.png)
+[![device-2014-11-30-153443](/content/images/2014/11/device-2014-11-30-153443.png)](/content/images/2014/11/device-2014-11-30-153443.png)
 
 

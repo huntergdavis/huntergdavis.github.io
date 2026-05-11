@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using a Vendor-Locked VideoPhone as a Network Sharing MP3 Player
-image: http://www.hunterdavis.com/content/images/2014/06/CameraZOOM-20140615151520685.jpg
+image: /content/images/2014/06/CameraZOOM-20140615151520685.jpg
 date: '2014-06-15 20:12:14'
 ---
 
@@ -10,7 +10,7 @@ The AVN 3000 used to be a pretty interesting platform. Sadly, interest died off 
 
 I cracked open the unit, and booted. I started out by setting a static IP address in the settings page. This way it doesn’t look for SIP servers while getting a DHCP address. Didn’t appear to be running SSH/Telnet, so I started to Google around. I then found where some folks had figured out what file the SD card looks for to run scripts on boot, the version of linux it is running, how to chroot to Debian, etc. All with the intention of using the device as a SIP phone (as intended by the original firmware). Yawn.
 
-[![CameraZOOM-20140615122203743](http://www.hunterdavis.com/content/images/2014/06/CameraZOOM-20140615122203743.jpg)](http://www.hunterdavis.com/content/images/2014/06/CameraZOOM-20140615122203743.jpg)
+[![CameraZOOM-20140615122203743](/content/images/2014/06/CameraZOOM-20140615122203743.jpg)](/content/images/2014/06/CameraZOOM-20140615122203743.jpg)
 
 > I decided to gut the device, and see if I could make it really useful.
 
@@ -18,7 +18,7 @@ I found a link on Hackaday where a fellow hacker had gotten an SDL game he had w
 
 I ripped out everything but the LCD screen and the motherboard/bottom plastic. Much better! Now I have a system with no USB HID/keyboard support, no input, and nothing but an embedded Linux system that can run arbitrary commands from a script on the SD card. Sounds just about perfect 🙂
 
-[![CameraZOOM-20140615134959354](http://www.hunterdavis.com/content/images/2014/06/CameraZOOM-20140615134959354.jpg)](http://www.hunterdavis.com/content/images/2014/06/CameraZOOM-20140615134959354.jpg)
+[![CameraZOOM-20140615134959354](/content/images/2014/06/CameraZOOM-20140615134959354.jpg)](/content/images/2014/06/CameraZOOM-20140615134959354.jpg)
 
 First, I decided to alter the SD card script to save off a list of all the filesystem contents, environment variables, etc. I wrote an sh script to test out some system parameters, and dropped it into the SD card.
 
@@ -73,7 +73,7 @@ ifconfig eth0 192.168.1.69 netmask 255.255.255.0 up
 
 sleep 5
 
-[![CameraZOOM-20140615151520685](http://www.hunterdavis.com/content/images/2014/06/CameraZOOM-20140615151520685.jpg)](http://www.hunterdavis.com/content/images/2014/06/CameraZOOM-20140615151520685.jpg)  
+[![CameraZOOM-20140615151520685](/content/images/2014/06/CameraZOOM-20140615151520685.jpg)](/content/images/2014/06/CameraZOOM-20140615151520685.jpg)  
  Success! I logged in as root/root and started to look around. I used alsamixer to unmute, and playback now came from the earpiece on the headset. Good enough for me 🙂
 
 Unfortunately, the company who makes this appears to be in violation of the GPL, and doesn’t release their kernel changes publicly. So I can’t compile a new kernel with controller support without some serious headache. Time to scrap for parts and move on.

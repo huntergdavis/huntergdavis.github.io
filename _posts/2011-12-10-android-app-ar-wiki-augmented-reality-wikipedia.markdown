@@ -17,6 +17,6 @@ AR Wiki is an easy to use app designed to allow one to browse Wikipedia while wa
 
 [![](http://66.147.244.180/~hunterda/content/images/2011/12/device-2011-12-10-1102001-180x300.png "ar wikipedia vertical")](http://66.147.244.180/~hunterda/content/images/2011/12/device-2011-12-10-1102001.png)
 
-You can buy AR Wiki on the Android Market [here](https://market.android.com/details?id=com.hunterdavis.arwiki). Read more about it on the permalink page [here](http://www.hunterdavis.com/android-app-ar-wiki-augmented-reality-wikipedia).
+You can buy AR Wiki on the Android Market [here](https://market.android.com/details?id=com.hunterdavis.arwiki). Read more about it on the permalink page [here](/android-app-ar-wiki-augmented-reality-wikipedia).
 
 

@@ -9,10 +9,10 @@ I’ve written a number of open source projects over the years, with many more o
 
 Check out a great deal of my open source projects at [my GitHub page](https://github.com/huntergdavis).
 
-- [QuickGrapher – An Open Source HTML 5 Multi Equation Solver And Grapher](http://www.hunterdavis.com/popular-open-source-projects/quickgrapher_open_source/)
-- [Save Game Saver – Gmail Save Game Storage](http://www.hunterdavis.com/popular-open-source-projects/save-game-saver-backup-and-retrieve-your-save-games-from-gmail/)
-- [Source Tree Visualizer – Now Open Source](http://www.hunterdavis.com/popular-open-source-projects/source-tree-visualizer/)
-- [Super Simple RSS – SSRSS](http://www.hunterdavis.com/popular-open-source-projects/super-simple-rss-ssrss/)
-- [Title Bar Scroller](http://www.hunterdavis.com/popular-open-source-projects/title-bar-scroller/)
+- [QuickGrapher – An Open Source HTML 5 Multi Equation Solver And Grapher](/popular-open-source-projects/quickgrapher_open_source/)
+- [Save Game Saver – Gmail Save Game Storage](/popular-open-source-projects/save-game-saver-backup-and-retrieve-your-save-games-from-gmail/)
+- [Source Tree Visualizer – Now Open Source](/popular-open-source-projects/source-tree-visualizer/)
+- [Super Simple RSS – SSRSS](/popular-open-source-projects/super-simple-rss-ssrss/)
+- [Title Bar Scroller](/popular-open-source-projects/title-bar-scroller/)
 
 

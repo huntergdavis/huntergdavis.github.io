@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'New Android App: Auto Discovering Intercom System'
-image: http://www.hunterdavis.com/content/images/2014/03/speaknow.png
+image: /content/images/2014/03/speaknow.png
 date: '2014-03-04 03:36:29'
 ---
 
@@ -12,7 +12,7 @@ AutoRoboIntercom is your basic auto-discovering intercom system, with a twist or
 
 Simply load AutoRoboIntercom on your Android 2.1+ device and connect it to your Wifi network. You now have a robotic intercom system. That’s it, no configuration necessary (though you can set your room/user name from the menu.)
 
-[![nokeyboard](http://www.hunterdavis.com/content/images/2014/03/nokeyboard-168x300.png)](http://www.hunterdavis.com/content/images/2014/03/nokeyboard.png)
+[![nokeyboard](/content/images/2014/03/nokeyboard-168x300.png)](/content/images/2014/03/nokeyboard.png)
 
 You can type or talk (speech to text) and it will be broadcast to all connected clients on the network. Clients hear “(Name) said (Message)”.
 
@@ -27,7 +27,7 @@ So for example you’re in a house with 5 rooms, named:
 
 Hunter has just finished work on his latest app, and wants to let the rest of the house know it’s done. He taps the ‘record’ button in AutoRoboIntercom on his ancient HTC Hero Phone (Android 2.1) and says “Hey everyone! Come check this out I just finished an app!”
 
-[![speaknow](http://www.hunterdavis.com/content/images/2014/03/speaknow-168x300.png)](http://www.hunterdavis.com/content/images/2014/03/speaknow.png)
+[![speaknow](/content/images/2014/03/speaknow-168x300.png)](/content/images/2014/03/speaknow.png)
 
 Sallie, Jen, Mom, and Ben (working in the Garage) all hear:
 
@@ -39,7 +39,7 @@ This is all working today. Right now. Ready to go. [Code](https://github.com/hun
 
 Being sick sucks. That’s a strange thing to put into a post about my new Android application, but it’s what caused me to delay it’s release till this evening. I spent the majority of my day being ill, when all I needed to do was write this post and push the files up to [GitHub](https://github.com/huntergdavis/AutoRoboIntercom). This is done now, and the era of AutoRoboIntercom is now.
 
-[![keyboardpopped](http://www.hunterdavis.com/content/images/2014/03/keyboardpopped-168x300.png)](http://www.hunterdavis.com/content/images/2014/03/keyboardpopped.png)
+[![keyboardpopped](/content/images/2014/03/keyboardpopped-168x300.png)](/content/images/2014/03/keyboardpopped.png)
 
 /begin technical discussion
 

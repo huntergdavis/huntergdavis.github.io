@@ -9,7 +9,7 @@ As you’re probably already aware if you are reading this, I’ve got a thing f
 
 [![](http://66.147.244.180/~hunterda/content/images/2011/08/PICT00081-300x225.jpg "dockstar")](http://66.147.244.180/~hunterda/content/images/2011/08/PICT00081.jpg)
 
-If you haven’t flashed your Dockstar with Linux yet, check out [Jeff Doozan](http://jeff.doozan.com/debian/)‘s script on it, and my [previous article](http://hunterdavis.com/archives/843) on the subject. I’m going to assume you’re using a base Debian system from here out.
+If you haven’t flashed your Dockstar with Linux yet, check out [Jeff Doozan](http://jeff.doozan.com/debian/)‘s script on it, and my [previous article](/archives/843) on the subject. I’m going to assume you’re using a base Debian system from here out.
 
 **Basic Stereo Support and local file support**
 
@@ -19,7 +19,7 @@ The first step is to set up some basic audio support on your device. If your dev
 apt-get install alsa alsa-utils apmd alsa-oss mpg123 libasound2-plugins git alsa-headers build-essential sudo<br></br>
 nfs-kernel-server nfs-common alsa-base alsaplayer alsaplayer-text alsa-utils libasound2 vlc```
 
-This will pull in some basic media players and the alsa architecture. If your USB audio is like mine, the levels will be off. Edit a file called /etc/asound.conf, and paste [the attached text](http://www.hunterdavis.com/plainpcmfile.txt) This will up the levels. Reboot your system, then immediately open up alsamixer and drop the levels down to 80% each. The right level will take a LOT of down arrow presses, so don’t think that it isn’t working. It’s actually just going through a larger volume level that’s being scaled down to 100% by alsamixer.
+This will pull in some basic media players and the alsa architecture. If your USB audio is like mine, the levels will be off. Edit a file called /etc/asound.conf, and paste [the attached text](/plainpcmfile.txt) This will up the levels. Reboot your system, then immediately open up alsamixer and drop the levels down to 80% each. The right level will take a LOT of down arrow presses, so don’t think that it isn’t working. It’s actually just going through a larger volume level that’s being scaled down to 100% by alsamixer.
 
 **Networked Digital Music**
 

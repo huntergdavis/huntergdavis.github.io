@@ -7,7 +7,7 @@ date: '2013-05-06 15:53:51'
 
 During the first week in May, I considered myself quite thrifty. I bought a used magnifying glass from a thrift store, along with an ancient pair of studio headphones I plan to refurbish. Neither are produced by companies that still exist. Having not made a corporate purchase since the 1st, I was feeling fairly economical. On May 6th, that all changed.
 
-[![nook](http://www.hunterdavis.com/content/images/2013/05/nook-218x300.jpg)](http://www.hunterdavis.com/content/images/2013/05/nook.jpg)
+[![nook](/content/images/2013/05/nook-218x300.jpg)](/content/images/2013/05/nook.jpg)
 
 You see, on May 8th I fly down for a long weekend in Virginia Beach. Having just sold off the remaining tablets I had in my possession last month (in preparation for the Google I/O yearly tablet price drop), I was in the market for a media consumption device to use on the plane.
 

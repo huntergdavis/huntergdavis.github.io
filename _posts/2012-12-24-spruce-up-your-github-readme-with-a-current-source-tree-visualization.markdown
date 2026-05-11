@@ -9,7 +9,7 @@ As programmers, we’re almost universally guilty of it: Boring Readme.md files 
 
 Here’s what the Readme.md for “[The Grind](https://github.com/huntergdavis/The_Grind)” looks like:
 
-[![thegrindreadme](http://www.hunterdavis.com/content/images/2012/12/thegrindreadme-300x251.png)](http://www.hunterdavis.com/content/images/2012/12/thegrindreadme.png)
+[![thegrindreadme](/content/images/2012/12/thegrindreadme-300x251.png)](/content/images/2012/12/thegrindreadme.png)
 
 While you read through the tutorial below, I’ll be working on sloooowly converting my ~90 GitHub projects’ README files over to this method as well.
 
@@ -25,7 +25,7 @@ I’ll be walking through the basic Debian/Mint/Ubuntu installation and configur
 4. Now that you have STV compiled, execute a first interactive run over your repository with `./bin/simple_tree -i`. This will execute an interactive shell which guides you through a tree visualization.
 5. If you want to add this to your build process, simply add the direct command for a git project with `./bin/simple_tree -g /path/to/build/tree` Those not using git are still covered, STV supports tree generation from many types of version control.
 Here’s what the STV repository itself looks like today:  
-[![source_tree_vis](http://www.hunterdavis.com/content/images/2012/12/source_tree_vis-300x300.jpg)](http://www.hunterdavis.com/content/images/2012/12/source_tree_vis.jpg)
+[![source_tree_vis](/content/images/2012/12/source_tree_vis-300x300.jpg)](/content/images/2012/12/source_tree_vis.jpg)
 
 7. Now make sure you commit that file to your repository somewhere, and browse to it on GitHub. Click on the ‘raw’ icon to get the raw link to the file.
 8. Put the raw link to the file into the following code in your Readme.md file  
@@ -33,6 +33,6 @@ Here’s what the STV repository itself looks like today:
 
 And Voila! When a user comes to your GitHub page, they’ll be greeted with a visual indicator of the health and layout of your project. And it’s snazzy! Best of all, the absolute location of the file never changes, so your build process can simply write to the same image every build and your Readme.md becomes much more dynamic.
 
-[![nicerReadme](http://www.hunterdavis.com/content/images/2012/12/nicerReadme-300x257.png)](http://www.hunterdavis.com/content/images/2012/12/nicerReadme.png)
+[![nicerReadme](/content/images/2012/12/nicerReadme-300x257.png)](/content/images/2012/12/nicerReadme.png)
 
 

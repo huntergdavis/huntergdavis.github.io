@@ -8,15 +8,15 @@ date: '2012-07-21 00:58:33'
 
 About a year ago, I wrote many, many Android apps. Some of them were games. All of them were written under a “one app in one day” constraint and as such the games never had any sound. No sound effects, no background music, no waveform generation, nothing. Fast forward a year and they’ve all become open source on GitHub. I’d wanted to update them all while re-using as much code as possible. How then was I to maximize the effect (all the games get all the features) while minimizing the effort of adding sound to all of those previous games simultaneously? And how best to share the effort with other Android programmers? In this, the first of a three part article series, you’ll find out. For part 1, I create the project, setup the environment, make a plan, and update the waveform generation code on my currently in-market apps. You can follow-along with this article series in real-time by watching the commit log to the [Android Simple Game Audio](https://github.com/huntergdavis/Android_Simple_Game_Audio) project on GitHub. And stay-tuned for the upcoming part 2, wherein I become a Foley artist and make use of some interesting and (not quite) antiquated technology.
 
-[![](http://www.hunterdavis.com/content/images/2012/07/soundatlast-1024x404.png "soundatlast")](http://www.hunterdavis.com/content/images/2012/07/soundatlast.png)
+[![](/content/images/2012/07/soundatlast-1024x404.png "soundatlast")](/content/images/2012/07/soundatlast.png)
 
-**[Creating an Android Library Project](http://www.hunterdavis.com/2012/07/21/android-sound/#a1)**  
-**[Including an Android Library Project in Your Android Project (Yo Dawg)](http://www.hunterdavis.com/2012/07/21/android-sound/#a2)**  
-**[Planning (Knowing Exactly What You Want To Accomplish)](http://www.hunterdavis.com/2012/07/21/android-sound/#a4)**  
-**[Iterating (One Feature At A Time)](http://www.hunterdavis.com/2012/07/21/android-sound/#a5)**  
-**[Low Bar: Waveform Generation](http://www.hunterdavis.com/2012/07/21/android-sound/#a6)**  
-**[Update Your Markets and Ad Copy](http://www.hunterdavis.com/2012/07/21/android-sound/#a12)**  
-**[Mid Goal: Sound Effects](http://www.hunterdavis.com/2012/07/21/android-sound/#a7)**
+**[Creating an Android Library Project](/2012/07/21/android-sound/#a1)**  
+**[Including an Android Library Project in Your Android Project (Yo Dawg)](/2012/07/21/android-sound/#a2)**  
+**[Planning (Knowing Exactly What You Want To Accomplish)](/2012/07/21/android-sound/#a4)**  
+**[Iterating (One Feature At A Time)](/2012/07/21/android-sound/#a5)**  
+**[Low Bar: Waveform Generation](/2012/07/21/android-sound/#a6)**  
+**[Update Your Markets and Ad Copy](/2012/07/21/android-sound/#a12)**  
+**[Mid Goal: Sound Effects](/2012/07/21/android-sound/#a7)**
 
 **[Creating an Android Library Project]()**
 
@@ -24,7 +24,7 @@ This is a good time to talk about workspace organization. Whenever starting a ne
 
 This tends to confuse people, but Android library projects are simply regular Android projects with the ‘is Library’ flag set. You’ll still need to declare any activities you create in the manifest, but for the most part you can simply tick ‘is library’ during your project setup and you’re good to go.
 
-[![](http://www.hunterdavis.com/content/images/2012/07/islibrary-300x167.png "islibrary")](http://www.hunterdavis.com/content/images/2012/07/islibrary.png)
+[![](/content/images/2012/07/islibrary-300x167.png "islibrary")](/content/images/2012/07/islibrary.png)
 
 **[Including an Android Library Project in Your Android Project (Yo Dawg)]()**
 
@@ -55,7 +55,7 @@ With one project already updated in the Play market and the ‘Easy Audio Manage
 
 **[Mid Goal: Sound Effects]()**
 
-For me, an open source sound effects library needs to include features that make it stand out or more usable than the competitors. This is difficult in the case of a game sound library as Google has gone to great lengths to make writing simple audio (not real-time or analysis etc, but simple audio) effects and background music trivial. Most implementations will be little more than wrappers around SDK examples and bug fixes for various platforms. That being the case, I think that the inclusion of actual sound effects I’ve created and released under a Creative Commons license will help make this a useful contribution. What that means is even if you’re not interested in the source code or waveform generators etc, you can still download the project and use all of the bleeps and bloops that I create in your own projects, for FREE, forever. So if you’re playing one of my games, and you hear a ting or a hi-hat or a roaring ‘Game Over’; that’s actually me in my kitchen with some pots and pans and spoons and a microphone cooking up some mischief (like 90s west coast rap). Same goes for when you’re jamming on the background music. That’ll be out there too (Part 3 of this article series will cover background music). One will just need to head to the [Easy Game Audio project on GitHub](https://github.com/huntergdavis/Android_Simple_Game_Audio) to grab the newest set of files. But how to capture these sounds in a clear and clean way, using easily accessible audio editing software (open source, of course!) and the hardware I have around my workbench (well ok, a [laptop stand](http://www.hunterdavis.com/2012/04/25/quick-pro-tip-add-a-tablet-holder-to-your-laptop-table/))?
+For me, an open source sound effects library needs to include features that make it stand out or more usable than the competitors. This is difficult in the case of a game sound library as Google has gone to great lengths to make writing simple audio (not real-time or analysis etc, but simple audio) effects and background music trivial. Most implementations will be little more than wrappers around SDK examples and bug fixes for various platforms. That being the case, I think that the inclusion of actual sound effects I’ve created and released under a Creative Commons license will help make this a useful contribution. What that means is even if you’re not interested in the source code or waveform generators etc, you can still download the project and use all of the bleeps and bloops that I create in your own projects, for FREE, forever. So if you’re playing one of my games, and you hear a ting or a hi-hat or a roaring ‘Game Over’; that’s actually me in my kitchen with some pots and pans and spoons and a microphone cooking up some mischief (like 90s west coast rap). Same goes for when you’re jamming on the background music. That’ll be out there too (Part 3 of this article series will cover background music). One will just need to head to the [Easy Game Audio project on GitHub](https://github.com/huntergdavis/Android_Simple_Game_Audio) to grab the newest set of files. But how to capture these sounds in a clear and clean way, using easily accessible audio editing software (open source, of course!) and the hardware I have around my workbench (well ok, a [laptop stand](/2012/04/25/quick-pro-tip-add-a-tablet-holder-to-your-laptop-table/))?
 
 For the answers to those questions, you’ll have to wait for part 2 of this article series. Coming soon! And remember, if you’re itching for the next article and you’re wondering how things are coming along, you can always grab the latest source code from the project’s [GitHub page](https://github.com/huntergdavis/Android_Simple_Game_Audio).
 

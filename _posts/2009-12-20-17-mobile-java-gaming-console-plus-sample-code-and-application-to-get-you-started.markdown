@@ -12,6 +12,6 @@ After plugging it in, it’s recognized as a 1gb photo storage device. There are
 
 I started by downloading the JavaME SDK. It comes with a few sample applications, I chose the UI demo app as a good starting point. JavaME supports the java.lang.runtime class, so I figured a couple of quick system monitors would be useful. The GaugeDemo seemed like a good starting target, so I built it fresh to ensure it would run on the fusion. It installed and ran fine, so I set about altering the page to display the system memory as it changes. I first added a label to the frame which contained the total and free memory. Looks like the Npower is allocating Java around 2mb of ram. That’s about 10x more than is required by the cldc1.1, and more than enough for some hefty (and fun) mobile java development. As the free memory doesn’t change, I drop the gauge to zero every 3 ticks to show change in memory.  
 ![npower fusion stock](http://66.147.244.180/~hunterda/content/images/2009/12/nmp4075sbs1.jpg)  
-[You can download the changed source files and .jar/.jad file here](http://www.hunterdavis.com/freememuidemo.zip). Just install it to your npower, then navigate to games->UIDemo->gauge, and there’s your memory gauge. Fun! Happy Programming.
+[You can download the changed source files and .jar/.jad file here](/freememuidemo.zip). Just install it to your npower, then navigate to games->UIDemo->gauge, and there’s your memory gauge. Fun! Happy Programming.
 
 

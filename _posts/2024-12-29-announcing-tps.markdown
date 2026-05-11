@@ -9,7 +9,7 @@ Announcing TPS (Team Planning Simulator) (see, it generates TPS Reports ha!)
 
 Source and download here -> [TPS](https://github.com/huntergdavis/teamplanningsimulator/)
 
-And hey, as it's client-side, how about a [Live Version](https://hunterdavis.com/teamplanningsimulator/)
+And hey, as it's client-side, how about a [Live Version](/teamplanningsimulator/)
 
 <img src="/content/images/2024/tps.png" width=400>
 

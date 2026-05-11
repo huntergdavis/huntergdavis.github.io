@@ -14,18 +14,18 @@ Regardless, it is often the case that I’m telling someone that we should play 
 
 The answer is, as always, to put things together in a new way. Read on for more photos and a bit more info on how I stuffed a portable Saturn rig in a big blue plastic toy chest.
 
-[![](http://www.hunterdavis.com/content/images/2012/10/IMAG01051-150x150.jpg "IMAG0105")](http://www.hunterdavis.com/content/images/2012/10/IMAG01051.jpg)
+[![](/content/images/2012/10/IMAG01051-150x150.jpg "IMAG0105")](/content/images/2012/10/IMAG01051.jpg)
 
 I started, as I often do, at the local thrift shop. I found a terrific blue plastic Kinex toolbox/toychest full of Kinex (which I’ll put to good use in other hacks) for a fiver. I also managed to pick up an 8″ DVD player for 20$. You can find these online for this price range at the usual deals sites, and often have video-in.
 
-[![](http://www.hunterdavis.com/content/images/2012/10/IMAG0103-150x150.jpg "IMAG0103")](http://www.hunterdavis.com/content/images/2012/10/IMAG0103.jpg)
+[![](/content/images/2012/10/IMAG0103-150x150.jpg "IMAG0103")](/content/images/2012/10/IMAG0103.jpg)
 
 I started by removing the battery from the DVD player to bring the weight down. I then used an epoxy to glue the DVD player unit to the hinged lid of the case.
 
-[![](http://www.hunterdavis.com/content/images/2012/10/IMAG0109-150x150.jpg "IMAG0109")](http://www.hunterdavis.com/content/images/2012/10/IMAG0109.jpg)
+[![](/content/images/2012/10/IMAG0109-150x150.jpg "IMAG0109")](/content/images/2012/10/IMAG0109.jpg)
 
 From there it was a simple matter to tape down the video and power cables to the inner walls of the case, leaving plenty of room for a couple of controllers, a nice 20ft power extension cable, and a dvd-case with some favorites. All in all it took about ten minutes of actual work (not including glue-setting time), and it works rather well. No rain gets in and it’s a tough box that’ll withstand the occasional bus or train ride.
 
-[![](http://www.hunterdavis.com/content/images/2012/10/IMAG01071-150x150.jpg "IMAG0107")](http://www.hunterdavis.com/content/images/2012/10/IMAG01071.jpg)
+[![](/content/images/2012/10/IMAG01071-150x150.jpg "IMAG0107")](/content/images/2012/10/IMAG01071.jpg)
 
 
