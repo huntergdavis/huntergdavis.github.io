@@ -893,11 +893,26 @@ version; the v2 redesign will inherit it.*
       next to "HunterDavis.com" that sets identity without the
       current giant centred h1. (User supplies the sentence —
       not machine-authored.) **S**
-- [ ] **B.18** Topic-cloud sidebar widget. Tag chips sized by
-      post-count, linking to `/tag/<slug>/`. Visual discovery
-      for the 30+ tags that exist after Phase 3 backfill
-      completes. Depends on `_data/tags.yml` (Phase 2.1) being
-      in place. **M**
+- [x] **B.18** Topic-cloud sidebar widget. **M** ·
+      *Shipped 2026-05-10.* New `.topic-cloud` panel in
+      `_includes/sidebar.html` renders the top 30 most-used
+      tags as small chip-style links. Iterates the
+      count-descending `site.data.tags` dict shipped in 2.1
+      (limit: 30). Each chip links to `/search.html?query=<tag>`
+      (same target as the chip strip in B.8 and the `/tags/`
+      index in 2.3). Footer of the panel has an "All tags →"
+      link to `/tags/` for the full alphabetical list. Sidebar
+      currently renders only on the home page (`home.html`),
+      so this is a home-only widget. Same-size-per-chip
+      rendering for now — true count-proportional font-sizing
+      would need the canonical vocabulary from 2.9 to be
+      worth implementing (sizing `android` 58× vs `app-tag`
+      43× without first collapsing the synonyms would be
+      misleading). Side benefit: an old absolute
+      `http://www.hunterdavis.com/feed.xml` URL in the same
+      sidebar (missed by Phase 7.11's sweep because it was an
+      `<a>` href in an include, not a post body) was
+      converted to relative `/feed.xml`.
 
 ### Phase 0 — Hygiene & broken-asset fixes
 *Goal: stop shipping bugs. Each item is independently shippable.
@@ -2263,3 +2278,12 @@ any public-facing milestone copy until a source is added.
   chips were the last decorative-non-link element on the
   archive — now every tag mention anywhere on the site is
   one click from a search of that tag.
+- `2026-05-10` — **Phase B.18 shipped**: topic-cloud sidebar
+  widget. Home-page sidebar (`_includes/sidebar.html`) gains
+  a `.topic-cloud` panel rendering the top 30 most-used tags
+  as chip-style links to `/search.html?query=<tag>`, plus an
+  "All tags →" link to `/tags/`. Same chip palette as B.8's
+  in-post tag chips for visual continuity. Side cleanup: the
+  pre-existing absolute `http://www.hunterdavis.com/feed.xml`
+  RSS link in the same sidebar (which 7.11's post-body sweep
+  didn't reach because it's in an include) was made relative.

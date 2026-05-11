@@ -29,7 +29,7 @@
 			{% if site.links.email %}
 				<li><a href="mailto:{{ site.links.email }}">Contact Me</a></li>
 			{% endif %}
-			<li><a href='http://www.hunterdavis.com/feed.xml' rel='alternate' type='application/atom+xml'>RSS</a></li>
+			<li><a href='/feed.xml' rel='alternate' type='application/atom+xml'>RSS</a></li>
 			<li>			<form class="side-search-form" action="/search.html" method="get">
 				<input type="text" id="search-box" name="query">
 				<input type="submit" value="search">
@@ -37,4 +37,14 @@
 		</ul>
 
 	</div>
+	{% if site.data.tags %}
+	<div class="unit whole topic-cloud">
+		<h4>Tags</h4>
+		<ul>
+			{% for pair in site.data.tags limit: 30 %}<li><a href="/search.html?query={{ pair[0] | url_encode }}">{{ pair[0] }} <span class="count">{{ pair[1] }}</span></a></li>
+			{% endfor %}
+		</ul>
+		<p class="more"><a href="/tags/">All tags &rarr;</a></p>
+	</div>
+	{% endif %}
 </div>
