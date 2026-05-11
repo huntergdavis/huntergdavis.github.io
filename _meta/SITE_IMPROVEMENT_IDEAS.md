@@ -1501,6 +1501,29 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.26** Comprehensive `/sitemap.xml`. **M** ·
+      *Shipped 2026-05-11.* The crawler-facing XML sitemap
+      previously listed only `site.posts` (507) plus any
+      single `site.pages` entry with explicit `sitemap:`
+      frontmatter (just `index.html`). All of the
+      browse-by-X surfaces I've shipped this iteration —
+      `/archive/`, `/projects/`, `/tags/`, 19 per-year
+      archive pages, 84 per-tag pages, `/sitemap.html`,
+      `/search.html`, `/about.html`,
+      `/public-speaking.html` — were invisible to Google.
+      Rewrote `sitemap.xml`: posts still iterate via
+      `site.posts` (with `changefreq` dropped from misleading
+      `weekly` to honest `yearly` for archival content,
+      priority 0.7); now also iterates `site.html_pages`
+      which automatically picks up every Jekyll-rendered
+      page. Page-level `sitemap.exclude: true` provides
+      opt-out for any future stub. `lastmod` defaults to
+      `post.date` for posts and `site.time` (build time) for
+      pages — silently retiring the stale
+      `lastmod: 2014-07-07` value still in `index.html`'s
+      frontmatter, which had been telling crawlers the home
+      page hadn't changed in 12 years. Total URLs surfaced
+      to crawlers roughly 6× (was 508, now ~616).
 - [x] **B.25** Round out `/sitemap.html` with the new
       index pages and clickable year archives. **S** ·
       *Shipped 2026-05-11.* The hand-written sitemap was a
@@ -2301,6 +2324,14 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.26 shipped**: rewrote `/sitemap.xml` to
+  iterate `site.html_pages` automatically, picking up /archive/,
+  /projects/, /tags/, all 84 tag pages, all 19 year-archive
+  pages, plus /sitemap.html, /search.html, /about.html,
+  /public-speaking.html. Posts' changefreq dropped from
+  misleading `weekly` to `yearly`. `lastmod` falls back to
+  `site.time` so the stale 2014 value in `index.html`
+  frontmatter is bypassed. ~616 URLs vs the old 508.
 - `2026-05-11` — **Phase B.25 shipped**: `/sitemap.html` now lists
   /projects/, /archive/, /tags/ alongside the older pages, and
   every year entry in "Posts by year" links to its real
