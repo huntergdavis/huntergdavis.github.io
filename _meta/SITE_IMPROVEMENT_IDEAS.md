@@ -1187,8 +1187,26 @@ populate.*
       Month-grid layout deferred — for 19 years × ~507 posts
       the simple per-year flat list reads fine. Footer gets
       an `Archive` link.
-- [ ] **2.5** Build per-year `/archive/<year>/` archives. **M**
-      (auto-generated; no manual content).
+- [x] **2.5** Build per-year `/archive/<year>/` archives. **M** ·
+      *Shipped 2026-05-10.* New
+      `script/generate_year_archives.py` walks `_posts/`,
+      groups by year extracted from the filename prefix, and
+      emits one `archive/YYYY.md` per year (19 files,
+      2007–2026; 2023 is intentionally absent — no posts that
+      year). Each page is permalinked at `/archive/YYYY/`,
+      shows a count summary, lists every post for that year in
+      reverse chronological order with `MM-DD — [title](url)`,
+      and ends with `« prev · All years · next »` nav between
+      adjacent years. The post-page breadcrumb (formerly
+      `/archive/#YYYY` fragment-scroll) now points at the real
+      page `/archive/YYYY/` — better SEO, real crawl target,
+      no client-side scroll dance. The `/archive/` index also
+      now links each year heading to its dedicated page, so
+      both fragment-style deep links and per-year landing
+      pages coexist. Script is idempotent: re-run any time
+      posts shift to regenerate cleanly. Reads titles from
+      post frontmatter (with quote-stripping); falls back to
+      the filename slug if no title is set.
 - [x] **2.6** Build `/projects/` hub. **M** ·
       *Shipped 2026-05-10.* New `projects.md` permalinked to
       `/projects/`, pure-Liquid: groups `site.posts` by the
@@ -1834,6 +1852,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-10` — **Phase 2.5 shipped**: per-year archive pages.
+  `script/generate_year_archives.py` emits 19 pages at
+  `/archive/2007/`–`/archive/2026/` (2023 has no posts so it's
+  skipped), each with reverse-chronological listing + adjacent-year
+  nav. Post breadcrumbs now point at real pages instead of fragment
+  anchors. Archive index also cross-links each year heading.
 - `2026-05-10` — initial draft created. Audit of 507 posts, 1.4 GB
   built site, 1.18 MB search page, ~78% untagged corpus.
 - `2026-05-10` — Appendix A populated with verified milestones,
