@@ -2671,6 +2671,10 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.81 shipped**: home page-1 first card
+  hero img is now eager + `fetchpriority="high"` (drops
+  `loading="lazy"`); subsequent cards retain lazy-loading.
+  Improves LCP for the most-visited entry path.
 - `2026-05-11` — **Phase B.77 shipped**: extracted copy-link IIFE
   to `/js/copy-link.js` (was inlined on every post page;
   ~500KB of duplicated bytes across the corpus).

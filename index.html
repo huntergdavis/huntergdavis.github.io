@@ -48,7 +48,11 @@ lastmod: 2014-07-07T16:57:30+05:30
 		<span class="reading-time" title="Estimated reading time at 225 words/minute">~{{ card_reading_time }} min read</span>
 		{% assign hero = post.image | default: post.featured_img %}
 		{% if hero != blank %}
+		{% if forloop.first and paginator.page == 1 %}
+		<img src="{{ hero }}" width="600" decoding="async" fetchpriority="high" alt="" />
+		{% else %}
 		<img src="{{ hero }}" width="600" loading="lazy" decoding="async" alt="" />
+		{% endif %}
 		{% endif %}
 		{% if post.tags and post.tags.size > 0 %}
 			<div class="tags">
