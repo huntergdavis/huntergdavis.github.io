@@ -1251,9 +1251,21 @@ last commit in this phase swaps the default.*
       `redirect_from: ["/public-speaking.html"]`. **S**
 - [ ] **7.9** New search UX: instant results below the input, filter
       chips for year + tag, keyboard shortcut `/` to focus. **M**
-- [ ] **7.10** Convert `<a id='...'>foo</a>` anchors throughout
-      `about.md` and `public-speaking.md` to real heading IDs. **S**
-      (becomes mostly moot after 7.7/7.8.)
+- [x] **7.10** Convert `<a id='...'>foo</a>` anchors throughout
+      `about.md` and `public-speaking.md` to real heading IDs.
+      **S** · *Shipped 2026-05-10 (about.md half).* 37 inline
+      `<a id='X'>Title</a>` anchors converted to proper
+      kramdown headings (`## Title {#X}` for top-level
+      sections, `### Title {#X}` for sub-sections; hierarchy
+      determined from the TOC's bullet indentation). Sections
+      are now visually distinct headings instead of inline
+      anchor text. Pre-flight surfaced a duplicate
+      `id="miso"` bug (Miso Media appears under both Start-Ups
+      and Audio sections with the same anchor) — fixed by
+      renaming the second occurrence to `miso-audio` and
+      updating its TOC link to match. Cross-check confirms 37
+      TOC refs ↔ 37 heading IDs, 0 missing, 0 orphans.
+      `public-speaking.md` half tracked as new item 7.16.
 - [ ] **7.11** Sweep posts for `http://hunterdavis.com/...` self-links
       and rewrite to relative URLs. **M**
 - [x] **7.12** Sweep posts for `<iframe ... src="http://...">` and
@@ -1270,6 +1282,9 @@ last commit in this phase swaps the default.*
       that doesn't set tracking cookies until playback starts.
 - [ ] **7.13** Add 404 page upgrade with site-map and search.
       (Smart-routing extensions for legacy paths handled in A.12.) **S**
+- [ ] **7.16** Convert `<a id='X'>` anchors in
+      `public-speaking.md` to real kramdown heading IDs (same
+      pattern as 7.10's about.md conversion). **S**
 - [x] **7.14** Add JSON-LD `Person` schema to the home page. **S** ·
       *Shipped 2026-05-10.* New `_includes/jsonld_person.html`
       referenced from `_layouts/home.html`. Fields: `@type: Person`,
@@ -1975,3 +1990,15 @@ any public-facing milestone copy until a source is added.
   others in the era. Tangential mentions (Dockstar gaming
   console, Hacks ebook, Hackaway-prize threads, My Story,
   the modern site-search announce) deliberately not tagged.
+- `2026-05-10` — **Phase 7.10 shipped (about.md half)**:
+  37 inline `<a id='X'>Title</a>` anchors in `about.md`
+  converted to kramdown headings (`## Title {#X}` for
+  top-level, `### Title {#X}` for sub-sections; hierarchy
+  taken from the TOC bullets). Sections are now real
+  headings instead of inline anchor text — readers get
+  visible h2/h3 separators between life chapters. Surfaced
+  and fixed a pre-existing duplicate-anchor bug ("Miso
+  Media" appears under both Start-Ups and Audio with the
+  same `#miso` id) by renaming the second to `#miso-audio`
+  and updating its TOC link. Public-speaking.md half tracked
+  as 7.16.
