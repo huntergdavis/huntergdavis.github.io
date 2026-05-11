@@ -2,6 +2,12 @@
 layout: post
 title: Can Pixel Qi Technology Change your Life?
 date: '2011-03-04 15:29:06'
+tags:
+- hack
+- hacking
+- linux
+- low-power
+- gadgets
 ---
 
 

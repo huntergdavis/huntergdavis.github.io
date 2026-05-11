@@ -5,6 +5,13 @@ date: '2011-03-14 19:42:23'
 redirect_from:
   - /ebook-hacks-from-hunter-davis
   - /ebook-hacks-from-hunter-davis/
+tags:
+- ebook
+- hack
+- hacking
+- zipit-z2
+- linux
+- hunter-davis
 ---
 
 

@@ -2,6 +2,14 @@
 layout: post
 title: Easy Symmetry Check
 date: '2011-06-07 16:28:18'
+tags:
+- android
+- android-app
+- android-market
+- easy
+- easy-images
+- symmetry
+- symmetry-check
 ---
 
 

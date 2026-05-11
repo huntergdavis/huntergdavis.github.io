@@ -7,6 +7,9 @@ tags:
 - android-app
 - android-apps-2
 - app-tag
+- easy
+- android-market
+- image
 ---
 
 

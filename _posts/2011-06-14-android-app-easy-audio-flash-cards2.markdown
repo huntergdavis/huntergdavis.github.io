@@ -2,6 +2,14 @@
 layout: post
 title: Easy Audio Flash Cards
 date: '2011-06-14 12:58:18'
+tags:
+- android
+- android-app
+- android-market
+- easy
+- easy-audio-flash-cards
+- flash-cards
+- learning
 ---
 
 

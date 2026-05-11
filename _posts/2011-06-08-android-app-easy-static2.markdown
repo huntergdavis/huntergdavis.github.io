@@ -2,6 +2,13 @@
 layout: post
 title: Easy Static
 date: '2011-06-08 09:51:37'
+tags:
+- android
+- android-app
+- android-market
+- easy
+- easy-images
+- easy-static
 ---
 
 
