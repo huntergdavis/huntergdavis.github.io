@@ -1,5 +1,8 @@
 ##The website title
 name: HunterDavis.com
+##The author's full name — used in <meta name="author">, JSON-LD,
+##and any consumer that wants a human-readable creator name.
+author: Hunter Davis
 ##Markdown processor
 markdown: kramdown
 ##syntax highlighter. change it to rogue
