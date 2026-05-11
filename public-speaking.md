@@ -38,17 +38,17 @@ hide_title: true
 6/21/2018 - My friends at Apprenti asked me to speak to policymakers and attendees at the Utah Department of Labor's Apprenticeship Summit in SLC.
 <br>
 
-<img src="/content/images/2019/apprentice_panel_SLC.jpg" height="300">
+<img alt="" src="/content/images/2019/apprentice_panel_SLC.jpg" height="300">
 
 10/12/2017 - My friends at Apprenti asked me to speak to attendees and potential hiring partners at a Seattle area apprenticeship event.
 <br>
 
-<img src="/content/images/2019/apprenti_codefellows.jpg" height="300">
+<img alt="" src="/content/images/2019/apprenti_codefellows.jpg" height="300">
 
 7/23/2017 - My friends at Apprenti asked me to speak to policymakers and attendees at the Technology Councils of North America in Toronto.
 <br>
 
-<img src="/content/images/2019/apprenti_tecna17.jpg" height="300">
+<img alt="" src="/content/images/2019/apprenti_tecna17.jpg" height="300">
 
 ## Military Outreach {#military}
 <br>
@@ -57,13 +57,13 @@ I have a long personal history working with military personnel, and related publ
 ### Fourblock {#fourblock}
 <br>
 5/13/2018 - My friends at Fourblock asked the Avvo leadership team to speak to veterans and interested folks about transitioning into engineering from other disciplines, and our experiences working with military folks in our fields.  
-<br><img src="/content/images/2019/fourblock.jpeg" height="300">
+<br><img alt="" src="/content/images/2019/fourblock.jpeg" height="300">
 
 ### Operation Code {#operationcode}
 <br>
 1/22/2019 - My friends at Operation Code asked me to speak to veterans and interested folks about transitioning into engineering from other disciplines, and my experiences working with military folks in engineering fields.  Here's the presentation I gave: <a href="/PRESENTATION-The-Math-I-Wish-I-Learned/">Real Engineering Math and Other Tidbits</a>
 
-<img src="/content/images/2019/hunter_onstage_january_2019.jpeg" height="300">
+<img alt="" src="/content/images/2019/hunter_onstage_january_2019.jpeg" height="300">
 
 # Leadership
 

@@ -8,6 +8,6 @@ layout: default
 		<img class="post-hero" src="{{ hero }}" alt="" decoding="async">
 		{% endif %}
 		{% unless page.hide_title %}<h1 class="page-title">{{ page.title }}</h1>{% endunless %}
-		{{ content }}
+		{{ content | replace: '<img ', '<img loading="lazy" decoding="async" ' }}
 	</div>
 </div>
