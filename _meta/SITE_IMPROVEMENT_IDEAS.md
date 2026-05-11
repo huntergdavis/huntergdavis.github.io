@@ -1136,8 +1136,20 @@ populate.*
       custom plugins on the default builder — confirm whether deploy
       uses GH Actions / Netlify / custom CI before assuming plugins
       are OK.
-- [ ] **2.3** Build `/tag/index.html` — alphabetical list of tags
-      with post counts and family grouping. **S**
+- [x] **2.3** Build `/tags/` — alphabetical list of tags with
+      post counts. **S** · *Shipped 2026-05-10.* New `tags.md`
+      permalinked to `/tags/` lists all 370 distinct tags from
+      `site.data.tags` in alphabetical order, each one a link
+      to `/search.html?query=<tag>` (so clicking works today,
+      before per-tag pages from 2.2 are built). Counts shown
+      in a muted `.tag-count` span. Footer extended with
+      `Tags` link. Family grouping deferred to Phase 2.9
+      (canonical vocabulary curation). Pre-flight surfaced
+      and fixed a YAML-typing bug in
+      `script/audit_tags.py`: a tag literally named "2010"
+      was being parsed as an integer; switched to always-quote
+      output so pure-digit and YAML-reserved-word slugs stay
+      string-typed.
 - [x] **2.4** Build `/archive/` index. **M** ·
       *Shipped 2026-05-10 (minimum scope).* New `archive.md`
       permalinked to `/archive/` lists all 507 posts grouped
@@ -2222,3 +2234,13 @@ any public-facing milestone copy until a source is added.
   all three need the data, even before canonical-form
   curation. Curation into canonical vocabulary tracked as
   new item 2.9.
+- `2026-05-10` — **Phase 2.3 shipped**: `/tags/` alphabetical
+  index page. Lists all 370 tags from `site.data.tags`, each
+  a link to `/search.html?query=<tag>` so clicks work today
+  via the existing free-text search (the dedicated per-tag
+  pages from 2.2 are still pending the GH-Pages-vs-plugin
+  question). Counts shown alongside each tag. Footer
+  extended with `Tags` link. Pre-flight surfaced and fixed a
+  YAML-typing bug — a tag literally named `2010` was being
+  parsed as int — by switching `audit_tags.py` to always
+  quote slugs in the emitted YAML.

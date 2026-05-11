@@ -84,12 +84,11 @@ def main() -> int:
     for slug, n in ordered:
         if not slug:
             continue
-        # Quote slugs that aren't YAML-safe identifiers
-        if re.fullmatch(r"[A-Za-z0-9_-]+", slug):
-            lines.append(f"  {slug}: {n}")
-        else:
-            quoted = slug.replace('"', '\\"')
-            lines.append(f'  "{quoted}": {n}')
+        # Always quote — keeps pure-digit slugs ("2010"), YAML reserved
+        # words ("true", "no", etc.), and anything else unambiguously
+        # parsed as strings.
+        quoted = slug.replace('"', '\\"')
+        lines.append(f'  "{quoted}": {n}')
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
