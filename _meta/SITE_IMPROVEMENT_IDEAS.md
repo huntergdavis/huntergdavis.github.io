@@ -1501,6 +1501,26 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.29** Add OpenSearch description for browser
+      auto-discovery. **S** · *Shipped 2026-05-11.* New
+      `opensearch.xml` at the site root declares the search
+      URL template (`/search.html?query={searchTerms}` —
+      the same endpoint the on-page search form and 7.19's
+      WebSite + SearchAction JSON-LD already reference), plus
+      the Mozilla `<moz:SearchForm>` extension for Firefox's
+      "open search page" affordance. A new
+      `<link rel="search" type="application/opensearchdescription+xml">`
+      tag in `_layouts/default.html` `<head>` makes Chrome,
+      Edge, and Firefox auto-discover the site search on first
+      visit. Power users can then add the site to their
+      browser's URL-bar search engines and search directly:
+      type the site name, Tab, query. The `{searchTerms}`
+      placeholder is a literal — Liquid single-quoted strings
+      treat `{` as an ordinary character, so it survives
+      interpolation through `absolute_url`. Triple-discoverable
+      site search now: visual `<form>` (header + search.html
+      + /404/), JSON-LD SearchAction (Google sitelinks search
+      box), and OpenSearch (browser URL bar).
 - [x] **B.28** Upgrade home paginator with First/Last + semantics.
       **S** · *Shipped 2026-05-11.* The home paginator on a 51-
       page corpus had only Previous/Next, so getting from page
@@ -2373,6 +2393,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.29 shipped**: added OpenSearch
+  description (`/opensearch.xml`) plus `<link rel="search">` in
+  `<head>` so Chrome/Edge/Firefox auto-discover the site search.
+  Targets the existing `/search.html?query={searchTerms}` URL
+  pattern. Third discoverable surface for site search after
+  the visible forms and the 7.19 SearchAction JSON-LD.
 - `2026-05-11` — **Phase B.28 shipped**: home paginator gained
   First/Last jump links, `<nav aria-label="Pagination">` wrapper,
   `rel="prev"`/`rel="next"` on anchors, and aria-labels for
