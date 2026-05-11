@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Search Results
+noindex: true
 ---
 <form class="search-page-form" action="/search.html" method="get" role="search">
   <label for="search-page-input" class="visually-hidden">Search</label>

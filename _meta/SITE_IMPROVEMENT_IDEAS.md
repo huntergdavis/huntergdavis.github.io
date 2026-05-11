@@ -2671,6 +2671,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.87 shipped**: `/search.html` is now
+  `noindex, follow` — query-parameterized results pages
+  shouldn't be indexed (frozen state misleads searchers,
+  wastes crawl budget). New `noindex: true` front-matter flag
+  triggers a `<meta name="robots">` emit in `<head>`; reusable
+  for future non-content pages.
 - `2026-05-11` — **Phase B.86 shipped**: declare share-image
   dimensions for the default `/sharer.png` — `og:image:width`,
   `og:image:height`, `og:image:type`. Facebook/LinkedIn render
