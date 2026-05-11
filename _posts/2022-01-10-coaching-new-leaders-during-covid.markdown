@@ -25,8 +25,7 @@ Please note, as in all things I try to be empathetic and kind. I myself struggle
  
  
 
-<a id='badnews'>Delivering Difficult News</a>
-
+## Delivering Difficult News {#badnews}
 <img src="/content/images/2022/badnews.jpeg" width="320">
 
 Here's the scenario:
@@ -45,8 +44,7 @@ What I was really doing was building an environment of existential fear. How?  B
  
  
  
-<a id='formerpeers'>Loss of Peer Relationships</a>
-
+## Loss of Peer Relationships {#formerpeers}
 <img src="/content/images/2022/oppseverywhere.jpg" width="320">
 
 Here's the scenario(s)  (this line of coaching is fairly universal):
@@ -76,8 +74,7 @@ Lead through your fundamentals. This is a kindness to those you support.
  
  
  
-<a id='trustjartruth'>Assignment of Undesired Tasks</a>
-
+## Assignment of Undesired Tasks {#trustjartruth}
 <img src="/content/images/2022/trustjar.jpg" width="320">
 
 Here's the scenario:
@@ -96,8 +93,7 @@ The thing is, that's only half the story. If you never have to ask for trust, if
 
  
  
-<a id='opportunityleadership'>Meeting Team Commitments while Growing a Team</a>
-
+## Meeting Team Commitments while Growing a Team {#opportunityleadership}
 <img src="/content/images/2022/problemmountain.jpg" width="320">
 
 Here's the scenario:
