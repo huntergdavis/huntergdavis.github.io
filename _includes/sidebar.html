@@ -2,11 +2,11 @@
 	<div class="unit whole about">
 		<p>
 			{% if site.about_image %}
-				<img src="/img/{{ site.about_image }}" alt="Avatar">
+				<img src="/img/{{ site.about_image }}" alt="Avatar" loading="lazy" decoding="async" width="200" height="200">
 			{% elsif site.links.github %}
-				<img src="https://github.com/{{ site.links.github }}.png" alt="Avatar">
+				<img src="https://github.com/{{ site.links.github }}.png" alt="Avatar" loading="lazy" decoding="async" width="200" height="200">
 			{% else %}
-				<img src="/img/placeholder.jpg" alt="Avatar">
+				<img src="/img/placeholder.jpg" alt="Avatar" loading="lazy" decoding="async" width="200" height="200">
 			{% endif %}
 		</p>
 		<ul class="links">
