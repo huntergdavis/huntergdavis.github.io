@@ -59,7 +59,9 @@ lastmod: 2014-07-07T16:57:30+05:30
 			</div>
 		{% endif %}
 	</div>
-	<p class="description">{{ post.excerpt | strip_html }}</p>
+	{% assign excerpt_text = post.excerpt | strip_html | strip %}
+	{% if excerpt_text.size < 80 %}{% assign excerpt_text = post.content | strip_html | strip | truncatewords: 40 %}{% endif %}
+	<p class="description">{{ excerpt_text }}</p>
 	<p class="read-more"><a href="{{ post.url }}">Read more →</a></p>
 
 </article>
