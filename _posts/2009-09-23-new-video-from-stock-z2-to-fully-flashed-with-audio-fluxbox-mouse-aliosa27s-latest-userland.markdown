@@ -4,6 +4,15 @@ title: New Video - From Stock Z2 to Fully Flashed with Audio, Fluxbox, Mouse, Al
   Latest Userland
 date: '2009-09-23 23:10:16'
 project: zipit-z2
+tags:
+- zipit-z2
+- zipit
+- z2
+- linux
+- hacking
+- video
+- tutorial
+- userland
 ---
 
 

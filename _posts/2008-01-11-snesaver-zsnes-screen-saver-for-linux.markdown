@@ -4,6 +4,11 @@ title: Snesaver - Zsnes screen saver for linux
 date: '2008-01-11 16:15:36'
 tags:
 - snes-roms-screensaver
+- snes
+- linux
+- emulation
+- zsnes
+- open-source
 ---
 
 

@@ -2,6 +2,13 @@
 layout: post
 title: Wallclock 3.0 - 200x Microscope Edition
 date: '2009-08-13 09:50:08'
+tags:
+- hacking
+- hack
+- repurposing
+- thrift
+- personal
+- network
 ---
 
 

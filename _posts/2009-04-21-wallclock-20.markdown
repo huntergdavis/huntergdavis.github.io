@@ -4,6 +4,12 @@ title: Wallclock 2.0
 date: '2009-04-21 11:07:56'
 tags:
 - hacking-linux-wallclock-personal
+- hacking
+- linux
+- personal
+- nes
+- emulation
+- repurposing
 ---
 
 

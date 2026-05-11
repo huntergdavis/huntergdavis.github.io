@@ -4,6 +4,13 @@ title: 'Updated* Follow thread for new packages and images!: MyAliosa27''s up to
   Z2 root FS, Todd''s battlevel ipkg and keymap working in X'
 date: '2009-09-09 14:04:38'
 project: zipit-z2
+tags:
+- zipit-z2
+- zipit
+- z2
+- linux
+- hacking
+- userland
 ---
 
 

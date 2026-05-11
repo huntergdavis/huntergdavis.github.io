@@ -4,6 +4,13 @@ title: Hacking the Girltech IM-ME USB Wireless device
 date: '2009-11-15 07:34:32'
 featured: true
 project: im-me
+tags:
+- im-me
+- hacking
+- linux
+- usb
+- repurposing
+- network
 ---
 
 

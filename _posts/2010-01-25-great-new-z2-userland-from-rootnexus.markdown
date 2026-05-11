@@ -3,6 +3,14 @@ layout: post
 title: Great New Z2 Userland from RootNexus
 date: '2010-01-25 10:20:38'
 project: zipit-z2
+tags:
+- zipit-z2
+- zipit
+- z2
+- linux
+- rootnexus
+- userland
+- news
 ---
 
 

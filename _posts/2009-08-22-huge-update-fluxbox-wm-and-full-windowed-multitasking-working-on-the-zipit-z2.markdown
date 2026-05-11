@@ -5,6 +5,14 @@ title: HUGE UPDATE - Fluxbox WM and full windowed multitasking working on the Zi
 date: '2009-08-22 15:30:49'
 project: zipit-z2
 featured: true
+tags:
+- zipit-z2
+- zipit
+- z2
+- linux
+- hacking
+- window-managers
+- video
 ---
 
 

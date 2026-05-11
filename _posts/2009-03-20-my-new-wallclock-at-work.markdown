@@ -2,6 +2,11 @@
 layout: post
 title: My new wallclock at work ;)
 date: '2009-03-20 13:17:23'
+tags:
+- hacking
+- linux
+- repurposing
+- personal
 ---
 
 

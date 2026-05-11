@@ -2,6 +2,12 @@
 layout: post
 title: Hackaway 2009 Winners Announced!! (Update - Packages Shipped!)
 date: '2009-12-04 18:35:02'
+tags:
+- hackaway
+- hacking
+- winners
+- give-away
+- announcement
 ---
 
 

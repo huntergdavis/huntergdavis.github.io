@@ -2,6 +2,13 @@
 layout: post
 title: Npower Fusion - Breakdown Tutorial and Chipset Info
 date: '2009-12-24 11:33:38'
+tags:
+- hacking
+- chips
+- arm
+- repurposing
+- tutorial
+- cheap
 ---
 
 

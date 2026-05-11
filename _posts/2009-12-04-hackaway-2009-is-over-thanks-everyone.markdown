@@ -2,6 +2,12 @@
 layout: post
 title: Hackaway 2009 is over!  Thanks Everyone!
 date: '2009-12-04 17:54:28'
+tags:
+- hackaway
+- hacking
+- give-away
+- give
+- news
 ---
 
 

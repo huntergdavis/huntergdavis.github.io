@@ -2,6 +2,13 @@
 layout: post
 title: OpenMSX on the Z2 - 100% perfect
 date: '2009-10-17 00:24:40'
+tags:
+- zipit-z2
+- zipit
+- z2
+- emulation
+- games
+- linux
 ---
 
 

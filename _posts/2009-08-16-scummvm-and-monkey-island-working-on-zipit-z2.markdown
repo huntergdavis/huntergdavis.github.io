@@ -3,6 +3,14 @@ layout: post
 title: ScummVM and Monkey Island working on Zipit Z2
 date: '2009-08-16 19:08:48'
 project: zipit-z2
+tags:
+- zipit-z2
+- zipit
+- z2
+- games
+- hacking
+- linux
+- emulation
 ---
 
 

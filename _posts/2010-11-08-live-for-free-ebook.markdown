@@ -5,6 +5,14 @@ date: '2010-11-08 09:37:49'
 redirect_from:
   - /live-for-free-ebook
   - /live-for-free-ebook/
+tags:
+- live-for-free
+- ebook
+- books
+- personal
+- thrift
+- startup
+- kindle
 ---
 
 

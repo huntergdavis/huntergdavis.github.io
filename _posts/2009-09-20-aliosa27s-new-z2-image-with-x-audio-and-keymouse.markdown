@@ -3,6 +3,13 @@ layout: post
 title: Aliosa27's new Z2 image with X, Audio, and KEYMOUSE
 date: '2009-09-20 10:53:57'
 project: zipit-z2
+tags:
+- zipit-z2
+- zipit
+- z2
+- linux
+- hacking
+- userland
 ---
 
 

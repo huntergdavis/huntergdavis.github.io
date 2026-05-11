@@ -2,6 +2,10 @@
 layout: post
 title: Halloween 2008 - King Me
 date: '2008-11-17 14:58:43'
+tags:
+- personal
+- fun
+- images
 ---
 
 

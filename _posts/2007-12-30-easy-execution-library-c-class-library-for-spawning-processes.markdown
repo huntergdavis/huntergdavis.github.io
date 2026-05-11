@@ -2,6 +2,12 @@
 layout: post
 title: Easy Execution Library - c++ class library for spawning processes
 date: '2007-12-30 11:11:23'
+tags:
+- open-source
+- programming
+- software
+- linux
+- source-code
 ---
 
 

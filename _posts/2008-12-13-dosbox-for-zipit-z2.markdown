@@ -4,6 +4,13 @@ title: Dosbox for Zipit Z2!
 date: '2008-12-13 12:47:44'
 tags:
 - zipit-dosbox-games-hacking-fun-c-source-hack
+- zipit-z2
+- zipit
+- z2
+- emulation
+- games
+- hacking
+- linux
 project: zipit-z2
 ---
 
