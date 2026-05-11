@@ -973,17 +973,38 @@ URL preservation work moved to Phase A above.*
       bug fix in both: removed the spurious `/` between
       `site.url` and `post.url` in `<link>` and `<guid>`
       (post.url already starts with `/`).
-- [ ] **1.5** Remove unused SCSS partials (`_buttons.scss` already
-      commented; audit `_anims.scss`, `_monokai.scss`, parts of
-      `_markdown.scss`). **S**
-- [ ] **1.6** Replace the `headroom.min.js` shrinking-header on
-      scroll with CSS `position: sticky` (no JS required). **S**
+- [x] **1.5** Remove unused SCSS partials. **S** ·
+      *Shipped 2026-05-10.* Deleted `_sass/_buttons.scss` (42
+      lines; its `@import` in `style.scss` had been commented
+      out since the Bitwiser theme was first imported, so the
+      file was never compiled into the served CSS). Removed
+      the dead `//@import 'buttons';` line too. The remaining
+      six partials (`_anims.scss`, `_gridism.scss`,
+      `_markdown.scss`, `_monokai.scss`, `_normalize.scss`,
+      `_variables.scss`) are all actively imported.
+- [x] **1.6** Replace the `headroom.min.js` shrinking-header on
+      scroll with CSS `position: sticky` (no JS required). **S** ·
+      *Shipped 2026-05-10 (deletion half).* Pre-flight grep
+      confirmed `js/headroom.min.js` was referenced by **zero**
+      templates — the shrinking-header behavior the audit doc
+      assumed was the current state was never actually wired up.
+      Deleted the orphaned JS file. The `position: sticky`
+      header rewrite that 1.6's original spec described is now
+      a fresh feature on a clean baseline rather than a
+      replacement — tracked as new item 1.10.
 - [ ] **1.7** Add `<link rel="preload">` for the hero image and
       self-hosted font on the home and post pages. **S**
 - [ ] **1.8** Inline critical above-the-fold CSS in `<head>` and
       defer the rest with `media="print" onload`. **M**
 - [ ] **1.9** Add a build-time HTML minifier (jekyll-compress-html
       layout include or `jekyll-minifier`). **S**
+- [ ] **1.10** Add `position: sticky` to the site header so the
+      nav + search input stay accessible during long scrolls.
+      Pure CSS, no JS. The `js/headroom.min.js` deletion in 1.6
+      means there's no existing scroll-behavior to coordinate
+      with. Just `position: sticky; top: 0; z-index: 50;` on
+      `header` plus a small box-shadow on scroll for visual
+      separation from content. **S**
 
 ### Phase 2 — Information architecture scaffolding
 *Goal: surfaces exist (even if empty), so subsequent commits can
@@ -1818,3 +1839,11 @@ any public-facing milestone copy until a source is added.
   via `<atom:link rel="alternate">`. Incidental fix: removed
   the spurious `/` in `<link>{{ site.url }}/{{ post.url }}`
   that produced double-slash URLs.
+- `2026-05-10` — **Phase 1.5 + 1.6 (deletion half) shipped**:
+  dead-code purge from `_sass/` and `js/`. Deleted
+  `_sass/_buttons.scss` (42 lines; the `@import 'buttons'`
+  line in style.scss had been commented out for the entire
+  history of this codebase) and `js/headroom.min.js`
+  (orphaned, referenced by nothing). The `position: sticky`
+  header rewrite originally described by 1.6 is a fresh
+  feature now, not a replacement — tracked as new 1.10.
