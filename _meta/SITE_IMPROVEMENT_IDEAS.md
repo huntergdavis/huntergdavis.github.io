@@ -1501,6 +1501,21 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.23** Add `theme-color` and `color-scheme` meta tags.
+      **S** · *Shipped 2026-05-11.* Two-line addition to
+      `_layouts/default.html` `<head>`:
+      `<meta name="theme-color" content="#0B5485">` matches
+      the site's primary blue (already used throughout
+      `css/style.scss`); on Android Chrome / Edge / Safari /
+      Firefox mobile the browser chrome (address bar,
+      task-switcher card) tints to the brand color instead of
+      defaulting to white/black. `<meta name="color-scheme"
+      content="light">` tells the browser that the site
+      assumes light UI affordances — system scrollbars, form
+      controls, and the rendering surface render correctly on
+      OS-dark-mode without becoming hard-to-read black-on-
+      black. No JS, no CSS changes, no layout impact.
+      Strictly additive browser-chrome hint.
 - [x] **7.26** Sweep markdown-link self-URLs to relative form.
       **S** · *Shipped 2026-05-11.* Six markdown-link
       anchors of the form
@@ -2238,6 +2253,10 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.23 shipped**: added `theme-color` (#0B5485,
+  the site's primary blue) and `color-scheme` (light) meta tags
+  in `<head>`. Mobile browser chrome now tints to brand color;
+  light-mode form controls render correctly on dark-mode OSes.
 - `2026-05-11` — **Phase 7.26 shipped**: rewrote 6 markdown-link
   `[label](http://www.hunterdavis.com:80/<slug>/)` anchors in
   two posts to relative form. Eliminates redirect chain on
