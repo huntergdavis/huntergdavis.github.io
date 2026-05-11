@@ -2,6 +2,8 @@
 layout: post
 title: A Letter To My Younger Self On Becoming An Engineering Leader
 date: '2019-11-05 12:03:45'
+featured: true
+featured_group: leadership
 tags:
 - engineering-management
 - leadership
