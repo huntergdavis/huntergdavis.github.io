@@ -57,7 +57,7 @@ layout: default
 			<div class="tags">
 				Tagged:
 				{% for tag in page.tags %}
-				<span>{{ tag }}</span>
+				<a class="tag-chip" href="/search.html?query={{ tag | url_encode }}">{{ tag }}</a>
 				{% endfor %}
 			</div>
 		{% endif %}

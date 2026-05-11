@@ -781,10 +781,19 @@ version; the v2 redesign will inherit it.*
       avoids creating 404 hyperlinks. Activation when 2.5
       lands is a one-line change: wrap
       `{{ page.date | date: "%Y" }}` in an `<a>`.
-- [ ] **B.8** Tag chips on post pages become real links to
-      `/tag/<slug>/`. Today they're decorative spans. Pre-declare
-      the hrefs so chips activate the instant Phase 2.2 ships
-      tag pages. **S**
+- [x] **B.8** Tag chips on post pages become real links. **S** ·
+      *Shipped 2026-05-10.* Tag chips in `_layouts/post.html`
+      and `index.html` changed from decorative `<span>` to
+      `<a class="tag-chip" href="/search.html?query=…">`,
+      using the same target as the `/tags/` index page. Each
+      tag click runs a search prefilled with that tag — works
+      today without needing per-tag pages from Phase 2.2.
+      CSS in `style.scss` refactored from `.tags span` to
+      `.tags .tag-chip` (decoupled from the element type) and
+      gained focus + hover state (inverts to filled blue, the
+      existing #0B5485 palette). When 2.2 ships dedicated
+      `/tag/<slug>/` pages, the `href=` is a one-line edit
+      in both files.
 - [x] **B.9** Featured-posts mechanism. **M** ·
       *Shipped 2026-05-10.* `featured: true` frontmatter added
       to 11 historically important posts (the pre-existing
@@ -2244,3 +2253,13 @@ any public-facing milestone copy until a source is added.
   YAML-typing bug — a tag literally named `2010` was being
   parsed as int — by switching `audit_tags.py` to always
   quote slugs in the emitted YAML.
+- `2026-05-10` — **Phase B.8 shipped**: tag chips on post
+  pages and home cards now activate as real `<a>` links to
+  the same `/search.html?query=<tag>` URL the `/tags/` index
+  uses. `_layouts/post.html` and `index.html` swap from
+  decorative `<span>` to `<a class="tag-chip">`; CSS
+  refactored from `.tags span` → `.tags .tag-chip` with
+  added hover/focus state (inverts to filled #0B5485). Tag
+  chips were the last decorative-non-link element on the
+  archive — now every tag mention anywhere on the site is
+  one click from a search of that tag.
