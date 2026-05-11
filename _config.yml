@@ -24,13 +24,6 @@ description: The personal blog of Hunter G. Davis
 ##Some frequently used keywords on your website
 keywords: computer, science, hacker, javascript, emulator, gaming, leadership
 
-##define this for disqus comment support
-#disqus: www.hunterdavis.com
-
-##set this to enable google analytics
-#ga_id: 
-#ga_domain: analyticsDomain
-
 ##Some commonly used links
 links:
   email: hunterdavis@hey.com

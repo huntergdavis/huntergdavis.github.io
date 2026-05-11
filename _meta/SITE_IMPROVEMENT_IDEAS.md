@@ -909,10 +909,20 @@ URL preservation work moved to Phase A above.*
       0.10 (drop the CDN entirely).
 - [x] **0.12** Delete `index.old` (it's a Jekyll comment-only stub).
       **S** · *Shipped 2026-05-10 (bundled with 0.8 + 0.9).*
-- [ ] **0.13** Replace `_includes/analytics.html` with a privacy-respecting
+- [x] **0.13** Replace `_includes/analytics.html` with a privacy-respecting
       analytics snippet (Plausible / GoatCounter / self-hosted) only if
       `site.analytics_url` is set. Otherwise remove the include
-      altogether. **S**
+      altogether. **S** · *Shipped 2026-05-10 (removal path).*
+      The include shipped Universal Analytics (sunset by Google
+      July 2024); `site.ga_id` had been commented out in
+      `_config.yml` for the entire history of this codebase, so
+      the `{% if site.ga_id %}{% include analytics.html %}` in
+      `_layouts/default.html` was never firing. Deleted the
+      file, the conditional, and the commented `ga_id` /
+      `ga_domain` / `disqus` config lines that no longer apply.
+      Future analytics adds should use a privacy-respecting
+      service (Plausible / GoatCounter / self-hosted) — tracked
+      as new item 0.17.
 - [x] **0.14** Add `<main>` landmark and a visually-hidden
       "Skip to content" link in `_layouts/default.html`. **S** ·
       *Shipped 2026-05-10.* Replaced `<section class="content">`
@@ -935,6 +945,11 @@ URL preservation work moved to Phase A above.*
       font-awesome CDN dropped in 0.10), no third-party
       dependency, scales to any size cleanly. Skip if the iconless
       look turns out to read well after 0.10 ships. **S**
+- [ ] **0.17** Optional: add a privacy-respecting analytics
+      snippet (Plausible / GoatCounter / self-hosted Umami) if
+      the user wants traffic numbers back. Gate on a new
+      `site.analytics_url` config key. No Google Analytics —
+      that path was killed in 0.13. **S**
 
 ### Phase 1 — Performance quick wins
 *Goal: kill the obvious perf cliffs without touching design yet.*
@@ -1859,3 +1874,14 @@ any public-facing milestone copy until a source is added.
   shadow. Mobile keeps its existing fixed-popover nav.
   Search input and site title now stay one keystroke / one
   click away no matter how far you scroll.
+- `2026-05-10` — **Phase 0.13 shipped**: dead Google
+  Analytics include purged. `_includes/analytics.html` used
+  the Universal Analytics `ga()` snippet (sunset by Google
+  July 2024), and `site.ga_id` had been commented out in
+  `_config.yml` for the entire history of this codebase, so
+  the conditional include never fired. Deleted the file, the
+  conditional in `_layouts/default.html`, and the stale
+  commented `ga_id` / `ga_domain` / `disqus` lines in
+  `_config.yml`. ~20 lines of dead code removed total.
+  Future analytics adds via the privacy-respecting path
+  tracked as new item 0.17.
