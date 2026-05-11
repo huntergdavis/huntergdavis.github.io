@@ -3,6 +3,12 @@ layout: post
 title: JSON Game List Viewer (Android)
 image: /content/images/2015/03/device-2015-03-22-174455.png
 date: '2015-03-23 01:23:46'
+tags:
+- android
+- android-app
+- json
+- open-source
+- programming
 ---
 
 

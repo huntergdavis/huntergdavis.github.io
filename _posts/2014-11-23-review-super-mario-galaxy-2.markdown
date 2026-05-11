@@ -3,6 +3,12 @@ layout: post
 title: 'Review: Super Mario Galaxy 2'
 image: /content/images/2014/11/Super-mario-galaxy-2-wii.jpg
 date: '2014-11-23 01:44:47'
+tags:
+- games
+- mario
+- nintendo
+- review
+- wii
 ---
 
 

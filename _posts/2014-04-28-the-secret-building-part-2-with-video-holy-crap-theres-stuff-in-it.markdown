@@ -3,6 +3,11 @@ layout: post
 title: 'The Secret Building (Part 2 With Video!: Holy Crap There''s Stuff In It!)'
 image: /content/images/2014/04/20140427_142938.jpg
 date: '2014-04-28 01:15:53'
+tags:
+- fun
+- house
+- personal
+- video
 ---
 
 

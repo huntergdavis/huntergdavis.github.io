@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Ittle Dew'
 image: /content/images/2014/08/2014-06-21_00004.jpg
 date: '2014-08-14 03:20:06'
+tags:
+- games
+- pc
+- review
 ---
 
 

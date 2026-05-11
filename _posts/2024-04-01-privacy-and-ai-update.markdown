@@ -3,6 +3,11 @@ layout: post
 title: 2024 Privacy and AI Update 
 date: '2024-04-01 12:00:24'
 featured_img: '/img/placeholder.png'
+tags:
+- ai
+- news
+- personal
+- privacy
 ---
 [April Cool's Day](https://www.aprilcools.club/) inspired me to do something different and share something unexpected.  
 

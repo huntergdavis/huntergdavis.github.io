@@ -3,6 +3,11 @@ layout: post
 title: 'Review: Dark Castle (MacOS)'
 image: /content/images/2014/09/title.png
 date: '2014-09-21 03:47:31'
+tags:
+- emulation
+- games
+- retro
+- review
 ---
 
 

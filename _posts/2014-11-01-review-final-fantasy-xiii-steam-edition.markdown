@@ -3,6 +3,12 @@ layout: post
 title: 'Review: Final Fantasy XIII (Steam Edition)'
 image: /content/images/2014/11/2014-10-31_00020.jpg
 date: '2014-11-01 05:41:37'
+tags:
+- games
+- pc
+- review
+- rpg
+- steam
 ---
 
 

@@ -3,6 +3,11 @@ layout: post
 title: My Custom Guitar from MaCo Guitars Is In! 
 date: '2022-04-03 12:00:24'
 featured_img: '/content/images/2022/opencase.jpeg'
+tags:
+- build
+- guitar
+- luthier
+- personal
 ---
 This has been many years coming, and I'm so excited to finally be able to share this with y'all.  Years ago, I met a brilliant engineer and guitar builder, who later started [MaCo guitars.](http://www.macoguitars.com/) Many years before thats, my co-founder Mark and I had built a [cigar-box guitar](/about.html#guitar_) together based on the Make magazine cover article. I never forgot how much fun it was, or how much skill goes into even the most basic of guitar builds.  I knew, one day I would commission a professional shop to build my dream guitar. 
 

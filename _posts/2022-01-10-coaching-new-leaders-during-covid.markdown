@@ -3,6 +3,11 @@ layout: post
 title: Coaching Leaders During Covid
 date: '2022-01-10 12:00:24'
 featured_img: '/content/images/2022/problemmountain.jpg'
+tags:
+- covid
+- engineering-management
+- leadership
+- personal
 ---
 It's 2022. Strange as it is to write this, that means we've been living in a Covid-19 world for two years. For many of us that has meant a shift into remote work and remote leadership. Looking back on these past two years of fully remote leadership, I've observed that the stress of Covid-19 has only exacerbated the struggles that many new leaders go through. With that in mind, here are four struggles new leaders commonly face, and coaching lines I tend to employ for each.
 

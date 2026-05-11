@@ -3,6 +3,12 @@ layout: post
 title: 15$ for Direct HDMI Input on Oculus Go 
 date: '2021-12-09 08:33:24'
 featured_img: '/content/images/2021/oculus_hunter.jpg'
+tags:
+- hack
+- hacking
+- hdmi
+- oculus
+- vr
 ---
 I'm going to come out and say it.  The Oculus Go is my favorite VR headset of 2021, maybe ever.  Yes, [that Oculus go](https://www.oculus.com/go/), the cheap one they don't sell anymore.  I'm currently playing through [Magnesium 173](https://store.steampowered.com/app/1157200/Magnesium_173/) via Steam Streaming to my PC, emulating light gun games in retroarch, and playing Switch games directly through HDMI! 
 

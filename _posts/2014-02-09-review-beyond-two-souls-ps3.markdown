@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Beyond: Two Souls (PS3)'
 image: /content/images/2014/02/url_12_600x310.jpg
 date: '2014-02-09 19:11:40'
+tags:
+- games
+- ps3
+- review
 ---
 
 

@@ -3,6 +3,12 @@ layout: post
 title: Announcing Tui000  
 date: '2024-11-07 01:00:24'
 image: "/content/images/2024/play_screen_11_7_2024.png"
+tags:
+- fun
+- open-source
+- personal
+- programming
+- python
 ---
 
 Announcing Tui000 (sounds like 'three thousand') 

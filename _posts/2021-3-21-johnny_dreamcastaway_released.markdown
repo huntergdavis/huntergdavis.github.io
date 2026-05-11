@@ -4,6 +4,12 @@ title: Johnny Dreamcastaway Released!
 date: '2021-03-21 08:33:24'
 featured_img: '/content/images/2021/johnny_emu.png'
 project: johnny-castaway
+tags:
+- dreamcast
+- johnny-castaway
+- open-source
+- porting
+- sega
 ---
 Johnny Castaway for the Dreamcast is now released!  I like to call it Johnny Dreamcastaway, and it didn't take me too long to port. It's working splendidly!  A glorious internal 640x480 screen resolution and a rock-solid 60 FPS carry you forward to your private island with "Johnny Dreamcastaway." Read on for more info and downloads!
 

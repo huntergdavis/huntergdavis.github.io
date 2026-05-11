@@ -3,6 +3,11 @@ layout: post
 title: I Think I'm Against App Stores Now
 image: "/content/images/2017/11/sunset.jpg"
 date: '2017-11-29 07:32:30'
+tags:
+- android
+- news
+- open-source
+- personal
 ---
 
 TLDR; I'm allowing all but two of my android apps to sunset off of the app store in the beginning of the year.  You'll still be able to download them all and their source code from GitHub. 

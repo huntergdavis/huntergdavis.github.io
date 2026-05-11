@@ -3,6 +3,11 @@ layout: post
 title: GameStick Dock Hacking
 image: /content/images/2014/08/20140822_102628.jpg
 date: '2014-08-22 23:05:46'
+tags:
+- android
+- games
+- hacking
+- repurposing
 ---
 
 

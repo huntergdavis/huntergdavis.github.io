@@ -5,6 +5,12 @@ image: /content/images/2015/03/device-2015-03-22-174455.png
 date: '2015-03-23 01:16:16'
 redirect_from:
   - /android-apps/document-creation-and-information-management/json-game-list-viewer/
+tags:
+- android
+- android-app
+- games
+- json
+- open-source
 ---
 
 

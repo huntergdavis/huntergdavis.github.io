@@ -3,6 +3,11 @@ layout: post
 title: Quit The Drip Legit
 image: /content/images/2016/03/Screenshot-2016-03-13-at-3.32.08-PM.png
 date: '2016-03-13 22:49:15'
+tags:
+- open-source
+- personal
+- programming
+- python
 ---
 
 

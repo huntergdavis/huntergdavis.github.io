@@ -3,6 +3,12 @@ layout: post
 title: Remixing Open Source Games With Creative Commons Content
 image: /content/images/2014/11/device-2014-11-26-193651.png
 date: '2014-11-27 03:48:49'
+tags:
+- android
+- android-game
+- games
+- open-source
+- programming
 ---
 
 

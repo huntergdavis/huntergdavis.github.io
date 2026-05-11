@@ -3,6 +3,12 @@ layout: post
 title: AutoRoboIntercom
 image: /content/images/2014/03/speaknow.png
 date: '2014-05-30 04:22:04'
+tags:
+- android
+- android-app
+- network
+- open-source
+- programming
 ---
 
 

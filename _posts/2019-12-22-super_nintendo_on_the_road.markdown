@@ -2,6 +2,12 @@
 layout: post
 title: SNES On The Road 
 date: '2019-12-22 08:33:24'
+tags:
+- fun
+- hack
+- hacking
+- nintendo
+- snes
 ---
 
 Like many of my readers, if I find out there's another type of input on a device I'm going to plug something into it.  Usually some kind of video game.  So, when I realized the backup camera/monitor setup on my van had an extra input, I was compelled to install something new.  

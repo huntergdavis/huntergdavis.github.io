@@ -3,6 +3,10 @@ layout: post
 title: Ratchet and Clankdown (Sunset Overdrive Review)
 image: /content/images/2015/08/1mechsuit.jpg
 date: '2015-08-15 21:44:07'
+tags:
+- games
+- review
+- xbox
 ---
 
 

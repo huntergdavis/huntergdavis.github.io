@@ -3,6 +3,11 @@ layout: post
 title: Client-Side Site Search for HunterDavis.com 
 date: '2024-08-25 12:00:24'
 featured_img: '/content/images/2024/sitesearch.png'
+tags:
+- javascript
+- open-source
+- personal
+- programming
 ---
 I stumbled upon an [Excellent Blog Post](https://www.stephanmiller.com/static-site-search/),  from Stephan Miller detailing how to set up a local client-side search functionality for static sites. 
 

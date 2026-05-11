@@ -3,6 +3,12 @@ layout: post
 title: An ode to antennae
 image: "/content/images/2017/07/IMG_20170721_170625-2.jpg"
 date: '2017-07-22 00:18:07'
+tags:
+- fun
+- hack
+- hacking
+- repurposing
+- thrift
 ---
 
 If you're anything like me, you hate to see old technology go to waste.  I've often heard folks lament as I perused the electronics section at a thrift store, "oh that's a cool TV, but there's no connector!"  Pshaw I say to them, it's got one of the best connectors in the world. It's got an antenna.  This is a quick tale of one such occurrence, that ended with me purchasing an 80s era pocket TV. 

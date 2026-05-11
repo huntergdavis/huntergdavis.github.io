@@ -3,6 +3,12 @@ layout: post
 title: Using a Vendor-Locked VideoPhone as a Network Sharing MP3 Player
 image: /content/images/2014/06/CameraZOOM-20140615151520685.jpg
 date: '2014-06-15 20:12:14'
+tags:
+- hacking
+- linux
+- network
+- repurposing
+- thrift
 ---
 
 

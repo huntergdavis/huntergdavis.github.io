@@ -3,6 +3,10 @@ layout: post
 title: "(Review) One Piece: Pirate Warriors 3 (Vita)"
 image: /content/images/2016/09/one-piece-pirate-warriors-3-listing-thumb-01-ps4-us-28sep15.png
 date: '2016-09-22 03:00:17'
+tags:
+- games
+- review
+- vita
 ---
 
 

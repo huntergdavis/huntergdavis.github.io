@@ -3,6 +3,12 @@ layout: post
 title: Announcing Labrync  
 date: '2024-11-16 01:00:24'
 image: "/content/images/2024/earlygame.png"
+tags:
+- ai
+- fun
+- open-source
+- programming
+- python
 ---
 
 Announcing Labrync (like labrynth + ncurses)

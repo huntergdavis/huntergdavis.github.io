@@ -5,6 +5,12 @@ date: '2020-08-07 08:33:24'
 cardsimulator: true
 
 featured_img: '/content/images/2020/solitaire-1-1.jpg'
+tags:
+- covid
+- games
+- javascript
+- personal
+- programming
 ---
  
  

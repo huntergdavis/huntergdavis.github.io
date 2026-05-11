@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Wolfenstein: The New Order (BulletStein)'
 image: /content/images/2014/07/38917_2_4.jpg
 date: '2014-07-08 03:22:07'
+tags:
+- games
+- pc
+- review
 ---
 
 

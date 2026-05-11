@@ -3,6 +3,10 @@ layout: post
 title: 'Review: The Wolf Among Us'
 image: /content/images/2014/11/2014-11-12_00001.jpg
 date: '2014-11-13 01:49:11'
+tags:
+- games
+- pc
+- review
 ---
 
 

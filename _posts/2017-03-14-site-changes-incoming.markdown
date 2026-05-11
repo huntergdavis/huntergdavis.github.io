@@ -2,6 +2,10 @@
 layout: post
 title: Site Changes Incoming!
 date: '2017-03-14 03:56:26'
+tags:
+- announcement
+- news
+- personal
 ---
 
 Hi All,

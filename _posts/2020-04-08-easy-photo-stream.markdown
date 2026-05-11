@@ -3,6 +3,11 @@ layout: post
 title: A Photo Stream Simplified with GitPod
 date: '2020-04-08 08:33:24'
 quickgrapher: false
+tags:
+- jekyll
+- open-source
+- personal
+- programming
 ---
 
 Ugh, is there anything worse than token management?  Permissions, scopes, leaks, bleh.  Avoiding the cycle of security patches and constant upkeep is a major reason I migrated this blog to gh-pages. 

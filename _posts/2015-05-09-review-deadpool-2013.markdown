@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Deadpool (2013)'
 image: /content/images/2015/05/Deadpool_video_game_cover.png
 date: '2015-05-09 18:19:04'
+tags:
+- games
+- pc
+- review
 ---
 
 

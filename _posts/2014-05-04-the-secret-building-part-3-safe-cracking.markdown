@@ -3,6 +3,11 @@ layout: post
 title: 'The Secret Building: Part 3 (Safe-cracking)'
 image: /content/images/2014/05/IMG_20140503_175138.jpg
 date: '2014-05-04 21:56:45'
+tags:
+- fun
+- hacking
+- house
+- personal
 ---
 
 

@@ -3,6 +3,12 @@ layout: post
 title: 'Review: Zelda 2: The Adventure of Link'
 image: /content/images/2014/09/Zelda_II_The_Adventure_of_Link_box.jpg
 date: '2014-09-27 16:18:15'
+tags:
+- games
+- nes
+- nintendo
+- review
+- zelda
 ---
 
 

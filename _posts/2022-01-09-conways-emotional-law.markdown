@@ -3,6 +3,10 @@ layout: post
 title: Conway's Emotional Law 
 date: '2022-01-09 08:33:24'
 featured_img: '/content/images/2022/conwaysemotionallaw.svg'
+tags:
+- engineering-management
+- leadership
+- personal
 ---
 [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law).  The idea that your organizational structure will be mirrored in your design (software) structure.  Simple in concept and true to my experience, it's a principle that drives many an organizational planning session.  
 

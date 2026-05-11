@@ -3,6 +3,11 @@ layout: post
 title: 'Review: Shantae: Risky''s Revenge - Director''s Cut'
 image: /content/images/2015/02/277890_screenshots_2014-07-16_00094.jpg
 date: '2015-02-13 05:48:17'
+tags:
+- games
+- pc
+- review
+- steam
 ---
 
 

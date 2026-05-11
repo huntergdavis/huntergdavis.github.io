@@ -3,6 +3,10 @@ layout: post
 title: 'Review: NARUTO SHIPPUDEN: Ultimate Ninja STORM 3 Full Burst'
 image: /content/images/2014/07/2014-06-21_00026.jpg
 date: '2014-07-03 18:11:36'
+tags:
+- games
+- ps3
+- review
 ---
 
 

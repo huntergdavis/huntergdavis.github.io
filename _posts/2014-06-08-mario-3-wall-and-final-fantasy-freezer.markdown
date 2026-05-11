@@ -3,6 +3,11 @@ layout: post
 title: Mario 3 Wall and Final Fantasy Freezer
 image: /content/images/2014/06/CameraZOOM-20140608134616989.jpg
 date: '2014-06-08 21:26:56'
+tags:
+- fun
+- mario
+- nintendo
+- personal
 ---
 
 

@@ -3,6 +3,9 @@ layout: post
 title: Simplify
 image: /content/images/2014/09/simplify.jpg
 date: '2014-09-05 02:48:45'
+tags:
+- fun
+- personal
 ---
 
 

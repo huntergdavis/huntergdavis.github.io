@@ -3,6 +3,12 @@ layout: post
 title: A big ole stack of one-off projects in 2025  
 date: '2025-10-05 01:00:24'
 image: "/content/images/2025/2025.png"
+tags:
+- ai
+- javascript
+- open-source
+- personal
+- programming
 ---
 
 I actually wrote quite a bit of code in 2025!  While my professional life was centered around AI enablement for my teams and getting the big launch out this year to customers, I did a fair amount of personal projects. 

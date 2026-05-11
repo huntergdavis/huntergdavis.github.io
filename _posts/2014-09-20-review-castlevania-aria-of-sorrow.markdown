@@ -3,6 +3,11 @@ layout: post
 title: 'Review: Castlevania: Aria of Sorrow'
 image: /content/images/2014/09/Castlevania-Aria-of-Sorrow-U_09.png
 date: '2014-09-20 22:31:49'
+tags:
+- emulation
+- games
+- gba
+- review
 ---
 
 

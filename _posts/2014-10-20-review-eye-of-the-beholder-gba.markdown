@@ -3,6 +3,11 @@ layout: post
 title: 'Review: Eye of the Beholder (GBA)'
 image: /content/images/2014/10/BeholderGBA.jpg
 date: '2014-10-20 01:43:54'
+tags:
+- games
+- gba
+- review
+- rpg
 ---
 
 

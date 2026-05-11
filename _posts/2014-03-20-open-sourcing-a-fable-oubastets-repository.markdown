@@ -3,6 +3,11 @@ layout: post
 title: Open-Sourcing a Fable (Oubastet's Repository)
 image: /content/images/2014/03/oubastets_repository.png
 date: '2014-03-20 03:28:46'
+tags:
+- books
+- github
+- open-source
+- personal
 ---
 
 

@@ -3,6 +3,11 @@ layout: post
 title: Boom Box Build Version 1
 image: "/content/images/2017/10/IMG_20171007_131832.jpg"
 date: '2017-10-07 23:00:13'
+tags:
+- audio
+- build
+- hacking
+- thrift
 ---
 
 Dissatisfied with the current stand of the boom box world, I set about to see if I could do better on my own. The end result is a boombox so loud, so RUDE, it's like nothing you've ever seen or heard before, and it wasn't particularly difficult.

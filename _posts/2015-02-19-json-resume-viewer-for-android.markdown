@@ -3,6 +3,12 @@ layout: post
 title: JSON Resume Viewer for Android
 image: /content/images/2015/02/device-2015-02-18-1352261.png
 date: '2015-02-19 05:35:17'
+tags:
+- android
+- android-app
+- json
+- open-source
+- programming
 ---
 
 
