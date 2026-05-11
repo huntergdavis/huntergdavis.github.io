@@ -2671,6 +2671,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.85 shipped**: non-post pages (`/about/`,
+  `/timeline/`, `/search/`, `/random/`, `/public-speaking/`, etc.)
+  now self-canonical via `page.url` instead of all claiming
+  `canonical=/`. og:url tracks. Pairs with B.84 — together every
+  rendered page has a correct self-canonical.
 - `2026-05-11` — **Phase B.84 shipped**: paginated home pages
   (`/page2`, `/page3`, …) are now self-canonical instead of all
   claiming canonical=`/`. og:url tracks. Each paginated page is

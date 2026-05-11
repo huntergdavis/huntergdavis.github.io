@@ -26,8 +26,8 @@
 <link rel="canonical" href="{{ site.url }}/page{{ paginator.page }}" />
 <meta property="og:url" content="{{ site.url }}/page{{ paginator.page }}" />
 {% else %}
-<link rel="canonical" href="{{ site.url }}/" />
-<meta property="og:url" content="{{ '/' | absolute_url }}" />
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
 {% endif %}
 <meta property="og:site_name" content="{{ site.name }}" />
 <meta property="og:type" content="website" />
