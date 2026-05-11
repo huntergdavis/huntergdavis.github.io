@@ -6,9 +6,11 @@
 <meta name="keywords" content="{{ site.keywords }}" />
 {% endif %}
 {% if page.excerpt %}
-<meta name="description" content="{{ page.excerpt | strip_html }}">
-<meta property="og:description" content="{{ page.excerpt | strip_html }}" />
-<meta name="twitter:description" content="{{ page.excerpt | strip_html }}" />
+{% assign desc_text = page.excerpt | strip_html | strip %}
+{% if desc_text.size < 80 %}{% assign desc_text = page.content | strip_html | strip | truncatewords: 40 %}{% endif %}
+<meta name="description" content="{{ desc_text }}">
+<meta property="og:description" content="{{ desc_text }}" />
+<meta name="twitter:description" content="{{ desc_text }}" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="{{ page.url | absolute_url }}" />
 <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
