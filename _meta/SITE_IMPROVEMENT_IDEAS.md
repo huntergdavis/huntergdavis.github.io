@@ -749,10 +749,22 @@ version; the v2 redesign will inherit it.*
       codebase has been substantially rewritten from the
       template — the recent dead-code purges in 0.8/0.9/0.10/0.12
       gutted most of what was left of it. Jekyll credit retained.
-- [ ] **B.6** Site map page at `/sitemap.html` — distinct from
-      the crawler-targeted `/sitemap.xml`. One human-readable
-      page listing every section, every project family, every
-      year archive. **M**
+- [x] **B.6** Site map page at `/sitemap.html` — distinct from
+      the crawler-targeted `/sitemap.xml`. **M** ·
+      *Shipped 2026-05-10.* New `sitemap.md` permalinks to
+      `/sitemap.html` and renders five sections via pure Liquid
+      (no JS): **Pages** (Home, About, Speaking, Search),
+      **Recent posts** (latest 10), **Posts by project**
+      (grouped via `group_by: "project"`, sorted alphabetically,
+      humanized names from new `_data/projects.yml`), **Posts
+      by year** (year + post-count rows via `group_by_exp`),
+      and **Feeds and metadata** (both RSS feeds + XML
+      sitemap link). New `_data/projects.yml` maps project
+      slugs (zipit-z2, johnny-castaway, dockstar) to
+      human-readable names ("Zipit Z2", "Johnny Castaway",
+      "Dockstar"). Page is discoverable via the footer — added
+      `Site Map` and renamed the existing sitemap link to
+      `XML Sitemap` for clarity.
 - [x] **B.7** Breadcrumb on post pages. **S** ·
       *Shipped 2026-05-10.* Compact `Home / <year>` strip above
       every post's `<h1>`. Semantic markup: `<nav
@@ -2079,3 +2091,12 @@ any public-facing milestone copy until a source is added.
   dockstar (4). Tangential Dockstar mentions in Retrode2,
   hosting-switch, location-based-ad, and the My Story page
   deliberately not tagged.
+- `2026-05-10` — **Phase B.6 shipped**: human-readable site
+  map at `/sitemap.html`. New `sitemap.md` (pure Liquid)
+  lists Pages, latest 10 posts, posts grouped by project,
+  posts grouped by year (with counts), and the three feed
+  endpoints. New `_data/projects.yml` maps project slugs to
+  display names ("Zipit Z2", "Johnny Castaway", "Dockstar")
+  so the sitemap can show real titles instead of slugs.
+  Footer now links to `Site Map` (and the existing XML
+  sitemap link is relabeled `XML Sitemap` for clarity).

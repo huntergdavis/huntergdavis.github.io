@@ -1,0 +1,13 @@
+# Map of `project:` frontmatter slugs to human-readable display names.
+# Used by /sitemap.html (and the future /projects/ hub in Phase 4).
+#
+# To add a new project:
+#   1. Tag the relevant posts with `project: <slug>` in their frontmatter
+#   2. Add an entry below mapping the slug to a display name
+#
+# Names should match the canonical product / series name as used in
+# the user's own post titles (e.g., "Zipit Z2" not "ZipitZ2").
+
+zipit-z2: Zipit Z2
+johnny-castaway: Johnny Castaway
+dockstar: Dockstar
