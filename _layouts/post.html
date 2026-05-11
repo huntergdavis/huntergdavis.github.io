@@ -78,6 +78,15 @@ layout: default
 	{% endif %}
 </nav>
 {% endif %}
+{% if page.project %}
+{% capture project_html %}{% assign shown_p = 0 %}{% for p in site.posts %}{% if p.url == page.url %}{% continue %}{% endif %}{% if p.project == page.project %}<li><a href="{{ p.url }}">{{ p.title | escape }}</a></li>{% assign shown_p = shown_p | plus: 1 %}{% if shown_p >= 6 %}{% break %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
+{% if project_html contains "<li>" %}
+<aside class="same-project" aria-label="More posts in this project">
+	<h3>More in this project</h3>
+	<ul>{{ project_html }}</ul>
+</aside>
+{% endif %}
+{% endif %}
 {% assign current_year = page.date | date: "%Y" %}
 {% capture same_year_html %}{% assign shown = 0 %}{% for p in site.posts %}{% if p.url == page.url %}{% continue %}{% endif %}{% assign py = p.date | date: "%Y" %}{% if py == current_year %}<li><a href="{{ p.url }}">{{ p.title | escape }}</a></li>{% assign shown = shown | plus: 1 %}{% if shown >= 5 %}{% break %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
 {% if same_year_html contains "<li>" %}

@@ -3,6 +3,7 @@ layout: post
 title: Johnny Castaway - On The Web, On The Hunt
 image: "/content/images/2018/12/johnny_web.png"
 date: '2018-12-26 23:59:37'
+project: johnny-castaway
 ---
 
 Longtime readers of this blog may recall my slight obsession with an old screensaver: Johnny Castaway.  Johnny was a Windows 3.1 screensaver, part of Sierra's 'Screen Antics' collection.  Fitting handily on a single 3.5" floppy disk, Johnny spent his time alone on a deserted island.  He fished, he napped, he went on dates with a mermaid.  It was a fascinating, subversive tale.  The true moral of the story was that Johnny wasn't happy until he was on that island, but he didn't realize it until after he had been rescued.  The 'ending' scene is of Johnny parachuting back onto his desert island, leaving his old programming job and city life behind.  

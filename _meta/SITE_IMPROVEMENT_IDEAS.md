@@ -774,11 +774,22 @@ version; the v2 redesign will inherit it.*
       structure planned in 7.6 + Appendix A). Three or four
       cards linking to the Zipit Z2 era, the 70-app GitHub
       release, the Johnny Castaway saga, the books. **M**
-- [ ] **B.13** "More from this project" panel on post pages.
-      If `series:` or `project:` frontmatter is set, show up
-      to five sibling posts with the same slug. Builds the
-      saga-style cross-linking the Johnny Castaway, Zipit Z2,
-      Dockstar, etc. arcs deserve. **M**
+- [x] **B.13** "More from this project" panel on post pages.
+      **M** · *Shipped 2026-05-10.* New aside renders on any
+      post that sets `project:` frontmatter; lists up to 6
+      sibling posts with the same value via a pure-Liquid
+      `{% capture %}` + `{% if … contains "<li>" %}` guard
+      (same pattern as B.14's same-year aside). CSS extends
+      the existing `.same-year` rules to cover
+      `.same-project` too (comma-separated selector). Seeded
+      `project: johnny-castaway` on the 6 confirmed Johnny
+      Castaway saga posts: on-the-web-on-the-hunt (2018),
+      Castawine (2019), native-port-and-livcd, Dreamcastaway,
+      retrofw-released, text-edition (all 2021). Zipit Z2,
+      Dockstar, and other arcs can be tagged with their own
+      `project:` value in follow-up commits — the template
+      activates automatically. All 6 modified posts re-parsed
+      cleanly with PyYAML.
 - [x] **B.14** "Other posts from this year" on post pages. **S** ·
       *Shipped 2026-05-10.* Pure-Liquid implementation in
       `_layouts/post.html` plus `.same-year` styles in
@@ -1943,3 +1954,12 @@ any public-facing milestone copy until a source is added.
   Pages has enforced HTTPS for custom domains since 2018 so
   the underlying site has been HTTPS-reachable all along —
   this commit finally makes the canonical metadata agree.
+- `2026-05-10` — **Phase B.13 shipped**: "More in this
+  project" aside on post pages. Renders on any post that
+  sets a `project:` frontmatter value, listing up to 6
+  sibling posts. Seeded with `project: johnny-castaway` on
+  the 6 confirmed saga posts (on-the-web-on-the-hunt,
+  Castawine, native-port, Dreamcastaway, retrofw, text
+  edition). A reader landing on the Dreamcast port now sees
+  five other Johnny Castaway commits one click away. Zipit,
+  Dockstar, etc. arcs can be retro-tagged in follow-ups.
