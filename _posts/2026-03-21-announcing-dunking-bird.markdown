@@ -27,7 +27,7 @@ Dunking bird is my metaphor for programs which sit outside the interface of agen
 
 Here's Dunking Bird in action:
 
-<img src="/content/images/2026/dunking-bird-screenshot.png" width=600>
+<img alt="" src="/content/images/2026/dunking-bird-screenshot.png" width=600>
 
 ## The Story Behind Dunking Bird
 
@@ -41,6 +41,6 @@ I've been working on a PS1 version of Johnny Castaway for about a year now.  I h
 
 Sloppity slop slop, dropitty drop drop look at AI go
 
-<img src="/content/images/2026/dunking-bird-ai-art.png" width=400>
+<img alt="" src="/content/images/2026/dunking-bird-ai-art.png" width=400>
 
 ---

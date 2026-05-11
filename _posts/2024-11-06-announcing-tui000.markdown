@@ -57,5 +57,5 @@ You can find the repository below, including original design docs and screenshot
 [Tui000](https://github.com/huntergdavis/tui000/tree/main)
 
 Main Graveyard Screen -> 
-<img src="https://github.com/huntergdavis/tui000/raw/main/screenshots/graveyard_like_concept.png" width=400>
-<img src="https://github.com/huntergdavis/tui000/raw/main/concept_art/death_screen.jpg" width=400>
+<img alt="" src="https://github.com/huntergdavis/tui000/raw/main/screenshots/graveyard_like_concept.png" width=400>
+<img alt="" src="https://github.com/huntergdavis/tui000/raw/main/concept_art/death_screen.jpg" width=400>

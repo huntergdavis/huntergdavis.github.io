@@ -19,32 +19,32 @@ Over the next year, I received a regular stream of updates from MaCo.  The wood 
 
 Then, at the end of 2021 it was ready!  I could hardly contain my excitement!  I flew out to pick up this one of a kind guitar, and I was not ready for how emotional it would be opening the case for the first time! 
 
-<img src="/content/images/2022/opencase.jpeg" width="400">
+<img alt="" src="/content/images/2022/opencase.jpeg" width="400">
 
 The beauty and complete uniqueness of my guitar still amaze me all these months later. I was nearing tears as I was presented with the build certificate. 
 
-<img src="/content/images/2022/certificate.jpeg" width="400">
+<img alt="" src="/content/images/2022/certificate.jpeg" width="400">
 
 I had a particular set of (perhaps odd, definitely non-standard) requirements for this build.  I wanted a shortened neck, with a semi-hollow body and a player-reflecting resonator. 
 
-<img src="/content/images/2022/guitar_body.jpg" width="400">
+<img alt="" src="/content/images/2022/guitar_body.jpg" width="400">
 
 Look at those tuning pegs!  Oooh they are pretty. 
 
-<img src="/content/images/2022/head.jpg" width="400">
+<img alt="" src="/content/images/2022/head.jpg" width="400">
 
 My hands were literally shaking as I picked up the guitar for the first time.  Lightweight and perfectly balanced, with that custom cut MaCo is known for. 
 
-<img src="/content/images/2022/holdingguitar.jpeg" width="400">
+<img alt="" src="/content/images/2022/holdingguitar.jpeg" width="400">
 
 I was giddy as I looked into the resonator and saw the build certificate and born-on date!!  That's my name in there!
 
-<img src="/content/images/2022/inthebody.jpg" width="400">
+<img alt="" src="/content/images/2022/inthebody.jpg" width="400">
 
 MaCo even took some of the leftover premium woods and created a custom set of coasters for me.  So thoughtful!  
 
 One last shot of my guitar. 
 
-<img src="/content/images/2022/righthand.png" width="400">
+<img alt="" src="/content/images/2022/righthand.png" width="400">
 
 Thanks for reading all about my guitar!!  I highly recommend anyone interested in top tier professional guitar-builders to check out MaCo guitars!  It's been a life-changing experience for me, the creation of an heirloom I'll treasure for life! 

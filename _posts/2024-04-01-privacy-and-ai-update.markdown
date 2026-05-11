@@ -24,7 +24,7 @@ Change number 2: The removal of overly personal blog posts and content. While ph
 Change number 3: The de-identification of personal imagery and personally identifying information from all articles and site pages. Going to have some fun with this one, adjusting some prior images algorithmically. For now, I'll start with [a quick thresholding and random colorization.](/content/images/2024/imagechange.py) Moving forward: I'll find a new avatar and remove EXIF data from any photos.
 
 Here's what this quick first pass looks like:
-<img src="/content/images/2013/08/20130830_144712.jpg" width="400">
+<img alt="" src="/content/images/2013/08/20130830_144712.jpg" width="400">
 
 
 Silver Lining: One great lesson I've learned in my career, imparted to me by a leader I trust: not everyone you lead will see themselves in you. The sames goes for readers of this blog! My hope is that more folks may connect with the message I'm trying to send going forward. 

@@ -112,7 +112,7 @@ and uncomment it to look like:
 
     net.ipv4.ip_forward=1
 
-<img src="/content/images/2021/ip_forwarding.png" width="1126">
+<img alt="" src="/content/images/2021/ip_forwarding.png" width="1126">
 
 
 For most systems, that's enough.  For raspbian, it doesn't include network manager by default.  Simply run:
@@ -123,7 +123,7 @@ and you'll be good to plug and play as many devices into your raspberry pi as yo
 
 Here you can see all of the files you need to edit, across all 3 systems in this scenario, in one photo:
 
-<img src="/content/images/2021/retrofw_config_files.png" width="1126">
+<img alt="" src="/content/images/2021/retrofw_config_files.png" width="1126">
 
 
 Finally, let's get it all running.  I use a cheap microSD card I picked up at MicroCenter, and it's not particularly fast.  In this case it takes a full 2 minutes to boot.  Plug the Pi Zero into a power supply, in this case a cheap usb battery pack. I've found that even a cheap usb battery pack will keep this raspi bridge running for many, many hours. At any rate, wait a full 2 minutes before you plug in a device. 
@@ -136,12 +136,12 @@ At this point, provided ipv4 packet forwarding is working properly on your bridg
 
 Launch the 'Server-Duke3d' link we created above first.  Select your server options and launch the game proper. 
 
-<img src="/content/images/2021/duke_nukem_server.jpg" width="1126">
+<img alt="" src="/content/images/2021/duke_nukem_server.jpg" width="1126">
 
 
 After you're in, you can launch the client link we created above on any other RetroFW devices we're networked to.  Finally, we'll power it all on and get to gaming!
 
-<img src="/content/images/2021/duke_nukem_coop.jpg" width="1126">
+<img alt="" src="/content/images/2021/duke_nukem_coop.jpg" width="1126">
 
 
 And that's that.  I've noticed that the RetroFW port of snes9x still has the netplay code compiled in, that's a logic next target for multiplayer gaming via "link cable."  Stay tuned!

@@ -21,4 +21,4 @@ There's a publish option, but that's an additional 10$ per month and I already h
 
 So that's exactly what I wrote up today. [Live Link.](/media/) [Github Link.](https://github.com/huntergdavis/media) 
 
-<img src="/content/images/2024/markdown.png" width="400">
+<img alt="" src="/content/images/2024/markdown.png" width="400">

@@ -13,4 +13,4 @@ I stumbled upon an [Excellent Blog Post](https://www.stephanmiller.com/static-si
 
 So that's exactly what I implemented today. You'll see a search box on the right of the homepage, and you can sort the results by relevance or date. Best of all, this relies on no external search engine and respects your privacy. This works by generating a json blob with all my post data, then running a local search with lunr.js.  Much, MUCH easier to find content now, especially those old Zipit and game review articles. 
 
-<img src="/content/images/2024/sitesearch.png" width="400">
+<img alt="" src="/content/images/2024/sitesearch.png" width="400">

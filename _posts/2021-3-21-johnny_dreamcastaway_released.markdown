@@ -25,11 +25,11 @@ You can view the source code [here](https://github.com/huntergdavis/jc_reborn/tr
 
 
 Here you can see how "Johnny Dreamcastaway" will look in your REDREAM library view
-<img src="/content/images/2021/johnny_emu.png" width="1126">
+<img alt="" src="/content/images/2021/johnny_emu.png" width="1126">
 
 
 Here's an animated GIF of "Johnny Dreamcastaway" loading in a Dreamcast emulator
-<img src="/content/images/2021/johnny_load.gif" width="640">
+<img alt="" src="/content/images/2021/johnny_load.gif" width="640">
 
 
 As I wrote last week, I stumbled upon the newest code for 'Johnny Reborn' (https://github.com/jno6809/jc_reborn), written by the talented Jérémie GUILLAUME, and immediately wanted to port it to the Dreamcast.
