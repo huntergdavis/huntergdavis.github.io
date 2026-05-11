@@ -993,10 +993,30 @@ article{
 	line-height: 1.2;
 }
 
-.timeline-summary{
-	color: #555;
-	font-size: 0.95em;
-	margin-bottom: 1.5em;
+.timeline-jumpnav{
+	margin: 0 0 1.5em;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.35em;
+	padding-bottom: 0.75em;
+	border-bottom: 1px solid #e1e4e8;
+
+	a{
+		display: inline-block;
+		padding: 2px 9px;
+		background: #f6f8fa;
+		border: 1px solid #e1e4e8;
+		border-radius: 12px;
+		font-size: 0.85em;
+		color: #0B5485;
+		text-decoration: none;
+
+		&:hover, &:focus{
+			background: #0B5485;
+			color: #fff;
+			border-color: #0B5485;
+		}
+	}
 }
 
 .timeline-year{

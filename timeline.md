@@ -4,9 +4,11 @@ title: Timeline
 permalink: /timeline/
 ---
 
-<p class="timeline-summary">Every post on one page, newest year first.</p>
-
 {% assign by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+<nav class="timeline-jumpnav" aria-label="Jump to year">
+{% for yr in by_year %}<a href="#{{ yr.name }}">{{ yr.name }}</a>{% endfor %}
+</nav>
+
 {% for yr in by_year %}
 <section class="timeline-year">
 <h2 id="{{ yr.name }}"><a href="/archive/{{ yr.name }}/">{{ yr.name }}</a> <span class="timeline-year-count">{{ yr.items.size }} post{% if yr.items.size != 1 %}s{% endif %}</span></h2>
