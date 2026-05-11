@@ -44,7 +44,7 @@ lastmod: 2014-07-07T16:57:30+05:30
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	<div class="meta-info">
 		<span class="meta"><time class="timeago postlist-meta" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time></span>
-		{% assign card_reading_time = post.content | strip_html | number_of_words | divided_by: 225 | plus: 1 %}
+		{% assign card_reading_time = post.content | strip_html | number_of_words | plus: 224 | divided_by: 225 %}
 		<span class="reading-time" title="Estimated reading time at 225 words/minute">~{{ card_reading_time }} min read</span>
 		{% assign hero = post.image | default: post.featured_img %}
 		{% if hero != blank %}
