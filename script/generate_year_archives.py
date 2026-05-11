@@ -10,6 +10,7 @@ whenever new posts land.
 """
 from __future__ import annotations
 
+import json
 import re
 from collections import defaultdict
 from pathlib import Path
@@ -17,6 +18,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[1]
 POSTS = REPO / "_posts"
 OUT = REPO / "archive"
+SITE_URL = "https://www.hunterdavis.com"
 
 POST_RE = re.compile(
     r"^(?P<y>\d{4})-(?P<m>\d{1,2})-(?P<d>\d{1,2})-(?P<slug>.+)\.(?:md|markdown)$"
@@ -71,12 +73,40 @@ def main() -> int:
         prev_year = years[i - 1] if i > 0 else None
         next_year = years[i + 1] if i + 1 < len(years) else None
         posts = sorted(by_year[year], reverse=True)
+        ld = {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": f"Archive: {year}",
+            "url": f"{SITE_URL}/archive/{year}/",
+            "isPartOf": {
+                "@type": "WebSite",
+                "url": f"{SITE_URL}/",
+            },
+            "mainEntity": {
+                "@type": "ItemList",
+                "numberOfItems": len(posts),
+                "itemListOrder": "https://schema.org/ItemListOrderDescending",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": idx + 1,
+                        "url": f"{SITE_URL}{url}",
+                        "name": title,
+                    }
+                    for idx, (_, _, title, url) in enumerate(posts)
+                ],
+            },
+        }
         lines: list[str] = [
             "---",
             "layout: page",
             f'title: "Archive: {year}"',
             f"permalink: /archive/{year}/",
             "---",
+            "",
+            '<script type="application/ld+json">',
+            json.dumps(ld, indent=2, ensure_ascii=False),
+            "</script>",
             "",
             f"<p class=\"archive-summary\">{len(posts)} posts from {year}.</p>",
             "",

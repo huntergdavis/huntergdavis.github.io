@@ -1458,6 +1458,24 @@ last commit in this phase swaps the default.*
       tracking-cookie problem until the user clicks them).
       youtube-nocookie.com is Google's "privacy-enhanced mode"
       that doesn't set tracking cookies until playback starts.
+- [x] **7.21** Add CollectionPage + ItemList JSON-LD to per-year
+      archive pages. **S** · *Shipped 2026-05-11.* Updated
+      `script/generate_year_archives.py` to emit a
+      `<script type="application/ld+json">` block at the top
+      of every `archive/YYYY.md` page declaring the page as a
+      `CollectionPage` whose `mainEntity` is an `ItemList`,
+      one `ListItem` per post (position, name, url, descending
+      order via `ItemListOrderDescending`). Regenerated all
+      19 pages (2007–2026 minus 2023); validated all 19 emit
+      well-formed JSON via a round-trip parse. Titles are
+      JSON-encoded via `json.dumps` so post titles containing
+      quotes/backslashes serialize safely. Posts ship
+      BlogPosting + BreadcrumbList; home ships Person +
+      WebSite; year archives now ship CollectionPage +
+      ItemList. The `/projects/` hub and `/tags/` index are
+      the remaining list pages that could get the same
+      treatment — tracked separately when their generators
+      land.
 - [x] **7.13** Add 404 page upgrade with site-map and search.
       **S** · *Shipped 2026-05-11.* The 404 page already had a
       search box and JS-driven path-derivation (auto-fills the
@@ -1958,6 +1976,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.21 shipped**: CollectionPage + ItemList
+  JSON-LD on per-year archive pages. `generate_year_archives.py`
+  bakes a JSON-LD block into each of the 19 `archive/YYYY.md`
+  files, listing every post for that year as a structured
+  `ListItem`. Round-trip-validated as JSON across all 19 pages.
 - `2026-05-11` — **Phase 7.13 shipped**: 404 page upgrade.
   Added a quick-escape `<nav>` with five links (Home, Archive,
   Projects, Tags, Site map) mirroring the footer. Replaces the
