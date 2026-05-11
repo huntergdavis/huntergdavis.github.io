@@ -2659,6 +2659,107 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.62 shipped**: smooth-scroll anchor
+  navigation (`html { scroll-behavior: smooth }`), honors
+  prefers-reduced-motion opt-out.
+- `2026-05-11` — **Phase B.61 shipped**: dropped legacy
+  `xmlns:og` attribute from `<html>` (XHTML-era, unused
+  in modern OG consumers).
+- `2026-05-11` — **Phase B.60 shipped**: added
+  `<meta name="format-detection" content="telephone=no">` to
+  stop iOS Safari from auto-detecting product codes and ISBNs
+  as phone numbers.
+- `2026-05-11` — **Phase B.59 shipped**: generated
+  `apple-touch-icon.png` (180×180) + linked from `<head>` so
+  iOS "Add to Home Screen" gets the brand-blue H tile instead
+  of a page screenshot.
+- `2026-05-11` — **Phase B.58 shipped**: added `<meta
+  name="referrer" content="strict-origin-when-cross-origin">`
+  to declare the privacy-respecting referrer policy.
+- `2026-05-11` — **Phase B.57 shipped**: unified chevron weights
+  across paginators. Post prev/next swapped from `«` `»` to
+  `‹` `›`, matching home paginator (doubles reserved for jumps).
+- `2026-05-11` — **Phase B.56 shipped**: year jump-nav at top
+  of `/timeline/` — 19 pill-chips that anchor to each year's
+  section. Dropped the AI-prose subtitle.
+- `2026-05-11` — **Phase B.55 shipped**: site title is now `<h1>`
+  only on home; `<p class="site-title">` everywhere else. Every
+  page now has exactly one canonical h1.
+- `2026-05-11` — **Phase B.54 shipped**: footer external links
+  (GitHub, Jekyll credit) gain `target="_blank" rel="noopener"`.
+- `2026-05-11` — **Phase B.53 shipped**: new `/random.html` — uniform-
+  random post redirect with no-history `location.replace`. Linked
+  from footer.
+- `2026-05-11` — **Phase B.52 shipped**: smarter search-result
+  snippet truncation — only append "…" when content actually
+  exceeds 250 chars.
+- `2026-05-11` — **Phase B.51 shipped**: styled the
+  `.action-button` sort toggles on `/search.html` — previously
+  the only unstyled buttons on the site.
+- `2026-05-11` — **Phase B.50 shipped**: aria-live="polite" on
+  the Copy-link button so screen readers announce the "Copied"
+  state.
+- `2026-05-11` — **Phase B.49 shipped**: three `<link rel="me">`
+  entries in `<head>` for IndieWeb identity verification
+  (GitHub, LinkedIn, Hacker News).
+- `2026-05-11` — **Phase B.48 shipped**: fixed off-by-one in
+  reading-time calculation. New formula uses
+  `(words + 224) / 225` ceiling-division — no more
+  225-word post showing "~2 min read".
+- `2026-05-11` — **Phase B.47 shipped**: home post-list cards
+  wrapped in `<article>` instead of `<div>`.
+- `2026-05-11` — **Phase B.46 shipped**: sidebar avatar img gets
+  loading="lazy" + decoding="async" + explicit width/height.
+- `2026-05-11` — **Phase B.45 shipped**: removed obsolete
+  X-UA-Compatible (IE/Chrome Frame) + non-standard
+  `<meta name="title">` from `<head>`.
+- `2026-05-11` — **Phase B.44 shipped**: added missing
+  `lang="en"` to `<html>` — WCAG 3.1.1 requirement.
+- `2026-05-11` — **Phase B.43 shipped**: unified author name
+  across <meta name="author">, article:author, Person and
+  BlogPosting via new `site.author` config.
+- `2026-05-11` — **Phase B.42 shipped**: added
+  `enterkeyhint="search"` to all three search inputs.
+- `2026-05-11` — **Phase B.41 shipped**: `<meta name="author">`
+  was emitting GitHub handle "huntergdavis"; switched to
+  human-readable "Hunter Davis" via new site.author.
+- `2026-05-11` — **Phase B.40 shipped**: added `og:locale=en_US`
+  and `<meta name="generator">` in `<head>`.
+- `2026-05-11` — **Phase B.39 shipped**: 300+ pages using
+  `_layouts/page.html` now render a visible `<h1>` page title;
+  about/public-speaking opted-out via `hide_title: true`.
+- `2026-05-11` — **Phase B.38 shipped**: home cards' inline img
+  now has max-width: 100%; height: auto.
+- `2026-05-11` — **Phase 7.39 shipped**: added `/timeline/` to
+  the 404 nav.
+- `2026-05-11` — **Phase 7.38 shipped**: replaced dead Ustream
+  Flash embed in about/my-story with working TechCrunch URL.
+- `2026-05-11` — **Phase 7.36 shipped**: enriched BlogPosting
+  JSON-LD with wordCount, dateModified, and featured_img fallback.
+- `2026-05-11` — **Phase 7.35 shipped**: fixed `<img src="">` on
+  the page layout (300+ pages affected).
+- `2026-05-11` — **Phase 7.34 shipped**: rewrote 498 dead-IP-host
+  URLs (`66.147.244.180/~hunterda/`) across 182 posts to local
+  relative paths.
+- `2026-05-11` — **Phase 1.11 / 7.37 shipped**: lazy-load + alt
+  sweep for page-layout content.
+- `2026-05-11` — **Phase 1.5 shipped**: added `<language>` and
+  `<lastBuildDate>` to both feed.xml and feed-full.xml.
+- `2026-05-11` — **Phase 1.2b** (extension): note that 1.2 was
+  about search-corpus trimming; covered earlier.
+- `2026-05-11` — **Phase 0.18 shipped**: inline SVG favicon —
+  brand-blue rounded "H" tile, no HTTP request.
+- `2026-05-11` — **Phase 0.2 shipped**: generated default
+  `sharer.png` (1200×630 brand-blue OG share card) via
+  `script/generate_sharer_png.py`.
+- `2026-05-11` — **Phase 0.1 shipped**: generated `favicon.png`
+  (256×256) via `script/generate_favicon_png.py` as the
+  fallback for browsers without SVG favicon support.
+- `2026-05-11` — **Phase 3.18 shipped**: "A Letter To My Younger
+  Self On Becoming An Engineering Leader" (2019-11-05) added
+  to Greatest Hits leadership group. 23 total entries.
+- `2026-05-11` — **Phase 3.17 shipped**: removed AI-written
+  Greatest Hits subtitle.
 - `2026-05-11` — **Phase B.37 shipped**: `article section img`
   now has `max-width: 100%; height: auto;` so hardcoded wide
   `width="1126"` images in old posts don't overflow mobile.
