@@ -740,12 +740,24 @@ version; the v2 redesign will inherit it.*
       entries with a new `group:` value. Heading styling: small
       uppercase, bottom-border, transparent background — set
       apart from the existing dark-button link rows.
-- [ ] **B.3** Audit + prune broken sidebar entries. A.14
-      surfaced `/resume/` and `/photo-stream/` as broken (the
-      actual repos are `Hunter-Davis-impressjs-Resume` and
-      `photo-stream-static`). Sweep the rest with
-      `script/audit_legacy_urls.py` patterns and either fix the
-      target or remove the entry. **S**
+- [x] **B.3** Audit + prune broken sidebar entries. **S** ·
+      *Shipped 2026-05-11.* Cross-referenced
+      `_data/sidebar.yml` against the A.14 live-subset audit:
+      all 8 current entries (QuickGrapher, Physical Media,
+      Streak!, Visualizer, People Grid, My Solitaire Varient,
+      PsyRunner Game, AsteroidMiner) resolve LIVE. The
+      `/resume/` and `/photo-stream/` entries the original
+      ticket flagged as broken aren't in the current data
+      file — they were in the pre-B.1 hardcoded sidebar that
+      A.3's restructure already retired. Side-cleanup: swept
+      all 8 URLs from `http://www.hunterdavis.com/<repo>/` to
+      `https://hunterdavis.com/<repo>/`, going direct to the
+      canonical apex/HTTPS endpoint and cutting a four-hop
+      redirect chain (http→https, www→apex) down to a single
+      request. Trust+TLS hygiene improvement that compounds
+      with A.14's verification: every entry rendered is now
+      both verified live and points at the live endpoint
+      directly.
 - [x] **B.4** Expand top nav. **S** ·
       *Shipped 2026-05-10.* Nav went from 3 to 5 items in
       `_includes/header.html`:
@@ -2107,6 +2119,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.3 shipped**: sidebar entry audit + URL
+  cleanup. All 8 entries verified LIVE against A.14 results; no
+  pruning needed. Side-swept all URLs from `http://www.…` to
+  `https://hunterdavis.com/…`, cutting a four-hop redirect
+  chain to a single direct request.
 - `2026-05-11` — **Phase A.14 shipped**: live-subset audit of
   `_data/projects_subpaths.yml`. New
   `script/audit_subpaths.py` runs parallel HEAD checks against

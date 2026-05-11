@@ -14,26 +14,26 @@
 
 projects:
   - label: QuickGrapher
-    url: http://www.hunterdavis.com/quickgrapher/
+    url: https://hunterdavis.com/quickgrapher/
     group: Tools
   - label: Physical Media
-    url: http://www.hunterdavis.com/media/
+    url: https://hunterdavis.com/media/
     group: Tools
   - label: Streak!
-    url: http://www.hunterdavis.com/streak/
+    url: https://hunterdavis.com/streak/
     group: Tools
   - label: Visualizer
-    url: http://www.hunterdavis.com/visualizer/
+    url: https://hunterdavis.com/visualizer/
     group: Tools
   - label: People Grid
-    url: http://www.hunterdavis.com/peoplegrid/
+    url: https://hunterdavis.com/peoplegrid/
     group: Tools
   - label: My Solitaire Varient
-    url: http://www.hunterdavis.com/solitaire/
+    url: https://hunterdavis.com/solitaire/
     group: Games
   - label: PsyRunner Game
-    url: http://www.hunterdavis.com/psyrunner/
+    url: https://hunterdavis.com/psyrunner/
     group: Games
   - label: AsteroidMiner
-    url: http://www.hunterdavis.com/asteroidminer/
+    url: https://hunterdavis.com/asteroidminer/
     group: Games
