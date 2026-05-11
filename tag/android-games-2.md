@@ -4,6 +4,62 @@ title: "Tagged: android-games-2"
 permalink: /tags/android-games-2/
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Tagged: android-games-2",
+  "url": "https://www.hunterdavis.com/tags/android-games-2/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "url": "https://www.hunterdavis.com/"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": 6,
+    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://www.hunterdavis.com/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html",
+        "name": "Android App - AR Wiki (Augmented Reality Wikipedia)"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://www.hunterdavis.com/2011/08/07/the-grind-expansion-pack-2-easy-mode-is-live.html",
+        "name": "The Grind Expansion Pack 2 - Easy Mode is live!"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://www.hunterdavis.com/2011/08/01/the-grind-magic-and-post-apocalypse-pack-is-live.html",
+        "name": "The Grind - Magic and Post-Apocalypse Pack is Live!"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "url": "https://www.hunterdavis.com/2011/07/27/63-android-game-the-grind.html",
+        "name": "#63 - Android Game - The Grind"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "url": "https://www.hunterdavis.com/2011/07/19/57-android-game-skillful-surround.html",
+        "name": "#57 - Android Game - Skillful Surround"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "url": "https://www.hunterdavis.com/2011/07/18/56-android-game-skillful-lines.html",
+        "name": "#56 - Android Game - Skillful Lines"
+      }
+    ]
+  }
+}
+</script>
+
 <p class="tag-summary">6 posts tagged <code>android-games-2</code>.</p>
 
 - 2011-12-10 — [Android App - AR Wiki (Augmented Reality Wikipedia)](/2011/12/10/android-app-ar-wiki-augmented-reality-wikipedia.html)

@@ -1177,6 +1177,24 @@ populate.*
       gives Phase 2.2 (tag pages), 2.3 (tag index), and B.18
       (topic cloud) the data they need without imposing
       authored vocabulary on the user's organic tagging.
+- [x] **7.24** Add CollectionPage + ItemList JSON-LD to per-tag
+      pages. **S** · *Shipped 2026-05-11.* Updated
+      `script/generate_tag_pages.py` to emit a JSON-LD block
+      at the top of every tag page, declaring a
+      `CollectionPage` whose `mainEntity` is an `ItemList`
+      with one `ListItem` per post (`name`, `url`, `position`,
+      descending order). Mirrors the 7.21 treatment for
+      `archive/YYYY.md`. Regenerated all 84 tag pages,
+      round-trip-validated all 84 as well-formed JSON. Titles
+      are encoded through `json.dumps(ensure_ascii=False)` so
+      quote- and backslash-containing titles serialize safely.
+      Schema footprint extends: posts have BlogPosting +
+      BreadcrumbList; home has Person + WebSite; year archives,
+      `/projects/`, and now the 84 tag pages have
+      CollectionPage + ItemList. The remaining list page that
+      could get the same treatment is the `/tags/` index
+      itself — 370 items would be a large but valid emission;
+      tracked separately.
 - [x] **2.2b** Point tag-chip links at the new tag pages. **S** ·
       *Shipped 2026-05-11.* Wired up the three places that
       render tag chips so they prefer `/tags/<slug>/` over
@@ -2070,6 +2088,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.24 shipped**: CollectionPage + ItemList
+  JSON-LD baked into all 84 tag pages by
+  `generate_tag_pages.py`. Round-trip-validated as JSON
+  across all 84 outputs. Schema footprint now spans posts,
+  home, year archives, /projects/, and per-tag pages.
 - `2026-05-11` — **Phase 2.2b shipped**: tag chips on post pages,
   home post cards, and the sidebar topic-cloud now link to the
   new `/tags/<slug>/` pages instead of `/search.html?query=`.

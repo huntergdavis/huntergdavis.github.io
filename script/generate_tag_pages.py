@@ -19,6 +19,7 @@ Usage:
 """
 from __future__ import annotations
 
+import json
 import re
 import sys
 from collections import defaultdict
@@ -33,6 +34,7 @@ REPO = Path(__file__).resolve().parents[1]
 POSTS = REPO / "_posts"
 OUT = REPO / "tag"
 MIN_POSTS = 2
+SITE_URL = "https://www.hunterdavis.com"
 
 POST_RE = re.compile(
     r"^(?P<y>\d{4})-(?P<m>\d{1,2})-(?P<d>\d{1,2})-(?P<slug>.+)\.(?:md|markdown)$"
@@ -109,12 +111,37 @@ def main() -> int:
             key=lambda r: (int(r["y"]), r["m"], r["d"]),
             reverse=True,
         )
+        ld = {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": f"Tagged: {tag}",
+            "url": f"{SITE_URL}/tags/{tag}/",
+            "isPartOf": {"@type": "WebSite", "url": f"{SITE_URL}/"},
+            "mainEntity": {
+                "@type": "ItemList",
+                "numberOfItems": len(posts),
+                "itemListOrder": "https://schema.org/ItemListOrderDescending",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": idx + 1,
+                        "url": f"{SITE_URL}{r['url']}",
+                        "name": r["title"],
+                    }
+                    for idx, r in enumerate(posts)
+                ],
+            },
+        }
         lines: list[str] = [
             "---",
             "layout: page",
             f'title: "Tagged: {tag}"',
             f"permalink: /tags/{tag}/",
             "---",
+            "",
+            '<script type="application/ld+json">',
+            json.dumps(ld, indent=2, ensure_ascii=False),
+            "</script>",
             "",
             f'<p class="tag-summary">{len(posts)} '
             f'post{"s" if len(posts) != 1 else ""} tagged '
