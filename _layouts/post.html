@@ -85,7 +85,7 @@ layout: default
 {% if page.project %}
 {% capture project_html %}{% assign shown_p = 0 %}{% for p in site.posts %}{% if p.url == page.url %}{% continue %}{% endif %}{% if p.project == page.project %}<li><a href="{{ p.url }}">{{ p.title | escape }}</a></li>{% assign shown_p = shown_p | plus: 1 %}{% if shown_p >= 6 %}{% break %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
 {% if project_html contains "<li>" %}
-<aside class="same-project" aria-label="More posts in this project">
+<aside class="same-project">
 	<h3>More in this project</h3>
 	<ul>{{ project_html }}</ul>
 </aside>
@@ -93,7 +93,7 @@ layout: default
 {% endif %}
 {% assign related = site.data.related[page.url] %}
 {% if related and related.size > 0 %}
-<aside class="related-posts" aria-label="Related posts by tag">
+<aside class="related-posts">
 	<h3>Related by tag</h3>
 	<ul>{% for r in related %}<li><a href="{{ r.url }}">{{ r.title | escape }}</a></li>{% endfor %}</ul>
 </aside>
@@ -101,7 +101,7 @@ layout: default
 {% assign current_year = page.date | date: "%Y" %}
 {% capture same_year_html %}{% assign shown = 0 %}{% for p in site.posts %}{% if p.url == page.url %}{% continue %}{% endif %}{% assign py = p.date | date: "%Y" %}{% if py == current_year %}<li><a href="{{ p.url }}">{{ p.title | escape }}</a></li>{% assign shown = shown | plus: 1 %}{% if shown >= 5 %}{% break %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
 {% if same_year_html contains "<li>" %}
-<aside class="same-year" aria-label="More posts from this year">
+<aside class="same-year">
 	<h3>More from {{ current_year }}</h3>
 	<ul>{{ same_year_html }}</ul>
 </aside>
