@@ -18,7 +18,7 @@ layout: default
 			<time class="timeago postlist-meta" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
 			{% assign reading_time = content | strip_html | number_of_words | plus: 224 | divided_by: 225 %}
 			<span class="reading-time" title="Estimated reading time at 225 words/minute">~{{ reading_time }} min read</span>
-			<button type="button" class="sharer copy-link" data-url="{{ page.url | absolute_url }}" data-label-copy="Copy link" data-label-done="Copied">Copy link</button>
+			<button type="button" class="sharer copy-link" data-url="{{ page.url | absolute_url }}" data-label-copy="Copy link" data-label-done="Copied" aria-live="polite">Copy link</button>
 		</p>
 		<script>
 		(function(){
