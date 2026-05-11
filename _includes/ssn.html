@@ -14,7 +14,7 @@
 <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 {% if page.date %}
 <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
-<meta property="article:author" content="Hunter Davis" />
+<meta property="article:author" content="{{ site.author | default: 'Hunter Davis' }}" />
 {% endif %}
 {% if page.tags and page.tags.size > 0 %}{% for tag in page.tags %}
 <meta property="article:tag" content="{{ tag }}" />{% endfor %}
