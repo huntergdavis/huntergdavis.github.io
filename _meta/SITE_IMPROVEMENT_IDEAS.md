@@ -1501,6 +1501,20 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.21** Canonicalize header embed-script URLs. **S** ·
+      *Shipped 2026-05-11.* The `quickgrapher` and
+      `cardsimulator` embed scripts in `_includes/header.html`
+      pointed at `https://www.hunterdavis.com/<path>` —
+      forcing a www→apex 301 every time the two posts that
+      enable them (`2019-12-27-blast-from-my-past` for
+      QuickGrapher, `2020-08-07-simulating-solitaire` for
+      the card simulator) loaded. Six `<script src>` URLs
+      rewritten to `https://hunterdavis.com/<path>` after
+      verifying both endpoints (`/quickgrapher/js/jquery-*` and
+      `/deck-of-cards/simulators/deck.js`) return HTTP 200
+      directly with a live HEAD probe. Same canonicalization
+      pattern as B.3's sidebar URL cleanup. No behavior
+      change beyond eliminating the redirect hop.
 - [x] **B.20** RSS feed auto-discovery + MIME correction. **S** ·
       *Shipped 2026-05-11.* Added two
       `<link rel="alternate" type="application/rss+xml">`
@@ -2170,6 +2184,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.21 shipped**: canonicalized six
+  embed-script URLs in `_includes/header.html` from
+  `https://www.hunterdavis.com/<path>` to
+  `https://hunterdavis.com/<path>`. Eliminates www→apex 301
+  hop on the two posts that load QuickGrapher / card-sim
+  scripts. Both endpoint paths probed and return 200 direct.
 - `2026-05-11` — **Phase B.20 shipped**: RSS feed auto-discovery.
   Two `<link rel="alternate" type="application/rss+xml">` tags
   added inside `<head>` so browsers and feed readers
