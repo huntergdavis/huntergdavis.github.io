@@ -2671,6 +2671,54 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.77 shipped**: extracted copy-link IIFE
+  to `/js/copy-link.js` (was inlined on every post page;
+  ~500KB of duplicated bytes across the corpus).
+- `2026-05-11` — **Phase B.76 shipped**: scoped global link
+  transition from `all` to `color, background-color,
+  border-color` — narrower property-observation list.
+- `2026-05-11` — **Phase B.75 shipped**: `fetchpriority="high"`
+  on the post hero img (LCP element).
+- `2026-05-11` — **Phase B.74 shipped**: removed redundant
+  `aria-label` on the three post-page asides (heading inside
+  acts as implicit label).
+- `2026-05-11` — **Phase B.73 shipped**: Greatest Hits aside
+  switched from `aria-label` to `aria-labelledby` pointing at
+  the h2 — no double-announce.
+- `2026-05-11` — **Phase B.72 shipped**: simplified
+  `twitter:card` to always be `summary_large_image` now that
+  `/sharer.png` is a real 1200×630 image.
+- `2026-05-11` — **Phase B.71 shipped**: footer copyright shows
+  `© 2007–{current year} HunterDavis.com` via new
+  `start_year` config key.
+- `2026-05-11` — **Phase B.70 shipped**: removed dead IE<8
+  conditional-comment cruft from the layout.
+- `2026-05-11` — **Phase B.69 shipped**: cleaned trailing comma
+  in `<meta name="keywords">` via Liquid `| join: ', '`.
+- `2026-05-11` — **Phase B.68 shipped**: sidebar avatar alt
+  text now uses `site.author` ("Hunter Davis") instead of
+  generic "Avatar".
+- `2026-05-11` — **Phase B.67 shipped**: home paginator's
+  Last link drops trailing slash to match Jekyll-emitted
+  Previous/Next paths.
+- `2026-05-11` — **Phase B.66 shipped**: page-layout heading
+  order now matches post-layout (title → hero → content).
+- `2026-05-11` — **Phase B.65 shipped**: normalized `og:url`
+  trailing slash on home to match canonical.
+- `2026-05-11` — **Phase B.64 shipped**: added `<meta
+  name="application-name">` for pinned-shortcut UX.
+- `2026-05-11` — **Phase B.63 shipped**: unified LinkedIn + HN
+  URLs via new `site.links.linkedin` and
+  `site.links.hackernews` config keys.
+- `2026-05-11` — **Phase 3.19 shipped**: dropped AI-prose
+  `<noscript>` fallback from /random.html — meta-refresh
+  handles JS-disabled redirect alone.
+- `2026-05-11` — **Phase 1.5b shipped**: normalized RSS channel
+  `<link>` to use trailing slash via `absolute_url`.
+- `2026-05-11` — **Phase 7.40 shipped**: added `og:image:alt`
+  and `twitter:image:alt` for share-card accessibility.
+- `2026-05-11` — **Phase 7.38 shipped**: replaced dead Ustream
+  Flash embed (about/my-story) with working TechCrunch URL.
 - `2026-05-11` — **Phase B.62 shipped**: smooth-scroll anchor
   navigation (`html { scroll-behavior: smooth }`), honors
   prefers-reduced-motion opt-out.
