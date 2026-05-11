@@ -3,6 +3,10 @@ layout: post
 title: 'Steam Game Review #5: The Wonderful End of The World'
 image: /content/images/2013/08/2013-08-18_00007.jpg
 date: '2013-08-18 23:58:19'
+tags:
+- game
+- games
+- steam
 ---
 
 

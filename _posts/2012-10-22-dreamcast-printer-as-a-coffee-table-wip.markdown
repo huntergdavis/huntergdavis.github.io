@@ -2,6 +2,11 @@
 layout: post
 title: 'Dreamcast Printer as a Coffee Table: WIP'
 date: '2012-10-22 02:08:21'
+tags:
+- build
+- hack
+- hacks-2
+- repurposing
 ---
 
 

@@ -2,6 +2,9 @@
 layout: post
 title: Game Reviews
 date: '2013-08-05 01:37:45'
+tags:
+- game
+- games
 ---
 
 

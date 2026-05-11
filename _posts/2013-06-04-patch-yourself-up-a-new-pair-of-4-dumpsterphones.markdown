@@ -3,6 +3,13 @@ layout: post
 title: Patch Yourself Up A New Pair of 4$ DumpsterPhones
 image: /content/images/2013/06/20130603_165300.jpg
 date: '2013-06-04 01:19:35'
+tags:
+- audio
+- build
+- cheap
+- hack
+- hacks-2
+- thrift
 ---
 
 

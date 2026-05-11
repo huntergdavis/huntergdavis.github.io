@@ -3,6 +3,11 @@ layout: post
 title: The Ads Are Back
 image: /content/images/2013/04/bag_of_money.png
 date: '2013-04-29 01:24:52'
+tags:
+- ads
+- money
+- news
+- personal
 ---
 
 

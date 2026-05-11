@@ -2,6 +2,12 @@
 layout: post
 title: ASL.js American Sign Language Javascript
 date: '2012-02-15 06:33:28'
+tags:
+- github
+- html
+- javascript
+- open-source
+- programs-2
 ---
 
 

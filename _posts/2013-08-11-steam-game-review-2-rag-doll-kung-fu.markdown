@@ -3,6 +3,10 @@ layout: post
 title: 'Steam Game Review #2: Rag Doll Kung Fu'
 image: /content/images/2013/08/2013-08-10_00003.jpg
 date: '2013-08-11 18:54:54'
+tags:
+- game
+- games
+- steam
 ---
 
 

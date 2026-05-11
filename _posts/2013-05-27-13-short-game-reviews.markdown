@@ -2,6 +2,10 @@
 layout: post
 title: 13 Short Game Reviews
 date: '2013-05-27 20:56:09'
+tags:
+- game
+- games
+- personal
 ---
 
 

@@ -3,6 +3,10 @@ layout: post
 title: What I Liked about the Crackdown Series of Games (Xbox 360)
 image: /content/images/2013/08/crackdown.jpg
 date: '2013-08-25 20:33:08'
+tags:
+- game
+- games
+- xbox
 ---
 
 

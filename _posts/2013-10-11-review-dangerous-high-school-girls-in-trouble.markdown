@@ -3,6 +3,9 @@ layout: post
 title: 'Review: Dangerous High School Girls In Trouble!'
 image: /content/images/2013/10/cover.png
 date: '2013-10-11 02:36:30'
+tags:
+- game
+- games
 ---
 
 

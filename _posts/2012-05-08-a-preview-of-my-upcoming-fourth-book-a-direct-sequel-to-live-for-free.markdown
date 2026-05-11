@@ -2,6 +2,11 @@
 layout: post
 title: A Preview of My Upcoming Fourth Book, A Direct Sequel to Live For Free
 date: '2012-05-08 19:54:28'
+tags:
+- books
+- ebook
+- live-for-free
+- personal
 ---
 
 

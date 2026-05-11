@@ -3,6 +3,9 @@ layout: post
 title: Brining Peanuts
 image: /content/images/2013/06/20130629_211318.jpg
 date: '2013-06-30 05:18:51'
+tags:
+- fun
+- personal
 ---
 
 

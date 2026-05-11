@@ -2,6 +2,12 @@
 layout: post
 title: What Unlimited Storage Really Means In America - Bandwidth Limitations
 date: '2012-01-19 21:53:40'
+tags:
+- cheap
+- cloud
+- live-for-free
+- news
+- personal
 ---
 
 

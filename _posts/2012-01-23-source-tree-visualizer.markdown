@@ -4,6 +4,12 @@ title: Source Tree Visualizer - Now Open Source
 date: '2012-01-23 03:22:33'
 redirect_from:
   - /popular-open-source-projects/source-tree-visualizer/
+tags:
+- discursive-labs
+- open-source
+- programs-2
+- source-tree-visualizer
+- visualization
 ---
 
 

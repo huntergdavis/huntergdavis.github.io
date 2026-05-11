@@ -3,6 +3,9 @@ layout: post
 title: 'Indie Game Review #1: 8-Bit Commando'
 image: /content/images/2013/08/title.png
 date: '2013-08-10 01:39:06'
+tags:
+- game
+- games
 ---
 
 

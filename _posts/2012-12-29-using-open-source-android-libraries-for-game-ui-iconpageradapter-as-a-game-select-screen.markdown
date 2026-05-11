@@ -3,6 +3,12 @@ layout: post
 title: Using Open Source Android Libraries for Game UI - IconPagerAdapter as a Game
   Select Screen
 date: '2012-12-29 22:35:36'
+tags:
+- android
+- android-game
+- open-source
+- programming
+- tutorial
 ---
 
 

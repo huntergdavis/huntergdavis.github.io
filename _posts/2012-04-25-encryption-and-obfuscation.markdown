@@ -4,6 +4,12 @@ title: Encryption and Obfuscation
 date: '2012-04-25 17:17:39'
 redirect_from:
   - /android-apps/encryption-and-obfuscation/
+tags:
+- android
+- android-app
+- easy-apps
+- easy-md5
+- encryption
 ---
 
 

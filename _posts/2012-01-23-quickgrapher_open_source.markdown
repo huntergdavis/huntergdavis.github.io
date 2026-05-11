@@ -4,6 +4,13 @@ title: QuickGrapher - An Open Source HTML 5 Multi Equation Solver And Grapher
 date: '2012-01-23 04:05:24'
 redirect_from:
   - /popular-open-source-projects/quickgrapher_open_source/
+tags:
+- discursive-labs
+- html
+- javascript
+- open-source
+- programs-2
+- quickgrapher
 ---
 
 

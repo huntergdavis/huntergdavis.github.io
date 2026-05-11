@@ -5,8 +5,10 @@ date: '2012-02-28 16:52:41'
 tags:
 - debugging
 - hacks-2
+- programming
 - programs-2
 - python
+- skillful
 - tips
 - tricks
 ---

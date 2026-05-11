@@ -2,6 +2,12 @@
 layout: post
 title: 'Fun Pro-Tip: Touchscreen Classic Dos RPGs on Android'
 date: '2012-06-11 04:53:35'
+tags:
+- android
+- emulation
+- games
+- hack
+- rpgs
 ---
 
 

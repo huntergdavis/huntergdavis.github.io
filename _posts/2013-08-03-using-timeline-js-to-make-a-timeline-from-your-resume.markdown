@@ -3,6 +3,11 @@ layout: post
 title: Using Timeline.JS To Make A Timeline From Your Resume
 image: /content/images/2013/08/resumes.png
 date: '2013-08-03 04:11:55'
+tags:
+- html
+- javascript
+- open-source
+- tutorial
 ---
 
 

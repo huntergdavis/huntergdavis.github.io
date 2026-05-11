@@ -2,6 +2,12 @@
 layout: post
 title: Google is my New Cellular Carrier
 date: '2012-01-12 01:19:57'
+tags:
+- android
+- cheap
+- google
+- hack
+- live-for-free
 ---
 
 

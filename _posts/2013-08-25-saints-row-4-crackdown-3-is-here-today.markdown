@@ -3,6 +3,10 @@ layout: post
 title: 'Saints Row 4: Crackdown 3 is Here Today'
 image: /content/images/2013/08/sr4_is_cd3.png
 date: '2013-08-25 16:11:55'
+tags:
+- game
+- games
+- xbox
 ---
 
 

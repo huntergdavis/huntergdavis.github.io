@@ -2,6 +2,10 @@
 layout: post
 title: 'Only Pay Yourself: May 1st Recap'
 date: '2013-05-01 15:53:58'
+tags:
+- economics
+- money
+- personal
 ---
 
 

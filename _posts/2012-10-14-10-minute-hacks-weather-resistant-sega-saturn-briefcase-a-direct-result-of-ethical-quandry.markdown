@@ -3,6 +3,12 @@ layout: post
 title: '10 Minute Hacks: Weather Resistant Sega Saturn Briefcase a Direct Result of
   Ethical Quandry'
 date: '2012-10-14 22:55:35'
+tags:
+- build
+- games
+- hack
+- hacks-2
+- thrift
 ---
 
 

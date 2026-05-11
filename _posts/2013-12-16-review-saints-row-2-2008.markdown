@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Saints Row 2 (2008)'
 image: /content/images/2013/12/2013-12-15_00005.jpg
 date: '2013-12-16 02:14:56'
+tags:
+- game
+- games
+- steam
 ---
 
 

@@ -3,6 +3,13 @@ layout: post
 title: Fun Pro-Tip - ArmFP + Debian Unstable + X11 + Sound = Actually Usable Linux
   on Android
 date: '2012-05-21 01:50:22'
+tags:
+- android
+- arm
+- debian
+- hack
+- hacking
+- linux
 ---
 
 

@@ -4,6 +4,12 @@ title: Games
 date: '2012-04-25 16:34:56'
 redirect_from:
   - /android-apps/android-games/
+tags:
+- android
+- android-apps-2
+- android-game
+- games
+- open-source
 ---
 
 

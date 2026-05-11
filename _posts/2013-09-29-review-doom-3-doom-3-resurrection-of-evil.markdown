@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Doom 3 + Doom 3: Resurrection of Evil'
 image: /content/images/2013/09/2013-09-29_00021.jpg
 date: '2013-09-29 19:27:12'
+tags:
+- game
+- games
+- steam
 ---
 
 

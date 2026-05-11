@@ -4,6 +4,13 @@ title: 'Video: Retrode + Ouya + N64 Controller and Cartridge = Right Out of The 
   Fun'
 image: /content/images/2013/06/20130608_110801.jpg
 date: '2013-06-08 19:04:10'
+tags:
+- android
+- emulation
+- games
+- n64
+- retrode
+- video
 ---
 
 

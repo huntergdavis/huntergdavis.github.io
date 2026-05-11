@@ -2,6 +2,10 @@
 layout: post
 title: CS Nerds Are Not Just Obsessed with Cats
 date: '2013-04-27 20:52:07'
+tags:
+- fun
+- personal
+- video
 ---
 
 

@@ -3,6 +3,12 @@ layout: post
 title: A Script to Open All The Sources! (I released 70 open source projects today)
 date: '2012-04-11 22:50:55'
 featured: true
+tags:
+- android
+- android-app
+- github
+- open-source
+- programs-2
 ---
 
 

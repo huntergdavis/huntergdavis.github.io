@@ -3,6 +3,10 @@ layout: post
 title: 'Indie Game Review #6: Chime'
 image: /content/images/2013/08/2013-08-31_00006.jpg
 date: '2013-08-31 18:08:17'
+tags:
+- audio
+- game
+- games
 ---
 
 

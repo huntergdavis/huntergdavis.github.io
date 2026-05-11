@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Castlevania Lords of Shadow Ultimate Edition'
 image: /content/images/2013/12/2013-12-28_00018.jpg
 date: '2013-12-29 22:40:46'
+tags:
+- game
+- games
+- steam
 ---
 
 

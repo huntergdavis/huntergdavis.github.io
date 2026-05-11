@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Skullgirls'
 image: /content/images/2013/12/2013-12-01_00019.jpg
 date: '2013-12-01 21:15:48'
+tags:
+- game
+- games
+- steam
 ---
 
 

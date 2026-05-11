@@ -3,6 +3,11 @@ layout: post
 title: "(Review) Demon Sword  (Nintendo Entertainment System)"
 image: /content/images/2013/10/Demon-Sword-17.png
 date: '2013-10-05 23:05:36'
+tags:
+- game
+- games
+- nes
+- thrift
 ---
 
 

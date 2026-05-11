@@ -3,6 +3,11 @@ layout: post
 title: A Decades Old Tale Trapped In 20 Year Old Tech
 image: /content/images/2013/07/2013-07-15-17.56.57.jpg
 date: '2013-07-20 01:33:07'
+tags:
+- hack
+- hacks-2
+- thrift
+- vintage-computers
 ---
 
 

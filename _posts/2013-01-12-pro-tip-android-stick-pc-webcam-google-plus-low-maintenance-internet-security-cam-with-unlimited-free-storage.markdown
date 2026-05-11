@@ -3,6 +3,12 @@ layout: post
 title: 'Pro-Tip: Android Stick PC + Webcam + Google Plus = Low Maintenance Internet
   Security Cam with Unlimited Free Storage'
 date: '2013-01-12 10:55:28'
+tags:
+- android
+- cheap
+- cloud
+- hack
+- hacks-2
 ---
 
 

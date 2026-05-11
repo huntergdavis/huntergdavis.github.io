@@ -3,6 +3,11 @@ layout: post
 title: NDS Emulator DraStic Raises the Emulation Bar Very, Very High
 image: /content/images/2013/08/drastic.png
 date: '2013-08-10 18:35:02'
+tags:
+- android
+- emulation
+- games
+- tablet
 ---
 
 

@@ -3,6 +3,12 @@ layout: post
 title: 'OpenNote: Set Up Your Self-Hosted Evernote Clone In 5 Minutes'
 image: /content/images/2013/11/Screenshot-from-2013-11-19-171136.png
 date: '2013-11-20 01:31:33'
+tags:
+- cloud
+- hack
+- hacks-2
+- open-source
+- tutorial
 ---
 
 

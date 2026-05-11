@@ -3,6 +3,10 @@ layout: post
 title: 'Steam Game Review #7: Doom (1993)'
 image: /content/images/2013/09/TITLE.png
 date: '2013-09-01 16:26:38'
+tags:
+- game
+- games
+- steam
 ---
 
 

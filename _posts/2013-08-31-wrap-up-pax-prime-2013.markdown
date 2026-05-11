@@ -3,6 +3,10 @@ layout: post
 title: 'Wrap-Up: PAX Prime 2013'
 image: /content/images/2013/08/20130830_104606.jpg
 date: '2013-08-31 04:34:33'
+tags:
+- games
+- news
+- personal
 ---
 
 

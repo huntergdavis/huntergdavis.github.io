@@ -3,6 +3,10 @@ layout: post
 title: 'Steam Game Review #4 Half Life 2: Episode 2 (The Orange Box Part 1)'
 image: /content/images/2013/08/2013-08-15_00010.jpg
 date: '2013-08-16 03:33:31'
+tags:
+- game
+- games
+- steam
 ---
 
 

@@ -2,6 +2,12 @@
 layout: post
 title: 'Prototype: Retrofitting a Dreamcast into a Multi-function Printer (with Video!)'
 date: '2012-10-08 00:02:31'
+tags:
+- build
+- emulation
+- hack
+- hacks-2
+- repurposing
 ---
 
 

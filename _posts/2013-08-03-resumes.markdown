@@ -2,6 +2,10 @@
 layout: post
 title: Resumes
 date: '2013-08-03 04:00:26'
+tags:
+- android-app
+- javascript
+- personal
 ---
 
 

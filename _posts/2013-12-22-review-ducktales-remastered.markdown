@@ -3,6 +3,11 @@ layout: post
 title: 'Review: DuckTales Remastered'
 image: /content/images/2013/12/2013-12-22_00009.jpg
 date: '2013-12-22 22:59:55'
+tags:
+- game
+- games
+- nes
+- steam
 ---
 
 

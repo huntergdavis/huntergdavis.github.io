@@ -3,6 +3,13 @@ layout: post
 title: Adding Sound to Your Android Apps and Games (Part 2 of the 2012 Android Apps
   Refresh)
 date: '2012-11-26 02:04:24'
+tags:
+- android
+- android-app
+- android-game
+- audio
+- open-source
+- programming
 ---
 
 

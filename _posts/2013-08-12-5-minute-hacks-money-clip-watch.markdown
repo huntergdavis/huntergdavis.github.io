@@ -3,6 +3,11 @@ layout: post
 title: '5 Minute Hacks: Money Clip Watch'
 image: /content/images/2013/08/2013-08-11-18.46.31.jpg
 date: '2013-08-12 04:36:45'
+tags:
+- build
+- cheap
+- hack
+- hacks-2
 ---
 
 

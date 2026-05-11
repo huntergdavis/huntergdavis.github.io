@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Street Fighter X Mega Man'
 image: /content/images/2013/09/title2.png
 date: '2013-09-28 01:55:12'
+tags:
+- game
+- games
+- nes
 ---
 
 

@@ -2,6 +2,9 @@
 layout: post
 title: Ooof!  This is Why You Wear Gloves While Longboarding
 date: '2013-06-05 00:04:43'
+tags:
+- body-hacks
+- personal
 ---
 
 

@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Volgarr the Viking'
 image: /content/images/2013/09/2013-09-21_00001.jpg
 date: '2013-09-21 18:39:43'
+tags:
+- game
+- games
+- steam
 ---
 
 

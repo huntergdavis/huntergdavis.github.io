@@ -3,6 +3,11 @@ layout: post
 title: 'Steam Game Review #6: Audiosurf'
 image: /content/images/2013/08/2013-08-25_00014.jpg
 date: '2013-08-26 02:07:54'
+tags:
+- audio
+- game
+- games
+- steam
 ---
 
 

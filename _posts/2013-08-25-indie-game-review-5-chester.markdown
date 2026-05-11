@@ -3,6 +3,9 @@ layout: post
 title: 'Indie Game Review #5: Chester'
 image: /content/images/2013/08/dead.png
 date: '2013-08-25 03:09:46'
+tags:
+- game
+- games
 ---
 
 

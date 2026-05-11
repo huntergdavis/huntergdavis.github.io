@@ -3,6 +3,14 @@ layout: post
 title: 'Guide + Video: Make Your Own NFC Watch from Spare Parts'
 image: /content/images/2013/08/2013-08-31-17.12.48.jpg
 date: '2013-09-01 00:21:57'
+tags:
+- android
+- build
+- cheap
+- hack
+- hacks-2
+- tutorial
+- video
 ---
 
 

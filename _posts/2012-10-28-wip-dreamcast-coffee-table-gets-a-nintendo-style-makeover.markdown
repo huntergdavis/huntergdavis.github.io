@@ -2,6 +2,12 @@
 layout: post
 title: WIP Dreamcast Coffee Table Gets a Nintendo Style Makeover
 date: '2012-10-28 23:12:41'
+tags:
+- build
+- hack
+- hacks-2
+- nintendo
+- repurposing
 ---
 
 

@@ -3,6 +3,9 @@ layout: post
 title: 'Indie Game Review #4: Bunny Must Die'
 image: /content/images/2013/08/thermomewclearpower.png
 date: '2013-08-18 17:09:55'
+tags:
+- game
+- games
 ---
 
 

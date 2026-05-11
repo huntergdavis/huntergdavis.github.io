@@ -3,6 +3,10 @@ layout: post
 title: 'Review: Valdis Story Abyssal City'
 image: /content/images/2013/09/tough.png
 date: '2013-09-29 03:07:44'
+tags:
+- game
+- games
+- steam
 ---
 
 
