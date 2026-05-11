@@ -1501,6 +1501,30 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **3.14** Curate `featured: true` to posts with verified
+      third-party backlinks. **M** · *Shipped 2026-05-11.*
+      Previous `featured: true` flags were accidental tagging
+      from years past — included `2017-04-13-my-story` (a
+      bio page, not a project post), `2024-11-06-announcing-tui000`
+      and `2026-03-21-announcing-dunking-bird` (recent
+      announcements with no third-party coverage yet), and
+      `2008-12-12-zipit-z2-tor-and-privoxy-router` (an
+      otherwise-quiet early-Z2 post). Replaced them with four
+      posts that the Appendix A research dossier confirms
+      had real internet activity:
+      `2009-08-22-huge-update-fluxbox-z2` ("With Zipit, Who
+      Needs A Netbook?" — Hackaday + Engadget + Make),
+      `2009-08-26-nes-emulator-zipit` (Hackaday),
+      `2012-03-14-webgl-html5-audio-web-strobe-tuner`
+      (HN front-page), `2014-04-22-nda-lifted-fan-tv-rhapsody`
+      (Engadget + Fast Company + TIME). Final 12-post
+      Featured list now reads as a verifiable greatest-hits
+      reel: every post has at least one Hackaday / Engadget /
+      Make / HN / TechCrunch / Fast Company / TIME / Napster /
+      SlashGear citation logged in `Appendix A — Greatest
+      hits / milestones`. Source-of-truth check: `grep -l
+      '^featured: true' _posts/*.markdown` returns exactly
+      those 12.
 - [x] **B.34** Fix invalid `<h6>`-inside-`<p>` on home cards. **S** ·
       *Shipped 2026-05-11.* Home post-list cards had a long-
       standing HTML validation bug: each card's
@@ -2617,6 +2641,13 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 3.14 shipped**: rebalanced `featured: true`
+  flags. Removed from 4 posts that lacked third-party coverage
+  (my-story bio page, two recent announcements with no
+  backlinks yet, an early Z2 post that didn't get press) and
+  added to 4 posts with verified Hackaday/Engadget/Make/TIME/
+  Fast Company/HN coverage. The 12-post Featured list is now
+  a verifiable greatest-hits reel sourced from Appendix A.
 - `2026-05-11` — **Phase B.34 shipped**: home post-list cards had
   invalid `<h6>` nested inside `<p>` with unclosed tags.
   Replaced with valid `<p class="read-more"><a>Read more →</a></p>`

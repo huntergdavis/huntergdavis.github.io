@@ -2,6 +2,7 @@
 layout: post
 title: webGL + HTML5 Audio  = Web Strobe Tuner
 date: '2012-03-14 22:38:25'
+featured: true
 ---
 
 

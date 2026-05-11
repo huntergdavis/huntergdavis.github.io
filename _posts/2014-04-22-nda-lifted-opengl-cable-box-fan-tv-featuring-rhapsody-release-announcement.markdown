@@ -3,6 +3,7 @@ layout: post
 title: NDA Lifted!  (OpenGL Cable Box Fan.TV Featuring Rhapsody Release Announcement!)
 image: /content/images/2014/04/Rhapsody-Fan-TV.jpg
 date: '2014-04-22 23:23:36'
+featured: true
 ---
 
 

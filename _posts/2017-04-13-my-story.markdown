@@ -1,7 +1,6 @@
 ---
 layout: post
 title: My Story
-featured: true
 image: "/content/images/2018/05/IMG_20180417_141421.jpg"
 date: '2017-04-13 18:14:58'
 tags:
