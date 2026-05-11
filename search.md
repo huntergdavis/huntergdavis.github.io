@@ -2,6 +2,20 @@
 layout: page
 title: Search Results
 ---
+<form class="search-page-form" action="/search.html" method="get" role="search">
+  <label for="search-page-input" class="visually-hidden">Search</label>
+  <input type="search" id="search-page-input" name="query" placeholder="Search…" autocomplete="off" autofocus>
+  <button type="submit">Search</button>
+</form>
+<script>
+  (function(){
+    var params = new URLSearchParams(location.search);
+    var q = params.get('query');
+    var input = document.getElementById('search-page-input');
+    if (input && q) { input.value = q; input.select(); }
+  })();
+</script>
+
 <!-- List where search results will be rendered -->
 <button id="sort-by-date-button" class="action-button">Sort by date</button>
 <button id="sort-by-relevance-button" class="action-button">Sort by Relevance</button>

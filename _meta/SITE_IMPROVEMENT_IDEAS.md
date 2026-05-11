@@ -1501,6 +1501,26 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.22** Self-sufficient search form on `/search.html`.
+      **S** · *Shipped 2026-05-11.* The search results page
+      previously had two sort buttons and an empty results
+      list — but no input field. The only way to search from
+      that page was to either land there with a `?query=…`
+      URL parameter already set (typical: arriving via the
+      header search box) or use the global header form.
+      Added a real `<form class="search-page-form"
+      action="/search.html" method="get">` with a
+      `<input type="search" name="query" autofocus>` and
+      submit button at the top of `search.md`, plus a tiny
+      inline `URLSearchParams` script that pre-fills the
+      input with the current query and selects the text for
+      quick edit-and-resubmit. Shares CSS with
+      `.not-found-search` (extended the existing rule). JS-
+      disabled visitors keep a working HTML form; the
+      pre-fill is just progressive enhancement. The page
+      now stands on its own as a search destination instead
+      of acting as a downstream consumer of other pages'
+      forms.
 - [x] **B.21** Canonicalize header embed-script URLs. **S** ·
       *Shipped 2026-05-11.* The `quickgrapher` and
       `cardsimulator` embed scripts in `_includes/header.html`
@@ -2184,6 +2204,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.22 shipped**: self-sufficient search
+  form on `/search.html`. Added a real `<form>` with autofocused
+  search input plus URLSearchParams pre-fill. The page now stands
+  alone instead of relying on upstream forms to populate `?query=`.
+  CSS shared with `.not-found-search`.
 - `2026-05-11` — **Phase B.21 shipped**: canonicalized six
   embed-script URLs in `_includes/header.html` from
   `https://www.hunterdavis.com/<path>` to
