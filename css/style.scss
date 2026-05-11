@@ -86,9 +86,19 @@ a{
 	transition: .2s ease-in all;
 }
 .site-title{
-	margin: 0;
-	font-size: 4em;
+	margin: 0.25em 0 0;
+	font-size: 2.5em;
 	text-align: center;
+	letter-spacing: -0.01em;
+
+	a{
+		color: #222;
+		text-decoration: none;
+
+		&:hover, &:focus{
+			color: #0B5485;
+		}
+	}
 }
 
 @media screen and (min-width: 569px) {

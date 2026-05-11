@@ -1501,6 +1501,28 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.30** Sidebar reorder + cleaner site title. **S** ·
+      *Shipped 2026-05-11.* User flagged: Contact Me and RSS
+      visually fell under the "Games" group heading because
+      they sat last in the `<ul>`; a redundant `<form>` was
+      glued at the bottom (the global header already provides
+      search); and the 4em site title felt outsized. Three
+      changes:
+      (1) Sidebar links reordered so the "connect with me"
+      block — GitHub, Contact Me, RSS — sits up top right
+      after the avatar, with the project groups (Tools, Games)
+      following. Matches the user's "items 2 and 3" intent.
+      (2) Removed the broken `<li>`-wrapped `<form class="side-search-form">`
+      at the bottom of the sidebar entirely — the header's
+      `.header-search` is the single canonical search surface
+      now. Also added `rel="noopener"` to every external
+      `target="_blank"` link in the sidebar, a tab-nabbing
+      mitigation that costs nothing.
+      (3) `.site-title` reduced from `font-size: 4em` to
+      `2.5em`, with a subtle letter-spacing tightening and a
+      proper anchor-color rule (`#222`, hover `#0B5485`).
+      Previously the bare `<a>` inherited the default
+      browser-blue.
 - [x] **7.30** Sweep markdown-link URLs to HTTPS for known
       HTTPS-only domains. **S** · *Shipped 2026-05-11.* Many
       old posts linked to external sites via `http://` because
@@ -2474,6 +2496,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.30 shipped**: sidebar Contact Me + RSS
+  moved up to positions 2 and 3 right after GitHub; redundant
+  broken `<form class="side-search-form">` removed; external
+  links gained `rel="noopener"`; `.site-title` reduced from
+  4em to 2.5em with proper anchor styling.
 - `2026-05-11` — **Phase 7.30 shipped**: swept 38 markdown-link
   URLs across 27 posts from `http://` to `https://` for domains
   that have been HTTPS-only for years (wikipedia, github,

@@ -11,29 +11,25 @@
 		</p>
 		<ul class="links">
 			{% if site.links.github %}
-				<li><a href="https://github.com/{{ site.links.github }}" target="_blank">Github</a></li>
-			{% endif %}
-			{% assign groups = site.data.sidebar.projects | group_by: "group" %}
-			{% for g in groups %}
-				<li class="group-heading">{{ g.name }}</li>
-				{% for project in g.items %}
-					<li><a href="{{ project.url }}" target="_blank">{{ project.label }}</a></li>
-				{% endfor %}
-			{% endfor %}
-			{% if site.links.twitter %}
-				<li><a href="https://twitter.com/{{ site.links.twitter }}" target="_blank">Twitter</a></li>
-			{% endif %}
-			{% if site.links.facebook %}
-				<li><a href="https://www.facebook.com/{{ site.links.facebook }}" target="_blank">Facebook</a></li>
+				<li><a href="https://github.com/{{ site.links.github }}" target="_blank" rel="noopener">Github</a></li>
 			{% endif %}
 			{% if site.links.email %}
 				<li><a href="mailto:{{ site.links.email }}">Contact Me</a></li>
 			{% endif %}
 			<li><a href='/feed.xml' rel='alternate' type='application/rss+xml'>RSS</a></li>
-			<li>			<form class="side-search-form" action="/search.html" method="get">
-				<input type="text" id="search-box" name="query">
-				<input type="submit" value="search">
-			  </form></li>
+			{% if site.links.twitter %}
+				<li><a href="https://twitter.com/{{ site.links.twitter }}" target="_blank" rel="noopener">Twitter</a></li>
+			{% endif %}
+			{% if site.links.facebook %}
+				<li><a href="https://www.facebook.com/{{ site.links.facebook }}" target="_blank" rel="noopener">Facebook</a></li>
+			{% endif %}
+			{% assign groups = site.data.sidebar.projects | group_by: "group" %}
+			{% for g in groups %}
+				<li class="group-heading">{{ g.name }}</li>
+				{% for project in g.items %}
+					<li><a href="{{ project.url }}" target="_blank" rel="noopener">{{ project.label }}</a></li>
+				{% endfor %}
+			{% endfor %}
 		</ul>
 
 	</div>
