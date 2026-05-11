@@ -51,10 +51,9 @@ lastmod: 2014-07-07T16:57:30+05:30
 			</div>
 		{% endif %}
 	</div>
-	<p class="description">{{ post.excerpt | strip_html}}
-		<h6><a href="{{ post.url }}">Read More...</h6>
-	</p>
-	
+	<p class="description">{{ post.excerpt | strip_html }}</p>
+	<p class="read-more"><a href="{{ post.url }}">Read more →</a></p>
+
 </div>
 {% endfor %}
 <nav class="unit whole paginator" aria-label="Pagination">

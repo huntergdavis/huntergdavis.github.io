@@ -396,6 +396,21 @@ nav ul {
 		font-size: .9em;
 		border-top: 1px solid #ccc;
 	}
+	.read-more{
+		margin: 0.5em 0 0;
+		font-size: 0.9em;
+		font-weight: 600;
+
+		a{
+			color: #0B5485;
+			text-decoration: none;
+
+			&:hover, &:focus{
+				color: #149797;
+				text-decoration: underline;
+			}
+		}
+	}
 	
 	table {
 	  margin: 10px 0px;

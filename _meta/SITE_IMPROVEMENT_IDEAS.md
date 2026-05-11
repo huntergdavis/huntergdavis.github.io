@@ -1501,6 +1501,25 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.34** Fix invalid `<h6>`-inside-`<p>` on home cards. **S** ·
+      *Shipped 2026-05-11.* Home post-list cards had a long-
+      standing HTML validation bug: each card's
+      `<p class="description">` tried to wrap an
+      `<h6><a href=…>Read More...</a></h6>` inside it, with no
+      closing tags on the `<h6>` or `<a>`. Phrasing-content
+      rules say a `<p>` cannot contain block-level
+      `<h6>` — the browser auto-closed the `<p>` and patched
+      the unclosed tags. Worked visually, but invalid markup
+      that broke automated validators and made it hard to
+      target with CSS. Replaced with valid markup: the
+      description is now its own `<p>`, and the call-to-action
+      is a separate `<p class="read-more"><a>Read more →</a></p>`.
+      New `.read-more` CSS rule: 0.9em, semibold, brand-blue
+      link (`#0B5485`) with `#149797` hover and underline,
+      decorative `→` arrow. Pairs with the existing card
+      shadow-on-hover affordance to make the click target
+      obvious. Also drops the WordPress-era "Read More..."
+      ellipsis convention in favor of the cleaner "Read more →".
 - [x] **B.33** Blockquote + `<hr>` styling. **S** ·
       *Shipped 2026-05-11.* Two long-neglected typographic
       elements got proper rules. 58 blockquote usages across
@@ -2598,6 +2617,10 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.34 shipped**: home post-list cards had
+  invalid `<h6>` nested inside `<p>` with unclosed tags.
+  Replaced with valid `<p class="read-more"><a>Read more →</a></p>`
+  plus a small CSS rule (brand-blue link, hover state).
 - `2026-05-11` — **Phase B.33 shipped**: blockquote + `<hr>`
   styling. 58 blockquote usages now render with a 4px brand-
   blue left border, light gray bg, and tightened paragraph
