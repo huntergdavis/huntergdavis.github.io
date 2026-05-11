@@ -998,13 +998,18 @@ URL preservation work moved to Phase A above.*
       defer the rest with `media="print" onload`. **M**
 - [ ] **1.9** Add a build-time HTML minifier (jekyll-compress-html
       layout include or `jekyll-minifier`). **S**
-- [ ] **1.10** Add `position: sticky` to the site header so the
+- [x] **1.10** Add `position: sticky` to the site header so the
       nav + search input stay accessible during long scrolls.
-      Pure CSS, no JS. The `js/headroom.min.js` deletion in 1.6
-      means there's no existing scroll-behavior to coordinate
-      with. Just `position: sticky; top: 0; z-index: 50;` on
-      `header` plus a small box-shadow on scroll for visual
-      separation from content. **S**
+      **S** · *Shipped 2026-05-10.* Added
+      `class="site-header"` to the `<header>` in
+      `_includes/header.html` and a small `.site-header { …
+      position: sticky; top: 0; z-index: 50; background: #eee;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05); }` block in
+      `style.scss`, wrapped in `@media (min-width: 569px)` so
+      the existing mobile fixed-popover nav behaviour is
+      untouched. Desktop readers now keep the site title +
+      nav + search input visible while scrolling through long
+      posts.
 
 ### Phase 2 — Information architecture scaffolding
 *Goal: surfaces exist (even if empty), so subsequent commits can
@@ -1847,3 +1852,10 @@ any public-facing milestone copy until a source is added.
   (orphaned, referenced by nothing). The `position: sticky`
   header rewrite originally described by 1.6 is a fresh
   feature now, not a replacement — tracked as new 1.10.
+- `2026-05-10` — **Phase 1.10 shipped**: sticky header on
+  desktop. `_includes/header.html` gains `class="site-header"`,
+  `style.scss` gains a small `@media (min-width: 569px)`
+  block that pins the header to the top with a subtle drop
+  shadow. Mobile keeps its existing fixed-popover nav.
+  Search input and site title now stay one keystroke / one
+  click away no matter how far you scroll.
