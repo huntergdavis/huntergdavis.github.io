@@ -2,6 +2,15 @@
 layout: post
 title: Book Prices Rise at Midnight!
 date: '2011-07-20 16:50:49'
+tags:
+- amazon
+- barnes-and-nobles
+- book
+- books
+- ebook
+- ebooks-2
+- prices
+- sales
 ---
 
 

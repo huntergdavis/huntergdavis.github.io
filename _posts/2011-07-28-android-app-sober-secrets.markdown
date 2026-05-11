@@ -2,6 +2,15 @@
 layout: post
 title: Sober Secrets
 date: '2011-07-28 09:22:01'
+tags:
+- android
+- android-app
+- android-apps-2
+- android-market
+- app-tag
+- hidden-notepad
+- secrets
+- sober
 redirect_from:
   - /android-app-sober-secrets
   - /android-apps/encryption-and-obfuscation/android-app-sober-secrets/

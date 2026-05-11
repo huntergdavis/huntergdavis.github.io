@@ -2,6 +2,15 @@
 layout: post
 title: Pro Tip - Add your Wii Games To Your Steam List
 date: '2011-12-18 09:26:03'
+tags:
+- emulation
+- gaming
+- hacking
+- steam
+- tips
+- tricks
+- wii
+- windows
 ---
 
 

@@ -2,6 +2,16 @@
 layout: post
 title: Easy Bat Whistle
 date: '2011-07-11 17:02:08'
+tags:
+- android
+- android-app
+- android-apps-2
+- app-tag
+- bat
+- easy
+- easy-whistle
+- whistle
+- whistles
 redirect_from:
   - /android-app-easy-bat-whistle
   - /android-apps/android-app-super-whistle/android-app-easy-bat-whistle/

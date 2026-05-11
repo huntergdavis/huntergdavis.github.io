@@ -2,6 +2,18 @@
 layout: post
 title: Using the Dockstar as a full Home Theater Replacement - Part 1
 date: '2011-08-09 22:12:54'
+tags:
+- arm
+- audio
+- debian
+- dockstar
+- embedded
+- hacking
+- linux
+- network
+- repurposing
+- tutorial
+- vnc
 project: dockstar
 ---
 

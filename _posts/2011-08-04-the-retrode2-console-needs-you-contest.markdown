@@ -2,6 +2,17 @@
 layout: post
 title: The Retrode2 Console Needs You!  Contest!
 date: '2011-08-04 12:38:21'
+tags:
+- arm
+- dockstar
+- emulation
+- give-away
+- hacking
+- porting
+- retro-gaming
+- retrode
+- snes
+- zipit
 ---
 
 

@@ -2,6 +2,14 @@
 layout: post
 title: Custom Onslaught
 date: '2011-07-22 16:21:54'
+tags:
+- android
+- android-game
+- android-games-2
+- android-market
+- custom
+- game
+- games
 redirect_from:
   - /android-apps/android-games/android-game-custom-onslaught/
   - /android-game-custom-onslaught

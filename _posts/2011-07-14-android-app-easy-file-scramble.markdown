@@ -2,6 +2,14 @@
 layout: post
 title: Easy File Scramble
 date: '2011-07-14 13:59:50'
+tags:
+- android
+- android-app
+- android-apps-2
+- app-tag
+- easy
+- easy-file-scramble
+- encryption
 redirect_from:
   - /android-app-easy-file-scramble
   - /android-apps/encryption-and-obfuscation/android-app-easy-file-scramble/

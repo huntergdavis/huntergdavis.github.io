@@ -2,6 +2,15 @@
 layout: post
 title: Easy Ferret And ChinChilla Whistle
 date: '2011-07-05 10:26:26'
+tags:
+- android
+- android-app
+- android-apps-2
+- app-tag
+- easy
+- easy-whistle
+- whistle
+- whistles
 redirect_from:
   - /android-app-easy-ferret-and-chinchilla-whistle
   - /android-apps/android-app-super-whistle/android-app-easy-ferret-and-chinchilla-whistle/

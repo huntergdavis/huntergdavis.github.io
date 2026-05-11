@@ -2,6 +2,16 @@
 layout: post
 title: Skillful Dodge
 date: '2011-07-26 09:49:48'
+tags:
+- android
+- android-game
+- android-games-2
+- android-market
+- game
+- games
+- skillful
+- skillful-dodge
+- skillful-games
 redirect_from:
   - /android-apps/android-games/android-game-skillful-dodge/
   - /android-game-skillful-dodge

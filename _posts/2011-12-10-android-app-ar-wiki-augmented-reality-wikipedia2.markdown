@@ -2,6 +2,16 @@
 layout: post
 title: AR Wiki (Augmented Reality Wikipedia)
 date: '2011-12-10 12:51:09'
+tags:
+- android
+- android-app
+- android-apps-2
+- android-market
+- app-tag
+- apps-tag
+- wiki
+- wikipedia
+- wikis
 ---
 
 

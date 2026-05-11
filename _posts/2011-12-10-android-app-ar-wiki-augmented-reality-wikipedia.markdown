@@ -7,6 +7,12 @@ tags:
 - android-apps-2
 - android-games-2
 - apps-tag
+- android-app
+- android-market
+- app-tag
+- wiki
+- wikipedia
+- wikis
 redirect_from:
   - /android-app-ar-wiki-augmented-reality-wikipedia
   - /android-apps/utilities-and-lifestyle-apps/android-app-ar-wiki-augmented-reality-wikipedia/

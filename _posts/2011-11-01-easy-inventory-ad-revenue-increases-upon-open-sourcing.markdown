@@ -2,6 +2,14 @@
 layout: post
 title: Easy Inventory Ad Revenue Increases Upon Open Sourcing?
 date: '2011-11-01 09:59:21'
+tags:
+- ads
+- android
+- android-app
+- android-apps-2
+- easy-inventory
+- open-source
+- sourceforge
 ---
 
 

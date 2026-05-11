@@ -2,6 +2,14 @@
 layout: post
 title: New Video - Time Lapse of Android Game Development
 date: '2011-07-19 16:51:58'
+tags:
+- android
+- android-game
+- programming
+- skillful-surround
+- the-grind
+- tutorial
+- video
 ---
 
 

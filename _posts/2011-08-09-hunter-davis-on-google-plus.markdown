@@ -2,6 +2,14 @@
 layout: post
 title: add Hunter Davis on Google+
 date: '2011-08-09 10:24:52'
+tags:
+- followers
+- google
+- google-plus
+- hunter-davis
+- personal
+- subscribers
+- twitter
 redirect_from:
   - /about/hunter-davis-on-google-plus/
 ---
