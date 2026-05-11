@@ -2287,3 +2287,15 @@ any public-facing milestone copy until a source is added.
   pre-existing absolute `http://www.hunterdavis.com/feed.xml`
   RSS link in the same sidebar (which 7.11's post-body sweep
   didn't reach because it's in an include) was made relative.
+- `2026-05-10` — **B.13 extension**: tagged the IM-ME saga
+  with `project: im-me`. **2 posts** — the 2009-11-15
+  "Hacking the GirlTech IM-ME USB Wireless Device" flagship
+  (Hackaday-covered, "Pink Wireless Terminal of Wonder")
+  and the 2010-02-01 IM-ME Linux Drivers beta-release
+  follow-up. `_data/projects.yml` extended with `im-me:
+  IM-ME` display mapping; `/projects/` now lists 4
+  projects, the post-page aside fires on both IM-ME posts
+  with the other one as its single sibling. The 6 other
+  posts that mention "IM-ME" — Hackaway-prize threads,
+  Dockstar parenthetical, My Story — deliberately not
+  tagged.
