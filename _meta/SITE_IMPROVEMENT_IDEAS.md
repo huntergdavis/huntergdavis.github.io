@@ -1501,6 +1501,26 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **7.29** Fix two broken Google Docs viewer iframes. **S** ·
+      *Shipped 2026-05-11.* `2012-12-30-a-quarter-of-a-million-downloads-…`
+      and `2012-05-08-a-preview-of-my-upcoming-fourth-book-…`
+      each embedded a Google Docs viewer iframe to render an
+      inline preview of a published file. Both iframes pointed
+      at the old WordPress URL pattern
+      `http%3A%2F%2Fwww.hunterdavis.com%2Fwp-content%2Fuploads%2F<year>%2F<file>`
+      which doesn't exist on the Jekyll site — Google's viewer
+      service was 404ing the asset and showing a "couldn't load"
+      panel for years. Updated both iframe `src=`s to encode
+      the current canonical URL
+      (`https%3A%2F%2Fhunterdavis.com%2Fcontent%2Fimages%2F<year>%2F<file>`)
+      and flipped the iframe URL itself from
+      protocol-relative `//docs.google.com/viewer` to explicit
+      `https://docs.google.com/viewer`. Both asset paths
+      verified HTTP 200 on the live site before rewrite.
+      Inline previews for the 2012 download-stats spreadsheet
+      and the 4th-book preview PDF now render again. The
+      `[Download (…)]` fallback link next to each iframe was
+      already pointing at the correct path — unchanged.
 - [x] **7.28** Repair broken Amazon affiliate iframes in
       `2013-05-27-13-short-game-reviews`. **S** ·
       *Shipped 2026-05-11.* 12 of the 13 review entries had
@@ -2437,6 +2457,13 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase 7.29 shipped**: fixed two Google Docs
+  viewer iframes that referenced dead WP-era
+  `wp-content/uploads/` URLs. Re-pointed at the canonical
+  `content/images/` paths (verified 200) and flipped
+  protocol-relative `//docs.google.com` to explicit `https://`.
+  Inline previews of the 2012 download spreadsheet and the
+  4th-book PDF render again.
 - `2026-05-11` — **Phase 7.28 shipped**: replaced 12 broken Amazon
   affiliate iframes in `13-short-game-reviews` (`http://rcm.amazon.com`
   blocked as mixed content + retired service) with clean text

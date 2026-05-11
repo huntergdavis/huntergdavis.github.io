@@ -29,6 +29,6 @@ As you can see, as an Android developer, I still get significantly more financia
 
 There’s also something incredibly satisfying about sharing software with people, especially when it is [open sourced](https://github.com/huntergdavis).
 
-<iframe class="gde-frame" scrolling="no" src="//docs.google.com/viewer?url=http%3A%2F%2Fwww.hunterdavis.com%2Fwp-content%2Fuploads%2F2012%2F12%2Fapptotals..xls&hl=en_US&embedded=true" style="width:100%; height:500px; border: none;"></iframe>[Download (XLS, 6KB)](/content/images/2012/12/apptotals..xls)
+<iframe class="gde-frame" scrolling="no" src="https://docs.google.com/viewer?url=https%3A%2F%2Fhunterdavis.com%2Fcontent%2Fimages%2F2012%2F12%2Fapptotals..xls&hl=en_US&embedded=true" style="width:100%; height:500px; border: none;"></iframe>[Download (XLS, 6KB)](/content/images/2012/12/apptotals..xls)
 
 

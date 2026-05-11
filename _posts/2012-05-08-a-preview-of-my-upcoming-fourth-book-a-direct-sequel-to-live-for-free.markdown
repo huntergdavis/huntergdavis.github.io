@@ -11,6 +11,6 @@ What makes this book different from my last two is that it isn’t a collection 
 
 > Flash back to the beginning of December, 2011. The year has been a whirlwind. My first start-up failed. My second and third book were released. I became an Android developer. I released more Android apps in less time than anyone, ever. I joined a Google Ventures funded music start-up as their Android lead. I found out the truth about the Android platform (it’s not there yet), and about working at start-ups (it’s the VC that gets the best deal). And I just found out my significant other wants to move across the country. How I got here, that’s fairly common knowledge. How I’ll get where I’m going now? That’s another story.
 
-<iframe class="gde-frame" scrolling="no" src="//docs.google.com/viewer?url=http%3A%2F%2Fwww.hunterdavis.com%2Fwp-content%2Fuploads%2F2012%2F05%2F4thBookPreview.pdf&hl=en_US&embedded=true" style="width:100%; height:500px; border: none;"></iframe>[Download (PDF, Unknown)](/content/images/2012/05/4thBookPreview.pdf)
+<iframe class="gde-frame" scrolling="no" src="https://docs.google.com/viewer?url=https%3A%2F%2Fhunterdavis.com%2Fcontent%2Fimages%2F2012%2F05%2F4thBookPreview.pdf&hl=en_US&embedded=true" style="width:100%; height:500px; border: none;"></iframe>[Download (PDF, Unknown)](/content/images/2012/05/4thBookPreview.pdf)
 
 
