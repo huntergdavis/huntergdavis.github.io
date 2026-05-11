@@ -1501,6 +1501,24 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.35** New `/timeline/` page — every post in one
+      grid-of-cards view. **M** · *Shipped 2026-05-11.* User
+      asked for a single page that shows every article grouped
+      by year, with thumbnails, that auto-updates when posts
+      are added. New `timeline.md` is pure Liquid — iterates
+      `site.posts | group_by_exp` per year, emits a section
+      per year. Each year's heading links to its real per-year
+      archive page (`/archive/YYYY/`) and shows the post count.
+      Cards are CSS-grid (`auto-fill, minmax(200px, 1fr)`)
+      with brand-blue hover lift, thumbnail (lazy-loaded, 120px
+      tall, `object-fit: cover`) when the post has a hero
+      image, plus date and title. Cards without a hero image
+      tighten their padding so the gridwall stays even. All
+      507 posts on a single page; thumbnails are lazy so only
+      visible cards fetch network. No script regen needed —
+      adding a post + push rebuilds the timeline automatically.
+      Linked from the footer (between Archive and Tags) and
+      from `/sitemap.html`.
 - [x] **3.14** Curate `featured: true` to posts with verified
       third-party backlinks. **M** · *Shipped 2026-05-11.*
       Previous `featured: true` flags were accidental tagging
@@ -2641,6 +2659,10 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.35 shipped**: new `/timeline/` page —
+  every post in a grid-of-cards view grouped by year, with
+  lazy-loaded thumbnails. Pure Liquid; auto-updates when posts
+  are added. Linked from footer + sitemap.
 - `2026-05-11` — **Phase 3.14 shipped**: rebalanced `featured: true`
   flags. Removed from 4 posts that lacked third-party coverage
   (my-story bio page, two recent announcements with no
