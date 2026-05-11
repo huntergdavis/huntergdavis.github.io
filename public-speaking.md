@@ -21,7 +21,7 @@ tags:
 + [Engineering and Business Leadership](#leadership)
 
 
-<a id='apprenticeship'>Apprenticeship and Mentoring</a>
+## Apprenticeship and Mentoring {#apprenticeship}
 <br>
 
 1/15/2019 - I was interviewed/quoted for a Reuters <a href="https://www.reuters.com/article/us-world-work-apprenti/living-the-tech-dream-thanks-to-a-novel-apprenticeship-program-idUSKCN1P91CY">article</a> on apprenticeship. 
@@ -49,16 +49,16 @@ tags:
 
 <img src="http://www.hunterdavis.com/content/images/2019/apprenti_tecna17.jpg" height="300">
 
-<a id='military'>Military Outreach</a>
+## Military Outreach {#military}
 <br>
 I have a long personal history working with military personnel, and related public speaking appearances.
 
-<a id='fourblock'>Fourblock</a>
+### Fourblock {#fourblock}
 <br>
 5/13/2018 - My friends at Fourblock asked the Avvo leadership team to speak to veterans and interested folks about transitioning into engineering from other disciplines, and our experiences working with military folks in our fields.  
 <br><img src="http://www.hunterdavis.com/content/images/2019/fourblock.jpeg" height="300">
 
-<a id='operationcode'>Operation Code</a>
+### Operation Code {#operationcode}
 <br>
 1/22/2019 - My friends at Operation Code asked me to speak to veterans and interested folks about transitioning into engineering from other disciplines, and my experiences working with military folks in engineering fields.  Here's the presentation I gave: <a href="http://www.hunterdavis.com/PRESENTATION-The-Math-I-Wish-I-Learned/">Real Engineering Math and Other Tidbits</a>
 
@@ -66,7 +66,7 @@ I have a long personal history working with military personnel, and related publ
 
 # Leadership
 
-<a id='leadership'>Engineering and Business Leadership</a>
+## Engineering and Business Leadership {#leadership}
 <br>
 I'm currently VP of Engineering at Mantra Health, and I've been leading engineering teams since the early 2000s. Here are select public speaking appearances and articles related to Engineering and Business Leadership.
 

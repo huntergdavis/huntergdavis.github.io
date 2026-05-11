@@ -1282,9 +1282,18 @@ last commit in this phase swaps the default.*
       that doesn't set tracking cookies until playback starts.
 - [ ] **7.13** Add 404 page upgrade with site-map and search.
       (Smart-routing extensions for legacy paths handled in A.12.) **S**
-- [ ] **7.16** Convert `<a id='X'>` anchors in
+- [x] **7.16** Convert `<a id='X'>` anchors in
       `public-speaking.md` to real kramdown heading IDs (same
-      pattern as 7.10's about.md conversion). **S**
+      pattern as 7.10's about.md conversion). **S** ·
+      *Shipped 2026-05-10.* 5 inline anchors converted: 3 h2
+      (apprenticeship, military, leadership) and 2 h3
+      (fourblock, operationcode). The two existing `#` h1
+      lines the user authored as page dividers ("Public
+      Speaking" and "Leadership") were left untouched. TOC
+      anchor refs now 5/5 resolve to real headings, 0 missing,
+      0 orphans. The remaining `<h1>` duplication of the page
+      title within the body is intentional — the user wrote it
+      that way and removing it would be editing prose.
 - [x] **7.14** Add JSON-LD `Person` schema to the home page. **S** ·
       *Shipped 2026-05-10.* New `_includes/jsonld_person.html`
       referenced from `_layouts/home.html`. Fields: `@type: Person`,
@@ -2002,3 +2011,10 @@ any public-facing milestone copy until a source is added.
   same `#miso` id) by renaming the second to `#miso-audio`
   and updating its TOC link. Public-speaking.md half tracked
   as 7.16.
+- `2026-05-10` — **Phase 7.16 shipped**: same conversion
+  applied to `public-speaking.md` — 5 inline anchors → 5
+  kramdown headings (3 h2: apprenticeship, military,
+  leadership; 2 h3: fourblock, operationcode). TOC anchor
+  refs now 5/5 resolve. The two pre-existing `# h1` lines
+  the user authored as in-page dividers were left
+  untouched.
