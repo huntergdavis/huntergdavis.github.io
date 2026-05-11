@@ -1501,6 +1501,24 @@ last commit in this phase swaps the default.*
       Verified sane across 5 representative posts (csserver = 1 min,
       Dockstar = 11 min, etc.). Home-card reading-time tracked
       separately as 7.15.
+- [x] **B.33** Blockquote + `<hr>` styling. **S** ·
+      *Shipped 2026-05-11.* Two long-neglected typographic
+      elements got proper rules. 58 blockquote usages across
+      the post corpus previously rendered with browser-
+      default italics and a vague indent — visually
+      indistinguishable from an indented paragraph. New
+      `blockquote` rule: 4px left border in the brand blue
+      `#0B5485` (matching the `.featured` aside accent),
+      `#f6f8fa` background, slightly muted `#444` text,
+      italic, with `p:first-child{margin-top:0}` and
+      `p:last-child{margin-bottom:0}` to tighten the
+      paragraph-inside-blockquote whitespace. Looks like a
+      proper pull-quote now. New `hr` rule: short 200px
+      centered 1px line instead of the default 100%-width
+      etched bar — markdown `---` section dividers now feel
+      like soft scene-breaks rather than dominating slabs.
+      Both rules are top-level (apply anywhere) but have no
+      conflicting selectors elsewhere in the CSS.
 - [x] **B.32** Style `<pre>` blocks + fix `<code>` `word-break`.
       **S** · *Shipped 2026-05-11.* `code` rule had
       `word-break: break-all` which was disastrous for code
@@ -2580,6 +2598,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.33 shipped**: blockquote + `<hr>`
+  styling. 58 blockquote usages now render with a 4px brand-
+  blue left border, light gray bg, and tightened paragraph
+  spacing — proper pull-quote look. `<hr>` becomes a short
+  centered 200px line instead of the default full-width bar.
 - `2026-05-11` — **Phase B.32 shipped**: code block styling.
   `<code>` swapped from `#dbdbdb` + `word-break: break-all` to
   GitHub-style `#f6f8fa` + `break-word`. New `<pre>` rule adds
