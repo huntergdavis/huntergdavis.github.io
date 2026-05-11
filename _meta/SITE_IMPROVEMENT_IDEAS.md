@@ -1104,8 +1104,19 @@ populate.*
       are OK.
 - [ ] **2.3** Build `/tag/index.html` — alphabetical list of tags
       with post counts and family grouping. **S**
-- [ ] **2.4** Build `/archive/index.html` — year list + month grid +
-      recent-25 strip. **M**
+- [x] **2.4** Build `/archive/` index. **M** ·
+      *Shipped 2026-05-10 (minimum scope).* New `archive.md`
+      permalinked to `/archive/` lists all 507 posts grouped
+      by year via `group_by_exp` (descending year, descending
+      date within year). Each year h2 carries an explicit
+      `{#YYYY}` ID for robust deep-linking, regardless of
+      kramdown's auto-id behavior for numeric headings. The
+      post-page breadcrumb (B.7) now activates its year link
+      as `/archive/#{year}` so a reader on a 2010 post can
+      click "2010" and scroll-jump to the right section.
+      Month-grid layout deferred — for 19 years × ~507 posts
+      the simple per-year flat list reads fine. Footer gets
+      an `Archive` link.
 - [ ] **2.5** Build per-year `/archive/<year>/` archives. **M**
       (auto-generated; no manual content).
 - [x] **2.6** Build `/projects/` hub. **M** ·
@@ -2125,3 +2136,14 @@ any public-facing milestone copy until a source is added.
   (hero image, dates, blurb, external links) is additive and
   can land per-project when 2.8's `_layouts/project.html`
   comes online.
+- `2026-05-10` — **Phase 2.4 shipped**: `/archive/` index
+  page. New `archive.md` permalinked to `/archive/` lists
+  all 507 posts grouped by year via `group_by_exp`. Each
+  year h2 has explicit `{#YYYY}` id so the post-page
+  breadcrumb (B.7) can deep-link to it. The breadcrumb's
+  year is now an actual `<a>` element pointing at
+  `/archive/#{year}` — readers on a 2010 post can click
+  "2010" and scroll-jump to that section. Footer extended
+  with `Archive` link. Three browsing axes now live:
+  chronological (Archive), thematic (Projects), structural
+  (Site Map).
