@@ -1,12 +1,14 @@
 ---
 ---
 
+@import 'tokens';
 @import 'normalize';
 @import 'gridism';
 @import 'markdown';
 @import 'variables';
 @import 'anims';
 @import 'monokai';
+@import 'dark';
 
 html{
 	scroll-behavior: smooth;
@@ -811,21 +813,26 @@ article{
 	font-size: 0.7em;
 	padding: 4px 0px;
 	border-bottom: 1px solid #ccc;
+}
 
-	.tag-chip {
-		display: inline-block;
-		padding: 0px 4px;
-		margin: 1px 2px;
-		background: #CFE9FA;
-		border: 1px solid #0B5485;
-		border-radius: 2px;
-		color: #0B5485;
-		text-decoration: none;
+// Tag-chip — single component used on home cards, post pages, tag
+// index, and search-result snippets. Standalone (not nested under
+// `.tags`) so it can drop into any context.
+.tag-chip {
+	display: inline-block;
+	padding: 0 4px;
+	margin: 1px 2px;
+	background: #CFE9FA;
+	border: 1px solid #0B5485;
+	border-radius: 2px;
+	color: #0B5485;
+	text-decoration: none;
+	font-size: inherit;
+	line-height: 1.5;
 
-		&:hover, &:focus {
-			background: #0B5485;
-			color: #fff;
-		}
+	&:hover, &:focus {
+		background: #0B5485;
+		color: #fff;
 	}
 }
 

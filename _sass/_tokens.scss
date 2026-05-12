@@ -1,0 +1,103 @@
+// Design tokens — single source of truth for palette, type, spacing.
+// Exposed both as Sass variables (build-time) and CSS custom
+// properties (runtime, so dark mode can override them).
+
+// ---- Color (light theme) -------------------------------------------------
+$brand-blue:      #0B5485;
+$brand-blue-2:    #149797;  // hover / link-active
+$brand-cyan:      #1AC9DB;  // accent / focus highlight
+
+$ink-strong:      #222;     // headings
+$ink:             #333;     // body
+$ink-soft:        #444;     // captions
+$ink-mute:        #666;     // meta
+
+$bg:              #fff;     // page bg
+$bg-subtle:       #f6f8fa;  // blockquote / code bg
+$bg-mute:         #f4f4f4;  // table-header
+$bg-paper:        #eee;     // sticky header strip
+
+$border:          #ddd;
+$border-soft:     #eee;
+$border-strong:   #ccc;
+
+// ---- Type ----------------------------------------------------------------
+$font-serif:      'Vollkorn', Palatino, Times, serif;
+$font-sans:       -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-mono:       ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+$type-100:        0.75rem;   // 12px — fine print
+$type-200:        0.875rem;  // 14px — meta
+$type-300:        1rem;      // 16px — base
+$type-400:        1.125rem;  // 18px — lead body
+$type-500:        1.375rem;  // 22px — h4
+$type-600:        1.625rem;  // 26px — h3
+$type-700:        2rem;      // 32px — h2
+$type-800:        2.5rem;    // 40px — h1
+$type-900:        3.25rem;   // 52px — display
+
+// ---- Spacing (vertical rhythm — multiples of 0.25rem / 4px) -------------
+$space-1:         0.25rem;
+$space-2:         0.5rem;
+$space-3:         0.75rem;
+$space-4:         1rem;
+$space-5:         1.5rem;
+$space-6:         2rem;
+$space-7:         3rem;
+$space-8:         4rem;
+$space-9:         6rem;
+
+// ---- Radius, shadow, motion ---------------------------------------------
+$radius-sm:       3px;
+$radius-md:       6px;
+$radius-lg:       12px;
+$radius-pill:     999px;
+
+$shadow-sm:       0 1px 2px rgba(0, 0, 0, 0.08);
+$shadow-md:       0 2px 6px rgba(0, 0, 0, 0.10);
+$shadow-lg:       0 8px 24px rgba(0, 0, 0, 0.12);
+
+$motion-fast:     120ms;
+$motion-base:     200ms;
+$motion-slow:     320ms;
+
+// ---- Layout breakpoints -------------------------------------------------
+$bp-sm:           420px;
+$bp-md:           768px;
+$bp-lg:           1024px;
+$bp-xl:           1280px;
+
+// ---- Expose as CSS custom properties (runtime, themeable) ---------------
+:root {
+	--c-brand:        #{$brand-blue};
+	--c-brand-2:      #{$brand-blue-2};
+	--c-cyan:         #{$brand-cyan};
+	--c-ink-strong:   #{$ink-strong};
+	--c-ink:          #{$ink};
+	--c-ink-soft:     #{$ink-soft};
+	--c-ink-mute:     #{$ink-mute};
+	--c-bg:           #{$bg};
+	--c-bg-subtle:    #{$bg-subtle};
+	--c-bg-mute:      #{$bg-mute};
+	--c-bg-paper:     #{$bg-paper};
+	--c-border:       #{$border};
+	--c-border-soft:  #{$border-soft};
+	--c-border-strong:#{$border-strong};
+
+	--font-serif:     #{$font-serif};
+	--font-sans:      #{$font-sans};
+	--font-mono:      #{$font-mono};
+
+	--radius-sm:      #{$radius-sm};
+	--radius-md:      #{$radius-md};
+	--radius-lg:      #{$radius-lg};
+	--radius-pill:    #{$radius-pill};
+
+	--shadow-sm:      #{$shadow-sm};
+	--shadow-md:      #{$shadow-md};
+	--shadow-lg:      #{$shadow-lg};
+
+	--motion-fast:    #{$motion-fast};
+	--motion-base:    #{$motion-base};
+	--motion-slow:    #{$motion-slow};
+}
