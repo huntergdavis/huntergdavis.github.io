@@ -24,7 +24,11 @@ layout: default
 	</header>
 	{% assign hero = page.image | default: page.featured_img %}
 	{% if hero != blank %}
-		<img class="post-hero" src="{{ hero }}" alt="" decoding="async" fetchpriority="high">
+		{% if page.featured_image_optim %}
+			{% include picture.html src=hero alt="" class="post-hero" loading="eager" fetchpri="high" %}
+		{% else %}
+			<img class="post-hero" src="{{ hero }}" alt="" decoding="async" fetchpriority="high">
+		{% endif %}
 	{% endif %}
 	<section>
 		{% if page.tags and page.tags.size > 0 %}
