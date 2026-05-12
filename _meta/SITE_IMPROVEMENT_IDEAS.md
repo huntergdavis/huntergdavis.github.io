@@ -1138,9 +1138,13 @@ URL preservation work moved to Phase A above.*
       the payload is already small enough that the extra
       complexity isn't worth it. If full-content search
       becomes a need later it can be a separate item.
-- [ ] **1.3** Self-host the Vollkorn font subset (latin only,
+- [x] **1.3** Self-host the Vollkorn font subset (latin only,
       400/700 + italics) with `font-display: swap`. **M** · *Why:*
-      drops Google Fonts dependency + speeds first paint.
+      drops Google Fonts dependency + speeds first paint. ·
+      *Shipped 2026-05-12.* Two woff2 files served from
+      `/fonts/`: vollkorn-latin.woff2 (46K) + vollkorn-latin-
+      italic.woff2 (47K). font-weight: 400 700 variable range
+      so both weights share one file each.
 - [x] **1.4** Trim `feed.xml` to title + excerpt + link; add
       `feed-full.xml` for full-content readers. **S** ·
       *Shipped 2026-05-10.* `feed.xml` swapped `post.content`
@@ -1175,12 +1179,22 @@ URL preservation work moved to Phase A above.*
       header rewrite that 1.6's original spec described is now
       a fresh feature on a clean baseline rather than a
       replacement — tracked as new item 1.10.
-- [ ] **1.7** Add `<link rel="preload">` for the hero image and
-      self-hosted font on the home and post pages. **S**
-- [ ] **1.8** Inline critical above-the-fold CSS in `<head>` and
-      defer the rest with `media="print" onload`. **M**
-- [ ] **1.9** Add a build-time HTML minifier (jekyll-compress-html
-      layout include or `jekyll-minifier`). **S**
+- [x] **1.7** Add `<link rel="preload">` for the hero image and
+      self-hosted font on the home and post pages. **S** ·
+      *Shipped 2026-05-12.* `<link rel="preload" as="font"
+      crossorigin>` for the normal Vollkorn file + conditional
+      `as="image" fetchpriority="high"` when page has a hero.
+- [-] **1.8** Inline critical above-the-fold CSS in `<head>` and
+      defer the rest with `media="print" onload`. **M** ·
+      *Dropped 2026-05-12.* Risk of first-paint regression for
+      ~80 KB compressed stylesheet outweighs the marginal LCP
+      win once CSS is already gzipped at the CDN edge.
+- [-] **1.9** Add a build-time HTML minifier (jekyll-compress-html
+      layout include or `jekyll-minifier`). **S** ·
+      *Dropped 2026-05-12.* Whitespace-sensitive elements in
+      507 mixed posts (`<pre>`, code blocks, ASCII art) make a
+      site-wide minifier risky; gzip already gives ~10×
+      compression at the CDN edge.
 - [x] **1.10** Add `position: sticky` to the site header so the
       nav + search input stay accessible during long scrolls.
       **S** · *Shipped 2026-05-10.* Added
@@ -1340,10 +1354,10 @@ populate.*
       project once `_layouts/project.html` (item 2.8) lands —
       consumed fields are additive and don't break the
       sitemap.html / projects.html consumers.
-- [ ] **2.8** Add `_layouts/project.html` for project landing pages —
+- [x] **2.8** Add `_layouts/project.html` for project landing pages —
       renders project metadata, "Posts" list filtered by tag/slug, and
       external links. **S**
-- [ ] **2.9** Curate the `_data/tags.yml` inventory into a
+- [x] **2.9** Curate the `_data/tags.yml` inventory into a
       canonical vocabulary. Collapse near-synonyms (e.g.,
       `android-app` + `android-apps-2` + `app-tag` → one
       canonical slug), pick display names, group into families
@@ -1426,8 +1440,10 @@ populate.*
 *Goal: ship the 2026 look. Keep old templates working until the
 last commit in this phase swaps the default.*
 
-- [ ] **5.1** Add design tokens at `_sass/_tokens.scss`: colors,
-      type scale, spacing scale, radius, shadow, motion. **M**
+- [x] **5.1** Add design tokens at `_sass/_tokens.scss`: colors,
+      type scale, spacing scale, radius, shadow, motion. **M** ·
+      *Shipped 2026-05-12.* Exposed both as Sass vars and CSS
+      custom properties under :root, so dark mode can override.
 - [ ] **5.2** New `_layouts/default-v2.html` using `<main>`, semantic
       landmarks, modern grid, single source of head metadata. **M**
 - [ ] **5.3** Build new home layout `_layouts/home-v2.html`: hero
@@ -1439,12 +1455,17 @@ last commit in this phase swaps the default.*
       related-posts panel, prev/next-by-date. **M**
 - [ ] **5.5** Build `_layouts/project-v2.html` (replaces 2.8 stub
       with the real design). **M**
-- [ ] **5.6** Mobile menu without `.android` JS pattern: a
-      `<details>` element styled into a popover, no library. **S**
-- [ ] **5.7** Dark mode via `prefers-color-scheme` and a manual toggle
-      stored in `localStorage`. **M**
-- [ ] **5.8** Tag chip component, used on home cards, post pages,
-      tag index. **S**
+- [x] **5.6** Mobile menu without `.android` JS pattern: a
+      `<details>` element styled into a popover, no library. **S** ·
+      *Already shipped in earlier cleanup.* `_includes/header.html`
+      uses `<details class="nav-toggle">` with `<summary>` trigger.
+- [x] **5.7** Dark mode via `prefers-color-scheme` and a manual toggle
+      stored in `localStorage`. **M** · *Shipped 2026-05-12.*
+      `_sass/_dark.scss` re-skins the legacy CSS; tri-state toggle
+      (auto / light / dark) in header via `/js/theme-toggle.js`.
+- [x] **5.8** Tag chip component, used on home cards, post pages,
+      tag index. **S** · *Shipped 2026-05-12.* Extracted from
+      nested .tags selector to a standalone .tag-chip class.
 - [x] **5.9** Remove `text-align: justify` site-wide. **S** ·
       *Shipped 2026-05-11.* The single offender in
       `css/style.scss` was the `article section p` rule
@@ -2326,7 +2347,7 @@ last commit in this phase swaps the default.*
       stubs (treated as 301 by Google but not a true 301 status).
       Edge redirects give true 301s and centralize host/scheme
       logic.
-- [ ] **8.5** Add a service worker that pre-caches the home, the
+- [x] **8.5** Add a service worker that pre-caches the home, the
       latest 5 posts, and core CSS — offline reading. **M**
 - [ ] **8.6** Stretch: spike Eleventy or Astro migration on a branch.
       Keep Jekyll as canonical until image pipeline + IA features
@@ -2340,7 +2361,10 @@ last commit in this phase swaps the default.*
 - [ ] **9.3** Add an offline-friendly RSS reader recommendation
       footer. **S**
 - [ ] **9.4** Add a `/feed.json` JSON Feed alongside RSS. **S**
-- [ ] **9.5** Add IndieWeb h-card / h-entry microformats. **S**
+- [x] **9.5** Add IndieWeb h-card / h-entry microformats. **S** ·
+      *Shipped 2026-05-12.* h-card in footer; h-feed on home;
+      h-entry on every <article> with p-name/u-url/dt-published/
+      e-content/p-summary/p-category/p-author wiring.
 - [ ] **9.6** Add a "save game" feature: a static page that mirrors
       classic downloadable artifacts (csserver-adventure, snesaver,
       etc.) — possibly hosted via GitHub Releases. **M**
