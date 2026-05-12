@@ -49,15 +49,25 @@ html, body{
 	border: 0;
 }
 
-.header-search{
+.header-tools{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	flex-wrap: wrap;
 	margin: 0.5em auto 0.75em;
-	text-align: center;
 	max-width: $body-width;
 	padding: 0 $padding-left;
+}
+
+.header-search{
+	margin: 0;
+	flex: 1 1 auto;
+	min-width: 0;
+	max-width: 360px;
 
 	input[type="search"]{
 		width: 100%;
-		max-width: 360px;
 		padding: 6px 10px;
 		font-size: 0.95em;
 		border: 1px solid #ccc;
@@ -73,7 +83,7 @@ html, body{
 }
 
 @media screen and (max-width: 568px) {
-	.header-search input[type="search"]{
+	.header-search{
 		max-width: none;
 	}
 }

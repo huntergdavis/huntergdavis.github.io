@@ -12,11 +12,13 @@
       </ul>
     </details>
   </nav>
-  <form class="header-search" action="/search.html" method="get" role="search">
-    <label for="header-search-input" class="visually-hidden">Search</label>
-    <input type="search" name="query" id="header-search-input" placeholder="Search… (press /)" aria-label="Search posts" autocomplete="off" enterkeyhint="search">
-  </form>
-  <button type="button" class="theme-toggle" aria-label="Theme: auto">Theme: auto</button>
+  <div class="header-tools">
+    <form class="header-search" action="/search.html" method="get" role="search">
+      <label for="header-search-input" class="visually-hidden">Search</label>
+      <input type="search" name="query" id="header-search-input" placeholder="Search… (press /)" aria-label="Search posts" autocomplete="off" enterkeyhint="search">
+    </form>
+    <button type="button" class="theme-toggle" aria-label="Theme: auto">Theme: auto</button>
+  </div>
   <script src="/js/theme-toggle.js" defer></script>
   <script>
     (function(){

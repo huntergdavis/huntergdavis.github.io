@@ -1,0 +1,27 @@
+---
+# Jekyll layout that compresses HTML
+# v3.2.0
+# http://jch.penibelst.de/
+# (c) Anatol Broder, MIT License
+---
+{% capture _LINE_FEED %}
+{% endcapture %}{% if site.compress_html.ignore.envs contains jekyll.environment or site.compress_html.ignore.envs contains "all" %}{{ content }}{% else %}{% capture _content %}{{ content }}{% endcapture %}{% assign _profile = site.compress_html.profile %}{% if site.compress_html.endings == "all" %}{% assign _endings = "html head body li dt dd optgroup option colgroup caption thead tbody tfoot tr td th" | split: " " %}{% else %}{% assign _endings = site.compress_html.endings %}{% endif %}{% for _element in _endings %}{% capture _end %}</{{ _element }}>{% endcapture %}{% assign _content = _content | remove: _end %}{% endfor %}{% if _profile and _endings %}{% assign _profile_endings = _content | size | plus: 1 %}{% endif %}{% for _element in site.compress_html.startings %}{% capture _start %}<{{ _element }}>{% endcapture %}{% assign _content = _content | remove: _start %}{% endfor %}{% if _profile and site.compress_html.startings %}{% assign _profile_startings = _content | size | plus: 1 %}{% endif %}{% if site.compress_html.comments == "all" %}{% assign _comments = "<!-- -->" | split: " " %}{% else %}{% assign _comments = site.compress_html.comments %}{% endif %}{% if _comments.size == 2 %}{% capture _comment_befores %}.{{ _content }}{% endcapture %}{% assign _comment_befores = _comment_befores | split: _comments.first %}{% for _comment_before in _comment_befores %}{% if forloop.first %}{% continue %}{% endif %}{% capture _comment_outers %}{% if _carry %}{{ _comments.first }}{% endif %}{{ _comment_before }}{% endcapture %}{% assign _comment_inners = _comment_outers | split: _comments.last %}{% if _comment_inners.size == 2 %}{% assign _carry = false %}{% capture _content_clean %}{{ _content_clean }}{{ _comment_inners.last }}{% endcapture %}{% else %}{% assign _carry = true %}{% endif %}{% endfor %}{% if _content_clean %}{% assign _content = _content_clean %}{% endif %}{% endif %}{% if _profile and _comments.size == 2 %}{% assign _profile_comments = _content | size | plus: 1 %}{% endif %}{% assign _pre_befores = _content | split: "<pre" %}{% assign _content = "" %}{% for _pre_before in _pre_befores %}{% assign _pres = _pre_before | split: "</pre>" %}{% assign _pres_after = "" %}{% if _pres.size == 2 %}{% capture _pres_after %}<pre{{ _pres.last | replace: _LINE_FEED, "<!--<linefeed>-->" }}{% endcapture %}{% endif %}{% capture _content %}{{ _content }}{{ _pres.first | split: _LINE_FEED | join: " " }}{{ _pres_after }}{% endcapture %}{% endfor %}{% assign _content = _content | replace: "<!--<linefeed>-->", _LINE_FEED %}{% if _profile %}{% assign _profile_collapse = _content | size | plus: 1 %}{% endif %}{% if site.compress_html.blanklines %}{% assign _content = _content | split: _LINE_FEED %}{% assign _content = _content | join: _LINE_FEED %}{% else %}{% assign _content = _content | replace: _LINE_FEED, " " %}{% endif %}{% if _profile %}{% assign _profile_collapse_lines = _content | size | plus: 1 %}{% endif %}{% assign _content = _content | split: "	" | join: " " %}{% if _profile %}{% assign _profile_collapse_spaces = _content | size | plus: 1 %}{% endif %}{% assign _pre_befores = _content | split: "<pre" %}{% assign _content = "" %}{% for _pre_before in _pre_befores %}{% assign _pres = _pre_before | split: "</pre>" %}{% capture _pres_first %}{{ _pres.first | split: " " | join: " " }}{% endcapture %}{% assign _pres_after = "" %}{% if _pres.size == 2 %}{% capture _pres_after %}<pre{{ _pres.last }}{% endcapture %}{% endif %}{% capture _content %}{{ _content }}{{ _pres_first }}{{ _pres_after }}{% endcapture %}{% endfor %}{% if _profile %}{% assign _profile_collapse_spaces_multi = _content | size | plus: 1 %}{% endif %}{{ _content }}{% if _profile %}
+
+<table id="compress_html_profile">
+  <thead>
+    <tr>
+      <td>Step</td>
+      <td>Bytes</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>raw</td><td>{{ content | size }}</td></tr>
+    {% if _profile_endings %}<tr><td>endings</td><td>{{ _profile_endings }}</td></tr>{% endif %}
+    {% if _profile_startings %}<tr><td>startings</td><td>{{ _profile_startings }}</td></tr>{% endif %}
+    {% if _profile_comments %}<tr><td>comments</td><td>{{ _profile_comments }}</td></tr>{% endif %}
+    {% if _profile_collapse %}<tr><td>collapse</td><td>{{ _profile_collapse }}</td></tr>{% endif %}
+    {% if _profile_collapse_lines %}<tr><td>collapse lines</td><td>{{ _profile_collapse_lines }}</td></tr>{% endif %}
+    {% if _profile_collapse_spaces %}<tr><td>collapse spaces</td><td>{{ _profile_collapse_spaces }}</td></tr>{% endif %}
+    {% if _profile_collapse_spaces_multi %}<tr><td>collapse spaces multi</td><td>{{ _profile_collapse_spaces_multi }}</td></tr>{% endif %}
+  </tbody>
+</table>{% endif %}{% endif %}

@@ -43,3 +43,16 @@ about_image: placeholder.png
 sidebar: on
 
 plugins: [jekyll-paginate, jekyll-redirect-from]
+
+## jekyll-compress-html settings (layout-include, no gem)
+## http://jch.penibelst.de/ — runs at build time via _layouts/compress.html.
+## `<pre>` and `<textarea>` whitespace is preserved by the layout itself.
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [development]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]

@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -30,6 +33,10 @@
         <link rel="preload" href="/fonts/vollkorn-latin.woff2" as="font" type="font/woff2" crossorigin>
         {%- assign _hero = page.image | default: page.featured_img -%}
         {% if _hero %}<link rel="preload" href="{{ _hero }}" as="image" fetchpriority="high">{% endif %}
+        <!-- Critical (above-the-fold) CSS, inlined to paint header on the first frame -->
+        <style>{% include critical.css %}</style>
+        <!-- Restore saved theme before paint to avoid dark-mode FOUC -->
+        <script>(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/style.css">
     </head>

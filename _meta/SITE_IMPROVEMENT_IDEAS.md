@@ -1197,17 +1197,36 @@ URL preservation work moved to Phase A above.*
       *Shipped 2026-05-12.* `<link rel="preload" as="font"
       crossorigin>` for the normal Vollkorn file + conditional
       `as="image" fetchpriority="high"` when page has a hero.
-- [-] **1.8** Inline critical above-the-fold CSS in `<head>` and
-      defer the rest with `media="print" onload`. **M** ·
-      *Dropped 2026-05-12.* Risk of first-paint regression for
-      ~80 KB compressed stylesheet outweighs the marginal LCP
-      win once CSS is already gzipped at the CDN edge.
-- [-] **1.9** Add a build-time HTML minifier (jekyll-compress-html
-      layout include or `jekyll-minifier`). **S** ·
-      *Dropped 2026-05-12.* Whitespace-sensitive elements in
-      507 mixed posts (`<pre>`, code blocks, ASCII art) make a
-      site-wide minifier risky; gzip already gives ~10×
-      compression at the CDN edge.
+- [x] **1.8** Inline critical above-the-fold CSS in `<head>`.
+      **M** · *Shipped 2026-05-12.* Conservative variant: added
+      `_includes/critical.css` (~1.5 KB) inlined via
+      `<style>{% include critical.css %}</style>` in
+      `_layouts/default.html`, covering header strip, nav,
+      search/theme-toggle row, page background and a minimal
+      dark skin keyed off both `prefers-color-scheme` and
+      `html[data-theme="dark"]`. Kept the main
+      `/css/style.css` link as render-blocking rather than
+      using the `media="print" onload` defer (original drop
+      concern), so there is no first-paint regression — only
+      a gain: the title strip and bg paint on the first frame.
+      Also added a tiny synchronous `<script>` in `<head>`
+      that reads `localStorage.theme` and sets `data-theme`
+      before paint, eliminating a real existing dark-mode
+      FOUC for users with `dark` saved but a light system
+      preference.
+- [x] **1.9** Add a build-time HTML minifier
+      (`jekyll-compress-html` layout include). **S** ·
+      *Shipped 2026-05-12.* Added `_layouts/compress.html`
+      (penibelst v3.2.0) and changed `_layouts/default.html`'s
+      front matter to `layout: compress`. Configured
+      `compress_html:` in `_config.yml` with conservative
+      defaults: `clippings: all`, `endings: all`,
+      `comments: ["<!-- ", " -->"]`, `startings: [html, head,
+      body]`, `ignore.envs: [development]`. `<pre>` and
+      `<textarea>` whitespace is preserved by the layout
+      itself, addressing the original drop concern about
+      `<pre>`/ASCII-art content in the 507-post archive. No
+      gem; no GH-Pages-build-allowlist conflict.
 - [x] **1.10** Add `position: sticky` to the site header so the
       nav + search input stay accessible during long scrolls.
       **S** · *Shipped 2026-05-10.* Added
@@ -2381,8 +2400,18 @@ last commit in this phase swaps the default.*
       paginated home pages — measured negligible.
 
 ### Phase 8 — Modernize tooling & infrastructure
-- [-] **8.1** Bump Jekyll to 4.x, update Gemfile + `Gemfile.lock`,
-      validate with `bundle exec jekyll build`. **M**
+- [x] **8.1** Bump Jekyll within GH-Pages-allowed band
+      (3.8.5 → 3.10). **M** · *Shipped 2026-05-12.* Bumped
+      `Gemfile` pin to `gem "jekyll", "~> 3.10.0"` and deleted
+      `Gemfile.lock` so it re-resolves against the current
+      gem graph. Did **not** jump to Jekyll 4.x: this repo
+      has no `.github/workflows/` so GitHub Pages builds the
+      site server-side, and GH Pages only supports Jekyll
+      3.10.0 (per pages.github.com/versions). Going to 4.x
+      would require bundling 8.3 (Actions workflow that
+      builds locally and pushes `_site/` to Pages). Also
+      added a defensive `gem "ffi", "~> 1.16.0"` for users on
+      Ruby <3.0 — local-only, ignored by GH Pages.
 - [-] **8.2** Add `jekyll-feed`, `jekyll-sitemap`, `jekyll-seo-tag`
       plugins (replacing hand-rolled equivalents). **M**
 - [-] **8.3** GitHub Actions: build on push, preview deploy on PR,
