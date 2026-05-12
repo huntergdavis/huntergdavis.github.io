@@ -49,9 +49,9 @@ lastmod: 2014-07-07T16:57:30+05:30
 		{% assign hero = post.image | default: post.featured_img %}
 		{% if hero != blank %}
 		{% if forloop.first and paginator.page == 1 %}
-		<img src="{{ hero }}" width="600" decoding="async" fetchpriority="high" alt="" />
+		<img src="{{ hero }}" width="600" height="400" decoding="async" fetchpriority="high" alt="" />
 		{% else %}
-		<img src="{{ hero }}" width="600" loading="lazy" decoding="async" alt="" />
+		<img src="{{ hero }}" width="600" height="400" loading="lazy" decoding="async" alt="" />
 		{% endif %}
 		{% endif %}
 		{% if post.tags and post.tags.size > 0 %}
