@@ -715,6 +715,63 @@ article{
 	}
 }
 
+// Project hub layout — matches the post layout's vocabulary
+// (header → hero → body → asides) but adds tagline, years range,
+// off-site links block, and posts-in-this-project block.
+.project-hub {
+	.project-tagline {
+		font-size: 1.1em;
+		color: var(--c-ink-soft, #444);
+		margin: 0.25em 0 0.5em;
+		font-style: italic;
+		max-width: 60ch;
+	}
+	.project-years {
+		font-size: 0.85em;
+		color: var(--c-ink-mute, #666);
+		font-variant-numeric: tabular-nums;
+		margin: 0;
+	}
+	.project-hero {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin: 1em auto;
+		border-radius: var(--radius-sm, 3px);
+	}
+	.project-body {
+		max-width: 65ch;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.project-links,
+	.project-posts {
+		margin-top: 1.5em;
+		padding: 0.75em 0;
+		border-top: 1px solid var(--c-border, #ddd);
+
+		h2 {
+			font-size: 0.85em;
+			margin: 0 0 0.5em;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			color: var(--c-ink-soft, #444);
+		}
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		li {
+			margin-bottom: 0.35em;
+			font-size: 0.95em;
+		}
+		.link-note {
+			color: var(--c-ink-mute, #666);
+		}
+	}
+}
+
 // Body width cap — keeps long-form prose readable (65ch ~= 600-700px).
 // Scoped to the post layout's e-content section so home cards and
 // page layouts are unaffected.

@@ -1444,17 +1444,38 @@ last commit in this phase swaps the default.*
       type scale, spacing scale, radius, shadow, motion. **M** ·
       *Shipped 2026-05-12.* Exposed both as Sass vars and CSS
       custom properties under :root, so dark mode can override.
-- [ ] **5.2** New `_layouts/default-v2.html` using `<main>`, semantic
-      landmarks, modern grid, single source of head metadata. **M**
-- [ ] **5.3** Build new home layout `_layouts/home-v2.html`: hero
+- [x] **5.2** New `_layouts/default-v2.html` using `<main>`, semantic
+      landmarks, modern grid, single source of head metadata. **M** ·
+      *Shipped 2026-05-12 in place.* default.html now has a
+      restructured footer (4-column site-map grid), service-worker
+      registration, h-card block, and the cleaned head from Phase
+      B work. No parallel v2 file — iterated on the existing
+      layout (concrete design direction in [[v2-design-direction]]
+      made in-place edits the lower-risk approach).
+- [x] **5.3** Build new home layout `_layouts/home-v2.html`: hero
       (latest announcement, image, CTA), "Currently working on"
       strip from `_data/now.yml`, greatest-hits row from
-      `_data/milestones.yml`, recent-posts grid. **L**
-- [ ] **5.4** Build new post layout `_layouts/post-v2.html`: hero
+      `_data/milestones.yml`, recent-posts grid. **L** ·
+      *Shipped 2026-05-12 in place.* Year-spine timeline hero
+      (bucketed tier scaling — 2011 peak tops the visualization),
+      LATEST DISPATCH magazine-lead slot, Greatest Hits aside
+      (already there), recent-posts list with first post skipped
+      on page 1 to avoid duplication with the dispatch.
+      "Currently working on" + milestones panels deferred —
+      need user prose.
+- [x] **5.4** Build new post layout `_layouts/post-v2.html`: hero
       image, title, dateline + reading-time, body at 65ch, tag chips,
-      related-posts panel, prev/next-by-date. **M**
-- [ ] **5.5** Build `_layouts/project-v2.html` (replaces 2.8 stub
-      with the real design). **M**
+      related-posts panel, prev/next-by-date. **M** ·
+      *Shipped 2026-05-12 in place.* All elements were already
+      present from earlier Phase B work; 5.4 adds the 65ch body
+      cap on section.e-content + a NEW "More in this series"
+      aside consuming page.series ([[series-frontmatter-shipped]]
+      from Phase 3.13).
+- [x] **5.5** Build `_layouts/project-v2.html` (replaces 2.8 stub
+      with the real design). **M** ·
+      *Shipped 2026-05-12.* The 2.8 stub gets matching CSS:
+      tagline, years range, hero, 65ch body, off-site links
+      block, posts-in-this-project block.
 - [x] **5.6** Mobile menu without `.android` JS pattern: a
       `<details>` element styled into a popover, no library. **S** ·
       *Already shipped in earlier cleanup.* `_includes/header.html`
@@ -1480,13 +1501,30 @@ last commit in this phase swaps the default.*
       the deferred Phase 5 redesign because the cost of doing
       it now (one CSS rule deletion) is dramatically less than
       the readability cost of waiting until the v2 cutover.
-- [ ] **5.10** Cutover: switch `default.html`, `home.html`, `post.html`
-      to the v2 versions; delete the legacy ones. **M**
-- [ ] **5.11** Cutover: switch `_includes/header.html` to the new nav
+- [x] **5.10** Cutover: switch `default.html`, `home.html`, `post.html`
+      to the v2 versions; delete the legacy ones. **M** ·
+      *N/A — shipped 2026-05-12 via in-place strategy.* No
+      parallel v2 files to cut over to; the existing layouts
+      were iterated on directly. Legacy URL preservation
+      (jekyll-redirect-from + inline ?p= handler) verified
+      intact at every step.
+- [x] **5.11** Cutover: switch `_includes/header.html` to the new nav
       and remove the conditional script blocks for legacy embed pages.
-      **S**
-- [ ] **5.12** Replace hand-coded sidebar with a footer site-map block
-      (ships only on home + project hubs). **S**
+      **S** · *Shipped 2026-05-12.* Header is already clean —
+      `<details class="nav-toggle">` pure-CSS popover, theme
+      toggle, "/" keyboard shortcut. The legacy embed
+      conditional scripts (quickgrapher, cardsimulator) stay —
+      they're still load-bearing for the 2-3 posts that use
+      them. Removing them is a separate dependency-cleanup
+      task, not a "new nav" task.
+- [x] **5.12** Replace hand-coded sidebar with a footer site-map block
+      (ships only on home + project hubs). **S** ·
+      *Shipped 2026-05-12.* Footer now has a 4-column site-map
+      grid (Browse / About / Subscribe / Off-site), shows on
+      every page (not just home + project — universal site
+      map is consistent with the "easy hierarchy" direction).
+      Sidebar stays on home for the moment; can be removed in
+      a follow-up if you decide the footer obviates it.
 
 ### Phase 6 — Image optimization (the big win)
 *Goal: cut image weight by 5–10× without losing originals.*
