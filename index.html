@@ -39,11 +39,13 @@ lastmod: 2014-07-07T16:57:30+05:30
 </aside>
 {% endif %}
 {% endif %}
+<div class="h-feed">
+<data class="p-name" value="{{ site.name }} — recent posts"></data>
 {% for post in paginator.posts %}
-<article class="unit whole single-post-excerpt">
-	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<article class="unit whole single-post-excerpt h-entry">
+	<h2 class="p-name"><a class="u-url" href="{{ post.url }}">{{ post.title }}</a></h2>
 	<div class="meta-info">
-		<span class="meta"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time></span>
+		<span class="meta"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time></span>
 		{% assign card_reading_time = post.content | strip_html | number_of_words | plus: 224 | divided_by: 225 %}
 		<span class="reading-time" title="Estimated reading time at 225 words/minute">~{{ card_reading_time }} min read</span>
 		{% assign hero = post.image | default: post.featured_img %}
@@ -65,11 +67,12 @@ lastmod: 2014-07-07T16:57:30+05:30
 	</div>
 	{% assign excerpt_text = post.excerpt | strip_html | strip %}
 	{% if excerpt_text.size < 80 %}{% assign excerpt_text = post.content | strip_html | strip | truncatewords: 40 %}{% endif %}
-	<p class="description">{{ excerpt_text }}</p>
+	<p class="description p-summary">{{ excerpt_text }}</p>
 	<p class="read-more"><a href="{{ post.url }}">Read more →</a></p>
 
 </article>
 {% endfor %}
+</div>
 <nav class="unit whole paginator" aria-label="Pagination">
 	{% if paginator.page > 1 %}
 	<a href="/" class="first" aria-label="First page">First</a>

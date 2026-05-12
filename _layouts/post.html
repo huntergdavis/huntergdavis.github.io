@@ -11,11 +11,13 @@ layout: default
 		<li><a href="/archive/{{ page.date | date: '%Y' }}/">{{ page.date | date: "%Y" }}</a></li>
 	</ol>
 </nav>
-<article>
+<article class="h-entry">
+	<a class="u-url" href="{{ page.url | absolute_url }}" hidden>{{ page.title | escape }}</a>
+	<a class="p-author h-card" href="{{ '/' | absolute_url }}" hidden>{{ site.author | default: site.name }}</a>
 	<header>
-		<h1>{{ page.title }}</h1>
+		<h1 class="p-name">{{ page.title }}</h1>
 		<p class="meta">
-			<time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+			<time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
 			{% assign reading_time = content | strip_html | number_of_words | plus: 224 | divided_by: 225 %}
 			<span class="reading-time" title="Estimated reading time at 225 words/minute">~{{ reading_time }} min read</span>
 			<button type="button" class="sharer copy-link" data-url="{{ page.url | absolute_url }}" data-label-copy="Copy link" data-label-done="Copied" aria-live="polite">Copy link</button>
@@ -30,13 +32,13 @@ layout: default
 			<img class="post-hero" src="{{ hero }}" alt="" decoding="async" fetchpriority="high">
 		{% endif %}
 	{% endif %}
-	<section>
+	<section class="e-content">
 		{% if page.tags and page.tags.size > 0 %}
 			<div class="tags">
 				Tagged:
 				{% for tag in page.tags %}{% assign tag_count = site.data.tags[tag] %}{% if tag_count >= 2 %}
-				<a class="tag-chip" href="/tags/{{ tag }}/">{{ tag }}</a>{% else %}
-				<a class="tag-chip" href="/search.html?query={{ tag | url_encode }}">{{ tag }}</a>{% endif %}{% endfor %}
+				<a class="tag-chip p-category" href="/tags/{{ tag }}/">{{ tag }}</a>{% else %}
+				<a class="tag-chip p-category" href="/search.html?query={{ tag | url_encode }}">{{ tag }}</a>{% endif %}{% endfor %}
 			</div>
 		{% endif %}
 		{{ content | replace: '<img ', '<img loading="lazy" decoding="async" ' }}
