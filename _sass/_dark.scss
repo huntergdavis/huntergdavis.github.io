@@ -1,0 +1,140 @@
+// Dark mode — overrides the hardcoded colors that predate _tokens.scss.
+// Strategy: a single ruleset that takes effect when either
+//   (a) the user system has `prefers-color-scheme: dark` AND the user
+//       has NOT chosen "light" explicitly, or
+//   (b) the user has chosen "dark" via the toggle (data-theme="dark").
+//
+// Each rule reaches into the existing painted-on-light-paper visual
+// vocabulary and re-paints it on dark paper. Borders soften, link
+// colors shift toward the lighter cyan in the brand palette, and
+// the sticky header / aside cards lose their bright white.
+//
+// New components should use `var(--c-…)` from _tokens.scss instead —
+// this file is the bridge while the legacy CSS still references
+// hex literals directly.
+
+@mixin dark-skin {
+	background-color: #0f1419;
+	color: #d9dee4;
+
+	a, a:link {
+		color: #4ddbe5;
+	}
+	a:visited {
+		color: #b5a8e0;
+	}
+	a:hover, a:focus {
+		color: #1AC9DB;
+	}
+
+	.site-header,
+	header.site-header {
+		background: #1a2129 !important;
+		border-bottom-color: #2a323d;
+	}
+	.main-nav details,
+	.android .main-nav details {
+		background: #1a2129;
+		box-shadow: -4px 4px 10px #000;
+	}
+	.main-nav details > summary,
+	.main-nav li a {
+		color: #d9dee4 !important;
+	}
+	.main-nav li a:hover {
+		background-color: #2a323d !important;
+	}
+
+	.post,
+	.posts .unit.single-post-excerpt {
+		background-color: #1a2129;
+		box-shadow: 0 1px 2px #050709;
+		border-color: transparent;
+	}
+	.posts .single-post-excerpt:hover {
+		box-shadow: 0 1px 3px #050709;
+		border-color: #2a323d;
+	}
+	.description {
+		border-top-color: #2a323d !important;
+	}
+
+	.featured,
+	aside.featured,
+	aside.same-year,
+	aside.same-project,
+	aside.related-posts {
+		background-color: #1a2129 !important;
+		border-color: #2a323d !important;
+	}
+
+	blockquote {
+		background: #1a2129;
+		border-left-color: #4ddbe5;
+		color: #aab2bd;
+	}
+	hr { background: #2a323d; }
+	code, pre {
+		background-color: #0b0f14 !important;
+		color: #d9dee4;
+	}
+
+	input[type="search"],
+	input[type="text"],
+	input[type="email"],
+	button,
+	.action-button {
+		background-color: #1a2129;
+		color: #d9dee4;
+		border-color: #2a323d;
+	}
+	input[type="search"]::placeholder { color: #6c7682; }
+
+	.tag-chip {
+		background: #2a323d !important;
+		color: #d9dee4 !important;
+		border-color: #3a4451 !important;
+	}
+	.tag-chip:hover {
+		background: #3a4451 !important;
+	}
+
+	.breadcrumb,
+	.breadcrumb a,
+	.meta,
+	.meta-info,
+	.reading-time {
+		color: #aab2bd !important;
+	}
+
+	table th { background: #2a323d; }
+	table th, table td { border-color: #2a323d; }
+
+	footer, .site-footer {
+		color: #aab2bd;
+		border-top-color: #2a323d !important;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	html:not([data-theme="light"]) body { @include dark-skin; }
+}
+html[data-theme="dark"] body { @include dark-skin; }
+
+// Toggle button — small, in the header. Tri-state: auto / light / dark.
+.theme-toggle {
+	border: 1px solid var(--c-border, #ccc);
+	background: transparent;
+	color: inherit;
+	padding: 4px 10px;
+	font-size: 0.85em;
+	font-family: inherit;
+	cursor: pointer;
+	border-radius: var(--radius-pill, 999px);
+	margin-left: 8px;
+
+	&:hover, &:focus {
+		border-color: var(--c-brand-2, #149797);
+		color: var(--c-brand-2, #149797);
+	}
+}
