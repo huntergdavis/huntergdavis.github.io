@@ -579,7 +579,7 @@ is complete.*
       be picked up by re-running without clobbering.
       `wp_query_ids` deferred to A.15 (query strings can't be
       static stub paths).
-- [ ] **A.8** Loose-artifact mirror. From the CSV, fetch each
+- [~] **A.8** Loose-artifact mirror. From the CSV, fetch each
       referenced `/csa.zip`, `/zipit.tgz`, `/snesaver.pl`,
       `/cam.cpp`, `/hunterdavis.pdf`, `/wirelessplusx.rar`,
       `/easyexecute.zip`, `/freememuidemo.zip`, `/rexVM.zip`,
