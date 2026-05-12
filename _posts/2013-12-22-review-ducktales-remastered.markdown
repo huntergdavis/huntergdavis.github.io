@@ -8,6 +8,8 @@ tags:
 - games
 - nes
 - steam
+series: game-reviews-2013
+
 ---
 
 

@@ -9,6 +9,8 @@ tags:
 - kindle
 - live-for-free
 - nook
+series: build-your-own-dcc
+
 ---
 
 

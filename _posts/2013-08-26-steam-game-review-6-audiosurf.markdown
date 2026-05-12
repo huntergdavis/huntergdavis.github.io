@@ -8,6 +8,8 @@ tags:
 - game
 - games
 - steam
+series: game-reviews-2013
+
 ---
 
 

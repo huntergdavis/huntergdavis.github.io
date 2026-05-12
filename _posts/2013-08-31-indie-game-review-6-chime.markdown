@@ -7,6 +7,8 @@ tags:
 - audio
 - game
 - games
+series: game-reviews-2013
+
 ---
 
 

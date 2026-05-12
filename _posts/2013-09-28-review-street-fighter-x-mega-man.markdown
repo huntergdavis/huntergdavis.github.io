@@ -7,6 +7,8 @@ tags:
 - game
 - games
 - nes
+series: game-reviews-2013
+
 ---
 
 

@@ -7,6 +7,8 @@ tags:
 - emulation
 - game
 - games
+series: game-reviews-2013
+
 ---
 
 

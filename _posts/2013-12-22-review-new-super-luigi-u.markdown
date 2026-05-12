@@ -8,6 +8,8 @@ tags:
 - games
 - nintendo
 - wii
+series: game-reviews-2013
+
 ---
 
 

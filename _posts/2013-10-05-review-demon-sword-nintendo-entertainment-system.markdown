@@ -8,6 +8,8 @@ tags:
 - games
 - nes
 - thrift
+series: game-reviews-2013
+
 ---
 
 

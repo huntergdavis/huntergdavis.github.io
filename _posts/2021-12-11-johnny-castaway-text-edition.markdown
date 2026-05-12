@@ -10,6 +10,8 @@ tags:
 - open-source
 - porting
 - shell
+series: johnny-castaway
+
 ---
 <img alt="" src="/content/images/2021/johnny_printer.jpg" width="640">
 I've been enjoying and porting Johnny Castaway to new systems for many years now.  Today though, is the first time I've actually added a fundamentally new feature to Johnny.  

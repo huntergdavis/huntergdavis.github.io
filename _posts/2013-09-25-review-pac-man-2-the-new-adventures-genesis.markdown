@@ -8,6 +8,8 @@ tags:
 - game
 - games
 - thrift
+series: game-reviews-2013
+
 ---
 
 

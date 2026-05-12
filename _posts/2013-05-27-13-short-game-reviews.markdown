@@ -6,6 +6,8 @@ tags:
 - game
 - games
 - personal
+series: game-reviews-2013
+
 ---
 
 

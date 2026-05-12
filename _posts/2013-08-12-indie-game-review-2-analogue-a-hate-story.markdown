@@ -6,6 +6,8 @@ date: '2013-08-12 01:06:48'
 tags:
 - game
 - games
+series: game-reviews-2013
+
 ---
 
 

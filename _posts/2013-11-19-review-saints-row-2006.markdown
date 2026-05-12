@@ -7,6 +7,8 @@ tags:
 - game
 - games
 - xbox
+series: game-reviews-2013
+
 ---
 
 
