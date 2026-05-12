@@ -2671,6 +2671,11 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.89 shipped**: `CollectionPage` JSON-LD
+  on `/archive/` listing the 19 year-archive pages as an
+  `ItemList`. Each individual year page already had its own
+  CollectionPage; this gives the index page proper schema too.
+  Burns down more of the schema-support big-project line.
 - `2026-05-11` — **Phase B.88 shipped**: `CollectionPage` +
   `ItemList` JSON-LD on `/timeline/`. New
   `_includes/jsonld_timeline.html` enumerates all 507 posts as
