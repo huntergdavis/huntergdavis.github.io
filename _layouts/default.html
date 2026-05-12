@@ -48,22 +48,45 @@
       }
       </script>
       <footer class="site-footer" aria-label="Site footer">
-        <ul class="footer-links">
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/public-speaking.html">Leadership and Public Speaking</a></li>
-          <li><a href="/projects/">Projects</a></li>
-          <li><a href="/archive/">Archive</a></li>
-          <li><a href="/timeline/">Timeline</a></li>
-          <li><a href="/tags/">Tags</a></li>
-          <li><a href="/random.html">Random</a></li>
-          <li><a href="/search.html">Search</a></li>
-          <li><a href="/feed.xml">RSS</a></li>
-          <li><a href="/feed-full.xml">RSS (full)</a></li>
-          <li><a href="/sitemap.html">Site Map</a></li>
-          <li><a href="/sitemap.xml">XML Sitemap</a></li>
-          {% if site.links.github %}<li><a href="https://github.com/{{ site.links.github }}" target="_blank" rel="noopener">GitHub</a></li>{% endif %}
-          {% if site.links.email %}<li><a href="mailto:{{ site.links.email }}">Email</a></li>{% endif %}
-        </ul>
+        <nav class="footer-sitemap" aria-label="Site map">
+          <div class="footer-col">
+            <h2>Browse</h2>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/timeline/">Timeline</a></li>
+              <li><a href="/archive/">Archive (by year)</a></li>
+              <li><a href="/tags/">Tags (by topic)</a></li>
+              <li><a href="/projects/">Projects</a></li>
+              <li><a href="/sitemap.html">Full site map</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h2>About</h2>
+            <ul>
+              <li><a href="/about.html">My Story</a></li>
+              <li><a href="/public-speaking.html">Leadership &amp; Public Speaking</a></li>
+              <li><a href="/random.html">Random post</a></li>
+              <li><a href="/search.html">Search</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h2>Subscribe</h2>
+            <ul>
+              <li><a href="/feed.xml">RSS (excerpts)</a></li>
+              <li><a href="/feed-full.xml">RSS (full content)</a></li>
+              <li><a href="/sitemap.xml">XML sitemap (for crawlers)</a></li>
+              {% if site.links.email %}<li><a href="mailto:{{ site.links.email }}">Email</a></li>{% endif %}
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h2>Off-site</h2>
+            <ul>
+              {% if site.links.github %}<li><a href="https://github.com/{{ site.links.github }}" rel="me" target="_blank">GitHub</a></li>{% endif %}
+              {% if site.links.linkedin %}<li><a href="{{ site.links.linkedin }}" rel="me" target="_blank">LinkedIn</a></li>{% endif %}
+              {% if site.links.hackernews %}<li><a href="{{ site.links.hackernews }}" rel="me" target="_blank">Hacker News</a></li>{% endif %}
+            </ul>
+          </div>
+        </nav>
         <p class="footer-credit">&copy;&nbsp;{% if site.start_year %}{{ site.start_year }}&ndash;{% endif %}{{ site.time | date: "%Y" }} {{ site.name }} &middot; <small>Powered by <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a></small></p>
         <div class="h-card site-author" hidden>
           <a class="p-name u-url" href="{{ '/' | absolute_url }}">{{ site.author | default: site.name }}</a>

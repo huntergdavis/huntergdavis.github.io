@@ -9,6 +9,7 @@
 @import 'anims';
 @import 'monokai';
 @import 'year_spine';
+@import 'latest_dispatch';
 @import 'dark';
 
 html{
@@ -714,8 +715,33 @@ article{
 	}
 }
 
+// Body width cap — keeps long-form prose readable (65ch ~= 600-700px).
+// Scoped to the post layout's e-content section so home cards and
+// page layouts are unaffected.
+.post .h-entry > section.e-content {
+	max-width: 65ch;
+	margin-left: auto;
+	margin-right: auto;
+
+	// Media (images, embeds, code blocks, tables) can break the cap
+	// so they don't get arbitrarily narrowed.
+	img,
+	figure,
+	pre,
+	table,
+	iframe,
+	video {
+		max-width: 100%;
+	}
+	// Wide-by-intent figure with class="bleed" gets to extend out
+	&  .bleed {
+		max-width: none;
+	}
+}
+
 .same-year,
 .same-project,
+.same-series,
 .related-posts{
 	margin-top: 1em;
 	padding: 0.75em 0;
@@ -729,7 +755,7 @@ article{
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
 	}
-	ul{
+	ul, ol{
 		list-style: none;
 		padding: 0;
 		margin: 0;
@@ -737,6 +763,12 @@ article{
 	li{
 		margin-bottom: 0.25em;
 		font-size: 0.9em;
+	}
+	time{
+		font-variant-numeric: tabular-nums;
+		color: #777;
+		font-size: 0.85em;
+		margin-right: 0.25em;
 	}
 	a{
 		color: #0B5485;
@@ -851,23 +883,37 @@ article{
 
 .site-footer{
 	border-top: 1px solid #ccc;
-	padding: 1em $padding-left;
-	text-align: center;
+	padding: 1.5em $padding-left 1em;
 	color: #555;
+	text-align: left;
 
-	.footer-links{
-		list-style: none;
-		padding: 0;
-		margin: 0 0 0.5em 0;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 0.25em 1em;
+	.footer-sitemap{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		gap: 1.5em 2em;
+		max-width: 1100px;
+		margin: 0 auto 1em;
 		font-size: 0.9em;
 
-		li{
-			display: inline;
+		h2{
+			font-size: 0.7em;
+			font-weight: 700;
+			margin: 0 0 0.5em;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			color: #444;
 		}
+
+		ul{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		li{
+			margin-bottom: 0.25em;
+		}
+
 		a{
 			color: #0B5485;
 			text-decoration: none;
@@ -880,8 +926,12 @@ article{
 	}
 
 	.footer-credit{
-		margin: 0.5em 0 0 0;
+		margin: 0.75em auto 0;
+		text-align: center;
 		font-size: 0.85em;
+		border-top: 1px solid #eee;
+		padding-top: 0.75em;
+		max-width: 1100px;
 	}
 }
 

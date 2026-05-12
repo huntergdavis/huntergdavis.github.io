@@ -33,6 +33,23 @@ lastmod: 2014-07-07T16:57:30+05:30
 		</li>{% endfor %}
 	</ol>
 </section>
+{% assign latest = site.posts | first %}
+{% if latest %}
+<section class="latest-dispatch" aria-labelledby="latest-dispatch-heading">
+	<p class="latest-dispatch-label">Latest dispatch &middot; issue n&ordm; {{ site.posts.size }}</p>
+	<h2 class="latest-dispatch-title" id="latest-dispatch-heading"><a href="{{ latest.url }}">{{ latest.title | escape }}</a></h2>
+	<p class="latest-dispatch-meta">
+		<time datetime="{{ latest.date | date: '%Y-%m-%d' }}">{{ latest.date | date: "%B %-d, %Y" }}</time>
+		{% assign _w = latest.content | strip_html | number_of_words %}
+		{% assign _m = _w | plus: 224 | divided_by: 225 %}
+		<span aria-hidden="true">&middot;</span> ~{{ _m }} min read
+	</p>
+	{% assign _ex = latest.excerpt | strip_html | strip %}
+	{% if _ex.size < 80 %}{% assign _ex = latest.content | strip_html | strip | truncatewords: 50 %}{% endif %}
+	<p class="latest-dispatch-excerpt">{{ _ex }}</p>
+	<p class="latest-dispatch-read"><a href="{{ latest.url }}">continue reading &rarr;</a></p>
+</section>
+{% endif %}
 {% assign featured_posts = site.posts | where: "featured", true %}
 {% if featured_posts.size > 0 %}
 <aside class="featured" aria-labelledby="greatest-hits-heading">
@@ -55,7 +72,7 @@ lastmod: 2014-07-07T16:57:30+05:30
 {% endif %}
 <div class="h-feed">
 <data class="p-name" value="{{ site.name }} — recent posts"></data>
-{% for post in paginator.posts %}
+{% for post in paginator.posts %}{% if forloop.first and paginator.page == 1 %}{% continue %}{% endif %}
 <article class="unit whole single-post-excerpt h-entry">
 	<h2 class="p-name"><a class="u-url" href="{{ post.url }}">{{ post.title }}</a></h2>
 	<div class="meta-info">

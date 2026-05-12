@@ -1,0 +1,87 @@
+// Latest-dispatch — magazine-lead treatment for the most recent
+// post on home page 1. Sits between the year-spine and the
+// recent-posts list. Visually distinct from the standard post
+// card so readers don't mistake it for "just another item."
+
+.latest-dispatch {
+	margin: 0 0 1.5em;
+	padding: 1.5em 1.75em;
+	background: var(--c-bg, #fff);
+	border: 1px solid var(--c-border, #ddd);
+	border-left: 4px solid var(--c-brand, #0B5485);
+	border-radius: var(--radius-md, 6px);
+}
+
+.latest-dispatch-label {
+	font-size: 0.72em;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--c-ink-mute, #666);
+	margin: 0 0 0.5em;
+	font-variant-numeric: tabular-nums;
+}
+
+.latest-dispatch-title {
+	font-size: 1.85em;
+	line-height: 1.15;
+	margin: 0 0 0.5em;
+	font-weight: 700;
+
+	a {
+		color: var(--c-ink-strong, #222);
+		text-decoration: none;
+		border-bottom: 2px solid transparent;
+		transition: border-color 180ms;
+
+		&:hover, &:focus {
+			color: var(--c-brand, #0B5485);
+			border-bottom-color: var(--c-cyan, #1AC9DB);
+		}
+	}
+}
+
+.latest-dispatch-meta {
+	font-size: 0.85em;
+	color: var(--c-ink-mute, #666);
+	margin: 0 0 0.85em;
+	font-variant-numeric: tabular-nums;
+}
+
+.latest-dispatch-excerpt {
+	font-size: 1.05em;
+	line-height: 1.55;
+	color: var(--c-ink, #333);
+	margin: 0 0 0.85em;
+	max-width: 65ch;
+}
+
+.latest-dispatch-read {
+	margin: 0;
+	font-weight: 600;
+
+	a {
+		color: var(--c-brand, #0B5485);
+		text-decoration: none;
+
+		&:hover, &:focus {
+			color: var(--c-brand-2, #149797);
+			text-decoration: underline;
+		}
+	}
+}
+
+@media (max-width: 568px) {
+	.latest-dispatch {
+		padding: 1.1em 1em;
+	}
+	.latest-dispatch-title {
+		font-size: 1.45em;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.latest-dispatch-title a {
+		transition: none;
+	}
+}

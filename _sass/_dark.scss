@@ -114,6 +114,33 @@
 		color: #aab2bd;
 		border-top-color: #2a323d !important;
 	}
+	.site-footer .footer-sitemap h2 {
+		color: #d9dee4 !important;
+	}
+	.site-footer .footer-credit {
+		border-top-color: #2a323d !important;
+	}
+
+	// Latest dispatch
+	.latest-dispatch {
+		background: #1a2129 !important;
+		border-color: #2a323d !important;
+		border-left-color: #4ddbe5 !important;
+	}
+	.latest-dispatch-title a {
+		color: #d9dee4 !important;
+	}
+	.latest-dispatch-title a:hover,
+	.latest-dispatch-title a:focus {
+		color: #4ddbe5 !important;
+	}
+
+	// Year spine
+	.year-spine {
+		background: #1a2129 !important;
+		border-color: #2a323d !important;
+	}
+	.year-spine-title { color: #d9dee4 !important; }
 }
 
 @media (prefers-color-scheme: dark) {

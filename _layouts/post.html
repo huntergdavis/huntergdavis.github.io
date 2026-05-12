@@ -58,6 +58,15 @@ layout: default
 	{% endif %}
 </nav>
 {% endif %}
+{% if page.series %}
+{% capture series_html %}{% assign shown_s = 0 %}{% for p in site.posts reversed %}{% if p.url == page.url %}{% continue %}{% endif %}{% if p.series == page.series %}<li><time datetime="{{ p.date | date: '%Y-%m-%d' }}">{{ p.date | date: "%b %-d, %Y" }}</time> &middot; <a href="{{ p.url }}">{{ p.title | escape }}</a></li>{% assign shown_s = shown_s | plus: 1 %}{% if shown_s >= 12 %}{% break %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
+{% if series_html contains "<li>" %}
+<aside class="same-series">
+	<h3>More in this series &mdash; {{ page.series | replace: '-', ' ' }}</h3>
+	<ol>{{ series_html }}</ol>
+</aside>
+{% endif %}
+{% endif %}
 {% if page.project %}
 {% capture project_html %}{% assign shown_p = 0 %}{% for p in site.posts %}{% if p.url == page.url %}{% continue %}{% endif %}{% if p.project == page.project %}<li><a href="{{ p.url }}">{{ p.title | escape }}</a></li>{% assign shown_p = shown_p | plus: 1 %}{% if shown_p >= 6 %}{% break %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
 {% if project_html contains "<li>" %}
