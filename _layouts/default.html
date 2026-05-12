@@ -26,6 +26,9 @@
         {% if site.links.linkedin %}<link rel="me" href="{{ site.links.linkedin }}">{% endif %}
         {% if site.links.hackernews %}<link rel="me" href="{{ site.links.hackernews }}">{% endif %}
         {% include ssn.html %}
+        <link rel="preload" href="/fonts/vollkorn-latin.woff2" as="font" type="font/woff2" crossorigin>
+        {%- assign _hero = page.image | default: page.featured_img -%}
+        {% if _hero %}<link rel="preload" href="{{ _hero }}" as="image" fetchpriority="high">{% endif %}
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/style.css">
     </head>
