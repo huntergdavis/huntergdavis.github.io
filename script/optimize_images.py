@@ -116,7 +116,16 @@ def inplace_shrink(src: Path, args) -> tuple[bool, int, int]:
     except Exception as e:
         print(f"  ! inplace {src.name}: {e}", file=sys.stderr)
         return (False, before, before)
-    return (True, before, src.stat().st_size)
+    # If the re-encode ended up larger than the original, the original
+    # was already well-compressed — restore from git and report no change.
+    after = src.stat().st_size
+    if after >= before:
+        import subprocess
+        subprocess.run(["git", "checkout", "HEAD", "--", str(src)],
+                       cwd=str(REPO), check=False,
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        return (False, before, before)
+    return (True, before, after)
 
 
 def walk(roots: list[Path]):
