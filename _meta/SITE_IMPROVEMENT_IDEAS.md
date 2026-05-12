@@ -579,7 +579,7 @@ is complete.*
       be picked up by re-running without clobbering.
       `wp_query_ids` deferred to A.15 (query strings can't be
       static stub paths).
-- [~] **A.8** Loose-artifact mirror. From the CSV, fetch each
+- [x] **A.8** Loose-artifact mirror. From the CSV, fetch each
       referenced `/csa.zip`, `/zipit.tgz`, `/snesaver.pl`,
       `/cam.cpp`, `/hunterdavis.pdf`, `/wirelessplusx.rar`,
       `/easyexecute.zip`, `/freememuidemo.zip`, `/rexVM.zip`,
@@ -593,7 +593,20 @@ is complete.*
       `/hackaway2010/*.JPG` and `/discursivelabs/.../*.png`
       sub-trees. `script/mirror_artifacts.py` automates the fetch.
       One commit per logical group (artifacts / hackaway2010 /
-      discursivelabs / loose-root images). **L**
+      discursivelabs / loose-root images). **L** ·
+      *Shipped 2026-05-12 — wayback-exhausted.* 19 artifacts
+      recovered across 5 commits (`7d21eee`, `0fe4b25`,
+      `cd3de21`, `314ac8b`, `a6ccc85`): 8 loose archives, 7
+      loose root images, 2 in `/hackaway2010/`, 2 in
+      `/discursivelabs/images/`. Wayback returned no usable
+      captures for the remaining named items (`csa.zip`,
+      `zipit.tgz`, `wirelessplusx.rar`, `easyexecute.zip`,
+      `freememuidemo.zip`, `rexVM.zip`, `titlescrollcomplete.rar`,
+      `todd-zipit.tgz`, `plainpcmfile.txt`, `allgames.gif`,
+      `famiguts.jpg`); `/discursivewordpress/` only has
+      wp-admin plugin/theme noise. Script stays committed —
+      a quarterly rerun can pick up newly-indexed captures
+      without code changes.
 - [x] **A.9** `/about/<slug>/` collision-safe slug allocation.
       When Phase 7.7 splits `about.md`, the new sub-pages MUST
       use slugs that don't collide with the legacy
