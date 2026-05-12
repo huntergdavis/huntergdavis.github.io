@@ -2671,6 +2671,12 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-12` — **Phase B.90 shipped**: `CollectionPage` JSON-LD
+  on `/tags/` index — lists each tag with `count >= 2` as an
+  `ItemList` entry. Low-count tags fall back to `/search.html?…`
+  which is `noindex` (B.87), so they're correctly omitted from
+  the structured list. Per-tag pages already had their own
+  CollectionPage; this fills the parent index.
 - `2026-05-11` — **Phase B.89 shipped**: `CollectionPage` JSON-LD
   on `/archive/` listing the 19 year-archive pages as an
   `ItemList`. Each individual year page already had its own

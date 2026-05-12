@@ -1,0 +1,28 @@
+{% assign tag_pairs = site.data.tags | sort %}
+{% assign indexed_count = 0 %}
+{% for pair in tag_pairs %}{% if pair[1] >= 2 %}{% assign indexed_count = indexed_count | plus: 1 %}{% endif %}{% endfor %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ page.title | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.name | jsonify }},
+    "url": {{ '/' | absolute_url | jsonify }}
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ indexed_count }},
+    "itemListElement": [{% assign idx = 0 %}{% for pair in tag_pairs %}{% if pair[1] >= 2 %}{% assign idx = idx | plus: 1 %}{% if idx > 1 %},{% endif %}
+      {
+        "@type": "ListItem",
+        "position": {{ idx }},
+        "url": {{ '/tags/' | append: pair[0] | append: '/' | absolute_url | jsonify }},
+        "name": {{ pair[0] | jsonify }}
+      }{% endif %}{% endfor %}
+    ]
+  }
+}
+</script>
