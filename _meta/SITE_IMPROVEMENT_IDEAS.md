@@ -844,12 +844,12 @@ version; the v2 redesign will inherit it.*
       #0B5485 palette. The user can add/remove entries by
       flipping the `featured:` frontmatter field — the home
       page picks up changes automatically.
-- [ ] **B.10** "Currently working on" panel above the home post
+- [-] **B.10** "Currently working on" panel above the home post
       list. One sentence + a link to the most recent project
       announcement post. Pulled from `_data/now.yml` (single-key
       file the user updates manually). Editorial copy is the
       user's prose, never machine-authored. **S**
-- [ ] **B.11** "Start here" panel for new visitors. Three or
+- [-] **B.11** "Start here" panel for new visitors. Three or
       four hand-picked entry points (e.g., My Story, Greatest
       Hits, Latest project). Pulled from `_data/start_here.yml`.
       User supplies the entry-point labels. **S**
@@ -920,7 +920,7 @@ version; the v2 redesign will inherit it.*
       Desktop visual: unchanged. Mobile: tap "Menu" → list
       expands; tap again → collapses. Native browser
       disclosure semantics, screen-reader-friendly, no JS.
-- [ ] **B.17** Header tagline: a short user-authored sentence
+- [-] **B.17** Header tagline: a short user-authored sentence
       next to "HunterDavis.com" that sets identity without the
       current giant centred h1. (User supplies the sentence —
       not machine-authored.) **S**
@@ -1090,7 +1090,7 @@ URL preservation work moved to Phase A above.*
       font-awesome CDN dropped in 0.10), no third-party
       dependency, scales to any size cleanly. Skip if the iconless
       look turns out to read well after 0.10 ships. **S**
-- [ ] **0.17** Optional: add a privacy-respecting analytics
+- [-] **0.17** Optional: add a privacy-respecting analytics
       snippet (Plausible / GoatCounter / self-hosted Umami) if
       the user wants traffic numbers back. Gate on a new
       `site.analytics_url` config key. No Google Analytics —
@@ -1402,38 +1402,38 @@ populate.*
 ### Phase 4 — Project hubs (one commit per project)
 *Each commit populates a project landing page using the new layout.*
 
-- [ ] **4.1** Project hub: **Johnny Castaway** — combines native port,
+- [-] **4.1** Project hub: **Johnny Castaway** — combines native port,
       Dreamcastaway, RetroFW port, text edition, PS1 announcement.
       Adds title art, intro, embedded screenshots, post list, GitHub
       links, history paragraph. **M**
-- [ ] **4.2** Project hub: **Zipit Z2** — 29 posts. Tor/Privoxy
+- [-] **4.2** Project hub: **Zipit Z2** — 29 posts. Tor/Privoxy
       essay, DOSBox + NES emulator videos, X11 + Fluxbox milestone,
       Hackaday/Engadget coverage, downloadable images archive (mirror
       from hunterdavis.com if still hosted there). **M**
-- [ ] **4.3** Project hub: **IM-ME** — 8 posts. Reverse-engineering
+- [-] **4.3** Project hub: **IM-ME** — 8 posts. Reverse-engineering
       story, link to follow-on work by Travis Goodspeed et al. **S**
-- [ ] **4.4** Project hub: **Dockstar / Distributed Compilation
+- [-] **4.4** Project hub: **Dockstar / Distributed Compilation
       Cluster** — 10 posts + book promo + 6-part article series
       reflowed as a "start here" reading order. **M**
-- [ ] **4.5** Project hub: **65 Apps in 60 Days (Sith Challenge)** —
+- [-] **4.5** Project hub: **65 Apps in 60 Days (Sith Challenge)** —
       a chronological grid of all apps with their current Play Store
       status (live / delisted / open-source on GitHub). **M**
-- [ ] **4.6** Project hub: **Source Tree Visualizer**. **S**
-- [ ] **4.7** Project hub: **QuickGrapher** + embedded demo. **S**
-- [ ] **4.8** Project hub: **Books** — Hacks, Live For Free, Build
+- [-] **4.6** Project hub: **Source Tree Visualizer**. **S**
+- [-] **4.7** Project hub: **QuickGrapher** + embedded demo. **S**
+- [-] **4.8** Project hub: **Books** — Hacks, Live For Free, Build
       Your Own DCC, Oubastet's Wager. Cover art, store links (with
       404-status check), excerpt. **M**
-- [ ] **4.9** Project hub: **AI tools era** — Tui000, Labrync, TPS,
+- [-] **4.9** Project hub: **AI tools era** — Tui000, Labrync, TPS,
       Dunking Bird. Frame as "small joys" / agentic experiments. **M**
-- [ ] **4.10** Project hub: **Rhapsody / Napster** — patents, Ford
+- [-] **4.10** Project hub: **Rhapsody / Napster** — patents, Ford
       integration, Fanhattan, Songmatch. Link out to public artifacts
       only. **S**
-- [ ] **4.11** Project hub: **Discursive Labs** — 2010-2011 startup,
+- [-] **4.11** Project hub: **Discursive Labs** — 2010-2011 startup,
       QuickGrapher + Source Tree Visualizer origin. **S**
-- [ ] **4.12** Project hub: **Music & Composition** — AirBeats,
+- [-] **4.12** Project hub: **Music & Composition** — AirBeats,
       composing for kids' games (YouTube embeds), guitar building,
       WUEV DJ era. **M**
-- [ ] **4.13** Project hub: **Reviews** — game/movie reviews surfaced
+- [-] **4.13** Project hub: **Reviews** — game/movie reviews surfaced
       as a flat list with cover art. **S**
 
 ### Phase 5 — Visual / UX redesign
@@ -2087,20 +2087,20 @@ last commit in this phase swaps the default.*
       today — coverage will scale up dramatically once the
       Phase 3 tag-backfill batches land (currently only
       ~84 tags appear on 2+ posts).
-- [ ] **7.4** Build `/now/` page from `_data/now.yml`. **S**
-- [ ] **7.5** Build `/uses/` page from `_data/uses.yml`. **S**
-- [ ] **7.6** Build `/milestones/` timeline page from
+- [-] **7.4** Build `/now/` page from `_data/now.yml`. **S**
+- [-] **7.5** Build `/uses/` page from `_data/uses.yml`. **S**
+- [-] **7.6** Build `/milestones/` timeline page from
       `_data/milestones.yml` (see Appendix A). **M**
-- [ ] **7.7** Split `about.md` into `/about/` (bio overview) +
+- [-] **7.7** Split `about.md` into `/about/` (bio overview) +
       `/about/hacks/`, `/about/programming/`, `/about/writing/`,
       `/about/audio/`, `/about/leadership/`. Each existing anchor
       becomes a real heading on a real page; the new `/about/` index
       adds `redirect_from: ["/about.html"]` so the old URL keeps
       resolving. **L**
-- [ ] **7.8** Migrate `public-speaking.md` content into
+- [-] **7.8** Migrate `public-speaking.md` content into
       `/about/leadership/` with
       `redirect_from: ["/public-speaking.html"]`. **S**
-- [ ] **7.9** New search UX: instant results below the input, filter
+- [-] **7.9** New search UX: instant results below the input, filter
       chips for year + tag, keyboard shortcut `/` to focus. **M**
 - [x] **7.10** Convert `<a id='...'>foo</a>` anchors throughout
       `about.md` and `public-speaking.md` to real heading IDs.
@@ -2330,14 +2330,14 @@ last commit in this phase swaps the default.*
       paginated home pages — measured negligible.
 
 ### Phase 8 — Modernize tooling & infrastructure
-- [ ] **8.1** Bump Jekyll to 4.x, update Gemfile + `Gemfile.lock`,
+- [-] **8.1** Bump Jekyll to 4.x, update Gemfile + `Gemfile.lock`,
       validate with `bundle exec jekyll build`. **M**
-- [ ] **8.2** Add `jekyll-feed`, `jekyll-sitemap`, `jekyll-seo-tag`
+- [-] **8.2** Add `jekyll-feed`, `jekyll-sitemap`, `jekyll-seo-tag`
       plugins (replacing hand-rolled equivalents). **M**
-- [ ] **8.3** GitHub Actions: build on push, preview deploy on PR,
+- [-] **8.3** GitHub Actions: build on push, preview deploy on PR,
       run `htmlproofer` and Lighthouse-CI budgets, deploy to GH Pages
       / Netlify on merge to `main`. **L**
-- [ ] **8.4** Add `_redirects` (Netlify / Cloudflare Pages) for
+- [-] **8.4** Add `_redirects` (Netlify / Cloudflare Pages) for
       true 301s on canonical host (`hunterdavis.com` →
       `https://www.hunterdavis.com`), HTTP→HTTPS, optional trailing
       slash policy, and a fallback `/archives/:id  /archives/:id/  301`
@@ -2349,23 +2349,23 @@ last commit in this phase swaps the default.*
       logic.
 - [x] **8.5** Add a service worker that pre-caches the home, the
       latest 5 posts, and core CSS — offline reading. **M**
-- [ ] **8.6** Stretch: spike Eleventy or Astro migration on a branch.
+- [-] **8.6** Stretch: spike Eleventy or Astro migration on a branch.
       Keep Jekyll as canonical until image pipeline + IA features
       reach parity. **L**
 
 ### Phase 9 — Stretch / aspirational
-- [ ] **9.1** Add `giscus` (GitHub-discussions backed) comments on
+- [-] **9.1** Add `giscus` (GitHub-discussions backed) comments on
       selected posts where conversation is wanted. **S**
-- [ ] **9.2** Add a "newsletter" sign-up via Buttondown or similar,
+- [-] **9.2** Add a "newsletter" sign-up via Buttondown or similar,
       sending a monthly digest. **M**
-- [ ] **9.3** Add an offline-friendly RSS reader recommendation
+- [-] **9.3** Add an offline-friendly RSS reader recommendation
       footer. **S**
-- [ ] **9.4** Add a `/feed.json` JSON Feed alongside RSS. **S**
+- [-] **9.4** Add a `/feed.json` JSON Feed alongside RSS. **S**
 - [x] **9.5** Add IndieWeb h-card / h-entry microformats. **S** ·
       *Shipped 2026-05-12.* h-card in footer; h-feed on home;
       h-entry on every <article> with p-name/u-url/dt-published/
       e-content/p-summary/p-category/p-author wiring.
-- [ ] **9.6** Add a "save game" feature: a static page that mirrors
+- [-] **9.6** Add a "save game" feature: a static page that mirrors
       classic downloadable artifacts (csserver-adventure, snesaver,
       etc.) — possibly hosted via GitHub Releases. **M**
 
