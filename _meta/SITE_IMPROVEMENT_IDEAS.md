@@ -2671,6 +2671,13 @@ any public-facing milestone copy until a source is added.
 
 ## Living changelog
 
+- `2026-05-11` — **Phase B.88 shipped**: `CollectionPage` +
+  `ItemList` JSON-LD on `/timeline/`. New
+  `_includes/jsonld_timeline.html` enumerates all 507 posts as
+  `ListItem` entries with position/url/name and
+  `itemListOrder=ItemListOrderDescending`. Burns down the
+  "schema support" big-project line — `/timeline/` is now
+  machine-readable as a content collection.
 - `2026-05-11` — **Phase B.87 shipped**: `/search.html` is now
   `noindex, follow` — query-parameterized results pages
   shouldn't be indexed (frozen state misleads searchers,

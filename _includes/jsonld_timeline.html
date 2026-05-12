@@ -1,0 +1,26 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ page.title | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.name | jsonify }},
+    "url": {{ '/' | absolute_url | jsonify }}
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ site.posts.size }},
+    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+    "itemListElement": [{% for post in site.posts %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "url": {{ post.url | absolute_url | jsonify }},
+        "name": {{ post.title | jsonify }}
+      }{% unless forloop.last %},{% endunless %}{% endfor %}
+    ]
+  }
+}
+</script>

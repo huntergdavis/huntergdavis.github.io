@@ -3,7 +3,7 @@ layout: page
 title: Timeline
 permalink: /timeline/
 ---
-
+{% include jsonld_timeline.html %}
 {% assign by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
 <nav class="timeline-jumpnav" aria-label="Jump to year">
 {% for yr in by_year %}<a href="#{{ yr.name }}">{{ yr.name }}</a>{% endfor %}
