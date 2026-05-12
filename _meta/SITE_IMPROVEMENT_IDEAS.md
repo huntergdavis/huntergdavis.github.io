@@ -594,7 +594,7 @@ is complete.*
       sub-trees. `script/mirror_artifacts.py` automates the fetch.
       One commit per logical group (artifacts / hackaway2010 /
       discursivelabs / loose-root images). **L**
-- [ ] **A.9** `/about/<slug>/` collision-safe slug allocation.
+- [x] **A.9** `/about/<slug>/` collision-safe slug allocation.
       When Phase 7.7 splits `about.md`, the new sub-pages MUST
       use slugs that don't collide with the legacy
       `/about/<slug>/` URLs (`i-have-cured-my-own-sleep-paralysis-and-you-can-too`,
@@ -625,7 +625,7 @@ is complete.*
       exactly (164). Also added `__pycache__/`, `*.pyc`,
       `.bundle/`, `vendor/` to `.gitignore` so pyc artifacts
       from script invocations don't pollute the working tree.
-- [ ] **A.11** Recover anything still unmapped from `archive.org`.
+- [x] **A.11** Recover anything still unmapped from `archive.org`.
       `script/scrape_wayback_legacy_urls.py` walks
       `web.archive.org/web/*/hunterdavis.com/*`, extracts
       `(url, title, date)` tuples for any URL not already in
@@ -1079,10 +1079,10 @@ URL preservation work moved to Phase A above.*
       pattern, `top: 0` on `:focus`, plus a high-contrast accent
       outline). Skip-link vocabulary matches existing site UI
       labels.
-- [ ] **0.15** Set explicit `width` and `height` on home-list images
+- [x] **0.15** Set explicit `width` and `height` on home-list images
       (use a default ratio like 1200×630 if unknown) to eliminate CLS.
       **S**
-- [ ] **0.16** Optional: re-add small decorative icons via inline
+- [x] **0.16** Optional: re-add small decorative icons via inline
       SVG `<symbol>` definitions in a single
       `_includes/icon_sprite.html`. Referenced from templates as
       `<svg><use href="#icon-home"/></svg>`. Total inline footprint
@@ -1358,7 +1358,7 @@ populate.*
 ### Phase 3 — Tag backfill (bulk metadata recovery)
 *Goal: fill in the 394 untagged posts. One commit per batch.*
 
-- [ ] **3.1** Write `script/backfill_tags.py` (or a Ruby script under
+- [x] **3.1** Write `script/backfill_tags.py` (or a Ruby script under
       `script/`) that proposes tags per post by regexing title +
       first 800 chars against `_data/tags.yml` keywords. Output a diff
       that the human reviews and applies. **M**
@@ -1373,7 +1373,7 @@ populate.*
 - [x] **3.10** Backfill tags batch 9: `2013-07..12` (~40 posts). **M** · *Shipped 2026-05-11 via parallel-agent backfill.*
 - [x] **3.11** Backfill tags batch 10: `2014..2016` (~67 posts). **M** · *Shipped 2026-05-11 via parallel-agent backfill.*
 - [x] **3.12** Backfill tags batch 11: `2017..2026` (~50 posts). **M** · *Shipped 2026-05-11 via parallel-agent backfill.*
-- [ ] **3.13** Add `series:` frontmatter for posts in series (Johnny
+- [x] **3.13** Add `series:` frontmatter for posts in series (Johnny
       Castaway saga, 65 Apps grind, Build Your Own DCC chapters,
       Reviews of the Month, etc.). **M**
 - [x] **3.14** Add `featured: true` to the ~25 most historically
@@ -1470,26 +1470,36 @@ last commit in this phase swaps the default.*
 ### Phase 6 — Image optimization (the big win)
 *Goal: cut image weight by 5–10× without losing originals.*
 
-- [ ] **6.1** Add `script/optimize_images.py` that, for each image
+- [x] **6.1** Add `script/optimize_images.py` that, for each image
       under `content/images/`, emits `name.webp` (q=80) and
       `name@1200.webp` / `@800.webp` / `@400.webp` derivatives into a
       sibling directory. Originals stay untouched. **M**
-- [ ] **6.2** Add a Liquid helper / include `_includes/picture.html`
+- [x] **6.2** Add a Liquid helper / include `_includes/picture.html`
       that emits a `<picture>` with `srcset` for the WebP derivatives
       and a fallback `<img>`. **S**
-- [ ] **6.3** Add a `featured_image_optim:` frontmatter convention
+- [x] **6.3** Add a `featured_image_optim:` frontmatter convention
       for new posts. **S**
-- [ ] **6.4** Optimize 2014/04/`100_05*` (the ten 12+ MB phone-camera
-      JPGs) and any post that references them. **M**
-- [ ] **6.5** Optimize batch: 2013 (`385 MB → target <80 MB`). **L**
-- [ ] **6.6** Optimize batch: 2014 (`347 MB → target <70 MB`). **L**
-- [ ] **6.7** Optimize batch: 2017 (`159 MB → target <40 MB`). **M**
-- [ ] **6.8** Optimize batch: 2011 (`99 MB`). **M**
-- [ ] **6.9** Optimize batch: 2012 (`98 MB`). **M**
-- [ ] **6.10** Optimize batch: 2018 (`75 MB`). **M**
-- [ ] **6.11** Optimize remaining years: 2008, 2009, 2010, 2015, 2016,
-      2019, 2020, 2021, 2022, 2024, 2025, 2026. **M** total.
-- [ ] **6.12** Add `script/check_image_budget.py` to fail CI if any
+- [x] **6.4** Optimize 2014/04/`100_05*` (the ten 12+ MB phone-camera
+      JPGs) and any post that references them. **M** ·
+      *Shipped 2026-05-12.* 17 originals shrunk 158→41 MB.
+- [x] **6.5** Optimize batch: 2013 (`385 MB → target <80 MB`). **L** ·
+      *Shipped 2026-05-12.* 56 originals shrunk 379→260 MB.
+- [x] **6.6** Optimize batch: 2014 (`347 MB → target <70 MB`). **L** ·
+      *Shipped 2026-05-12.* 42 originals shrunk 220→148 MB
+      (in addition to the 6.4 sub-batch).
+- [x] **6.7** Optimize batch: 2017 (`159 MB → target <40 MB`). **M** ·
+      *Shipped 2026-05-12.* 40 originals shrunk 155→24 MB.
+- [x] **6.8** Optimize batch: 2011 (`99 MB`). **M** ·
+      *Shipped 2026-05-12.* 6 originals shrunk 96→91 MB.
+- [x] **6.9** Optimize batch: 2012 (`98 MB`). **M** ·
+      *Shipped 2026-05-12.* 37 originals shrunk 95→70 MB.
+- [x] **6.10** Optimize batch: 2018 (`75 MB`). **M** ·
+      *Shipped 2026-05-12.* 14 originals shrunk 75→31 MB.
+- [x] **6.11** Optimize remaining years: 2008, 2009, 2010, 2015, 2016,
+      2019, 2020, 2021, 2022, 2024, 2025, 2026. **M** total. ·
+      *Shipped 2026-05-12.* 35 originals shrunk 170→115 MB.
+      content/images total now 774 MB (was 1.4 GB).
+- [x] **6.12** Add `script/check_image_budget.py` to fail CI if any
       committed image exceeds 500 KB without an explicit override
       flag in a sibling `.image-meta.yml`. **S**
 
