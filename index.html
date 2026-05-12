@@ -19,6 +19,22 @@ lastmod: 2014-07-07T16:57:30+05:30
 })();
 </script>
 {% if paginator.page == 1 %}
+{% assign posts_by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
+{% assign max_year_count = 0 %}
+{% for yr in posts_by_year %}{% if yr.items.size > max_year_count %}{% assign max_year_count = yr.items.size %}{% endif %}{% endfor %}
+<section class="year-spine" aria-labelledby="year-spine-heading">
+	<h2 id="year-spine-heading" class="year-spine-title">19 years, by year</h2>
+	<p class="year-spine-sub">Bar height shows posts that year. Click any year to browse.</p>
+	<ol class="year-spine-bars">
+		{% for yr in posts_by_year %}{% assign pct = yr.items.size | times: 100 | divided_by: max_year_count %}<li>
+			<a href="/archive/{{ yr.name }}/" aria-label="{{ yr.name }}: {{ yr.items.size }} post{% if yr.items.size != 1 %}s{% endif %}">
+				<span class="year-spine-count" aria-hidden="true">{{ yr.items.size }}</span>
+				<span class="year-spine-bar" style="height: {{ pct }}%"></span>
+				<span class="year-spine-year" aria-hidden="true">&rsquo;{{ yr.name | slice: 2, 2 }}</span>
+			</a>
+		</li>{% endfor %}
+	</ol>
+</section>
 {% assign featured_posts = site.posts | where: "featured", true %}
 {% if featured_posts.size > 0 %}
 <aside class="featured" aria-labelledby="greatest-hits-heading">
