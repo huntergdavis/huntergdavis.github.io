@@ -116,10 +116,11 @@ GROUPS = {
 # mirroring each match.  Used in addition to the hand-curated path lists.
 PREFIX_DISCOVERY = {
     "hackaway": ["hunterdavis.com/hackaway2010/"],
-    "discursive": [
-        "hunterdavis.com/discursivelabs/",
-        "hunterdavis.com/discursivewordpress/",
-    ],
+    # discursivewordpress was the wp-admin install path; we deliberately do
+    # not prefix-mirror it because the only referenced files
+    # (slidersbeta2.png, activecompile.png) have no wayback captures, and
+    # the wp-content/plugins/themes assets under it are not referenced.
+    "discursive": ["hunterdavis.com/discursivelabs/"],
 }
 
 
