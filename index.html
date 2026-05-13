@@ -22,7 +22,6 @@ lastmod: 2014-07-07T16:57:30+05:30
 {% assign posts_by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
 <section class="year-spine" aria-labelledby="year-spine-heading">
 	<h2 id="year-spine-heading" class="year-spine-title">19 years, by year</h2>
-	<p class="year-spine-sub">Bar height groups years by output tier — 1-3 posts up to 120+. Click any year to browse.</p>
 	<ol class="year-spine-bars">
 		{% for yr in posts_by_year %}{% assign count = yr.items.size %}{% if count >= 120 %}{% assign h = 100 %}{% assign tier = "peak" %}{% elsif count >= 60 %}{% assign h = 82 %}{% assign tier = "high" %}{% elsif count >= 25 %}{% assign h = 65 %}{% assign tier = "med-high" %}{% elsif count >= 10 %}{% assign h = 50 %}{% assign tier = "med" %}{% elsif count >= 4 %}{% assign h = 36 %}{% assign tier = "low" %}{% else %}{% assign h = 22 %}{% assign tier = "min" %}{% endif %}<li class="year-spine-tier-{{ tier }}">
 			<a href="/archive/{{ yr.name }}/" aria-label="{{ yr.name }}: {{ count }} post{% if count != 1 %}s{% endif %}">
