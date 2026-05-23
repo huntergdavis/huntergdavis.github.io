@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Announcing Johnny Castaway PS1"
-date: '2026-05-15 10:00:00'
+date: '2026-06-15 10:00:00'
 image: "/content/images/2026/johnny6-ps1-date-dream.png"
 tags: [johnnycastaway, sierra, c, assembly, PS1, port]
 ---
@@ -68,11 +68,15 @@ Here's said workflow in action:
 
 ## Getting It Over The Finish Line
 
-This past month, I've actually engaged in an even more aggressive triple-dunking setup. You see, performance and correctness are often at odds with each other. Throw in memory pressure, and you have a real iron triangle situation.  Any change to one affects the other two significantly. My strategy to get this over the finish line was essentially a phased re-prioritization of efforts.  In the beginning, my focus was purely on getting things running at all.  Towards the end of the project, I rotated that iron triangle in phases.  Correctness, then speed, then correctness again.  Once I had all scenes working perfectly, I rotated that triangle and focused on speed.  Once I had the speed optimized for all scenes, I rotated back focused on correctness again.  Bouncing back and forth, regressing stray pixels and timing issues. All the while, my third dunker worked on longevity testing.  The memory pressure side of the triange.  Even a single byte leaked per scene will eventually build up to disaster.  It must run for days, if not weeks on end.  No 26-minute rule this time, no shortcuts. 
+This past couple of months, I've actually engaged in an even more aggressive triple-dunking setup. You see, performance and correctness are often at odds with each other. Throw in memory pressure, and you have a real iron triangle situation.  Any change to one affects the other two significantly. My strategy to get this over the finish line was essentially a phased re-prioritization of efforts.  In the beginning, my focus was purely on getting things running at all.  Towards the end of the project, I rotated that iron triangle in phases.  Correctness, then speed, then correctness again.  Once I had all scenes working perfectly, I rotated that triangle and focused on speed.  Once I had the speed optimized for all scenes, I rotated back focused on correctness again.  Bouncing back and forth, regressing stray pixels and timing issues. All the while, my third dunker worked on longevity testing.  The memory pressure side of the triangle.  Even a single byte leaked per scene will eventually build up to disaster.  It must run for days, if not weeks on end.  No 26-minute rule this time, no shortcuts. 
 
 <img src="/content/images/2026/triple-dunking.png" alt="Johnny Castaway PS1 late stage triple dunking screenshot." width="600">
 
-Will this port ever be at the point where I call it 100% perfect?  I don't honestly know.  As I'm drafting this post we're less than 0.3% slow for 20% of the scenes.  A third of a percent. Acceptable?  Probably.  Perfect? No, and I'll continue to refine and update as I get the time.  Maybe someone else will too.  That's my hope with this mountain of documentation and how-tos and regression suites etc etc.  It should be straightforward for anyone with interest to set up a development environment and try something out, and know exactly how that's affected the runtime. Pretty cool, I think. In the meantime, we'll see how close to 100% I get this port for my planned V1 release mid-may. 
+## Further Parallelization And The Pursuit of Perfection 
+
+It was Memorial Day weekend 2026 when I finally got every scene into the 99%+ green speed category.  I had been struggling to get a few animation-heavy scenes over the finish line, and realized I was essentially running the same tests over and over again with small tweaks.  I had parallelized across agents, but I hadn't saturated my local processing ability. Turns out a surface laptop 4 has no trouble running 20 simultaneous headless PS1 emulators for timing runs. So, naturally I wrote a script to generate worktrees in parallel and test small code changes tweaked via a predicate json config. You can see that script and the results in the worktree. 
+
+Will this port ever be at the point where I call it 100% perfect?  I don't honestly know.  As I'm drafting this post we're less than 0.3% slow for 20% of the scenes.  A third of a percent. Acceptable?  Probably.  Perfect? No, and I'll continue to refine and update as I get the time.  Maybe someone else will too.  That's my hope with this mountain of documentation and FAQs and regression suites etc etc.  It should be straightforward for anyone with interest to set up a development environment and try something out, and know exactly how that's affected the runtime. Pretty cool, I think. In the meantime, we'll see how close to 100% I get this port for my planned V1 release mid-may. 
 
 ## Try It Out
 
