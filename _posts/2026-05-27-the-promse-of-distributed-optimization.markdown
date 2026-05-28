@@ -24,7 +24,7 @@ Each part of this flow came from an actual need during development of the Playst
 - **A Finite, Decomposable Problem Set**: Finally, you need a problem set or software architecture that's decomposable.  Otherwise you'll waste effort with everyone re-implementing the same area as folks work to improve the system in parallel. Johnny had 127 unique scenes, each with its own memory profile and asset usage. I suppose it's not a strict requirement but I'm saying this technique is for 'problem sets'
 
 
-Simple parts coming together to deliver on one of the central unmet promises of open source: that everyone can improve software together. For the port I've been working on, you can have a new node up and running in a few minutes with any off-the-shelf agentic model. Perf testing, improvement looping, dockerized headless runs, dockerized cross-compiler and iso builder. Anyone can run, and anyone can contribute.  
+Simple parts coming together to deliver on one of the central promises of open source: that everyone can improve software together. For the port I've been working on, you can have a new node up and running in a few minutes with any off-the-shelf agentic model. Perf testing, improvement looping, dockerized headless runs, dockerized cross-compiler and iso builder. Anyone can run, and anyone can contribute.  
 
 An agent in an infinite refinement loop regressing against micro-optimizations in code and technique using headless docker containers.
 
