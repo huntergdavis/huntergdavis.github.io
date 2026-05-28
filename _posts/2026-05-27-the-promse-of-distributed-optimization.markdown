@@ -28,7 +28,7 @@ Simple parts coming together to deliver on one of the central unmet promises of 
 
 An agent in an infinite refinement loop regressing against micro-optimizations in code and technique using headless docker containers.
 
-<img src="/content/images/2026/dev-environment-2026-05-06-w1600.jpg" alt="The Performance Improvement Log" width="600">
+<img src="/content/images/2026/perflog.png" alt="The Performance Improvement Log" width="600">
 
 All of this runs on an old surface laptop (quite beat up, bought at thrift store), running KDE Neon, remote desktop'd in from my laptops/tablets/etc. A single node in an ever-growing distributed system, each node doing it's part to improve the system.
 
