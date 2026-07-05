@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Announcing Johnny Castaway PS1"
-date: '2026-06-15 10:00:00'
+date: '2026-07-05 10:00:00'
 image: "/content/images/2026/johnny6-ps1-date-dream.png"
 tags: [johnnycastaway, sierra, c, assembly, PS1, port]
 ---
@@ -66,7 +66,7 @@ Here's said workflow in action:
 [Full Version](/content/images/2026/dev-environment-2026-05-06.png)
 
 
-## Getting It Over The Finish Line
+## Getting It Over The Finish Line In An Emulator
 
 This past couple of months, I've actually engaged in an even more aggressive triple-dunking setup. You see, performance and correctness are often at odds with each other. Throw in memory pressure, and you have a real iron triangle situation.  Any change to one affects the other two significantly. My strategy to get this over the finish line was essentially a phased re-prioritization of efforts.  In the beginning, my focus was purely on getting things running at all.  Towards the end of the project, I rotated that iron triangle in phases.  Correctness, then speed, then correctness again.  Once I had all scenes working perfectly, I rotated that triangle and focused on speed.  Once I had the speed optimized for all scenes, I rotated back focused on correctness again.  Bouncing back and forth, regressing stray pixels and timing issues. All the while, my third dunker worked on longevity testing.  The memory pressure side of the triangle.  Even a single byte leaked per scene will eventually build up to disaster.  It must run for days, if not weeks on end.  No 26-minute rule this time, no shortcuts. 
 
@@ -81,7 +81,25 @@ It strikes me that I've over-engineered this one.  Big surprise right, an engine
 
 It was Memorial Day weekend 2026 when I finally got every scene into the 99%+ green speed category.  I had been struggling to get a few animation-heavy scenes over the finish line, and realized I was essentially running the same tests over and over again with small tweaks.  I had parallelized across agents, but I hadn't saturated my local processing ability. Turns out a surface laptop 4 has no trouble running 20 simultaneous headless PS1 emulators for timing runs. So, naturally I wrote a script to generate worktrees in parallel and test small code changes tweaked via a predicate json config. You can see that script and the results in the worktree. 
 
-Will this port ever be at the point where I call it 100% perfect?  I don't honestly know.  As I'm drafting this post we're less than 0.3% slow for 20% of the scenes.  A third of a percent. Acceptable?  Probably.  Perfect? No, and I'll continue to refine and update as I get the time.  Maybe someone else will too.  That's my hope with this mountain of documentation and FAQs and regression suites etc etc.  It should be straightforward for anyone with interest to set up a development environment and try something out, and know exactly how that's affected the runtime. Pretty cool, I think. In the meantime we'll see how close to 100% I get this port for my planned V1 release mid-June. 
+Will this port ever be at the point where I call it 100% perfect?  I don't honestly know.  As I'm drafting this post we're less than 0.3% slow for 20% of the scenes.  A third of a percent. Acceptable?  Probably.  Perfect? No, and I'll continue to refine and update as I get the time.  Maybe someone else will too.  That's my hope with this mountain of documentation and FAQs and regression suites etc etc.  It should be straightforward for anyone with interest to set up a development environment and try something out, and know exactly how that's affected the runtime. Pretty cool, I think. In the meantime we'll see how close to 100% I get this port for my planned V1 release mid-June. (Update from July, read on!)
+
+## Real Hardware, Real Problems
+
+The first week of July 2026 I was ready to do hardware testing. I picked up a chunky OG PS1 from the local gamestop for 60$ (somehow the cheapest option at the time.) I was determined to soak test Johnny on real hardware... and I did!  The first time a scene loaded it was glorious.  However, there were real problems to fix that didn't manifest on an emulator. 
+
+1. The SPU (audio) init code wasn't working correctly (timing) on the real hardware. 
+2. Text rendering was missing (gpu pipeline and textures). 
+3. Disk read failures regularly froze the game in a stall loop, a very common occurance with a burned CD and 30 year old hardware. 
+4. The scene explorer preview image was garbled and would crash the game after a few previews. 
+5. Some high-memory scenes would have paintover due to memory exhaustion (failure to pre-allocate background swap buffers.)
+6. Read failures during scene loads would cascade as issues in other systems. 
+7. CD spin-up timing different on real hardware, leading to mis-timings.
+
+The truth is, I had designed this with the constraints of the hardware specifications of the PS1 in mind, but not the real world constraints of slowly degrading 30-year old hardware.  I've since hardened the read and retry code significantly.  Hard fails will eventually cause a scene swap or reload, but shouldn't crash the system.  I've got decent performance out of a V1 PS1 and a burned CD launched from tonyhax/unirom boot, that's the floor. Sometime this year I'll try installing an ODE and see if that alleviates all of the read concerns and brings the performance in-line with emulators and FPGAs. Until then, we do what we can with the world we live in. 
+
+Not to say it wasn't fun.  I did enjoy finding measures to alleviate these real world issues.  Those can be the most fun beacuse they tend to be the most interesting problems.  I started this holiday weekend with a stack of 50 blank cds (AZO ink) and they're almost gone: sacrificed to the feiry pit of my burner.  It's been years since I could say that and without reservation it brought me no small amount of joy. This release doesn't mark the end of Johnny on the PS1, but the true beginning.  There's a world of fixes and improvements that could be made, and I've no doubt in a few years LLMs will be able to re-write the janky sprawling per-scene hackfest that is my codebase into something elegant and more performant. Until that time I'll keep chipping away at bugs and small improvements. This project and indeed this past year in total have given me back my love of building things. My next game engine will for sure be on the PS1. 
+
+For now, please enjoy Johnny Castaway on the PS1.  I hope his story touches your heart as it did mine, I hope this gives you a reason to dust off your PS1 again, and I hope this project brings you a moment of quiet joy in this loud crazy world. 
 
 ## Try It Out
 
