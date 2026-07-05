@@ -1,14 +1,14 @@
 ---
 layout: post
 title: 'Steam Game Review #7: Doom (1993)'
-image: http://www.hunterdavis.com/content/images/2013/09/TITLE.png
+image: http://www.hunterdavis.com/content/images/2013/09/doom-title.png
 date: '2013-09-01 16:26:38'
 ---
 
 
 **The year was 1993. The game was Doom.**
 
-[![TITLE](http://www.hunterdavis.com/content/images/2013/09/TITLE-300x198.png)](http://www.hunterdavis.com/content/images/2013/09/TITLE.png)
+[![TITLE](http://www.hunterdavis.com/content/images/2013/09/doom-title-300x198.png)](http://www.hunterdavis.com/content/images/2013/09/doom-title.png)
 
 I was but 12 years old. I had received the shareware diskette of Doom from a gaming magazine, and it was about to change my life.
 
