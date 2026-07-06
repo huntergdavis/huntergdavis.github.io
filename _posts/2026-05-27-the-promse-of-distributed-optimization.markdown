@@ -2,7 +2,7 @@
 layout: post
 title: "The Promise of Distributed Optimization in Software Development"
 date: '2026-05-27 10:00:00'
-image: "/content/images/2026/dev-environment-2026-05-06-w1600.jpg"
+image: "/content/images/2026/perflog.png"
 tags: [johnnycastaway, distributed computing, c, emulation, PS1, port]
 ---
 

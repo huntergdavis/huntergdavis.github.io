@@ -2,7 +2,7 @@
 layout: post
 title: "Announcing Johnny Castaway PS1"
 date: '2026-07-05 10:00:00'
-image: "/content/images/2026/johnny6-ps1-date-dream.png"
+image: "/content/images/2026/johnny1releasedps1.png"
 tags: [johnnycastaway, sierra, c, assembly, PS1, port]
 ---
 
@@ -116,6 +116,8 @@ This is designed to run forever (or as long as your machine can take it), perfec
 
 ## Why Johnny, Really?
 
-Johnny Castaway was the software I couldn't afford on the computer I couldn't afford in 1992.  By the time I had one that could run screensavers, they were far out of vogue. Still, when I was able to I ran Johnny on whatever I could.  The story really resonated with me.  Here's someone trapped (perhaps a parallel to how you feel trapped in poverty), finding a way to have adventures and live life with very limited resources.  Making friends, finding love, and realizing what's really important in life.  By the time he's rescued and back to his programming job, he's dreaming of the place he found happiness, back on that island. The struggle wasn't the only thing he found on the island, he found himself and the way he wanted to live.  That's always stuck with me, and the ending scene where he's happily back on the island, that's powerful. Jeff Tunnell created this little silly screensaver that's also somehow profound. I'm thankful for his efforts, and every port is an homage to the original, and his vision. 
+Johnny Castaway was the software I couldn't afford on the computer I couldn't afford in 1992.  By the time I had one that could run screensavers, they were far out of vogue. Still, when I was able to I ran Johnny on whatever I could.  The story really resonated with me.  Here's someone trapped (perhaps a parallel to how you feel trapped in poverty), finding a way to have adventures and live life with very limited resources.  Making friends, finding love, and realizing what's really important in life.  By the time he's rescued and back to his programming job, he's dreaming of the place he found happiness, back on that island. The struggle wasn't the only thing he found on the island, he found himself and the way he wanted to live.  That's always stuck with me, and the ending scene where he's happily back on the island, that's powerful. Jeff Tunnell created this little silly screensaver that's also somehow profound. I'm thankful for his efforts, and every port is an homage to the original, and his vision.
+
+<img src="/content/images/2026/johnny6-ps1-date-dream.png" alt="Johnny Castaway PS1 dream date scene" width="640">
 
 ---
