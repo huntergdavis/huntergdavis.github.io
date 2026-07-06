@@ -2,6 +2,15 @@
 layout: post
 title: Easy File Split and Join
 date: '2011-06-20 13:35:27'
+redirect_from:
+  - /android-app-easy-file-split-and-join
+  - /android-apps/file-and-network-tools/android-app-easy-file-split-and-join/
+tags:
+- android
+- android-app
+- android-market
+- easy
+- easy-apps
 ---
 
 
@@ -9,9 +18,9 @@ Easy File Split and Join is a fast and free app to split or join files. This is 
 
 UPDATE — Advanced multi-file join has been added! Arbitrarily join any number of different files.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot411-180x300.png "screenshot4")](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot411.png)
+[![](/content/images/2011/06/screenshot411-180x300.png "screenshot4")](/content/images/2011/06/screenshot411.png)
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot1101-180x300.png "screenshot1")](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot1101.png)
+[![](/content/images/2011/06/screenshot1101-180x300.png "screenshot1")](/content/images/2011/06/screenshot1101.png)
 
 Anecdotally, joining a 400 megabyte matroska video file took 50 seconds on my Viewsonic Gtablet.
 

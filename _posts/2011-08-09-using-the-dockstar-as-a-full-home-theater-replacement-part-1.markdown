@@ -2,14 +2,27 @@
 layout: post
 title: Using the Dockstar as a full Home Theater Replacement - Part 1
 date: '2011-08-09 22:12:54'
+tags:
+- arm
+- audio
+- debian
+- dockstar
+- embedded
+- hacking
+- linux
+- network
+- repurposing
+- tutorial
+- vnc
+project: dockstar
 ---
 
 
 As you’re probably already aware if you are reading this, I’ve got a thing for embedded systems. I guess we all do now, what with Android and iPhone tearing up the sales numbers. That said, I’ve never before had the guts to try and replace my aging Sony Dream Theater stereo system that’s hooked up to my beloved record player. Although the sound quality coming off the head unit is quite good (I replaced the speakers long ago with some good ones), it only has two extra inputs and no support for internet streaming or mp3 playback etc. I’d also like to be able to use standard remote controls (Sony HATES standards), Bluetooth devices, cell phones, network control, etc. Although I’m using the Dockstar, this tutorial would generically apply to any Debian (arm or otherwise) system. Read on for the first part in my new walkthrough series entitled “Using the Dockstar as a full Home Theater Replacement”:
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/PICT00081-300x225.jpg "dockstar")](http://66.147.244.180/~hunterda/content/images/2011/08/PICT00081.jpg)
+[![](/content/images/2011/08/PICT00081-300x225.jpg "dockstar")](/content/images/2011/08/PICT00081.jpg)
 
-If you haven’t flashed your Dockstar with Linux yet, check out [Jeff Doozan](http://jeff.doozan.com/debian/)‘s script on it, and my [previous article](http://hunterdavis.com/archives/843) on the subject. I’m going to assume you’re using a base Debian system from here out.
+If you haven’t flashed your Dockstar with Linux yet, check out [Jeff Doozan](http://jeff.doozan.com/debian/)‘s script on it, and my [previous article](/archives/843) on the subject. I’m going to assume you’re using a base Debian system from here out.
 
 **Basic Stereo Support and local file support**
 
@@ -19,7 +32,7 @@ The first step is to set up some basic audio support on your device. If your dev
 apt-get install alsa alsa-utils apmd alsa-oss mpg123 libasound2-plugins git alsa-headers build-essential sudo<br></br>
 nfs-kernel-server nfs-common alsa-base alsaplayer alsaplayer-text alsa-utils libasound2 vlc```
 
-This will pull in some basic media players and the alsa architecture. If your USB audio is like mine, the levels will be off. Edit a file called /etc/asound.conf, and paste [the attached text](http://www.hunterdavis.com/plainpcmfile.txt) This will up the levels. Reboot your system, then immediately open up alsamixer and drop the levels down to 80% each. The right level will take a LOT of down arrow presses, so don’t think that it isn’t working. It’s actually just going through a larger volume level that’s being scaled down to 100% by alsamixer.
+This will pull in some basic media players and the alsa architecture. If your USB audio is like mine, the levels will be off. Edit a file called /etc/asound.conf, and paste [the attached text](/plainpcmfile.txt) This will up the levels. Reboot your system, then immediately open up alsamixer and drop the levels down to 80% each. The right level will take a LOT of down arrow presses, so don’t think that it isn’t working. It’s actually just going through a larger volume level that’s being scaled down to 100% by alsamixer.
 
 **Networked Digital Music**
 
@@ -35,7 +48,7 @@ After a reboot, you should be sharing and seeing your shares from the network in
 
 **RSD Remote Audio Server**
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/vlcncurses1-300x223.png "vlcncurses")](http://66.147.244.180/~hunterda/content/images/2011/08/vlcncurses1.png)
+[![](/content/images/2011/08/vlcncurses1-300x223.png "vlcncurses")](/content/images/2011/08/vlcncurses1.png)
 
 VLC comes with a nice ncurses interface you can use for testing audio playback. Just execute `vlc -I ncurses` from any terminal and you’ll get the ncurses interface. Shift-B gives you a nice file browser ala DOS. At this point you should be able to SSH into your box and play audio files from the command line interface.
 
@@ -49,11 +62,11 @@ From here, give yourself a vnc password by executing `vncpasswd` It’ll ask for
 
 Now on whatever box you’re going to VNC in from, install a VNC viewer. If you’re using windows or another platform which supports java, I recommend the [new beta](http://www.tightvnc.com/ssh-java-vnc-viewer.php) of tightvnc+ssh (java). It’s recent, has built-in ssh tunnelling (which improves both overhead and security), and is cross-platform. Install your client, then connect to your arm box using the password you just created. You’re going to see a plain X desktop with a single console. I first recommend installing aptitude, as it’ll make finding new packages much easier visually.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/vnc1-300x243.png "vnc")](http://66.147.244.180/~hunterda/content/images/2011/08/vnc1.png)
+[![](/content/images/2011/08/vnc1-300x243.png "vnc")](/content/images/2011/08/vnc1.png)
 
 Next I strongly recommend installing a better window manager. [Window Maker](http://windowmaker.org/) is quite good, and I haven’t featured it yet in a hack. I like to rotate through window managers to give em all some love. You can install it with `sudo apt-get install wmaker `
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/betterdesktop1-300x243.png "betterdesktop")](http://66.147.244.180/~hunterda/content/images/2011/08/betterdesktop1.png)
+[![](/content/images/2011/08/betterdesktop1-300x243.png "betterdesktop")](/content/images/2011/08/betterdesktop1.png)
 
 **A Side Note About Conky**
 
@@ -69,15 +82,15 @@ Ok so the biggest issue with the dockstar is it’s limited (128mb) memory. This
 8. Change into the build directory of conky, and execute a `make`
 9. Execute a `sudo make install` this will install conky into the system for user access
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/conkyrunning1-300x241.png "conkyrunning")](http://66.147.244.180/~hunterda/content/images/2011/08/conkyrunning1.png)
+[![](/content/images/2011/08/conkyrunning1-300x241.png "conkyrunning")](/content/images/2011/08/conkyrunning1.png)
 
 <strongheavyweight managers="" playlist=""></strongheavyweight>
 
-Ok, since we know Xmms installs and runs, we may as well see how far we can push it. I set out to see exactly how large a playlist I can add to Audacious (a lightweight xmms2/beep-based media player) without filling up all the memory. Unfortunately Audacious segfaults. So I went about compiling [Beep](http://sourceforge.net/projects/beepmp/) from source, just so I’d have it. The following is therefore optional. This had a few prerequisites, which were taken care of with a `sudo apt-get install libgstreamer-* xorg-dev xserver-xorg-dev sqlite3 libstartup-notification* libgtkmm-2.4-dev libglade2-dev libglademm-2.4-dev libneon27-dev libnotify-dev glibmm* gamin libgamin-dev libmusicbrainz4-dev libtaglib* libsqlite3-dev  libhal-storage-dev libhal-dev<br></br>` Simply extract the Beep source file, execute the classic `./configure && make &&sudo make install` , and you’re good to go. If it fails to compile, it’s because of a reference to an old PRIVATE_ variable in gtk. Simply delete the offending line (103 in widgets/bmp_tooltips.c). You may also need to add `#include <cstdlib></cstdlib>` for any file which complains about memcpy not being defined, or `#include <cstring></cstring>` for any file which complains about strlen. After all that, and quite a bit of time for compilation and linking, everything should compile fine. For the purposes of smooth compilation you may want to [add an extra 512mb swap file](http://www.cyberciti.biz/faq/linux-add-a-swap-file-howto/).
+Ok, since we know Xmms installs and runs, we may as well see how far we can push it. I set out to see exactly how large a playlist I can add to Audacious (a lightweight xmms2/beep-based media player) without filling up all the memory. Unfortunately Audacious segfaults. So I went about compiling [Beep](https://sourceforge.net/projects/beepmp/) from source, just so I’d have it. The following is therefore optional. This had a few prerequisites, which were taken care of with a `sudo apt-get install libgstreamer-* xorg-dev xserver-xorg-dev sqlite3 libstartup-notification* libgtkmm-2.4-dev libglade2-dev libglademm-2.4-dev libneon27-dev libnotify-dev glibmm* gamin libgamin-dev libmusicbrainz4-dev libtaglib* libsqlite3-dev  libhal-storage-dev libhal-dev<br></br>` Simply extract the Beep source file, execute the classic `./configure && make &&sudo make install` , and you’re good to go. If it fails to compile, it’s because of a reference to an old PRIVATE_ variable in gtk. Simply delete the offending line (103 in widgets/bmp_tooltips.c). You may also need to add `#include <cstdlib></cstdlib>` for any file which complains about memcpy not being defined, or `#include <cstring></cstring>` for any file which complains about strlen. After all that, and quite a bit of time for compilation and linking, everything should compile fine. For the purposes of smooth compilation you may want to [add an extra 512mb swap file](http://www.cyberciti.biz/faq/linux-add-a-swap-file-howto/).
 
 After testing out a lot of the lightweight audio players, I was starting to thing VLC was the best option. It is actually a pretty terrific program, even on embedded arm boards. You can literally play a 480p video stream on the arm board, and stream the video over VNC at a reasonable rate. On a whim I decided to use a more heavyweight audio player “banshee”. It actually seemed to fit well into the memory profile, so I pointed it at a 40 gig music share on an nfs drive and told it to “import”. It took awhile (at least an hour, it was late and I passed out. The beauty of a 6 watt arm device is not worrying too much about the carbon offset), and at times about 200 megs of swap, but it finished. And I had a 40gig mp3 collection in a full featured audio player over the network. Not a bad start, but there’s too much processing power in our laptops and mobile devies nowadays to waste it all while an arm box does decoding. Another, (one of many) less memory and processing intensive solution is remote audio playback.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/banshee2-300x242.png "banshee")](http://66.147.244.180/~hunterda/content/images/2011/08/banshee2.png)
+[![](/content/images/2011/08/banshee2-300x242.png "banshee")](/content/images/2011/08/banshee2.png)
 
 **Compiling and Testing rSound **
 
@@ -106,10 +119,10 @@ Download the rSound for windows library files from [here](http://blackbird.usask
 
 In your windows control panel, open up the system panel. Inside the system panel, go to advanced system settings, then click on environment variables. Click “new”, and enter `RSD_SERVER` as the name field, and the IP address of your arm system as the value field. Click “new” again, and enter `RSD_LATENCY` as the name field, and `200ms` as the value field. I chose 200 as my arm box is behind 2 wireless bridges and at least two hops from all my other devices. This tends to incur some network latency, and let’s not even talk about interference. Anyway, reboot your system. When it fires back up, open media player classic and go to the options->output options menu. Select “directsound – rSound networked audio” as the output device.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/rsound1-300x248.png "rsound")](http://66.147.244.180/~hunterda/content/images/2011/08/rsound1.png)
+[![](/content/images/2011/08/rsound1-300x248.png "rsound")](/content/images/2011/08/rsound1.png)
 
 And that’s that. You can now stream sound from most every application on your PC to your arm box. And this is just the beginning. For the time being, the Sony system is still being used as an amplifier, and to switch between signals and control audio. In future articles I’ll talk about adding remote support (bluetooth, wifi, infrared, etc), multiple audio-in and audio-out options, stereo re-mixing, auto-streaming, timers, power control, amplifiers, LCD and video out, and so much more!
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/success1-300x194.png "success")](http://66.147.244.180/~hunterda/content/images/2011/08/success1.png)
+[![](/content/images/2011/08/success1-300x194.png "success")](/content/images/2011/08/success1.png)
 
 

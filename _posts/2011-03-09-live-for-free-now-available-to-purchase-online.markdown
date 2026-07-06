@@ -18,6 +18,6 @@ While I remain hard at work at Discursive Labs during my 9-5 (ok maybe closer to
 
 Update – [Barnes and Nobles product page](http://search.barnesandnoble.com/books/e/2940012269249/?itm=6&USRI=live+for+free) has gone live already
 
-<div class="wp-caption alignnone" id="attachment_806" style="width: 231px">[!["Live For Free cover"](http://66.147.244.180/~hunterda/content/images/2010/11/huntertowel1-225x300.jpg "Live For Free - Front Cover")](http://66.147.244.180/~hunterda/content/images/2010/11/huntertowel1.jpg)This is the title page and cover for my eBook Live For Free
+<div class="wp-caption alignnone" id="attachment_806" style="width: 231px">[!["Live For Free cover"](/content/images/2010/11/huntertowel1-225x300.jpg "Live For Free - Front Cover")](/content/images/2010/11/huntertowel1.jpg)This is the title page and cover for my eBook Live For Free
 
 </div>

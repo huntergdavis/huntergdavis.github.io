@@ -3,6 +3,12 @@ layout: post
 title: Game Boy "Classic"
 image: "/content/images/2018/01/IMG_20171231_202652.jpg"
 date: '2018-01-01 18:18:28'
+tags:
+- build
+- emulation
+- games
+- hacking
+- retro
 ---
 
 

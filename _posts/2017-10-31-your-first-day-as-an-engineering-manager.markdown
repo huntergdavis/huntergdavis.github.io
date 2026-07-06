@@ -3,6 +3,12 @@ layout: post
 title: Your First Day as an Engineering Manager
 image: "/content/images/2017/10/coffee.jpeg"
 date: '2017-10-31 17:54:53'
+tags:
+- engineering-management
+- leadership
+- personal
+featured: true
+featured_group: leadership
 ---
 
 Hey Folks,

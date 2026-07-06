@@ -1,0 +1,140 @@
+# Tag taxonomy — groupings of related tag slugs that are
+# effectively aliases or members of the same family.
+#
+# Schema:
+#   <family-slug>:
+#     canonical: <preferred slug>     # what to show in UI
+#     members:   [<slug>, <slug>, …]  # tags that fold into this family
+#     parent:    <family-slug>        # optional, for nested topics
+#
+# This file is a draft. Consumers (sidebar widget, tag-page header,
+# search-result grouping) can read it via site.data.tags_taxonomy
+# and decide how to surface aliases — e.g. /tags/android/ could show
+# all members of the `android` family combined, with each member
+# listed as "also tagged: …".
+#
+# Family identification rule of thumb: sibling tags that almost
+# always appear together AND describe the same concept get grouped.
+# Tags that describe different facets stay separate (e.g.
+# `programming` and `linux` are both real top-level concepts and
+# should NOT collapse into one).
+
+android:
+  canonical: android
+  members:
+    - android
+    - android-app
+    - android-apps-2
+    - android-game
+    - android-games-2
+    - android-market
+    - app-tag
+
+easy-suite:
+  canonical: easy
+  members:
+    - easy
+    - easy-apps
+    - easy-images
+    - easy-whistle
+  parent: android
+
+whistles:
+  canonical: whistle
+  members:
+    - whistle
+    - whistles
+    - easy-whistle
+  parent: easy-suite
+
+zipit:
+  canonical: zipit-z2
+  members:
+    - zipit
+    - z2
+    - zipit-z2
+
+games:
+  canonical: games
+  members:
+    - games
+    - game
+
+hacks:
+  canonical: hacking
+  members:
+    - hacks
+    - hacks-2
+    - hacking
+    - hack
+
+reviews:
+  canonical: review
+  members:
+    - review
+    - reviews
+
+books:
+  canonical: books
+  members:
+    - books
+    - book
+    - ebook
+
+repurposing:
+  canonical: repurposing
+  members:
+    - repurposing
+    - thrift
+    - cheap
+
+retrofw:
+  canonical: retrofw
+  members:
+    - retrofw
+    - retrofw-port
+
+steam:
+  canonical: steam
+  members:
+    - steam
+    - steam-game-review
+    - steam-game-reviews
+
+build-your-own-dcc:
+  canonical: distributed-compilation
+  members:
+    - dcc
+    - distributed-compilation
+    - distributed-cluster
+    - dockstar
+
+ai-tools-era:
+  canonical: ai
+  members:
+    - ai
+    - tui000
+    - labrync
+    - tps
+    - dunking-bird
+
+career:
+  canonical: career
+  members:
+    - leadership
+    - engineering-manager
+    - hiring
+    - mantra-health
+    - rhapsody
+    - napster
+    - fanhattan
+    - songmatch
+    - mhd
+
+audio:
+  canonical: audio
+  members:
+    - audio
+    - music
+    - composition
+    - airbeats

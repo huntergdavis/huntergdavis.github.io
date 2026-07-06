@@ -2,6 +2,13 @@
 layout: post
 title: Food (and diet) management for the unix geek, a python script
 date: '2008-07-14 15:39:05'
+tags:
+- python
+- linux
+- unix
+- scripts
+- programming
+- body-hacks
 ---
 
 
@@ -23,6 +30,6 @@ echo "-----------------------------------------"<br></br>
 ~/Scripts/DotFoodStatistics.py ~/Desktop/*.food | grep today<br></br>
 echo "-----------------------------------------"<br></br>```
 
-Attached->[python “food processor” diet statistics](http://hunterdavis.com/content/images/2008/07/dotfoodprocessing.py "python “food processor” diet statistics")
+Attached->[python “food processor” diet statistics](/content/images/2008/07/dotfoodprocessing.py "python “food processor” diet statistics")
 
 

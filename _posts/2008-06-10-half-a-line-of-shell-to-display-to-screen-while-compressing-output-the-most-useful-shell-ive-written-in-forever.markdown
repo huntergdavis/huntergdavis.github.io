@@ -3,6 +3,12 @@ layout: post
 title: Half a line of shell to display to screen while compressing output... The most
   useful shell I've written in forever
 date: '2008-06-10 08:11:16'
+tags:
+- linux
+- shell
+- scripts
+- programming
+- unix
 ---
 
 

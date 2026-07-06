@@ -2,12 +2,23 @@
 layout: post
 title: Zipit Z2 - A Wireless TOR and Privoxy router in the palm of your hand
 date: '2008-12-12 11:15:28'
+redirect_from:
+  - /zipit-z2-a-wireless-tor-and-privoxy-router-in-the-palm-of-your-hand/
+project: zipit-z2
+tags:
+- zipit-z2
+- zipit
+- z2
+- arm
+- linux
+- hacking
+- network
 ---
 
 
 So I’ve got a new pet project, the zipit z2. If you don’t know this 50$ handheld is actually a moderately powerful computer. 32 megs of ram, a 2g sd card, and a 300mhz arm processor means I can do quite a bit of interesting stuff (we’ve certainly worked with less!). After doing the prerequisite install of Angstrom linux, I decided to see what it would take to run tor and privoxy on it.
 
-[![Zipit Z2](http://66.147.244.180/~hunterda/content/images/2008/12/zipit1.jpg)](http://66.147.244.180/~hunterda/content/images/2008/12/zipit1.jpg "Zipit Z2")
+[![Zipit Z2](/content/images/2008/12/zipit1.jpg)](/content/images/2008/12/zipit1.jpg "Zipit Z2")
 
 Turns out, not much.
 

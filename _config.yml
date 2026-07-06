@@ -1,38 +1,58 @@
 ##The website title
 name: HunterDavis.com
+##The author's full name — used in <meta name="author">, JSON-LD,
+##and any consumer that wants a human-readable creator name.
+author: Hunter Davis
+##First year of original content on the site. Used in the footer's
+##copyright year-range. Earliest post is 2007-12-19-csserver-adventure.
+start_year: 2007
 ##Markdown processor
 markdown: kramdown
 ##syntax highlighter. change it to rogue
 highlighter: rouge
 
-##define base_url for valid usage in sitemap.xml and robots.txt
-base_url: http://www.hunterdavis.com
-url: http://www.hunterdavis.com
+##canonical site origin — referenced everywhere as site.url
+url: https://hunterdavis.com
+##post URL shape — explicit so it can't drift and break inbound links
+permalink: /:year/:month/:day/:title.html
 sass:
   sass_dir: _sass
   style: :compressed
 paginate: 10
 paginate_path: "page:num"
+##internal-only directories — kept out of _site/ so they don't ship publicly
+exclude:
+  - script
+  - vendor
+  - .bundle
 ##The website description (to be used in meta tags)
 description: The personal blog of Hunter G. Davis
 ##Some frequently used keywords on your website
 keywords: computer, science, hacker, javascript, emulator, gaming, leadership
 
-##define this for disqus comment support
-#disqus: www.hunterdavis.com
-
-##set this to enable google analytics
-#ga_id: 
-#ga_domain: analyticsDomain
-
 ##Some commonly used links
 links:
   email: hunterdavis@hey.com
   github: huntergdavis
+  linkedin: https://www.linkedin.com/in/hunterdavis/
+  hackernews: https://news.ycombinator.com/user?id=huntergdavis
 
 ##put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
 about_image: placeholder.png
 ##comment this if you want full width posts with no sidebar
 sidebar: on
 
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-redirect-from]
+
+## jekyll-compress-html settings (layout-include, no gem)
+## http://jch.penibelst.de/ — runs at build time via _layouts/compress.html.
+## `<pre>` and `<textarea>` whitespace is preserved by the layout itself.
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [development]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]

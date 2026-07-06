@@ -2,15 +2,23 @@
 layout: post
 title: Johnny "Castawine" Up
 date: '2019-12-12 08:33:24'
+project: johnny-castaway
+tags:
+- johnny-castaway
+- open-source
+- personal
+- porting
+featured: true
+featured_group: johnny
 ---
 
 
 It's been about a year since I threw Johnny Castaway up on the web, and I thought it might be time for an update.  
 
-TLDR; [http://www.hunterdavis.com/johnnycastawaywine/](http://www.hunterdavis.com/johnnycastawaywine/) is up and running via Wine in JS, but it's much, much slower than the DosBox version.
+TLDR; [/johnnycastawaywine/](/johnnycastawaywine/) is up and running via Wine in JS, but it's much, much slower than the DosBox version.
 
 
-![](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2019/johnny_many_arms.png)
+![](/content/images/2019/johnny_many_arms.png)
 
 Seeing as how my previous version of Johnny is running a full version of Windows 3.1, the obvious improvement would be remove the need for a full Windows installation within the page. 
 
@@ -26,13 +34,13 @@ As with any project of this nature, it took just a bit of wrangling to get it wo
 
 As you can see from the below screenshots, here's the original Javascript->Dosbox (Dos)->Windows->Johnny stack using 20% CPU and zipping along properly.
 
-![](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2019/johnny_dosbox_20_percent.png)
+![](/content/images/2019/johnny_dosbox_20_percent.png)
 
 And here's the new Javascript->Wine(Windows)->Johnny stack using 25+% CPU and it just feels extremely slow.
 
-![](https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2019/johnny_boxedwine_25_percent.png)
+![](/content/images/2019/johnny_boxedwine_25_percent.png)
 
 The interesting thing about these projects is that with additional work the Wine version would end up being the fastest, but that is very unlikely to occur.  Not due to purely technical reasons, but due to the relative (un)popularity of the boxwine project compared to the massively popular DosBox project.  
 
 See it live:
-[http://www.hunterdavis.com/johnnycastawaywine/](http://www.hunterdavis.com/johnnycastawaywine/)
+[/johnnycastawaywine/](/johnnycastawaywine/)

@@ -3,13 +3,19 @@ layout: post
 title: Announcing Labrync  
 date: '2024-11-16 01:00:24'
 image: "/content/images/2024/earlygame.png"
+tags:
+- ai
+- fun
+- open-source
+- programming
+- python
 ---
 
 Announcing Labrync (like labrynth + ncurses)
 
 Source and download here -> [Labrync](https://github.com/huntergdavis/labrync/)
 
-<img src="/content/images/2024/earlygame.png" width=400>
+<img alt="" src="/content/images/2024/earlygame.png" width=400>
 
 Labrync is a passive or active little console toy. I wanted to play with a few maze exploration algorithms (you can see a bunch in the history).  The color palette is going to change as right now it's a 'hotdog stand' level thing. I thought the concept from onelonecoder was really fun and inspiring and wanted to extend it in some fun ways.  Also ported to python cause why not I guess? 
 

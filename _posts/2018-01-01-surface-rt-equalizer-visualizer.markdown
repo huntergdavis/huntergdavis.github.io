@@ -3,6 +3,11 @@ layout: post
 title: Surface RT Equalizer Visualizer
 image: "/content/images/2018/01/00010IMG_00010_BURST20180101112859-1.jpg"
 date: '2018-01-01 20:07:27'
+tags:
+- audio
+- hacking
+- repurposing
+- windows
 ---
 
 The Surface (non-pro) was an interesting device.  Running windows RT 8.1 and sporting a 720p display, from the outside this was a half-decent productivity tablet.  It came with a fully usable version of Microsoft office, could share peripherals with the (far superior) surface pro, and was priced to sell. Sadly, the locked-down operating system meant the software landscape was barren, the hacking scene was anemic, and the technology quickly became outdated.  

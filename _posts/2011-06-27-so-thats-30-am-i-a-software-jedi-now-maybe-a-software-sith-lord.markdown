@@ -13,6 +13,10 @@ tags:
 - software-sith-lord
 - 30-days
 - 30-android-apps-in-30-days
+redirect_from:
+  - /archives/1640
+featured: true
+featured_group: programming
 ---
 
 
@@ -24,11 +28,11 @@ Today marks an important milestone for me as an Android developer. As I write th
 4. I’m not stopping at 30. While it may not always be 1 per day, I’m hoping I can push out 100 apps before the end of the summer
 5. My code for the apps is not currently open sourced, but I will share any method I have written via email if requested.
 
-<table><tr><td>[![](http://66.147.244.180/~hunterda/content/images/2011/06/lego_star_wars_emperor_palpatine-600-6001-300x300.jpg "angry sith lego logo")](http://66.147.244.180/~hunterda/content/images/2011/06/lego_star_wars_emperor_palpatine-600-6001.jpg)</td><td>[![](http://66.147.244.180/~hunterda/content/images/2011/06/BAFFEA8E-4906-FA99-DB55-36120FC25592wallpaper1-1024x768.jpg "First 30 Apps Icons")](http://66.147.244.180/~hunterda/content/images/2011/06/BAFFEA8E-4906-FA99-DB55-36120FC25592wallpaper1.jpg)</td></tr></table>As such, I’m actually thinking what I completed was a Software Sith Lord Challenge, primarily due to the monetary gain that comes from releasing ad-supported apps. To put it more formally, I think the “Software Sith Lord” challenge should be stated as follows:  
+<table><tr><td>[![](/content/images/2011/06/lego_star_wars_emperor_palpatine-600-6001-300x300.jpg "angry sith lego logo")](/content/images/2011/06/lego_star_wars_emperor_palpatine-600-6001.jpg)</td><td>[![](/content/images/2011/06/BAFFEA8E-4906-FA99-DB55-36120FC25592wallpaper1-1024x768.jpg "First 30 Apps Icons")](/content/images/2011/06/BAFFEA8E-4906-FA99-DB55-36120FC25592wallpaper1.jpg)</td></tr></table>As such, I’m actually thinking what I completed was a Software Sith Lord Challenge, primarily due to the monetary gain that comes from releasing ad-supported apps. To put it more formally, I think the “Software Sith Lord” challenge should be stated as follows:  
 ** 30 revenue-generating apps within 30 days time.**
 
 Despite the “evil” moniker, it’s been an exceptionally positive experience for me so far. I’ve met a couple of other interesting Android developers, made a little money, and mocked up a hundred or so potential apps thus far. It’s also a very positive experience day-to-day from a creative standpoint. The act of releasing a fully qualified app daily out into the world is actually the combination of many little creative acts surrounding your code. Drawing icons, writing blog posts and store pages, framing screen-shots and the like all serve to frame your coding experience on the platform as much as any IDE. It’s all quite rewarding when it comes off well. It doesn’t always come off well of course, but that’s what version 1.1 of your app is for.
 
-After the first couple weeks the real limitation is your ability to generate new ideas for apps. As such the best advice I can give (before the mega reflection article coming up) is to mock up (on paper) three or four apps a day, no matter how silly or complex or out of your range they seem. My [highest revenue generating app](http://hunterdavis.com/android-app-easy-cat-whistle) (by twofold) was written in just under an hour, just to prove my cats could hear the ultrasonic ranges Wikipedia said they could. You never know what’ll be popular. Stay tuned for a detailed day-by-day and project-by-project description of lessons learned, advertising revenues, challenges fought, designs and libraries used, and my overall impressions of Android and (re) learning the Java language in my next Article entitled “My first 30 Android Apps”.
+After the first couple weeks the real limitation is your ability to generate new ideas for apps. As such the best advice I can give (before the mega reflection article coming up) is to mock up (on paper) three or four apps a day, no matter how silly or complex or out of your range they seem. My [highest revenue generating app](/android-app-easy-cat-whistle) (by twofold) was written in just under an hour, just to prove my cats could hear the ultrasonic ranges Wikipedia said they could. You never know what’ll be popular. Stay tuned for a detailed day-by-day and project-by-project description of lessons learned, advertising revenues, challenges fought, designs and libraries used, and my overall impressions of Android and (re) learning the Java language in my next Article entitled “My first 30 Android Apps”.
 
 

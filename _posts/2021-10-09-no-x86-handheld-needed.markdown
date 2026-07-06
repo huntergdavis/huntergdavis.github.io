@@ -2,7 +2,13 @@
 layout: post
 title: No x86 Handheld Needed 
 date: '2021-10-09 08:33:24'
-featured_img: 'https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/pi400beyondgoodandevil.jpg'
+featured_img: '/content/images/2021/pi400beyondgoodandevil.jpg'
+tags:
+- emulation
+- games
+- handheld
+- linux
+- raspberry-pi
 ---
 I was working on a follow-up to the previous article on my x86 handheld, when I stumbled upon a technology that totally superseded it.  
 
@@ -17,11 +23,11 @@ But no, there's no need for that now.  I read about TWISTER OS, a linux distribu
 
 I was way wrong!  Check out this video of The Simpsons: Hit and Run playing full speed (1024x768 resolution) on a raspberry pi 400.  Honestly this is a game changer, and as compatibility rises you can be certain this will get more attention.  
 
-<iframe width="900" height="600" src="https://www.youtube.com/embed/mnX5fogHdoQ" title="Simpsons Hit and Run on the Pi 400" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="900" height="600" src="https://www.youtube-nocookie.com/embed/mnX5fogHdoQ" title="Simpsons Hit and Run on the Pi 400" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I wasn't able to get the windows version of Psychonauts running (at least on the first try), nor Clive Barker's Undying, but I'm going to dig in with lutris configurations and see if I can't get them going.  SimCity 3000 worked like a champ out of the box.  So did Beyond Good and Evil!  
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/pi400simcity3000.jpg" width="640">
+<img alt="" src="/content/images/2021/pi400simcity3000.jpg" width="640">
 
 Then I saw it.  That little Steam icon.  Could it really be, could I really just click Steam, install some games and rock on?
 
@@ -31,7 +37,7 @@ It crashed a few times installing Portal, but I eventually got it installed.  Po
 
 It's about the same as the bay trail devices.  A bit choppy, but playable on low settings. 
 
-<img src="https://github.com/huntergdavis/huntergdavis.github.io/raw/master/content/images/2021/pi400portal.jpg" width="640">
+<img alt="" src="/content/images/2021/pi400portal.jpg" width="640">
 
 I then proceeded to import my GOG.com games into Lutris, and install Prince of Persia.  
 

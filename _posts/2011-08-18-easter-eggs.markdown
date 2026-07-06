@@ -7,6 +7,9 @@ tags:
 - hacks-2
 - nami
 - programs-2
+- fun
+- personal
+- tricks
 ---
 
 

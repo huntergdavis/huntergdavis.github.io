@@ -2,6 +2,12 @@
 layout: post
 title: Quick Pro-Tip, Add a Tablet Holder to Your Laptop Table
 date: '2012-04-25 01:52:17'
+tags:
+- cheap
+- hack
+- hacks-2
+- tablet
+- tips
 ---
 
 
@@ -9,4 +15,4 @@ So you’re sitting around your living room, using your laptop. It’s chugging 
 
 So do what I did, take an old licence plate and bend it into the letter 6. Loop this around the support leg of your stand, cut out a chunk for the power cord, and you’ve got a timely tablet stand to stand the test of table time.
 
-<table><tr><td>[![](http://www.hunterdavis.com/content/images/2012/04/CameraZOOM-20120424182746539-300x225.jpg "Tablet stand in action")](http://www.hunterdavis.com/content/images/2012/04/CameraZOOM-20120424182746539.jpg)</td></tr><tr><td>[![](http://www.hunterdavis.com/content/images/2012/04/CameraZOOM-20120424182821080-300x225.jpg "Tablet stand before action")](http://www.hunterdavis.com/content/images/2012/04/CameraZOOM-20120424182821080.jpg)</td><td>[![](http://www.hunterdavis.com/content/images/2012/04/CameraZOOM-20120424182845555-300x225.jpg "Under the tablet stand")](http://www.hunterdavis.com/content/images/2012/04/CameraZOOM-20120424182845555.jpg)</td></tr></table>
+<table><tr><td>[![](/content/images/2012/04/CameraZOOM-20120424182746539-300x225.jpg "Tablet stand in action")](/content/images/2012/04/CameraZOOM-20120424182746539.jpg)</td></tr><tr><td>[![](/content/images/2012/04/CameraZOOM-20120424182821080-300x225.jpg "Tablet stand before action")](/content/images/2012/04/CameraZOOM-20120424182821080.jpg)</td><td>[![](/content/images/2012/04/CameraZOOM-20120424182845555-300x225.jpg "Under the tablet stand")](/content/images/2012/04/CameraZOOM-20120424182845555.jpg)</td></tr></table>

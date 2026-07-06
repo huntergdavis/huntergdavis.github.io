@@ -7,7 +7,8 @@
         for (var i = 0; i < results.length; i++) {  // Iterate over them and generate html
           var item = store[results[i].ref];
           appendString += '<li><a href="' + item.url + '">(' + item.date + ") " + item.title + '</a>';
-          appendString += '<p>' + item.content.substring(0, 250) + '...</p></li>';
+          var snippet = item.content && item.content.length > 250 ? item.content.substring(0, 250) + '…' : (item.content || '');
+          appendString += '<p>' + snippet + '</p></li>';
         }
   
         searchResults.innerHTML = appendString;
@@ -59,7 +60,8 @@
             for (var i = 0; i < results.length; i++) {  // Iterate over them and generate HTML
                 var item = store[results[i].ref];
                 appendString += '<li><a href="' + item.url + '">(' + item.date + ") " + item.title + '</a>';
-                appendString += '<p>' + item.content.substring(0, 250) + '...</p></li>';
+                var snippet = item.content && item.content.length > 250 ? item.content.substring(0, 250) + '…' : (item.content || '');
+          appendString += '<p>' + snippet + '</p></li>';
             }
     
             searchResults.innerHTML = appendString;
@@ -90,23 +92,22 @@
       var idx = lunr(function () {
         this.field('id');
         this.field('title', { boost: 10 });
-        this.field('author');
-        this.field('category');
+        this.field('tags', { boost: 5 });
         this.field('content');
         this.field('date');
-  
+
         for (var key in window.store) { // Add the JSON we generated from the site content to Lunr.js.
           this.add({
             'id': key,
             'title': window.store[key].title,
-            'author': window.store[key].author,
-            'category': window.store[key].category,
+            'tags': window.store[key].tags,
             'content': window.store[key].content,
             'date' : window.store[key].date,
           });
         }
       });
-  
+
+      var searchTerm = getQuery('query');
       var results = idx.search(searchTerm); // Perform search with Lunr.js
       showResults(results, window.store);
     }
@@ -117,29 +118,23 @@
       var idx = lunr(function () {
         this.field('id');
         this.field('title', { boost: 10 });
-        this.field('author');
-        this.field('category');
+        this.field('tags', { boost: 5 });
         this.field('content');
         this.field('date');
-  
+
         for (var key in window.store) { // Add the JSON we generated from the site content to Lunr.js.
           this.add({
             'id': key,
             'title': window.store[key].title,
-            'author': window.store[key].author,
-            'category': window.store[key].category,
+            'tags': window.store[key].tags,
             'content': window.store[key].content,
             'date' : window.store[key].date,
           });
         }
       });
-  
-      var results = idx.search(searchTerm); // Perform search with Lunr.js
-      showDateResults(results, window.store);        
-    }
 
-    var searchTerm = getQuery('query');
-    if (searchTerm) {
-        searchIsGo()
+      var searchTerm = getQuery('query');
+      var results = idx.search(searchTerm); // Perform search with Lunr.js
+      showDateResults(results, window.store);
     }
   

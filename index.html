@@ -6,34 +6,115 @@ priority: 1.0
 changefreq: weekly
 lastmod: 2014-07-07T16:57:30+05:30
 ---
-{% for post in paginator.posts %}
-<div class="unit whole single-post-excerpt">
-	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<script>
+(function(){
+	var params = new URLSearchParams(location.search);
+	var p = params.get('p');
+	if (p) {
+		var map = { {% for e in site.data.legacy_redirects.wp_query_ids %}{% if e.to != "" %}"{{ e.id }}":"{{ e.to }}",{% endif %}{% endfor %} };
+		if (map[p]) { location.replace(map[p]); return; }
+	}
+	var s = params.get('s');
+	if (s) { location.replace('/search.html?query=' + encodeURIComponent(s)); }
+})();
+</script>
+{% if paginator.page == 1 %}
+{% assign posts_by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
+<section class="year-spine" aria-labelledby="year-spine-heading">
+	<h2 id="year-spine-heading" class="year-spine-title">19 years, by year</h2>
+	<ol class="year-spine-bars">
+		{% for yr in posts_by_year %}{% assign count = yr.items.size %}{% if count >= 120 %}{% assign h = 100 %}{% assign tier = "peak" %}{% elsif count >= 60 %}{% assign h = 82 %}{% assign tier = "high" %}{% elsif count >= 25 %}{% assign h = 65 %}{% assign tier = "med-high" %}{% elsif count >= 10 %}{% assign h = 50 %}{% assign tier = "med" %}{% elsif count >= 4 %}{% assign h = 36 %}{% assign tier = "low" %}{% else %}{% assign h = 22 %}{% assign tier = "min" %}{% endif %}<li class="year-spine-tier-{{ tier }}">
+			<a href="/archive/{{ yr.name }}/" aria-label="{{ yr.name }}: {{ count }} post{% if count != 1 %}s{% endif %}">
+				<span class="year-spine-count" aria-hidden="true">{{ count }}</span>
+				<span class="year-spine-bar" style="height: {{ h }}%"></span>
+				<span class="year-spine-year" aria-hidden="true">&rsquo;{{ yr.name | slice: 2, 2 }}</span>
+			</a>
+		</li>{% endfor %}
+	</ol>
+</section>
+{% assign latest = site.posts | first %}
+{% if latest %}
+<section class="latest-dispatch" aria-labelledby="latest-dispatch-heading">
+	<p class="latest-dispatch-label">Latest dispatch &middot; issue n&ordm; {{ site.posts.size }}</p>
+	<h2 class="latest-dispatch-title" id="latest-dispatch-heading"><a href="{{ latest.url }}">{{ latest.title | escape }}</a></h2>
+	<p class="latest-dispatch-meta">
+		<time datetime="{{ latest.date | date: '%Y-%m-%d' }}">{{ latest.date | date: "%B %-d, %Y" }}</time>
+		{% assign _w = latest.content | strip_html | number_of_words %}
+		{% assign _m = _w | plus: 224 | divided_by: 225 %}
+		<span aria-hidden="true">&middot;</span> ~{{ _m }} min read
+	</p>
+	{% assign _ex = latest.excerpt | strip_html | strip %}
+	{% if _ex.size < 80 %}{% assign _ex = latest.content | strip_html | strip | truncatewords: 50 %}{% endif %}
+	<p class="latest-dispatch-excerpt">{{ _ex }}</p>
+	<p class="latest-dispatch-read"><a href="{{ latest.url }}">continue reading &rarr;</a></p>
+</section>
+{% endif %}
+{% assign featured_posts = site.posts | where: "featured", true %}
+{% if featured_posts.size > 0 %}
+<aside class="featured" aria-labelledby="greatest-hits-heading">
+	<h2 id="greatest-hits-heading">Greatest hits</h2>
+	{% assign group_order = "programming,johnny,leadership" | split: "," %}
+	{% assign group_labels = "Programming and hacking,Johnny Castaway,Leadership" | split: "," %}
+	{% for g in group_order %}
+		{% assign group_posts = featured_posts | where: "featured_group", g | sort: "date" | reverse %}
+		{% if group_posts.size > 0 %}
+		<h3 class="greatest-hits-group">{{ group_labels[forloop.index0] }}</h3>
+		<ul>
+			{% for post in group_posts %}
+			<li><a href="{{ post.url }}">{{ post.title | escape }}</a> <span class="featured-date">— {{ post.date | date: "%b %Y" }}</span></li>
+			{% endfor %}
+		</ul>
+		{% endif %}
+	{% endfor %}
+</aside>
+{% endif %}
+{% endif %}
+<div class="h-feed">
+<data class="p-name" value="{{ site.name }} — recent posts"></data>
+{% for post in paginator.posts %}{% if forloop.first and paginator.page == 1 %}{% continue %}{% endif %}
+<article class="unit whole single-post-excerpt h-entry">
+	<h2 class="p-name"><a class="u-url" href="{{ post.url }}">{{ post.title }}</a></h2>
 	<div class="meta-info">
-		<span class="meta"><time class="timeago postlist-meta" datetime="{{ post.date | date: "%Y-%m-%d" }}"><i class="fa fa-calendar"></i>{{ post.date | date: "%B %-d, %Y" }}</time></span>
-		<img src="{{ post.featured_img }}" width=600 />
-		<img src="{{ post.image }}" width=600 />
+		<span class="meta"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time></span>
+		{% assign card_reading_time = post.content | strip_html | number_of_words | plus: 224 | divided_by: 225 %}
+		<span class="reading-time" title="Estimated reading time at 225 words/minute">~{{ card_reading_time }} min read</span>
+		{% assign hero = post.image | default: post.featured_img %}
+		{% if hero != blank %}
+		{% if forloop.first and paginator.page == 1 %}
+		<img src="{{ hero }}" width="600" height="400" decoding="async" fetchpriority="high" alt="" />
+		{% else %}
+		<img src="{{ hero }}" width="600" height="400" loading="lazy" decoding="async" alt="" />
+		{% endif %}
+		{% endif %}
 		{% if post.tags and post.tags.size > 0 %}
 			<div class="tags">
 				Tagged:
-				{% for tag in post.tags %}
-				<span><i class="fa fa-tag"></i>{{ tag }}</span>
-				{% endfor %}
+				{% for tag in post.tags %}{% assign tag_count = site.data.tags[tag] %}{% if tag_count >= 2 %}
+				<a class="tag-chip" href="/tags/{{ tag }}/">{{ tag }}</a>{% else %}
+				<a class="tag-chip" href="/search.html?query={{ tag | url_encode }}">{{ tag }}</a>{% endif %}{% endfor %}
 			</div>
 		{% endif %}
 	</div>
-	<p class="description">{{ post.excerpt | strip_html}}
-		<h6><a href="{{ post.url }}">Read More...</h6>
-	</p>
-	
-</div>
+	{% assign excerpt_text = post.excerpt | strip_html | strip %}
+	{% if excerpt_text.size < 80 %}{% assign excerpt_text = post.content | strip_html | strip | truncatewords: 40 %}{% endif %}
+	<p class="description p-summary">{{ excerpt_text }}</p>
+	<p class="read-more"><a href="{{ post.url }}">Read more →</a></p>
+
+</article>
 {% endfor %}
-<div class="unit whole paginator">
-	{% if paginator.previous_page %}
-	<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-	{% endif %}
-	<span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-	{% if paginator.next_page %}
-	<a href="{{ paginator.next_page_path }}" class="next">Next</a>
-	{% endif %}
 </div>
+<nav class="unit whole paginator" aria-label="Pagination">
+	{% if paginator.page > 1 %}
+	<a href="/" class="first" aria-label="First page">First</a>
+	{% endif %}
+	{% if paginator.previous_page %}
+	<a href="{{ paginator.previous_page_path }}" class="previous" rel="prev" aria-label="Previous page">Previous</a>
+	{% endif %}
+	<span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+	{% if paginator.next_page %}
+	<a href="{{ paginator.next_page_path }}" class="next" rel="next" aria-label="Next page">Next</a>
+	{% endif %}
+	{% if paginator.page < paginator.total_pages %}
+	<a href="/page{{ paginator.total_pages }}" class="last" aria-label="Last page">Last</a>
+	{% endif %}
+</nav>

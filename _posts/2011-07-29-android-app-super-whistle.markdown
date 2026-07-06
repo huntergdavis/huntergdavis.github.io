@@ -2,6 +2,21 @@
 layout: post
 title: Super Whistle +Android Whistles
 date: '2011-07-29 12:12:51'
+tags:
+- android
+- android-app
+- android-apps-2
+- android-market
+- app-tag
+- apps-tag
+- easy
+- easy-apps
+- easy-whistle
+- whistle
+- whistles
+redirect_from:
+  - /android-app-super-whistle
+  - /android-apps/android-app-super-whistle/
 ---
 
 
@@ -36,7 +51,7 @@ Super Whistle is a fast and effective whistle app for the Android. Culminating t
 
 You can use this app in a myriad of ways, from training your pets to scaring away pests!
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1251-180x300.png "screenshot1")](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1251.png)
+[![](/content/images/2011/07/screenshot1251-180x300.png "screenshot1")](/content/images/2011/07/screenshot1251.png)
 
 You can purchase Super Whistle from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.superwhistle).
 
@@ -44,21 +59,21 @@ Update 4/2012 This is now open source and hosted on GitHub. Check it out at [my 
 
 You can also download any of the old whistles here as well.
 
-- [Easy Bat Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-bat-whistle/)
-- [Easy Cat Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-cat-whistle/)
-- [Easy Cow and Chicken Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-cow-and-chicken-whistle/)
-- [Easy Dog Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-dog-whistle/)
-- [Easy Ferret And ChinChilla Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-ferret-and-chinchilla-whistle/)
-- [Easy Fish And Snake Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-fish-and-snake-whistle/)
-- [Easy Frog and Owl Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-frog-and-owl-whistle/)
-- [Easy Hamster And Gerbil Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-hamster-and-gerbil-whistle/)
-- [Easy Horse and Donkey Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-horse-and-donkey-whistle/)
-- [Easy Mouse And Rat Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-mouse-and-rat-whistle/)
-- [Easy Pest Control](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-pest-control/)
-- [Easy Rabbit And Hedgehog Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-rabbit-and-hedgehog-whistle/)
-- [Easy Raccoon and Opossum Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-raccoon-and-opossum-whistle/)
-- [Easy Reptile Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-reptile-whistle/)
-- [Easy Sheep Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-sheep-whistle/)
-- [Easy Whale and Porpoise Whistle](http://www.hunterdavis.com/android-apps/android-app-super-whistle/android-app-easy-whale-and-porpoise-whistle/)
+- [Easy Bat Whistle](/android-apps/android-app-super-whistle/android-app-easy-bat-whistle/)
+- [Easy Cat Whistle](/android-apps/android-app-super-whistle/android-app-easy-cat-whistle/)
+- [Easy Cow and Chicken Whistle](/android-apps/android-app-super-whistle/android-app-easy-cow-and-chicken-whistle/)
+- [Easy Dog Whistle](/android-apps/android-app-super-whistle/android-app-easy-dog-whistle/)
+- [Easy Ferret And ChinChilla Whistle](/android-apps/android-app-super-whistle/android-app-easy-ferret-and-chinchilla-whistle/)
+- [Easy Fish And Snake Whistle](/android-apps/android-app-super-whistle/android-app-easy-fish-and-snake-whistle/)
+- [Easy Frog and Owl Whistle](/android-apps/android-app-super-whistle/android-app-easy-frog-and-owl-whistle/)
+- [Easy Hamster And Gerbil Whistle](/android-apps/android-app-super-whistle/android-app-easy-hamster-and-gerbil-whistle/)
+- [Easy Horse and Donkey Whistle](/android-apps/android-app-super-whistle/android-app-easy-horse-and-donkey-whistle/)
+- [Easy Mouse And Rat Whistle](/android-apps/android-app-super-whistle/android-app-easy-mouse-and-rat-whistle/)
+- [Easy Pest Control](/android-apps/android-app-super-whistle/android-app-easy-pest-control/)
+- [Easy Rabbit And Hedgehog Whistle](/android-apps/android-app-super-whistle/android-app-easy-rabbit-and-hedgehog-whistle/)
+- [Easy Raccoon and Opossum Whistle](/android-apps/android-app-super-whistle/android-app-easy-raccoon-and-opossum-whistle/)
+- [Easy Reptile Whistle](/android-apps/android-app-super-whistle/android-app-easy-reptile-whistle/)
+- [Easy Sheep Whistle](/android-apps/android-app-super-whistle/android-app-easy-sheep-whistle/)
+- [Easy Whale and Porpoise Whistle](/android-apps/android-app-super-whistle/android-app-easy-whale-and-porpoise-whistle/)
 
 

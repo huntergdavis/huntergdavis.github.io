@@ -1,0 +1,172 @@
+# Reserved top-level subpath names — the names of every public,
+# non-archived repository under github.com/huntergdavis/ as of the
+# regeneration date below.
+#
+# Why this file exists:
+#   This Jekyll site is published to hunterdavis.com via the
+#   user-page repo huntergdavis/huntergdavis.github.io. Any other
+#   repo under huntergdavis/ that has GitHub Pages enabled is
+#   automatically served at hunterdavis.com/<repo-name>/. If the
+#   Jekyll site here ever emitted a top-level path that matched one
+#   of those repo names, the project deploy and the user-page deploy
+#   would collide unpredictably.
+#
+#   This file is the single source of truth for "names this Jekyll
+#   site cannot use as top-level paths." A future build-time check
+#   (Phase A backlog) will read this list and fail the build if any
+#   conflicting top-level path appears in the source tree.
+#
+# How to regenerate:
+#   gh repo list huntergdavis --limit 300 \
+#     --json name,visibility,isArchived \
+#     --jq '[.[] | select(.visibility=="PUBLIC" and .isArchived==false and .name != "huntergdavis.github.io") | .name] | sort_by(. | ascii_downcase) | .[]'
+#
+# Case sensitivity:
+#   GitHub preserves repo-name case. When the build-fail check is
+#   written, do collision detection case-insensitively to match how
+#   most filesystems and browsers interpret URLs.
+#
+# Last regenerated: 2026-05-10
+# Repository count: 135
+#
+# Note: the existing sidebar includes /resume/ and /photo-stream/ as
+# links, but no exact-match repos exist under huntergdavis/ today —
+# the actual deploys are likely Hunter-Davis-impressjs-Resume and
+# photo-stream-static. Those two sidebar links may already 404; track
+# as a separate cleanup item in the planning doc.
+reserved:
+  - 2djsgameboilerplate
+  - AdventureNeverStops
+  - AirBeats
+  - Android_Simple_Game_Audio
+  - AndroidEasyGameUtils
+  - ARWiki
+  - asljs
+  - asteroidminer
+  - AutoRoboIntercom
+  - cantstoptherock
+  - CloudScripts
+  - conkysettings
+  - createGitHubscript
+  - csserver_adventure
+  - Custom_Action_Tap
+  - Custom_Comets
+  - Custom_Onslaught
+  - Custom_Pong
+  - dagger-concept
+  - deck-of-cards
+  - dev_manager_simulator
+  - dunkingbird
+  - Easy_Ambient_Lighting
+  - Easy_Audio_Flash_Cards
+  - Easy_Bat_Whistle
+  - Easy_Black_and_White
+  - Easy_Cat_Whistle
+  - Easy_Cat_Whistle_HD
+  - Easy_Color_Wizard
+  - Easy_Cow_and_Chicken_Whistle
+  - Easy_Decoder_Ring
+  - Easy_Dog_Whistle
+  - Easy_Encrypted_Journal
+  - Easy_Ferret_And_Chinchilla_Whistle
+  - Easy_File_Encrypt
+  - Easy_File_Scramble
+  - Easy_File_Split_And_Join
+  - Easy_Fish_And_Snake_Whistle
+  - Easy_Fractal
+  - Easy_Frog_and_Owl_Whistle
+  - Easy_Hamster_And_Gerbil_Whistle
+  - Easy_Hearing_Age_Test
+  - Easy_Hidden_Notepad
+  - Easy_Horse_and_Donkey_Whistle
+  - Easy_Image_Morph
+  - Easy_Image_Negative
+  - Easy_Image_Splice
+  - Easy_Image_Stamp
+  - Easy_Kitty_Censor
+  - Easy_Lorem_Ipsum
+  - Easy_Mental_Blocks
+  - Easy_Mouse_and_Rat_Whistle
+  - Easy_Multi_Counter
+  - Easy_Packet_Blast
+  - Easy_Pest_Control
+  - Easy_Positive_Audio
+  - Easy_Positive_Feedback
+  - Easy_Rabbit_And_Hedgehog_Whistle
+  - Easy_Raccoon_And_Opossum_Whistle
+  - Easy_Random_Numbers
+  - Easy_Ratings
+  - Easy_Reptile_Whistle
+  - Easy_Sheep_Whistle
+  - Easy_Sound_Board
+  - Easy_Text_Prompter
+  - Easy_Timed_Reboot
+  - Easy_Tone_Dialer
+  - Easy_Unit_Conversion
+  - Easy_Wake_On_Lan_Manager
+  - Easy_Whale_And_Porpoise_Whistle
+  - EasyBluetoothTime
+  - easyexecute
+  - EasyGraphPaper
+  - EasyHashCompare
+  - EasyImageShrink
+  - EasyMD5
+  - EasySideBySideCompare
+  - EasyStatic
+  - EasySymmetryCheck
+  - EasyVisualInventory
+  - file_metadata
+  - finalhe
+  - FiveSeconds
+  - Flash-Javascript-Audio-Bridge
+  - GBA_Calorie_Counter
+  - Hunter-Davis-impressjs-Resume
+  - hunter_davis_manager_readme
+  - inboxzero
+  - jc_reborn
+  - johnny-castaway-ps1
+  - johnny_dreamcastaway
+  - johnnycastaway
+  - johnnycastawaywine
+  - json_game_list
+  - json_resume
+  - jupyterNotebooks
+  - labrync
+  - LaunchComics
+  - lifesim
+  - linked_out
+  - loopbackHTML5Audio
+  - MakeMeRich
+  - media
+  - oubastets_wager
+  - paint_camera_with_laser_pointer
+  - peoplegrid
+  - photo-stream-static
+  - picocalc
+  - PlayNTestApp
+  - poke
+  - PopThemBalloons
+  - PRESENTATION-The-Math-I-Wish-I-Learned
+  - psyrunner
+  - python_food_statistics
+  - quickgrapher
+  - rhythm
+  - Skillful_Dodge
+  - Skillful_Lines
+  - Skillful_Surround
+  - SNES-SCREENSAVER
+  - Sober_Secrets
+  - solitaire
+  - Source-Tree-Visualizer
+  - streak
+  - Super_Simple_RSS
+  - Super_Whistle
+  - teamplanningsimulator
+  - thc_calculators
+  - The_Grind
+  - thegilamonsters
+  - titlebarscroller
+  - tui000
+  - visual_ping_rebooter
+  - visualizer
+  - webflight

@@ -2,6 +2,11 @@
 layout: post
 title: SSRSS - Super Simple RSS
 date: '2007-12-19 16:27:37'
+tags:
+- open-source
+- programming
+- software
+- feed-tag
 ---
 
 

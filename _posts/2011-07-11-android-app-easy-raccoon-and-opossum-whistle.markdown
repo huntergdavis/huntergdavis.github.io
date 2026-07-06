@@ -2,12 +2,26 @@
 layout: post
 title: Easy Raccoon and Opossum Whistle
 date: '2011-07-11 16:51:27'
+tags:
+- android
+- android-app
+- android-apps-2
+- app-tag
+- easy
+- easy-whistle
+- opossum
+- raccoon
+- whistle
+- whistles
+redirect_from:
+  - /android-app-easy-raccoon-and-opossum-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-raccoon-and-opossum-whistle/
 ---
 
 
 Easy Raccoon And Opossum Whistle is a fast and free app to generate sounds raccoons and opossums can hear. Use this to train your animals…. maybe. You can also use it as a frequency generator.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1121-180x300.png "screenshot1")](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot1121.png)
+[![](/content/images/2011/07/screenshot1121-180x300.png "screenshot1")](/content/images/2011/07/screenshot1121.png)
 
 You can download it from the Android market [here](https://market.android.com/details?id=com.hunterdavis.easyraccoonandopossumwhistle).
 

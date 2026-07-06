@@ -2,6 +2,11 @@
 layout: post
 title: Live Web Strobe Tuner is Live Now!
 date: '2012-03-15 20:30:14'
+tags:
+- audio
+- html
+- javascript
+- news
 ---
 
 
@@ -9,6 +14,6 @@ The culmination of a great deal of hard work has just been pushed live to the we
 
 Check it out on the [official Miso Media Tuner page](http://www.misomedia.com/tuner/).
 
-[![](http://www.hunterdavis.com/content/images/2012/03/Screen-Shot-2012-03-15-at-1.29.07-PM-300x233.png "Miso Web Tuner")](http://www.misomedia.com/tuner/)
+[![](/content/images/2012/03/Screen-Shot-2012-03-15-at-1.29.07-PM-300x233.png "Miso Web Tuner")](http://www.misomedia.com/tuner/)
 
 

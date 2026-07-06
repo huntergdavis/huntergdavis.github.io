@@ -1,0 +1,29 @@
+{%- comment -%}
+Responsive <picture> with WebP srcset + fallback <img>.
+
+Parameters (use Liquid include syntax):
+  src        REQUIRED. Path to source image (e.g. /content/images/2014/04/foo.jpg).
+  alt        REQUIRED. Decorative images: pass alt="".
+  width      Optional. Intrinsic width hint (CLS).
+  height     Optional. Intrinsic height hint (CLS).
+  class      Optional. CSS classes on the <img>.
+  loading    Optional. "lazy" (default) or "eager".
+  fetchpri   Optional. "high" for LCP hero, otherwise omit.
+  sizes      Optional. CSS `sizes` attr; default 100vw.
+
+Assumes script/optimize_images.py has produced:
+  /path/to/foo.webp        full-res
+  /path/to/foo@1200.webp   1200px wide
+  /path/to/foo@800.webp     800px wide
+  /path/to/foo@400.webp     400px wide
+If the derivatives are missing the <img src=…> fallback still works.
+{%- endcomment -%}
+{%- assign _src = include.src -%}
+{%- assign _ext = _src | split: '.' | last -%}
+{%- assign _ext_len = _ext | size | plus: 1 -%}
+{%- assign _base_len = _src | size | minus: _ext_len -%}
+{%- assign _base = _src | slice: 0, _base_len -%}
+<picture>
+  <source type="image/webp" sizes="{{ include.sizes | default: '100vw' }}" srcset="{{ _base }}@400.webp 400w, {{ _base }}@800.webp 800w, {{ _base }}@1200.webp 1200w, {{ _base }}.webp 1600w">
+  <img src="{{ _src }}"{% if include.alt %} alt="{{ include.alt }}"{% else %} alt=""{% endif %}{% if include.width %} width="{{ include.width }}"{% endif %}{% if include.height %} height="{{ include.height }}"{% endif %}{% if include.class %} class="{{ include.class }}"{% endif %} loading="{{ include.loading | default: 'lazy' }}" decoding="async"{% if include.fetchpri %} fetchpriority="{{ include.fetchpri }}"{% endif %}>
+</picture>

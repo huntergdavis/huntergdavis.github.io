@@ -3,6 +3,13 @@ layout: post
 title: Using scilab video processing toolbox and a laser pointer to "paint" a scene
   in realtime.
 date: '2007-12-19 16:36:53'
+tags:
+- linux
+- computer-vision
+- image
+- programming
+- open-source
+- tutorial
 ---
 
 

@@ -3,15 +3,21 @@ layout: post
 title: Announcing TPS  
 date: '2024-12-29 01:00:24'
 image: "/content/images/2024/tps.png"
+tags:
+- fun
+- javascript
+- leadership
+- open-source
+- programming
 ---
 
 Announcing TPS (Team Planning Simulator) (see, it generates TPS Reports ha!)
 
 Source and download here -> [TPS](https://github.com/huntergdavis/teamplanningsimulator/)
 
-And hey, as it's client-side, how about a [Live Version](https://hunterdavis.com/teamplanningsimulator/)
+And hey, as it's client-side, how about a [Live Version](/teamplanningsimulator/)
 
-<img src="/content/images/2024/tps.png" width=400>
+<img alt="" src="/content/images/2024/tps.png" width=400>
 
 Team Planning Simulator Reports (TPS Reports) is a quick report generator to help you plan hiring, throughput, and costs for the year, broken down by quarter and 2-week sprint. And yeah, the name is a riff on the ole T.P.S. report. 
 

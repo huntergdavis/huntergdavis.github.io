@@ -15,11 +15,11 @@ tags:
 
 I had a YouTube comment a while back ask me for the source code to one of my games, simply so that he could figure out how to add AdMob ads to his own game. For some programmers out there, the real barrier of entry to market seems to be a lack of knowledge on how to add AdMob and Adsense to your application, and how to publish it on the Android Market. It can be a bit of a pain, but once you’ve got it down it’s a straightforward process. I’ve written a detailed tutorial for those who’d rather not have to figure all this out from scratch.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/08/moneyall1-300x225.jpg "moneyall")](http://66.147.244.180/~hunterda/content/images/2011/08/moneyall1.jpg)
+[![](/content/images/2011/08/moneyall1-300x225.jpg "moneyall")](/content/images/2011/08/moneyall1.jpg)
 
 Read on for the full 25 step guide to adding ads and publishing your Android app to market.
 
-1. Step 1 is, of course, to actually write an Android app. Check out my [YouTube channel](http://www.youtube.com/huntergdavis) for a nice video to help you along with that.
+1. Step 1 is, of course, to actually write an Android app. Check out my [YouTube channel](https://www.youtube.com/huntergdavis) for a nice video to help you along with that.
 2. Write out a nice description for your app in a word processor. No spelling mistakes! You’ll paste this description all over, so make sure it’s good.
 3. Register a new android app on admob.com. You’ll need the description you wrote above.
 4. On the AdMob site, set admob.com->app name->app settings->google adsense to TRUE. I also like to set a 60 second ad refresh timeout.

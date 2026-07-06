@@ -2,6 +2,10 @@
 layout: post
 title: Picasa web album - living in LA
 date: '2007-12-19 16:07:12'
+tags:
+- personal
+- images
+- google
 ---
 
 

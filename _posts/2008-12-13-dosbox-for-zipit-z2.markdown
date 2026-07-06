@@ -4,10 +4,18 @@ title: Dosbox for Zipit Z2!
 date: '2008-12-13 12:47:44'
 tags:
 - zipit-dosbox-games-hacking-fun-c-source-hack
+- zipit-z2
+- zipit
+- z2
+- emulation
+- games
+- hacking
+- linux
+project: zipit-z2
 ---
 
 
-[![Pools of Radiance](http://66.147.244.180/~hunterda/content/images/2008/12/poolrad1.jpg)](http://66.147.244.180/~hunterda/content/images/2008/12/poolrad1.jpg "Pools of Radiance")
+[![Pools of Radiance](/content/images/2008/12/poolrad1.jpg)](/content/images/2008/12/poolrad1.jpg "Pools of Radiance")
 
 It turns out that with a bit of source code modification, you can get dosbox running quite well on your zipit z2!! This is HUGE for me, as I’m currently reliving my youth with a Pools of Radiance campaign on my z2! For those impatient to try it out, DL the openembedded ipkg and modified source files at the end of this post.
 
@@ -48,6 +56,6 @@ cd poolrad<br></br>
 start```
 
 And that’s that! You can download the updated source code and ipkg files here.  
-[dosbox modified sources and configs](http://hunterdavis.com/content/images/2008/12/dosboxtar.gz "dosbox modified sources and configs")
+[dosbox modified sources and configs](/content/images/2008/12/dosboxtar.gz "dosbox modified sources and configs")
 
 

@@ -2,6 +2,12 @@
 layout: post
 title: Ping Rebooter
 date: '2007-12-19 16:29:14'
+tags:
+- linux
+- open-source
+- network
+- scripts
+- programming
 ---
 
 

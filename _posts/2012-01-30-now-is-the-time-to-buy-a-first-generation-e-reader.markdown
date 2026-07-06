@@ -7,7 +7,11 @@ tags:
 - e-books
 - economics
 - hacks-2
+- kindle
+- live-for-free
+- nook
 - prices
+- tablet
 ---
 
 

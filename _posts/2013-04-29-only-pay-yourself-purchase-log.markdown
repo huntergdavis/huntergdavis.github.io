@@ -2,6 +2,12 @@
 layout: post
 title: Only Pay Yourself Purchase Log
 date: '2013-04-29 15:53:45'
+redirect_from:
+  - /personal-finance/only-pay-yourself-purchase-log/
+tags:
+- economics
+- money
+- personal
 ---
 
 

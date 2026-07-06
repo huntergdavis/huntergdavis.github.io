@@ -2,12 +2,23 @@
 layout: post
 title: Easy Image Splice
 date: '2011-07-07 11:11:46'
+tags:
+- android
+- android-app
+- android-apps-2
+- app-tag
+- easy
+- easy-image-splice
+- easy-images
+- image
+- images
+- image-splice
 ---
 
 
 Easy Image Splice is a fast and free application which allows you to easily splice together two images. Select the splice percentage for each photo and whether to splice horizontally or vertically, and that’s that. You can preview your spliced image or save it out to a file.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot213-180x300.png "screenshot2")](http://66.147.244.180/~hunterda/content/images/2011/07/screenshot213.png)
+[![](/content/images/2011/07/screenshot213-180x300.png "screenshot2")](/content/images/2011/07/screenshot213.png)
 
 You can download Easy Image Splice from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easyimagesplice).
 

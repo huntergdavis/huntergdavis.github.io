@@ -1,37 +1,95 @@
 ---
 layout: default
 ---
+{% include jsonld_post.html %}
+{% include jsonld_breadcrumb_post.html %}
 <div id="home" class="grid post">
 <div class="unit whole">
-<article>
+<nav class="breadcrumb" aria-label="Breadcrumb">
+	<ol>
+		<li><a href="/">Home</a></li>
+		<li><a href="/archive/{{ page.date | date: '%Y' }}/">{{ page.date | date: "%Y" }}</a></li>
+	</ol>
+</nav>
+<article class="h-entry">
+	<a class="u-url" href="{{ page.url | absolute_url }}" hidden>{{ page.title | escape }}</a>
+	<a class="p-author h-card" href="{{ '/' | absolute_url }}" hidden>{{ site.author | default: site.name }}</a>
 	<header>
-		<h1>{{ page.title }}</h1>
+		<h1 class="p-name">{{ page.title }}</h1>
 		<p class="meta">
-			<time class="timeago postlist-meta" datetime="{{ page.date | date: "%Y-%m-%d" }}"><i class="fa fa-calendar"></i>{{ page.date | date: "%B %-d, %Y" }}</time>
-			<a class="sharer facebook" href="#" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+window.location.href,'_blank','height=300,width=600');return false;"><i class="fa fa-facebook"></i></a>
-			{% if site.twitter %}
-				<a class="sharer twitter" href="#" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href+'&via={{ site.twitter }}','_blank','height=300,width=600');return false;"><i class="fa fa-twitter"></i></a>
-			{% else %}
-				<a class="sharer twitter" href="#" target="_blank" onclick="window.open('https://twitter.com/share?url='+window.location.href,'_blank','height=300,width=600');return false;"><i class="fa fa-twitter"></i></a>
-			{% endif %}
+			<time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+			{% assign reading_time = content | strip_html | number_of_words | plus: 224 | divided_by: 225 %}
+			<span class="reading-time" title="Estimated reading time at 225 words/minute">~{{ reading_time }} min read</span>
+			<button type="button" class="sharer copy-link" data-url="{{ page.url | absolute_url }}" data-label-copy="Copy link" data-label-done="Copied" aria-live="polite">Copy link</button>
 		</p>
+		<script src="/js/copy-link.js" defer></script>
 	</header>
-		<img src="{{ page.image }}" >
-	<section>
+	{% assign hero = page.image | default: page.featured_img %}
+	{% if hero != blank %}
+		{% if page.featured_image_optim %}
+			{% include picture.html src=hero alt="" class="post-hero" loading="eager" fetchpri="high" %}
+		{% else %}
+			<img class="post-hero" src="{{ hero }}" alt="" decoding="async" fetchpriority="high">
+		{% endif %}
+	{% endif %}
+	<section class="e-content">
 		{% if page.tags and page.tags.size > 0 %}
 			<div class="tags">
 				Tagged:
-				{% for tag in page.tags %}
-				<span><i class="fa fa-tag"></i>{{ tag }}</span>
-				{% endfor %}
+				{% for tag in page.tags %}{% assign tag_count = site.data.tags[tag] %}{% if tag_count >= 2 %}
+				<a class="tag-chip p-category" href="/tags/{{ tag }}/">{{ tag }}</a>{% else %}
+				<a class="tag-chip p-category" href="/search.html?query={{ tag | url_encode }}">{{ tag }}</a>{% endif %}{% endfor %}
 			</div>
 		{% endif %}
-		{{ content }}
+		{{ content | replace: '<img ', '<img loading="lazy" decoding="async" ' }}
 		{% if page.cardsimulator == true %}
 		<div id="simulator"></div>
     	{% endif %}
 	</section>
 
 </article>
+{% if page.previous or page.next %}
+<nav class="post-nav" aria-label="Adjacent posts">
+	{% if page.previous %}
+	<a class="prev" rel="prev" href="{{ page.previous.url }}"><span class="post-nav-label">Previous</span><span class="post-nav-title">{{ page.previous.title | escape }}</span></a>
+	{% endif %}
+	{% if page.next %}
+	<a class="next" rel="next" href="{{ page.next.url }}"><span class="post-nav-label">Next</span><span class="post-nav-title">{{ page.next.title | escape }}</span></a>
+	{% endif %}
+</nav>
+{% endif %}
+{% if page.series %}
+{% capture series_html %}{% assign shown_s = 0 %}{% for p in site.posts reversed %}{% if p.url == page.url %}{% continue %}{% endif %}{% if p.series == page.series %}<li><time datetime="{{ p.date | date: '%Y-%m-%d' }}">{{ p.date | date: "%b %-d, %Y" }}</time> &middot; <a href="{{ p.url }}">{{ p.title | escape }}</a></li>{% assign shown_s = shown_s | plus: 1 %}{% if shown_s >= 12 %}{% break %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
+{% if series_html contains "<li>" %}
+<aside class="same-series">
+	<h3>More in this series &mdash; {{ page.series | replace: '-', ' ' }}</h3>
+	<ol>{{ series_html }}</ol>
+</aside>
+{% endif %}
+{% endif %}
+{% if page.project %}
+{% capture project_html %}{% assign shown_p = 0 %}{% for p in site.posts %}{% if p.url == page.url %}{% continue %}{% endif %}{% if p.project == page.project %}<li><a href="{{ p.url }}">{{ p.title | escape }}</a></li>{% assign shown_p = shown_p | plus: 1 %}{% if shown_p >= 6 %}{% break %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
+{% if project_html contains "<li>" %}
+<aside class="same-project">
+	<h3>More in this project</h3>
+	<ul>{{ project_html }}</ul>
+</aside>
+{% endif %}
+{% endif %}
+{% assign related = site.data.related[page.url] %}
+{% if related and related.size > 0 %}
+<aside class="related-posts">
+	<h3>Related by tag</h3>
+	<ul>{% for r in related %}<li><a href="{{ r.url }}">{{ r.title | escape }}</a></li>{% endfor %}</ul>
+</aside>
+{% endif %}
+{% assign current_year = page.date | date: "%Y" %}
+{% capture same_year_html %}{% assign shown = 0 %}{% for p in site.posts %}{% if p.url == page.url %}{% continue %}{% endif %}{% assign py = p.date | date: "%Y" %}{% if py == current_year %}<li><a href="{{ p.url }}">{{ p.title | escape }}</a></li>{% assign shown = shown | plus: 1 %}{% if shown >= 5 %}{% break %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
+{% if same_year_html contains "<li>" %}
+<aside class="same-year">
+	<h3>More from {{ current_year }}</h3>
+	<ul>{{ same_year_html }}</ul>
+</aside>
+{% endif %}
 </div>
 </div>

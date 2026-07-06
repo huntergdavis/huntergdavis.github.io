@@ -2,6 +2,10 @@
 layout: post
 title: You are Buying This for Life!
 date: '2013-04-27 15:18:44'
+tags:
+- books
+- live-for-free
+- personal
 ---
 
 

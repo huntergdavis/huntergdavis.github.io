@@ -2,8 +2,15 @@
 layout: post
 title: 'Video: Retrode + Ouya + N64 Controller and Cartridge = Right Out of The Box
   Fun'
-image: http://www.hunterdavis.com/content/images/2013/06/20130608_110801.jpg
+image: /content/images/2013/06/20130608_110801.jpg
 date: '2013-06-08 19:04:10'
+tags:
+- android
+- emulation
+- games
+- n64
+- retrode
+- video
 ---
 
 
@@ -22,10 +29,10 @@ Here’s how I set the whole thing up in just a couple minutes:
 
 That’s that! I’ll be posting up more Retrode + Ouya videos soon but in the meantime, feel confident that you can get your retro game on with your [Ouya](http://www.ouya.tv/) without breaking any laws or downloading any ROMS.
 
-<iframe allowfullscreen="" frameborder="0" height="394" src="http://www.youtube.com/embed/roK3pij8n-o?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube-nocookie.com/embed/roK3pij8n-o?feature=oembed" width="700"></iframe>
 
 And here’s a quick photo of the hardware:
 
-[![20130608_110801](http://www.hunterdavis.com/content/images/2013/06/20130608_110801-300x224.jpg)](http://www.hunterdavis.com/content/images/2013/06/20130608_110801.jpg)
+[![20130608_110801](/content/images/2013/06/20130608_110801-300x224.jpg)](/content/images/2013/06/20130608_110801.jpg)
 
 

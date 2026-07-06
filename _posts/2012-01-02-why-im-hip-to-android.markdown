@@ -2,6 +2,12 @@
 layout: post
 title: Why I'm Hip to Android
 date: '2012-01-02 03:28:06'
+tags:
+- android
+- games
+- ios
+- open-source
+- personal
 ---
 
 

@@ -2,12 +2,19 @@
 layout: post
 title: Easy Image Negative
 date: '2011-06-08 17:34:57'
+tags:
+- android
+- android-app
+- android-market
+- easy
+- easy-images
+- image
 ---
 
 
 Easy Image Negative is an fast, free, and (as always) easy way to view and save the negative of an image.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/devicess11-180x300.png "Screen Shot 1")](http://66.147.244.180/~hunterda/content/images/2011/06/devicess11.png)
+[![](/content/images/2011/06/devicess11-180x300.png "Screen Shot 1")](/content/images/2011/06/devicess11.png)
 
 You can download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easyimagenegative).
 

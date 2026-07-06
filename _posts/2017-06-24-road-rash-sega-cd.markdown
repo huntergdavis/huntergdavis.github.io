@@ -3,6 +3,11 @@ layout: post
 title: Road Rash (Sega CD)
 image: "/content/images/2017/06/Road-Rash--U---Front-.JPG"
 date: '2017-06-24 13:54:42'
+tags:
+- games
+- retro
+- review
+- sega
 ---
 
 When it comes to video games, there are two guaranteed ways to get me interested.  One: have an awesome soundtrack.  Two: competitive racing.  While I never considered myself particularly good at either music or racing, the combination really gets my motor running. That's why games like Rock and Roll Racing, Burnout, GTA, etc hold such high regard for me.  They mix quality racing (or open-world style racing) gameplay with real tunes, real composers.  So when I saw Road Rash, I knew I was in for something special.

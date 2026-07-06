@@ -1,0 +1,21 @@
+# Reserved /about/<slug>/ sub-page slugs for the planned Phase 7.7
+# split of about.md into a multi-page bio. Source of truth for
+# slug allocation — Phase 7.7 must use slugs from this list.
+#
+# Collision rule: these MUST NOT collide with the three legacy
+# /about/<slug>/ URLs already mapped in
+# _data/legacy_redirects.yml -> about_slugs:
+#   - hunter-davis-on-google-plus
+#   - i-have-cured-my-own-sleep-paralysis-and-you-can-too
+#   - ko-nami-code
+# (Those 3 redirect to existing Jekyll posts via jekyll-redirect-from.)
+#
+# The 6 chosen new slugs are short single words; no collision.
+
+reserved:
+  - bio
+  - leadership
+  - hacks
+  - programming
+  - writing
+  - audio

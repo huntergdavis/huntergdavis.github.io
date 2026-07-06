@@ -2,6 +2,11 @@
 layout: post
 title: Apologies for the Site Hiccups!
 date: '2011-12-30 00:41:50'
+tags:
+- hosting
+- news
+- personal
+- update
 ---
 
 

@@ -11,13 +11,16 @@ tags:
 - easy-apps
 - easy-lorem-ipsum
 - publishing
+redirect_from:
+  - /android-app-easy-lorem-ipsum
+  - /android-apps/document-creation-and-information-management/android-app-easy-lorem-ipsum/
 ---
 
 
 Easy Lorem Ipsum is a fast and free application to generate Lorem Ipsum text. This is useful for typesetting, visual layouts, and generating large volumes of text. You can also save it out as a .txt file for later use.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot2141-180x300.png "screenshot2")](http://hunterdavis.com/android-app-easy-lorem-ipsum)
+[![](/content/images/2011/06/screenshot2141-180x300.png "screenshot2")](/android-app-easy-lorem-ipsum)
 
-You can view the permalink page for it [here](http://hunterdavis.com/android-app-easy-lorem-ipsum), or download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easyloremipsum).
+You can view the permalink page for it [here](/android-app-easy-lorem-ipsum), or download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easyloremipsum).
 
 

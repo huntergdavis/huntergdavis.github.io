@@ -1,0 +1,14 @@
+---
+layout: none
+---
+{
+  {% for post in site.posts %}
+    "{{ post.url | slugify }}": {
+      "title": {{ post.title | jsonify }},
+      "tags": {{ post.tags | join: " " | jsonify }},
+      "content": {{ post.excerpt | strip_html | strip_newlines | jsonify }},
+      "url": {{ post.url | jsonify }},
+      "date": {{ post.date | date_to_long_string | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}

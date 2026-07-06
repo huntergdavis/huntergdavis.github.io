@@ -8,13 +8,16 @@ tags:
 - android-apps-2
 - app-tag
 - easy
+redirect_from:
+  - /android-app-easy-cat-whistle
+  - /android-apps/android-app-super-whistle/android-app-easy-cat-whistle/
 ---
 
 
 Easy Cat Whistle is a fast and free app to generate sounds only your cat can hear. Use this to train your cat…. maybe. You can also use it as a frequency generator.
 
-[![](http://66.147.244.180/~hunterda/content/images/2011/06/screenshot171-180x300.png "screenshot1")]()
+[![](/content/images/2011/06/screenshot171-180x300.png "screenshot1")]()
 
-You can see the permalink page [here](http://hunterdavis.com/android-app-easy-cat-whistle), or download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easycatwhistle).
+You can see the permalink page [here](/android-app-easy-cat-whistle), or download it from the Android Market [here](https://market.android.com/details?id=com.hunterdavis.easycatwhistle).
 
 

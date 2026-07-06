@@ -2,6 +2,10 @@
 layout: post
 title: Site Updates Incoming
 date: '2012-04-25 17:43:48'
+tags:
+- news
+- personal
+- update
 ---
 
 

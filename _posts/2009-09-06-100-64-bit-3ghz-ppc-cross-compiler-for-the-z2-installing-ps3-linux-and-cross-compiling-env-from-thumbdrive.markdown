@@ -3,10 +3,21 @@ layout: post
 title: 100$ 64-bit 3ghz ppc cross compiler for the Z2 (Installing PS3 Linux and Cross
   Compiling Env from Thumbdrive)
 date: '2009-09-06 20:26:36'
+project: zipit-z2
+tags:
+- zipit-z2
+- zipit
+- z2
+- ps3
+- linux
+- cross-compiling
+- compiling
+- hacking
+- tutorial
 ---
 
 
-![ps3 ydl logo](http://66.147.244.180/~hunterda/content/images/2009/09/YDL-PS3-Logo1.jpg) I’ve been seeing a lot of PS3s come up on craigslist with broken optical drives, usually around 100$. Figuring this was a great way to free up my quadcore from mundane cross-compiling duty, I set about purchasing one and setting up the Z2 cross compiling environment. It took a bit of doing, but it works. Here’s a step by step guide for setting yours up.
+![ps3 ydl logo](/content/images/2009/09/YDL-PS3-Logo1.jpg) I’ve been seeing a lot of PS3s come up on craigslist with broken optical drives, usually around 100$. Figuring this was a great way to free up my quadcore from mundane cross-compiling duty, I set about purchasing one and setting up the Z2 cross compiling environment. It took a bit of doing, but it works. Here’s a step by step guide for setting yours up.
 
 I picked up an old 40gb ps3 with a broken optical drive for 100$. Everything else I had laying around. Here’s how I got the Z2 environment cross compiling.
 

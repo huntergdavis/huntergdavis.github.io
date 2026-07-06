@@ -3,6 +3,12 @@ layout: post
 title: Announcing Tui000  
 date: '2024-11-07 01:00:24'
 image: "/content/images/2024/play_screen_11_7_2024.png"
+tags:
+- fun
+- open-source
+- personal
+- programming
+- python
 ---
 
 Announcing Tui000 (sounds like 'three thousand') 
@@ -51,5 +57,5 @@ You can find the repository below, including original design docs and screenshot
 [Tui000](https://github.com/huntergdavis/tui000/tree/main)
 
 Main Graveyard Screen -> 
-<img src="https://github.com/huntergdavis/tui000/raw/main/screenshots/graveyard_like_concept.png" width=400>
-<img src="https://github.com/huntergdavis/tui000/raw/main/concept_art/death_screen.jpg" width=400>
+<img alt="" src="https://github.com/huntergdavis/tui000/raw/main/screenshots/graveyard_like_concept.png" width=400>
+<img alt="" src="https://github.com/huntergdavis/tui000/raw/main/concept_art/death_screen.jpg" width=400>

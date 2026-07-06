@@ -3,6 +3,13 @@ layout: post
 title: Installing scilab and the scilab image and video processing toolbox in ubuntu
   linux.
 date: '2007-12-19 16:36:03'
+tags:
+- linux
+- ubuntu
+- open-source
+- computer-vision
+- image
+- tutorial
 ---
 
 

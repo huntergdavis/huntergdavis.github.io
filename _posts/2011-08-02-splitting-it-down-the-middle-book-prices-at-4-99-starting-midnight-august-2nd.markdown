@@ -3,6 +3,15 @@ layout: post
 title: Splitting It Down The Middle - Book Prices at 4.99 Starting Midnight August
   2nd
 date: '2011-08-02 08:52:38'
+tags:
+- book
+- books
+- ebook
+- ebooks-2
+- live-for-free
+- prices
+- sales
+- smashwords
 ---
 
 

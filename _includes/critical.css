@@ -1,0 +1,41 @@
+/* Above-the-fold styles — inlined into <head> so the title strip,
+   nav, search row and page background paint on the first frame
+   instead of after /css/style.css arrives.
+
+   Keep this file SMALL. Anything not visible in the first viewport
+   belongs in /css/style.scss. */
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;background:#eee}
+body{margin:0;background:#eee;color:#333;font-family:'Vollkorn',Palatino,Times,serif;text-align:left}
+.skip-link{position:absolute;top:-40px;left:0;background:#000;color:#fff;padding:8px 16px;z-index:1000;text-decoration:none;border-radius:0 0 4px 0}
+.skip-link:focus{top:0;outline:2px solid #1AC9DB}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.site-header{background:#eee}
+@media (min-width:569px){.site-header{position:sticky;top:0;z-index:50;box-shadow:0 2px 4px rgba(0,0,0,.05)}}
+.site-title{margin:.25em 0 0;font-size:2.5em;text-align:center;letter-spacing:-0.01em}
+.site-title a{color:#222;text-decoration:none}
+.main-nav{overflow:auto;padding:0;margin:0;background:#333838;text-align:center}
+.main-nav ul{margin:0;padding:0;list-style:none;display:inline-block}
+.main-nav li{position:relative;display:inline-block;padding:0;margin:0}
+.main-nav a{display:block;padding:10px 16px;border-bottom:3px solid transparent;color:#ddd;text-decoration:none}
+.main-nav details>summary{display:none;list-style:none}
+.header-tools{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;margin:.5em auto .75em;max-width:960px;padding:0 5px}
+.header-search{margin:0;flex:1 1 auto;min-width:0;max-width:360px}
+.header-search input[type="search"]{width:100%;padding:6px 10px;font-size:.95em;border:1px solid #ccc;border-radius:3px;background:#fff;color:#333}
+.theme-toggle{border:1px solid #ccc;background:transparent;color:inherit;padding:4px 10px;font-size:.85em;font-family:inherit;cursor:pointer;border-radius:999px;flex:0 0 auto;white-space:nowrap}
+.content{margin-top:1em}
+
+/* Dark skin for the above selectors — keyed off either the user's
+   system preference (when nothing chosen) or the explicit toggle
+   attribute set early by the inline theme script. */
+@media (prefers-color-scheme:dark){
+	html:not([data-theme="light"]),
+	html:not([data-theme="light"]) body{background:#0f1419;color:#d9dee4}
+	html:not([data-theme="light"]) .site-header{background:#1a2129}
+	html:not([data-theme="light"]) .site-title a{color:#d9dee4}
+}
+html[data-theme="dark"],
+html[data-theme="dark"] body{background:#0f1419;color:#d9dee4}
+html[data-theme="dark"] .site-header{background:#1a2129}
+html[data-theme="dark"] .site-title a{color:#d9dee4}

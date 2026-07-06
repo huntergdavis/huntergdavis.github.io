@@ -4,6 +4,10 @@ title: Site Upgrades!
 date: '2010-02-21 11:49:24'
 tags:
 - news-site-personal-update-comments-search
+- news
+- personal
+- announcement
+- update
 ---
 
 

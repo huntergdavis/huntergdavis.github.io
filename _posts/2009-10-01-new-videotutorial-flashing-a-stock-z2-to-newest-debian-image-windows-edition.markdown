@@ -2,20 +2,31 @@
 layout: post
 title: New Video/Tutorial - Flashing a Stock Z2 to Newest Debian Image (Windows edition)
 date: '2009-10-01 22:19:00'
+project: zipit-z2
+tags:
+- zipit-z2
+- zipit
+- z2
+- linux
+- debian
+- hacking
+- video
+- tutorial
+- windows
 ---
 
 
 So you’ve only got a windows machine handy, and you want to flash your Z2 to the newest debian (apt-get! no more cross-compiling!) image with wireless? This video is for you. Full Text after the jump.
 
-<object height="344" width="425"><param name="movie" value="http://www.youtube.com/v/txUFH7uPh7A&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed allowfullscreen="true" allowscriptaccess="always" height="344" src="http://www.youtube.com/v/txUFH7uPh7A&hl=en&fs=1" type="application/x-shockwave-flash" width="425"></embed></object>
+<iframe width="425" height="344" src="https://www.youtube-nocookie.com/embed/txUFH7uPh7A" frameborder="0" allowfullscreen></iframe>
 
 You’ll need
 
 1. Either Aliosa27’s [1gb](http://openzipit.svn.sourceforge.net/viewvc/openzipit/debian/debianZ2-1G-image.rar) or [2gb](http://openzipit.svn.sourceforge.net/viewvc/openzipit/debianZ2-diskimage-2G.rar?revision=36&pathrev=36) disk image posted to the SF page.
 2. [Aliosa27’s latest oe userland image](http://aliosa27.net/projects/zipit2/zipit2-audio+x+mouse.gz)
 3. [phsydiskwrite ](http://m0n0.ch/wall/physdiskwrite.php) (I recommend the GUI version for ease of use)
-4. The [autoflasher script](http://sourceforge.net/projects/openzipit/files/autoflasher/r2/AutoFlasher-r2.zip/download)
-5. (if windows can’t see the fat partition) [Windows ext2 filesystem driver](http://sourceforge.net/projects/ext2fsd/files/Ext2fsd/0.48/Ext2Fsd-0.48.exe/download)
+4. The [autoflasher script](https://sourceforge.net/projects/openzipit/files/autoflasher/r2/AutoFlasher-r2.zip/download)
+5. (if windows can’t see the fat partition) [Windows ext2 filesystem driver](https://sourceforge.net/projects/ext2fsd/files/Ext2fsd/0.48/Ext2Fsd-0.48.exe/download)
 
 Ready?
 

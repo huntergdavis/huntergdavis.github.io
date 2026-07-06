@@ -4,12 +4,19 @@ title: Zipit Z2 New Kernel Update!
 date: '2009-06-20 16:40:59'
 tags:
 - zipit-dosbox-games-hacking-fun-c-source-hack
+- zipit-z2
+- zipit
+- z2
+- linux
+- hacking
+- emulation
+project: zipit-z2
 ---
 
 
 The short story: The flash worked and I’ve got everything working that worked before. The long story?
 
-![wireless+x image running on the z2](http://66.147.244.180/~hunterda/content/images/2009/06/z2angstrom1.jpg "z2angstrom")  
+![wireless+x image running on the z2](/content/images/2009/06/z2angstrom1.jpg "z2angstrom")  
   
  Here’s what I did. This is the new sweetlilmre method  
  1. Headed over to http://sourceforge.net/projects/openzipit and downloaded the autoflasher, and the zipit z2 kernel.bin

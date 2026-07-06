@@ -2,6 +2,11 @@
 layout: post
 title: Apparently people are buying my book on the Apple book store
 date: '2012-01-29 18:50:54'
+tags:
+- books
+- ebook
+- personal
+- sales
 ---
 
 

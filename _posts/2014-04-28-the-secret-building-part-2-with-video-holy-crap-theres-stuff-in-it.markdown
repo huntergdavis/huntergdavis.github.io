@@ -1,18 +1,23 @@
 ---
 layout: post
 title: 'The Secret Building (Part 2 With Video!: Holy Crap There''s Stuff In It!)'
-image: http://www.hunterdavis.com/content/images/2014/04/20140427_142938.jpg
+image: /content/images/2014/04/20140427_142938.jpg
 date: '2014-04-28 01:15:53'
+tags:
+- fun
+- house
+- personal
+- video
 ---
 
 
 Check the video for how it went down.
 
-<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube.com/embed/7VGcAxoeync?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube-nocookie.com/embed/7VGcAxoeync?feature=oembed" width="700"></iframe>
 
 Here’s how it went down if you can’t see the video. I invited some friends and family over, we moved some boxes, cut some more vines, and opened up the secret building!
 
-[![20140427_142938](http://www.hunterdavis.com/content/images/2014/04/20140427_142938-300x225.jpg)](http://www.hunterdavis.com/content/images/2014/04/20140427_142938.jpg)
+[![20140427_142938](/content/images/2014/04/20140427_142938-300x225.jpg)](/content/images/2014/04/20140427_142938.jpg)
 
 The walls were starting to rot (turns out only the foundation is concrete), and there were many spiders. There were no windows. I’ll probably tear it down and build something new on the foundation this summer.
 
@@ -30,6 +35,6 @@ So ok, it’s not gold or silver, but it’s still a pretty sweet find, and a ve
 
 Bonus stinger, we try to get it to start!
 
-<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube.com/embed/LOjfQwyanaM?feature=oembed" width="700"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="394" src="https://www.youtube-nocookie.com/embed/LOjfQwyanaM?feature=oembed" width="700"></iframe>
 
 

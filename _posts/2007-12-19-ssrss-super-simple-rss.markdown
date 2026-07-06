@@ -4,6 +4,9 @@ title: HunterDavis.com version THREE POINT OH!!!
 date: '2007-12-19 16:02:54'
 tags:
 - news-new-site-hunterdaviscom
+- news
+- personal
+- announcement
 ---
 
 

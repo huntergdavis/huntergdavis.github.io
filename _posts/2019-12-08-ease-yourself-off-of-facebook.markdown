@@ -2,6 +2,10 @@
 layout: post
 title: Ease Yourself Off of Facebook This Election Season
 date: '2019-12-08 09:09:09'
+tags:
+- news
+- personal
+- privacy
 ---
 
 Did you know you can temporarily deactivate your Facebook account without losing your Facebook messenger?

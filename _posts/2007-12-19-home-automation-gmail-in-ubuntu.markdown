@@ -2,6 +2,13 @@
 layout: post
 title: Home Automation + Gmail in Ubuntu
 date: '2007-12-19 16:41:21'
+tags:
+- hacking
+- linux
+- automation
+- ubuntu
+- python
+- google
 ---
 
 

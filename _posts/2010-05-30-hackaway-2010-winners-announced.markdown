@@ -19,7 +19,7 @@ tags:
 Thanks again everyone for participating this go round. Using my trusty d-10’s, I rolled 6 dice per prize and took the resulting number modulo the number of contest entries. As you can only win 1 prize, I felt it would be unfair to do them in numeric order of hacks, so I randomized the mapping of dice rolls to hacks. I hope this provides some fairness to the distribution of prizes. The winners will be receiving an email request for their addresses officially very shortly…. but they are ….  
  after the jump!  
  *Update – Packages are shipping out now!  
-![hackaway packages](http://hunterdavis.com/hackaway2010/packages.jpg)
+![hackaway packages](/hackaway2010/packages.jpg)
 
 Sneaky blog tricks! Hailing from around the globe, the winners are:
 

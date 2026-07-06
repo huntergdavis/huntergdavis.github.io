@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<div id="home" class="grid post">
+<div class="unit whole">
+<nav class="breadcrumb" aria-label="Breadcrumb">
+	<ol>
+		<li><a href="/">Home</a></li>
+		<li>Projects</li>
+	</ol>
+</nav>
+<article class="project-hub">
+	<header>
+		<h1>{{ page.title }}</h1>
+		{% if page.tagline %}<p class="project-tagline">{{ page.tagline }}</p>{% endif %}
+		{% if page.years %}<p class="project-years">{{ page.years }}</p>{% endif %}
+	</header>
+	{% assign hero = page.image | default: page.featured_img %}
+	{% if hero != blank %}
+		{% if page.featured_image_optim %}
+			{% include picture.html src=hero alt="" class="project-hero" loading="eager" fetchpri="high" %}
+		{% else %}
+			<img class="project-hero" src="{{ hero }}" alt="" decoding="async" fetchpriority="high">
+		{% endif %}
+	{% endif %}
+	<section class="project-body">
+		{{ content }}
+	</section>
+	{% if page.links %}
+	<section class="project-links" aria-labelledby="project-links-heading">
+		<h2 id="project-links-heading">Links</h2>
+		<ul>
+		{% for link in page.links %}
+			<li><a href="{{ link.url }}"{% if link.external %} rel="noopener" target="_blank"{% endif %}>{{ link.label }}</a>{% if link.note %} — <span class="link-note">{{ link.note }}</span>{% endif %}</li>
+		{% endfor %}
+		</ul>
+	</section>
+	{% endif %}
+	{% if page.posts_tag or page.posts_series %}
+	{% if page.posts_series %}{% assign hub_posts = site.posts | where: "series", page.posts_series %}{% else %}{% assign hub_posts = site.posts | where_exp: "p", "p.tags contains page.posts_tag" %}{% endif %}
+	{% if hub_posts.size > 0 %}
+	<section class="project-posts" aria-labelledby="project-posts-heading">
+		<h2 id="project-posts-heading">Posts</h2>
+		<ul>
+		{% for p in hub_posts %}
+			<li><time datetime="{{ p.date | date: '%Y-%m-%d' }}">{{ p.date | date: "%b %-d, %Y" }}</time> — <a href="{{ p.url }}">{{ p.title | escape }}</a></li>
+		{% endfor %}
+		</ul>
+	</section>
+	{% endif %}
+	{% endif %}
+</article>
+</div>
+</div>

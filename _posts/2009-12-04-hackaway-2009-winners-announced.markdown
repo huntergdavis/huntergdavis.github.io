@@ -2,12 +2,18 @@
 layout: post
 title: Hackaway 2009 Winners Announced!! (Update - Packages Shipped!)
 date: '2009-12-04 18:35:02'
+tags:
+- hackaway
+- hacking
+- winners
+- give-away
+- announcement
 ---
 
 
 *Update In Comments”  
  Using my trusty random number generators, I have randomly selected the winners of each category. No one was excluded and everyone had an equal chance to win. Congratulations to all winners, and all contestants! I think we had a great Hackaway! Emails will go out to all contestants shortly. The winners are:  
-![dnd dice](http://66.147.244.180/~hunterda/content/images/2009/12/800px-Dice_in_DnD_session1.jpg)
+![dnd dice](/content/images/2009/12/800px-Dice_in_DnD_session1.jpg)
 
 1. Zipit Z2 w/crank – Kerry Snyder
 2. Fujitsu Touchpad Serial Terminal – Paul Masterson

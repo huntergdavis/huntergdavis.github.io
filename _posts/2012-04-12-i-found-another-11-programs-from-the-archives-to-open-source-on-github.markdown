@@ -2,6 +2,11 @@
 layout: post
 title: I found another 11 Programs from the Archives to Open Source on GitHub
 date: '2012-04-12 00:34:17'
+tags:
+- github
+- open-source
+- personal
+- programs-2
 ---
 
 

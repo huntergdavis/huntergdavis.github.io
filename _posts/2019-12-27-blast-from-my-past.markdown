@@ -3,6 +3,11 @@ layout: post
 title: A Quick (Grapher) Blast From My Past
 date: '2019-12-27 08:33:24'
 quickgrapher: true
+tags:
+- javascript
+- open-source
+- personal
+- programming
 ---
 
 
@@ -10,7 +15,7 @@ As I was setting up a new development machine this morning, I found myself trave
 
 I realized that I could easily update QuickGrapher to work within my jekyll gh-pages, and update it so the examples and embeds are working again after all these years.  In order to allow embedded graphs in my Jekyll blog posts I've added optional javascript include directives to my post template
 
-So, that's what I ended up doing this morning.  You can see an example of an embedded graph below, and play with the tool here: [Quick Grapher](http://www.hunterdavis.com/quickgrapher/)
+So, that's what I ended up doing this morning.  You can see an example of an embedded graph below, and play with the tool here: [Quick Grapher](/quickgrapher/)
 
 Want to embed graphs on your own site?  Check out the source code for this page :)
 

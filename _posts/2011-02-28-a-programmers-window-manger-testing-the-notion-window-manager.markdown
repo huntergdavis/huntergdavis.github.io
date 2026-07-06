@@ -15,7 +15,7 @@ tags:
 
 
 Following up on my previous post, NeonLicht suggested I try out the Ion window manager. Being a big fan of alternative window managers etc, I decided to give it a whirl. Turns out that the most current version of Ion, Ion3 has been branched and reborn as the [Notion window manager.](http://notion.sourceforge.net/) After some general use I’ve come to the conclusion that while it’s not for everyone, it’s a terrifically interesting and forward-facing implementation of a window manager. Also, providing you’re willing to compile the source from git (instructions after the jump), the setup for an ideal programmer’s desktop becomes rather simplified from my last post. Read on for all the detailed info.  
-[![](http://66.147.244.180/~hunterda/content/images/2011/02/2011-02-28-132358_1600x900_scrot1-300x168.png "Notion Desktop")](http://66.147.244.180/~hunterda/content/images/2011/02/2011-02-28-132358_1600x900_scrot1.png)  
+[![](/content/images/2011/02/2011-02-28-132358_1600x900_scrot1-300x168.png "Notion Desktop")](/content/images/2011/02/2011-02-28-132358_1600x900_scrot1.png)  
   
 **Compilation and Installation**  
  First you’ll want to checkout the project from git. Create a nice working directory, then execute a `git clone git://notion.git.sourceforge.net/gitroot/notion/notion<br></br>` in said directory. This will check out the Notion source code. This comes with a nice writeup on how to install. For other Ubuntu/Debian users, it basically boils down to a quick 4-step install.
@@ -26,7 +26,7 @@ Following up on my previous post, NeonLicht suggested I try out the Ion window m
 4. Create an Entry for GDM
 
 **Installing Prerequisites**  
- As per the instructions on the [Notion Wiki,](http://sourceforge.net/apps/mediawiki/notion/index.php?title=Development) you’re going to need to install and compile some prerequisites for Notion. If you’ve done this for Ion, you should be used to the process by now. First, install the prerequisite libraries from apt with `sudo apt-get install lua5.1 liblua5.1-0-dev libx11-dev libxext-dev libsm-dev gettext`
+ As per the instructions on the [Notion Wiki,](https://sourceforge.net/apps/mediawiki/notion/index.php?title=Development) you’re going to need to install and compile some prerequisites for Notion. If you’ve done this for Ion, you should be used to the process by now. First, install the prerequisite libraries from apt with `sudo apt-get install lua5.1 liblua5.1-0-dev libx11-dev libxext-dev libsm-dev gettext`
 
 Next, you’re going to need to pull the git libraries for libtu and libextl. In the same Notion project director you created above, execute the following 2 git checkout commands. `git clone git://notion.git.sourceforge.net/gitroot/notion/libtu`  
  and  

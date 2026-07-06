@@ -3,6 +3,14 @@ layout: post
 title: Building a completely automated, web/ssh/vnc controlled, home automation server
   from a clamshell ibook (with a faulty cd drive) and 10$ worth of elect
 date: '2007-12-19 16:33:24'
+tags:
+- hacking
+- linux
+- automation
+- ubuntu
+- repurposing
+- ssh
+- vnc
 ---
 
 
