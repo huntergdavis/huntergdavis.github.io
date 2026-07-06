@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Review: Super Mario 3D World (Wii U)'
-image: /content/images/2014/01/Super-Mario-3D-World-6.jpg
+image: http://www.hunterdavis.com/content/images/2014/01/super-mario-3d-world-6b.jpg
 date: '2014-01-13 03:59:49'
 tags:
 - games
@@ -46,7 +46,7 @@ You’ll continually find yourself with a huge smile on your face while you’re
 
 Best of all, you can play as the princess! It’ll bring you right back to Mario 2 and the fact that you’re not stuck chasing after a helpless princess in a castle is a positive step forward in storytelling in one of the most storied game franchises out there. And unlike Mario 2, you’re not in some alternate dream timeline and fighting Wart the toad. Oh no. I kicked Bowser’s ass whilst playing as Princess Peach. Just desserts, and ole bowser finally got a bit of comeuppance for the past 30 years of Princess stealing.
 
-[![Super-Mario-3D-World-6](/content/images/2014/01/Super-Mario-3D-World-6-300x168.jpg)](/content/images/2014/01/Super-Mario-3D-World-6.jpg)
+[![Super-Mario-3D-World-6](http://www.hunterdavis.com/content/images/2014/01/super-mario-3d-world-6b-300x168.jpg)](http://www.hunterdavis.com/content/images/2014/01/super-mario-3d-world-6b.jpg)
 
 While the premium price may be offputting to my usual readership, the truth is the Wii U finally has a stand-out argument for ownership in SM3DW. If you haven’t played Super Mario 3d World and are on the fence, get it now. The price is almost guaranteed not to drop in the next 6 years or so, and it’s going to become one of the seminal gaming experiences of our generation. I highly recommend playing it again and again alone and with friends, and I rate it a glowing 98/100. Glorious.
 
