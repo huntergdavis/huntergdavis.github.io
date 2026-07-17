@@ -10,6 +10,9 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.10.0"
 
+# Kramdown 2 keeps GitHub-Flavored Markdown support in a separate gem.
+gem "kramdown-parser-gfm"
+
 # ffi >=1.17 requires Ruby >= 3.0; pin for local dev on older Ruby.
 # GitHub Pages builds server-side, so this only affects local builds.
 gem "ffi", "~> 1.16.0"
