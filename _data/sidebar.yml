@@ -19,21 +19,21 @@ projects:
   - label: Physical Media
     url: https://hunterdavis.com/media/
     group: Tools
-  - label: Streak!
-    url: https://hunterdavis.com/streak/
+  - label: Dunking Sheep
+    url: https://github.com/huntergdavis/dunkingsheep
     group: Tools
   - label: Visualizer
     url: https://hunterdavis.com/visualizer/
     group: Tools
-  - label: People Grid
-    url: https://hunterdavis.com/peoplegrid/
+  - label: Dunking Bird
+    url: https://github.com/huntergdavis/dunkingbird
     group: Tools
   - label: My Solitaire Varient
     url: https://hunterdavis.com/solitaire/
     group: Games
-  - label: PsyRunner Game
-    url: https://hunterdavis.com/psyrunner/
+  - label: Johnny Castaway PS1
+    url: https://hunterdavis.com/johnny-castaway-ps1/
     group: Games
-  - label: AsteroidMiner
-    url: https://hunterdavis.com/asteroidminer/
+  - label: Zoomies
+    url: https://hunterdavis.com/zoomies/
     group: Games

@@ -28,3 +28,17 @@ Remember dunking bird?  I had made it multi-dunk able, but at the end of the day
 <img src="/content/images/2026/dunking-sheep-screenshot.png" alt="Dunking Sheep selecting a Herdr agent pane" width="640">
 
 - [Dunking Sheep](https://github.com/huntergdavis/dunkingsheep)
+
+## TUI Apps
+
+- [Physical Media Editor](https://github.com/huntergdavis/media)
+- [ortop](https://github.com/huntergdavis/openrouter-tui)
+- [Dunking Bird](https://github.com/huntergdavis/dunkingbird)
+- [JellyTerm](https://github.com/huntergdavis/jellyterm)
+- [Dunking Sheep](https://github.com/huntergdavis/dunkingsheep)
+
+## More Projects
+
+- [webtui](https://github.com/huntergdavis/webtui)
+- [setupkde](https://github.com/huntergdavis/setupkde)
+- [Scamper](https://github.com/huntergdavis/scamper-engine)
