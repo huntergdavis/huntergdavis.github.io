@@ -4,6 +4,8 @@ title: "Announcing Johnny Castaway PS1"
 date: '2026-07-05 10:00:00'
 image: "/content/images/2026/johnny1releasedps1.png"
 tags: [johnnycastaway, sierra, c, assembly, PS1, port]
+featured: true
+featured_group: johnny
 ---
 
 ## Introduction
