@@ -18,7 +18,7 @@ One week later and I've got three of my absolute favorites running quite well. T
 
 ## Blur (Steam appid 42640)
 
-<a href="/content/images/2026/switchdeck-steam-blur-1.png"><img src="/content/images/2026/switchdeck-steam-blur-1-small.webp" alt="View the full-size Blur gameplay screenshot showing cars colliding in a burst of power-up effects" width="640" height="360"></a>
+<a href="/content/images/2026/switchdeck-steam-blur-1.png"><img src="/content/images/2026/switchdeck-steam-blur-1-small.png" alt="View the full-size Blur gameplay screenshot showing cars colliding in a burst of power-up effects" width="640" height="360"></a>
 
 1. Replace `Blur.exe` with a no-CD / no-GFWL exe (the stock GFWL wrapper hangs under box64).
 2. Launch via Proton — the no-CD exe has no Steamworks DRM, so it can run without Steam.
@@ -46,9 +46,9 @@ One week later and I've got three of my absolute favorites running quite well. T
 ## Brütal Legend (Steam appid 225260)
 
 <div class="grid">
-  <div class="unit one-third"><a href="/content/images/2026/switchdeck-steam-brutal-legend-1.png"><img src="/content/images/2026/switchdeck-steam-brutal-legend-1-small.webp" alt="View the full-size Brütal Legend opening cutscene with Jack Black browsing records" width="320" height="180"></a></div>
-  <div class="unit one-third"><a href="/content/images/2026/switchdeck-steam-brutal-legend-2.png"><img src="/content/images/2026/switchdeck-steam-brutal-legend-2-small.webp" alt="View the full-size Brütal Legend title screen presented as a record sleeve" width="320" height="180"></a></div>
-  <div class="unit one-third"><a href="/content/images/2026/switchdeck-steam-brutal-legend-3.png"><img src="/content/images/2026/switchdeck-steam-brutal-legend-3-small.webp" alt="View the full-size Brütal Legend gameplay screenshot showing the Deuce driving through the metal landscape" width="320" height="180"></a></div>
+  <div class="unit one-third"><a href="/content/images/2026/switchdeck-steam-brutal-legend-1.png"><img src="/content/images/2026/switchdeck-steam-brutal-legend-1-small.png" alt="View the full-size Brütal Legend opening cutscene with Jack Black browsing records" width="320" height="180"></a></div>
+  <div class="unit one-third"><a href="/content/images/2026/switchdeck-steam-brutal-legend-2.png"><img src="/content/images/2026/switchdeck-steam-brutal-legend-2-small.png" alt="View the full-size Brütal Legend title screen presented as a record sleeve" width="320" height="180"></a></div>
+  <div class="unit one-third"><a href="/content/images/2026/switchdeck-steam-brutal-legend-3.png"><img src="/content/images/2026/switchdeck-steam-brutal-legend-3-small.png" alt="View the full-size Brütal Legend gameplay screenshot showing the Deuce driving through the metal landscape" width="320" height="180"></a></div>
 </div>
 
 1. Use **GE-Proton 10-34**. Runs through Steam (it uses Steamworks DRM, so Steam stays running).
@@ -59,12 +59,12 @@ One week later and I've got three of my absolute favorites running quite well. T
 ## Command & Conquer: Red Alert 3 (Steam appid 17480)
 
 <div class="grid">
-  <div class="unit half"><a href="/content/images/2026/ccra3-1.png"><img src="/content/images/2026/ccra3-1-small.webp" alt="View the full-size Command & Conquer: Red Alert 3 Soviet campaign briefing" width="480" height="270"></a></div>
-  <div class="unit half"><a href="/content/images/2026/ccra3-2.png"><img src="/content/images/2026/ccra3-2-small.webp" alt="View the full-size Command & Conquer: Red Alert 3 gameplay showing a unit moving beside a coastal road" width="480" height="270"></a></div>
+  <div class="unit half"><a href="/content/images/2026/ccra3-1.png"><img src="/content/images/2026/ccra3-1-small.png" alt="View the full-size Command & Conquer: Red Alert 3 Soviet campaign briefing" width="480" height="270"></a></div>
+  <div class="unit half"><a href="/content/images/2026/ccra3-2.png"><img src="/content/images/2026/ccra3-2-small.png" alt="View the full-size Command & Conquer: Red Alert 3 gameplay showing a unit moving beside a coastal road" width="480" height="270"></a></div>
 </div>
 
 This one just needed some time to bake.  After apply the above generic fixes, it still didn't seem like it was loading.  Turns out the first launch takes like 15 minutes for whatever reason, subsequent launches are in the 30 second range.  Finally I have Tim Curry properly on my Switch !! 
 
 ## One Gotcha for Controller Games:
 
-Switchroot's Joy-Con driver exposes the pad as an **X11 mouse + keyboard** on top of the real gamepad.  Native-gamepad games get double input (stick moves the cursor, buttons fire Escape and quit). It's below Steam and Wine, so Proton/Steam-Input tweaks don't affect it. Use `xinput float` to disable as noted above. 
+Switchroot's Joy-Con driver exposes the pad as an **X11 mouse + keyboard** on top of the real gamepad.  Native-gamepad games get double input (stick moves the cursor, buttons fire Escape and quit). Use `xinput float` to disable as noted above.
