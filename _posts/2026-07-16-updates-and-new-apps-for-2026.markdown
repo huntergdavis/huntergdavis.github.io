@@ -2,6 +2,7 @@
 layout: post
 title: "Updates and new apps for 2026"
 date: '2026-07-16 10:00:00'
+image: "/content/images/2026/johnny-castaway-web-player-screenshot.png"
 tags: [updates, apps, PS1, emulation, ai]
 ---
 
