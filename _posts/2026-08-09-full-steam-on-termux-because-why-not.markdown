@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Full ARM64 Steam on Unrooted Termux, Because Why Not?"
+title: "Full GPU Accelerated ARM64 Steam on Unrooted Termux, Because Why Not?"
 date: '2026-08-09 18:25:16'
 image: "/content/images/2026/steam-termux-superflight-running.png"
 tags: [termux, linux, steam, android]
@@ -20,3 +20,6 @@ So I fire up an agent, tell it to start monitoring syscalls, and I give it a sho
 Yes, I used a coding assistant LLM to perform rote tasks, generate code, and run tests overnight.  No, I don't think that means the code is poisoned by the well of AI. I just wanted to show that it was possible, and not far out of reach. I really do think Valve will release something like this but 100 times better on their own, eventually. In the meantime here's the code:
 
 [Steam ARM64 on Termux/X11](https://github.com/huntergdavis/steamclienttermux)
+
+
+Is this better than gamenative, winlator, gamehub, etc?  Probably not.  Is it easier to setup than those, definitely not.  Is it a step in the right direction though...? I think so. 
