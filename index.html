@@ -43,6 +43,10 @@ lastmod: 2014-07-07T16:57:30+05:30
 		{% assign _m = _w | plus: 224 | divided_by: 225 %}
 		<span aria-hidden="true">&middot;</span> ~{{ _m }} min read
 	</p>
+	{% assign latest_hero = latest.image | default: latest.featured_img %}
+	{% if latest_hero != blank %}
+	<img class="latest-dispatch-image" src="{{ latest_hero }}" width="600" height="400" decoding="async" fetchpriority="high" alt="" />
+	{% endif %}
 	{% assign _ex = latest.excerpt | strip_html | strip %}
 	{% if _ex.size < 80 %}{% assign _ex = latest.content | strip_html | strip | truncatewords: 50 %}{% endif %}
 	<p class="latest-dispatch-excerpt">{{ _ex }}</p>
