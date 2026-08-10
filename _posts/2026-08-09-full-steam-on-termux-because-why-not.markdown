@@ -2,6 +2,7 @@
 layout: post
 title: "Full Steam on Termux, Because Why Not?"
 date: '2026-08-09 18:25:16'
+image: "/content/images/2026/steam-termux-superflight-running.png"
 tags: [termux, linux, steam, android]
 ---
 
@@ -14,4 +15,8 @@ Then it hits me.  I've got a tablet that I use for programming while I'm on the 
 
 So I fire up an agent, tell it to start monitoring syscalls, and I give it a shot. One problem at a time.  This is missing, that is crashing. Before too long the steam interface comes up.  Then EA. Then some games. A little progress, but progress. A small proot patch, some launch scripts, nothing wacky. 
 
-Yes, I used a coding assistant LLM to perform rote tasks, generate code, and run tests overnight.  No, I don't think that means the code is poisoned by the well of AI. I just wanted to show that it was possible, and not far out of reach. I really do think Valve will release something like this but 100 times better on their own, eventually. In the meantime here's the code: 
+<a href="/content/images/2026/steam-termux-superflight-gameplay.png"><img src="/content/images/2026/steam-termux-superflight-gameplay-small.png" alt="View the full-size Superflight game running through Steam on Termux" width="640" height="363"></a>
+
+Yes, I used a coding assistant LLM to perform rote tasks, generate code, and run tests overnight.  No, I don't think that means the code is poisoned by the well of AI. I just wanted to show that it was possible, and not far out of reach. I really do think Valve will release something like this but 100 times better on their own, eventually. In the meantime here's the code:
+
+[Steam ARM64 on Termux/X11](https://github.com/huntergdavis/steamclienttermux)
