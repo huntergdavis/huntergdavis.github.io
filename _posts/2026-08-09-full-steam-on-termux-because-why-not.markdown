@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Full Steam on Termux, Because Why Not?"
+title: "Full ARM64 Steam on Unrooted Termux, Because Why Not?"
 date: '2026-08-09 18:25:16'
 image: "/content/images/2026/steam-termux-superflight-running.png"
 tags: [termux, linux, steam, android]
@@ -11,7 +11,7 @@ I've been having so much fun running full steam games on my switch lite! Just th
 
 Here's how it came together. Obviously I've been enjoying how easy it's become to run steam games on the switch lite. Gamehub and GameNative and Winlator are all great pieces of software, but I'm never goign to really feel comfortable putting my steam auth information into a 3rd party tool. There will always be some spectre of doubt and the fear that my account could somehow be compromised. So the desire is there, latent, waiting for the situation. 
 
-Then it hits me.  I've got a tablet that I use for programming while I'm on the road.  It's got 5g internet built in, and I got a sweet deal on a payment plan from T-Mobile.  Cheap and quite powerful. I have Termux installed with Termux-X11 and graphics acceleration working. I run herdr, coding harnesses, compilers, a full KDE desktop (sans root). It works better than you'd expect, franky most folks would think I'm just running a kde distro on a small tablet computer, if not for the T-Mobile chime on boot. Why then, should I have to swap out to some third party to play my steam games? 
+Then it hits me.  I've got a tablet that I use for programming while I'm on the road.  It's got 5g internet built in, and I got a sweet deal on a payment plan from T-Mobile.  Cheap and quite powerful. I have Termux installed with Termux-X11 and graphics acceleration working. I run herdr, coding harnesses, compilers, a full KDE desktop (sans root). It works better than you'd expect, franky most folks would think I'm just running a kde distro on a small tablet computer, if not for the T-Mobile chime on boot. Why then, should I have to swap out to some third party to play my steam games? ARM64 Steam should work (tldr; it does)
 
 So I fire up an agent, tell it to start monitoring syscalls, and I give it a shot. One problem at a time.  This is missing, that is crashing. Before too long the steam interface comes up.  Then EA. Then some games. A little progress, but progress. A small proot patch, some launch scripts, nothing wacky. 
 
