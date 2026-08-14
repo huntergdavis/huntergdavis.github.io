@@ -7,7 +7,7 @@ tags: [termux, linux, steam, android]
 ---
 
 
-I've been having so much fun running full steam games on my switch lite! Just this weekend I got Psychnauts running well (with no overclocks!) These can be good times even if they are complicated times. Sometimes, you just need to know something is possible before it becomes easy for everyone. That's what I'm hoping for here.  I've got a proof of concept that's working well enough to share, but I'm sure it could be much better done in a bespoke manner by a developer with more time. Full graphics-accelerated steam and steam games, inside a termux linux session , running on an unrooted stock galaxy s9+ tablet. 
+I've been having so much fun running full steam games on my switch lite! Just this weekend I got Psychnauts running well (with no overclocks!) These can be good times even if they are complicated times. Sometimes, you just need to know something is possible before it becomes easy for everyone. That's what I'm hoping for here.  I've got a proof of concept that's working well enough to share, but I'm sure it could be much better done in a bespoke manner by a developer with more time. Full graphics-accelerated steam and steam games, inside a termux linux session , running on an unrooted stock Galaxy Tab S8+ (SM-X808U, Snapdragon 8 Gen 1 / Adreno 730).
 
 Here's how it came together. Obviously I've been enjoying how easy it's become to run steam games on the switch lite. Gamehub and GameNative and Winlator are all great pieces of software, but I'm never going to really feel comfortable putting my steam auth information into a 3rd party tool. There will always be some spectre of doubt and the fear that my account could somehow be compromised. So the desire is there, latent, waiting for the situation. 
 
