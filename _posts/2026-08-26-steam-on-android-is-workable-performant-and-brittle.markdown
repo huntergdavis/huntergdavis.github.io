@@ -100,7 +100,7 @@ The official Termux:X11 project publishes a [`sharedUid` build specifically to a
 
 <figure>
   <a href="/content/images/2026/tombraider-shared-uid-benchmark.webp"><img src="/content/images/2026/tombraider-shared-uid-benchmark-small.webp" alt="Tomb Raider benchmark result showing 17.4 minimum, 36.3 maximum, and 28.5 average FPS" width="800" height="450"></a>
-  <figcaption>The captured shared-UID result: 17.4 minimum, 36.3 maximum, and 28.5 average FPS. The 5.4 FPS standalone result was observed but not screenshot-captured.</figcaption>
+  <figcaption>The captured shared-UID result: 17.4 minimum, 36.3 maximum, and 28.5 average FPS.</figcaption>
 </figure>
 
 Processor affinity accounted for a 6x slowdown. Same game. Same settings.
