@@ -64,7 +64,7 @@ That is fine for a shell command. It is much less fine when Steam scans thousand
 
 ## The glibc Wrapper
 
-The [metadata benchmark](https://github.com/huntergdavis/steamclienttermux/blob/main/docs/PERFORMANCE.md) gave me the next target. This was a comparative test, and when compared with native runtime behavior, enumerating the same 5,601 Proton files took 0.129 seconds natively and 4.231 seconds through the production PRoot path. Multiply this by every system and cold boots Ire taking 20x longer than they should due to Proot overhead.
+The [metadata benchmark](https://github.com/huntergdavis/steamclienttermux/blob/main/docs/PERFORMANCE.md) gave me the next target. This was a comparative test, and when compared with native runtime behavior, enumerating the same 5,601 Proton files took 0.129 seconds natively and 4.231 seconds through the production PRoot path. Multiply this by every system and cold boots We're taking 20x longer than they should due to Proot overhead.
 
 I tried the simplest optimizations first. Removing unnecessary PRoot extensions cut the test to about 2.10 seconds. A guarded fast path for a narrow class of `fstatat` calls reached about 1.76 seconds. That was a useful 2.4x improvement over the original route, but it was still about 14x slower than native filesystem access.
 
@@ -75,7 +75,7 @@ Files, sockets, futexes, graphics, and ordinary process execution stay on native
 Then came the small, annoying edges which make up a real compatibility layer:
 
 - an execution shim wraps AArch64 Linux children with the selected glibc loader without copying or patching them;
-- exact `/bin/sh` and `/usr/bin/sh` redirection prevents Steam from accidentally executing Android's Bionic shell as if it Ire a glibc ELF;
+- exact `/bin/sh` and `/usr/bin/sh` redirection prevents Steam from accidentally executing Android's Bionic shell as if it were a glibc ELF;
 - read-only `/proc/net` and `/proc/stat` shadows restore the bits Wine and CPU-topology detection need;
 - Android's fatal `SIGSYS` for `userfaultfd` is normalized to the `ENOSYS` failure Proton already understands;
 - removable-storage `flock` failures can fall back to record locks for the measured single-client Steam path; and
