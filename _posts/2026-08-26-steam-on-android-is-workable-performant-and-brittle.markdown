@@ -11,7 +11,7 @@ A few weeks ago I wrote about getting the [full ARM64 Steam client running on an
 
 The good news is that Steam on Android is absolutely workable. It can also be surprisingly performant. The bad news is that the whole stack sits on pillars of sand, slight mismatches between expectations and abilities. Linux versus Android. glibc versus Bionic. One Android UID versus another. Internal F2FS versus an exFAT SD card behind Android's FUSE layer. X11 versus an Android `Surface`. A native ARM64 Steam client versus x86 Windows games. Every one of those boundaries can work, often on a per-game basis, then a new game changes expectations and the whole thing becomes brittle again.
 
-This is what I had to do to make it work Ill, and why I now recommend [GameNative](https://github.com/utkarshdalal/GameNative) for almost everyone who just wants to play games.
+This is what I had to do to make it work well, and why I now recommend [GameNative](https://github.com/utkarshdalal/GameNative) for almost everyone who just wants to play games.
 
 ## The Stack That Worked
 
