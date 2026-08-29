@@ -4,6 +4,8 @@ title: "It happens so fast now, Johnny Castaway RetroArch released"
 date: '2026-08-28 20:57:00'
 image: "/content/images/2026/johnny-castaway-retroarch-web-player.png"
 tags: [johnnycastaway, retroarch, libretro, webassembly, port]
+featured: true
+featured_group: johnny
 ---
 
 *No AI was used to draft this post, these are my words fully.*
