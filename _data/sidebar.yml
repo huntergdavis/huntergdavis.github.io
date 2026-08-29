@@ -34,6 +34,18 @@ projects:
   - label: Johnny Castaway PS1
     url: https://hunterdavis.com/johnny-castaway-ps1/
     group: Games
+  - label: Johnny Castaway RetroArch
+    url: https://hunterdavis.com/johnny-castaway-retroarch/
+    group: Games
   - label: Zoomies
     url: https://hunterdavis.com/zoomies/
+    group: Games
+  - label: PsyRunner
+    url: https://hunterdavis.com/psyrunner/
+    group: Games
+  - label: Asteroid Miner
+    url: https://hunterdavis.com/asteroidminer/
+    group: Games
+  - label: The Grind 2
+    url: https://hunterdavis.com/the-grind-2/
     group: Games
