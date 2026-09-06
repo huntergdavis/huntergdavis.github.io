@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Generate /favicon.png — PNG fallback that matches the inline SVG
-favicon defined in `_layouts/default.html`.
+"""Generate the root favicon assets that match the inline SVG favicon
+defined in `_layouts/default.html`.
 
 Renders a 256x256 brand-blue rounded tile with a white bold "H".
-Same visual identity as the SVG favicon; serves as fallback for
-browsers that don't support inline SVG `<link rel=icon>`.
+Same visual identity as the SVG favicon. The PNG serves as the explicit
+fallback for the main site, while the ICO handles browsers' implicit
+`/favicon.ico` request on standalone subprojects.
 
-Run once after restyling; commit the regenerated PNG.
+Run once after restyling; commit the regenerated assets.
 
 Usage:
     python3 script/generate_favicon_png.py
@@ -23,6 +24,7 @@ except ModuleNotFoundError:
 
 REPO = Path(__file__).resolve().parents[1]
 OUT = REPO / "favicon.png"
+ICO_OUT = REPO / "favicon.ico"
 APPLE_OUT = REPO / "apple-touch-icon.png"
 
 SIZE = 256
@@ -73,6 +75,13 @@ def render(size: int, radius: int, font_size: int, out_path: Path) -> None:
 
 def main() -> int:
     render(SIZE, RADIUS, 190, OUT)
+    with Image.open(OUT) as img:
+        img.save(
+            ICO_OUT,
+            format="ICO",
+            sizes=[(16, 16), (32, 32), (48, 48), (64, 64), (128, 128), (256, 256)],
+        )
+    print(f"Wrote {ICO_OUT.relative_to(REPO)} (16x16 through 256x256)")
     # Apple touch icon — 180x180 is iOS Safari's preferred size, no
     # rounded corners (iOS automatically masks; supplying our own
     # corners produces double-rounded ugliness).
