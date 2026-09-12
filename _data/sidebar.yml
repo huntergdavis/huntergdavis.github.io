@@ -28,14 +28,8 @@ projects:
   - label: Dunking Bird
     url: https://github.com/huntergdavis/dunkingbird
     group: Tools
-  - label: My Solitaire Varient
-    url: https://hunterdavis.com/solitaire/
-    group: Games
   - label: Johnny Castaway PS1
     url: https://hunterdavis.com/johnny-castaway-ps1/
-    group: Games
-  - label: Johnny Castaway RetroArch
-    url: https://hunterdavis.com/johnny-castaway-retroarch/
     group: Games
   - label: Zoomies
     url: https://hunterdavis.com/zoomies/
