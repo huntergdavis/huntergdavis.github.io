@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adding Modern Features to Pools of Radiance Mac Classic (1989)"
+title: "Adding Modern Features to Pool of Radiance Mac Classic (1989)"
 date: '2026-09-15 12:00:00'
 image: "/content/images/2026/poolrad-phlan-party-sidebar.png"
 tags: [games, emulation, android, mac, retro, eink, open-source, reverse-engineering]
