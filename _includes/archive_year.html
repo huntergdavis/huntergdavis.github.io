@@ -1,0 +1,39 @@
+{%- comment -%}
+Renders one year's archive from site.posts, so a live year cannot go stale the
+way a hand-written list does. Pass the year: {% include archive_year.html year=page.year %}
+{%- endcomment -%}
+{%- comment -%} where_exp cannot contain a filter pipe, so group and pick. {%- endcomment -%}
+{%- assign by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" -%}
+{%- assign year_posts = "" | split: "" -%}
+{%- for yr in by_year -%}{%- if yr.name == include.year -%}{%- assign year_posts = yr.items -%}{%- endif -%}{%- endfor -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ page.title | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.name | jsonify }},
+    "url": {{ '/' | absolute_url | jsonify }}
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ year_posts.size }},
+    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+    "itemListElement": [{% for post in year_posts %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "url": {{ post.url | absolute_url | jsonify }},
+        "name": {{ post.title | jsonify }}
+      }{% unless forloop.last %},{% endunless %}{% endfor %}
+    ]
+  }
+}
+</script>
+
+<p class="archive-summary">{{ year_posts.size }} post{% unless year_posts.size == 1 %}s{% endunless %} from {{ include.year }}.</p>
+
+{% for post in year_posts %}- {{ post.date | date: "%m-%d" }} — [{{ post.title | escape }}]({{ post.url }})
+{% endfor %}
