@@ -7,7 +7,13 @@ tags: [games, emulation, android, mac, retro, eink, open-source, reverse-enginee
 project: poolrad-macmaps
 ---
 
-TODO: intro
+We are living in a tempest of a time, and my mind seeks the familiar. I picked up an 8" android eink tablet, and was pretty surprised at the lack of really good game experiences built for it's black and white display. So I did what anyone who grew up in the 80s would do, I installed mini-VMac emulator and fired up "Pool of Radiance"
+
+It's brilliant, punishing, and an absolute relic of game design long past.  No map, journaling, item/weapons/armor stat lists, spell lists, levels, etc. Lots of manual lookup, with the expectation that you have graph paper handy, along with three chunky books and a code wheel. 
+
+I 
+
+
 
 <img src="/content/images/2026/poolrad-phlan-party-sidebar.png" alt="Live New Phlan map with party health bars, armor class and class symbols while Rolf welcomes the party in the original Mac game" width="900">
 
@@ -15,17 +21,23 @@ TODO: intro
 
 TODO
 
-<img src="/content/images/2026/poolrad-phlan-party-health.png" alt="The companion map above the original Mac game, with party names, hit point bars and armor class" width="900">
+<img src="/content/images/2026/poolrad-phlan-temple-tour.png" alt="The live map tracking the party to the Temple of Tyr, with the original game's own temple artwork below it" width="900">
 
 ## Handwritten Notes on the Map
 
 TODO
+
+<img src="/content/images/2026/poolrad-handwritten-note.png" alt="A handwritten note page with TYR sketched by hand, saved against a tile on the New Phlan map" width="900">
 
 <img src="/content/images/2026/poolrad-compact-flag-note.png" alt="A handwritten flag page with compact title-row tools and twice the sketch height; the original game remains visible below" width="900">
 
 ## Reading the Game's Own Memory
 
 TODO
+
+<img src="/content/images/2026/poolrad-combat-overview.png" alt="A read-only tactical overview of a battle, party marks filled and the rest hollow, above the game's own combat view" width="900">
+
+<img src="/content/images/2026/poolrad-journal-encountered.png" alt="The notebook's encountered list filling itself in with a tavern tale and a proclamation the game named out loud" width="900">
 
 ## Offline Reference Tools
 
@@ -37,6 +49,16 @@ TODO
 
 TODO
 
+<img src="/content/images/2026/poolrad-eink-proclamations.png" alt="Captured on the e-ink tablet: the map filled in after a long walk, with the game posting its proclamations below" width="900">
+
+<img src="/content/images/2026/poolrad-eink-tavern-tale.png" alt="Captured on the e-ink tablet: a tavern tale overheard across town, with the explored map above it" width="900">
+
 ## Getting It
 
 TODO
+
+<img src="/content/images/2026/poolrad-boot-bricks.png" alt="The rebuilt boot disk starting straight into the game over a brick desktop pattern" width="900">
+
+The source, the APK releases and all of the research notes are on GitHub:
+[huntergdavis/poolrad-macmaps](https://github.com/huntergdavis/poolrad-macmaps).
+
